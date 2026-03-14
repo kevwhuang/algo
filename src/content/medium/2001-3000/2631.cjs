@@ -1,4 +1,4 @@
-// 2631 - Group By
+// 2631. Group By
 
 Array.prototype.groupBy = function (fn) {
     const res = {};

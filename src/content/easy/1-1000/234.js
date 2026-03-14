@@ -1,4 +1,4 @@
-// 234 - Palindrome Linked List
+// 234. Palindrome Linked List
 
 function isPalindrome(head) {
     let slow = head, fast = head;

@@ -1,4 +1,4 @@
-// 469 - Convex Polygon
+// 469. Convex Polygon
 
 function isConvex(points) {
     points.push(points[0], points[1]);

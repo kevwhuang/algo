@@ -1,4 +1,4 @@
-// 1749 - Maximum Absolute Sum of Any Subarray
+// 1749. Maximum Absolute Sum of Any Subarray
 
 function maxAbsoluteSum(nums) {
     let min = Infinity, max = -Infinity, acc1 = 0, acc2 = 0, i = -1;

@@ -1,4 +1,4 @@
-// 2455 - Average Value of Even Numbers That Are Divisible by Three
+// 2455. Average Value of Even Numbers That Are Divisible by Three
 
 function averageValue(nums) {
     let sum = 0, count = 0;

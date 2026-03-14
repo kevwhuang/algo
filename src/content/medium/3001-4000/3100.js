@@ -1,4 +1,4 @@
-// 3100 - Water Bottles II
+// 3100. Water Bottles II
 
 function maxBottlesDrunk(numBottles, numExchange) {
     let bottles = 0, emptyBottles = 0;

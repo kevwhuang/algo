@@ -1,4 +1,4 @@
-// 3478 - Choose K Elements With Maximum Sum
+// 3478. Choose K Elements With Maximum Sum
 
 function findMaxSum(nums1, nums2, k) {
     const n = nums1.length;

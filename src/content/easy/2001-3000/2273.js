@@ -1,4 +1,4 @@
-// 2273 - Find Resultant Array After Removing Anagrams
+// 2273. Find Resultant Array After Removing Anagrams
 
 function removeAnagrams(words) {
     const res = [];

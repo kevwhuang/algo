@@ -1,4 +1,4 @@
-// 3152 - Special Array II
+// 3152. Special Array II
 
 function isArraySpecial(nums, queries) {
     nums[0] &= 1;

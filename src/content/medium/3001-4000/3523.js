@@ -1,4 +1,4 @@
-// 3523 - Make Array Non-Decreasing
+// 3523. Make Array Non-Decreasing
 
 function maximumPossibleSize(nums) {
     let res = 0, max = 0, i = -1;

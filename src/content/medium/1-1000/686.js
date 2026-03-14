@@ -1,4 +1,4 @@
-// 686 - Repeated String Match
+// 686. Repeated String Match
 
 function repeatedStringMatch(a, b) {
     const repeats = Math.ceil(b.length / a.length);

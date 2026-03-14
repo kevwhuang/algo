@@ -1,4 +1,4 @@
-// 959 - Regions Cut by Slashes
+// 959. Regions Cut by Slashes
 
 function regionsBySlashes(grid) {
     function dfs(r, c) {

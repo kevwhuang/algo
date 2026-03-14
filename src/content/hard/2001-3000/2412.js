@@ -1,4 +1,4 @@
-// 2412 - Minimum Money Required Before Transactions
+// 2412. Minimum Money Required Before Transactions
 
 function minimumMoney(transactions) {
     let res = 0, max = 0, i = -1;

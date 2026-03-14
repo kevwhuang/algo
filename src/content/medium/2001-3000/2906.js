@@ -1,4 +1,4 @@
-// 2906 - Construct Product Matrix
+// 2906. Construct Product Matrix
 
 function constructProductMatrix(grid) {
     const m = grid.length, n = grid[0].length;

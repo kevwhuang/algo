@@ -1,4 +1,4 @@
-// 1065 - Index Pairs of a String
+// 1065. Index Pairs of a String
 
 function indexPairs(text, words) {
     const pairs = [];

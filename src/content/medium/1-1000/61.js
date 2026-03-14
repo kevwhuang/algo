@@ -1,4 +1,4 @@
-// 61 - Rotate List
+// 61. Rotate List
 
 function rotateRight(head, k) {
     if (!head) return head;

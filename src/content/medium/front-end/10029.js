@@ -1,4 +1,4 @@
-// 10029 - Get Next Right Sibling
+// 10029. Get Next Right Sibling
 
 export function getNextRightSibling(targetNode) {
     if (!targetNode) return null;

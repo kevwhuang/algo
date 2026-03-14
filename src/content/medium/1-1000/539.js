@@ -1,4 +1,4 @@
-// 539 - Minimum Time Difference
+// 539. Minimum Time Difference
 
 function findMinDifference(timePoints) {
     const calc = (t1, t2) => Math.min(t2 - t1, 1440 + t1 - t2);

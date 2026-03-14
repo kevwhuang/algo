@@ -1,4 +1,4 @@
-// 3434 - Maximum Frequency After Subarray Operation
+// 3434. Maximum Frequency After Subarray Operation
 
 function maxFrequency(nums, k) {
     let res = 0, acc = 0, i = -1;

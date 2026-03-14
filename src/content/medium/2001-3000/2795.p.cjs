@@ -1,4 +1,4 @@
-// 2795 - Parallel Execution of Promises for Individual Results Retrieval
+// 2795. Parallel Execution of Promises for Individual Results Retrieval
 
 function promiseAllSettled(functions) {
     const arr = new Array(functions.length);

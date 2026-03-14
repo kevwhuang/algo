@@ -1,4 +1,4 @@
-// 1111 - Maximum Nesting Depth of Two Valid Parentheses Strings
+// 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
 
 function maxDepthAfterSplit(seq) {
     const res = new Array(seq.length);

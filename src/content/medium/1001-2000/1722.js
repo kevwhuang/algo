@@ -1,4 +1,4 @@
-// 1722 - Minimize Hamming Distance After Swap Operations
+// 1722. Minimize Hamming Distance After Swap Operations
 
 function minimumHammingDistance(source, target, allowedSwaps) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

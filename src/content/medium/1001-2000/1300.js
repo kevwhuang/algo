@@ -1,4 +1,4 @@
-// 1300 - Sum of Mutated Array Closest to Target
+// 1300. Sum of Mutated Array Closest to Target
 
 function findBestValue(arr, target) {
     let res = 0, min = Infinity, l = 0, r = Math.max(...arr);

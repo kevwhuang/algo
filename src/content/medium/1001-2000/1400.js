@@ -1,4 +1,4 @@
-// 1400 - Construct K Palindrome Strings
+// 1400. Construct K Palindrome Strings
 
 function canConstruct(s, k) {
     if (s.length < k) return false;

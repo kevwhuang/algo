@@ -1,3 +1,3 @@
-// 2344 - Minimum Deletions to Make Array Divisible
+// 2344. Minimum Deletions to Make Array Divisible
 
 

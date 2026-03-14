@@ -1,4 +1,4 @@
-// 3527 - Find the Most Common Response
+// 3527. Find the Most Common Response
 
 function findCommonResponse(responses) {
     const map = new Map();

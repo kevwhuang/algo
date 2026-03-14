@@ -1,4 +1,4 @@
-// 3460 - Longest Common Prefix After at Most One Removal
+// 3460. Longest Common Prefix After at Most One Removal
 
 function longestCommonPrefix(s, t) {
     let flag, i = 0, j = 0;

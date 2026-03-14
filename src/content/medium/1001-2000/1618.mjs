@@ -1,4 +1,4 @@
-// 1618 - Maximum Font to Fit a Sentence in a Screen
+// 1618. Maximum Font to Fit a Sentence in a Screen
 
 function maxFont(text, w, h, fonts, fontInfo) {
     function isValid(font) {

@@ -1,4 +1,4 @@
-// 1540 - Can Convert String in K Moves
+// 1540. Can Convert String in K Moves
 
 function canConvertString(s, t, k) {
     if (s.length !== t.length) return false;

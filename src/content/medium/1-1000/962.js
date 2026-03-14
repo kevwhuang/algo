@@ -1,4 +1,4 @@
-// 962 - Maximum Width Ramp
+// 962. Maximum Width Ramp
 
 function maxWidthRamp(nums) {
     let max = 0;

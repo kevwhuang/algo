@@ -1,4 +1,4 @@
-// 1788 - Maximize the Beauty of the Garden
+// 1788. Maximize the Beauty of the Garden
 
 function maximumBeauty(flowers) {
     let res = -Infinity;

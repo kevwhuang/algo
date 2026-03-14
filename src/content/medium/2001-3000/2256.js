@@ -1,4 +1,4 @@
-// 2256 - Minimum Average Difference
+// 2256. Minimum Average Difference
 
 function minimumAverageDifference(nums) {
     let idx, min = Infinity;

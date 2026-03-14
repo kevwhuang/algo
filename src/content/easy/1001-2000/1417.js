@@ -1,4 +1,4 @@
-// 1417 - Reformat the String
+// 1417. Reformat the String
 
 function reformat(s) {
     let arr1 = [], arr2 = [];

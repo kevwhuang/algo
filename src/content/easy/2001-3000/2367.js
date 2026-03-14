@@ -1,4 +1,4 @@
-// 2367 - Number of Arithmetic Triplets
+// 2367. Number of Arithmetic Triplets
 
 function arithmeticTriplets(nums, diff) {
     let count = 0;

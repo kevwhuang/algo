@@ -1,4 +1,4 @@
-// 2146 - K Highest Ranked Items Within a Price Range
+// 2146. K Highest Ranked Items Within a Price Range
 
 function highestRankedKItems(grid, pricing, start, k) {
     function comparator(a, b) {

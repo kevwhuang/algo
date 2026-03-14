@@ -1,4 +1,4 @@
-// 11 - Container With Most Water
+// 11. Container With Most Water
 
 function maxArea(height) {
     let res = 0, l = 0, r = height.length - 1;

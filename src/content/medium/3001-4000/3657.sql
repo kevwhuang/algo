@@ -1,4 +1,4 @@
--- 3657 - Find Loyal Customers
+-- 3657. Find Loyal Customers
 
 SELECT
     customer_id

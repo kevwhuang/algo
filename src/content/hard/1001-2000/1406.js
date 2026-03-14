@@ -1,3 +1,3 @@
-// 1406 - Stone Game III
+// 1406. Stone Game III
 
 

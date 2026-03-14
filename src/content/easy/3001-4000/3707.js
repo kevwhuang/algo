@@ -1,4 +1,4 @@
-// 3707 - Equal Score Substrings
+// 3707. Equal Score Substrings
 
 function scoreBalance(s) {
     let right = 0;

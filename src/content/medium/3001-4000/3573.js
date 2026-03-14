@@ -1,4 +1,4 @@
-// 3573 - Best Time to Buy and Sell Stock V
+// 3573. Best Time to Buy and Sell Stock V
 
 function maximumProfit(prices, k) {
     if (!this.dp) dp = new Array(1000);

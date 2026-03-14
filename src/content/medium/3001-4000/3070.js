@@ -1,4 +1,4 @@
-// 3070 - Count Submatrices With Top-Left Element and Sum Less Than K
+// 3070. Count Submatrices With Top-Left Element and Sum Less Than K
 
 function countSubmatrices(grid, k) {
     let submatrices = 0, rowSum = 0;

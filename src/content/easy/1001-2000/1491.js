@@ -1,4 +1,4 @@
-// 1491 - Average Salary Excluding the Minimum and Maximum Salary
+// 1491. Average Salary Excluding the Minimum and Maximum Salary
 
 function average(salary) {
     let sum = 0, min = Infinity, max = -Infinity;

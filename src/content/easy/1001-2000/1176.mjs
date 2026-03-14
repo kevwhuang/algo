@@ -1,4 +1,4 @@
-// 1176 - Diet Plan Performance
+// 1176. Diet Plan Performance
 
 function dietPlanPerformance(calories, k, lower, upper) {
     let acc = 0;

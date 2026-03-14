@@ -1,4 +1,4 @@
-// 2244 - Minimum Rounds to Complete All Tasks
+// 2244. Minimum Rounds to Complete All Tasks
 
 function minimumRounds(tasks) {
     const map = new Map();

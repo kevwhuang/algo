@@ -1,4 +1,4 @@
-// 1024 - Video Stitching
+// 1024. Video Stitching
 
 function videoStitching(clips, time) {
     let count = 0, cur = 0;

@@ -1,3 +1,3 @@
-// 2565 - Subsequence With the Minimum Score
+// 2565. Subsequence With the Minimum Score
 
 

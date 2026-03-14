@@ -1,4 +1,4 @@
-// 3484 - Design Spreadsheet
+// 3484. Design Spreadsheet
 
 class Spreadsheet {
     constructor(rows) {

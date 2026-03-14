@@ -1,4 +1,4 @@
--- 511 - Game Play Analysis I
+-- 511. Game Play Analysis I
 
 SELECT
     player_id,

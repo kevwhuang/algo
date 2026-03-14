@@ -1,4 +1,4 @@
-// 3411 - Maximum Subarray With Equal Products
+// 3411. Maximum Subarray With Equal Products
 
 function maxLength(nums) {
     const lcm = (a, b) => a * b / gcd(a, b);

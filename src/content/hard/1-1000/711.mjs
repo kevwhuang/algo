@@ -1,4 +1,4 @@
-// 711 - Number of Distinct Islands II
+// 711. Number of Distinct Islands II
 
 function numDistinctIslands2(grid) {
     function dfs(r, c) {

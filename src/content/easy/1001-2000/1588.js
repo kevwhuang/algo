@@ -1,4 +1,4 @@
-// 1588 - Sum of All Odd Length Subarrays
+// 1588. Sum of All Odd Length Subarrays
 
 function sumOddLengthSubarrays(arr) {
     let sum = 0, size = 1;

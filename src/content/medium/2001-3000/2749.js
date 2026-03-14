@@ -1,4 +1,4 @@
-// 2749 - Minimum Operations to Make the Integer Zero
+// 2749. Minimum Operations to Make the Integer Zero
 
 function makeTheIntegerZero(num1, num2) {
     for (let n = 0; n <= 60; n++) {

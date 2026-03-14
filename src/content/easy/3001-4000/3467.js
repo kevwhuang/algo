@@ -1,4 +1,4 @@
-// 3467 - Transform Array by Parity
+// 3467. Transform Array by Parity
 
 function transformArray(nums) {
     let acc = 0, i = nums.length - 1;

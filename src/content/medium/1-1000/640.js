@@ -1,4 +1,4 @@
-// 640 - Solve the Equation
+// 640. Solve the Equation
 
 function solveEquation(equation) {
     function replacer(match) {

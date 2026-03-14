@@ -1,4 +1,4 @@
-// 698 - Partition to K Equal Sum Subsets
+// 698. Partition to K Equal Sum Subsets
 
 function canPartitionKSubsets(nums, k) {
     function backtrack(i, acc, subsets) {

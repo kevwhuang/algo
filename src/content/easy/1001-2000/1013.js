@@ -1,4 +1,4 @@
-// 1013 - Partition Array Into Three Parts With Equal Sum
+// 1013. Partition Array Into Three Parts With Equal Sum
 
 function canThreePartsEqualSum(arr) {
     const tgt = arr.reduce((s, e) => s + e) / 3;

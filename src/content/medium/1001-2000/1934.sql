@@ -1,4 +1,4 @@
--- 1934 - Confirmation Rate
+-- 1934. Confirmation Rate
 
 WITH CTE AS (
     SELECT

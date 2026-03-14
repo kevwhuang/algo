@@ -1,4 +1,4 @@
-// 1854 - Maximum Population Year
+// 1854. Maximum Population Year
 
 function maximumPopulation(logs) {
     const B = new Uint8Array(101);

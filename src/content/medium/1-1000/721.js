@@ -1,4 +1,4 @@
-// 721 - Accounts Merge
+// 721. Accounts Merge
 
 function accountsMerge(accounts) {
     const union = (v1, v2) => uf[find(v1)] = find(v2);

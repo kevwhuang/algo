@@ -1,4 +1,4 @@
-// 3692 - Majority Frequency Characters
+// 3692. Majority Frequency Characters
 
 function majorityFrequencyGroup(s) {
     const B1 = new Uint8Array(26);

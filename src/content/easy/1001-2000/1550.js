@@ -1,4 +1,4 @@
-// 1550 - Three Consecutive Odds
+// 1550. Three Consecutive Odds
 
 function threeConsecutiveOdds(arr) {
     for (let i = 2; i < arr.length; i++) {

@@ -1,3 +1,3 @@
-// 3441 - Minimum Cost Good Caption
+// 3441. Minimum Cost Good Caption
 
 

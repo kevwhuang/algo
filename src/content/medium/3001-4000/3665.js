@@ -1,4 +1,4 @@
-// 3665 - Twisted Mirror Path Count
+// 3665. Twisted Mirror Path Count
 
 function uniquePaths(grid) {
     const m = grid.length, n = grid[0].length;

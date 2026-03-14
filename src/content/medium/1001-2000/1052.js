@@ -1,4 +1,4 @@
-// 1052 - Grumpy Bookstore Owner
+// 1052. Grumpy Bookstore Owner
 
 function maxSatisfied(customers, grumpy, minutes) {
     let satisfied = 0;

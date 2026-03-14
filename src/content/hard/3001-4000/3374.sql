@@ -1,4 +1,4 @@
--- 3374 - First Letter Capitalization II
+-- 3374. First Letter Capitalization II
 
 WITH RECURSIVE CTE1 AS (
     SELECT

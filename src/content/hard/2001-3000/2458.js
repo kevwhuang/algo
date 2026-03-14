@@ -1,4 +1,4 @@
-// 2458 - Height of Binary Tree After Subtree Removal Queries
+// 2458. Height of Binary Tree After Subtree Removal Queries
 
 function treeQueries(root, queries) {
     function dfs(node) {

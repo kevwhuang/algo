@@ -1,4 +1,4 @@
-// 537 - Complex Number Multiplication
+// 537. Complex Number Multiplication
 
 function complexNumberMultiply(num1, num2) {
     const [r1, i1] = num1.slice(0, -1).split('+');

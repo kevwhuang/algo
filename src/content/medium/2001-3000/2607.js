@@ -1,4 +1,4 @@
-// 2607 - Make K-Subarray Sums Equal
+// 2607. Make K-Subarray Sums Equal
 
 function makeSubKSumEqual(arr, k) {
     let ops = 0;

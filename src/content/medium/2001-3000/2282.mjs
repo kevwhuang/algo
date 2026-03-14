@@ -1,4 +1,4 @@
-// 2282 - Number of People That Can Be Seen in a Grid
+// 2282. Number of People That Can Be Seen in a Grid
 
 function seePeople(heights) {
     function count(stack, r, c) {

@@ -1,4 +1,4 @@
-// 2171 - Removing Minimum Number of Magic Beans
+// 2171. Removing Minimum Number of Magic Beans
 
 function minimumRemoval(beans) {
     beans.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 2805 - Custom Interval
+// 2805. Custom Interval
 
 function customInterval(fn, delay, period) {
     function lazy(acc) {

@@ -1,4 +1,4 @@
-// 1580 - Put Boxes Into the Warehouse II
+// 1580. Put Boxes Into the Warehouse II
 
 function maxBoxesInWarehouse(boxes, warehouse) {
     const m = boxes.length, n = warehouse.length;

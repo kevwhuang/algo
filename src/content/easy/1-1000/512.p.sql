@@ -1,4 +1,4 @@
--- 512 - Game Play Analysis II
+-- 512. Game Play Analysis II
 
 SELECT
     player_id,

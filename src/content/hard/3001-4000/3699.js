@@ -1,4 +1,4 @@
-// 3699 - Number of Zigzag Arrays I
+// 3699. Number of Zigzag Arrays I
 
 function zigZagArrays(n, l, r) {
     const m = r - l, dp = new Uint32Array(m + 1).fill(1), mod = 1000000007;

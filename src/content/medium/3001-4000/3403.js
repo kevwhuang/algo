@@ -1,4 +1,4 @@
-// 3403 - Find the Lexicographically Largest String From the Box I
+// 3403. Find the Lexicographically Largest String From the Box I
 
 function answerString(word, numFriends) {
     if (numFriends === 1) return word;

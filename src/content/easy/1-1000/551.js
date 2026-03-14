@@ -1,4 +1,4 @@
-// 551 - Student Attendance Record I
+// 551. Student Attendance Record I
 
 function checkRecord(s) {
     let absent = false;

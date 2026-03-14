@@ -1,4 +1,4 @@
-// 1525 - Number of Good Ways to Split a String
+// 1525. Number of Good Ways to Split a String
 
 function numSplits(s) {
     const right = new Map();

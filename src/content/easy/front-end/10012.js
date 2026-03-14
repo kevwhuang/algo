@@ -1,4 +1,4 @@
-// 10012 - DOM Content Loaded
+// 10012. DOM Content Loaded
 
 export function onDomContentLoaded(callback) {
     if (document.readyState === 'complete') callback();

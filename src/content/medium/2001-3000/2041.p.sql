@@ -1,4 +1,4 @@
--- 2041 - Accepted Candidates From the Interviews
+-- 2041. Accepted Candidates From the Interviews
 
 SELECT
     candidate_id

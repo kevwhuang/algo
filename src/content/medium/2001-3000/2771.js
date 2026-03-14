@@ -1,4 +1,4 @@
-// 2771 - Longest Non-Decreasing Subarray From Two Arrays
+// 2771. Longest Non-Decreasing Subarray From Two Arrays
 
 function maxNonDecreasingLength(nums1, nums2) {
     let res = 1, a = 1, b = 1, i = 0;

@@ -1,4 +1,4 @@
-// 1647 - Minimum Deletions to Make Character Frequencies Unique
+// 1647. Minimum Deletions to Make Character Frequencies Unique
 
 function minDeletions(s) {
     const freqs = new Array(26).fill(0);

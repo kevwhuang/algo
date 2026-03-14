@@ -1,4 +1,4 @@
-// 1027 - Longest Arithmetic Subsequence
+// 1027. Longest Arithmetic Subsequence
 
 function longestArithSeqLength(nums) {
     let res = 0;

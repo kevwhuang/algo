@@ -1,4 +1,4 @@
-// 474 - Ones and Zeros
+// 474. Ones and Zeros
 
 function findMaxForm(strs, m, n) {
     const dp = Array.from({ length: m + 1 }, () => new Uint8Array(n + 1));

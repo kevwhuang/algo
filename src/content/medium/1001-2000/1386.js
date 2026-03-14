@@ -1,4 +1,4 @@
-// 1386 - Cinema Seat Allocation
+// 1386. Cinema Seat Allocation
 
 function maxNumberOfFamilies(n, reservedSeats) {
     const map = new Map();

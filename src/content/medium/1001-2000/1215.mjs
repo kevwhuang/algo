@@ -1,4 +1,4 @@
-// 1215 - Stepping Numbers
+// 1215. Stepping Numbers
 
 function countSteppingNumbers(low, high) {
     function backtrack(n) {

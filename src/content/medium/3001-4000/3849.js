@@ -1,4 +1,4 @@
-// 3849 - Maximum Bitwise XOR After Rearrangement
+// 3849. Maximum Bitwise XOR After Rearrangement
 
 function maximumXor(s, t) {
     let acc = 0;

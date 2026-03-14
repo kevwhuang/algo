@@ -1,4 +1,4 @@
-// 746 - Min Cost Climbing Stairs
+// 746. Min Cost Climbing Stairs
 
 function minCostClimbingStairs(cost) {
     for (let i = 2; i < cost.length; i++) {

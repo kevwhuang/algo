@@ -1,3 +1,3 @@
-// 214 - Shortest Palindrome
+// 214. Shortest Palindrome
 
 

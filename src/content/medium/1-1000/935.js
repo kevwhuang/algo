@@ -1,4 +1,4 @@
-// 935 - Knight Dialer
+// 935. Knight Dialer
 
 function knightDialer(n) {
     function init() {

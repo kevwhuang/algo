@@ -1,4 +1,4 @@
-// 1959 - Minimum Total Space Wasted With K Resizing Operations
+// 1959. Minimum Total Space Wasted With K Resizing Operations
 
 function minSpaceWastedKResizing(nums, k) {
     const n = nums.length, ps = new Uint32Array(n + 1);

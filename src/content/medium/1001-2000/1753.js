@@ -1,4 +1,4 @@
-// 1753 - Maximum Score From Removing Stones
+// 1753. Maximum Score From Removing Stones
 
 function maximumScore(a, b, c) {
     const sum = a + b + c;

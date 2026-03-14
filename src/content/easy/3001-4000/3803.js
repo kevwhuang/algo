@@ -1,4 +1,4 @@
-// 3803 - Count Residue Prefixes
+// 3803. Count Residue Prefixes
 
 function residuePrefixes(s) {
     let res = 0;

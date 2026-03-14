@@ -1,4 +1,4 @@
-// 1353 - Maximum Number of Events That Can Be Attended
+// 1353. Maximum Number of Events That Can Be Attended
 
 function maxEvents(events) {
     events.sort((a, b) => a[0] - b[0]);

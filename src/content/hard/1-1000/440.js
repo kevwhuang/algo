@@ -1,3 +1,3 @@
-// 440 - Kth Smallest in Lexicographical Order
+// 440. Kth Smallest in Lexicographical Order
 
 

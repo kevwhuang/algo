@@ -1,4 +1,4 @@
-// 2220 - Minimum Bit Flips to Convert Number
+// 2220. Minimum Bit Flips to Convert Number
 
 function minBitFlips(start, goal) {
     let flips = 0, xor = start ^ goal;

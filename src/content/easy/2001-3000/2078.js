@@ -1,4 +1,4 @@
-// 2078 - Two Furthest Houses With Different Colors
+// 2078. Two Furthest Houses With Different Colors
 
 function maxDistance(colors) {
     const len = colors.length;

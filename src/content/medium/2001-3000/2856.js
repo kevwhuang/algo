@@ -1,4 +1,4 @@
-// 2856 - Minimum Array Length After Pair Removals
+// 2856. Minimum Array Length After Pair Removals
 
 function minLengthAfterRemovals(nums) {
     const n = nums.length, half = n / 2 >> 0;

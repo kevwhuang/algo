@@ -1,4 +1,4 @@
-// 2568 - Minimum Impossible OR
+// 2568. Minimum Impossible OR
 
 function minImpossibleOR(nums) {
     const set = new Set(), bound = 2 ** 30;

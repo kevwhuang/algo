@@ -1,4 +1,4 @@
-// 1055 - Shortest Way to Form String
+// 1055. Shortest Way to Form String
 
 function shortestWay(source, target) {
     let subsequences = 0, i = 0;

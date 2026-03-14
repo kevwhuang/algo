@@ -1,4 +1,4 @@
-// 1845 - Seat Reservation Manager
+// 1845. Seat Reservation Manager
 
 class SeatManager {
     constructor(n) {

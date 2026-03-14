@@ -1,4 +1,4 @@
-// 3479 - Fruits Into Baskets III
+// 3479. Fruits Into Baskets III
 
 function numOfUnplacedFruits(fruits, baskets) {
     const n = 2 ** Math.ceil(Math.log2(baskets.length));

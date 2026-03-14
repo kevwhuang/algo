@@ -1,4 +1,4 @@
-// 2679 - Sum in a Matrix
+// 2679. Sum in a Matrix
 
 function matrixSum(nums) {
     nums.forEach((row, r) => nums[r] = new Uint16Array(row).sort());

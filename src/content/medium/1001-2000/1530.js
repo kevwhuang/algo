@@ -1,4 +1,4 @@
-// 1530 - Number of Good Leaf Nodes Pairs
+// 1530. Number of Good Leaf Nodes Pairs
 
 function countPairs(root, distance) {
     function dfs1(node) {

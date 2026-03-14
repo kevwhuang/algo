@@ -1,4 +1,4 @@
-// 767 - Reorganize String
+// 767. Reorganize String
 
 function reorganizeString(s) {
     const bucket = {};

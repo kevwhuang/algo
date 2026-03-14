@@ -1,4 +1,4 @@
-// 48 - Rotate Image
+// 48. Rotate Image
 
 function rotate(matrix) {
     const M = matrix, n = M.length;

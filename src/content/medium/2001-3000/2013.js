@@ -1,4 +1,4 @@
-// 2013 - Detect Squares
+// 2013. Detect Squares
 
 class DetectSquares {
     constructor() {

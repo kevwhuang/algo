@@ -1,3 +1,3 @@
-// 2897 - Apply Operations on Array to Maximize Sum of Squares
+// 2897. Apply Operations on Array to Maximize Sum of Squares
 
 

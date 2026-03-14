@@ -1,4 +1,4 @@
-// 2169 - Count Operations to Obtain Zero
+// 2169. Count Operations to Obtain Zero
 
 function countOperations(num1, num2) {
     let ops = 0;

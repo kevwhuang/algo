@@ -1,4 +1,4 @@
-// 1161 - Maximum Level Sum of a Binary Tree
+// 1161. Maximum Level Sum of a Binary Tree
 
 function maxLevelSum(root) {
     let level = 1, minLevel = 1, maxSum = -Infinity;

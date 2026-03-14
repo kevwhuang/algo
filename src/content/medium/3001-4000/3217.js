@@ -1,4 +1,4 @@
-// 3217 - Delete Nodes From Linked List Present in Array
+// 3217. Delete Nodes From Linked List Present in Array
 
 function modifiedList(nums, head) {
     nums = new Set(nums);

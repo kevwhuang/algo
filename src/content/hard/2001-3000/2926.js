@@ -1,3 +1,3 @@
-// 2926 - Maximum Balanced Subsequence Sum
+// 2926. Maximum Balanced Subsequence Sum
 
 

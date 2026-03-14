@@ -1,4 +1,4 @@
-// 271 - Encode and Decode Strings
+// 271. Encode and Decode Strings
 
 function encode(strs) {
     return strs.join`<~>`;

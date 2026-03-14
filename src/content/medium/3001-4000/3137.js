@@ -1,4 +1,4 @@
-// 3137 - Minimum Number of Operations to Make Word K-Periodic
+// 3137. Minimum Number of Operations to Make Word K-Periodic
 
 function minimumOperationsToMakeKPeriodic(word, k) {
     const map = new Map();

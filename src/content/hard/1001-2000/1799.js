@@ -1,3 +1,3 @@
-// 1799 - Maximize Score After N Operations
+// 1799. Maximize Score After N Operations
 
 

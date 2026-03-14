@@ -1,3 +1,3 @@
-// 685 - Redundant Connection II
+// 685. Redundant Connection II
 
 

@@ -1,4 +1,4 @@
-// 3381 - Maximum Subarray Sum With Length Divisible by K
+// 3381. Maximum Subarray Sum With Length Divisible by K
 
 function maxSubarraySum(nums, k) {
     let max = -Infinity, acc = 0;

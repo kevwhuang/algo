@@ -1,4 +1,4 @@
--- 1421 - NPV Queries
+-- 1421. NPV Queries
 
 SELECT
     id,

@@ -1,4 +1,4 @@
-// 1214 - Two Sum BSTs
+// 1214. Two Sum BSTs
 
 function twoSumBSTs(root1, root2, target) {
     function dfs1(node) {

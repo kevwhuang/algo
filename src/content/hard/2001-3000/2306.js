@@ -1,4 +1,4 @@
-// 2306 - Naming a Company
+// 2306. Naming a Company
 
 function distinctNames(ideas) {
     const arr = Array.from({ length: 26 }, () => new Set());

@@ -1,4 +1,4 @@
--- 1988 - Find Cutoff Score for Each School
+-- 1988. Find Cutoff Score for Each School
 
 SELECT
     school_id,

@@ -1,4 +1,4 @@
-// 127 - Word Ladder
+// 127. Word Ladder
 
 function ladderLength(beginWord, endWord, wordList) {
     const set = new Set(wordList);

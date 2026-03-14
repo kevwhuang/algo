@@ -1,4 +1,4 @@
-// 1245 - Tree Diameter
+// 1245. Tree Diameter
 
 function treeDiameter(edges) {
     function dfs(count, node, prev) {

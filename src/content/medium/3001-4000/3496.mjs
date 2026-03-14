@@ -1,4 +1,4 @@
-// 3496 - Maximize Score After Pair Deletions
+// 3496. Maximize Score After Pair Deletions
 
 function maxScore(nums) {
     const sum = nums.reduce((s, e) => s + e);

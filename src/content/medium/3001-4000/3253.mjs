@@ -1,4 +1,4 @@
-// 3253 - Construct String With Minimum Cost (Easy)
+// 3253. Construct String With Minimum Cost (Easy)
 
 function minimumCost(target, words, costs) {
     const dp = new Uint32Array(target.length + 1).fill(1e9);

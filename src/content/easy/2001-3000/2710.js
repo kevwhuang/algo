@@ -1,4 +1,4 @@
-// 2710 - Remove Trailing Zeros From a String
+// 2710. Remove Trailing Zeros From a String
 
 function removeTrailingZeros(num) {
     let i = num.length - 1;

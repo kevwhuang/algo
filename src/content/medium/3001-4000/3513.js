@@ -1,4 +1,4 @@
-// 3513 - Number of Unique XOR Triplets I
+// 3513. Number of Unique XOR Triplets I
 
 function uniqueXorTriplets(nums) {
     const n = nums.length;

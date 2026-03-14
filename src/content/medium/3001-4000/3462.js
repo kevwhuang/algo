@@ -1,4 +1,4 @@
-// 3462 - Maximum Sum With at Most K Elements
+// 3462. Maximum Sum With at Most K Elements
 
 function maxSum(grid, limits, k) {
     const M = grid, m = M.length, n = M[0].length;

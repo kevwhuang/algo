@@ -1,4 +1,4 @@
-// 2572 - Count the Number of Square-Free Subsets
+// 2572. Count the Number of Square-Free Subsets
 
 function squareFreeSubsets(nums) {
     const dict = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];

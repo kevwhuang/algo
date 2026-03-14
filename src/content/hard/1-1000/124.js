@@ -1,4 +1,4 @@
-// 124 - Binary Tree Maximum Path Sum
+// 124. Binary Tree Maximum Path Sum
 
 function maxPathSum(root) {
     function dfs(node) {

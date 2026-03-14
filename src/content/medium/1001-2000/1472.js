@@ -1,4 +1,4 @@
-// 1472 - Design Browser History
+// 1472. Design Browser History
 
 class BrowserHistory {
     constructor(homepage) {

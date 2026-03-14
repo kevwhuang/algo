@@ -1,3 +1,3 @@
-// 3768 - Minimum Inversion Count in Subarrays of Fixed Length
+// 3768. Minimum Inversion Count in Subarrays of Fixed Length
 
 

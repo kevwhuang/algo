@@ -1,4 +1,4 @@
-// 2814 - Minimum Time Takes to Reach Destination Without Drowning
+// 2814. Minimum Time Takes to Reach Destination Without Drowning
 
 function minimumSeconds(land) {
     function check(Q, N, flag) {

@@ -1,4 +1,4 @@
-// 1653 - Minimum Deletions to Make String Balanced
+// 1653. Minimum Deletions to Make String Balanced
 
 function minimumDeletions(s) {
     let res = 0, acc = 0, i = 0;

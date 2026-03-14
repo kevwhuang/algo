@@ -1,4 +1,4 @@
-// 1190 - Reverse Substrings Between Each Pair of Parentheses
+// 1190. Reverse Substrings Between Each Pair of Parentheses
 
 function reverseParentheses(s) {
     const stack = [], indexStack = [];

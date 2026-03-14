@@ -1,4 +1,4 @@
-// 1438 - Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
+// 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 function longestSubarray(nums, limit) {
     let max = 0;

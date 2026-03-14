@@ -1,4 +1,4 @@
-// 651 - 4 Keys Keyboard
+// 651. 4 Keys Keyboard
 
 function maxA(n) {
     function init() {

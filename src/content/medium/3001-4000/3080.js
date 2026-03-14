@@ -1,4 +1,4 @@
-// 3080 - Mark Elements on Array by Performing Queries
+// 3080. Mark Elements on Array by Performing Queries
 
 function unmarkedSumArray(nums, queries) {
     let sum = 0;

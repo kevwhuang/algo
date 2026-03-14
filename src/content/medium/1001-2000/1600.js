@@ -1,4 +1,4 @@
-// 1600 - Throne Inheritance
+// 1600. Throne Inheritance
 
 class ThroneInheritance {
     constructor(kingName) {

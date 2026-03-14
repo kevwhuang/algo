@@ -1,4 +1,4 @@
-// 2000 - Reverse Prefix of Word
+// 2000. Reverse Prefix of Word
 
 function reversePrefix(word, ch) {
     const idx = word.indexOf(ch);

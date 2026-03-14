@@ -1,4 +1,4 @@
-// 3599 - Partition Array to Minimize XOR
+// 3599. Partition Array to Minimize XOR
 
 function minXor(nums, k) {
     if (!this.dp1) dp1 = new Uint32Array(251), dp2 = new Uint32Array(251);

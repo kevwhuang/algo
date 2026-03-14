@@ -1,4 +1,4 @@
-// 18 - 4Sum
+// 18. 4Sum
 
 function fourSum(nums, target) {
     nums.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 1189 - Maximum Number of Balloons
+// 1189. Maximum Number of Balloons
 
 function maxNumberOfBalloons(text) {
     const B = { b: 0, a: 0, l: 0, o: 0, n: 0 };

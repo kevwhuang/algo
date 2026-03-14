@@ -1,4 +1,4 @@
-// 2275 - Largest Combination With Bitwise AND Greater Than Zero
+// 2275. Largest Combination With Bitwise AND Greater Than Zero
 
 function largestCombination(candidates) {
     const bits = new Uint32Array(24);

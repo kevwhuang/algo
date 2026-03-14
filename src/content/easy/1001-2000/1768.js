@@ -1,4 +1,4 @@
-// 1768 - Merge Strings Alternately
+// 1768. Merge Strings Alternately
 
 function mergeAlternately(word1, word2) {
     let res = '', i = 0, j = 0;

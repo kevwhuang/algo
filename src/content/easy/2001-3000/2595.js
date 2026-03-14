@@ -1,4 +1,4 @@
-// 2595 - Number of Even and Odd Bits
+// 2595. Number of Even and Odd Bits
 
 function evenOddBit(n) {
     let even = 0, odd = 0, isEven = true;

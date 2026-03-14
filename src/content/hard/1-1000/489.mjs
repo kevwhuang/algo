@@ -1,4 +1,4 @@
-// 489 - Robot Room Cleaner
+// 489. Robot Room Cleaner
 
 function cleanRoom(robot) {
     function backtrack(r, c, i) {

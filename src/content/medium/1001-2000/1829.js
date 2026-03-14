@@ -1,4 +1,4 @@
-// 1829 - Maximum XOR for Each Query
+// 1829. Maximum XOR for Each Query
 
 function getMaximumXor(nums, maximumBit) {
     const n = nums.length;

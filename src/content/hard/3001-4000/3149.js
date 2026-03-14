@@ -1,3 +1,3 @@
-// 3149 - Find the Minimum Cost Array Permutation
+// 3149. Find the Minimum Cost Array Permutation
 
 

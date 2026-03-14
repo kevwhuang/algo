@@ -1,3 +1,3 @@
-// 2247 - Maximum Cost of Trip With K Highways
+// 2247. Maximum Cost of Trip With K Highways
 
 

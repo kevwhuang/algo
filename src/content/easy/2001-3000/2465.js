@@ -1,4 +1,4 @@
-// 2465 - Number of Distinct Averages
+// 2465. Number of Distinct Averages
 
 function distinctAverages(nums) {
     nums.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 3073 - Maximum Increasing Triplet Value
+// 3073. Maximum Increasing Triplet Value
 
 function maximumTripletValue(nums) {
     const indices = Array.from({ length: nums.length }, (_, i) => i);

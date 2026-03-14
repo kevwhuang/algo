@@ -1,4 +1,4 @@
-// 34 - Find First and Last Position of Element in Sorted Array
+// 34. Find First and Last Position of Element in Sorted Array
 
 function searchRange(nums, target) {
     function binarySearch(first) {

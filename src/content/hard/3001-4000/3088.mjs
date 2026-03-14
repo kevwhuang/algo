@@ -1,4 +1,4 @@
-// 3088 - Make String Anti-Palindrome
+// 3088. Make String Anti-Palindrome
 
 function makeAntiPalindrome(s) {
     const B = new Uint32Array(26), n = s.length, nn = n / 2;

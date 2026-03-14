@@ -1,4 +1,4 @@
-// 2255 - Count Prefixes of a Given String
+// 2255. Count Prefixes of a Given String
 
 function countPrefixes(words, s) {
     let count = 0;

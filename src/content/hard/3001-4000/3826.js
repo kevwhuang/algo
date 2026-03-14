@@ -1,3 +1,3 @@
-// 3826 - Minimum Partition Score
+// 3826. Minimum Partition Score
 
 

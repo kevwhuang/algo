@@ -1,4 +1,4 @@
-// 1909 - Remove One Element to Make the Array Strictly Increasing
+// 1909. Remove One Element to Make the Array Strictly Increasing
 
 function canBeIncreasing(nums) {
     for (let flag, i = 1; i < nums.length; i++) {

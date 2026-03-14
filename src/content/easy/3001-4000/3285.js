@@ -1,4 +1,4 @@
-// 3285 - Find Indices of Stable Mountains
+// 3285. Find Indices of Stable Mountains
 
 function stableMountains(height, threshold) {
     height.pop();

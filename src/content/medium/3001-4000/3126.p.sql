@@ -1,4 +1,4 @@
--- 3126 - Server Utilization Time
+-- 3126. Server Utilization Time
 
 WITH CTE AS (
     SELECT

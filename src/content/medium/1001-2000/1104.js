@@ -1,4 +1,4 @@
-// 1104 - Path in Zigzag Labeled Binary Tree
+// 1104. Path in Zigzag Labeled Binary Tree
 
 function pathInZigZagTree(label) {
     let row = ~~Math.log2(label) + 1;

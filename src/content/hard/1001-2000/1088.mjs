@@ -1,3 +1,3 @@
-// 1088 - Confusing Number II
+// 1088. Confusing Number II
 
 

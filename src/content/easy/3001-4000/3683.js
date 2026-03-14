@@ -1,4 +1,4 @@
-// 3683 - Earliest Time to Finish One Task
+// 3683. Earliest Time to Finish One Task
 
 function earliestTime(tasks) {
     let res = 200, i = -1;

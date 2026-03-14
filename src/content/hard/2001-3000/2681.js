@@ -1,3 +1,3 @@
-// 2681 - Power of Heroes
+// 2681. Power of Heroes
 
 

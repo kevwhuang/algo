@@ -1,4 +1,4 @@
-// 318 - Maximum Product of Word Lengths
+// 318. Maximum Product of Word Lengths
 
 function maxProduct(words) {
     const len = words.length;

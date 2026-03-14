@@ -1,4 +1,4 @@
-// 46 - Permutations
+// 46. Permutations
 
 function permute(nums) {
     function backtrack(i) {

@@ -1,4 +1,4 @@
-// 1008 - Construct Binary Search Tree From Preorder Traversal
+// 1008. Construct Binary Search Tree From Preorder Traversal
 
 function bstFromPreorder(preorder) {
     function insert(val) {

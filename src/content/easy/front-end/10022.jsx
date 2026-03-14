@@ -1,4 +1,4 @@
-// 10022 - Radio Group
+// 10022. Radio Group
 
 export function RadioGroup({ name, onChange, options }) {
     return (

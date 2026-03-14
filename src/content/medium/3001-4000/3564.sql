@@ -1,4 +1,4 @@
--- 3564 - Seasonal Sales Analysis
+-- 3564. Seasonal Sales Analysis
 
 WITH CTE AS (
     SELECT

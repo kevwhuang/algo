@@ -1,4 +1,4 @@
-// 207 - Course Schedule
+// 207. Course Schedule
 
 function canFinish(numCourses, prerequisites) {
     const adj = Array.from({ length: numCourses }, () => []);

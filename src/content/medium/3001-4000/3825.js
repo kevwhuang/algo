@@ -1,4 +1,4 @@
-// 3825 - Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND
+// 3825. Longest Strictly Increasing Subsequence With Non-Zero Bitwise AND
 
 function longestSubsequence(nums) {
     let res = 0;

@@ -1,4 +1,4 @@
-// 911 - Online Election
+// 911. Online Election
 
 class TopVotedCandidate {
     constructor(persons, times) {

@@ -1,4 +1,4 @@
--- 618 - Students Report by Geography
+-- 618. Students Report by Geography
 
 WITH CTE AS (
     SELECT

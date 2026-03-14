@@ -1,4 +1,4 @@
--- 2985 - Calculate Compressed Mean
+-- 2985. Calculate Compressed Mean
 
 SELECT
     ROUND(

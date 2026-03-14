@@ -1,4 +1,4 @@
-// 1492 - The Kth Factor of N
+// 1492. The Kth Factor of N
 
 function kthFactor(n, k) {
     for (let factor = 1; factor <= n / 2; factor++) {

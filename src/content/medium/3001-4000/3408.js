@@ -1,4 +1,4 @@
-// 3408 - Design Task Manager
+// 3408. Design Task Manager
 
 class TaskManager {
     constructor(tasks) {

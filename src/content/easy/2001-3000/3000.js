@@ -1,4 +1,4 @@
-// 3000 - Maximum Area of Longest Diagonal Rectangle
+// 3000. Maximum Area of Longest Diagonal Rectangle
 
 function areaOfMaxDiagonal(dimensions) {
     let max = 0, maxDiag = 0;

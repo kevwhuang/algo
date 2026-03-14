@@ -1,4 +1,4 @@
-// 617 - Merge Two Binary Trees
+// 617. Merge Two Binary Trees
 
 function mergeTrees(root1, root2) {
     if (!root1) return root2;

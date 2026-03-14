@@ -1,4 +1,4 @@
--- 3322 - Premier League Table Ranking III
+-- 3322. Premier League Table Ranking III
 
 SELECT
     season_id,

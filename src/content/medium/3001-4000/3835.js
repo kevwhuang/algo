@@ -1,4 +1,4 @@
-// 3835 - Count Subarrays With Cost Less Than or Equal to K
+// 3835. Count Subarrays With Cost Less Than or Equal to K
 
 function countSubarrays(nums, k) {
     if (!this.Q1) Q1 = new Uint32Array(100000), Q2 = new Uint32Array(100000);

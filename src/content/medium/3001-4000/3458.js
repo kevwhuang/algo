@@ -1,4 +1,4 @@
-// 3458 - Select K Disjoint Special Substrings
+// 3458. Select K Disjoint Special Substrings
 
 function maxSubstringLength(s, k) {
     const arr1 = new Array(26), arr2 = new Array(26);

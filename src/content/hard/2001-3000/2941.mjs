@@ -1,3 +1,3 @@
-// 2941 - Maximum GCD Sum of a Subarray
+// 2941. Maximum GCD Sum of a Subarray
 
 

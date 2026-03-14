@@ -1,4 +1,4 @@
-// 1334 - Find the City With the Smallest Number of Neighbors at a Threshold Distance
+// 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
 
 function findTheCity(n, edges, distanceThreshold) {
     const mapper = () => new Array(n).fill(Infinity);

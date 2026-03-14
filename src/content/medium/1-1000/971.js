@@ -1,4 +1,4 @@
-// 971 - Flip Binary Tree to Match Preorder Traversal
+// 971. Flip Binary Tree to Match Preorder Traversal
 
 function flipMatchVoyage(root, voyage) {
     function dfs(node) {

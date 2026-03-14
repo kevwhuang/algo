@@ -1,3 +1,3 @@
-// 2999 - Count the Number of Powerful Integers
+// 2999. Count the Number of Powerful Integers
 
 

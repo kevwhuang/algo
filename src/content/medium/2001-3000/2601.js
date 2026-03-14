@@ -1,4 +1,4 @@
-// 2601 - Prime Subtraction Operation
+// 2601. Prime Subtraction Operation
 
 function primeSubOperation(nums) {
     const primes = [

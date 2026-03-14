@@ -1,3 +1,3 @@
-// 1172 - Dinner Plate Stacks
+// 1172. Dinner Plate Stacks
 
 

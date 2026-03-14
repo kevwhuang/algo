@@ -1,4 +1,4 @@
-// 3109 - Find the Index of Permutation
+// 3109. Find the Index of Permutation
 
 function getPermutationIndex(perm) {
     const n = perm.length, tree = new Uint32Array(n + 1);

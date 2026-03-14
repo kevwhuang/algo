@@ -1,4 +1,4 @@
-// 3372 - Maximize the Number of Target Nodes After Connecting Trees I
+// 3372. Maximize the Number of Target Nodes After Connecting Trees I
 
 function maxTargetNodes(edges1, edges2, k) {
     function dfs(node, prev, acc, k) {

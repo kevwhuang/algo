@@ -1,4 +1,4 @@
-// 2781 - Length of the Longest Valid Substring
+// 2781. Length of the Longest Valid Substring
 
 function longestValidSubstring(word, forbidden) {
     let res = 0, l = 0, r = 0;

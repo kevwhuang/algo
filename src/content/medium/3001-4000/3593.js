@@ -1,4 +1,4 @@
-// 3593 - Minimum Increments to Equalize Leaf Paths
+// 3593. Minimum Increments to Equalize Leaf Paths
 
 function minIncrease(n, edges, cost) {
     function dfs(node, prev) {

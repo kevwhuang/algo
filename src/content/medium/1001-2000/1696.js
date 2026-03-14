@@ -1,4 +1,4 @@
-// 1696 - Jump Game VI
+// 1696. Jump Game VI
 
 function maxResult(nums, k) {
     const Q = [0];

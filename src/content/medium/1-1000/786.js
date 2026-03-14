@@ -1,4 +1,4 @@
-// 786 - Kth Smallest Prime Fraction
+// 786. Kth Smallest Prime Fraction
 
 function kthSmallestPrimeFraction(arr, k) {
     let l = 0, r = 1;

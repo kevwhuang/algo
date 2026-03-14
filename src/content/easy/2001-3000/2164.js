@@ -1,4 +1,4 @@
-// 2164 - Sort Even and Odd Indices Independently
+// 2164. Sort Even and Odd Indices Independently
 
 function sortEvenOdd(nums) {
     const odds = new Uint8Array(Math.floor(nums.length / 2));

@@ -1,4 +1,4 @@
-// 439 - Ternary Expression Parser
+// 439. Ternary Expression Parser
 
 function parseTernary(expression) {
     const T = true, F = false;

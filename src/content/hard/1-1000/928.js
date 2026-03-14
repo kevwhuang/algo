@@ -1,4 +1,4 @@
-// 928 - Minimize Malware Spread II
+// 928. Minimize Malware Spread II
 
 function minMalwareSpread(graph, initial) {
     const n = graph.length;

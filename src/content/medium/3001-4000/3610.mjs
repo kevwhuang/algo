@@ -1,4 +1,4 @@
-// 3610 - Minimum Number of Primes to Sum to Target
+// 3610. Minimum Number of Primes to Sum to Target
 
 function minNumberOfPrimes(n, m) {
     function init() {

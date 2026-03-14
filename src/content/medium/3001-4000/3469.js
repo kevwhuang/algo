@@ -1,4 +1,4 @@
-// 3469 - Find Minimum Cost to Remove Array Elements
+// 3469. Find Minimum Cost to Remove Array Elements
 
 function minCost(nums) {
     let dp = new Map([[nums[0], 0]]);

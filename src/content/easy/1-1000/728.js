@@ -1,4 +1,4 @@
-// 728 - Self Dividing Numbers
+// 728. Self Dividing Numbers
 
 function selfDividingNumbers(left, right) {
     const list = [];

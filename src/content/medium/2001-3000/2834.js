@@ -1,4 +1,4 @@
-// 2834 - Find the Minimum Possible Sum of a Beautiful Array
+// 2834. Find the Minimum Possible Sum of a Beautiful Array
 
 function minimumPossibleSum(n, target) {
     const count = Math.min(n, target / 2 >> 0);

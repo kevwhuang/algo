@@ -1,4 +1,4 @@
-// 2237 - Count Positions on Street With Required Brightness
+// 2237. Count Positions on Street With Required Brightness
 
 function meetRequirement(n, lights, requirement) {
     const street = new Int32Array(n);

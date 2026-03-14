@@ -1,4 +1,4 @@
-// 1836 - Remove Duplicates From an Unsorted Linked List
+// 1836. Remove Duplicates From an Unsorted Linked List
 
 function deleteDuplicatesUnsorted(head) {
     const freqs = {};

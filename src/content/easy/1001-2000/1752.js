@@ -1,4 +1,4 @@
-// 1752 - Check If Array Is Sorted and Rotated
+// 1752. Check If Array Is Sorted and Rotated
 
 function check(nums) {
     let flag, i = 0;

@@ -1,4 +1,4 @@
--- 178 - Rank Scores
+-- 178. Rank Scores
 
 SELECT
     score,

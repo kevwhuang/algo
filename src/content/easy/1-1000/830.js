@@ -1,4 +1,4 @@
-// 830 - Positions of Large Groups
+// 830. Positions of Large Groups
 
 function largeGroupPositions(s) {
     const groups = [];

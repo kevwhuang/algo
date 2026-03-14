@@ -1,4 +1,4 @@
-// 1737 - Change Minimum Characters to Satisfy One of Three Conditions
+// 1737. Change Minimum Characters to Satisfy One of Three Conditions
 
 function minCharacters(a, b) {
     const bucket1 = new Array(26).fill(0);

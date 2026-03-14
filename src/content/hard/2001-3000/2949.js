@@ -1,3 +1,3 @@
-// 2949 - Count Beautiful Substrings II
+// 2949. Count Beautiful Substrings II
 
 

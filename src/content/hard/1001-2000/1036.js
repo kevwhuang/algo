@@ -1,4 +1,4 @@
-// 1036 - Escape a Large Maze
+// 1036. Escape a Large Maze
 
 function isEscapePossible(blocked, source, target) {
     function dfs(r, c) {

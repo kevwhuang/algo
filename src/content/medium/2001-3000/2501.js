@@ -1,4 +1,4 @@
-// 2501 - Longest Square Streak in an Array
+// 2501. Longest Square Streak in an Array
 
 function longestSquareStreak(nums) {
     nums = new Uint32Array(nums).sort();

@@ -1,4 +1,4 @@
-// 2597 - The Number of Beautiful Subsets
+// 2597. The Number of Beautiful Subsets
 
 function beautifulSubsets(nums, k) {
     function backtrack(i) {

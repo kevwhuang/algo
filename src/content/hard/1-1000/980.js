@@ -1,4 +1,4 @@
-// 980 - Unique Paths III
+// 980. Unique Paths III
 
 function uniquePathsIII(grid) {
     function backtrack(r, c, acc) {

@@ -1,4 +1,4 @@
--- 1709 - Biggest Window Between Visits
+-- 1709. Biggest Window Between Visits
 
 WITH CTE AS (
     SELECT

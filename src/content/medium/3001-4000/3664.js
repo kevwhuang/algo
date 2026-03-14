@@ -1,4 +1,4 @@
-// 3664 - Two-Letter Card Game
+// 3664. Two-Letter Card Game
 
 function score(cards, x) {
     const B1 = new Uint32Array(10), B2 = new Uint32Array(10);

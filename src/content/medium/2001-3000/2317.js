@@ -1,4 +1,4 @@
-// 2317 - Maximum XOR After Operations
+// 2317. Maximum XOR After Operations
 
 function maximumXOR(nums) {
     let or = 0;

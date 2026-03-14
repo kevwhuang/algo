@@ -1,4 +1,4 @@
-// 486 - Predict the Winner
+// 486. Predict the Winner
 
 function predictTheWinner(nums) {
     const dp = new Int32Array(nums);

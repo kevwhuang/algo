@@ -1,4 +1,4 @@
-// 1037 - Valid Boomerang
+// 1037. Valid Boomerang
 
 function isBoomerang(points) {
     const x1 = points[0][0], y1 = points[0][1];

@@ -1,4 +1,4 @@
-// 1078 - Occurrences After Bigram
+// 1078. Occurrences After Bigram
 
 function findOcurrences(text, first, second) {
     text = text.split(' ');

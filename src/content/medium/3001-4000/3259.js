@@ -1,4 +1,4 @@
-// 3259 - Maximum Energy Boost From Two Drinks
+// 3259. Maximum Energy Boost From Two Drinks
 
 function maxEnergyBoost(energyDrinkA, energyDrinkB) {
     let a = 0, aa = 0, b = 0, bb = 0, i = -1;

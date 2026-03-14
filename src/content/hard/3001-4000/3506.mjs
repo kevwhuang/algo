@@ -1,4 +1,4 @@
-// 3506 - Find Time Required to Eliminate Bacterial Strains
+// 3506. Find Time Required to Eliminate Bacterial Strains
 
 function minEliminationTime(timeReq, splitTime) {
     const heap = new PriorityQueue((a, b) => a - b);

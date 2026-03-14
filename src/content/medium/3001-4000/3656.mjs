@@ -1,4 +1,4 @@
-// 3656 - Determine If a Simple Graph Exists
+// 3656. Determine If a Simple Graph Exists
 
 function simpleGraphExists(degrees) {
     let acc1 = degrees.reduce((s, e) => s + e);

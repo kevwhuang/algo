@@ -1,4 +1,4 @@
-// 3249 - Count the Number of Good Nodes
+// 3249. Count the Number of Good Nodes
 
 function countGoodNodes(edges) {
     function dfs(node, prev) {

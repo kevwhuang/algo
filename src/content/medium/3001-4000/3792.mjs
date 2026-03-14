@@ -1,4 +1,4 @@
-// 3792 - Sum of Increasing Product Blocks
+// 3792. Sum of Increasing Product Blocks
 
 function sumOfBlocks(n) {
     function init() {

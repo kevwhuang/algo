@@ -1,4 +1,4 @@
-// 2520 - Count the Digits That Divide a Number
+// 2520. Count the Digits That Divide a Number
 
 function countDigits(num) {
     let count = 0;

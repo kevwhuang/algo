@@ -1,4 +1,4 @@
--- 1789 - Primary Department for Each Employee
+-- 1789. Primary Department for Each Employee
 
 SELECT
     employee_id,

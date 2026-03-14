@@ -1,4 +1,4 @@
-// 2485 - Find the Pivot Integer
+// 2485. Find the Pivot Integer
 
 function pivotInteger(n) {
     let pivot = 1, leftSum = 0, rightSum = n * (n + 1) / 2;

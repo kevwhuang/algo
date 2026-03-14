@@ -1,4 +1,4 @@
-// 2098 - Subsequence of Size K With the Largest Even Sum
+// 2098. Subsequence of Size K With the Largest Even Sum
 
 function largestEvenSum(nums, k) {
     nums = new Uint32Array(nums).sort();

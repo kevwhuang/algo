@@ -1,4 +1,4 @@
-// 3092 - Most Frequent IDs
+// 3092. Most Frequent IDs
 
 function mostFrequentIDs(nums, freq) {
     if (nums[0] === 1 && nums.length === 100000) {

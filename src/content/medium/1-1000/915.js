@@ -1,4 +1,4 @@
-// 915 - Partition Array Into Disjoint Intervals
+// 915. Partition Array Into Disjoint Intervals
 
 function partitionDisjoint(nums) {
     let index = 0, max = nums[0], local = nums[0];

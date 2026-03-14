@@ -1,4 +1,4 @@
-// 3619 - Count Islands With Total Value Divisible by K
+// 3619. Count Islands With Total Value Divisible by K
 
 function countIslands(grid, k) {
     function dfs(r, c) {

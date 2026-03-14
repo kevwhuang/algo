@@ -1,4 +1,4 @@
-// 1029 - Two City Scheduling
+// 1029. Two City Scheduling
 
 function twoCitySchedCost(costs) {
     costs.sort((a, b) => a[0] + b[1] - a[1] - b[0]);

@@ -1,4 +1,4 @@
-// 716 - Max Stack
+// 716. Max Stack
 
 class MaxStack {
     constructor() {

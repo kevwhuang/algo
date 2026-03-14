@@ -1,4 +1,4 @@
-// 1721 - Swapping Nodes in a Linked List
+// 1721. Swapping Nodes in a Linked List
 
 function swapNodes(head, k) {
     let len = 0, cur = head;

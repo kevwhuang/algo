@@ -1,4 +1,4 @@
-// 3361 - Shift Distance Between Two Strings
+// 3361. Shift Distance Between Two Strings
 
 function shiftDistance(s, t, nextCost, previousCost) {
     let res = 0, M = new Array(26);

@@ -1,4 +1,4 @@
-// 3233 - Find the Count of Numbers Which Are Not Special
+// 3233. Find the Count of Numbers Which Are Not Special
 
 function nonSpecialCount(l, r) {
     let primes = 0;

@@ -1,4 +1,4 @@
-// 2567 - Minimum Score by Changing Two Elements
+// 2567. Minimum Score by Changing Two Elements
 
 function minimizeSum(nums) {
     let min1 = 1e9, min2 = 1e9, min3 = 1e9;

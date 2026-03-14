@@ -1,4 +1,4 @@
-// 287 - Find the Duplicate Number
+// 287. Find the Duplicate Number
 
 function findDuplicate(nums) {
     for (let i = 0; i < nums.length; i++) {

@@ -1,4 +1,4 @@
-// 1818 - Minimum Absolute Sum Difference
+// 1818. Minimum Absolute Sum Difference
 
 function minAbsoluteSumDiff(nums1, nums2) {
     function update(i) {

@@ -1,3 +1,3 @@
-// 1703 - Minimum Adjacent Swaps for K Consecutive Ones
+// 1703. Minimum Adjacent Swaps for K Consecutive Ones
 
 

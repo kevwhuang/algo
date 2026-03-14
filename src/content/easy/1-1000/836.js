@@ -1,4 +1,4 @@
-// 836 - Rectangle Overlap
+// 836. Rectangle Overlap
 
 function isRectangleOverlap(rec1, rec2) {
     return rec1[0] < rec2[2]

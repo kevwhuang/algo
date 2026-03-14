@@ -1,4 +1,4 @@
-// 138 - Copy List With Random Pointer
+// 138. Copy List With Random Pointer
 
 function copyRandomList(head) {
     const map = new Map([[null, null]]);

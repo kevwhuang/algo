@@ -1,4 +1,4 @@
-// 467 - Unique Substrings in Wraparound String
+// 467. Unique Substrings in Wraparound String
 
 function findSubstringInWraproundString(s) {
     const arr = new Uint32Array(26);

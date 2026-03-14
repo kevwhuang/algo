@@ -1,4 +1,4 @@
-// 31 - Next Permutation
+// 31. Next Permutation
 
 function nextPermutation(nums) {
     const swap = (i, j) => [nums[i], nums[j]] = [nums[j], nums[i]];

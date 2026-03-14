@@ -1,4 +1,4 @@
-// 2399 - Check Distances Between Same Letters
+// 2399. Check Distances Between Same Letters
 
 function checkDistances(s, distance) {
     for (let i = 0; i < 26; i++) {

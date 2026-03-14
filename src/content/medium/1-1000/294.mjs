@@ -1,4 +1,4 @@
-// 294 - Flip Game II
+// 294. Flip Game II
 
 function canWin(currentState) {
     function dfs() {

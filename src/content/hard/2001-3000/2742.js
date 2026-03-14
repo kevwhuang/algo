@@ -1,3 +1,3 @@
-// 2742 - Painting the Walls
+// 2742. Painting the Walls
 
 

@@ -1,4 +1,4 @@
-// 679 - 24 Game
+// 679. 24 Game
 
 function judgePoint24(cards) {
     const n = cards.length;

@@ -1,4 +1,4 @@
-// 3170 - Lexicographically Minimum String After Removing Stars
+// 3170. Lexicographically Minimum String After Removing Stars
 
 function clearStars(s) {
     const arr = Array.from({ length: 26 }, () => []);

@@ -1,3 +1,3 @@
-// 631 - Design Excel Sum Formula
+// 631. Design Excel Sum Formula
 
 

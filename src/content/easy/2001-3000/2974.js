@@ -1,4 +1,4 @@
-// 2974 - Minimum Number Game
+// 2974. Minimum Number Game
 
 function numberGame(nums) {
     nums.sort((a, b) => a - b);

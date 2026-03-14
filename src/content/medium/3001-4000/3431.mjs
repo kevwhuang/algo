@@ -1,4 +1,4 @@
-// 3431 - Minimum Unlocked Indices to Sort Nums
+// 3431. Minimum Unlocked Indices to Sort Nums
 
 function minUnlockedIndices(nums, locked) {
     let idx11, idx2, idx22, idx3, i = -1;

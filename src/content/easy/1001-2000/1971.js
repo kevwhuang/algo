@@ -1,4 +1,4 @@
-// 1971 - Find If Path Exists in Graph
+// 1971. Find If Path Exists in Graph
 
 function validPath(n, edges, source, destination) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

@@ -1,4 +1,4 @@
--- 2377 - Sort the Olympic Table
+-- 2377. Sort the Olympic Table
 
 SELECT
     *

@@ -1,4 +1,4 @@
-// 525 - Contiguous Array
+// 525. Contiguous Array
 
 function findMaxLength(nums) {
     let max = 0, count = 0;

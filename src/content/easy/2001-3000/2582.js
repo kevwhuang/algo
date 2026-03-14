@@ -1,4 +1,4 @@
-// 2582 - Pass the Pillow
+// 2582. Pass the Pillow
 
 function passThePillow(n, time) {
     const delta = time % (n - 1);

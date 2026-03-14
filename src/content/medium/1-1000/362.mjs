@@ -1,4 +1,4 @@
-// 362 - Design Hit Counter
+// 362. Design Hit Counter
 
 class HitCounter {
     constructor() {

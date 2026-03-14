@@ -1,4 +1,4 @@
-// 2777 - Date Range Generator
+// 2777. Date Range Generator
 
 function* dateRangeGenerator(start, end, step) {
     start = new Date(start).valueOf();

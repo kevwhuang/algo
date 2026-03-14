@@ -1,4 +1,4 @@
-// 400 - Nth Digit
+// 400. Nth Digit
 
 function findNthDigit(n) {
     let base = 1, len = 1;

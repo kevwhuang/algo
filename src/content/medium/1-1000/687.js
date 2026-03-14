@@ -1,4 +1,4 @@
-// 687 - Longest Univalue Path
+// 687. Longest Univalue Path
 
 function longestUnivaluePath(root) {
     function dfs(node, prev) {

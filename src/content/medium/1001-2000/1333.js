@@ -1,4 +1,4 @@
-// 1333 - Filter Restaurants by Vegan-Friendly, Price and Distance
+// 1333. Filter Restaurants by Vegan-Friendly, Price and Distance
 
 function filterRestaurants(restaurants, veganFriendly, maxPrice, maxDistance) {
     const arr = [];

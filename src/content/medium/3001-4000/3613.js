@@ -1,4 +1,4 @@
-// 3613 - Minimize Maximum Component Cost
+// 3613. Minimize Maximum Component Cost
 
 function minCost(n, edges, k) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

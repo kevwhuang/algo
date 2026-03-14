@@ -1,4 +1,4 @@
--- 3368 - First Letter Capitalization
+-- 3368. First Letter Capitalization
 
 WITH RECURSIVE CTE1 AS (
     SELECT

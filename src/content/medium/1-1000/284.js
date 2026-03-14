@@ -1,4 +1,4 @@
-// 284 - Peeking Iterator
+// 284. Peeking Iterator
 
 class PeekingIterator {
     constructor(iterator) {

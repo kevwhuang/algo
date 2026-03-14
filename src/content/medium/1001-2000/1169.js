@@ -1,4 +1,4 @@
-// 1169 - Invalid Transactions
+// 1169. Invalid Transactions
 
 function invalidTransactions(transactions) {
     const invalid = [], len = transactions.length;

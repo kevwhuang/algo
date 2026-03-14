@@ -1,4 +1,4 @@
-// 837 - New 21 Game
+// 837. New 21 Game
 
 function new21Game(n, k, maxPts) {
     if (k === 0 || n >= k + maxPts) return 1;

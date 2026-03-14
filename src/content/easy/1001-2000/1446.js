@@ -1,4 +1,4 @@
-// 1446 - Consecutive Characters
+// 1446. Consecutive Characters
 
 function maxPower(s) {
     let power = 1, acc = 1;

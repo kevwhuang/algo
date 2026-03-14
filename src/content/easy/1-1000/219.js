@@ -1,4 +1,4 @@
-// 219 - Contains Duplicate II
+// 219. Contains Duplicate II
 
 function containsNearbyDuplicate(nums, k) {
     const set = new Set();

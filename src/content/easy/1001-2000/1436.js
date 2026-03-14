@@ -1,4 +1,4 @@
-// 1436 - Destination City
+// 1436. Destination City
 
 function destCity(paths) {
     const set = new Set();

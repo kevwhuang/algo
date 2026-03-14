@@ -1,4 +1,4 @@
--- 1149 - Article Views II
+-- 1149. Article Views II
 
 SELECT
     DISTINCT viewer_id AS id

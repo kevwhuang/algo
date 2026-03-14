@@ -1,4 +1,4 @@
-// 2341 - Maximum Number of Pairs in Array
+// 2341. Maximum Number of Pairs in Array
 
 function numberOfPairs(nums) {
     const set = new Set();

@@ -1,3 +1,3 @@
-// 3139 - Minimum Cost to Equalize Array
+// 3139. Minimum Cost to Equalize Array
 
 

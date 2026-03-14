@@ -1,4 +1,4 @@
-// 1797 - Design Authentication Manager
+// 1797. Design Authentication Manager
 
 class AuthenticationManager {
     constructor(timeToLive) {

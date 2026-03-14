@@ -1,4 +1,4 @@
-// 1881 - Maximum Value After Insertion
+// 1881. Maximum Value After Insertion
 
 function maxValue(n, x) {
     let i = n[0] === '-' ? 1 : 0;

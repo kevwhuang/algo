@@ -1,4 +1,4 @@
-// 3394 - Check If Grid Can Be Cut Into Sections
+// 3394. Check If Grid Can Be Cut Into Sections
 
 function checkValidCuts(n, rectangles) {
     function check(i) {

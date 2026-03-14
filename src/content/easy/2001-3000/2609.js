@@ -1,4 +1,4 @@
-// 2609 - Find the Longest Balanced Substring of a Binary String
+// 2609. Find the Longest Balanced Substring of a Binary String
 
 function findTheLongestBalancedSubstring(s) {
     let max = 0, zeros = 0, ones = 0;

@@ -1,4 +1,4 @@
-// 1958 - Check If Move Is Legal
+// 1958. Check If Move Is Legal
 
 function checkMove(board, rMove, cMove, color) {
     const validate = (r, c) => r >= 0 && r < 8 && c >= 0 && c < 8;

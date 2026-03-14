@@ -1,4 +1,4 @@
-// 914 - X of a Kind in a Deck of Cards
+// 914. X of a Kind in a Deck of Cards
 
 function hasGroupsSizeX(deck) {
     const B = new Map();

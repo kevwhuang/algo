@@ -1,4 +1,4 @@
-// 2799 - Count Complete Subarrays in an Array
+// 2799. Count Complete Subarrays in an Array
 
 function countCompleteSubarrays(nums) {
     let subarrays = 0;

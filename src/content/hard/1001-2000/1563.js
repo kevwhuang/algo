@@ -1,3 +1,3 @@
-// 1563 - Stone Game V
+// 1563. Stone Game V
 
 

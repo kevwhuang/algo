@@ -1,4 +1,4 @@
-// 10020 - Match DOM Content
+// 10020. Match DOM Content
 
 export function matchDomContent(node) {
     const fn = () => node.textContent = node.getAttribute('data-content') ?? '';

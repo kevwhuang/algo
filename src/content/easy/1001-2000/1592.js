@@ -1,4 +1,4 @@
-// 1592 - Rearrange Spaces Between Words
+// 1592. Rearrange Spaces Between Words
 
 function reorderSpaces(text) {
     const arr = text.split(/ +/).filter(Boolean);

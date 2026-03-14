@@ -1,4 +1,4 @@
-// 1063 - Number of Valid Subarrays
+// 1063. Number of Valid Subarrays
 
 function validSubarrays(nums) {
     let res = 0;

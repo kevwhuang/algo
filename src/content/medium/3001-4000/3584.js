@@ -1,4 +1,4 @@
-// 3584 - Maximum Product of First and Last Elements of a Subsequence
+// 3584. Maximum Product of First and Last Elements of a Subsequence
 
 function maximumProduct(nums, m) {
     let res = -Infinity, min = Infinity, max = -Infinity, i = --m;

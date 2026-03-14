@@ -1,3 +1,3 @@
-// 2920 - Maximum Points After Collecting Coins From All Nodes
+// 2920. Maximum Points After Collecting Coins From All Nodes
 
 

@@ -1,4 +1,4 @@
-// 1861 - Rotating the Box
+// 1861. Rotating the Box
 
 function rotateTheBox(box) {
     const m = box[0].length, n = box.length;

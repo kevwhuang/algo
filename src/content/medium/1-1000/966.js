@@ -1,4 +1,4 @@
-// 966 - Vowel Spellchecker
+// 966. Vowel Spellchecker
 
 function spellchecker(wordlist, queries) {
     const words = new Set();

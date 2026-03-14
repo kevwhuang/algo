@@ -1,4 +1,4 @@
-// 750 - Number of Corner Rectangles
+// 750. Number of Corner Rectangles
 
 function countCornerRectangles(grid) {
     let res = 0;

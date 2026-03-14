@@ -1,4 +1,4 @@
-// 3222 - Find the Winning Player in Coin Game
+// 3222. Find the Winning Player in Coin Game
 
 function losingPlayer(x, y) {
     let winner = true;

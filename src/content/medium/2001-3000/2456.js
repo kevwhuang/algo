@@ -1,4 +1,4 @@
-// 2456 - Most Popular Video Creator
+// 2456. Most Popular Video Creator
 
 function mostPopularCreator(creators, ids, views) {
     const map = new Map();

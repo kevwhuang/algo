@@ -1,4 +1,4 @@
-// 693 - Binary Number With Alternating Bits
+// 693. Binary Number With Alternating Bits
 
 function hasAlternatingBits(n) {
     let bit = n & 1 ? 0 : 1;

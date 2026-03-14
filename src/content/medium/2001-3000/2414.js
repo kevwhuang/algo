@@ -1,4 +1,4 @@
-// 2414 - Length of the Longest Alphabetical Continuous Substring
+// 2414. Length of the Longest Alphabetical Continuous Substring
 
 function longestContinuousSubstring(s) {
     let longest = 1;

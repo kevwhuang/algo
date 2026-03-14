@@ -1,4 +1,4 @@
-// 10024 - HTML Form Submission
+// 10024. HTML Form Submission
 
 import React from 'react';
 

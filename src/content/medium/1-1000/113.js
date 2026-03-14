@@ -1,4 +1,4 @@
-// 113 - Path Sum II
+// 113. Path Sum II
 
 function pathSum(root, targetSum) {
     function dfs(node, sum, path) {

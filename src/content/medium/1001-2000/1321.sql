@@ -1,4 +1,4 @@
--- 1321 - Restaurant Growth
+-- 1321. Restaurant Growth
 
 WITH CTE AS (
     SELECT

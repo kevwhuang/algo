@@ -1,4 +1,4 @@
-// 1882 - Process Tasks Using Servers
+// 1882. Process Tasks Using Servers
 
 function assignTasks(servers, tasks) {
     const comparator1 = (a, b) => servers[a] - servers[b] || a - b;

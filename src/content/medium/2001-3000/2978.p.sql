@@ -1,4 +1,4 @@
--- 2978 - Symmetric Coordinates
+-- 2978. Symmetric Coordinates
 
 SELECT
     *

@@ -1,4 +1,4 @@
-// 812 - Largest Triangle Area
+// 812. Largest Triangle Area
 
 function largestTriangleArea(points) {
     function calc(a, b, c) {

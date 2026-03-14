@@ -1,4 +1,4 @@
-// 923 - 3Sum With Multiplicity
+// 923. 3Sum With Multiplicity
 
 function threeSumMulti(arr, target) {
     const freqs = new Uint16Array(101);

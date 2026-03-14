@@ -1,4 +1,4 @@
-// 3012 - Minimize Length of Array Using Operations
+// 3012. Minimize Length of Array Using Operations
 
 function minimumArrayLength(nums) {
     let min = Infinity, count;

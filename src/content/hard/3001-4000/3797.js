@@ -1,4 +1,4 @@
-// 3797 - Count Routes to Climb a Rectangular Grid
+// 3797. Count Routes to Climb a Rectangular Grid
 
 function numberOfRoutes(grid, d) {
     function fn(A, dp1, dp2, d) {

@@ -1,4 +1,4 @@
-// 2065 - Maximum Path Quality of a Graph
+// 2065. Maximum Path Quality of a Graph
 
 function maximalPathQuality(values, edges, maxTime) {
     function backtrack(node, acc1, acc2) {

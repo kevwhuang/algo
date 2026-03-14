@@ -1,4 +1,4 @@
-// 941 - Valid Mountain Array
+// 941. Valid Mountain Array
 
 function validMountainArray(arr) {
     if (arr.length < 3 || arr[0] > arr[1]) return false;

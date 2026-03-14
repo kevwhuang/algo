@@ -1,4 +1,4 @@
--- 1623 - All Valid Triplets That Can Represent a Country
+-- 1623. All Valid Triplets That Can Represent a Country
 
 SELECT
     A.student_name AS member_A,

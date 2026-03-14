@@ -1,4 +1,4 @@
-// 1970 - Last Day Where You Can Still Cross
+// 1970. Last Day Where You Can Still Cross
 
 function latestDayToCross(row, col, cells) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

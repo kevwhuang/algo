@@ -1,4 +1,4 @@
-// 3439 - Reschedule Meetings for Maximum Free Time I
+// 3439. Reschedule Meetings for Maximum Free Time I
 
 function maxFreeTime(eventTime, k, startTime, endTime) {
     let res = 0, acc = 0;

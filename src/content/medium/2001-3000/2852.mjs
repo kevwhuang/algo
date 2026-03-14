@@ -1,4 +1,4 @@
-// 2852 - Sum of Remoteness of All Cells
+// 2852. Sum of Remoteness of All Cells
 
 function sumRemoteness(grid) {
     function dfs(r, c) {

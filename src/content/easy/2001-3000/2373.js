@@ -1,4 +1,4 @@
-// 2373 - Largest Local Values in a Matrix
+// 2373. Largest Local Values in a Matrix
 
 function largestLocal(grid) {
     const M = grid, m = M.length - 1, n = M[0].length - 1;

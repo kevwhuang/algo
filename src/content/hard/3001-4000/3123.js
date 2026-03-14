@@ -1,4 +1,4 @@
-// 3123 - Find Edges in Shortest Paths
+// 3123. Find Edges in Shortest Paths
 
 function findAnswer(n, edges) {
     function fn(start) {

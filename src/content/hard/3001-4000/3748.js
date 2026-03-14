@@ -1,3 +1,3 @@
-// 3748 - Count Stable Subarrays
+// 3748. Count Stable Subarrays
 
 

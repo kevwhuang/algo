@@ -1,4 +1,4 @@
-// 277 - Find the Celebrity
+// 277. Find the Celebrity
 
 function solution(knows) {
     function find(n) {

@@ -1,4 +1,4 @@
-// 1727 - Largest Submatrix With Rearrangements
+// 1727. Largest Submatrix With Rearrangements
 
 function largestSubmatrix(matrix) {
     let area = 0;

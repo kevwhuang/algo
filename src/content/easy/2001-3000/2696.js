@@ -1,4 +1,4 @@
-// 2696 - Minimum String Length After Removing Substrings
+// 2696. Minimum String Length After Removing Substrings
 
 function minLength(s) {
     while (true) {

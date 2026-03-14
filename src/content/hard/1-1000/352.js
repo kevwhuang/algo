@@ -1,3 +1,3 @@
-// 352 - Data Stream as Disjoint Intervals
+// 352. Data Stream as Disjoint Intervals
 
 

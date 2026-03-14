@@ -1,4 +1,4 @@
-// 1044 - Longest Duplicate Substring
+// 1044. Longest Duplicate Substring
 
 function longestDupSubstring(s) {
     function init() {

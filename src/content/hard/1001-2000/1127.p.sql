@@ -1,4 +1,4 @@
--- 1127 - User Purchase Platform
+-- 1127. User Purchase Platform
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
--- 1050 - Actors and Directors Who Cooperated at Least Three Times
+-- 1050. Actors and Directors Who Cooperated at Least Three Times
 
 SELECT
     actor_id,

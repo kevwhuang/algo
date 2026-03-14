@@ -1,4 +1,4 @@
-// 581 - Shortest Unsorted Continuous Subarray
+// 581. Shortest Unsorted Continuous Subarray
 
 function findUnsortedSubarray(nums) {
     let start = 0, end = -1, min = 100001, max = -100001;

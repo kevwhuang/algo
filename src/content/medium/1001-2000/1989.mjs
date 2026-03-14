@@ -1,4 +1,4 @@
-// 1989 - Maximum Number of People That Can Be Caught in Tag
+// 1989. Maximum Number of People That Can Be Caught in Tag
 
 function catchMaximumAmountofPeople(team, dist) {
     let people = 0;

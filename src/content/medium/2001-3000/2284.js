@@ -1,4 +1,4 @@
-// 2284 - Sender With Largest Word Count
+// 2284. Sender With Largest Word Count
 
 function largestWordCount(messages, senders) {
     const map = new Map();

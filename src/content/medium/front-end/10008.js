@@ -1,4 +1,4 @@
-// 10008 - Path to Node in DOM Tree
+// 10008. Path to Node in DOM Tree
 
 export function buildNodePath(node) {
     const res = [];

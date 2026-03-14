@@ -1,4 +1,4 @@
-// 1094 - Car Pooling
+// 1094. Car Pooling
 
 function carPooling(trips, capacity) {
     const arr = new Array(1001).fill(0);

@@ -1,4 +1,4 @@
-// 1559 - Detect Cycles in 2D Grid
+// 1559. Detect Cycles in 2D Grid
 
 function containsCycle(grid) {
     function dfs(r, c, prevR, prevC, char) {

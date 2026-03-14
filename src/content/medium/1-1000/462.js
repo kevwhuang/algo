@@ -1,4 +1,4 @@
-// 462 - Minimum Moves to Equal Array Elements II
+// 462. Minimum Moves to Equal Array Elements II
 
 function minMoves2(nums) {
     nums.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 290 - Word Pattern
+// 290. Word Pattern
 
 function wordPattern(pattern, s) {
     s = s.split(' ');

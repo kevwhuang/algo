@@ -1,4 +1,4 @@
-// 1267 - Count Servers That Communicate
+// 1267. Count Servers That Communicate
 
 function countServers(grid) {
     const m = grid.length, n = grid[0].length;

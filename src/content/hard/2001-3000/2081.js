@@ -1,4 +1,4 @@
-// 2081 - Sum of K-Mirror Numbers
+// 2081. Sum of K-Mirror Numbers
 
 function kMirror(k, n) {
     function fn(a, b, k) {

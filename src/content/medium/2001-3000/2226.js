@@ -1,4 +1,4 @@
-// 2226 - Maximum Candies Allocated to K Children
+// 2226. Maximum Candies Allocated to K Children
 
 function maximumCandies(candies, k) {
     let l = 0, r = Math.max(...candies);

@@ -1,4 +1,4 @@
-// 2102 - Sequentially Ordinal Rank Tracker
+// 2102. Sequentially Ordinal Rank Tracker
 
 class SORTracker {
     constructor() {

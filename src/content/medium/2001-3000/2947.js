@@ -1,4 +1,4 @@
-// 2947 - Count Beautiful Substrings I
+// 2947. Count Beautiful Substrings I
 
 function beautifulSubstrings(s, k) {
     const n = s.length, prefix = new Uint16Array(n);

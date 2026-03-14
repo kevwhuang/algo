@@ -1,4 +1,4 @@
-// 967 - Numbers With Same Consecutive Differences
+// 967. Numbers With Same Consecutive Differences
 
 function numsSameConsecDiff(n, k) {
     function backtrack(i) {

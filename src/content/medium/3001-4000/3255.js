@@ -1,4 +1,4 @@
-// 3255 - Find the Power of K-Size Subarrays II
+// 3255. Find the Power of K-Size Subarrays II
 
 function resultsArray(nums, k) {
     if (k-- === 1) return nums;

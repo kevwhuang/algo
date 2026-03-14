@@ -1,4 +1,4 @@
-// 1058 - Minimize Rounding Error to Meet Target
+// 1058. Minimize Rounding Error to Meet Target
 
 function minimizeError(prices, target) {
     let error = 0, arr = [];

@@ -1,4 +1,4 @@
-// 559 - Maximum Depth of N-Ary Tree
+// 559. Maximum Depth of N-Ary Tree
 
 function maxDepth(root) {
     if (!root) return 0;

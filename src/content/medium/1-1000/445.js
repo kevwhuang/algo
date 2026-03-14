@@ -1,4 +1,4 @@
-// 445 - Add Two Numbers II
+// 445. Add Two Numbers II
 
 function addTwoNumbers(l1, l2) {
     let cur = l1;

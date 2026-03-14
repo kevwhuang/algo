@@ -1,4 +1,4 @@
--- 1549 - The Most Recent Orders for Each Product
+-- 1549. The Most Recent Orders for Each Product
 
 SELECT
     product_name,

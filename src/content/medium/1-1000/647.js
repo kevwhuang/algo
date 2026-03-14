@@ -1,4 +1,4 @@
-// 647 - Palindromic Substrings
+// 647. Palindromic Substrings
 
 function countSubstrings(s) {
     let res = 0, i = -1, l, r;

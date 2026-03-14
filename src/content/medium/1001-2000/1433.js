@@ -1,4 +1,4 @@
-// 1433 - Check If a String Can Break Another String
+// 1433. Check If a String Can Break Another String
 
 function checkIfCanBreak(s1, s2) {
     s1 = s1.split('').sort();

@@ -1,4 +1,4 @@
-// 3752 - Lexicographically Smallest Negated Permutation That Sums to Target
+// 3752. Lexicographically Smallest Negated Permutation That Sums to Target
 
 function lexSmallestNegatedPerm(n, target) {
     let acc = n * (n + 1) / 2;

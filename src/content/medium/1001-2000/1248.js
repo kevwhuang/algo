@@ -1,4 +1,4 @@
-// 1248 - Count Number of Nice Subarrays
+// 1248. Count Number of Nice Subarrays
 
 function numberOfSubarrays(nums, k) {
     let l = 0, r = -1;

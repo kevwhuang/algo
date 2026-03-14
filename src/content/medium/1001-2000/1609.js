@@ -1,4 +1,4 @@
-// 1609 - Even Odd Tree
+// 1609. Even Odd Tree
 
 function isEvenOddTree(root) {
     let isOdd = true;

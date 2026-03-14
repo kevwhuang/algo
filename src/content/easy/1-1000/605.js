@@ -1,4 +1,4 @@
-// 605 - Can Place Flowers
+// 605. Can Place Flowers
 
 function canPlaceFlowers(flowerbed, n) {
     if (n === 0) return true;

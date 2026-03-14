@@ -1,4 +1,4 @@
--- 1651 - Hopper Company Queries III
+-- 1651. Hopper Company Queries III
 
 WITH RECURSIVE Base AS (
     SELECT

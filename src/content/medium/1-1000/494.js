@@ -1,4 +1,4 @@
-// 494 - Target Sum
+// 494. Target Sum
 
 function findTargetSumWays(nums, target) {
     const n = nums.reduce((s, e) => s + e, target) / 2;

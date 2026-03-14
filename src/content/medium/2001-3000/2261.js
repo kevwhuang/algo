@@ -1,4 +1,4 @@
-// 2261 - K Divisible Elements Subarrays
+// 2261. K Divisible Elements Subarrays
 
 function countDistinct(nums, k, p) {
     function count() {

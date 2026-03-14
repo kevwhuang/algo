@@ -1,4 +1,4 @@
-// 1759 - Count Number of Homogenous Substrings
+// 1759. Count Number of Homogenous Substrings
 
 function countHomogenous(s) {
     let count = 0;

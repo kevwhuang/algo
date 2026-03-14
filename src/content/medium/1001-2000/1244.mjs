@@ -1,4 +1,4 @@
-// 1244 - Design a Leaderboard
+// 1244. Design a Leaderboard
 
 class Leaderboard {
     constructor() {

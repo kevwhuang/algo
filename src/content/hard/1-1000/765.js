@@ -1,4 +1,4 @@
-// 765 - Couples Holding Hands
+// 765. Couples Holding Hands
 
 function minSwapsCouples(row) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

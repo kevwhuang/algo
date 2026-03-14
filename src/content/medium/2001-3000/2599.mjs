@@ -1,4 +1,4 @@
-// 2599 - Make the Prefix Sum Non-Negative
+// 2599. Make the Prefix Sum Non-Negative
 
 function makePrefSumNonNegative(nums) {
     let ops = 0, sum = 0;

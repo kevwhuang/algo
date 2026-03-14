@@ -1,4 +1,4 @@
-// 3603 - Minimum Cost Path With Alternating Directions II
+// 3603. Minimum Cost Path With Alternating Directions II
 
 function minCost(m, n, waitCost) {
     waitCost[0][0] = waitCost[m - 1][n - 1] = 0;

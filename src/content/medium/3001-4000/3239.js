@@ -1,4 +1,4 @@
-// 3239 - Minimum Number of Flips to Make Binary Grid Palindromic I
+// 3239. Minimum Number of Flips to Make Binary Grid Palindromic I
 
 function minFlips(grid) {
     let flips1 = 0, flips2 = 0;

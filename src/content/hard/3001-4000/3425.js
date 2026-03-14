@@ -1,3 +1,3 @@
-// 3425 - Longest Special Path
+// 3425. Longest Special Path
 
 

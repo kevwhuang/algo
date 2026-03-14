@@ -1,4 +1,4 @@
-// 68 - Text Justification
+// 68. Text Justification
 
 function fullJustify(words, maxWidth) {
     const res = [], n = words.length;

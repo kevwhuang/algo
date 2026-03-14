@@ -1,4 +1,4 @@
-// 2400 - Number of Ways to Reach a Position After Exactly K Steps
+// 2400. Number of Ways to Reach a Position After Exactly K Steps
 
 function numberOfWays(startPos, endPos, k) {
     function init() {

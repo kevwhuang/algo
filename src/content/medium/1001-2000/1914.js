@@ -1,4 +1,4 @@
-// 1914 - Cyclically Rotating a Grid
+// 1914. Cyclically Rotating a Grid
 
 function rotateGrid(grid, k) {
     let r1 = 0, r2 = grid.length - 1, c1 = 0, c2 = grid[0].length - 1;

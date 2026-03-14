@@ -1,4 +1,4 @@
-// 2138 - Divide a String Into Groups of Size K
+// 2138. Divide a String Into Groups of Size K
 
 function divideString(s, k, fill) {
     const res = [];

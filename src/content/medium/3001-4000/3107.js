@@ -1,4 +1,4 @@
-// 3107 - Minimum Operations to Make Median of Array Equal to K
+// 3107. Minimum Operations to Make Median of Array Equal to K
 
 function minOperationsToMakeMedianK(nums, k) {
     nums.sort((a, b) => a - b);

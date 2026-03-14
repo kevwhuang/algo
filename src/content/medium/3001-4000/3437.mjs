@@ -1,4 +1,4 @@
-// 3437 - Permutations III
+// 3437. Permutations III
 
 function permute(n) {
     function backtrack(i, mask) {

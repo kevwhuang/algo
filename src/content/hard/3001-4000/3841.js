@@ -1,3 +1,3 @@
-// 3841 - Palindromic Path Queries in a Tree
+// 3841. Palindromic Path Queries in a Tree
 
 

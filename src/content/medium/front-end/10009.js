@@ -1,4 +1,4 @@
-// 10009 - Add to Sorted List
+// 10009. Add to Sorted List
 
 export function addToSortedList(node, text) {
     const li = document.createElement('li');

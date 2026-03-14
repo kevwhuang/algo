@@ -1,4 +1,4 @@
-// 2100 - Find Good Days to Rob the Bank
+// 2100. Find Good Days to Rob the Bank
 
 function goodDaysToRobBank(security, time) {
     const n = security.length;

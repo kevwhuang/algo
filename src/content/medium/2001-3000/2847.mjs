@@ -1,4 +1,4 @@
-// 2847 - Smallest Number With Given Digit Product
+// 2847. Smallest Number With Given Digit Product
 
 function smallestNumber(n) {
     switch (n) {

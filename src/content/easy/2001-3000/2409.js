@@ -1,4 +1,4 @@
-// 2409 - Count Days Spent Together
+// 2409. Count Days Spent Together
 
 function countDaysTogether(arriveAlice, leaveAlice, arriveBob, leaveBob) {
     const convert = s => cumulativeDays[+(s[0] + s[1]) - 1] + +(s[3] + s[4]);

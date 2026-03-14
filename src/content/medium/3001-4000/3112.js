@@ -1,4 +1,4 @@
-// 3112 - Minimum Time to Visit Disappearing Nodes
+// 3112. Minimum Time to Visit Disappearing Nodes
 
 function minimumTime(n, edges, disappear) {
     const adj = Array.from({ length: n }, () => []);

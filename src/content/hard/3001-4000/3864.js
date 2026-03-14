@@ -1,4 +1,4 @@
-// 3864 - Minimum Cost to Partition a Binary String
+// 3864. Minimum Cost to Partition a Binary String
 
 function minCost(s, encCost, flatCost) {
     function recurse(l, r) {

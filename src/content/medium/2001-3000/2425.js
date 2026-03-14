@@ -1,4 +1,4 @@
-// 2425 - Bitwise XOR of All Pairings
+// 2425. Bitwise XOR of All Pairings
 
 function xorAllNums(nums1, nums2) {
     if (nums1.length % 2) {

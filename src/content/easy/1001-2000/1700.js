@@ -1,4 +1,4 @@
-// 1700 - Number of Students Unable to Eat Lunch
+// 1700. Number of Students Unable to Eat Lunch
 
 function countStudents(students, sandwiches) {
     let idx = 0;

@@ -1,4 +1,4 @@
-// 59 - Spiral Matrix II
+// 59. Spiral Matrix II
 
 function generateMatrix(n) {
     const mat = Array.from({ length: n }, () => new Array(n));

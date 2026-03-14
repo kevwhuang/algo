@@ -1,3 +1,3 @@
-// 3414 - Maximum Score of Non-Overlapping Intervals
+// 3414. Maximum Score of Non-Overlapping Intervals
 
 

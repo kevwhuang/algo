@@ -1,4 +1,4 @@
-// 3540 - Minimum Time to Visit All Houses
+// 3540. Minimum Time to Visit All Houses
 
 function minTotalTime(forward, backward, queries) {
     const ps1 = forward, ps2 = backward, n = ps1.length;

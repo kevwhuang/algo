@@ -1,4 +1,4 @@
-// 3561 - Resulting String After Adjacent Removals
+// 3561. Resulting String After Adjacent Removals
 
 function resultingString(s) {
     if (!this.S) S = new Uint8Array(100000);

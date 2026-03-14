@@ -1,4 +1,4 @@
-// 1437 - Check If All 1's Are at Least Length K Places Away
+// 1437. Check If All 1's Are at Least Length K Places Away
 
 function kLengthApart(nums, k) {
     if (k === 0) return true;

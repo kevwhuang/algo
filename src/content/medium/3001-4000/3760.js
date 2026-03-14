@@ -1,4 +1,4 @@
-// 3760 - Maximum Substrings With Distinct Start
+// 3760. Maximum Substrings With Distinct Start
 
 function maxDistinct(s) {
     const arr = new Uint8Array(26);

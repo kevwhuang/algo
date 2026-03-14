@@ -1,4 +1,4 @@
-// 2477 - Minimum Fuel Cost to Report to the Capital
+// 2477. Minimum Fuel Cost to Report to the Capital
 
 function minimumFuelCost(roads, seats) {
     function dfs(node, prev) {

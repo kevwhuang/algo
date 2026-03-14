@@ -1,4 +1,4 @@
-// 985 - Sum of Even Numbers After Queries
+// 985. Sum of Even Numbers After Queries
 
 function sumEvenAfterQueries(nums, queries) {
     let sum = nums.reduce((s, e) => s + (!(e & 1) ? e : 0), 0);

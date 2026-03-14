@@ -1,4 +1,4 @@
-// 120 - Triangle
+// 120. Triangle
 
 function minimumTotal(triangle) {
     for (let r = triangle.length - 2; r >= 0; r--) {

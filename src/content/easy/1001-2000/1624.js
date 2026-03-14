@@ -1,4 +1,4 @@
-// 1624 - Largest Substring Between Two Equal Characters
+// 1624. Largest Substring Between Two Equal Characters
 
 function maxLengthBetweenEqualCharacters(s) {
     let max = -1;

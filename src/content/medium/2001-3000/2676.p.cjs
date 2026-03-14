@@ -1,4 +1,4 @@
-// 2676 - Throttle
+// 2676. Throttle
 
 function throttle(fn, t) {
     function dfs() {

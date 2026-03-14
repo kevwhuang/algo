@@ -1,4 +1,4 @@
--- 1741 - Find Total Time Spent by Each Employee
+-- 1741. Find Total Time Spent by Each Employee
 
 SELECT
     event_day AS day,

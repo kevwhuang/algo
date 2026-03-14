@@ -1,4 +1,4 @@
--- 3626 - Find Stores With Inventory Imbalance
+-- 3626. Find Stores With Inventory Imbalance
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
-// 1953 - Maximum Number of Weeks for Which You Can Work
+// 1953. Maximum Number of Weeks for Which You Can Work
 
 function numberOfWeeks(milestones) {
     let sum = 0, max = -Infinity;

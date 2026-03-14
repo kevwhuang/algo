@@ -1,4 +1,4 @@
--- 2820 - Election Results
+-- 2820. Election Results
 
 WITH CTE1 AS (
     SELECT

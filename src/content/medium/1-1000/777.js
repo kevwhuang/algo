@@ -1,4 +1,4 @@
-// 777 - Swap Adjacent in LR String
+// 777. Swap Adjacent in LR String
 
 function canTransform(start, end) {
     let i = 0, j = 0;

@@ -1,4 +1,4 @@
-// 1504 - Count Submatrices With All Ones
+// 1504. Count Submatrices With All Ones
 
 function numSubmat(mat) {
     const m = mat.length, n = mat[0].length;

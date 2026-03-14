@@ -1,3 +1,3 @@
-// 1889 - Minimum Space Wasted From Packaging
+// 1889. Minimum Space Wasted From Packaging
 
 

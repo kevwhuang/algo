@@ -1,4 +1,4 @@
-// 2774 - Array Upper Bound
+// 2774. Array Upper Bound
 
 Array.prototype.upperBound = function (target) {
     let l = 0, r = this.length - 1;

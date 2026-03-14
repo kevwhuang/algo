@@ -1,4 +1,4 @@
-// 279 - Perfect Squares
+// 279. Perfect Squares
 
 function numSquares(n) {
     const sqrt = Math.sqrt(n);

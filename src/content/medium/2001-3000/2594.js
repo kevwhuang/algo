@@ -1,4 +1,4 @@
-// 2594 - Minimum Time to Repair Cars
+// 2594. Minimum Time to Repair Cars
 
 function repairCars(ranks, cars) {
     const min = Math.min(...ranks);

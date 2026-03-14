@@ -1,4 +1,4 @@
-// 2943 - Maximize Area of Square Hole in Grid
+// 2943. Maximize Area of Square Hole in Grid
 
 function maximizeSquareHoleArea(n, m, hBars, vBars) {
     function count(arr) {

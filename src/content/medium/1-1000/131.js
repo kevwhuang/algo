@@ -1,4 +1,4 @@
-// 131 - Palindrome Partitioning
+// 131. Palindrome Partitioning
 
 function partition(s) {
     function backtrack(i) {

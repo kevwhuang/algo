@@ -1,4 +1,4 @@
--- 1350 - Students With Invalid Departments
+-- 1350. Students With Invalid Departments
 
 SELECT
     id,

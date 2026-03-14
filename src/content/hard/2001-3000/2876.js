@@ -1,3 +1,3 @@
-// 2876 - Count Visited Nodes in a Directed Graph
+// 2876. Count Visited Nodes in a Directed Graph
 
 

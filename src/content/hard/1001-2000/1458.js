@@ -1,4 +1,4 @@
-// 1458 - Max Dot Product of Two Subsequences
+// 1458. Max Dot Product of Two Subsequences
 
 function maxDotProduct(nums1, nums2) {
     const m = nums1.length, n = nums2.length;

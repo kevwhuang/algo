@@ -1,4 +1,4 @@
-// 3019 - Number of Changing Keys
+// 3019. Number of Changing Keys
 
 function countKeyChanges(s) {
     let res = 0, cur = s[0].toLowerCase(), i = 0;

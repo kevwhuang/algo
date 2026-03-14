@@ -1,4 +1,4 @@
--- 2793 - Status of Flight Tickets
+-- 2793. Status of Flight Tickets
 
 WITH CTE AS (
     SELECT

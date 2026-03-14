@@ -1,4 +1,4 @@
-// 2904 - Shortest and Lexicographically Smallest Beautiful String
+// 2904. Shortest and Lexicographically Smallest Beautiful String
 
 function shortestBeautifulSubstring(s, k) {
     let res;

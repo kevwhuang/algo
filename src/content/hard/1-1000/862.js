@@ -1,3 +1,3 @@
-// 862 - Shortest Subarray With Sum at Least K
+// 862. Shortest Subarray With Sum at Least K
 
 

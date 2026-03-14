@@ -1,4 +1,4 @@
-// 729 - My Calendar I
+// 729. My Calendar I
 
 class MyCalendar {
     constructor() {

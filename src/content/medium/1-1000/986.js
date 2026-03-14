@@ -1,4 +1,4 @@
-// 986 - Interval List Intersections
+// 986. Interval List Intersections
 
 function intervalIntersection(firstList, secondList) {
     const intersections = [];

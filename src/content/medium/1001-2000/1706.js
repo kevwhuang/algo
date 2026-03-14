@@ -1,4 +1,4 @@
-// 1706 - Where Will the Ball Fall
+// 1706. Where Will the Ball Fall
 
 function findBall(grid) {
     const m = grid.length, n = grid[0].length;

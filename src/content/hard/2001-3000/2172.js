@@ -1,3 +1,3 @@
-// 2172 - Maximum AND Sum of Array
+// 2172. Maximum AND Sum of Array
 
 

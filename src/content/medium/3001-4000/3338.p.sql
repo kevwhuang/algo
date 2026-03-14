@@ -1,4 +1,4 @@
--- 3338 - Second Highest Salary II
+-- 3338. Second Highest Salary II
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-# 2878 - Get the Size of a DataFrame
+# 2878. Get the Size of a DataFrame
 
 import pandas as pd
 

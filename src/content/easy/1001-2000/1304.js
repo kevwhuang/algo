@@ -1,4 +1,4 @@
-// 1304 - Find N Unique Integers Sum up to Zero
+// 1304. Find N Unique Integers Sum up to Zero
 
 function sumZero(n) {
     const arr = [];

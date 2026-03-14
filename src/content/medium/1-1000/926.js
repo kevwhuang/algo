@@ -1,4 +1,4 @@
-// 926 - Flip String to Monotone Increasing
+// 926. Flip String to Monotone Increasing
 
 function minFlipsMonoIncr(s) {
     let res = 0, acc = 0, i = 0;

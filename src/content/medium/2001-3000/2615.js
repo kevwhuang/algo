@@ -1,4 +1,4 @@
-// 2615 - Sum of Distances
+// 2615. Sum of Distances
 
 function distance(nums) {
     const map = new Map();

@@ -1,4 +1,4 @@
-// 1361 - Validate Binary Tree Nodes
+// 1361. Validate Binary Tree Nodes
 
 function validateBinaryTreeNodes(n, leftChild, rightChild) {
     function union(v1, v2) {

@@ -1,3 +1,3 @@
-// 2569 - Handling Sum Queries After Update
+// 2569. Handling Sum Queries After Update
 
 

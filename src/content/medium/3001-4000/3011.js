@@ -1,4 +1,4 @@
-// 3011 - Find If Array Can Be Sorted
+// 3011. Find If Array Can Be Sorted
 
 function canSortArray(nums) {
     function count(num) {

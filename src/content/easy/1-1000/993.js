@@ -1,4 +1,4 @@
-// 993 - Cousins in Binary Tree
+// 993. Cousins in Binary Tree
 
 function isCousins(root, x, y) {
     const queue = [root];

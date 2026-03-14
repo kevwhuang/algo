@@ -1,4 +1,4 @@
-// 3243 - Shortest Distance After Road Addition Queries I
+// 3243. Shortest Distance After Road Addition Queries I
 
 function shortestDistanceAfterQueries(n, queries) {
     const adj = Array.from({ length: n }, (_, i) => [i + 1]);

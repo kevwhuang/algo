@@ -1,4 +1,4 @@
--- 3475 - DNA Pattern Recognition
+-- 3475. DNA Pattern Recognition
 
 SELECT
     *,

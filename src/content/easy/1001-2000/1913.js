@@ -1,4 +1,4 @@
-// 1913 - Maximum Product Difference Between Two Pairs
+// 1913. Maximum Product Difference Between Two Pairs
 
 function maxProductDifference(nums) {
     nums = new Uint16Array(nums).sort();

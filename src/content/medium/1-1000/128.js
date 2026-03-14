@@ -1,4 +1,4 @@
-// 128 - Longest Consecutive Sequence
+// 128. Longest Consecutive Sequence
 
 function longestConsecutive(nums) {
     if (nums.length === 0) return 0;

@@ -1,4 +1,4 @@
-// 3446 - Sort Matrix by Diagonals
+// 3446. Sort Matrix by Diagonals
 
 function sortMatrix(grid) {
     const M = grid, n = M.length;

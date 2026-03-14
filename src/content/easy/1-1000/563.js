@@ -1,4 +1,4 @@
-// 563 - Binary Tree Tilt
+// 563. Binary Tree Tilt
 
 function findTilt(root) {
     function dfs(cur) {

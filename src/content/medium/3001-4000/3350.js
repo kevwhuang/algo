@@ -1,4 +1,4 @@
-// 3350 - Adjacent Increasing Subarrays Detection II
+// 3350. Adjacent Increasing Subarrays Detection II
 
 function maxIncreasingSubarrays(nums) {
     let max = 1, acc = 1, prev = 0;

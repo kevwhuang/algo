@@ -1,4 +1,4 @@
-// 179 - Largest Number
+// 179. Largest Number
 
 function largestNumber(nums) {
     nums.sort((a, b) => `${b}${a}` - `${a}${b}`);

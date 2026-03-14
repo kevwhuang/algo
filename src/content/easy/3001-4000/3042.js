@@ -1,4 +1,4 @@
-// 3042 - Count Prefix and Suffix Pairs I
+// 3042. Count Prefix and Suffix Pairs I
 
 function countPrefixSuffixPairs(words) {
     let pairs = 0;

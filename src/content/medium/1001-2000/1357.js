@@ -1,4 +1,4 @@
-// 1357 - Apply Discount Every N Orders
+// 1357. Apply Discount Every N Orders
 
 class Cashier {
     constructor(n, discount, products, prices) {

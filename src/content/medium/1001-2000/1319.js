@@ -1,4 +1,4 @@
-// 1319 - Number of Operations to Make Network Connected
+// 1319. Number of Operations to Make Network Connected
 
 function makeConnected(n, connections) {
     if (n - 1 > connections.length) return -1;

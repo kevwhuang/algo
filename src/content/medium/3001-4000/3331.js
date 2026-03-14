@@ -1,4 +1,4 @@
-// 3331 - Find Subtree Sizes After Changes
+// 3331. Find Subtree Sizes After Changes
 
 function findSubtreeSizes(parent, s) {
     function dfs(node) {

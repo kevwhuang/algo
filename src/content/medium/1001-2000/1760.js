@@ -1,4 +1,4 @@
-// 1760 - Minimum Limit of Balls in a Bag
+// 1760. Minimum Limit of Balls in a Bag
 
 function minimumSize(nums, maxOperations) {
     let l = 1, r = 1e9;

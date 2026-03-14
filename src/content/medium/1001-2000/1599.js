@@ -1,4 +1,4 @@
-// 1599 - Maximum Profit of Operating a Centennial Wheel
+// 1599. Maximum Profit of Operating a Centennial Wheel
 
 function minOperationsMaxProfit(customers, boardingCost, runningCost) {
     function rotate() {

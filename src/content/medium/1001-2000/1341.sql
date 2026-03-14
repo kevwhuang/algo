@@ -1,4 +1,4 @@
--- 1341 - Movie Rating
+-- 1341. Movie Rating
 
 (
     SELECT

@@ -1,3 +1,3 @@
-// 3615 - Longest Palindromic Path in Graph
+// 3615. Longest Palindromic Path in Graph
 
 

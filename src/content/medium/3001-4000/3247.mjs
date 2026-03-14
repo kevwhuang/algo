@@ -1,4 +1,4 @@
-// 3247 - Number of Subsequences With Odd Sum
+// 3247. Number of Subsequences With Odd Sum
 
 function subsequenceCount(nums) {
     for (let i = 0; i < nums.length; i++) {

@@ -1,4 +1,4 @@
-// 742 - Closest Leaf in a Binary Tree
+// 742. Closest Leaf in a Binary Tree
 
 function findClosestLeaf(root, k) {
     function dfs(node) {

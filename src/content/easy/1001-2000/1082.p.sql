@@ -1,4 +1,4 @@
--- 1082 - Sales Analysis I
+-- 1082. Sales Analysis I
 
 SELECT
     seller_id

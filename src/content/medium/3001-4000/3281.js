@@ -1,4 +1,4 @@
-// 3281 - Maximize Score of Numbers in Ranges
+// 3281. Maximize Score of Numbers in Ranges
 
 function maxPossibleScore(start, d) {
     const nums = new Uint32Array(start).sort();

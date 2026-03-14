@@ -1,3 +1,3 @@
-// 2719 - Count of Integers
+// 2719. Count of Integers
 
 

@@ -1,4 +1,4 @@
-// 2740 - Find the Value of the Partition
+// 2740. Find the Value of the Partition
 
 function findValueOfPartition(nums) {
     nums.sort((a, b) => a - b);

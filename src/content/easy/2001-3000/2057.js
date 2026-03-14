@@ -1,4 +1,4 @@
-// 2057 - Smallest Index With Equal Value
+// 2057. Smallest Index With Equal Value
 
 function smallestEqual(nums) {
     for (let i = 0; i < nums.length; i++) {

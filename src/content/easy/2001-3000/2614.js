@@ -1,4 +1,4 @@
-// 2614 - Prime in Diagonal
+// 2614. Prime in Diagonal
 
 function diagonalPrime(nums) {
     function isPrime(num) {

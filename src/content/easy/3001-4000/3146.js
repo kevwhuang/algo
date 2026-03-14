@@ -1,4 +1,4 @@
-// 3146 - Permutation Difference Between Two Strings
+// 3146. Permutation Difference Between Two Strings
 
 function findPermutationDifference(s, t) {
     const map = new Map();

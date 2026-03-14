@@ -1,4 +1,4 @@
-// 3787 - Find Diameter Endpoints of a Tree
+// 3787. Find Diameter Endpoints of a Tree
 
 function findSpecialNodes(n, edges) {
     function fn(Q) {

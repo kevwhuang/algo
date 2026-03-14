@@ -1,4 +1,4 @@
-// 2441 - Largest Positive Integer That Exists With Its Negative
+// 2441. Largest Positive Integer That Exists With Its Negative
 
 function findMaxK(nums) {
     let max = -1;

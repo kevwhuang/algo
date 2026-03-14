@@ -1,4 +1,4 @@
-// 3048 - Earliest Second to Mark Indices I
+// 3048. Earliest Second to Mark Indices I
 
 function earliestSecondToMarkIndices(nums, changeIndices) {
     changeIndices.forEach((_, i) => changeIndices[i]--);

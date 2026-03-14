@@ -1,4 +1,4 @@
-// 3522 - Calculate Score After Performing Instructions
+// 3522. Calculate Score After Performing Instructions
 
 function calculateScore(instructions, values) {
     let res = 0, cur, i = 0;

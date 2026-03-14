@@ -45,5 +45,3 @@ class HashTable {
         return res;
     }
 }
-
-module.exports = HashTable;

@@ -1,4 +1,4 @@
-// 2240 - Number of Ways to Buy Pens and Pencils
+// 2240. Number of Ways to Buy Pens and Pencils
 
 function waysToBuyPensPencils(total, cost1, cost2) {
     if (cost1 < cost2) [cost1, cost2] = [cost2, cost1];

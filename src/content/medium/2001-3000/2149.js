@@ -1,4 +1,4 @@
-// 2149 - Rearrange Array Elements by Sign
+// 2149. Rearrange Array Elements by Sign
 
 function rearrangeArray(nums) {
     const res = [];

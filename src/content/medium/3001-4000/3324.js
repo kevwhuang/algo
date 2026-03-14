@@ -1,4 +1,4 @@
-// 3324 - Find the Sequence of Strings Appeared on the Screen
+// 3324. Find the Sequence of Strings Appeared on the Screen
 
 function stringSequence(target) {
     const res = [];

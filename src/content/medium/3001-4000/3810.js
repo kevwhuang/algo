@@ -1,4 +1,4 @@
-// 3810 - Minimum Operations to Reach Target Array
+// 3810. Minimum Operations to Reach Target Array
 
 function minOperations(nums, target) {
     const set = new Set();

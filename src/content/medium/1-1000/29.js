@@ -1,4 +1,4 @@
-// 29 - Divide Two Integers
+// 29. Divide Two Integers
 
 function divide(dividend, divisor) {
     const quotient = Math.trunc(dividend / divisor);

@@ -1,4 +1,4 @@
-// 1490 - Clone N-Ary Tree
+// 1490. Clone N-Ary Tree
 
 function cloneTree(root) {
     if (!root) return;

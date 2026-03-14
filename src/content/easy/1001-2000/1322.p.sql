@@ -1,4 +1,4 @@
--- 1322 - Ads Performance
+-- 1322. Ads Performance
 
 SELECT
     ad_id,

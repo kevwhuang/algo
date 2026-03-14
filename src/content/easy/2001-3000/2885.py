@@ -1,4 +1,4 @@
-# 2885 - Rename Columns
+# 2885. Rename Columns
 
 import pandas as pd
 

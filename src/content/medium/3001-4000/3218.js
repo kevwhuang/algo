@@ -1,4 +1,4 @@
-// 3218 - Minimum Cost for Cutting Cake I
+// 3218. Minimum Cost for Cutting Cake I
 
 function minimumCost(m, n, horizontalCut, verticalCut) {
     m--, n--;

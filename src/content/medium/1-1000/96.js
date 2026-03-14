@@ -1,4 +1,4 @@
-// 96 - Unique Binary Search Trees
+// 96. Unique Binary Search Trees
 
 function numTrees(n) {
     let trees = 1;

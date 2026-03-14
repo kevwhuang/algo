@@ -1,4 +1,4 @@
--- 1677 - Product's Worth Over Invoices
+-- 1677. Product's Worth Over Invoices
 
 SELECT
     name,

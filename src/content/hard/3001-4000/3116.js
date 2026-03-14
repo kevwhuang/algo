@@ -1,3 +1,3 @@
-// 3116 - Kth Smallest Amount With Single Denomination Combination
+// 3116. Kth Smallest Amount With Single Denomination Combination
 
 

@@ -1,4 +1,4 @@
-// 1648 - Sell Diminishing-Valued Colored Balls
+// 1648. Sell Diminishing-Valued Colored Balls
 
 function maxProfit(inventory, orders) {
     let res = 0n, i = 0;

@@ -1,4 +1,4 @@
-// 1053 - Previous Permutation With One Swap
+// 1053. Previous Permutation With One Swap
 
 function prevPermOpt1(arr) {
     let i = arr.length - 2;

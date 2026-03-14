@@ -1,4 +1,4 @@
-// 2129 - Capitalize the Title
+// 2129. Capitalize the Title
 
 function capitalizeTitle(title) {
     title = title.split(' ');

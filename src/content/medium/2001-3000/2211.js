@@ -1,4 +1,4 @@
-// 2211 - Count Collisions on a Road
+// 2211. Count Collisions on a Road
 
 function countCollisions(directions) {
     let l = 0;

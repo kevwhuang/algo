@@ -1,4 +1,4 @@
-// 3775 - Reverse Words With Same Vowel Count
+// 3775. Reverse Words With Same Vowel Count
 
 function reverseWords(s) {
     let res = '', tgt = 0, acc, i = 0, l;

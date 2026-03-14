@@ -1,4 +1,4 @@
-// 1010 - Pairs of Songs With Total Durations Divisible by 60
+// 1010. Pairs of Songs With Total Durations Divisible by 60
 
 function numPairsDivisibleBy60(time) {
     let pairs = 0;

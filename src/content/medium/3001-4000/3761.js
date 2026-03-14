@@ -1,4 +1,4 @@
-// 3761 - Minimum Absolute Distance Between Mirror Pairs
+// 3761. Minimum Absolute Distance Between Mirror Pairs
 
 function minMirrorPairDistance(nums) {
     let res = Infinity, i = -1;

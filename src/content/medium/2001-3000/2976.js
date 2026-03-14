@@ -1,4 +1,4 @@
-// 2976 - Minimum Cost to Convert String I
+// 2976. Minimum Cost to Convert String I
 
 function minimumCost(source, target, original, changed, cost) {
     const mapper = () => new Array(26).fill(Infinity);

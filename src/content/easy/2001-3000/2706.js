@@ -1,4 +1,4 @@
-// 2706 - Buy Two Chocolates
+// 2706. Buy Two Chocolates
 
 function buyChoco(prices, money) {
     prices.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 2381 - Shifting Letters II
+// 2381. Shifting Letters II
 
 function shiftingLetters(s, shifts) {
     const arr = new Array(s.length + 1).fill(0);

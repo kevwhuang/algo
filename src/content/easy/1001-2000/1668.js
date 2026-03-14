@@ -1,4 +1,4 @@
-// 1668 - Maximum Repeating Substring
+// 1668. Maximum Repeating Substring
 
 function maxRepeating(sequence, word) {
     let res = 0, s = word;

@@ -1,4 +1,4 @@
-// 3674 - Minimum Operations to Equalize Array
+// 3674. Minimum Operations to Equalize Array
 
 function minOperations(nums) {
     let i = 0;

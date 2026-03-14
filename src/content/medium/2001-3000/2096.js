@@ -1,4 +1,4 @@
-// 2096 - Step-by-Step Directions From a Binary Tree Node to Another
+// 2096. Step-by-Step Directions From a Binary Tree Node to Another
 
 function getDirections(root, startValue, destValue) {
     function dfs1(node, parent) {

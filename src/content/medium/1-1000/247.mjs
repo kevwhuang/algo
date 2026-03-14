@@ -1,4 +1,4 @@
-// 247 - Strobogrammatic Number II
+// 247. Strobogrammatic Number II
 
 function findStrobogrammatic(n) {
     function backtrack(cur) {

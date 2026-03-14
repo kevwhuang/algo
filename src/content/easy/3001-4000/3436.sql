@@ -1,4 +1,4 @@
--- 3436 - Find Valid Emails
+-- 3436. Find Valid Emails
 
 SELECT
     *

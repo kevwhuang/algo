@@ -1,4 +1,4 @@
-// 1379 - Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+// 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
 
 function getTargetCopy(original, cloned, target) {
     if (!original) return;

@@ -1,4 +1,4 @@
-// 3311 - Construct 2D Grid Matching Graph Layout
+// 3311. Construct 2D Grid Matching Graph Layout
 
 function constructGridLayout(n, edges) {
     const adj = Array.from({ length: n }, () => new Set());

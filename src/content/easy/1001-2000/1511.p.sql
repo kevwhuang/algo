@@ -1,4 +1,4 @@
--- 1511 - Customer Order Frequency
+-- 1511. Customer Order Frequency
 
 SELECT
     customer_id,

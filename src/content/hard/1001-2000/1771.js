@@ -1,3 +1,3 @@
-// 1771 - Maximize Palindrome Length From Subsequences
+// 1771. Maximize Palindrome Length From Subsequences
 
 

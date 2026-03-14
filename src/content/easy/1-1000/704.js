@@ -1,4 +1,4 @@
-// 704 - Binary Search
+// 704. Binary Search
 
 function search(nums, target) {
     let l = 0, r = nums.length - 1;

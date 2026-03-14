@@ -1,4 +1,4 @@
-// 1546 - Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+// 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 
 function maxNonOverlapping(nums, target) {
     let subarrays = 0, acc = 0, set = new Set();

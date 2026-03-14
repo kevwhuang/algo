@@ -1,4 +1,4 @@
-// 2910 - Minimum Number of Groups to Create a Valid Assignment
+// 2910. Minimum Number of Groups to Create a Valid Assignment
 
 function minGroupsForValidAssignment(balls) {
     const map = new Map();

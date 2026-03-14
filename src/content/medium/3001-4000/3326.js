@@ -1,4 +1,4 @@
-// 3326 - Minimum Division Operations to Make Array Non-Decreasing
+// 3326. Minimum Division Operations to Make Array Non-Decreasing
 
 function minOperations(nums) {
     function init() {

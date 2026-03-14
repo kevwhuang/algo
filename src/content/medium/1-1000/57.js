@@ -1,4 +1,4 @@
-// 57 - Insert Interval
+// 57. Insert Interval
 
 function insert(intervals, newInterval) {
     intervals.push(newInterval);

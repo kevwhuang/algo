@@ -1,4 +1,4 @@
-// 1372 - Longest Zigzag Path in a Binary Tree
+// 1372. Longest Zigzag Path in a Binary Tree
 
 function longestZigZag(root) {
     function dfs(node, left, depth) {

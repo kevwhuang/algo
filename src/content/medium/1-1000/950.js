@@ -1,4 +1,4 @@
-// 950 - Reveal Cards in Increasing Order
+// 950. Reveal Cards in Increasing Order
 
 function deckRevealedIncreasing(deck) {
     deck.sort((a, b) => a - b);

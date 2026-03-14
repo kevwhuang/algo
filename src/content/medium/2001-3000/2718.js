@@ -1,4 +1,4 @@
-// 2718 - Sum of Matrix After Queries
+// 2718. Sum of Matrix After Queries
 
 function matrixSumQueries(n, queries) {
     let sum = 0;

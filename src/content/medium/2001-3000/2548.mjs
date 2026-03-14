@@ -1,4 +1,4 @@
-// 2548 - Maximum Price to Fill a Bag
+// 2548. Maximum Price to Fill a Bag
 
 function maxPrice(items, capacity) {
     items.sort((a, b) => b[0] / b[1] - a[0] / a[1]);

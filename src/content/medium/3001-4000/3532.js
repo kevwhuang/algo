@@ -1,4 +1,4 @@
-// 3532 - Path Existence Queries in a Graph I
+// 3532. Path Existence Queries in a Graph I
 
 function pathExistenceQueries(n, nums, maxDiff, queries) {
     const uf = new Uint32Array(n);

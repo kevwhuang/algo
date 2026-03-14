@@ -1,4 +1,4 @@
-// 2310 - Sum of Numbers With Units Digit K
+// 2310. Sum of Numbers With Units Digit K
 
 function minimumNumbers(num, k) {
     if (num === 0) return 0;

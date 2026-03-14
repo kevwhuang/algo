@@ -1,4 +1,4 @@
-// 2535 - Difference Between Element Sum and Digit Sum of an Array
+// 2535. Difference Between Element Sum and Digit Sum of an Array
 
 function differenceOfSum(nums) {
     let elementSum = 0, digitSum = 0;

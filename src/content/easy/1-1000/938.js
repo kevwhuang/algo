@@ -1,4 +1,4 @@
-// 938 - Range Sum of BST
+// 938. Range Sum of BST
 
 function rangeSumBST(root, low, high) {
     function dfs(cur) {

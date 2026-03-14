@@ -1,4 +1,4 @@
-// 2810 - Faulty Keyboard
+// 2810. Faulty Keyboard
 
 function finalString(s) {
     const res = [];

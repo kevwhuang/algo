@@ -1,4 +1,4 @@
-// 245 - Shortest Word Distance III
+// 245. Shortest Word Distance III
 
 function shortestWordDistance(wordsDict, word1, word2) {
     let min = Infinity, prev1, prev2;

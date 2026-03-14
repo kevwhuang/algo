@@ -1,4 +1,4 @@
-// 1654 - Minimum Jumps to Reach Home
+// 1654. Minimum Jumps to Reach Home
 
 function minimumJumps(forbidden, a, b, x) {
     if (x === 0) return 0;

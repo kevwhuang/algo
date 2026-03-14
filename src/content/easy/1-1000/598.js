@@ -1,4 +1,4 @@
-// 598 - Range Addition II
+// 598. Range Addition II
 
 function maxCount(m, n, ops) {
     if (ops.length === 0) return m * n;

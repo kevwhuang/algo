@@ -1,4 +1,4 @@
-// 3572 - Maximize Y-Sum by Picking a Triplet of Distinct X-Values
+// 3572. Maximize Y-Sum by Picking a Triplet of Distinct X-Values
 
 function maxSumDistinctTriplet(x, y) {
     let a = 0, b = 0, c = 0, aa = 0, bb = 0, cc = 0, i = -1;

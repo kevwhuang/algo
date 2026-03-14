@@ -1,4 +1,4 @@
-// 3083 - Existence of a Substring in a String and Its Reverse
+// 3083. Existence of a Substring in a String and Its Reverse
 
 function isSubstringPresent(s) {
     const set = new Set();

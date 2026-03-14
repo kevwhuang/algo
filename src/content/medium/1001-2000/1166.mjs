@@ -1,4 +1,4 @@
-// 1166 - Design File System
+// 1166. Design File System
 
 class FileSystem {
     constructor() {

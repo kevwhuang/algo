@@ -1,4 +1,4 @@
-// 1091 - Shortest Path in Binary Matrix
+// 1091. Shortest Path in Binary Matrix
 
 function shortestPathBinaryMatrix(grid) {
     const M = grid, n = M.length, nn = n - 1;

@@ -1,4 +1,4 @@
-// 1996 - The Number of Weak Characters in the Game
+// 1996. The Number of Weak Characters in the Game
 
 function numberOfWeakCharacters(properties) {
     properties.sort((a, b) => a[0] - b[0] || b[1] - a[1]);

@@ -1,4 +1,4 @@
-// 1093 - Statistics From a Large Sample
+// 1093. Statistics From a Large Sample
 
 function sampleStats(count) {
     let min, max, mode = 0, samples = 0, sum = 0;

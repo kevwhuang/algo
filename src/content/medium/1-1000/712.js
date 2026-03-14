@@ -1,4 +1,4 @@
-// 712 - Minimum ASCII Delete Sum for Two Strings
+// 712. Minimum ASCII Delete Sum for Two Strings
 
 function minimumDeleteSum(s1, s2) {
     let sum = 0;

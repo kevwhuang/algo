@@ -1,4 +1,4 @@
-// 3084 - Count Substrings Starting and Ending With Given Character
+// 3084. Count Substrings Starting and Ending With Given Character
 
 function countSubstrings(s, c) {
     let count = 0;

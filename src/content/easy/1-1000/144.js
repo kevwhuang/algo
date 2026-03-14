@@ -1,4 +1,4 @@
-// 144 - Binary Tree Preorder Traversal
+// 144. Binary Tree Preorder Traversal
 
 function preorderTraversal(root) {
     function dfs(node) {

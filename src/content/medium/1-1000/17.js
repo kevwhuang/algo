@@ -1,4 +1,4 @@
-// 17 - Letter Combinations of a Phone Number
+// 17. Letter Combinations of a Phone Number
 
 function letterCombinations(digits) {
     function dfs(i, cur) {

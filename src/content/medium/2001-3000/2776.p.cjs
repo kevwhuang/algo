@@ -1,4 +1,4 @@
-// 2776 - Convert Callback Based Function to Promise Based Function
+// 2776. Convert Callback Based Function to Promise Based Function
 
 function promisify(fn) {
     function res() {

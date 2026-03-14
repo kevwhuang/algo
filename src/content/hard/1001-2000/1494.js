@@ -1,3 +1,3 @@
-// 1494 - Parallel Courses II
+// 1494. Parallel Courses II
 
 

@@ -1,4 +1,4 @@
-// 3499 - Maximize Active Section With Trade I
+// 3499. Maximize Active Section With Trade I
 
 function maxActiveSectionsAfterTrade(s) {
     let res = 0, acc = 0, l = -1, r, i = 0;

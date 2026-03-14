@@ -1,4 +1,4 @@
-// 1665 - Minimum Initial Energy to Finish Tasks
+// 1665. Minimum Initial Energy to Finish Tasks
 
 function minimumEffort(tasks) {
     const arr = tasks.sort((a, b) => a[1] + b[0] - a[0] - b[1]);

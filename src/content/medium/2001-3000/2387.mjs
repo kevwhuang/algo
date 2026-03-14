@@ -1,4 +1,4 @@
-// 2387 - Median of a Row Wise Sorted Matrix
+// 2387. Median of a Row Wise Sorted Matrix
 
 function matrixMedian(grid) {
     const m = grid.length, n = grid[0].length;

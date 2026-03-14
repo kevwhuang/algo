@@ -1,4 +1,4 @@
--- 1532 - The Most Recent Three Orders
+-- 1532. The Most Recent Three Orders
 
 WITH CTE AS (
     SELECT

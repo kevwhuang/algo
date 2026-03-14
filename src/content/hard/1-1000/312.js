@@ -1,4 +1,4 @@
-// 312 - Burst Balloons
+// 312. Burst Balloons
 
 function maxCoins(nums) {
     const n = nums.length;

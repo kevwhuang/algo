@@ -1,4 +1,4 @@
-// 1233 - Remove Subfolders From the Filesystem
+// 1233. Remove Subfolders From the Filesystem
 
 function removeSubfolders(folder) {
     folder.sort();

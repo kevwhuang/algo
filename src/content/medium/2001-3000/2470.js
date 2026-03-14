@@ -1,4 +1,4 @@
-// 2470 - Number of Subarrays With LCM Equal to K
+// 2470. Number of Subarrays With LCM Equal to K
 
 function subarrayLCM(nums, k) {
     const lcm = (a, b) => a * b / gcd(a, b);

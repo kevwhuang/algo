@@ -1,4 +1,4 @@
-// 2959 - Number of Possible Sets of Closing Branches
+// 2959. Number of Possible Sets of Closing Branches
 
 function numberOfSets(n, maxDistance, roads) {
     function backtrack(i) {

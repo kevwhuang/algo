@@ -1,4 +1,4 @@
-// 987 - Vertical Order Traversal of a Binary Tree
+// 987. Vertical Order Traversal of a Binary Tree
 
 function verticalTraversal(root) {
     function dfs(node, i, j) {

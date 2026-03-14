@@ -1,4 +1,4 @@
-// 1725 - Number of Rectangles That Can Form the Largest Square
+// 1725. Number of Rectangles That Can Form the Largest Square
 
 function countGoodRectangles(rectangles) {
     let res = 0, max = 1;

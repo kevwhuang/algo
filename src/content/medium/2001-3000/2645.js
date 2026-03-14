@@ -1,4 +1,4 @@
-// 2645 - Minimum Additions to Make Valid String
+// 2645. Minimum Additions to Make Valid String
 
 function addMinimum(word) {
     let res = 0, cur = 'a', i = 0;

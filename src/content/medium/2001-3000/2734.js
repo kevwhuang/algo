@@ -1,4 +1,4 @@
-// 2734 - Lexicographically Smallest String After Substring Operation
+// 2734. Lexicographically Smallest String After Substring Operation
 
 function smallestString(s) {
     let l = 0;

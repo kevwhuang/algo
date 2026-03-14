@@ -1,4 +1,4 @@
-// 2431 - Maximize Total Tastiness of Purchased Fruits
+// 2431. Maximize Total Tastiness of Purchased Fruits
 
 function maxTastiness(price, tastiness, maxAmount, maxCoupons) {
     const m = maxAmount, n = maxCoupons;

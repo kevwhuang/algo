@@ -1,4 +1,4 @@
-// 3708 - Longest Fibonacci Subarray
+// 3708. Longest Fibonacci Subarray
 
 function longestSubarray(nums) {
     let res = 2, acc = 2, i = 1;

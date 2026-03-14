@@ -1,4 +1,4 @@
-// 544 - Output Contest Matches
+// 544. Output Contest Matches
 
 function findContestMatch(n) {
     let queue = new Array(n / 2), i = 0;

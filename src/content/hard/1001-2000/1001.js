@@ -1,3 +1,3 @@
-// 1001 - Grid Illumination
+// 1001. Grid Illumination
 
 

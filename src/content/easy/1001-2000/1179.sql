@@ -1,4 +1,4 @@
--- 1179 - Reformat Department Table
+-- 1179. Reformat Department Table
 
 SELECT
     id,

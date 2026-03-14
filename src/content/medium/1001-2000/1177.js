@@ -1,4 +1,4 @@
-// 1177 - Can Make Palindrome From Substring
+// 1177. Can Make Palindrome From Substring
 
 function canMakePaliQueries(s, queries) {
     const prefix = new Uint32Array(s.length);

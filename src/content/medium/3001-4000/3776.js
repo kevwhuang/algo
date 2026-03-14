@@ -1,4 +1,4 @@
-// 3776 - Minimum Moves to Balance Circular Array
+// 3776. Minimum Moves to Balance Circular Array
 
 function minMoves(balance) {
     function check(i, flag) {

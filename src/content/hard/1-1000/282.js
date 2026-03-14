@@ -1,4 +1,4 @@
-// 282 - Expression Add Operators
+// 282. Expression Add Operators
 
 function addOperators(num, target) {
     function backtrack(i, acc, prev, cur, s) {

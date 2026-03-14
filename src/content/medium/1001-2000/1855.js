@@ -1,4 +1,4 @@
-// 1855 - Maximum Distance Between a Pair of Values
+// 1855. Maximum Distance Between a Pair of Values
 
 function maxDistance(nums1, nums2) {
     let max = 0;

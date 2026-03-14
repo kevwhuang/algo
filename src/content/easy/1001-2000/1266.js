@@ -1,4 +1,4 @@
-// 1266 - Minimum Time Visiting All Points
+// 1266. Minimum Time Visiting All Points
 
 function minTimeToVisitAllPoints(points) {
     let time = 0;

@@ -1,4 +1,4 @@
-// 3744 - Find Kth Character in Expanded String
+// 3744. Find Kth Character in Expanded String
 
 function kthCharacter(s, k) {
     const n = s.length;

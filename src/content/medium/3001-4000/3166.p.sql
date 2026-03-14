@@ -1,4 +1,4 @@
--- 3166 - Calculate Parking Fees and Duration
+-- 3166. Calculate Parking Fees and Duration
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
--- 2308 - Arrange Table by Gender
+-- 2308. Arrange Table by Gender
 
 SELECT
     *

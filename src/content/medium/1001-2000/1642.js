@@ -1,4 +1,4 @@
-// 1642 - Furthest Building You Can Reach
+// 1642. Furthest Building You Can Reach
 
 function furthestBuilding(heights, bricks, ladders) {
     let i = 0;

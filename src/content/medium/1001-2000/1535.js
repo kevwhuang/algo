@@ -1,4 +1,4 @@
-// 1535 - Find the Winner of an Array Game
+// 1535. Find the Winner of an Array Game
 
 function getWinner(arr, k) {
     let winner = arr[0], wins = 0, i = 0;

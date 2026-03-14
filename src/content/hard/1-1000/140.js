@@ -1,4 +1,4 @@
-// 140 - Word Break II
+// 140. Word Break II
 
 function wordBreak(s, wordDict) {
     function backtrack(i, t) {

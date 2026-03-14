@@ -1,4 +1,4 @@
-// 2748 - Number of Beautiful Pairs
+// 2748. Number of Beautiful Pairs
 
 function countBeautifulPairs(nums) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

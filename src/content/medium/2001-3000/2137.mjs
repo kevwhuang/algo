@@ -1,4 +1,4 @@
-// 2137 - Pour Water Between Buckets to Make Water Levels Equal
+// 2137. Pour Water Between Buckets to Make Water Levels Equal
 
 function equalizeWater(buckets, loss) {
     let l = 0, r = Math.max(...buckets);

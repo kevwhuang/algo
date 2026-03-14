@@ -1,4 +1,4 @@
-// 1387 - Sort Integers by the Power Value
+// 1387. Sort Integers by the Power Value
 
 function getKth(lo, hi, k) {
     const powers = new Array(hi - lo + 1);

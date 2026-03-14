@@ -1,3 +1,3 @@
-// 1643 - Kth Smallest Instructions
+// 1643. Kth Smallest Instructions
 
 

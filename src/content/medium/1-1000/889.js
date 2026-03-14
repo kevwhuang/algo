@@ -1,4 +1,4 @@
-// 889 - Construct Binary Tree From Preorder and Postorder Traversal
+// 889. Construct Binary Tree From Preorder and Postorder Traversal
 
 function constructFromPrePost(preorder, postorder) {
     function dfs() {

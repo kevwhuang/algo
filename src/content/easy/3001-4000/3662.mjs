@@ -1,4 +1,4 @@
-// 3662 - Filter Characters by Frequency
+// 3662. Filter Characters by Frequency
 
 function filterCharacters(s, k) {
     const B = new Uint8Array(26);

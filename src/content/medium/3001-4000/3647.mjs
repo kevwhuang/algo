@@ -1,4 +1,4 @@
-// 3647 - Maximum Weight in Two Bags
+// 3647. Maximum Weight in Two Bags
 
 function maxWeight(weights, w1, w2) {
     if (!this.dp1) dp1 = new Array(301), dp2 = new Array(301);

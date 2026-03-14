@@ -1,4 +1,4 @@
-// 1477 - Find Two Non-Overlapping Subarrays Each With Target Sum
+// 1477. Find Two Non-Overlapping Subarrays Each With Target Sum
 
 function minSumOfLengths(arr, target) {
     let res = Infinity, min = Infinity, acc = 0;

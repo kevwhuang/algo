@@ -1,4 +1,4 @@
--- 2669 - Count Artist Occurrences on Spotify Ranking List
+-- 2669. Count Artist Occurrences on Spotify Ranking List
 
 SELECT
     artist,

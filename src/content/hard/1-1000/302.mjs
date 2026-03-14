@@ -1,4 +1,4 @@
-// 302 - Smallest Rectangle Enclosing Black Pixels
+// 302. Smallest Rectangle Enclosing Black Pixels
 
 function minArea(image, x, y) {
     function find(l, r, fn) {

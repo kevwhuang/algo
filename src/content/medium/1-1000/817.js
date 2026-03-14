@@ -1,4 +1,4 @@
-// 817 - Linked List Components
+// 817. Linked List Components
 
 function numComponents(head, nums) {
     nums = new Set(nums);

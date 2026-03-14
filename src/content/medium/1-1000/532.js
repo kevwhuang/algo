@@ -1,4 +1,4 @@
-// 532 - K-Diff Pairs in an Array
+// 532. K-Diff Pairs in an Array
 
 function findPairs(nums, k) {
     const map = new Map();

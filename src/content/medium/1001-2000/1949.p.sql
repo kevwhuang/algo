@@ -1,4 +1,4 @@
--- 1949 - Strong Friendship
+-- 1949. Strong Friendship
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 2042 - Check If Numbers Are Ascending in a Sentence
+// 2042. Check If Numbers Are Ascending in a Sentence
 
 function areNumbersAscending(s) {
     let prev = 0;

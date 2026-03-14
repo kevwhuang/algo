@@ -1,4 +1,4 @@
-// 2332 - The Latest Time to Catch a Bus
+// 2332. The Latest Time to Catch a Bus
 
 function latestTimeCatchTheBus(buses, passengers, capacity) {
     buses = new Uint32Array(buses).sort();

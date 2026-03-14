@@ -1,4 +1,4 @@
-// 2170 - Minimum Operations to Make the Array Alternating
+// 2170. Minimum Operations to Make the Array Alternating
 
 function minimumOperations(nums) {
     function compute(start) {

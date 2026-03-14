@@ -1,4 +1,4 @@
-// 1742 - Maximum Number of Balls in a Box
+// 1742. Maximum Number of Balls in a Box
 
 function countBalls(lowLimit, highLimit) {
     let max = 1;

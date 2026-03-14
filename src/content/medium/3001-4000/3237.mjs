@@ -1,4 +1,4 @@
-// 3237 - Alt and Tab Simulation
+// 3237. Alt and Tab Simulation
 
 function simulationResult(windows, queries) {
     const set = new Set();

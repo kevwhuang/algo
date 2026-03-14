@@ -1,4 +1,4 @@
-// 3641 - Longest Semi-Repeating Subarray
+// 3641. Longest Semi-Repeating Subarray
 
 function longestSubarray(nums, k) {
     if (!this.B) B = new Uint32Array(100001);

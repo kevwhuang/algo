@@ -1,4 +1,4 @@
-// 2765 - Longest Alternating Subarray
+// 2765. Longest Alternating Subarray
 
 function alternatingSubarray(nums) {
     let max = -1;

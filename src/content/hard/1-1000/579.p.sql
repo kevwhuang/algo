@@ -1,4 +1,4 @@
--- 579 - Find Cumulative Salary of an Employee
+-- 579. Find Cumulative Salary of an Employee
 
 SELECT
     E1.id,

@@ -1,4 +1,4 @@
--- 3278 - Find Candidates for Data Scientist Position II
+-- 3278. Find Candidates for Data Scientist Position II
 
 WITH CTE1 AS (
     SELECT

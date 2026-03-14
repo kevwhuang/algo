@@ -1,4 +1,4 @@
-// 3651 - Minimum Cost Path With Teleportations
+// 3651. Minimum Cost Path With Teleportations
 
 function minCost(grid, k) {
     const m = grid.length, n = grid[0].length, nn = m * n;

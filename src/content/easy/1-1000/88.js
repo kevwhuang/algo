@@ -1,4 +1,4 @@
-// 88 - Merge Sorted Array
+// 88. Merge Sorted Array
 
 function merge(nums1, m, nums2, n) {
     let i = m - 1, j = n - 1;

@@ -1,4 +1,4 @@
-// 3423 - Maximum Difference Between Adjacent Elements in a Circular Array
+// 3423. Maximum Difference Between Adjacent Elements in a Circular Array
 
 function maxAdjacentDistance(nums) {
     let res = Math.abs(nums[0] - nums.at(-1)), i = 0;

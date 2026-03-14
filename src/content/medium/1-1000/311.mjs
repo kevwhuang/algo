@@ -1,4 +1,4 @@
-// 311 - Sparse Matrix Multiplication
+// 311. Sparse Matrix Multiplication
 
 function multiply(mat1, mat2) {
     const m = mat1.length, n = mat2[0].length;

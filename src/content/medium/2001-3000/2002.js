@@ -1,4 +1,4 @@
-// 2002 - Maximum Product of the Length of Two Palindromic Subsequences
+// 2002. Maximum Product of the Length of Two Palindromic Subsequences
 
 function maxProduct(s) {
     const arr1 = [], arr2 = [];

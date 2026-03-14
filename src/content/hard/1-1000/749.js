@@ -1,4 +1,4 @@
-// 749 - Contain Virus
+// 749. Contain Virus
 
 function containVirus(isInfected) {
     function check(r, c) {

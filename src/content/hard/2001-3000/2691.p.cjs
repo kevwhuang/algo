@@ -1,4 +1,4 @@
-// 2691 - Immutability Helper
+// 2691. Immutability Helper
 
 class ImmutableHelper {
     constructor(obj) {

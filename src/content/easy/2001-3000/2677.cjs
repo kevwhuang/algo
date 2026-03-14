@@ -1,4 +1,4 @@
-// 2677 - Chunk Array
+// 2677. Chunk Array
 
 function chunk(arr, size) {
     const res = new Array(Math.ceil(arr.length / size));

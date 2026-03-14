@@ -1,4 +1,4 @@
-// 2980 - Check If Bitwise OR Has Trailing Zeros
+// 2980. Check If Bitwise OR Has Trailing Zeros
 
 function hasTrailingZeros(nums) {
     let count = 0;

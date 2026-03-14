@@ -1,3 +1,3 @@
-// 3448 - Count Substrings Divisible by Last Digit
+// 3448. Count Substrings Divisible by Last Digit
 
 

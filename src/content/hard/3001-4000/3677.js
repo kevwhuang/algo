@@ -1,3 +1,3 @@
-// 3677 - Count Binary Palindromic Numbers
+// 3677. Count Binary Palindromic Numbers
 
 

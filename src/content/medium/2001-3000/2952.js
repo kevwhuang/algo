@@ -1,4 +1,4 @@
-// 2952 - Minimum Number of Coins to Be Added
+// 2952. Minimum Number of Coins to Be Added
 
 function minimumAddedCoins(coins, target) {
     coins = new Uint32Array(coins).sort();

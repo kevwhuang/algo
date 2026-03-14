@@ -1,3 +1,3 @@
-// 1755 - Closest Subsequence Sum
+// 1755. Closest Subsequence Sum
 
 

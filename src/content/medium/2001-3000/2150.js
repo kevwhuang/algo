@@ -1,4 +1,4 @@
-// 2150 - Find All Lonely Numbers in the Array
+// 2150. Find All Lonely Numbers in the Array
 
 function findLonely(nums) {
     const map = new Map();

@@ -1,4 +1,4 @@
--- 2346 - Compute the Rank as a Percentage
+-- 2346. Compute the Rank as a Percentage
 
 SELECT
     student_id,

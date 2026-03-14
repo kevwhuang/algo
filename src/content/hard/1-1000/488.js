@@ -1,3 +1,3 @@
-// 488 - Zuma Game
+// 488. Zuma Game
 
 

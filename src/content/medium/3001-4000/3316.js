@@ -1,4 +1,4 @@
-// 3316 - Find Maximum Removals From Source String
+// 3316. Find Maximum Removals From Source String
 
 function maxRemovals(source, pattern, targetIndices) {
     const arr = targetIndices, m = arr.length, n = pattern.length;

@@ -1,4 +1,4 @@
-// 2121 - Intervals Between Identical Elements
+// 2121. Intervals Between Identical Elements
 
 function getDistances(arr) {
     const map = new Map();

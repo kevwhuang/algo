@@ -1,4 +1,4 @@
-// 3024 - Type of Triangle II
+// 3024. Type of Triangle II
 
 function triangleType(nums) {
     const a = nums[0], b = nums[1], c = nums[2];

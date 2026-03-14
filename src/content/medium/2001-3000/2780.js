@@ -1,4 +1,4 @@
-// 2780 - Minimum Index of a Valid Split
+// 2780. Minimum Index of a Valid Split
 
 function minimumIndex(nums) {
     let dominant, max = 0;

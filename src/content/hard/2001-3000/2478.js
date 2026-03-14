@@ -1,3 +1,3 @@
-// 2478 - Number of Beautiful Partitions
+// 2478. Number of Beautiful Partitions
 
 

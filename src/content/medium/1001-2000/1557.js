@@ -1,4 +1,4 @@
-// 1557 - Minimum Number of Vertices to Reach All Nodes
+// 1557. Minimum Number of Vertices to Reach All Nodes
 
 function findSmallestSetOfVertices(n, edges) {
     const set = new Set();

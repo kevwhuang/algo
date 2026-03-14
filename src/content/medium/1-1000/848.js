@@ -1,4 +1,4 @@
-// 848 - Shifting Letters
+// 848. Shifting Letters
 
 function shiftingLetters(s, shifts) {
     for (let i = shifts.length - 2; i >= 0; i--) {

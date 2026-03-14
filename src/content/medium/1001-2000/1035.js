@@ -1,4 +1,4 @@
-// 1035 - Uncrossed Lines
+// 1035. Uncrossed Lines
 
 function maxUncrossedLines(nums1, nums2) {
     const m = nums1.length, n = nums2.length;

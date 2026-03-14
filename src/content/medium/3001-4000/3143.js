@@ -1,4 +1,4 @@
-// 3143 - Maximum Points Inside the Square
+// 3143. Maximum Points Inside the Square
 
 function maxPointsInsideSquare(points, s) {
     for (let i = 0; i < points.length; i++) {

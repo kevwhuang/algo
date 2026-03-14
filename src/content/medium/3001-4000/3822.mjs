@@ -1,4 +1,4 @@
-// 3822 - Design Order Management System
+// 3822. Design Order Management System
 
 class OrderManagementSystem {
     constructor() {

@@ -1,4 +1,4 @@
-// 1716 - Calculate Money in LeetCode Bank
+// 1716. Calculate Money in LeetCode Bank
 
 function totalMoney(n) {
     let sum = 0;

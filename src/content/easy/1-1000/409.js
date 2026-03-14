@@ -1,4 +1,4 @@
-// 409 - Longest Palindrome
+// 409. Longest Palindrome
 
 function longestPalindrome(s) {
     const map = new Map();

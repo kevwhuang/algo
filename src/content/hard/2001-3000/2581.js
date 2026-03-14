@@ -1,3 +1,3 @@
-// 2581 - Count Number of Possible Root Nodes
+// 2581. Count Number of Possible Root Nodes
 
 

@@ -1,4 +1,4 @@
-// 1145 - Binary Tree Coloring Game
+// 1145. Binary Tree Coloring Game
 
 function btreeGameWinningMove(root, n, x) {
     function dfs1(node) {

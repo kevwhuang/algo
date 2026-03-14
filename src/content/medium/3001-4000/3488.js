@@ -1,4 +1,4 @@
-// 3488 - Closest Equal Element Queries
+// 3488. Closest Equal Element Queries
 
 function solveQueries(nums, queries) {
     const map = new Map(), n = nums.length;

@@ -1,3 +1,3 @@
-// 1803 - Count Pairs With XOR in a Range
+// 1803. Count Pairs With XOR in a Range
 
 

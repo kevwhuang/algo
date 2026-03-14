@@ -1,4 +1,4 @@
-// 2873 - Maximum Value of an Ordered Triplet I
+// 2873. Maximum Value of an Ordered Triplet I
 
 function maximumTripletValue(nums) {
     const postMax = new Array(nums.length);

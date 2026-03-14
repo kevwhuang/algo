@@ -1,4 +1,4 @@
-// 2297 - Jump Game VIII
+// 2297. Jump Game VIII
 
 function minCost(nums, costs) {
     const n = nums.length;

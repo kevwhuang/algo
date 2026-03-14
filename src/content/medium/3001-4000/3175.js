@@ -1,4 +1,4 @@
-// 3175 - Find the First Player to Win K Games in a Row
+// 3175. Find the First Player to Win K Games in a Row
 
 function findWinningPlayer(skills, k) {
     let wins = 0, i = 0, j = 1;

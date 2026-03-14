@@ -1,4 +1,4 @@
-// 3659 - Partition Array Into K-Distinct Groups
+// 3659. Partition Array Into K-Distinct Groups
 
 function partitionArray(nums, k) {
     const B = new Map(), n = nums.length, tgt = n / k;

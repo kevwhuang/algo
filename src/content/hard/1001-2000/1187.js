@@ -1,3 +1,3 @@
-// 1187 - Make Array Strictly Increasing
+// 1187. Make Array Strictly Increasing
 
 

@@ -1,4 +1,4 @@
-// 1049 - Last Stone Weight II
+// 1049. Last Stone Weight II
 
 function lastStoneWeightII(stones) {
     const sum = stones.reduce((s, e) => s + e);

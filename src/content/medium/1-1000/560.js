@@ -1,4 +1,4 @@
-// 560 - Subarray Sum Equals K
+// 560. Subarray Sum Equals K
 
 function subarraySum(nums, k) {
     let subarrays = 0, acc = 0;

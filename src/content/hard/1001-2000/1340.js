@@ -1,4 +1,4 @@
-// 1340 - Jump Game V
+// 1340. Jump Game V
 
 function maxJumps(arr, d) {
     const n = arr.length;

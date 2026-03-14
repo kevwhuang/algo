@@ -1,3 +1,3 @@
-// 2354 - Number of Excellent Pairs
+// 2354. Number of Excellent Pairs
 
 

@@ -1,3 +1,3 @@
-// 3777 - Minimum Deletions to Make Alternating Substring
+// 3777. Minimum Deletions to Make Alternating Substring
 
 

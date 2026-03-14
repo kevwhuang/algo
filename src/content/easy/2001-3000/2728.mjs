@@ -1,4 +1,4 @@
-// 2728 - Count Houses in a Circular Street
+// 2728. Count Houses in a Circular Street
 
 function houseCount(street, k) {
     for (let i = 1; i <= k; i++) {

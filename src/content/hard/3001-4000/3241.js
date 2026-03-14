@@ -1,3 +1,3 @@
-// 3241 - Time Taken to Mark All Nodes
+// 3241. Time Taken to Mark All Nodes
 
 

@@ -1,4 +1,4 @@
-// 785 - Is Graph Bipartite
+// 785. Is Graph Bipartite
 
 function isBipartite(graph) {
     const group = new Uint8Array(graph.length);

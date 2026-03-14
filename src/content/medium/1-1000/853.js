@@ -1,4 +1,4 @@
-// 853 - Car Fleet
+// 853. Car Fleet
 
 function carFleet(target, position, speed) {
     const res = [];

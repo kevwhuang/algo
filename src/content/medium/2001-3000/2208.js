@@ -1,4 +1,4 @@
-// 2208 - Minimum Operations to Halve Array Sum
+// 2208. Minimum Operations to Halve Array Sum
 
 function halveArray(nums) {
     const heap = new PriorityQueue({ compare: (a, b) => b - a });

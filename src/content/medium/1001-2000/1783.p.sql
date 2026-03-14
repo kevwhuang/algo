@@ -1,4 +1,4 @@
--- 1783 - Grand Slam Titles
+-- 1783. Grand Slam Titles
 
 SELECT
     player_id,

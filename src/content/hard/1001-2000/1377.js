@@ -1,3 +1,3 @@
-// 1377 - Frog Position After T Seconds
+// 1377. Frog Position After T Seconds
 
 

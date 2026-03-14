@@ -1,4 +1,4 @@
-// 1210 - Minimum Moves to Reach Target With Rotations
+// 1210. Minimum Moves to Reach Target With Rotations
 
 function minimumMoves(grid) {
     function check(r1, c1, r2, c2) {

@@ -1,3 +1,3 @@
-// 1478 - Allocate Mailboxes
+// 1478. Allocate Mailboxes
 
 

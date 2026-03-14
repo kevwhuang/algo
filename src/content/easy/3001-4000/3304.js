@@ -1,4 +1,4 @@
-// 3304 - Find the Kth Character in String Game I
+// 3304. Find the Kth Character in String Game I
 
 function kthCharacter(k) {
     let ops = 0, n = 1 + Math.log2(k) >> 0;

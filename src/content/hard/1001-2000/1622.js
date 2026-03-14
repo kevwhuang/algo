@@ -1,3 +1,3 @@
-// 1622 - Fancy Sequence
+// 1622. Fancy Sequence
 
 

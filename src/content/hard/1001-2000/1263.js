@@ -1,4 +1,4 @@
-// 1263 - Minimum Moves to Move a Box to Their Target Location
+// 1263. Minimum Moves to Move a Box to Their Target Location
 
 function minPushBox(grid) {
     function check(Q, k) {

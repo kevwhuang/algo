@@ -1,4 +1,4 @@
--- 177 - Nth Highest Salary
+-- 177. Nth Highest Salary
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT BEGIN
 SET

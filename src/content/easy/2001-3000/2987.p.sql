@@ -1,4 +1,4 @@
--- 2987 - Find Expensive Cities
+-- 2987. Find Expensive Cities
 
 SELECT
     city

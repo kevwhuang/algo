@@ -1,4 +1,4 @@
-// 1461 - Check If a String Contains All Binary Codes of Size K
+// 1461. Check If a String Contains All Binary Codes of Size K
 
 function hasAllCodes(s, k) {
     let window = parseInt(s.slice(0, k), 2);

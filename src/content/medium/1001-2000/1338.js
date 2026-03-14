@@ -1,4 +1,4 @@
-// 1338 - Reduce Array Size to the Half
+// 1338. Reduce Array Size to the Half
 
 function minSetSize(arr) {
     const obj = {};

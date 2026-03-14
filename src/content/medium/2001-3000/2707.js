@@ -1,4 +1,4 @@
-// 2707 - Extra Characters in a String
+// 2707. Extra Characters in a String
 
 function minExtraChar(s, dictionary) {
     const n = s.length, dp = new Uint8Array(n + 1);

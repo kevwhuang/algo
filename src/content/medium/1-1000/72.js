@@ -1,4 +1,4 @@
-// 72 - Edit Distance
+// 72. Edit Distance
 
 function minDistance(word1, word2) {
     const m = word1.length, n = word2.length;

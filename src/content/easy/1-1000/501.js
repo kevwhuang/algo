@@ -1,4 +1,4 @@
-// 501 - Find Mode in Binary Search Tree
+// 501. Find Mode in Binary Search Tree
 
 function findMode(root) {
     function dfs(cur) {

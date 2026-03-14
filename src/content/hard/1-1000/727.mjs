@@ -1,3 +1,3 @@
-// 727 - Minimum Window Subsequence
+// 727. Minimum Window Subsequence
 
 

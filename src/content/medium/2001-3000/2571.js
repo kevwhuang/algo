@@ -1,4 +1,4 @@
-// 2571 - Minimum Operations to Reduce an Integer to 0
+// 2571. Minimum Operations to Reduce an Integer to 0
 
 function minOperations(n) {
     let ops = 0;

@@ -1,4 +1,4 @@
-// 2822 - Inversion of Object
+// 2822. Inversion of Object
 
 function invertObject(obj) {
     const res = {};

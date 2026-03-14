@@ -1,4 +1,4 @@
-// 922 - Sort Array by Parity II
+// 922. Sort Array by Parity II
 
 function sortArrayByParityII(nums) {
     const res = new Array(nums.length);

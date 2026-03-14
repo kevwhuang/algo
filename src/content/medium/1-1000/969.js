@@ -1,4 +1,4 @@
-// 969 - Pancake Sorting
+// 969. Pancake Sorting
 
 function pancakeSort(arr) {
     function reverse(l, r) {

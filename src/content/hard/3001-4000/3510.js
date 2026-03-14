@@ -1,3 +1,3 @@
-// 3510 - Minimum Pair Removal to Sort Array II
+// 3510. Minimum Pair Removal to Sort Array II
 
 

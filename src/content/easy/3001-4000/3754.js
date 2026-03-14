@@ -1,4 +1,4 @@
-// 3754 - Concatenate Non-Zero Digits and Multiply by Sum I
+// 3754. Concatenate Non-Zero Digits and Multiply by Sum I
 
 function sumAndMultiply(n) {
     let acc1 = 0, acc2 = 0, k = 1;

@@ -1,4 +1,4 @@
-// 3181 - Maximum Total Reward Using Operations II
+// 3181. Maximum Total Reward Using Operations II
 
 function maxTotalReward(rewardValues) {
     function dfs(acc) {

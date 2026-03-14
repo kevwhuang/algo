@@ -1,4 +1,4 @@
-// 408 - Valid Word Abbreviation
+// 408. Valid Word Abbreviation
 
 function validWordAbbreviation(word, abbr) {
     let i = 0, j = 0;

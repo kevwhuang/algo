@@ -1,4 +1,4 @@
-// 2059 - Minimum Operations to Convert Number
+// 2059. Minimum Operations to Convert Number
 
 function minimumOperations(nums, start, goal) {
     function handleNext(next) {

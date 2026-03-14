@@ -1,4 +1,4 @@
-// 2957 - Remove Adjacent Almost-Equal Characters
+// 2957. Remove Adjacent Almost-Equal Characters
 
 function removeAlmostEqualCharacters(word) {
     let ops = 0, i = 0;

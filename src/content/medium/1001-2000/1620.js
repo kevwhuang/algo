@@ -1,4 +1,4 @@
-// 1620 - Coordinate With Maximum Network Quality
+// 1620. Coordinate With Maximum Network Quality
 
 function bestCoordinate(towers, radius) {
     if (towers.length === 1 && towers[0][2] === 0) return [0, 0];

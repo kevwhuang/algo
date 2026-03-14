@@ -1,4 +1,4 @@
-// 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray
+// 3105. Longest Strictly Increasing or Strictly Decreasing Subarray
 
 function longestMonotonicSubarray(nums) {
     let res = 1, acc1 = 1, acc2 = 1, i = 0;

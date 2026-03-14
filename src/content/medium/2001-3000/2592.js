@@ -1,4 +1,4 @@
-// 2592 - Maximize Greatness of an Array
+// 2592. Maximize Greatness of an Array
 
 function maximizeGreatness(nums) {
     nums = new Uint32Array(nums).sort();

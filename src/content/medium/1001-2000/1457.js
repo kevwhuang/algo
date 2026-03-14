@@ -1,4 +1,4 @@
-// 1457 - Pseudo-Palindromic Paths in a Binary Tree
+// 1457. Pseudo-Palindromic Paths in a Binary Tree
 
 function pseudoPalindromicPaths(root) {
     let paths = 0, queue = [[root, 0]];

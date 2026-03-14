@@ -1,4 +1,4 @@
-// 1314 - Matrix Block Sum
+// 1314. Matrix Block Sum
 
 function matrixBlockSum(mat, k) {
     const m = mat.length, n = mat[0].length;

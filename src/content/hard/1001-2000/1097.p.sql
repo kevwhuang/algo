@@ -1,4 +1,4 @@
--- 1097 - Game Play Analysis V
+-- 1097. Game Play Analysis V
 
 WITH CTE AS (
     SELECT

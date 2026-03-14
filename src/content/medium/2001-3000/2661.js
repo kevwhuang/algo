@@ -1,4 +1,4 @@
-// 2661 - First Completely Painted Row or Column
+// 2661. First Completely Painted Row or Column
 
 function firstCompleteIndex(arr, mat) {
     const m = mat.length, n = mat[0].length;

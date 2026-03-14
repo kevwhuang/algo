@@ -1,4 +1,4 @@
-// 2018 - Check If Word Can Be Placed in Crossword
+// 2018. Check If Word Can Be Placed in Crossword
 
 function placeWordInCrossword(board, word) {
     function dfs(r, c, dr, dc, i) {

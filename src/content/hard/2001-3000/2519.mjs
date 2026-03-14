@@ -1,4 +1,4 @@
-// 2519 - Count the Number of K-Big Indices
+// 2519. Count the Number of K-Big Indices
 
 function kBigIndices(nums, k) {
     if (!this.tree) tree = new Uint32Array(100001);

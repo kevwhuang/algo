@@ -1,3 +1,3 @@
-// 2426 - Number of Pairs Satisfying Inequality
+// 2426. Number of Pairs Satisfying Inequality
 
 

@@ -1,4 +1,4 @@
-// 2735 - Collecting Chocolates
+// 2735. Collecting Chocolates
 
 function minCost(nums, x) {
     let min = Infinity;

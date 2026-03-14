@@ -1,4 +1,4 @@
-// 2384 - Largest Palindromic Number
+// 2384. Largest Palindromic Number
 
 function largestPalindromic(num) {
     const bucket = new Array(10).fill(0);

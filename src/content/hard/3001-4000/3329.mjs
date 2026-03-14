@@ -1,4 +1,4 @@
-// 3329 - Count Substrings With K-Frequency Characters II
+// 3329. Count Substrings With K-Frequency Characters II
 
 function numberOfSubstrings(s, k) {
     let res = 0;

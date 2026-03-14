@@ -1,4 +1,4 @@
-// 2962 - Count Subarrays Where Max Element Appears at Least K Times
+// 2962. Count Subarrays Where Max Element Appears at Least K Times
 
 function countSubarrays(nums, k) {
     let subarrays = 0, count = 0;

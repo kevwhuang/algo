@@ -1,4 +1,4 @@
-// 2316 - Count Unreachable Pairs of Nodes in an Undirected Graph
+// 2316. Count Unreachable Pairs of Nodes in an Undirected Graph
 
 function countPairs(n, edges) {
     function union(n1, n2) {

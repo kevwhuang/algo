@@ -1,4 +1,4 @@
-// 1156 - Swap for Longest Repeated Character Substring
+// 1156. Swap for Longest Repeated Character Substring
 
 function maxRepOpt1(text) {
     const obj = {};

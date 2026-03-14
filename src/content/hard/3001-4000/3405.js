@@ -1,4 +1,4 @@
-// 3405 - Count the Number of Arrays With K Matching Adjacent Elements
+// 3405. Count the Number of Arrays With K Matching Adjacent Elements
 
 function countGoodArrays(n, m, k) {
     function init() {

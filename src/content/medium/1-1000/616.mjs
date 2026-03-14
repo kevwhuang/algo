@@ -1,4 +1,4 @@
-// 616 - Add Bold Tag in String
+// 616. Add Bold Tag in String
 
 function addBoldTag(s, words) {
     const bold = new Array(s.length);

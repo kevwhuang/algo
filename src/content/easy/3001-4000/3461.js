@@ -1,4 +1,4 @@
-// 3461 - Check If Digits Are Equal in String After Operations I
+// 3461. Check If Digits Are Equal in String After Operations I
 
 function hasSameDigits(s) {
     const res = new Uint8Array(s.length);

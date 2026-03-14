@@ -1,4 +1,4 @@
-// 2359 - Find Closest Node to Given Two Nodes
+// 2359. Find Closest Node to Given Two Nodes
 
 function closestMeetingNode(edges, node1, node2) {
     function traverse(node, dist) {

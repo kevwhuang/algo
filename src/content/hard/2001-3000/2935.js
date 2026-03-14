@@ -1,3 +1,3 @@
-// 2935 - Maximum Strong Pair XOR II
+// 2935. Maximum Strong Pair XOR II
 
 

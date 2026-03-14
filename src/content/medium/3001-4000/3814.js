@@ -1,4 +1,4 @@
-// 3814 - Maximum Capacity Within Budget
+// 3814. Maximum Capacity Within Budget
 
 function maxCapacity(costs, capacity, budget) {
     const n = costs.length, M = new Array(n);

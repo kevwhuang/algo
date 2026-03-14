@@ -1,4 +1,4 @@
-// 638 - Shopping Offers
+// 638. Shopping Offers
 
 function shoppingOffers(price, special, needs) {
     function backtrack(acc) {

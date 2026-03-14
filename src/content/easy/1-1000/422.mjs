@@ -1,4 +1,4 @@
-// 422 - Valid Word Square
+// 422. Valid Word Square
 
 function validWordSquare(words) {
     for (let i = 0; i < words.length; i++) {

@@ -1,4 +1,4 @@
-// 2711 - Difference of Number of Distinct Values on Diagonals
+// 2711. Difference of Number of Distinct Values on Diagonals
 
 function differenceOfDistinctValues(grid) {
     const m = grid.length, n = grid[0].length;

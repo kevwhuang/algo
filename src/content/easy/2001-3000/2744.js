@@ -1,4 +1,4 @@
-// 2744 - Find Maximum Number of String Pairs
+// 2744. Find Maximum Number of String Pairs
 
 function maximumNumberOfStringPairs(words) {
     let pairs = 0;

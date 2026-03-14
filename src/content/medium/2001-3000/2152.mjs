@@ -1,4 +1,4 @@
-// 2152 - Minimum Number of Lines to Cover Points
+// 2152. Minimum Number of Lines to Cover Points
 
 function minimumLines(points) {
     const map = new Map(), n = points.length;

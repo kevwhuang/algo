@@ -1,3 +1,3 @@
-// 3681 - Maximum XOR of Subsequences
+// 3681. Maximum XOR of Subsequences
 
 

@@ -1,3 +1,3 @@
-// 972 - Equal Rational Numbers
+// 972. Equal Rational Numbers
 
 

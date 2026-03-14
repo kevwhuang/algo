@@ -1,4 +1,4 @@
-// 2616 - Minimize the Maximum Difference of Pairs
+// 2616. Minimize the Maximum Difference of Pairs
 
 function minimizeMax(nums, p) {
     nums = new Uint32Array(nums).sort();

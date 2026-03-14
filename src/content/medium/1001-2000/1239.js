@@ -1,4 +1,4 @@
-// 1239 - Maximum Length of a Concatenated String With Unique Characters
+// 1239. Maximum Length of a Concatenated String With Unique Characters
 
 function maxLength(arr) {
     function backtrack(i, mask) {

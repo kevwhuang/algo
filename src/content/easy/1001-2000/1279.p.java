@@ -1,4 +1,4 @@
-// 1279 - Traffic Light Controlled Intersection
+// 1279. Traffic Light Controlled Intersection
 
 class TrafficLight {
     private int cur = 1;

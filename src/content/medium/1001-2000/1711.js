@@ -1,4 +1,4 @@
-// 1711 - Count Good Meals
+// 1711. Count Good Meals
 
 function countPairs(deliciousness) {
     const map = new Map();

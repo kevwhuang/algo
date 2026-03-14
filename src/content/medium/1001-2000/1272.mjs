@@ -1,4 +1,4 @@
-// 1272 - Remove Interval
+// 1272. Remove Interval
 
 function removeInterval(intervals, toBeRemoved) {
     const res = [], ll = toBeRemoved[0], rr = toBeRemoved[1];

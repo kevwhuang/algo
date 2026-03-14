@@ -1,4 +1,4 @@
-// 3433 - Count Mentions Per User
+// 3433. Count Mentions Per User
 
 function countMentions(numberOfUsers, events) {
     events.sort((a, b) => +a[1] - +b[1] || (a[0] < b[0] ? 1 : -1));

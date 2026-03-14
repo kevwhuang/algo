@@ -1,3 +1,3 @@
-// 3077 - Maximum Strength of K Disjoint Subarrays
+// 3077. Maximum Strength of K Disjoint Subarrays
 
 

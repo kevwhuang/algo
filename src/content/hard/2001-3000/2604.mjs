@@ -1,3 +1,3 @@
-// 2604 - Minimum Time to Eat All Grains
+// 2604. Minimum Time to Eat All Grains
 
 

@@ -1,3 +1,3 @@
-// 2272 - Substring With Largest Variance
+// 2272. Substring With Largest Variance
 
 

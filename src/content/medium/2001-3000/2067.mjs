@@ -1,4 +1,4 @@
-// 2067 - Number of Equal Count Substrings
+// 2067. Number of Equal Count Substrings
 
 function equalCountSubstrings(s, count) {
     let substrings = 0;

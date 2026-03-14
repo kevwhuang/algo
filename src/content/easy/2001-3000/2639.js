@@ -1,4 +1,4 @@
-// 2639 - Find the Width of Columns of a Grid
+// 2639. Find the Width of Columns of a Grid
 
 function findColumnWidth(grid) {
     const m = grid.length, n = grid[0].length;

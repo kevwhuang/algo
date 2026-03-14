@@ -1,4 +1,4 @@
-// 3537 - Fill a Special Grid
+// 3537. Fill a Special Grid
 
 function specialGrid(n) {
     function fn(r, c, d) {

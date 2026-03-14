@@ -1,4 +1,4 @@
--- 2339 - All the Matches of the League
+-- 2339. All the Matches of the League
 
 SELECT
     T1.team_name AS home_team,

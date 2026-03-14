@@ -1,4 +1,4 @@
-// 611 - Valid Triangle Number
+// 611. Valid Triangle Number
 
 function triangleNumber(nums) {
     nums.sort((a, b) => a - b);

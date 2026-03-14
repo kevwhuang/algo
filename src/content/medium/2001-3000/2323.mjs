@@ -1,4 +1,4 @@
-// 2323 - Find Minimum Time to Finish All Jobs II
+// 2323. Find Minimum Time to Finish All Jobs II
 
 function minimumTime(jobs, workers) {
     jobs.sort((a, b) => b - a);

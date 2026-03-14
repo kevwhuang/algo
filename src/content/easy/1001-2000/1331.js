@@ -1,4 +1,4 @@
-// 1331 - Rank Transform of an Array
+// 1331. Rank Transform of an Array
 
 function arrayRankTransform(arr) {
     const order = [...new Set(arr)].sort((a, b) => a - b);

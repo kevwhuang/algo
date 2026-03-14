@@ -1,4 +1,4 @@
-// 285 - Inorder Successor in BST
+// 285. Inorder Successor in BST
 
 function inorderSuccessor(root, p) {
     function dfs(node) {

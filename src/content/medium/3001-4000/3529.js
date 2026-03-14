@@ -1,4 +1,4 @@
-// 3529 - Count Cells in Overlapping Horizontal and Vertical Substrings
+// 3529. Count Cells in Overlapping Horizontal and Vertical Substrings
 
 function countCells(grid, pattern) {
     function find(fn1, fn2, seen, flag) {

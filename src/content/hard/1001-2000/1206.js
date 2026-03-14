@@ -1,4 +1,4 @@
-// 1206 - Design Skiplist
+// 1206. Design Skiplist
 
 class Skiplist {
     constructor() {

@@ -1,4 +1,4 @@
-// 418 - Sentence Screen Fitting
+// 418. Sentence Screen Fitting
 
 function wordsTyping(sentence, rows, cols) {
     const set = new Set([-1]);

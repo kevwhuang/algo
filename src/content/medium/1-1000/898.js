@@ -1,4 +1,4 @@
-// 898 - Bitwise ORs of Subarrays
+// 898. Bitwise ORs of Subarrays
 
 function subarrayBitwiseORs(arr) {
     const set = new Set([arr[0]]);

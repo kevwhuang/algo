@@ -1,4 +1,4 @@
-// 1329 - Sort the Matrix Diagonally
+// 1329. Sort the Matrix Diagonally
 
 function diagonalSort(mat) {
     const m = mat.length, n = mat[0].length;

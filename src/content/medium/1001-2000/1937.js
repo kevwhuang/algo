@@ -1,4 +1,4 @@
-// 1937 - Maximum Number of Points With Cost
+// 1937. Maximum Number of Points With Cost
 
 function maxPoints(points) {
     const M = points, m = M.length, n = M[0].length;

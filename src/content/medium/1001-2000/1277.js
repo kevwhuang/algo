@@ -1,4 +1,4 @@
-// 1277 - Count Square Submatrices With All Ones
+// 1277. Count Square Submatrices With All Ones
 
 function countSquares(matrix) {
     let res = 0;

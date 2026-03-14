@@ -1,4 +1,4 @@
-// 1124 - Longest Well-Performing Interval
+// 1124. Longest Well-Performing Interval
 
 function longestWPI(hours) {
     let max = 0, acc = 0;

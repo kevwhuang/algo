@@ -1,4 +1,4 @@
--- 1308 - Running Total for Different Genders
+-- 1308. Running Total for Different Genders
 
 SELECT
     gender,

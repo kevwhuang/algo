@@ -1,4 +1,4 @@
--- 1285 - Find the Start and End Number of Continuous Ranges
+-- 1285. Find the Start and End Number of Continuous Ranges
 
 WITH CTE AS (
     SELECT

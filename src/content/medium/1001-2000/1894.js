@@ -1,4 +1,4 @@
-// 1894 - Find the Student That Will Replace the Chalk
+// 1894. Find the Student That Will Replace the Chalk
 
 function chalkReplacer(chalk, k) {
     k %= chalk.reduce((s, e) => s + e);

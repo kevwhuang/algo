@@ -1,4 +1,4 @@
-// 10004 - Simple Query Selector All
+// 10004. Simple Query Selector All
 
 export function querySelectorAll(selector) {
     switch (selector[0]) {

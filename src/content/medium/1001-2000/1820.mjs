@@ -1,4 +1,4 @@
-// 1820 - Maximum Number of Accepted Invitations
+// 1820. Maximum Number of Accepted Invitations
 
 function maximumInvitations(grid) {
     function dfs(r) {

@@ -1,4 +1,4 @@
-// 54 - Spiral Matrix
+// 54. Spiral Matrix
 
 function spiralOrder(matrix) {
     const M = matrix, m = M.length, n = M[0].length;

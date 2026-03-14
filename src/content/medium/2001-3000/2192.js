@@ -1,4 +1,4 @@
-// 2192 - All Ancestors of a Node in a Directed Acyclic Graph
+// 2192. All Ancestors of a Node in a Directed Acyclic Graph
 
 function getAncestors(n, edges) {
     function dfs(root, node) {

@@ -1,4 +1,4 @@
-// 3002 - Maximum Size of a Set After Removals
+// 3002. Maximum Size of a Set After Removals
 
 function maximumSetSize(nums1, nums2) {
     const len = nums1.length;

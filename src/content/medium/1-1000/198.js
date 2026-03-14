@@ -1,4 +1,4 @@
-// 198 - House Robber
+// 198. House Robber
 
 function rob(nums) {
     let a = 0, b = 0, i = -1;

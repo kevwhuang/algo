@@ -1,4 +1,4 @@
-// 1291 - Sequential Digits
+// 1291. Sequential Digits
 
 function sequentialDigits(low, high) {
     const ints = [

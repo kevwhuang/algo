@@ -1,4 +1,4 @@
-// 1779 - Find Nearest Point That Has the Same X or Y Coordinate
+// 1779. Find Nearest Point That Has the Same X or Y Coordinate
 
 function nearestValidPoint(x, y, points) {
     let res = -1, min = Infinity;

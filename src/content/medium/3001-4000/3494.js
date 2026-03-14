@@ -1,4 +1,4 @@
-// 3494 - Find the Minimum Amount of Time to Brew Potions
+// 3494. Find the Minimum Amount of Time to Brew Potions
 
 function minTime(skill, mana) {
     const m = mana.length, n = skill.length;

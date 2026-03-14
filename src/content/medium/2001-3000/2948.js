@@ -1,4 +1,4 @@
-// 2948 - Make Lexicographically Smallest Array by Swapping Elements
+// 2948. Make Lexicographically Smallest Array by Swapping Elements
 
 function lexicographicallySmallestArray(nums, limit) {
     const arr = Array.from({ length: nums.length }, (_, i) => [nums[i], i]);

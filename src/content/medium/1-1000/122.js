@@ -1,4 +1,4 @@
-// 122 - Best Time to Buy and Sell Stock II
+// 122. Best Time to Buy and Sell Stock II
 
 function maxProfit(prices) {
     let res = 0, i = 0;

@@ -1,4 +1,4 @@
-// 3588 - Find Maximum Area of a Triangle
+// 3588. Find Maximum Area of a Triangle
 
 function maxArea(coords) {
     const map1 = new Map(), map2 = new Map();

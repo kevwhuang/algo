@@ -1,4 +1,4 @@
-// 3219 - Minimum Cost for Cutting Cake II
+// 3219. Minimum Cost for Cutting Cake II
 
 function minimumCost(m, n, horizontalCut, verticalCut) {
     m--, n--;

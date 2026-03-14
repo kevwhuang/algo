@@ -1,4 +1,4 @@
-// 1358 - Number of Substrings Containing All Three Characters
+// 1358. Number of Substrings Containing All Three Characters
 
 function numberOfSubstrings(s) {
     let substrings = 0;

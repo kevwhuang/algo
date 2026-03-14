@@ -1,4 +1,4 @@
-// 1430 - Check If a String Is a Valid Sequence From Root to Leaves Path in a Binary Tree
+// 1430. Check If a String Is a Valid Sequence From Root to Leaves Path in a Binary Tree
 
 function isValidSequence(root, arr) {
     if (!root) return false;

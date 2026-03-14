@@ -1,4 +1,4 @@
-// 813 - Largest Sum of Averages
+// 813. Largest Sum of Averages
 
 function largestSumOfAverages(nums, k) {
     const ps = nums, n = ps.length;

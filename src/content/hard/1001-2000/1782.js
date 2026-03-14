@@ -1,3 +1,3 @@
-// 1782 - Count Pairs of Nodes
+// 1782. Count Pairs of Nodes
 
 

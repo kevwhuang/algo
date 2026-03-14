@@ -1,4 +1,4 @@
-// 1258 - Synonymous Sentences
+// 1258. Synonymous Sentences
 
 function generateSentences(synonyms, text) {
     function backtrack(i) {

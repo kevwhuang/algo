@@ -1,4 +1,4 @@
-// 19 - Remove Nth Node From End of List
+// 19. Remove Nth Node From End of List
 
 function removeNthFromEnd(head, n) {
     let fast = head;

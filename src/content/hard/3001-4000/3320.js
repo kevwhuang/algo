@@ -1,3 +1,3 @@
-// 3320 - Count the Number of Winning Sequences
+// 3320. Count the Number of Winning Sequences
 
 

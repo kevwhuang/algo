@@ -1,4 +1,4 @@
-// 2352 - Equal Row and Column Pairs
+// 2352. Equal Row and Column Pairs
 
 function equalPairs(grid) {
     const map = new Map(), n = grid.length;

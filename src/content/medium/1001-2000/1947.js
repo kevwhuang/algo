@@ -1,4 +1,4 @@
-// 1947 - Maximum Compatibility Score Sum
+// 1947. Maximum Compatibility Score Sum
 
 function maxCompatibilitySum(students, mentors) {
     function backtrack(i, acc) {

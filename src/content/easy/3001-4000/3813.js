@@ -1,4 +1,4 @@
-// 3813 - Vowel Consonant Score
+// 3813. Vowel Consonant Score
 
 function vowelConsonantScore(s) {
     const set = new Set(['a', 'e', 'i', 'o', 'u']);

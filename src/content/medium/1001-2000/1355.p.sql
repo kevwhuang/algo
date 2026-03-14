@@ -1,4 +1,4 @@
--- 1355 - Activity Participants
+-- 1355. Activity Participants
 
 SELECT
     activity

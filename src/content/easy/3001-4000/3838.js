@@ -1,4 +1,4 @@
-// 3838 - Weighted Word Mapping
+// 3838. Weighted Word Mapping
 
 function mapWordWeights(words, weights) {
     let res = '';

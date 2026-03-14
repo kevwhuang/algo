@@ -1,4 +1,4 @@
-// 3309 - Maximum Possible Number by Binary Concatenation
+// 3309. Maximum Possible Number by Binary Concatenation
 
 function maxGoodNumber(nums) {
     const a = nums[0].toString(2);

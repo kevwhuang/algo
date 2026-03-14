@@ -1,4 +1,4 @@
-// 1181 - Before and After Puzzle
+// 1181. Before and After Puzzle
 
 function beforeAndAfterPuzzles(phrases) {
     for (let i = 0; i < phrases.length; i++) {

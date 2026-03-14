@@ -1,4 +1,4 @@
-// 854 - K-Similar Strings
+// 854. K-Similar Strings
 
 function kSimilarity(s1, s2) {
     if (s1 === s2) return 0;

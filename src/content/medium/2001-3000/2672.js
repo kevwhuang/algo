@@ -1,4 +1,4 @@
-// 2672 - Number of Adjacent Elements With the Same Color
+// 2672. Number of Adjacent Elements With the Same Color
 
 function colorTheArray(n, queries) {
     const arr = new Array(n).fill(0);

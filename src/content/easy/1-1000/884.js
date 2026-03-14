@@ -1,4 +1,4 @@
-// 884 - Uncommon Words From Two Sentences
+// 884. Uncommon Words From Two Sentences
 
 function uncommonFromSentences(s1, s2) {
     function generateSet(s) {

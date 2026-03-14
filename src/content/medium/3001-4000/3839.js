@@ -1,4 +1,4 @@
-// 3839 - Number of Prefix Connected Groups
+// 3839. Number of Prefix Connected Groups
 
 function prefixConnected(words, k) {
     let res = 0;

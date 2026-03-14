@@ -1,4 +1,4 @@
-// 1992 - Find All Groups of Farmland
+// 1992. Find All Groups of Farmland
 
 function findFarmland(land) {
     function dfs(r, c) {

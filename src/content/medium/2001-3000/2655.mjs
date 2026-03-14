@@ -1,4 +1,4 @@
-// 2655 - Find Maximal Uncovered Ranges
+// 2655. Find Maximal Uncovered Ranges
 
 function findMaximalUncoveredRanges(n, ranges) {
     if (ranges.length === 0) return [[0, n - 1]];

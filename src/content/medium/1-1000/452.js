@@ -1,4 +1,4 @@
-// 452 - Minimum Number of Arrows to Burst Balloons
+// 452. Minimum Number of Arrows to Burst Balloons
 
 function findMinArrowShots(points) {
     points.sort((a, b) => a[1] - b[1]);

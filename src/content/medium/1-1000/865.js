@@ -1,4 +1,4 @@
-// 865 - Smallest Subtree With All the Deepest Nodes
+// 865. Smallest Subtree With All the Deepest Nodes
 
 function subtreeWithAllDeepest(root) {
     function dfs(node, depth) {

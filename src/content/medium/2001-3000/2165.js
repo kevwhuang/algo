@@ -1,4 +1,4 @@
-// 2165 - Smallest Value of the Rearranged Number
+// 2165. Smallest Value of the Rearranged Number
 
 function smallestNumber(num) {
     const isNegative = num < 0;

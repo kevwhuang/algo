@@ -34,5 +34,3 @@ class MaxHeap {
         return this.heap.length - 1;
     }
 }
-
-module.exports = MaxHeap;

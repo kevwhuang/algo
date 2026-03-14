@@ -1,4 +1,4 @@
-// 945 - Minimum Increment to Make Array Unique
+// 945. Minimum Increment to Make Array Unique
 
 function minIncrementForUnique(nums) {
     const max = Math.max(...nums);

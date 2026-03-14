@@ -1,4 +1,4 @@
-// 2022 - Convert 1D Array Into 2D Array
+// 2022. Convert 1D Array Into 2D Array
 
 function construct2DArray(original, m, n) {
     if (original.length !== m * n) return [];

@@ -1,4 +1,4 @@
-// 3858 - Minimum Bitwise OR From Grid
+// 3858. Minimum Bitwise OR From Grid
 
 function minimumOR(grid) {
     let res = 0;

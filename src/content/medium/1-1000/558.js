@@ -1,4 +1,4 @@
-// 558 - Logical OR of Two Binary Grids Represented as Quad-Trees
+// 558. Logical OR of Two Binary Grids Represented as Quad-Trees
 
 function intersect(quadTree1, quadTree2) {
     if (quadTree1.isLeaf) return quadTree1.val ? quadTree1 : quadTree2;

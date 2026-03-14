@@ -1,4 +1,4 @@
-// 1021 - Remove Outermost Parentheses
+// 1021. Remove Outermost Parentheses
 
 function removeOuterParentheses(s) {
     let res = '', acc = 0, i = -1;

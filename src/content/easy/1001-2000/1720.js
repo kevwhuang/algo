@@ -1,4 +1,4 @@
-// 1720 - Decode XORed Array
+// 1720. Decode XORed Array
 
 function decode(encoded, first) {
     const res = new Uint32Array(encoded.length + 1);

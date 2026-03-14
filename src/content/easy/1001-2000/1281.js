@@ -1,4 +1,4 @@
-// 1281 - Subtract the Product and Sum of Digits of an Integer
+// 1281. Subtract the Product and Sum of Digits of an Integer
 
 function subtractProductAndSum(n) {
     n = String(n);

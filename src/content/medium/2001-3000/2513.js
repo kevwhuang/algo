@@ -1,4 +1,4 @@
-// 2513 - Minimize the Maximum of Two Arrays
+// 2513. Minimize the Maximum of Two Arrays
 
 function minimizeSet(divisor1, divisor2, uniqueCnt1, uniqueCnt2) {
     const max = (f, d1, d2 = d1) => f + Math.ceil(f / (lcm(d1, d2) - 1)) - 1;

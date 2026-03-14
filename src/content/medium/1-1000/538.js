@@ -1,4 +1,4 @@
-// 538 - Convert BST to Greater Tree
+// 538. Convert BST to Greater Tree
 
 function convertBST(root) {
     function dfs(node) {

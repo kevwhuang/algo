@@ -1,4 +1,4 @@
-// 2210 - Count Hills and Valleys in an Array
+// 2210. Count Hills and Valleys in an Array
 
 function countHillValley(nums) {
     let count = 0;

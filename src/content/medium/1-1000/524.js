@@ -1,4 +1,4 @@
-// 524 - Longest Word in Dictionary Through Deleting
+// 524. Longest Word in Dictionary Through Deleting
 
 function findLongestWord(s, dictionary) {
     let res = '';

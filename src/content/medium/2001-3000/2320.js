@@ -1,4 +1,4 @@
-// 2320 - Count Number of Ways to Place Houses
+// 2320. Count Number of Ways to Place Houses
 
 function countHousePlacements(n) {
     function init() {

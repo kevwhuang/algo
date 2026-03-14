@@ -1,4 +1,4 @@
-// 3811 - Number of Alternating XOR Partitions
+// 3811. Number of Alternating XOR Partitions
 
 function alternatingXOR(nums, target1, target2) {
     let acc = 0, dp1 = 1, dp2 = 0, dp3 = 0, dp4 = 0;

@@ -1,4 +1,4 @@
-// 1993 - Operations on Tree
+// 1993. Operations on Tree
 
 class LockingTree {
     constructor(parent) {

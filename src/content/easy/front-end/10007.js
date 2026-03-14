@@ -1,4 +1,4 @@
-// 10007 - Get Node Relationship
+// 10007. Get Node Relationship
 
 export function getNodeRelationship(node1, node2) {
     if (node1 === node2) return null;

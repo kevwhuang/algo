@@ -1,4 +1,4 @@
-// 648 - Replace Words
+// 648. Replace Words
 
 function replaceWords(dictionary, sentence) {
     const trie = new Trie();

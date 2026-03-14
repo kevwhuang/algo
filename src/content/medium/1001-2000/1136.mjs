@@ -1,4 +1,4 @@
-// 1136 - Parallel Courses
+// 1136. Parallel Courses
 
 function minimumSemesters(n, relations) {
     const adj = {};

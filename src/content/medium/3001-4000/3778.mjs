@@ -1,4 +1,4 @@
-// 3778 - Minimum Distance Excluding One Maximum Weighted Edge
+// 3778. Minimum Distance Excluding One Maximum Weighted Edge
 
 function minCostExcludingMax(n, edges) {
     function fn(u) {

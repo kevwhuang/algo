@@ -1,4 +1,4 @@
-// 2925 - Maximum Score After Applying Operations on a Tree
+// 2925. Maximum Score After Applying Operations on a Tree
 
 function maximumScoreAfterOperations(edges, values) {
     function dfs(node, prev) {

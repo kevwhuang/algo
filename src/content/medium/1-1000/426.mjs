@@ -1,4 +1,4 @@
-// 426 - Convert Binary Search Tree to Sorted Doubly Linked List
+// 426. Convert Binary Search Tree to Sorted Doubly Linked List
 
 function treeToDoublyList(root) {
     function dfs(node) {

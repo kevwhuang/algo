@@ -1,4 +1,4 @@
-// 3536 - Maximum Product of Two Digits
+// 3536. Maximum Product of Two Digits
 
 function maxProduct(n) {
     let a = 0, b = 0;

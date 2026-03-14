@@ -1,4 +1,4 @@
-// 861 - Score After Flipping Matrix
+// 861. Score After Flipping Matrix
 
 function matrixScore(grid) {
     const m = grid.length, n = grid[0].length;

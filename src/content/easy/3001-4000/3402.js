@@ -1,4 +1,4 @@
-// 3402 - Minimum Operations to Make Columns Strictly Increasing
+// 3402. Minimum Operations to Make Columns Strictly Increasing
 
 function minimumOperations(grid) {
     let res = 0;

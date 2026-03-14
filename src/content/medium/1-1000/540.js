@@ -1,4 +1,4 @@
-// 540 - Single Element in a Sorted Array
+// 540. Single Element in a Sorted Array
 
 function singleNonDuplicate(nums) {
     let xor = 0;

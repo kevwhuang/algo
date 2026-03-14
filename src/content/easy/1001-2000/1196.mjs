@@ -1,4 +1,4 @@
-// 1196 - How Many Apples Can You Put Into the Basket
+// 1196. How Many Apples Can You Put Into the Basket
 
 function maxNumberOfApples(weight) {
     let acc = 0, i = 0;

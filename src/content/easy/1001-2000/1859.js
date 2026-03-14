@@ -1,4 +1,4 @@
-// 1859 - Sorting the Sentence
+// 1859. Sorting the Sentence
 
 function sortSentence(s) {
     const words = s.split(' ');

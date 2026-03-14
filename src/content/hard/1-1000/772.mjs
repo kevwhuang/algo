@@ -1,4 +1,4 @@
-// 772 - Basic Calculator III
+// 772. Basic Calculator III
 
 function calculate(s) {
     let acc, i = -1;

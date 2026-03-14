@@ -1,4 +1,4 @@
-// 3282 - Reach End of Array With Max Score
+// 3282. Reach End of Array With Max Score
 
 function findMaximumScore(nums) {
     let score = 0, max = 0;

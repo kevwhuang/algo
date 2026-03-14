@@ -1,4 +1,4 @@
-// 3211 - Generate Binary Strings Without Adjacent Zeros
+// 3211. Generate Binary Strings Without Adjacent Zeros
 
 function validStrings(n) {
     function backtrack(str) {

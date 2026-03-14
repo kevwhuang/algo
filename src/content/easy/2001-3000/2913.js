@@ -1,4 +1,4 @@
-// 2913 - Subarrays Distinct Element Sum of Squares I
+// 2913. Subarrays Distinct Element Sum of Squares I
 
 function sumCounts(nums) {
     let sum = 0;

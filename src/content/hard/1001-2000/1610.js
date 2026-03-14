@@ -1,3 +1,3 @@
-// 1610 - Maximum Number of Visible Points
+// 1610. Maximum Number of Visible Points
 
 

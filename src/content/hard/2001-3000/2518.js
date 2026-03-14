@@ -1,3 +1,3 @@
-// 2518 - Number of Great Partitions
+// 2518. Number of Great Partitions
 
 

@@ -1,4 +1,4 @@
-// 2680 - Maximum OR
+// 2680. Maximum OR
 
 function maximumOr(nums, k) {
     k = 2 ** k;

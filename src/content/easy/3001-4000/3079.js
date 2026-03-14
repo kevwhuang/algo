@@ -1,4 +1,4 @@
-// 3079 - Find the Sum of Encrypted Integers
+// 3079. Find the Sum of Encrypted Integers
 
 function sumOfEncryptedInt(nums) {
     let res = 0;

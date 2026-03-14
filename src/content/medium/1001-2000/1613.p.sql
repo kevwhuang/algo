@@ -1,4 +1,4 @@
--- 1613 - Find the Missing IDs
+-- 1613. Find the Missing IDs
 
 WITH RECURSIVE CTE AS (
     SELECT

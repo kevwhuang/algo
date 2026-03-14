@@ -1,4 +1,4 @@
-// 899 - Orderly Queue
+// 899. Orderly Queue
 
 function orderlyQueue(s, k) {
     if (k > 1) return s.split``.sort().join``;

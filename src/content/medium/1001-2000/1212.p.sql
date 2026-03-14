@@ -1,4 +1,4 @@
--- 1212 - Team Scores in Football Tournament
+-- 1212. Team Scores in Football Tournament
 
 SELECT
     team_id,

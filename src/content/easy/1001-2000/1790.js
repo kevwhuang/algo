@@ -1,4 +1,4 @@
-// 1790 - Check If One String Swap Can Make Strings Equal
+// 1790. Check If One String Swap Can Make Strings Equal
 
 function areAlmostEqual(s1, s2) {
     const arr = [];

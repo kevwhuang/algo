@@ -1,3 +1,3 @@
-// 2360 - Longest Cycle in a Graph
+// 2360. Longest Cycle in a Graph
 
 

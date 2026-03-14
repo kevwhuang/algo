@@ -1,4 +1,4 @@
-// 2423 - Remove Letter to Equalize Frequency
+// 2423. Remove Letter to Equalize Frequency
 
 function equalFrequency(word) {
     const bucket = new Uint8Array(26);

@@ -1,4 +1,4 @@
-// 10027 - Tic Tac Toe
+// 10027. Tic Tac Toe
 
 import React from 'react';
 

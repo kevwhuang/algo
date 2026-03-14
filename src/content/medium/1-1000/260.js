@@ -1,4 +1,4 @@
-// 260 - Single Number III
+// 260. Single Number III
 
 function singleNumber(nums) {
     let xor = 0;

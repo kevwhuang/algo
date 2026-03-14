@@ -1,4 +1,4 @@
-// 1943 - Describe the Painting
+// 1943. Describe the Painting
 
 function splitPainting(segments) {
     const mark = new Array(100002).fill(0);

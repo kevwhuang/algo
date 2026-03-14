@@ -1,4 +1,4 @@
-// 2043 - Simple Bank System
+// 2043. Simple Bank System
 
 class Bank {
     constructor(balance) {

@@ -1,4 +1,4 @@
-// 241 - Different Ways to Add Parentheses
+// 241. Different Ways to Add Parentheses
 
 function diffWaysToCompute(expression) {
     function dfs(cur) {

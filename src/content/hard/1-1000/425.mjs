@@ -1,4 +1,4 @@
-// 425 - Word Squares
+// 425. Word Squares
 
 function wordSquares(words) {
     function dfs(c) {

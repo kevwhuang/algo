@@ -1,4 +1,4 @@
-// 2353 - Design a Food Rating System
+// 2353. Design a Food Rating System
 
 class FoodRatings {
     constructor(foods, cuisines, ratings) {

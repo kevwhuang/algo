@@ -1,4 +1,4 @@
-// 323 - Number of Connected Components in an Undirected Graph
+// 323. Number of Connected Components in an Undirected Graph
 
 function countComponents(n, edges) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

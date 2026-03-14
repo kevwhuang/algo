@@ -1,4 +1,4 @@
-// 2086 - Minimum Number of Food Buckets to Feed the Hamsters
+// 2086. Minimum Number of Food Buckets to Feed the Hamsters
 
 function minimumBuckets(hamsters) {
     let food = 0, i = 0;

@@ -1,4 +1,4 @@
-// 1020 - Number of Enclaves
+// 1020. Number of Enclaves
 
 function numEnclaves(grid) {
     function dfs(r, c) {

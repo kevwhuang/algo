@@ -1,4 +1,4 @@
-// 1310 - XOR Queries of a Subarray
+// 1310. XOR Queries of a Subarray
 
 function xorQueries(arr, queries) {
     for (let i = 1; i < arr.length; i++) {

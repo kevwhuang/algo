@@ -1,4 +1,4 @@
-// 1199 - Minimum Time to Build Blocks
+// 1199. Minimum Time to Build Blocks
 
 function minBuildTime(blocks, split) {
     const heap = new PriorityQueue((a, b) => a - b);

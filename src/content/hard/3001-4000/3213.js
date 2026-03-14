@@ -1,3 +1,3 @@
-// 3213 - Construct String With Minimum Cost
+// 3213. Construct String With Minimum Cost
 
 

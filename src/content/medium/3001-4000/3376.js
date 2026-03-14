@@ -1,4 +1,4 @@
-// 3376 - Minimum Time to Break Locks I
+// 3376. Minimum Time to Break Locks I
 
 function findMinimumTime(strength, K) {
     const dp = new Uint32Array(1 << strength.length).fill(-1);

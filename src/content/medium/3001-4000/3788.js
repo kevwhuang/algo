@@ -1,4 +1,4 @@
-// 3788 - Maximum Score of a Split
+// 3788. Maximum Score of a Split
 
 function maximumScore(nums) {
     let res = -Infinity, min = Infinity;

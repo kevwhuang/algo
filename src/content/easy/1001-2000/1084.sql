@@ -1,4 +1,4 @@
--- 1084 - Sales Analysis III
+-- 1084. Sales Analysis III
 
 WITH CTE AS (
     SELECT

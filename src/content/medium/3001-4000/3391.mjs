@@ -1,4 +1,4 @@
-// 3391 - Design a 3D Binary Matrix With Efficient Layer Tracking
+// 3391. Design a 3D Binary Matrix With Efficient Layer Tracking
 
 class Matrix3D {
     constructor(n) {

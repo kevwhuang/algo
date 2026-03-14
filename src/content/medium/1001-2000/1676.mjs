@@ -1,4 +1,4 @@
-// 1676 - Lowest Common Ancestor of a Binary Tree IV
+// 1676. Lowest Common Ancestor of a Binary Tree IV
 
 function lowestCommonAncestor(root, nodes) {
     if (!root || nodes.includes(root)) return root;

@@ -1,4 +1,4 @@
-// 3168 - Minimum Number of Chairs in a Waiting Room
+// 3168. Minimum Number of Chairs in a Waiting Room
 
 function minimumChairs(s) {
     let min = 0, acc = 0;

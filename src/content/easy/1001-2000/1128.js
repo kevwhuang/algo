@@ -1,4 +1,4 @@
-// 1128 - Number of Equivalent Domino Pairs
+// 1128. Number of Equivalent Domino Pairs
 
 function numEquivDominoPairs(dominoes) {
     let res = 0;

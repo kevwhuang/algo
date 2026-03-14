@@ -1,4 +1,4 @@
-// 740 - Delete and Earn
+// 740. Delete and Earn
 
 function deleteAndEarn(nums) {
     const dp = new Array(Math.max(...nums) + 1).fill(0);

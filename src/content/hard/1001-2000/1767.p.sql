@@ -1,4 +1,4 @@
--- 1767 - Find the Subtasks That Did Not Execute
+-- 1767. Find the Subtasks That Did Not Execute
 
 WITH RECURSIVE CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 1367 - Linked List in Binary Tree
+// 1367. Linked List in Binary Tree
 
 function isSubPath(head, root) {
     function dfs(node, cur) {

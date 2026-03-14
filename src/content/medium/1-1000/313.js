@@ -1,4 +1,4 @@
-// 313 - Super Ugly Number
+// 313. Super Ugly Number
 
 function nthSuperUglyNumber(n, primes) {
     const dp = new Uint32Array(n);

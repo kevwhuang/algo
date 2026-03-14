@@ -1,4 +1,4 @@
-// 253 - Meeting Rooms II
+// 253. Meeting Rooms II
 
 function minMeetingRooms(intervals) {
     const n = intervals.length;

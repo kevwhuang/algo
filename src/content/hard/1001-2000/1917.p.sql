@@ -1,4 +1,4 @@
--- 1917 - Leetcodify Friends Recommendations
+-- 1917. Leetcodify Friends Recommendations
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 2808 - Minimum Seconds to Equalize a Circular Array
+// 2808. Minimum Seconds to Equalize a Circular Array
 
 function minimumSeconds(nums) {
     const map = new Map(), len = nums.length;

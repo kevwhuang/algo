@@ -1,4 +1,4 @@
-// 1302 - Deepest Leaves Sum
+// 1302. Deepest Leaves Sum
 
 function deepestLeavesSum(root) {
     const queue = [root];

@@ -1,4 +1,4 @@
--- 580 - Count Student Number in Departments
+-- 580. Count Student Number in Departments
 
 SELECT
     dept_name,

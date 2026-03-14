@@ -1,4 +1,4 @@
-// 1554 - Strings Differ by One Character
+// 1554. Strings Differ by One Character
 
 function differByOne(dict) {
     const m = dict.length, n = dict[0].length;

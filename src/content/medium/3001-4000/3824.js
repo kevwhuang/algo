@@ -1,4 +1,4 @@
-// 3824 - Minimum K to Reduce Array Within Limit
+// 3824. Minimum K to Reduce Array Within Limit
 
 function minimumK(nums) {
     let l = 1, r = 2168;

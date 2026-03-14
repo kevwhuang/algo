@@ -1,4 +1,4 @@
-// 3635 - Earliest Finish Time for Land and Water Rides II
+// 3635. Earliest Finish Time for Land and Water Rides II
 
 function earliestFinishTime(landStartTime, landDuration, waterStartTime, waterDuration) {
     let res = Infinity, min = Infinity, i = -1, j = -1;

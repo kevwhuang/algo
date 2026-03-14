@@ -1,4 +1,4 @@
-// 624 - Maximum Distance in Arrays
+// 624. Maximum Distance in Arrays
 
 function maxDistance(arrays) {
     let distance = -Infinity, min = Infinity, max = -Infinity;

@@ -1,4 +1,4 @@
-// 3135 - Equalize Strings by Adding or Removing Characters at Ends
+// 3135. Equalize Strings by Adding or Removing Characters at Ends
 
 function minOperations(initial, target) {
     const m = initial.length, n = target.length;

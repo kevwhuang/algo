@@ -1,4 +1,4 @@
-// 1133 - Largest Unique Number
+// 1133. Largest Unique Number
 
 function largestUniqueNumber(nums) {
     const B = new Map();

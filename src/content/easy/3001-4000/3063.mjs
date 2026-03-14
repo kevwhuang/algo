@@ -1,4 +1,4 @@
-// 3063 - Linked List Frequency
+// 3063. Linked List Frequency
 
 function frequenciesOfElements(head) {
     const map = new Map();

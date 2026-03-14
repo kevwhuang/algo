@@ -1,3 +1,3 @@
-// 1994 - The Number of Good Subsets
+// 1994. The Number of Good Subsets
 
 

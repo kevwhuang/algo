@@ -1,4 +1,4 @@
-// 826 - Most Profit Assigning Work
+// 826. Most Profit Assigning Work
 
 function maxProfitAssignment(difficulty, profit, worker) {
     worker.sort((a, b) => b - a);

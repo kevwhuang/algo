@@ -1,4 +1,4 @@
-// 3853 - Merge Close Characters
+// 3853. Merge Close Characters
 
 function mergeCharacters(s, k) {
     let res = '';

@@ -1,4 +1,4 @@
-// 3023 - Find Pattern in Infinite Stream I
+// 3023. Find Pattern in Infinite Stream I
 
 function findPattern(stream, pattern) {
     const lps = [0];

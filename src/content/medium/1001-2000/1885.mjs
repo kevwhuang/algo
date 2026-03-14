@@ -1,4 +1,4 @@
-// 1885 - Count Pairs in Two Arrays
+// 1885. Count Pairs in Two Arrays
 
 function countPairs(nums1, nums2) {
     const len = nums1.length;

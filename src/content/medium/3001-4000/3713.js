@@ -1,4 +1,4 @@
-// 3713 - Longest Balanced Substring I
+// 3713. Longest Balanced Substring I
 
 function longestBalanced(s) {
     let res = 1, i = -1;

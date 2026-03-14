@@ -1,3 +1,3 @@
-// 3661 - Maximum Walls Destroyed by Robots
+// 3661. Maximum Walls Destroyed by Robots
 
 

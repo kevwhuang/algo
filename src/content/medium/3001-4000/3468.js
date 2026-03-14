@@ -1,4 +1,4 @@
-// 3468 - Find the Number of Copy Arrays
+// 3468. Find the Number of Copy Arrays
 
 function countArrays(original, bounds) {
     let left = bounds[0][0], right = bounds[0][1], i = 0;

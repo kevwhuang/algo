@@ -1,4 +1,4 @@
-// 487 - Max Consecutive Ones II
+// 487. Max Consecutive Ones II
 
 function findMaxConsecutiveOnes(nums) {
     let max = 0, prevWindow = 0, curWindow = 0, hasZero = 0;

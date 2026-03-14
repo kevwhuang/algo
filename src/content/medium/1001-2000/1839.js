@@ -1,4 +1,4 @@
-// 1839 - Longest Substring of All Vowels in Order
+// 1839. Longest Substring of All Vowels in Order
 
 function longestBeautifulSubstring(word) {
     let max = 0, start = 0, vowels = 1;

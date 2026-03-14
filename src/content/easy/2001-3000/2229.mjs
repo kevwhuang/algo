@@ -1,4 +1,4 @@
-// 2229 - Check If an Array Is Consecutive
+// 2229. Check If an Array Is Consecutive
 
 function isConsecutive(nums) {
     nums.sort((a, b) => a - b);

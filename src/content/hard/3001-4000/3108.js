@@ -1,4 +1,4 @@
-// 3108 - Minimum Cost Walk in Weighted Graph
+// 3108. Minimum Cost Walk in Weighted Graph
 
 function minimumCost(n, edges, query) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

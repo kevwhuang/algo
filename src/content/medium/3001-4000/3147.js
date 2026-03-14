@@ -1,4 +1,4 @@
-// 3147 - Taking Maximum Energy From the Mystic Dungeon
+// 3147. Taking Maximum Energy From the Mystic Dungeon
 
 function maximumEnergy(energy, k) {
     let max = -Infinity;

@@ -1,4 +1,4 @@
-// 2311 - Longest Binary Subsequence Less Than or Equal to K
+// 2311. Longest Binary Subsequence Less Than or Equal to K
 
 function longestSubsequence(s, k) {
     k = k.toString(2);

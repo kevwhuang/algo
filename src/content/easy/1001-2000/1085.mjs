@@ -1,4 +1,4 @@
-// 1085 - Sum of Digits in the Minimum Number
+// 1085. Sum of Digits in the Minimum Number
 
 function sumOfDigits(nums) {
     let sum = 0;

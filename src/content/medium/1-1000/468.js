@@ -1,4 +1,4 @@
-// 468 - Validate IP Address
+// 468. Validate IP Address
 
 function validIPAddress(queryIP) {
     if (queryIP.includes('.')) {

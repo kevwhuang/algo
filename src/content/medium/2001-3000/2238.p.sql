@@ -1,4 +1,4 @@
--- 2238 - Number of Times a Driver Was a Passenger
+-- 2238. Number of Times a Driver Was a Passenger
 
 SELECT
     R1.driver_id,

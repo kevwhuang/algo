@@ -1,3 +1,3 @@
-// 1847 - Closest Room
+// 1847. Closest Room
 
 

@@ -1,4 +1,4 @@
-// 10026 - Mortgage Calculator
+// 10026. Mortgage Calculator
 
 export function MortgageCalculator() {
     function handleClick() {

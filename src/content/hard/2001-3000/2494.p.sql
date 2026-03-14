@@ -1,4 +1,4 @@
--- 2494 - Merge Overlapping Events in the Same Hall
+-- 2494. Merge Overlapping Events in the Same Hall
 
 WITH CTE1 AS (
     SELECT

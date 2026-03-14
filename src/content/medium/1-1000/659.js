@@ -1,4 +1,4 @@
-// 659 - Split Array Into Consecutive Subsequences
+// 659. Split Array Into Consecutive Subsequences
 
 function isPossible(nums) {
     const map = {};

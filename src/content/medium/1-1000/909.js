@@ -1,4 +1,4 @@
-// 909 - Snakes and Ladders
+// 909. Snakes and Ladders
 
 function snakesAndLadders(board) {
     function boustrophedon(roll) {

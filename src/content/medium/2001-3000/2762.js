@@ -1,4 +1,4 @@
-// 2762 - Continuous Subarrays
+// 2762. Continuous Subarrays
 
 function continuousSubarrays(nums) {
     let subarrays = 0;

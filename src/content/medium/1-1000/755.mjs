@@ -1,4 +1,4 @@
-// 755 - Pour Water
+// 755. Pour Water
 
 function pourWater(heights, volume, k) {
     for (let n = 1; n <= volume; n++) {

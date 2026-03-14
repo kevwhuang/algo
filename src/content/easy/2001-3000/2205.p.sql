@@ -1,4 +1,4 @@
--- 2205 - The Number of Users That Are Eligible for Discount
+-- 2205. The Number of Users That Are Eligible for Discount
 
 CREATE FUNCTION getUserIDs(startDate DATE, endDate DATE, minAmount INT) RETURNS INT BEGIN RETURN (
     SELECT

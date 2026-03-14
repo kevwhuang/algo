@@ -1,4 +1,4 @@
-// 3718 - Smallest Missing Multiple of K
+// 3718. Smallest Missing Multiple of K
 
 function missingMultiple(nums, k) {
     let res = k;

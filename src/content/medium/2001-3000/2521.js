@@ -1,4 +1,4 @@
-// 2521 - Distinct Prime Factors of Product of Array
+// 2521. Distinct Prime Factors of Product of Array
 
 function distinctPrimeFactors(nums) {
     const primes = new Set();

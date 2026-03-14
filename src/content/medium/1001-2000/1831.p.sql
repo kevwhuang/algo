@@ -1,4 +1,4 @@
--- 1831 - Maximum Transaction Each Day
+-- 1831. Maximum Transaction Each Day
 
 SELECT
     transaction_id

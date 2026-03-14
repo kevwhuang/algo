@@ -1,3 +1,3 @@
-// 3762 - Minimum Operations to Equalize Subarrays
+// 3762. Minimum Operations to Equalize Subarrays
 
 

@@ -1,4 +1,4 @@
-// 2309 - Greatest English Letter in Upper and Lower Case
+// 2309. Greatest English Letter in Upper and Lower Case
 
 function greatestLetter(s) {
     const lower = new Uint8Array(26);

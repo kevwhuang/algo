@@ -1,4 +1,4 @@
-// 1356 - Sort Integers by the Number of 1 Bits
+// 1356. Sort Integers by the Number of 1 Bits
 
 function sortByBits(arr) {
     function hammingWeight(n) {

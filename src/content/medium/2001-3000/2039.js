@@ -1,4 +1,4 @@
-// 2039 - The Time When the Network Becomes Idle
+// 2039. The Time When the Network Becomes Idle
 
 function networkBecomesIdle(edges, patience) {
     const adj = Array.from({ length: patience.length }, () => []);

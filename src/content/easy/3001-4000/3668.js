@@ -1,4 +1,4 @@
-// 3668 - Restore Finishing Order
+// 3668. Restore Finishing Order
 
 function recoverOrder(order, friends) {
     const res = new Uint8Array(friends.length), set = new Set(friends);

@@ -1,4 +1,4 @@
-// 3409 - Longest Subsequence With Decreasing Adjacent Difference
+// 3409. Longest Subsequence With Decreasing Adjacent Difference
 
 function longestSubsequence(nums) {
     const n = nums.reduce((s, e) => Math.max(e, s)) + 1;

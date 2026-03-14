@@ -1,4 +1,4 @@
-// 1509 - Minimum Difference Between Largest and Smallest Value in Three Moves
+// 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 
 function minDifference(nums) {
     if (nums.length <= 4) return 0;

@@ -1,4 +1,4 @@
-// 1638 - Count Substrings That Differ by One Character
+// 1638. Count Substrings That Differ by One Character
 
 function countSubstrings(s, t) {
     let res = 0;

@@ -1,4 +1,4 @@
-// 2420 - Find All Good Indices
+// 2420. Find All Good Indices
 
 function goodIndices(nums, k) {
     const n = nums.length, nn = n - k, ss = new Uint32Array(n).fill(1);

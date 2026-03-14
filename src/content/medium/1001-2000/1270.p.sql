@@ -1,4 +1,4 @@
--- 1270 - All People Report to the Given Manager
+-- 1270. All People Report to the Given Manager
 
 SELECT
     E1.employee_id

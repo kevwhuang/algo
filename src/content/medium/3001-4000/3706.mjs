@@ -1,4 +1,4 @@
-// 3706 - Maximum Distance Between Unequal Words in Array II
+// 3706. Maximum Distance Between Unequal Words in Array II
 
 function maxDistance(words) {
     const s = words.at(-1), t = words[0], n = words.length;

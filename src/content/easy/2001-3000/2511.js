@@ -1,4 +1,4 @@
-// 2511 - Maximum Enemy Forts That Can Be Captured
+// 2511. Maximum Enemy Forts That Can Be Captured
 
 function captureForts(forts) {
     let captures = 0;

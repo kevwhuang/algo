@@ -1,4 +1,4 @@
-// 1611 - Minimum One Bit Operations to Make Integers Zero
+// 1611. Minimum One Bit Operations to Make Integers Zero
 
 function minimumOneBitOperations(n) {
     let res = 0;

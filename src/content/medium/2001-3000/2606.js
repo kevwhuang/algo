@@ -1,4 +1,4 @@
-// 2606 - Find the Substring With Maximum Cost
+// 2606. Find the Substring With Maximum Cost
 
 function maximumCostSubstring(s, chars, vals) {
     const costs = {};

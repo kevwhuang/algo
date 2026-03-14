@@ -1,4 +1,4 @@
-// 3362 - Zero Array Transformation III
+// 3362. Zero Array Transformation III
 
 function maxRemoval(nums, queries) {
     let acc = 0, i = -1, j = 0;

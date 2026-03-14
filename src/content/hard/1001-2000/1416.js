@@ -1,3 +1,3 @@
-// 1416 - Restore the Array
+// 1416. Restore the Array
 
 

@@ -1,4 +1,4 @@
-// 1584 - Min Cost to Connect All Points
+// 1584. Min Cost to Connect All Points
 
 function minCostConnectPoints(points) {
     let res = 0;

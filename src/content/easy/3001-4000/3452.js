@@ -1,4 +1,4 @@
-// 3452 - Sum of Good Numbers
+// 3452. Sum of Good Numbers
 
 function sumOfGoodNumbers(nums, k) {
     let res = 0, i = -1;

@@ -1,4 +1,4 @@
--- 1076 - Project Employees II
+-- 1076. Project Employees II
 
 SELECT
     project_id

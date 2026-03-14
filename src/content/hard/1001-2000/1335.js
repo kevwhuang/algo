@@ -1,3 +1,3 @@
-// 1335 - Minimum Difficulty of a Job Schedule
+// 1335. Minimum Difficulty of a Job Schedule
 
 

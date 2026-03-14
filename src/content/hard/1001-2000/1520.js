@@ -1,4 +1,4 @@
-// 1520 - Maximum Number of Non-Overlapping Substrings
+// 1520. Maximum Number of Non-Overlapping Substrings
 
 function maxNumOfSubstrings(s) {
     const fn = i => s.charCodeAt(i) - 97;

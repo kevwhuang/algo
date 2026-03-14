@@ -1,4 +1,4 @@
-// 2643 - Row With Maximum Ones
+// 2643. Row With Maximum Ones
 
 function rowAndMaximumOnes(mat) {
     let row = 0, max = 0;

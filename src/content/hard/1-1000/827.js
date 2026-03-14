@@ -1,4 +1,4 @@
-// 827 - Making a Large Island
+// 827. Making a Large Island
 
 function largestIsland(grid) {
     function dfs(r, c) {

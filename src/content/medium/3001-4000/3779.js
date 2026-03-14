@@ -1,4 +1,4 @@
-// 3779 - Minimum Number of Operations to Have Distinct Elements
+// 3779. Minimum Number of Operations to Have Distinct Elements
 
 function minOperations(nums) {
     const seen = new Set();

@@ -1,4 +1,4 @@
-// 1739 - Building Boxes
+// 1739. Building Boxes
 
 function minimumBoxes(n) {
     let res = 0, acc = 0, d = 0;

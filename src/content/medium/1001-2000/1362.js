@@ -1,4 +1,4 @@
-// 1362 - Closest Divisors
+// 1362. Closest Divisors
 
 function closestDivisors(num) {
     let n1, n2, d = ~~(++num ** .5);

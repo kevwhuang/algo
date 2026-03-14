@@ -1,4 +1,4 @@
-// 1776 - Car Fleet II
+// 1776. Car Fleet II
 
 function getCollisionTimes(cars) {
     if (!this.S) S = new Uint32Array(100000);

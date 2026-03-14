@@ -1,4 +1,4 @@
-// 3443 - Maximum Manhattan Distance After K Changes
+// 3443. Maximum Manhattan Distance After K Changes
 
 function maxDistance(s, k) {
     let res = 0, a = 0, b = 0, c = 0, d = 0, i = -1;

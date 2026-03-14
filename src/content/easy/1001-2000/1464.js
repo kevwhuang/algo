@@ -1,4 +1,4 @@
-// 1464 - Maximum Product of Two Elements in an Array
+// 1464. Maximum Product of Two Elements in an Array
 
 function maxProduct(nums) {
     let max1 = 1, max2 = 1, i = -1;

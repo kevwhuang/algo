@@ -1,4 +1,4 @@
-// 2576 - Find the Maximum Number of Marked Indices
+// 2576. Find the Maximum Number of Marked Indices
 
 function maxNumOfMarkedIndices(nums) {
     nums = new Uint32Array(nums).sort();

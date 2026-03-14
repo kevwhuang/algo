@@ -1,4 +1,4 @@
-// 2038 - Remove Colored Pieces If Both Neighbors Are the Same Color
+// 2038. Remove Colored Pieces If Both Neighbors Are the Same Color
 
 function winnerOfGame(colors) {
     let alice = 0, bob = 0, i = 0;

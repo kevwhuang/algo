@@ -1,4 +1,4 @@
-// 1987 - Number of Unique Good Subsequences
+// 1987. Number of Unique Good Subsequences
 
 function numberOfUniqueGoodSubsequences(binary) {
     let a = 0, b = 0, c = 0;

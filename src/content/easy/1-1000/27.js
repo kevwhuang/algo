@@ -1,4 +1,4 @@
-// 27 - Remove Element
+// 27. Remove Element
 
 function removeElement(nums, val) {
     let l = 0, r = 0;

@@ -1,4 +1,4 @@
-// 3120 - Count the Number of Special Characters I
+// 3120. Count the Number of Special Characters I
 
 function numberOfSpecialChars(word) {
     const set = new Set();

@@ -1,4 +1,4 @@
--- 2853 - Highest Salaries Difference
+-- 2853. Highest Salaries Difference
 
 SELECT
     ABS(

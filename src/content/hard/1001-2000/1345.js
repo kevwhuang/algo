@@ -1,4 +1,4 @@
-// 1345 - Jump Game IV
+// 1345. Jump Game IV
 
 function minJumps(arr) {
     const map = new Map(), n = arr.length - 1;

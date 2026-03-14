@@ -1,4 +1,4 @@
-// 320 - Generalized Abbreviation
+// 320. Generalized Abbreviation
 
 function generateAbbreviations(word) {
     function backtrack(i, acc, cur) {

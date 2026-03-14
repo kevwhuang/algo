@@ -1,4 +1,4 @@
-// 3780 - Maximum Sum of Three Numbers Divisible by Three
+// 3780. Maximum Sum of Three Numbers Divisible by Three
 
 function maximumSum(nums) {
     let a = -Infinity, b = a, c = a, d = a, e = a, f = a, g = a, h = a, i = a;

@@ -1,4 +1,4 @@
-// 2804 - Array Prototype forEach
+// 2804. Array Prototype forEach
 
 Array.prototype.forEach = function (callback, context) {
     for (let i = 0; i < this.length; i++) {

@@ -1,4 +1,4 @@
--- 1495 - Friendly Movies Streamed Last Month
+-- 1495. Friendly Movies Streamed Last Month
 
 SELECT
     DISTINCT title

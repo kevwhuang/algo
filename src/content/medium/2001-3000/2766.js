@@ -1,4 +1,4 @@
-// 2766 - Relocate Marbles
+// 2766. Relocate Marbles
 
 function relocateMarbles(nums, moveFrom, moveTo) {
     const set = new Set(nums);

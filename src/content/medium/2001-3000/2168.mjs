@@ -1,4 +1,4 @@
-// 2168 - Unique Substrings With Equal Digit Frequency
+// 2168. Unique Substrings With Equal Digit Frequency
 
 function equalDigitFrequency(s) {
     const set = new Set();

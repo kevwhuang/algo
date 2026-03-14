@@ -1,4 +1,4 @@
-// 3694 - Distinct Points Reachable After Substring Removal
+// 3694. Distinct Points Reachable After Substring Removal
 
 function distinctPoints(s, k) {
     const set = new Set();

@@ -1,4 +1,4 @@
-// 535 - Encode and Decode TinyURL
+// 535. Encode and Decode TinyURL
 
 function encode(longUrl) {
     return longUrl;

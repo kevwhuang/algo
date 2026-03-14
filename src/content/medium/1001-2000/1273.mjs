@@ -1,4 +1,4 @@
-// 1273 - Delete Tree Nodes
+// 1273. Delete Tree Nodes
 
 function deleteTreeNodes(nodes, parent, value) {
     function dfs1(node) {

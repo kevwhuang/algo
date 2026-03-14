@@ -1,4 +1,4 @@
-// 3847 - Find the Score Difference in a Game
+// 3847. Find the Score Difference in a Game
 
 function scoreDifference(nums) {
     let res = 0, flag = true, i = -1;

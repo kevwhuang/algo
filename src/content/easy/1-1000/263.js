@@ -1,4 +1,4 @@
-// 263 - Ugly Number
+// 263. Ugly Number
 
 function isUgly(n) {
     if (n <= 0) return false;

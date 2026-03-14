@@ -1,4 +1,4 @@
-// 10001 - Create DOM Node
+// 10001. Create DOM Node
 
 export function createDomNode() {
     const div = document.createElement('div');

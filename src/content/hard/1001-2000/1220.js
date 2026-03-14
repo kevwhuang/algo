@@ -1,4 +1,4 @@
-// 1220 - Count Vowels Permutation
+// 1220. Count Vowels Permutation
 
 function countVowelPermutation(n) {
     let a = 1, e = 1, i = 1, o = 1, u = 1, aa, ee, ii, oo, uu;

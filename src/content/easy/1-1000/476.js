@@ -1,4 +1,4 @@
-// 476 - Number Complement
+// 476. Number Complement
 
 function findComplement(num) {
     let mask = 1;

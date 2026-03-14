@@ -1,4 +1,4 @@
-// 3099 - Harshad Number
+// 3099. Harshad Number
 
 function sumOfTheDigitsOfHarshadNumber(x) {
     let sum = 0, cur = x;

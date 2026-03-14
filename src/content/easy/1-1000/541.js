@@ -1,4 +1,4 @@
-// 541 - Reverse String II
+// 541. Reverse String II
 
 function reverseStr(s, k) {
     function swap(start, end) {

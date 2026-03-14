@@ -1,4 +1,4 @@
-// 1155 - Number of Dice Rolls With Target Sum
+// 1155. Number of Dice Rolls With Target Sum
 
 function numRollsToTarget(n, k, target) {
     const dp = new Uint32Array(target + 1);

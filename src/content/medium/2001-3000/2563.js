@@ -1,4 +1,4 @@
-// 2563 - Count the Number of Fair Pairs
+// 2563. Count the Number of Fair Pairs
 
 function countFairPairs(nums, lower, upper) {
     function count(bound) {

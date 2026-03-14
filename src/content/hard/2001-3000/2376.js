@@ -1,3 +1,3 @@
-// 2376 - Count Special Integers
+// 2376. Count Special Integers
 
 

@@ -1,3 +1,3 @@
-// 432 - All O(1) Data Structure
+// 432. All O(1) Data Structure
 
 

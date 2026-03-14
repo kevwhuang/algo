@@ -1,4 +1,4 @@
-// 3495 - Minimum Operations to Make Array Elements Zero
+// 3495. Minimum Operations to Make Array Elements Zero
 
 function minOperations(queries) {
     if (!this.dict) dict = Array.from({ length: 16 }, (_, i) => 4 ** i);

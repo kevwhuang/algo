@@ -1,4 +1,4 @@
-// 99 - Recover Binary Search Tree
+// 99. Recover Binary Search Tree
 
 function recoverTree(root) {
     function dfs1(node) {

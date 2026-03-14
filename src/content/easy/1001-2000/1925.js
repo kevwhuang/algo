@@ -1,4 +1,4 @@
-// 1925 - Count Square Sum Triples
+// 1925. Count Square Sum Triples
 
 function countTriples(n) {
     let res = 0;

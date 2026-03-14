@@ -1,4 +1,4 @@
-// 3450 - Maximum Students on a Single Bench
+// 3450. Maximum Students on a Single Bench
 
 function maxStudentsOnBench(students) {
     const map = new Map();

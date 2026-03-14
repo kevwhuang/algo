@@ -1,4 +1,4 @@
-// 274 - H-Index
+// 274. H-Index
 
 function hIndex(citations) {
     citations.sort((a, b) => b - a);

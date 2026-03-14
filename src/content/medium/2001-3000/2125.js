@@ -1,4 +1,4 @@
-// 2125 - Number of Laser Beams in a Bank
+// 2125. Number of Laser Beams in a Bank
 
 function numberOfBeams(banks) {
     let beams = 0, prev, cur;

@@ -1,4 +1,4 @@
-// 566 - Reshape the Matrix
+// 566. Reshape the Matrix
 
 function matrixReshape(mat, r, c) {
     const m = mat.length, n = mat[0].length;

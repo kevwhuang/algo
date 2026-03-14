@@ -1,4 +1,4 @@
-// 2410 - Maximum Matching of Players With Trainers
+// 2410. Maximum Matching of Players With Trainers
 
 function matchPlayersAndTrainers(players, trainers) {
     const arr1 = new Uint32Array(players).sort();

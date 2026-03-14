@@ -1,4 +1,4 @@
-// 1060 - Missing Element in Sorted Array
+// 1060. Missing Element in Sorted Array
 
 function missingElement(nums, k) {
     const sum = nums[0] + k;

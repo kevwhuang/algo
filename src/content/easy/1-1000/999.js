@@ -1,4 +1,4 @@
-// 999 - Available Captures for Rook
+// 999. Available Captures for Rook
 
 function numRookCaptures(board) {
     let row, col;

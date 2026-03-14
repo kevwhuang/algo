@@ -1,4 +1,4 @@
-// 1462 - Course Schedule IV
+// 1462. Course Schedule IV
 
 function checkIfPrerequisite(numCourses, prerequisites, queries) {
     const mapper = () => new Uint8Array(numCourses);

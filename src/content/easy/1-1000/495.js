@@ -1,4 +1,4 @@
-// 495 - Teemo Attacking
+// 495. Teemo Attacking
 
 function findPoisonedDuration(timeSeries, duration) {
     let time = duration;

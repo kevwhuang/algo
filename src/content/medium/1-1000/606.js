@@ -1,4 +1,4 @@
-// 606 - Construct String From Binary Tree
+// 606. Construct String From Binary Tree
 
 function tree2str(root) {
     if (!root) return '';

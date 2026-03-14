@@ -1,3 +1,3 @@
-// 3171 - Find Subarray With Bitwise AND Closest to K
+// 3171. Find Subarray With Bitwise AND Closest to K
 
 

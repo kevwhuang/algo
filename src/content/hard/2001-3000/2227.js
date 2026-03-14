@@ -1,3 +1,3 @@
-// 2227 - Encrypt and Decrypt Strings
+// 2227. Encrypt and Decrypt Strings
 
 

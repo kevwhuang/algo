@@ -1,4 +1,4 @@
-// 1685 - Sum of Absolute Differences in a Sorted Array
+// 1685. Sum of Absolute Differences in a Sorted Array
 
 function getSumAbsoluteDifferences(nums) {
     let leftSum = 0, rightSum = nums.reduce((s, n) => s + n);

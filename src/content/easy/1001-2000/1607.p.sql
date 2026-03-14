@@ -1,4 +1,4 @@
--- 1607 - Sellers With No Sales
+-- 1607. Sellers With No Sales
 
 SELECT
     seller_name

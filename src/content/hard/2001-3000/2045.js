@@ -1,4 +1,4 @@
-// 2045 - Second Minimum Time to Reach Destination
+// 2045. Second Minimum Time to Reach Destination
 
 function secondMinimum(n, edges, time, change) {
     const adj = Array.from({ length: n + 1 }, () => []);

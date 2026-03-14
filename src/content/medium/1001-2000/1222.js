@@ -1,4 +1,4 @@
-// 1222 - Queens That Can Attack the King
+// 1222. Queens That Can Attack the King
 
 function queensAttacktheKing(queens, king) {
     const board = new Array(8);

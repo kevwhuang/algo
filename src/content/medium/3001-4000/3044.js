@@ -1,4 +1,4 @@
-// 3044 - Most Frequent Prime
+// 3044. Most Frequent Prime
 
 function mostFrequentPrime(mat) {
     function isPrime(num) {

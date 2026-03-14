@@ -1,4 +1,4 @@
-// 2560 - House Robber IV
+// 2560. House Robber IV
 
 function minCapability(nums, k) {
     let l = Infinity, r = -Infinity;

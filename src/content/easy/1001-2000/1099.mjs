@@ -1,4 +1,4 @@
-// 1099 - Two Sum Less Than K
+// 1099. Two Sum Less Than K
 
 function twoSumLessThanK(nums, k) {
     nums = new Uint16Array(nums).sort();

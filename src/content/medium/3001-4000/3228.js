@@ -1,4 +1,4 @@
-// 3228 - Maximum Number of Operations to Move Ones to the End
+// 3228. Maximum Number of Operations to Move Ones to the End
 
 function maxOperations(s) {
     let ops = 0, ones = 0;

@@ -1,4 +1,4 @@
-// 1485 - Clone Binary Tree With Random Pointer
+// 1485. Clone Binary Tree With Random Pointer
 
 function copyRandomBinaryTree(root) {
     function dfsConstruct(node) {

@@ -1,4 +1,4 @@
-// 590 - N-Ary Tree Postorder Traversal
+// 590. N-Ary Tree Postorder Traversal
 
 function postorder(root) {
     function traverse(cur) {

@@ -1,4 +1,4 @@
-// 404 - Sum of Left Leaves
+// 404. Sum of Left Leaves
 
 function sumOfLeftLeaves(root) {
     function dfs(node) {

@@ -1,4 +1,4 @@
-// 2768 - Number of Black Blocks
+// 2768. Number of Black Blocks
 
 function countBlackBlocks(m, n, coordinates) {
     const update = key => map.set(key, (map.get(key) ?? 0) + 1);

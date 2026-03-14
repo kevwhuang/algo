@@ -1,4 +1,4 @@
-// 3400 - Maximum Number of Matching Indices After Right Shifts
+// 3400. Maximum Number of Matching Indices After Right Shifts
 
 function maximumMatchingIndices(nums1, nums2) {
     const map = new Map(), n = nums1.length;

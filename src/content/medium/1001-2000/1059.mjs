@@ -1,4 +1,4 @@
-// 1059 - All Paths From Source Lead to Destination
+// 1059. All Paths From Source Lead to Destination
 
 function leadsToDestination(n, edges, source, destination) {
     function dfs(node) {

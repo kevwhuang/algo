@@ -1,4 +1,4 @@
-// 2395 - Find Subarrays With Equal Sum
+// 2395. Find Subarrays With Equal Sum
 
 function findSubarrays(nums) {
     const set = new Set();

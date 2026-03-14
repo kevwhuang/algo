@@ -1,4 +1,4 @@
-// 3377 - Digit Operations to Make Two Integers Equal
+// 3377. Digit Operations to Make Two Integers Equal
 
 function minOperations(n, m) {
     function init() {

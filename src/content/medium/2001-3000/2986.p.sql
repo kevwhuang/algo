@@ -1,4 +1,4 @@
--- 2986 - Find Third Transaction
+-- 2986. Find Third Transaction
 
 WITH CTE AS (
     SELECT

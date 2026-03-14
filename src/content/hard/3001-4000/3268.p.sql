@@ -1,4 +1,4 @@
--- 3268 - Find Overlapping Shifts II
+-- 3268. Find Overlapping Shifts II
 
 WITH CTE AS (
     SELECT

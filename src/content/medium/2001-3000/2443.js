@@ -1,4 +1,4 @@
-// 2443 - Sum of Number and Its Reverse
+// 2443. Sum of Number and Its Reverse
 
 function sumOfNumberAndReverse(num) {
     if (num === 0) return true;

@@ -1,3 +1,3 @@
-// 968 - Binary Tree Cameras
+// 968. Binary Tree Cameras
 
 

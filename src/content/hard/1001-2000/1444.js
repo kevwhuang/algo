@@ -1,3 +1,3 @@
-// 1444 - Number of Ways of Cutting a Pizza
+// 1444. Number of Ways of Cutting a Pizza
 
 

@@ -1,4 +1,4 @@
-// 2557 - Maximum Number of Integers to Choose From a Range II
+// 2557. Maximum Number of Integers to Choose From a Range II
 
 function maxCount(banned, n, maxSum) {
     banned.push(0, n + 1);

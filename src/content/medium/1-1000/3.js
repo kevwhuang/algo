@@ -1,4 +1,4 @@
-// 3 - Longest Substring Without Repeating Characters
+// 3. Longest Substring Without Repeating Characters
 
 function lengthOfLongestSubstring(s) {
     let res = 0, l = 0, r = 0;

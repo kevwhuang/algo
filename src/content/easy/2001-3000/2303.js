@@ -1,4 +1,4 @@
-// 2303 - Calculate Amount Paid in Taxes
+// 2303. Calculate Amount Paid in Taxes
 
 function calculateTax(brackets, income) {
     let tax = 0;

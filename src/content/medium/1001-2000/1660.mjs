@@ -1,4 +1,4 @@
-// 1660 - Correct a Binary Tree
+// 1660. Correct a Binary Tree
 
 function correctBinaryTree(root) {
     let queue = new Set([root]);

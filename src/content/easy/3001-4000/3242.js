@@ -1,4 +1,4 @@
-// 3242 - Design Neighbor Sum Service
+// 3242. Design Neighbor Sum Service
 
 class NeighborSum {
     constructor(grid) {

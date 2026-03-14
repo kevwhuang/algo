@@ -1,4 +1,4 @@
-// 1332 - Remove Palindromic Subsequences
+// 1332. Remove Palindromic Subsequences
 
 function removePalindromeSub(s) {
     let l = 0, r = s.length - 1;

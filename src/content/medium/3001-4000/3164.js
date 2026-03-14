@@ -1,4 +1,4 @@
-// 3164 - Find the Number of Good Pairs II
+// 3164. Find the Number of Good Pairs II
 
 function numberOfPairs(nums1, nums2, k) {
     let max = 0;

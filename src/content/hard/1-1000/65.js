@@ -1,4 +1,4 @@
-// 65 - Valid Number
+// 65. Valid Number
 
 function isNumber(s) {
     return !s.includes('Infinity') && !isNaN(s);

@@ -1,4 +1,4 @@
-// 1997 - First Day Where You Have Been in All the Rooms
+// 1997. First Day Where You Have Been in All the Rooms
 
 function firstDayBeenInAllRooms(nextVisit) {
     const n = nextVisit.length, dp = new Uint32Array(n);

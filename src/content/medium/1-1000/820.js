@@ -1,4 +1,4 @@
-// 820 - Short Encoding of Words
+// 820. Short Encoding of Words
 
 function minimumLengthEncoding(words) {
     const set = new Set(words);

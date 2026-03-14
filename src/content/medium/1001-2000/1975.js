@@ -1,4 +1,4 @@
-// 1975 - Maximum Matrix Sum
+// 1975. Maximum Matrix Sum
 
 function maxMatrixSum(matrix) {
     let sum = 0, min = 1e5, odds = 0;

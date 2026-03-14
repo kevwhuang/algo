@@ -1,4 +1,4 @@
-// 3356 - Zero Array Transformation II
+// 3356. Zero Array Transformation II
 
 function minZeroArray(nums, queries) {
     let acc = 0, i = -1, j = -1;

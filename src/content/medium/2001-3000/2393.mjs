@@ -1,4 +1,4 @@
-// 2393 - Count Strictly Increasing Subarrays
+// 2393. Count Strictly Increasing Subarrays
 
 function countSubarrays(nums) {
     let subarrays = 1, window = 1;

@@ -1,4 +1,4 @@
-// 2427 - Number of Common Factors
+// 2427. Number of Common Factors
 
 function commonFactors(a, b) {
     let factors = 1;

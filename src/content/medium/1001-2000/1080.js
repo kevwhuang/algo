@@ -1,4 +1,4 @@
-// 1080 - Insufficient Nodes in Root to Leaf Paths
+// 1080. Insufficient Nodes in Root to Leaf Paths
 
 function sufficientSubset(root, limit) {
     function dfs(root, limit) {

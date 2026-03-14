@@ -1,3 +1,3 @@
-// 1659 - Maximize Grid Happiness
+// 1659. Maximize Grid Happiness
 
 

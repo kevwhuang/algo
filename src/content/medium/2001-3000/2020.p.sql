@@ -1,4 +1,4 @@
--- 2020 - Number of Accounts That Did Not Stream
+-- 2020. Number of Accounts That Did Not Stream
 
 SELECT
     COUNT(account_id) AS accounts_count

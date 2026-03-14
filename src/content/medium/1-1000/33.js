@@ -1,4 +1,4 @@
-// 33 - Search in Rotated Sorted Array
+// 33. Search in Rotated Sorted Array
 
 function search(nums, target) {
     let l = 0, r = nums.length - 1;

@@ -1,4 +1,4 @@
-// 688 - Knight Probability in Chessboard
+// 688. Knight Probability in Chessboard
 
 function knightProbability(n, k, row, column) {
     let dp = Array.from({ length: n }, () => new Uint8Array(n));

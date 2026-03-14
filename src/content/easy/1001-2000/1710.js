@@ -1,4 +1,4 @@
-// 1710 - Maximum Units on a Truck
+// 1710. Maximum Units on a Truck
 
 function maximumUnits(boxTypes, truckSize) {
     let res = 0, i = -1;

@@ -1,4 +1,4 @@
-// 2108 - Find First Palindromic String in the Array
+// 2108. Find First Palindromic String in the Array
 
 function firstPalindrome(words) {
     for (let i = 0; i < words.length; i++) {

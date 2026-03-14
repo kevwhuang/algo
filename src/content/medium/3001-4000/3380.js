@@ -1,4 +1,4 @@
-// 3380 - Maximum Area Rectangle With Point Constraints I
+// 3380. Maximum Area Rectangle With Point Constraints I
 
 function maxRectangleArea(points) {
     let max = -1;

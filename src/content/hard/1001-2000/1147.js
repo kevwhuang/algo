@@ -1,4 +1,4 @@
-// 1147 - Longest Chunked Palindrome Decomposition
+// 1147. Longest Chunked Palindrome Decomposition
 
 function longestDecomposition(text) {
     let res = 0, l = 0, r = text.length, d = 1;

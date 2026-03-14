@@ -1,4 +1,4 @@
-// 427 - Construct Quad Tree
+// 427. Construct Quad Tree
 
 function construct(grid) {
     function build(node, r, c, size) {

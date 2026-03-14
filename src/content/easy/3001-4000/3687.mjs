@@ -1,4 +1,4 @@
-// 3687 - Library Late Fee Calculator
+// 3687. Library Late Fee Calculator
 
 function lateFee(daysLate) {
     let res = 0, i = -1;

@@ -1,4 +1,4 @@
-// 1339 - Maximum Product of Splitted Binary Tree
+// 1339. Maximum Product of Splitted Binary Tree
 
 function maxProduct(root) {
     function dfs1(node) {

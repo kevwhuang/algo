@@ -1,4 +1,4 @@
-// 257 - Binary Tree Paths
+// 257. Binary Tree Paths
 
 function binaryTreePaths(root) {
     function dfs(node, str) {

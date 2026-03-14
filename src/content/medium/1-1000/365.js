@@ -1,4 +1,4 @@
-// 365 - Water and Jug Problem
+// 365. Water and Jug Problem
 
 function canMeasureWater(x, y, target) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

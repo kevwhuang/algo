@@ -1,3 +1,3 @@
-// 1842 - Next Palindrome Using Same Digits
+// 1842. Next Palindrome Using Same Digits
 
 

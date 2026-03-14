@@ -1,4 +1,4 @@
-// 1352 - Product of the Last K Numbers
+// 1352. Product of the Last K Numbers
 
 class ProductOfNumbers {
     constructor() {

@@ -1,4 +1,4 @@
-// 89 - Gray Code
+// 89. Gray Code
 
 function grayCode(n) {
     const bound = 1 << n;

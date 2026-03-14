@@ -1,3 +1,3 @@
-// 3605 - Minimum Stability Factor of Array
+// 3605. Minimum Stability Factor of Array
 
 

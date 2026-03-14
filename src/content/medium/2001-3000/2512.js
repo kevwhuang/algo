@@ -1,4 +1,4 @@
-// 2512 - Reward Top K Students
+// 2512. Reward Top K Students
 
 function topStudents(positive_feedback, negative_feedback, report, student_id, k) {
     positive_feedback = new Set(positive_feedback);

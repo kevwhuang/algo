@@ -1,3 +1,3 @@
-// 3225 - Maximum Score From Grid Operations
+// 3225. Maximum Score From Grid Operations
 
 

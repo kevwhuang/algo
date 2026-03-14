@@ -1,4 +1,4 @@
-// 1004 - Max Consecutive Ones III
+// 1004. Max Consecutive Ones III
 
 function longestOnes(nums, k) {
     let l = 0, r = 0;

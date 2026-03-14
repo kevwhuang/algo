@@ -1,4 +1,4 @@
-// 3167 - Better Compression of String
+// 3167. Better Compression of String
 
 function betterCompression(compressed) {
     const bucket = new Array(26).fill(0);

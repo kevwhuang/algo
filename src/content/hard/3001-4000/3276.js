@@ -1,3 +1,3 @@
-// 3276 - Select Cells in Grid With Maximum Score
+// 3276. Select Cells in Grid With Maximum Score
 
 

@@ -1,3 +1,3 @@
-// 446 - Arithmetic Slices II - Subsequence
+// 446. Arithmetic Slices II - Subsequence
 
 

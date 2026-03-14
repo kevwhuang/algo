@@ -1,4 +1,4 @@
-// 2638 - Count the Number of K-Free Subsets
+// 2638. Count the Number of K-Free Subsets
 
 function countTheNumOfKFreeSubsets(nums, k) {
     function init() {

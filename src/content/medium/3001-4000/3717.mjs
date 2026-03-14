@@ -1,4 +1,4 @@
-// 3717 - Minimum Operations to Make the Array Beautiful
+// 3717. Minimum Operations to Make the Array Beautiful
 
 function minOperations(nums) {
     const m = nums.length, n = 2 * Math.max(...nums) + 1;

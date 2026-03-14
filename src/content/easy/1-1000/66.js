@@ -1,4 +1,4 @@
-// 66 - Plus One
+// 66. Plus One
 
 function plusOne(digits) {
     for (let i = digits.length - 1; ~i; i--) {

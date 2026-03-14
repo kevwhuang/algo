@@ -1,3 +1,3 @@
-// 2790 - Maximum Number of Groups With Increasing Length
+// 2790. Maximum Number of Groups With Increasing Length
 
 

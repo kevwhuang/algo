@@ -1,4 +1,4 @@
-// 1964 - Find the Longest Valid Obstacle Course at Each Position
+// 1964. Find the Longest Valid Obstacle Course at Each Position
 
 function longestObstacleCourseAtEachPosition(obstacles) {
     const dp = [];

@@ -1,4 +1,4 @@
-// 3030 - Find the Grid of Region Average
+// 3030. Find the Grid of Region Average
 
 function resultGrid(image, threshold) {
     function isRegion(r, c) {

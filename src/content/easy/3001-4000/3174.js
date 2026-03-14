@@ -1,4 +1,4 @@
-// 3174 - Clear Digits
+// 3174. Clear Digits
 
 function clearDigits(s) {
     const stack = [];

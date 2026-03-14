@@ -1,4 +1,4 @@
-// 776 - Split BST
+// 776. Split BST
 
 function splitBST(root, target) {
     if (!root) return [null, null];

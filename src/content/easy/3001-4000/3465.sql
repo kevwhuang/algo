@@ -1,4 +1,4 @@
--- 3465 - Find Products With Valid Serial Numbers
+-- 3465. Find Products With Valid Serial Numbers
 
 SELECT
     *

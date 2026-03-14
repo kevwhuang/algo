@@ -1,4 +1,4 @@
-// 49 - Group Anagrams
+// 49. Group Anagrams
 
 function groupAnagrams(strs) {
     const map = new Map();

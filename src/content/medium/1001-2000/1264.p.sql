@@ -1,4 +1,4 @@
--- 1264 - Page Recommendations
+-- 1264. Page Recommendations
 
 SELECT
     DISTINCT page_id AS recommended_page

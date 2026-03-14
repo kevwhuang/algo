@@ -1,4 +1,4 @@
-// 1033 - Moving Stones Until Consecutive
+// 1033. Moving Stones Until Consecutive
 
 function numMovesStones(a, b, c) {
     [a, b, c] = [a, b, c].sort((a, b) => a - b);

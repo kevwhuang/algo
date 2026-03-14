@@ -1,4 +1,4 @@
-// 1652 - Defuse the Bomb
+// 1652. Defuse the Bomb
 
 function decrypt(code, k) {
     if (k === 0) return code.fill(0);

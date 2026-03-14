@@ -1,4 +1,4 @@
-// 2623 - Memoize
+// 2623. Memoize
 
 function memoize(fn) {
     function res(a, b) {

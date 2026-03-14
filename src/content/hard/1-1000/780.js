@@ -1,3 +1,3 @@
-// 780 - Reaching Points
+// 780. Reaching Points
 
 

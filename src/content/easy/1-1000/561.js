@@ -1,4 +1,4 @@
-// 561 - Array Partition
+// 561. Array Partition
 
 function arrayPairSum(nums) {
     nums.sort((a, b) => a - b);

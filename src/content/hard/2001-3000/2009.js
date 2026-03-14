@@ -1,4 +1,4 @@
-// 2009 - Minimum Number of Operations to Make Array Continuous
+// 2009. Minimum Number of Operations to Make Array Continuous
 
 function minOperations(nums) {
     if (!this.A) A = new Uint32Array(100000);

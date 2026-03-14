@@ -1,4 +1,4 @@
-// 1117 - Building H2O
+// 1117. Building H2O
 
 import java.util.concurrent.*;
 

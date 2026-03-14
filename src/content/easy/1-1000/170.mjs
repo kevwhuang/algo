@@ -1,4 +1,4 @@
-// 170 - Two Sum III - Data Structure Design
+// 170. Two Sum III - Data Structure Design
 
 class TwoSum {
     constructor() {

@@ -1,4 +1,4 @@
-// 386 - Lexicographical Numbers
+// 386. Lexicographical Numbers
 
 function lexicalOrder(n) {
     function generate(cur, start, end) {

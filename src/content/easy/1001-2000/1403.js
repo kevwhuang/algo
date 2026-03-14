@@ -1,4 +1,4 @@
-// 1403 - Minimum Subsequence in Non-Increasing Order
+// 1403. Minimum Subsequence in Non-Increasing Order
 
 function minSubsequence(nums) {
     const arr = new Uint8Array(nums).sort().reverse();

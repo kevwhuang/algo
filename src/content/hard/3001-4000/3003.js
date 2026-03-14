@@ -1,3 +1,3 @@
-// 3003 - Maximize the Number of Partitions After Operations
+// 3003. Maximize the Number of Partitions After Operations
 
 

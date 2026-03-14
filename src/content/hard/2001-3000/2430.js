@@ -1,3 +1,3 @@
-// 2430 - Maximum Deletions on a String
+// 2430. Maximum Deletions on a String
 
 

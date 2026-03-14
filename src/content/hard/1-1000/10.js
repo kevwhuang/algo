@@ -1,4 +1,4 @@
-// 10 - Regular Expression Matching
+// 10. Regular Expression Matching
 
 function isMatch(s, p) {
     const m = s.length, n = p.length;

@@ -1,4 +1,4 @@
--- 3415 - Find Products With Three Consecutive Digits
+-- 3415. Find Products With Three Consecutive Digits
 
 SELECT
     *

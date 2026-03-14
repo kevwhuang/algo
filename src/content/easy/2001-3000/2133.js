@@ -1,4 +1,4 @@
-// 2133 - Check If Every Row and Column Contains All Numbers
+// 2133. Check If Every Row and Column Contains All Numbers
 
 function checkValid(matrix) {
     const m = matrix.length, n = matrix[0].length;

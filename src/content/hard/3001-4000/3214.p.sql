@@ -1,4 +1,4 @@
--- 3214 - Year on Year Growth Rate
+-- 3214. Year on Year Growth Rate
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 2787 - Ways to Express an Integer as Sum of Powers
+// 2787. Ways to Express an Integer as Sum of Powers
 
 function numberOfWays(n, x) {
     const dp = new Uint32Array(n + 1);

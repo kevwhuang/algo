@@ -1,4 +1,4 @@
-// 2328 - Number of Increasing Paths in a Grid
+// 2328. Number of Increasing Paths in a Grid
 
 function countPaths(grid) {
     function dfs(r, c, prev) {

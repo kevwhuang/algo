@@ -1,4 +1,4 @@
-// 1064 - Fixed Point
+// 1064. Fixed Point
 
 function fixedPoint(arr) {
     let res = -1, l = 0, r = arr.length - 1;

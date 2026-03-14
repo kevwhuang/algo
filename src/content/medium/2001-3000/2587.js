@@ -1,4 +1,4 @@
-// 2587 - Rearrange Array to Maximize Prefix Score
+// 2587. Rearrange Array to Maximize Prefix Score
 
 function maxScore(nums) {
     let arr = [], acc = 0;

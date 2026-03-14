@@ -1,4 +1,4 @@
-// 162 - Find Peak Element
+// 162. Find Peak Element
 
 function findPeakElement(nums) {
     let l = 0, r = nums.length - 1;

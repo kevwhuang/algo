@@ -1,4 +1,4 @@
-// 3270 - Find the Key of the Numbers
+// 3270. Find the Key of the Numbers
 
 function generateKey(num1, num2, num3) {
     let key = 0;

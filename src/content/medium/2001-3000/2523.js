@@ -1,4 +1,4 @@
-// 2523 - Closest Prime Numbers in Range
+// 2523. Closest Prime Numbers in Range
 
 function closestPrimes(left, right) {
     function isPrime(num) {

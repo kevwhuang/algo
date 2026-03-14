@@ -1,4 +1,4 @@
-// 947 - Most Stones Removed With Same Row or Column
+// 947. Most Stones Removed With Same Row or Column
 
 function removeStones(stones) {
     function dfs(r, c) {

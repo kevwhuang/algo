@@ -1,4 +1,4 @@
-// 2017 - Grid Game
+// 2017. Grid Game
 
 function gridGame(grid) {
     let points = grid[0].reduce((s, e) => s + e) - grid[0][0];

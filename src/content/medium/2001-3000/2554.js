@@ -1,4 +1,4 @@
-// 2554 - Maximum Number of Integers to Choose From a Range I
+// 2554. Maximum Number of Integers to Choose From a Range I
 
 function maxCount(banned, n, maxSum) {
     const set = new Set(), lim = Math.min(n, maxSum);

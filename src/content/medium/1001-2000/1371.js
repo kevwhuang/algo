@@ -1,4 +1,4 @@
-// 1371 - Find the Longest Substring Containing Vowels in Even Counts
+// 1371. Find the Longest Substring Containing Vowels in Even Counts
 
 function findTheLongestSubstring(s) {
     let max = 0, mask = 0;

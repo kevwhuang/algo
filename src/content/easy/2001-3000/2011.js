@@ -1,4 +1,4 @@
-// 2011 - Final Value of Variable After Performing Operations
+// 2011. Final Value of Variable After Performing Operations
 
 function finalValueAfterOperations(operations) {
     let x = 0;

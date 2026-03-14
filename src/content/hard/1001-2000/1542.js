@@ -1,3 +1,3 @@
-// 1542 - Find Longest Awesome Substring
+// 1542. Find Longest Awesome Substring
 
 

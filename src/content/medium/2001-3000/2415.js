@@ -1,4 +1,4 @@
-// 2415 - Reverse Odd Levels of Binary Tree
+// 2415. Reverse Odd Levels of Binary Tree
 
 function reverseOddLevels(root) {
     let level = 0, queue = [root];

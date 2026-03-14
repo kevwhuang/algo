@@ -1,4 +1,4 @@
-// 200 - Number of Islands
+// 200. Number of Islands
 
 function numIslands(grid) {
     function dfs(r, c) {

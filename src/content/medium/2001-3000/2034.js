@@ -1,4 +1,4 @@
-// 2034 - Stock Price Fluctuation
+// 2034. Stock Price Fluctuation
 
 class StockPrice {
     constructor() {

@@ -1,4 +1,4 @@
-// 1518 - Water Bottles
+// 1518. Water Bottles
 
 function numWaterBottles(numBottles, numExchange) {
     let res = 0, acc = 0, cur = numBottles;

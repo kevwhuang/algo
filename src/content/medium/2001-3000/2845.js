@@ -1,4 +1,4 @@
-// 2845 - Count of Interesting Subarrays
+// 2845. Count of Interesting Subarrays
 
 function countInterestingSubarrays(nums, modulo, k) {
     let subarrays = 0, acc = 0;

@@ -1,4 +1,4 @@
-// 1574 - Shortest Subarray to Be Removed to Make Array Sorted
+// 1574. Shortest Subarray to Be Removed to Make Array Sorted
 
 function findLengthOfShortestSubarray(arr) {
     const len = arr.length;

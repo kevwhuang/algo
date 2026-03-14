@@ -1,4 +1,4 @@
-// 2396 - Strictly Palindromic Number
+// 2396. Strictly Palindromic Number
 
 function isStrictlyPalindromic(n) {
     return false;

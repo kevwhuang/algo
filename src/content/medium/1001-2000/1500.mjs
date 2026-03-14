@@ -1,4 +1,4 @@
-// 1500 - Design a File Sharing System
+// 1500. Design a File Sharing System
 
 class FileSharing {
     constructor(m) {

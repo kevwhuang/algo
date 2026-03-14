@@ -1,4 +1,4 @@
-// 1198 - Find Smallest Common Element in All Rows
+// 1198. Find Smallest Common Element in All Rows
 
 function smallestCommonElement(mat) {
     function binarySearch(arr, tgt) {

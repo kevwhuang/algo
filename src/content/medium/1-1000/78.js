@@ -1,4 +1,4 @@
-// 78 - Subsets
+// 78. Subsets
 
 function subsets(nums) {
     function backtrack(i) {

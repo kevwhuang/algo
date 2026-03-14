@@ -1,4 +1,4 @@
-// 2869 - Minimum Operations to Collect Elements
+// 2869. Minimum Operations to Collect Elements
 
 function minOperations(nums, k) {
     let ops = 0;

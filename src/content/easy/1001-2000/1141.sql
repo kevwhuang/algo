@@ -1,4 +1,4 @@
--- 1141 - User Activity for the Past 30 Days I
+-- 1141. User Activity for the Past 30 Days I
 
 SELECT
     activity_date AS day,

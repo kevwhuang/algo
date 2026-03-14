@@ -1,4 +1,4 @@
-// 646 - Maximum Length of Pair Chain
+// 646. Maximum Length of Pair Chain
 
 function findLongestChain(pairs) {
     pairs.sort((a, b) => a[1] - b[1]);

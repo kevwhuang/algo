@@ -1,4 +1,4 @@
-// 2824 - Count Pairs Whose Sum Is Less Than Target
+// 2824. Count Pairs Whose Sum Is Less Than Target
 
 function countPairs(nums, target) {
     let pairs = 0;

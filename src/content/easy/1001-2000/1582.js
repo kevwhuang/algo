@@ -1,4 +1,4 @@
-// 1582 - Special Positions in a Binary Matrix
+// 1582. Special Positions in a Binary Matrix
 
 function numSpecial(mat) {
     let count = 0;

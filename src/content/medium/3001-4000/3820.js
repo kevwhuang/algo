@@ -1,4 +1,4 @@
-// 3820 - Pythagorean Distance Nodes in a Tree
+// 3820. Pythagorean Distance Nodes in a Tree
 
 function specialNodes(n, edges, x, y, z) {
     function fn(k) {

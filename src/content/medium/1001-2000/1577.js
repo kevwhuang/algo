@@ -1,4 +1,4 @@
-// 1577 - Number of Ways Where Square of Number Is Equal to Product of Two Numbers
+// 1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers
 
 function numTriplets(nums1, nums2) {
     function count(nums1, nums2) {

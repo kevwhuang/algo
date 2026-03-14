@@ -1,4 +1,4 @@
-// 1534 - Count Good Triplets
+// 1534. Count Good Triplets
 
 function countGoodTriplets(arr, a, b, c) {
     let triplets = 0;

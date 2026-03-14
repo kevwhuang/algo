@@ -1,4 +1,4 @@
-// 3286 - Find a Safe Walk Through a Grid
+// 3286. Find a Safe Walk Through a Grid
 
 function findSafeWalk(grid, health) {
     const mapper = () => new Uint8Array(n).fill(health);

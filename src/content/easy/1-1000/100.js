@@ -1,4 +1,4 @@
-// 100 - Same Tree
+// 100. Same Tree
 
 function isSameTree(p, q) {
     if (!p && !q) return true;

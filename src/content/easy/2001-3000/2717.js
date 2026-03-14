@@ -1,4 +1,4 @@
-// 2717 - Semi-Ordered Permutation
+// 2717. Semi-Ordered Permutation
 
 function semiOrderedPermutation(nums) {
     const first = nums.indexOf(1);

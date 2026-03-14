@@ -1,4 +1,4 @@
-// 2207 - Maximize Number of Subsequences in a String
+// 2207. Maximize Number of Subsequences in a String
 
 function maximumSubsequenceCount(text, pattern) {
     let count = 0, fa = 0, fb = 0;

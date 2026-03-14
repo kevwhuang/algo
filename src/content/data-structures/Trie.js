@@ -30,5 +30,3 @@ class Trie {
         return this.exists(prefix, true);
     }
 }
-
-module.exports = Trie;

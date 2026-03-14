@@ -1,4 +1,4 @@
-// 2295 - Replace Elements in an Array
+// 2295. Replace Elements in an Array
 
 function arrayChange(nums, operations) {
     const map = new Map();

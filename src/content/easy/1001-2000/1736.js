@@ -1,4 +1,4 @@
-// 1736 - Latest Time by Replacing Hidden Digits
+// 1736. Latest Time by Replacing Hidden Digits
 
 function maximumTime(time) {
     let h1 = time[0], h2 = time[1], m1 = time[3], m2 = time[4];

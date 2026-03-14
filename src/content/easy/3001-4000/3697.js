@@ -1,4 +1,4 @@
-// 3697 - Compute Decimal Representation
+// 3697. Compute Decimal Representation
 
 function decimalRepresentation(n) {
     const res = [];

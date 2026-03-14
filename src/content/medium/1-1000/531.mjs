@@ -1,4 +1,4 @@
-// 531 - Lonely Pixel I
+// 531. Lonely Pixel I
 
 function findLonelyPixel(picture) {
     const m = picture.length, n = picture[0].length;

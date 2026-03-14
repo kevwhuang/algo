@@ -1,3 +1,3 @@
-// 2127 - Maximum Employees to Be Invited to a Meeting
+// 2127. Maximum Employees to Be Invited to a Meeting
 
 

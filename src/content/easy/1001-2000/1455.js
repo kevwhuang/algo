@@ -1,4 +1,4 @@
-// 1455 - Check If a Word Occurs as a Prefix of Any Word in a Sentence
+// 1455. Check If a Word Occurs as a Prefix of Any Word in a Sentence
 
 function isPrefixOfWord(sentence, searchWord) {
     let acc = 1, i = 0;

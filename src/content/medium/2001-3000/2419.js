@@ -1,4 +1,4 @@
-// 2419 - Longest Subarray With Maximum Bitwise AND
+// 2419. Longest Subarray With Maximum Bitwise AND
 
 function longestSubarray(nums) {
     let max = 1, i = 0;

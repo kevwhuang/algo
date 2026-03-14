@@ -1,4 +1,4 @@
-// 1669 - Merge in Between Linked Lists
+// 1669. Merge in Between Linked Lists
 
 function mergeInBetween(list1, a, b, list2) {
     b -= --a - 1;

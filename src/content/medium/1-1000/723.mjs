@@ -1,4 +1,4 @@
-// 723 - Candy Crush
+// 723. Candy Crush
 
 function candyCrush(board) {
     const M = board, m = M.length, n = M[0].length;

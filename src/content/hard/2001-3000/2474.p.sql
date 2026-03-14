@@ -1,4 +1,4 @@
--- 2474 - Customers With Strictly Increasing Purchases
+-- 2474. Customers With Strictly Increasing Purchases
 
 WITH CTE AS (
     SELECT

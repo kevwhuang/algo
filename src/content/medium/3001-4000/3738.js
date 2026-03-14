@@ -1,4 +1,4 @@
-// 3738 - Longest Non-Decreasing Subarray After Replacing at Most One Element
+// 3738. Longest Non-Decreasing Subarray After Replacing at Most One Element
 
 function longestSubarray(nums) {
     const n = nums.length, nn = n - 1;

@@ -1,4 +1,4 @@
-// 2490 - Circular Sentence
+// 2490. Circular Sentence
 
 function isCircularSentence(sentence) {
     if (sentence[0] !== sentence.at(-1)) return false;

@@ -1,4 +1,4 @@
-// 671 - Second Minimum Node in a Binary Tree
+// 671. Second Minimum Node in a Binary Tree
 
 function findSecondMinimumValue(root) {
     let res = Infinity, Q = [root];

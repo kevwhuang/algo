@@ -1,4 +1,4 @@
-// 3551 - Minimum Swaps to Sort by Digit Sum
+// 3551. Minimum Swaps to Sort by Digit Sum
 
 function minSwaps(nums) {
     const n = nums.length;

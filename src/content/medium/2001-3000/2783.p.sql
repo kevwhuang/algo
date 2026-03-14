@@ -1,4 +1,4 @@
--- 2783 - Flight Occupancy and Waitlist Analysis
+-- 2783. Flight Occupancy and Waitlist Analysis
 
 SELECT
     flight_id,

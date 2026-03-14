@@ -1,4 +1,4 @@
-// 885 - Spiral Matrix III
+// 885. Spiral Matrix III
 
 function spiralMatrixIII(rows, cols, rStart, cStart) {
     const res = [];

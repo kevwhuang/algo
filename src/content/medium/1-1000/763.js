@@ -1,4 +1,4 @@
-// 763 - Partition Labels
+// 763. Partition Labels
 
 function partitionLabels(s) {
     const arr = new Uint16Array(26);

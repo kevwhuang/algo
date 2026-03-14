@@ -1,4 +1,4 @@
--- 2026 - Low-Quality Problems
+-- 2026. Low-Quality Problems
 
 SELECT
     problem_id

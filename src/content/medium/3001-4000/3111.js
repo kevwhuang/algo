@@ -1,4 +1,4 @@
-// 3111 - Minimum Rectangles to Cover Points
+// 3111. Minimum Rectangles to Cover Points
 
 function minRectanglesToCoverPoints(points, w) {
     points.sort((a, b) => a[0] - b[0]);

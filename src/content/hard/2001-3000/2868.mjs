@@ -1,3 +1,3 @@
-// 2868 - The Wording Game
+// 2868. The Wording Game
 
 

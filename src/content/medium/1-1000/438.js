@@ -1,4 +1,4 @@
-// 438 - Find All Anagrams in a String
+// 438. Find All Anagrams in a String
 
 function findAnagrams(s, p) {
     function isAnagram() {

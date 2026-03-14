@@ -1,4 +1,4 @@
-// 2924 - Find Champion II
+// 2924. Find Champion II
 
 function findChampion(n, edges) {
     const indegree = new Array(n).fill(0);

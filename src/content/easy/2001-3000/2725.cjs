@@ -1,4 +1,4 @@
-// 2725 - Interval Cancellation
+// 2725. Interval Cancellation
 
 function cancellable(fn, args, t) {
     fn(...args);

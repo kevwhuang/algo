@@ -1,4 +1,4 @@
-// 1475 - Final Prices With a Special Discount in a Shop
+// 1475. Final Prices With a Special Discount in a Shop
 
 function finalPrices(prices) {
     const n = prices.length;

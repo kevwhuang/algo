@@ -1,4 +1,4 @@
-// 1572 - Matrix Diagonal Sum
+// 1572. Matrix Diagonal Sum
 
 function diagonalSum(mat) {
     const n = mat.length, mid = n >> 1;

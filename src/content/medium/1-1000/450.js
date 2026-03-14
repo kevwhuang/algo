@@ -1,4 +1,4 @@
-// 450 - Delete Node in a BST
+// 450. Delete Node in a BST
 
 function deleteNode(root, key) {
     if (!root) return null;

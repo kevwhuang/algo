@@ -1,4 +1,4 @@
--- 3570 - Find Books With No Available Copies
+-- 3570. Find Books With No Available Copies
 
 SELECT
     book_id,

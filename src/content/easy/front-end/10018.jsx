@@ -1,4 +1,4 @@
-// 10018 - Toggle List Selection
+// 10018. Toggle List Selection
 
 import React from 'react';
 

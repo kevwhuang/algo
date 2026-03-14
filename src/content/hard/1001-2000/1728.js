@@ -1,3 +1,3 @@
-// 1728 - Cat and Mouse II
+// 1728. Cat and Mouse II
 
 

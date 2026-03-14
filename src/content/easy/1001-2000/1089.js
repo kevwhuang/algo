@@ -1,4 +1,4 @@
-// 1089 - Duplicate Zeros
+// 1089. Duplicate Zeros
 
 function duplicateZeros(arr) {
     for (let i = 0; i < arr.length; i++) {

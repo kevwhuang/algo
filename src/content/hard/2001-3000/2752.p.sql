@@ -1,4 +1,4 @@
--- 2752 - Customers With Maximum Number of Transactions on Consecutive Days
+-- 2752. Customers With Maximum Number of Transactions on Consecutive Days
 
 WITH CTE1 AS (
     SELECT

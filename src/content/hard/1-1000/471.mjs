@@ -1,3 +1,3 @@
-// 471 - Encode String With Shortest Length
+// 471. Encode String With Shortest Length
 
 

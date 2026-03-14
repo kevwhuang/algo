@@ -1,4 +1,4 @@
-// 2187 - Minimum Time to Complete Trips
+// 2187. Minimum Time to Complete Trips
 
 function minimumTime(time, totalTrips) {
     let l = 1, r = Math.min(...time) * totalTrips;

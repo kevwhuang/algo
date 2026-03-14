@@ -1,4 +1,4 @@
-// 2446 - Determine If Two Events Have Conflict
+// 2446. Determine If Two Events Have Conflict
 
 function haveConflict(event1, event2) {
     const convert = s => +(s[0] + s[1]) * 60 + +(s[3] + s[4]);

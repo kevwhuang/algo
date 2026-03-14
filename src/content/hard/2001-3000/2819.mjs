@@ -1,3 +1,3 @@
-// 2819 - Minimum Relative Loss After Buying Chocolates
+// 2819. Minimum Relative Loss After Buying Chocolates
 
 

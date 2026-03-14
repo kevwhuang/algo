@@ -1,4 +1,4 @@
-// 2564 - Substring XOR Queries
+// 2564. Substring XOR Queries
 
 function substringXorQueries(s, queries) {
     const map = new Map(), n = s.length;

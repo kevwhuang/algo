@@ -1,4 +1,4 @@
-// 1636 - Sort Array by Increasing Frequency
+// 1636. Sort Array by Increasing Frequency
 
 function frequencySort(nums) {
     const map = new Map();

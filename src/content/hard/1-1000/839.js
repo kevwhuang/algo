@@ -1,4 +1,4 @@
-// 839 - Similar String Groups
+// 839. Similar String Groups
 
 function numSimilarGroups(strs) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

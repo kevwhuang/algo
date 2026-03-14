@@ -1,4 +1,4 @@
-// 1019 - Next Greater Node in Linked List
+// 1019. Next Greater Node in Linked List
 
 function nextLargerNodes(head) {
     let cur = head, n = 0;

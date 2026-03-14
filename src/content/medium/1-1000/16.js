@@ -1,4 +1,4 @@
-// 16 - 3Sum Closest
+// 16. 3Sum Closest
 
 function threeSumClosest(nums, target) {
     nums.sort((a, b) => a - b);

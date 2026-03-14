@@ -1,4 +1,4 @@
-// 436 - Find Right Interval
+// 436. Find Right Interval
 
 function findRightInterval(intervals) {
     function binarySearch(target) {

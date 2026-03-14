@@ -1,4 +1,4 @@
-// 734 - Sentence Similarity
+// 734. Sentence Similarity
 
 function areSentencesSimilar(sentence1, sentence2, similarPairs) {
     if (sentence1.length !== sentence2.length) return false;

@@ -1,4 +1,4 @@
-// 3074 - Apple Redistribution Into Boxes
+// 3074. Apple Redistribution Into Boxes
 
 function minimumBoxes(apple, capacity) {
     capacity.sort((a, b) => b - a);

@@ -1,4 +1,4 @@
-// 70 - Climbing Stairs
+// 70. Climbing Stairs
 
 function climbStairs(n) {
     const sqrt = 5 ** .5;

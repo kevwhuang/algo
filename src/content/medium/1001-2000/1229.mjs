@@ -1,4 +1,4 @@
-// 1229 - Meeting Scheduler
+// 1229. Meeting Scheduler
 
 function minAvailableDuration(slots1, slots2, duration) {
     slots1.sort((a, b) => a[0] - b[0]);

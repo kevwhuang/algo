@@ -1,4 +1,4 @@
-// 760 - Find Anagram Mappings
+// 760. Find Anagram Mappings
 
 function anagramMappings(nums1, nums2) {
     const indexes = {};

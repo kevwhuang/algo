@@ -1,4 +1,4 @@
--- 3293 - Calculate Product Final Price
+-- 3293. Calculate Product Final Price
 
 SELECT
     product_id,

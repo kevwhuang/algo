@@ -1,4 +1,4 @@
-// 990 - Satisfiability of Equality Equations
+// 990. Satisfiability of Equality Equations
 
 function equationsPossible(equations) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

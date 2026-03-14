@@ -1,4 +1,4 @@
-// 3476 - Maximize Profit From Task Assignment
+// 3476. Maximize Profit From Task Assignment
 
 function maxProfit(workers, tasks) {
     const arr = new Uint32Array(workers).sort();

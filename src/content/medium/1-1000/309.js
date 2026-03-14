@@ -1,4 +1,4 @@
-// 309 - Best Time to Buy and Sell Stock With Cooldown
+// 309. Best Time to Buy and Sell Stock With Cooldown
 
 function maxProfit(prices) {
     let a = 0, b = -Infinity, c = 0, i = -1;

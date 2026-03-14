@@ -1,4 +1,4 @@
-// 994 - Rotting Oranges
+// 994. Rotting Oranges
 
 function orangesRotting(grid) {
     let Q = [], acc = 0;

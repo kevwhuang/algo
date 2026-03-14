@@ -1,4 +1,4 @@
-// 1856 - Maximum Subarray Min-Product
+// 1856. Maximum Subarray Min-Product
 
 function maxSumMinProduct(nums) {
     const ps = new Array(nums.length + 1).fill(0);

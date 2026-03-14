@@ -1,4 +1,4 @@
-// 859 - Buddy Strings
+// 859. Buddy Strings
 
 function buddyStrings(s, goal) {
     if (s.length !== goal.length) return false;

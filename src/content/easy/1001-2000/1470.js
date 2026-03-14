@@ -1,4 +1,4 @@
-// 1470 - Shuffle the Array
+// 1470. Shuffle the Array
 
 function shuffle(nums, n) {
     n *= 2;

@@ -1,4 +1,4 @@
-// 2476 - Closest Nodes Queries in a Binary Search Tree
+// 2476. Closest Nodes Queries in a Binary Search Tree
 
 function closestNodes(root, queries) {
     function dfs(node) {

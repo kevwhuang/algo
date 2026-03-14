@@ -1,4 +1,4 @@
-// 1690 - Stone Game VII
+// 1690. Stone Game VII
 
 function stoneGameVII(stones) {
     const n = stones.length, dp = new Uint32Array(n);

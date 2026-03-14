@@ -1,4 +1,4 @@
-// 204 - Count Primes
+// 204. Count Primes
 
 function countPrimes(n) {
     let count = 0;

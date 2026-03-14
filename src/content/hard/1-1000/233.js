@@ -1,3 +1,3 @@
-// 233 - Number of Digit One
+// 233. Number of Digit One
 
 

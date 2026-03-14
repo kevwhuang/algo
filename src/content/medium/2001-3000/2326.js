@@ -1,4 +1,4 @@
-// 2326 - Spiral Matrix IV
+// 2326. Spiral Matrix IV
 
 function spiralMatrix(m, n, head) {
     const mat = new Array(m);

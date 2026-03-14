@@ -1,3 +1,3 @@
-// 2538 - Difference Between Maximum and Minimum Price Sum
+// 2538. Difference Between Maximum and Minimum Price Sum
 
 

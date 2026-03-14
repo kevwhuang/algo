@@ -1,4 +1,4 @@
--- 2995 - Viewers Turned Streamers
+-- 2995. Viewers Turned Streamers
 
 WITH CTE AS (
     SELECT

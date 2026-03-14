@@ -1,3 +1,3 @@
-// 1096 - Brace Expansion II
+// 1096. Brace Expansion II
 
 

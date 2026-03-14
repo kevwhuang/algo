@@ -1,4 +1,4 @@
--- 1454 - Active Users
+-- 1454. Active Users
 
 WITH CTE AS (
     SELECT

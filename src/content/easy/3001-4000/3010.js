@@ -1,4 +1,4 @@
-// 3010 - Divide an Array Into Subarrays With Minimum Cost I
+// 3010. Divide an Array Into Subarrays With Minimum Cost I
 
 function minimumCost(nums) {
     const head = nums.shift();

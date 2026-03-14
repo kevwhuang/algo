@@ -1,4 +1,4 @@
-// 1385 - Find the Distance Value Between Two Arrays
+// 1385. Find the Distance Value Between Two Arrays
 
 function findTheDistanceValue(arr1, arr2, d) {
     let distanceValue = 0;

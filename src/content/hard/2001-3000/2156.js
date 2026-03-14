@@ -1,4 +1,4 @@
-// 2156 - Find Substring With Given Hash Value
+// 2156. Find Substring With Given Hash Value
 
 function subStrHash(s, power, modulo, k, hashValue) {
     const fn = i => BigInt(s.charCodeAt(i) - 96);

@@ -1,3 +1,3 @@
-// 1766 - Tree of Coprimes
+// 1766. Tree of Coprimes
 
 

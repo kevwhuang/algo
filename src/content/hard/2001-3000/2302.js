@@ -1,4 +1,4 @@
-// 2302 - Count Subarrays With Score Less Than K
+// 2302. Count Subarrays With Score Less Than K
 
 function countSubarrays(nums, k) {
     let res = 0, acc = 0, l = 0, r = -1;

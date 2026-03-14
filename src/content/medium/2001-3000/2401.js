@@ -1,4 +1,4 @@
-// 2401 - Longest Nice Subarray
+// 2401. Longest Nice Subarray
 
 function longestNiceSubarray(nums) {
     let max = 1, window = 0;

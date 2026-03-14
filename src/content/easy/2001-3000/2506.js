@@ -1,4 +1,4 @@
-// 2506 - Count Pairs of Similar Strings
+// 2506. Count Pairs of Similar Strings
 
 function similarPairs(words) {
     const n = words.length;

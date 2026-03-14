@@ -1,3 +1,3 @@
-// 2147 - Number of Ways to Divide a Long Corridor
+// 2147. Number of Ways to Divide a Long Corridor
 
 

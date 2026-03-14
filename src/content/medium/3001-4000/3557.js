@@ -1,4 +1,4 @@
-// 3557 - Find Maximum Number of Non-Intersecting Substrings
+// 3557. Find Maximum Number of Non-Intersecting Substrings
 
 function maxSubstrings(word) {
     let res = 0, l = -1, r = -1;

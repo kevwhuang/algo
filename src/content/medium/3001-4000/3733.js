@@ -1,4 +1,4 @@
-// 3733 - Minimum Time to Complete All Deliveries
+// 3733. Minimum Time to Complete All Deliveries
 
 function minimumTime(d, r) {
     const lcm = (a, b) => a * b / gcd(a, b);

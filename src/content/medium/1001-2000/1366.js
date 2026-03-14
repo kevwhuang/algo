@@ -1,4 +1,4 @@
-// 1366 - Rank Teams by Votes
+// 1366. Rank Teams by Votes
 
 function rankTeams(votes) {
     function comparator(a, b) {

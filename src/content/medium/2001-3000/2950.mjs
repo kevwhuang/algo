@@ -1,4 +1,4 @@
-// 2950 - Number of Divisible Substrings
+// 2950. Number of Divisible Substrings
 
 function countDivisibleSubstrings(word) {
     const arr = [

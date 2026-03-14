@@ -1,3 +1,3 @@
-// 1012 - Numbers With Repeated Digits
+// 1012. Numbers With Repeated Digits
 
 

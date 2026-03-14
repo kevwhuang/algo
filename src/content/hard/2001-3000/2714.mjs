@@ -1,4 +1,4 @@
-// 2714 - Find Shortest Path With K Hops
+// 2714. Find Shortest Path With K Hops
 
 function shortestPathWithHops(n, edges, s, d, k) {
     const adj = Array.from({ length: n }, () => []);

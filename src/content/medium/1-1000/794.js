@@ -1,4 +1,4 @@
-// 794 - Valid Tic Tac Toe State
+// 794. Valid Tic Tac Toe State
 
 function validTicTacToe(board) {
     function checkWin($) {

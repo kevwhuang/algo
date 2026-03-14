@@ -1,4 +1,4 @@
-// 658 - Find K Closest Elements
+// 658. Find K Closest Elements
 
 function findClosestElements(arr, k, x) {
     let l = 0, r = arr.length - k;

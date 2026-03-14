@@ -1,4 +1,4 @@
-// 1186 - Maximum Subarray Sum With One Deletion
+// 1186. Maximum Subarray Sum With One Deletion
 
 function maximumSum(arr) {
     let res = arr[0], a = res, b = res, i = 0;

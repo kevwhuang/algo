@@ -1,4 +1,4 @@
-// 1348 - Tweet Counts Per Frequency
+// 1348. Tweet Counts Per Frequency
 
 class TweetCounts {
     constructor() {

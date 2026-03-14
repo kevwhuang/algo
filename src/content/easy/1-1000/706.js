@@ -1,4 +1,4 @@
-// 706 - Design HashMap
+// 706. Design HashMap
 
 class MyHashMap {
     get(key) {

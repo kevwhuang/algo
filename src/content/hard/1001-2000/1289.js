@@ -1,4 +1,4 @@
-// 1289 - Minimum Falling Path Sum II
+// 1289. Minimum Falling Path Sum II
 
 function minFallingPathSum(grid) {
     const dp = grid, n = dp.length;

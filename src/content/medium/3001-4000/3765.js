@@ -1,4 +1,4 @@
-// 3765 - Complete Prime Number
+// 3765. Complete Prime Number
 
 function completePrime(num) {
     if (!this.dict) dict = new Set([2, 3, 5, 7, 23, 37, 53, 73, 313, 317]);

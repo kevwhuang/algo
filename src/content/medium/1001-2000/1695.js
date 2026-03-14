@@ -1,4 +1,4 @@
-// 1695 - Maximum Erasure Value
+// 1695. Maximum Erasure Value
 
 function maximumUniqueSubarray(nums) {
     let max = 1, window = 0;

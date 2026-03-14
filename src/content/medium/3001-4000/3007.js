@@ -1,4 +1,4 @@
-// 3007 - Maximum Number That Sum of the Prices Is Less Than or Equal to K
+// 3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K
 
 function findMaximumNumber(k, x) {
     let l = 1, r = 1e15;

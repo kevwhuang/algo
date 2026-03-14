@@ -1,4 +1,4 @@
-// 1640 - Check Array Formation Through Concatenation
+// 1640. Check Array Formation Through Concatenation
 
 function canFormArray(arr, pieces) {
     const map = new Map();

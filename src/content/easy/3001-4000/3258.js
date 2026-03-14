@@ -1,4 +1,4 @@
-// 3258 - Count Substrings That Satisfy K-Constraint I
+// 3258. Count Substrings That Satisfy K-Constraint I
 
 function countKConstraintSubstrings(s, k) {
     let res = 0;

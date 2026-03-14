@@ -1,4 +1,4 @@
-// 1442 - Count Triplets That Can Form Two Arrays of Equal XOR
+// 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 
 function countTriplets(arr) {
     let triplets = 0;

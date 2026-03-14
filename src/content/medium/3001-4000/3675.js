@@ -1,4 +1,4 @@
-// 3675 - Minimum Operations to Transform String
+// 3675. Minimum Operations to Transform String
 
 function minOperations(s) {
     const B = new Uint8Array(26);

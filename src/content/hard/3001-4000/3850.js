@@ -1,3 +1,3 @@
-// 3850 - Count Sequences to K
+// 3850. Count Sequences to K
 
 

@@ -1,4 +1,4 @@
-// 681 - Next Closest Time
+// 681. Next Closest Time
 
 function nextClosestTime(time) {
     let res, min = Infinity;

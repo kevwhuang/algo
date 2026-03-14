@@ -1,4 +1,4 @@
-// 1976 - Number of Ways to Arrive at Destination
+// 1976. Number of Ways to Arrive at Destination
 
 function countPaths(n, roads) {
     const adj = Array.from({ length: n }, () => []);

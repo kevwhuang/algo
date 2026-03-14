@@ -1,4 +1,4 @@
-// 2482 - Difference Between Ones and Zeros in Row and Column
+// 2482. Difference Between Ones and Zeros in Row and Column
 
 function onesMinusZeros(grid) {
     const m = grid.length, n = grid[0].length;

@@ -1,4 +1,4 @@
--- 3198 - Find Cities in Each State
+-- 3198. Find Cities in Each State
 
 SELECT
     state,

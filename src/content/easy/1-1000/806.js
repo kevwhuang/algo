@@ -1,4 +1,4 @@
-// 806 - Number of Lines to Write String
+// 806. Number of Lines to Write String
 
 function numberOfLines(widths, s) {
     let lines = 1, pixels = 0;

@@ -1,4 +1,4 @@
--- 185 - Department Top Three Salaries
+-- 185. Department Top Three Salaries
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 1641 - Count Sorted Vowel Strings
+// 1641. Count Sorted Vowel Strings
 
 function countVowelStrings(n) {
     let a = 1, e = 1, i = 1, o = 1;

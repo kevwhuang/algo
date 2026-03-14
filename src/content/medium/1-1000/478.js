@@ -1,4 +1,4 @@
-// 478 - Generate Random Point in a Circle
+// 478. Generate Random Point in a Circle
 
 class Solution {
     constructor(radius, x_center, y_center) {

@@ -1,4 +1,4 @@
-// 789 - Escape the Ghosts
+// 789. Escape the Ghosts
 
 function escapeGhosts(ghosts, target) {
     const distance = (x1, y1, x2, y2) => Math.abs(x1 - x2) + Math.abs(y1 - y2);

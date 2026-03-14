@@ -1,4 +1,4 @@
-// 2907 - Maximum Profitable Triplets With Increasing Prices I
+// 2907. Maximum Profitable Triplets With Increasing Prices I
 
 function maxProfit(prices, profits) {
     const tgt = prices.reduce((s, e) => Math.max(e, s));

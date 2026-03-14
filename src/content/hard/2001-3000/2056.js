@@ -1,4 +1,4 @@
-// 2056 - Number of Valid Move Combinations on Chessboard
+// 2056. Number of Valid Move Combinations on Chessboard
 
 function countCombinations(pieces, positions) {
     function init() {

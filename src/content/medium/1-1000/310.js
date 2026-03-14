@@ -1,4 +1,4 @@
-// 310 - Minimum Height Trees
+// 310. Minimum Height Trees
 
 function findMinHeightTrees(n, edges) {
     if (n === 1) return [0];

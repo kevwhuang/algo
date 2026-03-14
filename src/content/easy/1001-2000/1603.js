@@ -1,4 +1,4 @@
-// 1603 - Design Parking System
+// 1603. Design Parking System
 
 class ParkingSystem {
     constructor(big, medium, small) {

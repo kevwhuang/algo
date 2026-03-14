@@ -1,4 +1,4 @@
--- 1587 - Bank Account Summary II
+-- 1587. Bank Account Summary II
 
 SELECT
     name,

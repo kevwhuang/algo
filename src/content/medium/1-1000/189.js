@@ -1,4 +1,4 @@
-// 189 - Rotate Array
+// 189. Rotate Array
 
 function rotate(nums, k) {
     function reverse(l, r) {

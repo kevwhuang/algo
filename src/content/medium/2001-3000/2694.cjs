@@ -1,4 +1,4 @@
-// 2694 - Event Emitter
+// 2694. Event Emitter
 
 class EventEmitter {
     constructor() {

@@ -1,4 +1,4 @@
-// 306 - Additive Number
+// 306. Additive Number
 
 function isAdditiveNumber(num) {
     function backtrack(n1, n2, rem) {

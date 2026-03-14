@@ -1,4 +1,4 @@
-// 1456 - Maximum Number of Vowels in a Substring of Given Length
+// 1456. Maximum Number of Vowels in a Substring of Given Length
 
 function maxVowels(s, k) {
     function isVowel(char) {

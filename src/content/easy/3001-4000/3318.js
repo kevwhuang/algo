@@ -1,4 +1,4 @@
-// 3318 - Find X-Sum of All K-Long Subarrays I
+// 3318. Find X-Sum of All K-Long Subarrays I
 
 function findXSum(nums, k, x) {
     const res = new Uint16Array(nums.length - k + 1);

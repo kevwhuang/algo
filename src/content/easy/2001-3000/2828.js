@@ -1,4 +1,4 @@
-// 2828 - Check If a String Is an Acronym of Words
+// 2828. Check If a String Is an Acronym of Words
 
 function isAcronym(words, s) {
     if (words.length !== s.length) return false;

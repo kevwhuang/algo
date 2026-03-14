@@ -1,4 +1,4 @@
-// 533 - Lonely Pixel II
+// 533. Lonely Pixel II
 
 function findBlackPixel(picture, target) {
     const m = picture.length, n = picture[0].length;

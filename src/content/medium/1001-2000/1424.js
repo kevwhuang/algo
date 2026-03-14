@@ -1,4 +1,4 @@
-// 1424 - Diagonal Traverse II
+// 1424. Diagonal Traverse II
 
 function findDiagonalOrder(nums) {
     const res = [];

@@ -1,4 +1,4 @@
-// 349 - Intersection of Two Arrays
+// 349. Intersection of Two Arrays
 
 function intersection(nums1, nums2) {
     const arr = new Uint8Array(1001);

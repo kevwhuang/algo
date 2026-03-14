@@ -1,4 +1,4 @@
-// 2280 - Minimum Lines to Represent a Line Chart
+// 2280. Minimum Lines to Represent a Line Chart
 
 function minimumLines(stockPrices) {
     stockPrices.sort((a, b) => a[0] - b[0]);

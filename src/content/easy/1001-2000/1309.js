@@ -1,4 +1,4 @@
-// 1309 - Decrypt String From Alphabet to Integer Mapping
+// 1309. Decrypt String From Alphabet to Integer Mapping
 
 function freqAlphabets(s) {
     let decrypted = '', i = 0;

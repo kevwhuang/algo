@@ -1,4 +1,4 @@
-// 2454 - Next Greater Element IV
+// 2454. Next Greater Element IV
 
 function secondGreaterElement(nums) {
     const res = new Int32Array(nums.length).fill(-1);

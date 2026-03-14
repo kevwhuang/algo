@@ -1,4 +1,4 @@
-// 946 - Validate Stack Sequences
+// 946. Validate Stack Sequences
 
 function validateStackSequences(pushed, popped) {
     const stack = [];

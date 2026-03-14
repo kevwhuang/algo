@@ -1,4 +1,4 @@
-// 3703 - Remove K-Balanced Substrings
+// 3703. Remove K-Balanced Substrings
 
 function removeSubstring(s, k) {
     const S1 = [], S2 = [];

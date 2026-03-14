@@ -1,4 +1,4 @@
-// 867 - Transpose Matrix
+// 867. Transpose Matrix
 
 function transpose(matrix) {
     const res = [];

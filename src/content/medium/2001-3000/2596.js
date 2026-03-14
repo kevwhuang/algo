@@ -1,4 +1,4 @@
-// 2596 - Check Knight Tour Configuration
+// 2596. Check Knight Tour Configuration
 
 function checkValidGrid(grid) {
     const validate = (r, c) => r >= 0 && r < n && c >= 0 && c < n;

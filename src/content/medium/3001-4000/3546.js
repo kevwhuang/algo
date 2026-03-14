@@ -1,4 +1,4 @@
-// 3546 - Equal Sum Grid Partition I
+// 3546. Equal Sum Grid Partition I
 
 function canPartitionGrid(grid) {
     let sum = 0;

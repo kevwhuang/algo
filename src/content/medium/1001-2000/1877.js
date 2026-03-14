@@ -1,4 +1,4 @@
-// 1877 - Minimize Maximum Pair Sum in Array
+// 1877. Minimize Maximum Pair Sum in Array
 
 function minPairSum(nums) {
     const bucket = new Array(100001).fill(0);

@@ -1,4 +1,4 @@
-// 1428 - Leftmost Column With at Least a One
+// 1428. Leftmost Column With at Least a One
 
 function leftMostColumnWithOne(binaryMatrix) {
     const [m, n] = binaryMatrix.dimensions();

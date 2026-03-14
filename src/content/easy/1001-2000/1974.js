@@ -1,4 +1,4 @@
-// 1974 - Minimum Time to Type Word Using Special Typewriter
+// 1974. Minimum Time to Type Word Using Special Typewriter
 
 function minTimeToType(word) {
     let time = word.length, prev = 97;

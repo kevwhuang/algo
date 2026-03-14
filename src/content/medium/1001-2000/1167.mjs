@@ -1,4 +1,4 @@
-// 1167 - Minimum Cost to Connect Sticks
+// 1167. Minimum Cost to Connect Sticks
 
 function connectSticks(sticks) {
     const heap = new PriorityQueue({ compare: (a, b) => a - b });

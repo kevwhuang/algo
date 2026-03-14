@@ -1,4 +1,4 @@
-// 73 - Set Matrix Zeros
+// 73. Set Matrix Zeros
 
 function setZeroes(matrix) {
     const M = matrix, m = M.length, n = M[0].length;

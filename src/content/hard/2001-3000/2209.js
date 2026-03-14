@@ -1,3 +1,3 @@
-// 2209 - Minimum White Tiles After Covering With Carpets
+// 2209. Minimum White Tiles After Covering With Carpets
 
 

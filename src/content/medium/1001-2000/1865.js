@@ -1,4 +1,4 @@
-// 1865 - Finding Pairs With a Certain Sum
+// 1865. Finding Pairs With a Certain Sum
 
 class FindSumPairs {
     constructor(nums1, nums2) {

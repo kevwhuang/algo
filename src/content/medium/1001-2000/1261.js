@@ -1,4 +1,4 @@
-// 1261 - Find Elements in a Contaminated Binary Tree
+// 1261. Find Elements in a Contaminated Binary Tree
 
 class FindElements {
     constructor(root) {

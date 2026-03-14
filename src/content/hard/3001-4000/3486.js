@@ -1,3 +1,3 @@
-// 3486 - Longest Special Path II
+// 3486. Longest Special Path II
 
 

@@ -1,4 +1,4 @@
-// 1941 - Check If All Characters Have Equal Number of Occurrences
+// 1941. Check If All Characters Have Equal Number of Occurrences
 
 function areOccurrencesEqual(s) {
     const B = new Map();

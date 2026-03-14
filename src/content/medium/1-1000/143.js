@@ -1,4 +1,4 @@
-// 143 - Reorder List
+// 143. Reorder List
 
 function reorderList(head) {
     let slow = head, fast = head;

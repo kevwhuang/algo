@@ -1,4 +1,4 @@
-// 1293 - Shortest Path in a Grid With Obstacles Elimination
+// 1293. Shortest Path in a Grid With Obstacles Elimination
 
 function shortestPath(grid, k) {
     const m = grid.length, n = grid[0].length;

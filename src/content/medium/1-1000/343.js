@@ -1,4 +1,4 @@
-// 343 - Integer Break
+// 343. Integer Break
 
 function integerBreak(n) {
     if (n < 4) return n - 1;

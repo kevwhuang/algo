@@ -1,4 +1,4 @@
-// 1621 - Number of Sets of K Non-Overlapping Line Segments
+// 1621. Number of Sets of K Non-Overlapping Line Segments
 
 function numberOfSets(n, k) {
     n = BigInt(n), k = BigInt(k);

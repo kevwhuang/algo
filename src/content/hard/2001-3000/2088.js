@@ -1,4 +1,4 @@
-// 2088 - Count Fertile Pyramids in a Land
+// 2088. Count Fertile Pyramids in a Land
 
 function countPyramids(grid) {
     let res = 0;

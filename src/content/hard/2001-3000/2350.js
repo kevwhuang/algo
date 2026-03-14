@@ -1,4 +1,4 @@
-// 2350 - Shortest Impossible Sequence of Rolls
+// 2350. Shortest Impossible Sequence of Rolls
 
 function shortestSequence(rolls, k) {
     let res = 1, acc = 0, i = -1;

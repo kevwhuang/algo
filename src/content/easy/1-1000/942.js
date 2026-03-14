@@ -1,4 +1,4 @@
-// 942 - DI String Match
+// 942. DI String Match
 
 function diStringMatch(s) {
     const perm = [];

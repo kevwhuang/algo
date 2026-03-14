@@ -1,4 +1,4 @@
-// 2467 - Most Profitable Path in a Tree
+// 2467. Most Profitable Path in a Tree
 
 function mostProfitablePath(edges, bob, amount) {
     function build() {

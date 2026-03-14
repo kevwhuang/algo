@@ -1,4 +1,4 @@
-// 3749 - Evaluate Valid Expressions
+// 3749. Evaluate Valid Expressions
 
 function evaluateExpression(expression) {
     const S = [], n = expression.length;

@@ -1,4 +1,4 @@
-// 583 - Delete Operation for Two Strings
+// 583. Delete Operation for Two Strings
 
 function minDistance(word1, word2) {
     const m = word1.length, n = word2.length;

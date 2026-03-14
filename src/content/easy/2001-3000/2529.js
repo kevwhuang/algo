@@ -1,4 +1,4 @@
-// 2529 - Maximum Count of Positive Integer and Negative Integer
+// 2529. Maximum Count of Positive Integer and Negative Integer
 
 function maximumCount(nums) {
     function search(tgt) {

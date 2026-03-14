@@ -1,4 +1,4 @@
-// 3039 - Apply Operations to Make String Empty
+// 3039. Apply Operations to Make String Empty
 
 function lastNonEmptyString(s) {
     const bucket = new Array(26).fill(0);

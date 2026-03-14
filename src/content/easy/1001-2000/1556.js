@@ -1,4 +1,4 @@
-// 1556 - Thousand Separator
+// 1556. Thousand Separator
 
 function thousandSeparator(n) {
     n = String(n);

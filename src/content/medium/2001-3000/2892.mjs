@@ -1,4 +1,4 @@
-// 2892 - Minimizing Array After Replacing Pairs With Their Product
+// 2892. Minimizing Array After Replacing Pairs With Their Product
 
 function minArrayLength(nums, k) {
     let merges = 0;

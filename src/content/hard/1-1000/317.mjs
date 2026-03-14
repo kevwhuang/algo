@@ -1,4 +1,4 @@
-// 317 - Shortest Distance From All Buildings
+// 317. Shortest Distance From All Buildings
 
 function shortestDistance(grid) {
     let res, cur = 1;

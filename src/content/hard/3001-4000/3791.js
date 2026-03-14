@@ -1,3 +1,3 @@
-// 3791 - Number of Balanced Integers in a Range
+// 3791. Number of Balanced Integers in a Range
 
 

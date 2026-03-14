@@ -1,4 +1,4 @@
-// 1778 - Shortest Path in a Hidden Grid
+// 1778. Shortest Path in a Hidden Grid
 
 function findShortestPath(master) {
     function dfs(r, c) {

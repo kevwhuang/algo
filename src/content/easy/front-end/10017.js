@@ -1,4 +1,4 @@
-// 10017 - Mutation Observer
+// 10017. Mutation Observer
 
 export function observeMutations(node, callback) {
     const obj = {

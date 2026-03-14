@@ -1,4 +1,4 @@
-// 1213 - Intersection of Three Sorted Arrays
+// 1213. Intersection of Three Sorted Arrays
 
 function arraysIntersection(arr1, arr2, arr3) {
     function search(arr, tgt) {

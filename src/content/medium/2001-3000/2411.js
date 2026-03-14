@@ -1,4 +1,4 @@
-// 2411 - Smallest Subarrays With Maximum Bitwise OR
+// 2411. Smallest Subarrays With Maximum Bitwise OR
 
 function smallestSubarrays(nums) {
     const res = new Uint32Array(nums.length);

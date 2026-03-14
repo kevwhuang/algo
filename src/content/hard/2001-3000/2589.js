@@ -1,3 +1,3 @@
-// 2589 - Minimum Time to Complete All Tasks
+// 2589. Minimum Time to Complete All Tasks
 
 

@@ -1,4 +1,4 @@
--- 3089 - Find Bursty Behavior
+-- 3089. Find Bursty Behavior
 
 WITH CTE1 AS (
     SELECT

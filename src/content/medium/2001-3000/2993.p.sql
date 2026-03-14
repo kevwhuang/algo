@@ -1,4 +1,4 @@
--- 2993 - Friday Purchases I
+-- 2993. Friday Purchases I
 
 SELECT
     WEEK(purchase_date) - 43 AS week_of_month,

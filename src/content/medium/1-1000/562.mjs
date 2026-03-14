@@ -1,4 +1,4 @@
-// 562 - Longest Line of Consecutive One in Matrix
+// 562. Longest Line of Consecutive One in Matrix
 
 function longestLine(mat) {
     let res = 0;

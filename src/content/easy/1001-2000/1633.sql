@@ -1,4 +1,4 @@
--- 1633 - Percentage of Users Attended a Contest
+-- 1633. Percentage of Users Attended a Contest
 
 SELECT
     contest_id,

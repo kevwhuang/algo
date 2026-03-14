@@ -1,4 +1,4 @@
-# 2877 - Create a DataFrame From List
+# 2877. Create a DataFrame From List
 
 import pandas as pd
 

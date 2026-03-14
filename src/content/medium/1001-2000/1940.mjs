@@ -1,4 +1,4 @@
-// 1940 - Longest Common Subsequence Between Sorted Arrays
+// 1940. Longest Common Subsequence Between Sorted Arrays
 
 function longestCommonSubsequence(arrays) {
     const len = arrays.length;

@@ -1,4 +1,4 @@
-// 2934 - Minimum Operations to Maximize Last Elements in Arrays
+// 2934. Minimum Operations to Maximize Last Elements in Arrays
 
 function minOperations(nums1, nums2) {
     let swaps1 = 0, swaps2 = 0;

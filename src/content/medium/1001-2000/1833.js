@@ -1,4 +1,4 @@
-// 1833 - Maximum Ice Cream Bars
+// 1833. Maximum Ice Cream Bars
 
 function maxIceCream(costs, coins) {
     const freqs = new Array(100001).fill(0);

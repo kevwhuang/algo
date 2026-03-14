@@ -1,4 +1,4 @@
-// 996 - Number of Squareful Arrays
+// 996. Number of Squareful Arrays
 
 function numSquarefulPerms(nums) {
     function backtrack(i, mask, b) {

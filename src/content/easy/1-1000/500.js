@@ -1,4 +1,4 @@
-// 500 - Keyboard Row
+// 500. Keyboard Row
 
 function findWords(words) {
     const res = [];

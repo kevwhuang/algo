@@ -1,4 +1,4 @@
-// 3504 - Longest Palindrome After Substring Concatenation II
+// 3504. Longest Palindrome After Substring Concatenation II
 
 function longestPalindrome(s, t) {
     t = t.split``.reverse();

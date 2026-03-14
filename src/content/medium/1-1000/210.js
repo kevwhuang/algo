@@ -1,4 +1,4 @@
-// 210 - Course Schedule II
+// 210. Course Schedule II
 
 function findOrder(numCourses, prerequisites) {
     const adj = Array.from({ length: numCourses }, () => []);

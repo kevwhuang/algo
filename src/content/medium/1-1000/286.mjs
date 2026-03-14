@@ -1,4 +1,4 @@
-// 286 - Walls and Gates
+// 286. Walls and Gates
 
 function wallsAndGates(rooms) {
     let Q = [];

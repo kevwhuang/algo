@@ -1,4 +1,4 @@
-// 2471 - Minimum Number of Operations to Sort a Binary Tree by Level
+// 2471. Minimum Number of Operations to Sort a Binary Tree by Level
 
 function minimumOperations(root) {
     let res = 0, Q = [root];

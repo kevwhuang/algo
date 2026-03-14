@@ -1,4 +1,4 @@
-// 2447 - Number of Subarrays With GCD Equal to K
+// 2447. Number of Subarrays With GCD Equal to K
 
 function subarrayGCD(nums, k) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

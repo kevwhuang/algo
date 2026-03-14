@@ -1,4 +1,4 @@
-// 2930 - Number of Strings Which Can Be Rearranged to Contain Substring
+// 2930. Number of Strings Which Can Be Rearranged to Contain Substring
 
 function stringCount(n) {
     let dp000 = 1, dp001 = 0, dp010 = 0, dp011 = 0, dp100 = 0, dp101 = 0;

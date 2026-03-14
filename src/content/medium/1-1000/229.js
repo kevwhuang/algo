@@ -1,4 +1,4 @@
-// 229 - Majority Element II
+// 229. Majority Element II
 
 function majorityElement(nums) {
     let n;

@@ -1,4 +1,4 @@
-// 475 - Heaters
+// 475. Heaters
 
 function findRadius(houses, heaters) {
     houses.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 6 - Zigzag Conversion
+// 6. Zigzag Conversion
 
 function convert(s, numRows) {
     if (numRows === 1) return s;

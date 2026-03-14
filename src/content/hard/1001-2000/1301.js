@@ -1,4 +1,4 @@
-// 1301 - Number of Paths With Max Score
+// 1301. Number of Paths With Max Score
 
 function pathsWithMaxScore(board) {
     const n = board.length;

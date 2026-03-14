@@ -1,4 +1,4 @@
-// 1578 - Minimum Time to Make Rope Colorful
+// 1578. Minimum Time to Make Rope Colorful
 
 function minCost(colors, neededTime) {
     let time = 0;

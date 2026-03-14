@@ -1,4 +1,4 @@
-// 3194 - Minimum Average of Smallest and Largest Elements
+// 3194. Minimum Average of Smallest and Largest Elements
 
 function minimumAverage(nums) {
     nums = new Uint8Array(nums).sort();

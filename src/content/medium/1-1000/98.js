@@ -1,4 +1,4 @@
-// 98 - Validate Binary Search Tree
+// 98. Validate Binary Search Tree
 
 function isValidBST(root) {
     function dfs(node, min, max) {

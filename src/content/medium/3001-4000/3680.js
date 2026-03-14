@@ -1,4 +1,4 @@
-// 3680 - Generate Schedule
+// 3680. Generate Schedule
 
 function generateSchedule(n) {
     if (n < 5) return [];

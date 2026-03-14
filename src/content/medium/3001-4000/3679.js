@@ -1,4 +1,4 @@
-// 3679 - Minimum Discards to Balance Inventory
+// 3679. Minimum Discards to Balance Inventory
 
 function minArrivalsToDiscard(arrivals, w, m) {
     if (!this.B) B = new Uint32Array(100001), arr = new Uint8Array(100000);

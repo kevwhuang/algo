@@ -1,4 +1,4 @@
-// 152 - Maximum Product Subarray
+// 152. Maximum Product Subarray
 
 function maxProduct(nums) {
     let res = nums[0], min = res, max = res, cur, i = 0;

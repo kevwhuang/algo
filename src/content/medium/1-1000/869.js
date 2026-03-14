@@ -1,4 +1,4 @@
-// 869 - Reordered Power of 2
+// 869. Reordered Power of 2
 
 function reorderedPowerOf2(n) {
     const powers = new Set([

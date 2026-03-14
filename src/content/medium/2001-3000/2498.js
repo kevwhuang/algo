@@ -1,4 +1,4 @@
-// 2498 - Frog Jump II
+// 2498. Frog Jump II
 
 function maxJump(stones) {
     let cost = stones[1] - stones[0];

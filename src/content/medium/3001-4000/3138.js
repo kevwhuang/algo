@@ -1,4 +1,4 @@
-// 3138 - Minimum Length of Anagram Concatenation
+// 3138. Minimum Length of Anagram Concatenation
 
 function minAnagramLength(s) {
     let size = 1, len = s.length, lim = len / 2;

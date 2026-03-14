@@ -1,4 +1,4 @@
-// 2525 - Categorize Box According to Criteria
+// 2525. Categorize Box According to Criteria
 
 function categorizeBox(length, width, height, mass) {
     let isBulky = length >= 1e4 || width >= 1e4 || height >= 1e4;

@@ -1,4 +1,4 @@
-// 1507 - Reformat Date
+// 1507. Reformat Date
 
 function reformatDate(date) {
     const dict = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'];

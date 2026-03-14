@@ -1,4 +1,4 @@
-// 77 - Combinations
+// 77. Combinations
 
 function combine(n, k) {
     function backtrack(i) {

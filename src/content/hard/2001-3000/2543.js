@@ -1,3 +1,3 @@
-// 2543 - Check If Point Is Reachable
+// 2543. Check If Point Is Reachable
 
 

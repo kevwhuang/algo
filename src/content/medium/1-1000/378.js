@@ -1,4 +1,4 @@
-// 378 - Kth Smallest Element in a Sorted Matrix
+// 378. Kth Smallest Element in a Sorted Matrix
 
 function kthSmallest(matrix, k) {
     const m = matrix.length, n = matrix[0].length;

@@ -1,4 +1,4 @@
-// 3393 - Count Paths With the Given XOR Value
+// 3393. Count Paths With the Given XOR Value
 
 function countPathsWithXorValue(grid, k) {
     const fn = () => Array.from({ length: n }, () => new Uint32Array(16));

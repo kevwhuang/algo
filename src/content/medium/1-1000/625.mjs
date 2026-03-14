@@ -1,4 +1,4 @@
-// 625 - Minimum Factorization
+// 625. Minimum Factorization
 
 function smallestFactorization(num) {
     if (num === 1) return 1;

@@ -1,3 +1,3 @@
-// 2963 - Count the Number of Good Partitions
+// 2963. Count the Number of Good Partitions
 
 

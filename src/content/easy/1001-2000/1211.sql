@@ -1,4 +1,4 @@
--- 1211 - Queries Quality and Percentage
+-- 1211. Queries Quality and Percentage
 
 SELECT
     query_name,

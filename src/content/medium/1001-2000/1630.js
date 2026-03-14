@@ -1,4 +1,4 @@
-// 1630 - Arithmetic Subarrays
+// 1630. Arithmetic Subarrays
 
 function checkArithmeticSubarrays(nums, l, r) {
     const res = [];

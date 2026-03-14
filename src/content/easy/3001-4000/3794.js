@@ -1,4 +1,4 @@
-// 3794 - Reverse String Prefix
+// 3794. Reverse String Prefix
 
 function reversePrefix(s, k) {
     let res = '', i = 0;

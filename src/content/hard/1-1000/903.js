@@ -1,3 +1,3 @@
-// 903 - Valid Permutations for DI Sequence
+// 903. Valid Permutations for DI Sequence
 
 

@@ -1,4 +1,4 @@
-// 2374 - Node With Highest Edge Score
+// 2374. Node With Highest Edge Score
 
 function edgeScore(edges) {
     const scores = new Array(edges.length).fill(0);

@@ -1,4 +1,4 @@
-// 665 - Non-Decreasing Array
+// 665. Non-Decreasing Array
 
 function checkPossibility(nums) {
     let modified = false;

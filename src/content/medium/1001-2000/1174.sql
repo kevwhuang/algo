@@ -1,4 +1,4 @@
--- 1174 - Immediate Food Delivery II
+-- 1174. Immediate Food Delivery II
 
 SELECT
     ROUND(

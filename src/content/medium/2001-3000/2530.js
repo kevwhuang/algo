@@ -1,4 +1,4 @@
-// 2530 - Maximal Score After Applying K Operations
+// 2530. Maximal Score After Applying K Operations
 
 function maxKelements(nums, k) {
     const heap = new PriorityQueue({ compare: (a, b) => b - a });

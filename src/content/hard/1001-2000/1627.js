@@ -1,4 +1,4 @@
-// 1627 - Graph Connectivity With Threshold
+// 1627. Graph Connectivity With Threshold
 
 function areConnected(n, threshold, queries) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

@@ -1,4 +1,4 @@
-// 652 - Find Duplicate Subtrees
+// 652. Find Duplicate Subtrees
 
 function findDuplicateSubtrees(root) {
     function dfs(node) {

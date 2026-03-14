@@ -1,3 +1,3 @@
-// 1770 - Maximum Score From Performing Multiplication Operations
+// 1770. Maximum Score From Performing Multiplication Operations
 
 

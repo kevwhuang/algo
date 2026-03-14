@@ -1,4 +1,4 @@
-// 3531 - Count Covered Buildings
+// 3531. Count Covered Buildings
 
 function countCoveredBuildings(n, buildings) {
     const min1 = new Uint32Array(n + 1).fill(-1);

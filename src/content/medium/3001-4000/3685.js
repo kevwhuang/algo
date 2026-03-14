@@ -1,4 +1,4 @@
-// 3685 - Subsequence Sum After Capping Elements
+// 3685. Subsequence Sum After Capping Elements
 
 function subsequenceSumAfterCapping(nums, k) {
     nums = new Uint16Array(nums).sort();

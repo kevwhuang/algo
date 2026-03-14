@@ -1,4 +1,4 @@
-// 2773 - Height of Special Binary Tree
+// 2773. Height of Special Binary Tree
 
 function heightOfTree(root) {
     if (!root || !root.left && !root.right) return 0;

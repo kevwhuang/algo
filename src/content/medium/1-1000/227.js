@@ -1,4 +1,4 @@
-// 227 - Basic Calculator II
+// 227. Basic Calculator II
 
 function calculate(s) {
     function operate(sign) {

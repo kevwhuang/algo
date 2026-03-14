@@ -1,4 +1,4 @@
-// 26 - Remove Duplicates From Sorted Array
+// 26. Remove Duplicates From Sorted Array
 
 function removeDuplicates(nums) {
     let l = 0, r = 0;

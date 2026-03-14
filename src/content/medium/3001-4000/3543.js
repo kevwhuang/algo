@@ -1,4 +1,4 @@
-// 3543 - Maximum Weighted K-Edge Path
+// 3543. Maximum Weighted K-Edge Path
 
 function maxWeight(n, edges, k, t) {
     if (k === 0) return 0;

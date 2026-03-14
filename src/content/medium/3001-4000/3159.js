@@ -1,4 +1,4 @@
-// 3159 - Find Occurrences of an Element in an Array
+// 3159. Find Occurrences of an Element in an Array
 
 function occurrencesOfElement(nums, queries, x) {
     const arr = [];

@@ -1,4 +1,4 @@
-// 2778 - Sum of Squares of Special Elements
+// 2778. Sum of Squares of Special Elements
 
 function sumOfSquares(nums) {
     let sum = 0;

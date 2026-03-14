@@ -1,4 +1,4 @@
--- 1445 - Apples & Oranges
+-- 1445. Apples & Oranges
 
 SELECT
     sale_date,

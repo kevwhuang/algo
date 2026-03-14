@@ -1,4 +1,4 @@
-// 2257 - Count Unguarded Cells in the Grid
+// 2257. Count Unguarded Cells in the Grid
 
 function countUnguarded(m, n, guards, walls) {
     const mat = Array.from({ length: m }, () => new Array(n));

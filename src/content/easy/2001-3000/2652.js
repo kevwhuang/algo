@@ -1,4 +1,4 @@
-// 2652 - Sum Multiples
+// 2652. Sum Multiples
 
 function sumOfMultiples(n) {
     let sum = 0;

@@ -1,4 +1,4 @@
-// 1893 - Check If All the Integers in a Range Are Covered
+// 1893. Check If All the Integers in a Range Are Covered
 
 function isCovered(ranges, left, right) {
     const arr = new Uint8Array(52);

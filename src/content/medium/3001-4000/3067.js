@@ -1,4 +1,4 @@
-// 3067 - Count Pairs of Connectable Servers in a Weighted Tree Network
+// 3067. Count Pairs of Connectable Servers in a Weighted Tree Network
 
 function countPairsOfConnectableServers(edges, signalSpeed) {
     function dfs(node, prev, dist) {

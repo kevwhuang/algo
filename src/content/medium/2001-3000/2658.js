@@ -1,4 +1,4 @@
-// 2658 - Maximum Number of Fish in a Grid
+// 2658. Maximum Number of Fish in a Grid
 
 function findMaxFish(grid) {
     function dfs(r, c) {

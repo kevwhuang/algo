@@ -1,4 +1,4 @@
-// 199 - Binary Tree Right Side View
+// 199. Binary Tree Right Side View
 
 function rightSideView(root) {
     if (!root) return [];

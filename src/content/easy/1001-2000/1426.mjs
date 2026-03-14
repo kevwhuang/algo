@@ -1,4 +1,4 @@
-// 1426 - Counting Elements
+// 1426. Counting Elements
 
 function countElements(arr) {
     let count = 0;

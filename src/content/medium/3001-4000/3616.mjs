@@ -1,4 +1,4 @@
-// 3616 - Number of Student Replacements
+// 3616. Number of Student Replacements
 
 function totalReplacements(ranks) {
     let res = 0, prev = ranks[0], i = 0;

@@ -1,4 +1,4 @@
-// 1626 - Best Team With No Conflicts
+// 1626. Best Team With No Conflicts
 
 function bestTeamScore(scores, ages) {
     let res = 0;

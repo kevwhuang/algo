@@ -1,4 +1,4 @@
-// 3299 - Sum of Consecutive Subsequences
+// 3299. Sum of Consecutive Subsequences
 
 function getSum(nums) {
     function fn(d) {

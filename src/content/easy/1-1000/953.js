@@ -1,4 +1,4 @@
-// 953 - Verifying an Alien Dictionary
+// 953. Verifying an Alien Dictionary
 
 function isAlienSorted(words, order) {
     const map = new Map();

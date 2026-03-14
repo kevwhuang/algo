@@ -1,4 +1,4 @@
-// 2602 - Minimum Operations to Make All Array Elements Equal
+// 2602. Minimum Operations to Make All Array Elements Equal
 
 function minOperations(nums, queries) {
     nums = new Uint32Array(nums).sort();

@@ -1,4 +1,4 @@
-// 2664 - The Knight's Tour
+// 2664. The Knight's Tour
 
 function tourOfKnight(m, n, r, c) {
     function dfs(r, c, move) {

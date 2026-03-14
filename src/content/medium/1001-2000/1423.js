@@ -1,4 +1,4 @@
-// 1423 - Maximum Points You Can Obtain From Cards
+// 1423. Maximum Points You Can Obtain From Cards
 
 function maxScore(cardPoints, k) {
     let window = 0;

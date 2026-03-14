@@ -1,4 +1,4 @@
--- 1440 - Evaluate Boolean Expression
+-- 1440. Evaluate Boolean Expression
 
 SELECT
     left_operand,

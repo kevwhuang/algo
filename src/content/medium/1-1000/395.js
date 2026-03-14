@@ -1,4 +1,4 @@
-// 395 - Longest Substring With at Least K Repeating Characters
+// 395. Longest Substring With at Least K Repeating Characters
 
 function longestSubstring(s, k) {
     const len = s.length;

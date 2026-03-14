@@ -1,4 +1,4 @@
--- 3056 - Snaps Analysis
+-- 3056. Snaps Analysis
 
 WITH CTE AS (
     SELECT

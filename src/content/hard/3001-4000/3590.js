@@ -1,3 +1,3 @@
-// 3590 - Kth Smallest Path XOR Sum
+// 3590. Kth Smallest Path XOR Sum
 
 

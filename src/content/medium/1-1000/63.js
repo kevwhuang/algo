@@ -1,4 +1,4 @@
-// 63 - Unique Paths II
+// 63. Unique Paths II
 
 function uniquePathsWithObstacles(obstacleGrid) {
     const dp = obstacleGrid, m = dp.length, n = dp[0].length;

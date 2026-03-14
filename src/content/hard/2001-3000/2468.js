@@ -1,4 +1,4 @@
-// 2468 - Split Message Based on Limit
+// 2468. Split Message Based on Limit
 
 function splitMessage(message, limit) {
     const n = message.length;

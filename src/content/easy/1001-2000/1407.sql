@@ -1,4 +1,4 @@
--- 1407 - Top Travellers
+-- 1407. Top Travellers
 
 SELECT
     name,

@@ -1,4 +1,4 @@
-// 1443 - Minimum Time to Collect All Apples in a Tree
+// 1443. Minimum Time to Collect All Apples in a Tree
 
 function minTime(n, edges, hasApple) {
     function dfs(node, prev) {

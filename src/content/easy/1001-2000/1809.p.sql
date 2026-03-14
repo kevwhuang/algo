@@ -1,4 +1,4 @@
--- 1809 - Ad-Free Sessions
+-- 1809. Ad-Free Sessions
 
 SELECT
     session_id

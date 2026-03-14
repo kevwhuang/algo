@@ -1,4 +1,4 @@
-// 1922 - Count Good Numbers
+// 1922. Count Good Numbers
 
 function countGoodNumbers(n) {
     function power(mult, cur) {

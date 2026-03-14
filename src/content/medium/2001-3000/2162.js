@@ -1,4 +1,4 @@
-// 2162 - Minimum Cost to Set Cooking Time
+// 2162. Minimum Cost to Set Cooking Time
 
 function minCostSetTime(startAt, moveCost, pushCost, targetSeconds) {
     function calculate(str) {

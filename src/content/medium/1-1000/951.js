@@ -1,4 +1,4 @@
-// 951 - Flip Equivalent Binary Trees
+// 951. Flip Equivalent Binary Trees
 
 function flipEquiv(root1, root2) {
     function dfs1(node) {

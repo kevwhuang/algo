@@ -1,3 +1,3 @@
-// 2448 - Minimum Cost to Make Array Equal
+// 2448. Minimum Cost to Make Array Equal
 
 

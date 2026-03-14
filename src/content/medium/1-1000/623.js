@@ -1,4 +1,4 @@
-// 623 - Add One Row to Tree
+// 623. Add One Row to Tree
 
 function addOneRow(root, val, depth) {
     if (depth === 1) return new TreeNode(val, root);

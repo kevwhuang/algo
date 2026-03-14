@@ -1,3 +1,3 @@
-// 1499 - Max Value of Equation
+// 1499. Max Value of Equation
 
 

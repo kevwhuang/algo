@@ -1,4 +1,4 @@
-// 161 - One Edit Distance
+// 161. One Edit Distance
 
 function isOneEditDistance(s, t) {
     const diff = Math.abs(s.length - t.length);

@@ -1,4 +1,4 @@
-// 1265 - Print Immutable Linked List in Reverse
+// 1265. Print Immutable Linked List in Reverse
 
 function printLinkedListInReverse(head) {
     function traverse(node) {

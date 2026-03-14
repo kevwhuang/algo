@@ -1,4 +1,4 @@
-// 2807 - Insert Greatest Common Divisors in Linked List
+// 2807. Insert Greatest Common Divisors in Linked List
 
 function insertGreatestCommonDivisors(head) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

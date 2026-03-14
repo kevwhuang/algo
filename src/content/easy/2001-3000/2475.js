@@ -1,4 +1,4 @@
-// 2475 - Number of Unequal Triplets in Array
+// 2475. Number of Unequal Triplets in Array
 
 function unequalTriplets(nums) {
     let triplets = 0;

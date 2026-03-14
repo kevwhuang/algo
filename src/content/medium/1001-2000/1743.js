@@ -1,4 +1,4 @@
-// 1743 - Restore the Array From Adjacent Pairs
+// 1743. Restore the Array From Adjacent Pairs
 
 function restoreArray(adjacentPairs) {
     const adj = new Map();

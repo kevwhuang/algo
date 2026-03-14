@@ -1,3 +1,3 @@
-// 3474 - Lexicographically Smallest Generated String
+// 3474. Lexicographically Smallest Generated String
 
 

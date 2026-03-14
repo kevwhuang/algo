@@ -1,4 +1,4 @@
-// 8 - String to Integer (atoi)
+// 8. String to Integer (atoi)
 
 function myAtoi(s) {
     s = parseInt(s) || 0;

@@ -1,4 +1,4 @@
-// 3016 - Minimum Number of Pushes to Type Word II
+// 3016. Minimum Number of Pushes to Type Word II
 
 function minimumPushes(word) {
     const B = Array.from({ length: 26 }, (_, i) => [i, 0]);

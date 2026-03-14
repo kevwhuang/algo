@@ -1,4 +1,4 @@
-// 2857 - Count Pairs of Points With Distance K
+// 2857. Count Pairs of Points With Distance K
 
 function countPairs(coordinates, k) {
     let pairs = 0;

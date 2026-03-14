@@ -1,4 +1,4 @@
-// 24 - Swap Nodes in Pairs
+// 24. Swap Nodes in Pairs
 
 function swapPairs(head) {
     let cur = head;

@@ -1,4 +1,4 @@
-// 2556 - Disconnect Path in a Binary Matrix by at Most One Flip
+// 2556. Disconnect Path in a Binary Matrix by at Most One Flip
 
 function isPossibleToCutPath(grid) {
     function dfs(r, c) {

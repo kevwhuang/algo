@@ -1,3 +1,3 @@
-// 2818 - Apply Operations to Maximize Score
+// 2818. Apply Operations to Maximize Score
 
 

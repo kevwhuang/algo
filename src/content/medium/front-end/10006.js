@@ -1,4 +1,4 @@
-// 10006 - Get Elements by Attribute
+// 10006. Get Elements by Attribute
 
 export function getElementsByAttribute(attributeValue) {
     function dfs(node) {

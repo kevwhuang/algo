@@ -1,4 +1,4 @@
-// 2058 - Find the Minimum and Maximum Number of Nodes Between Critical Points
+// 2058. Find the Minimum and Maximum Number of Nodes Between Critical Points
 
 function nodesBetweenCriticalPoints(head) {
     const points = [];

@@ -1,4 +1,4 @@
-// 322 - Coin Change
+// 322. Coin Change
 
 function coinChange(coins, amount) {
     const dp = new Uint16Array(amount + 1).fill(50000);

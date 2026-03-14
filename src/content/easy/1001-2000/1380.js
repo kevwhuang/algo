@@ -1,4 +1,4 @@
-// 1380 - Lucky Numbers in a Matrix
+// 1380. Lucky Numbers in a Matrix
 
 function luckyNumbers(matrix) {
     const m = matrix.length, n = matrix[0].length;

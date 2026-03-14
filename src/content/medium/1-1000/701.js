@@ -1,4 +1,4 @@
-// 701 - Insert Into a Binary Search Tree
+// 701. Insert Into a Binary Search Tree
 
 function insertIntoBST(root, val) {
     if (!root) return new TreeNode(val);

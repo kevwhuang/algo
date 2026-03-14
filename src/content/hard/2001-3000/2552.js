@@ -1,3 +1,3 @@
-// 2552 - Count Increasing Quadruplets
+// 2552. Count Increasing Quadruplets
 
 

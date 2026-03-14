@@ -1,4 +1,4 @@
-// 1257 - Smallest Common Region
+// 1257. Smallest Common Region
 
 function findSmallestRegion(regions, region1, region2) {
     const map = new Map();

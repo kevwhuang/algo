@@ -1,4 +1,4 @@
--- 2314 - The First Day of the Maximum Recorded Degree in Each City
+-- 2314. The First Day of the Maximum Recorded Degree in Each City
 
 WITH CTE AS (
     SELECT

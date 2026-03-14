@@ -1,4 +1,4 @@
-// 2291 - Maximum Profit From Trading Stocks
+// 2291. Maximum Profit From Trading Stocks
 
 function maximumProfit(present, future, budget) {
     const dp = new Uint32Array(budget + 1);

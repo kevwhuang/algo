@@ -1,4 +1,4 @@
-// 934 - Shortest Bridge
+// 934. Shortest Bridge
 
 function shortestBridge(grid) {
     function getBorder() {

@@ -1,4 +1,4 @@
-// 3595 - Once Twice
+// 3595. Once Twice
 
 function onceTwice(nums) {
     const dp1 = [-1, 0, 0];

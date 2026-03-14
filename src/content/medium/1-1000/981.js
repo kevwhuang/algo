@@ -1,4 +1,4 @@
-// 981 - Time Based Key-Value Store
+// 981. Time Based Key-Value Store
 
 class TimeMap {
     constructor() {

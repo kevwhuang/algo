@@ -1,4 +1,4 @@
--- 3252 - Premier League Table Ranking II
+-- 3252. Premier League Table Ranking II
 
 WITH CTE1 AS (
     SELECT

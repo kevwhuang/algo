@@ -1,4 +1,4 @@
-// 3798 - Largest Even Number
+// 3798. Largest Even Number
 
 function largestEven(s) {
     let i = s.length - 1;

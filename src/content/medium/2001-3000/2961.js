@@ -1,4 +1,4 @@
-// 2961 - Double Modular Exponentiation
+// 2961. Double Modular Exponentiation
 
 function getGoodIndices(variables, target) {
     target = BigInt(target);

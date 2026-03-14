@@ -1,4 +1,4 @@
-// 3028 - Ant on the Boundary
+// 3028. Ant on the Boundary
 
 function returnToBoundaryCount(nums) {
     let res = 0, idx = 0;

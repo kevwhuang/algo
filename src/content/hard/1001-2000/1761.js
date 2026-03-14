@@ -1,4 +1,4 @@
-// 1761 - Minimum Degree of a Connected Trio in a Graph
+// 1761. Minimum Degree of a Connected Trio in a Graph
 
 function minTrioDegree(n, edges) {
     const M = Array.from({ length: n + 1 }, () => new Uint8Array(n + 1));

@@ -1,4 +1,4 @@
-// 2483 - Minimum Penalty for a Shop
+// 2483. Minimum Penalty for a Shop
 
 function bestClosingTime(customers) {
     let res = 0, min = 0, penalty = 0;

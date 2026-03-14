@@ -1,4 +1,4 @@
-// 1692 - Count Ways to Distribute Candies
+// 1692. Count Ways to Distribute Candies
 
 function waysToDistribute(n, k) {
     if (!this.dp) dp = new Uint32Array(1001);

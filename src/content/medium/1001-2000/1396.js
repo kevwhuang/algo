@@ -1,4 +1,4 @@
-// 1396 - Design Underground System
+// 1396. Design Underground System
 
 class UndergroundSystem {
     constructor() {

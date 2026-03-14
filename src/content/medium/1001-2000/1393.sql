@@ -1,4 +1,4 @@
--- 1393 - Capital Gain/Loss
+-- 1393. Capital Gain/Loss
 
 SELECT
     stock_name,

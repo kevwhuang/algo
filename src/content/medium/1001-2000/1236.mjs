@@ -1,4 +1,4 @@
-// 1236 - Web Crawler
+// 1236. Web Crawler
 
 function crawl(startUrl, htmlParser) {
     function getHost(url) {

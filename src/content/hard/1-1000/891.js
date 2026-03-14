@@ -1,4 +1,4 @@
-// 891 - Sum of Subsequence Widths
+// 891. Sum of Subsequence Widths
 
 function sumSubseqWidths(nums) {
     let res = 0, pow = 1;

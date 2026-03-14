@@ -1,4 +1,4 @@
-// 3301 - Maximize the Total Height of Unique Towers
+// 3301. Maximize the Total Height of Unique Towers
 
 function maximumTotalSum(maximumHeight) {
     maximumHeight = new Uint32Array(maximumHeight).sort();

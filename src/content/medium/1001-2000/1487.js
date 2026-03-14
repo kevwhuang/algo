@@ -1,4 +1,4 @@
-// 1487 - Making File Names Unique
+// 1487. Making File Names Unique
 
 function getFolderNames(names) {
     const map = new Map();

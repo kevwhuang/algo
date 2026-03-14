@@ -1,4 +1,4 @@
-// 1337 - The K Weakest Rows in a Matrix
+// 1337. The K Weakest Rows in a Matrix
 
 function kWeakestRows(mat, k) {
     const m = mat.length, n = mat[0].length;

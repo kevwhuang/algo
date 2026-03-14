@@ -1,4 +1,4 @@
-// 2258 - Escape the Spreading Fire
+// 2258. Escape the Spreading Fire
 
 function maximumMinutes(grid) {
     function check(Q, acc, flag) {

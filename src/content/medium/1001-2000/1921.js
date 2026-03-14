@@ -1,4 +1,4 @@
-// 1921 - Eliminate Maximum Number of Monsters
+// 1921. Eliminate Maximum Number of Monsters
 
 function eliminateMaximum(dist, speed) {
     const n = dist.length;

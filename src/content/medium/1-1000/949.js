@@ -1,4 +1,4 @@
-// 949 - Largest Time for Given Digits
+// 949. Largest Time for Given Digits
 
 function largestTimeFromDigits(arr) {
     const permutations = [

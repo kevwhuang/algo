@@ -1,4 +1,4 @@
-// 3101 - Count Alternating Subarrays
+// 3101. Count Alternating Subarrays
 
 function countAlternatingSubarrays(nums) {
     let subarrays = 0, i = 0;

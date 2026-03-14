@@ -1,4 +1,4 @@
-// 752 - Open the Lock
+// 752. Open the Lock
 
 function openLock(deadends, target) {
     function getNext(cur, pos, inc) {

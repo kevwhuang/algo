@@ -1,4 +1,4 @@
-// 657 - Robot Return to Origin
+// 657. Robot Return to Origin
 
 function judgeCircle(moves) {
     let x = 0, y = 0;

@@ -1,4 +1,4 @@
-// 3728 - Stable Subarrays With Equal Boundary and Interior Sum
+// 3728. Stable Subarrays With Equal Boundary and Interior Sum
 
 function countStableSubarrays(capacity) {
     const n = capacity.length, map = new Map();

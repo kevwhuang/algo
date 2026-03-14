@@ -1,3 +1,3 @@
-// 3470 - Permutations IV
+// 3470. Permutations IV
 
 

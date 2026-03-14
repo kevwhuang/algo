@@ -1,4 +1,4 @@
-// 1419 - Minimum Number of Frogs Croaking
+// 1419. Minimum Number of Frogs Croaking
 
 function minNumberOfFrogs(croakOfFrogs) {
     let count = 0, local = 0;

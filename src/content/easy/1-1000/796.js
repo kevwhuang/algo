@@ -1,4 +1,4 @@
-// 796 - Rotate String
+// 796. Rotate String
 
 function rotateString(s, goal) {
     if (s.length !== goal.length) return false;

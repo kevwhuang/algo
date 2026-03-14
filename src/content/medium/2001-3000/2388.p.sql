@@ -1,4 +1,4 @@
--- 2388 - Change Null Values in a Table to the Previous Value
+-- 2388. Change Null Values in a Table to the Previous Value
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-# 2882 - Drop Duplicate Rows
+# 2882. Drop Duplicate Rows
 
 import pandas as pd
 

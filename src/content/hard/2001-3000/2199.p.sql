@@ -1,4 +1,4 @@
--- 2199 - Finding the Topic of Each Post
+-- 2199. Finding the Topic of Each Post
 
 SELECT
     post_id,

@@ -1,4 +1,4 @@
-// 998 - Maximum Binary Tree II
+// 998. Maximum Binary Tree II
 
 function insertIntoMaxTree(root, val) {
     if (root && root.val > val) {

@@ -1,4 +1,4 @@
-// 95 - Unique Binary Search Trees II
+// 95. Unique Binary Search Trees II
 
 function generateTrees(n) {
     function dfs(l, r) {

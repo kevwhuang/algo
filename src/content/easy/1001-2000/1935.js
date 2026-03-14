@@ -1,4 +1,4 @@
-// 1935 - Maximum Number of Words You Can Type
+// 1935. Maximum Number of Words You Can Type
 
 function canBeTypedWords(text, brokenLetters) {
     let res = 0;

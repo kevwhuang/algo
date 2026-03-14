@@ -1,4 +1,4 @@
-// 2632 - Curry
+// 2632. Curry
 
 function curry(fn) {
     function dfs() {

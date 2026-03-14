@@ -1,4 +1,4 @@
-// 41 - First Missing Positive
+// 41. First Missing Positive
 
 function firstMissingPositive(nums) {
     const n = nums.length;

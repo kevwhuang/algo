@@ -1,4 +1,4 @@
-// 726 - Number of Atoms
+// 726. Number of Atoms
 
 function countOfAtoms(formula) {
     const S = [], s = formula, n = s.length;

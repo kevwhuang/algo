@@ -1,3 +1,3 @@
-// 1397 - Find All Good Strings
+// 1397. Find All Good Strings
 
 

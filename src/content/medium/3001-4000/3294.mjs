@@ -1,4 +1,4 @@
-// 3294 - Convert Doubly Linked List to Array II
+// 3294. Convert Doubly Linked List to Array II
 
 function toArray(node) {
     const res = [];

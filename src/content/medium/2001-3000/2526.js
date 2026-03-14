@@ -1,4 +1,4 @@
-// 2526 - Find Consecutive Integers From a Data Stream
+// 2526. Find Consecutive Integers From a Data Stream
 
 class DataStream {
     constructor(value, k) {

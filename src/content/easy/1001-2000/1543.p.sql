@@ -1,4 +1,4 @@
--- 1543 - Fix Product Name Format
+-- 1543. Fix Product Name Format
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 3607 - Power Grid Maintenance
+// 3607. Power Grid Maintenance
 
 function processQueries(c, connections, queries) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

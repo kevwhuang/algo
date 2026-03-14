@@ -1,4 +1,4 @@
-// 3424 - Minimum Cost to Make Arrays Identical
+// 3424. Minimum Cost to Make Arrays Identical
 
 function minCost(arr, brr, k) {
     let acc = 0;

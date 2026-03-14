@@ -1,4 +1,4 @@
-// 3006 - Find Beautiful Indices in the Given Array I
+// 3006. Find Beautiful Indices in the Given Array I
 
 function beautifulIndices(s, a, b, k) {
     const idx1 = [], bound1 = s.length - a.length + 1;

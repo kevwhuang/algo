@@ -1,3 +1,3 @@
-// 3785 - Minimum Swaps to Avoid Forbidden Values
+// 3785. Minimum Swaps to Avoid Forbidden Values
 
 

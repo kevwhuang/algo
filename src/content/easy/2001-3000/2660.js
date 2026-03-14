@@ -1,4 +1,4 @@
-// 2660 - Determine the Winner of a Bowling Game
+// 2660. Determine the Winner of a Bowling Game
 
 function isWinner(player1, player2) {
     function calcScore(arr) {

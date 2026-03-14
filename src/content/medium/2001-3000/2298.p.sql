@@ -1,4 +1,4 @@
--- 2298 - Tasks Count in the Weekend
+-- 2298. Tasks Count in the Weekend
 
 SELECT
     SUM(WEEKDAY(submit_date) >= 5) AS weekend_cnt,

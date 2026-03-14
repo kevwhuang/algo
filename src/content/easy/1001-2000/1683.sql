@@ -1,4 +1,4 @@
--- 1683 - Invalid Tweets
+-- 1683. Invalid Tweets
 
 SELECT
     tweet_id

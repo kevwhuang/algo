@@ -1,4 +1,4 @@
-// 403 - Frog Jump
+// 403. Frog Jump
 
 function canCross(stones) {
     if (stones[1] !== 1) return false;

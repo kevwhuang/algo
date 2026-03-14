@@ -1,4 +1,4 @@
-// 3071 - Minimum Operations to Write the Letter Y on a Grid
+// 3071. Minimum Operations to Write the Letter Y on a Grid
 
 function minimumOperationsToWriteY(grid) {
     const check = (r, c) => r < mid ? r === c || r === n - c - 1 : c === mid;

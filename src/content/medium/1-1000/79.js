@@ -1,4 +1,4 @@
-// 79 - Word Search
+// 79. Word Search
 
 function exist(board, word) {
     function backtrack(i, r, c) {

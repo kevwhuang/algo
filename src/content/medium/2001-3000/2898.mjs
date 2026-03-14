@@ -1,4 +1,4 @@
-// 2898 - Maximum Linear Stock Score
+// 2898. Maximum Linear Stock Score
 
 function maxScore(prices) {
     const map = new Map();

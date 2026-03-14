@@ -1,4 +1,4 @@
-// 2729 - Check If the Number Is Fascinating
+// 2729. Check If the Number Is Fascinating
 
 function isFascinating(n) {
     n += '' + 2 * n + 3 * n;

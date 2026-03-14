@@ -1,4 +1,4 @@
-// 3456 - Find Special Substring of Length K
+// 3456. Find Special Substring of Length K
 
 function hasSpecialSubstring(s, k) {
     let res = 0, i = -1;

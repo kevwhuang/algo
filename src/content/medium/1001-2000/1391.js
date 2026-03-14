@@ -1,4 +1,4 @@
-// 1391 - Check If There Is a Valid Path in a Grid
+// 1391. Check If There Is a Valid Path in a Grid
 
 function hasValidPath(grid) {
     function hasPath() {

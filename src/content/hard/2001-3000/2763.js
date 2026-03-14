@@ -1,3 +1,3 @@
-// 2763 - Sum of Imbalance Numbers of All Subarrays
+// 2763. Sum of Imbalance Numbers of All Subarrays
 
 

@@ -1,4 +1,4 @@
--- 2230 - The Users That Are Eligible for Discount
+-- 2230. The Users That Are Eligible for Discount
 
 CREATE PROCEDURE getUserIDs(startDate DATE, endDate DATE, minAmount INT) BEGIN
 SELECT

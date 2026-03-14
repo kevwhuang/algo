@@ -1,4 +1,4 @@
-// 3725 - Count Ways to Choose Coprime Integers From Rows
+// 3725. Count Ways to Choose Coprime Integers From Rows
 
 function countCoprime(mat) {
     function init() {

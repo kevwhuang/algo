@@ -1,4 +1,4 @@
-// 1023 - Camel Case Matching
+// 1023. Camel Case Matching
 
 function camelMatch(queries, pattern) {
     const re = new RegExp(`^${pattern.replaceAll('', '[a-z]*')}$`);

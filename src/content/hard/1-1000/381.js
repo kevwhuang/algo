@@ -1,4 +1,4 @@
-// 381 - Insert Delete GetRandom O(1) - Duplicates Allowed
+// 381. Insert Delete GetRandom O(1) - Duplicates Allowed
 
 class RandomizedCollection {
     constructor() {

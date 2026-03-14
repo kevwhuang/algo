@@ -1,4 +1,4 @@
-// 118 - Pascal's Triangle
+// 118. Pascal's Triangle
 
 function generate(numRows) {
     const res = [[1]];

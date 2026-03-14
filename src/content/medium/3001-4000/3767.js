@@ -1,4 +1,4 @@
-// 3767 - Maximize Points After Choosing K Tasks
+// 3767. Maximize Points After Choosing K Tasks
 
 function maxPoints(technique1, technique2, k) {
     let res = 0, A3 = [];

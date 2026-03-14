@@ -1,4 +1,4 @@
-// 3026 - Maximum Good Subarray Sum
+// 3026. Maximum Good Subarray Sum
 
 function maximumSubarraySum(nums, k) {
     let max = -Infinity;

@@ -1,4 +1,4 @@
-// 2340 - Minimum Adjacent Swaps to Make a Valid Array
+// 2340. Minimum Adjacent Swaps to Make a Valid Array
 
 function minimumSwaps(nums) {
     let min = [nums[0], 0], max = [nums[0], 0];

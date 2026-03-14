@@ -1,4 +1,4 @@
--- 1412 - Find the Quiet Students in All Exams
+-- 1412. Find the Quiet Students in All Exams
 
 WITH CTE AS (
     SELECT

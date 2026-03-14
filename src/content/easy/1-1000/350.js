@@ -1,4 +1,4 @@
-// 350 - Intersection of Two Arrays II
+// 350. Intersection of Two Arrays II
 
 function intersect(nums1, nums2) {
     const B = new Int16Array(1001);

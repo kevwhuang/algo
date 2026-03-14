@@ -1,4 +1,4 @@
-// 2048 - Next Greater Numerically Balanced Number
+// 2048. Next Greater Numerically Balanced Number
 
 function nextBeautifulNumber(n) {
     const arr = [

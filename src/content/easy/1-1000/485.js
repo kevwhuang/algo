@@ -1,4 +1,4 @@
-// 485 - Max Consecutive Ones
+// 485. Max Consecutive Ones
 
 function findMaxConsecutiveOnes(nums) {
     let max = 0, acc = 0;

@@ -1,4 +1,4 @@
-// 419 - Battleships in a Board
+// 419. Battleships in a Board
 
 function countBattleships(board) {
     function dfs(r, c) {

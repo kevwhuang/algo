@@ -1,4 +1,4 @@
-// 843 - Guess the Word
+// 843. Guess the Word
 
 function findSecretWord(words, master) {
     while (true) {

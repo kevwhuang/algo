@@ -1,4 +1,4 @@
-// 2349 - Design a Number Container System
+// 2349. Design a Number Container System
 
 class NumberContainers {
     constructor() {

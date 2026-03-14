@@ -1,4 +1,4 @@
-// 407 - Trapping Rain Water II
+// 407. Trapping Rain Water II
 
 function trapRainWater(heightMap) {
     const M = heightMap, m = M.length, n = M[0].length;

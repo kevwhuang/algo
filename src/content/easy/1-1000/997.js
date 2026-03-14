@@ -1,4 +1,4 @@
-// 997 - Find the Town Judge
+// 997. Find the Town Judge
 
 function findJudge(n, trust) {
     const arr = new Array(n + 1).fill(0);

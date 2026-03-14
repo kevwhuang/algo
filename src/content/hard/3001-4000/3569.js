@@ -1,3 +1,3 @@
-// 3569 - Maximize Count of Distinct Primes After Split
+// 3569. Maximize Count of Distinct Primes After Split
 
 

@@ -1,3 +1,3 @@
-// 3490 - Count Beautiful Numbers
+// 3490. Count Beautiful Numbers
 
 

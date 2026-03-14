@@ -1,4 +1,4 @@
-// 3207 - Maximum Points After Enemy Battles
+// 3207. Maximum Points After Enemy Battles
 
 function maximumPoints(enemyEnergies, currentEnergy) {
     let min = Infinity;

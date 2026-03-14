@@ -1,4 +1,4 @@
-// 1486 - XOR Operation in an Array
+// 1486. XOR Operation in an Array
 
 function xorOperation(n, start) {
     let xor = 0;

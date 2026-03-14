@@ -1,4 +1,4 @@
-// 491 - Non-Decreasing Subsequences
+// 491. Non-Decreasing Subsequences
 
 function findSubsequences(nums) {
     function backtrack(i) {

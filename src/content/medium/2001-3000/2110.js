@@ -1,4 +1,4 @@
-// 2110 - Number of Smooth Descent Periods of a Stock
+// 2110. Number of Smooth Descent Periods of a Stock
 
 function getDescentPeriods(prices) {
     let periods = 1, window = 1;

@@ -1,4 +1,4 @@
-// 333 - Largest BST Subtree
+// 333. Largest BST Subtree
 
 function largestBSTSubtree(root) {
     function dfs1(node, min, max) {

@@ -1,4 +1,4 @@
-// 2370 - Longest Ideal Subsequence
+// 2370. Longest Ideal Subsequence
 
 function longestIdealString(s, k) {
     const dp = new Uint32Array(26);

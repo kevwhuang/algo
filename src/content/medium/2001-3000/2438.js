@@ -1,4 +1,4 @@
-// 2438 - Range Product Queries of Powers
+// 2438. Range Product Queries of Powers
 
 function productQueries(n, queries) {
     const powers = [1];

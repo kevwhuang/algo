@@ -1,4 +1,4 @@
--- 1194 - Tournament Winners
+-- 1194. Tournament Winners
 
 WITH CTE AS (
     SELECT

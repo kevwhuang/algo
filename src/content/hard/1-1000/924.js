@@ -1,4 +1,4 @@
-// 924 - Minimize Malware Spread
+// 924. Minimize Malware Spread
 
 function minMalwareSpread(graph, initial) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

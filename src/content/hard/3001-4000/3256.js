@@ -1,4 +1,4 @@
-// 3256 - Maximum Value Sum by Placing Three Rooks I
+// 3256. Maximum Value Sum by Placing Three Rooks I
 
 function maximumValueSum(board) {
     const set = new Set(), A = [], M = board, m = M.length, n = M[0].length;

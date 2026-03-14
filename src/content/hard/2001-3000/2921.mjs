@@ -1,4 +1,4 @@
-// 2921 - Maximum Profitable Triplets With Increasing Prices II
+// 2921. Maximum Profitable Triplets With Increasing Prices II
 
 function maxProfit(prices, profits) {
     const tgt = prices.reduce((s, e) => Math.max(e, s));

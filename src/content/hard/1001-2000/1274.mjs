@@ -1,4 +1,4 @@
-// 1274 - Number of Ships in a Rectangle
+// 1274. Number of Ships in a Rectangle
 
 function countShips(sea, topRight, bottomLeft) {
     if (!sea.hasShips(topRight, bottomLeft)) return 0;

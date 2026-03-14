@@ -1,4 +1,4 @@
-// 1608 - Special Array With X Elements Greater Than or Equal X
+// 1608. Special Array With X Elements Greater Than or Equal X
 
 function specialArray(nums) {
     nums = new Uint16Array(nums).sort();

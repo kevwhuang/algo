@@ -1,4 +1,4 @@
-// 1802 - Maximum Value at a Given Index in a Bounded Array
+// 1802. Maximum Value at a Given Index in a Bounded Array
 
 function maxValue(n, index, maxSum) {
     function sum(start, count) {

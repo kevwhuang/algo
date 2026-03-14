@@ -1,4 +1,4 @@
-// 2130 - Maximum Twin Sum of a Linked List
+// 2130. Maximum Twin Sum of a Linked List
 
 function pairSum(head) {
     const stack = [];

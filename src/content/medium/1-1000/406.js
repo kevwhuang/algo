@@ -1,4 +1,4 @@
-// 406 - Queue Reconstruction by Height
+// 406. Queue Reconstruction by Height
 
 function reconstructQueue(people) {
     people.sort((a, b) => b[0] - a[0] || a[1] - b[1]);

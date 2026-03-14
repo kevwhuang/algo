@@ -1,4 +1,4 @@
-// 3650 - Minimum Cost Path With Edge Reversals
+// 3650. Minimum Cost Path With Edge Reversals
 
 function minCost(n, edges) {
     const adj = Array.from({ length: n }, () => []);

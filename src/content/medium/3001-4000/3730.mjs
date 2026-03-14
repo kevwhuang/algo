@@ -1,4 +1,4 @@
-// 3730 - Maximum Calories Burnt From Jumps
+// 3730. Maximum Calories Burnt From Jumps
 
 function maxCaloriesBurnt(heights) {
     let res = 0, prev = 0, l = 0, r = heights.length - 1;

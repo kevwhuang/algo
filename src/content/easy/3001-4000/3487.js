@@ -1,4 +1,4 @@
-// 3487 - Maximum Unique Subarray Sum After Deletion
+// 3487. Maximum Unique Subarray Sum After Deletion
 
 function maxSum(nums) {
     const set = new Set();

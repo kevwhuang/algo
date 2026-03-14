@@ -1,4 +1,4 @@
-// 3690 - Split and Merge Array Transformation
+// 3690. Split and Merge Array Transformation
 
 function minSplitMerge(nums1, nums2) {
     function fn(cur) {

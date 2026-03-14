@@ -1,4 +1,4 @@
-// 1817 - Finding the Users Active Minutes
+// 1817. Finding the Users Active Minutes
 
 function findingUsersActiveMinutes(logs, k) {
     const map = new Map();

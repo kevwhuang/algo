@@ -1,4 +1,4 @@
-// 3483 - Unique 3-Digit Even Numbers
+// 3483. Unique 3-Digit Even Numbers
 
 function totalNumbers(digits) {
     const set = new Set(), n = digits.length;

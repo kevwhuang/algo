@@ -1,4 +1,4 @@
-// 823 - Binary Trees With Factors
+// 823. Binary Trees With Factors
 
 function numFactoredBinaryTrees(arr) {
     arr = new Uint32Array(arr).sort();

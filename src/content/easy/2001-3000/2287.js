@@ -1,4 +1,4 @@
-// 2287 - Rearrange Characters to Make Target String
+// 2287. Rearrange Characters to Make Target String
 
 function rearrangeCharacters(s, target) {
     const map1 = new Map();

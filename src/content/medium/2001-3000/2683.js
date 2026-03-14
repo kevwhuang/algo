@@ -1,4 +1,4 @@
-// 2683 - Neighboring Bitwise XOR
+// 2683. Neighboring Bitwise XOR
 
 function doesValidArrayExist(derived) {
     let xor = 0;

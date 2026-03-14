@@ -1,4 +1,4 @@
-// 2178 - Maximum Split of Positive Even Integers
+// 2178. Maximum Split of Positive Even Integers
 
 function maximumEvenSplit(finalSum) {
     if (finalSum & 1) return [];

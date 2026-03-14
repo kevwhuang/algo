@@ -1,3 +1,3 @@
-// 1825 - Finding MK Average
+// 1825. Finding MK Average
 
 

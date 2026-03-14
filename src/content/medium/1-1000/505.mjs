@@ -1,4 +1,4 @@
-// 505 - The Maze II
+// 505. The Maze II
 
 function shortestDistance(maze, start, destination) {
     const validate = (r, c) => 0 <= r && r < m && 0 <= c && c < n;

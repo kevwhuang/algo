@@ -1,4 +1,4 @@
-// 2864 - Maximum Odd Binary Number
+// 2864. Maximum Odd Binary Number
 
 function maximumOddBinaryNumber(s) {
     let ones = -1;

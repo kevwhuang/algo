@@ -1,3 +1,3 @@
-// 1896 - Minimum Cost to Change the Final Value of Expression
+// 1896. Minimum Cost to Change the Final Value of Expression
 
 

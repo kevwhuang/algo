@@ -1,4 +1,4 @@
--- 3808 - Find Emotionally Consistent Users
+-- 3808. Find Emotionally Consistent Users
 
 WITH CTE AS (
     SELECT

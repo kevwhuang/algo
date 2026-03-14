@@ -1,4 +1,4 @@
-// 2224 - Minimum Number of Operations to Convert Time
+// 2224. Minimum Number of Operations to Convert Time
 
 function convertTime(current, correct) {
     const transform = s => 60 * (s[0] + s[1]) + 1 * (s[3] + s[4]);

@@ -1,4 +1,4 @@
-// 2342 - Max Sum of a Pair With Equal Sum of Digits
+// 2342. Max Sum of a Pair With Equal Sum of Digits
 
 function maximumSum(nums) {
     const map = new Map();

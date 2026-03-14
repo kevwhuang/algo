@@ -1,4 +1,4 @@
-// 2746 - Decremental String Concatenation
+// 2746. Decremental String Concatenation
 
 function minimizeConcatenatedLength(words) {
     const s = words[0], l = s.charCodeAt(), r = s.at(-1).charCodeAt();

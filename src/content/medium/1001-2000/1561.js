@@ -1,4 +1,4 @@
-// 1561 - Maximum Number of Coins You Can Get
+// 1561. Maximum Number of Coins You Can Get
 
 function maxCoins(piles) {
     let n = Math.max(...piles);

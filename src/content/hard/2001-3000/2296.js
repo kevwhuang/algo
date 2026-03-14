@@ -1,4 +1,4 @@
-// 2296 - Design a Text Editor
+// 2296. Design a Text Editor
 
 class TextEditor {
     constructor() {

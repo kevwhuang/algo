@@ -1,4 +1,4 @@
-// 267 - Palindrome Permutation II
+// 267. Palindrome Permutation II
 
 function generatePalindromes(s) {
     function backtrack(i, cur) {

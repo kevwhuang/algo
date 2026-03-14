@@ -1,4 +1,4 @@
-// 918 - Maximum Sum Circular Subarray
+// 918. Maximum Sum Circular Subarray
 
 function maxSubarraySumCircular(nums) {
     let sum = 0, maxSum = nums[0], minSum = nums[0];

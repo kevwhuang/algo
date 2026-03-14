@@ -1,4 +1,4 @@
-// 1911 - Maximum Alternating Subsequence Sum
+// 1911. Maximum Alternating Subsequence Sum
 
 function maxAlternatingSum(nums) {
     let res = nums[0], i = 0;

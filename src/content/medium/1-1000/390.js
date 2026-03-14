@@ -1,4 +1,4 @@
-// 390 - Elimination Game
+// 390. Elimination Game
 
 function lastRemaining(n) {
     let head = 1, inc = 1, dir = true;

@@ -1,4 +1,4 @@
-// 963 - Minimum Area Rectangle II
+// 963. Minimum Area Rectangle II
 
 function minAreaFreeRect(points) {
     function isOrthogonal(p1, p2, p3) {

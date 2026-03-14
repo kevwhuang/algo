@@ -1,4 +1,4 @@
-// 2939 - Maximum XOR Product
+// 2939. Maximum XOR Product
 
 function maximumXorProduct(a, b, n) {
     a = BigInt(a), b = BigInt(b), n = 2n ** BigInt(n);

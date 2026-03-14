@@ -1,4 +1,4 @@
-// 3264 - Final Array State After K Multiplication Operations I
+// 3264. Final Array State After K Multiplication Operations I
 
 function getFinalState(nums, k, multiplier) {
     while (k--) {

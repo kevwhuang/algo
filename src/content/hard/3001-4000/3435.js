@@ -1,3 +1,3 @@
-// 3435 - Frequencies of Shortest Supersequences
+// 3435. Frequencies of Shortest Supersequences
 
 

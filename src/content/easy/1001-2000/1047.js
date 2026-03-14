@@ -1,4 +1,4 @@
-// 1047 - Remove All Adjacent Duplicates in String
+// 1047. Remove All Adjacent Duplicates in String
 
 function removeDuplicates(s) {
     s = s.split('');

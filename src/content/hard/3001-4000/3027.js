@@ -1,4 +1,4 @@
-// 3027 - Find the Number of Ways to Place People II
+// 3027. Find the Number of Ways to Place People II
 
 function numberOfPairs(points) {
     let res = 0;

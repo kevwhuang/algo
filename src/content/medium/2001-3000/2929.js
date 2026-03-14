@@ -1,4 +1,4 @@
-// 2929 - Distribute Candies Among Children II
+// 2929. Distribute Candies Among Children II
 
 function distributeCandies(n, limit) {
     const fn = a => a >= 2 ? a * (a - 1) / 2 : 0;

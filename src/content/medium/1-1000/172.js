@@ -1,4 +1,4 @@
-// 172 - Factorial Trailing Zeros
+// 172. Factorial Trailing Zeros
 
 function trailingZeroes(n) {
     let zeros = 0;

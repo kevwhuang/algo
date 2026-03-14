@@ -1,4 +1,4 @@
-// 2366 - Minimum Replacements to Sort the Array
+// 2366. Minimum Replacements to Sort the Array
 
 function minimumReplacement(nums) {
     let res = 0, prev = nums.at(-1), i = nums.length - 1;

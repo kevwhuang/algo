@@ -1,4 +1,4 @@
-// 1514 - Path With Maximum Probability
+// 1514. Path With Maximum Probability
 
 function maxProbability(n, edges, succProb, start_node, end_node) {
     const bf = new Array(n).fill(0);

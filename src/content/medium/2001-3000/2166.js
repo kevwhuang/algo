@@ -1,4 +1,4 @@
-// 2166 - Design Bitset
+// 2166. Design Bitset
 
 class Bitset {
     constructor(size) {

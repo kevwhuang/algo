@@ -1,4 +1,4 @@
-// 2190 - Most Frequent Number Following Key in an Array
+// 2190. Most Frequent Number Following Key in an Array
 
 function mostFrequent(nums, key) {
     let max, maxFreq = 0;

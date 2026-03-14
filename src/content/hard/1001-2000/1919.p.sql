@@ -1,4 +1,4 @@
--- 1919 - Leetcodify Similar Friends
+-- 1919. Leetcodify Similar Friends
 
 SELECT
     *

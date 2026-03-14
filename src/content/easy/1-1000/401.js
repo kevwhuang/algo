@@ -1,4 +1,4 @@
-// 401 - Binary Watch
+// 401. Binary Watch
 
 function readBinaryWatch(turnedOn) {
     if (turnedOn === 0) return ['0:00'];

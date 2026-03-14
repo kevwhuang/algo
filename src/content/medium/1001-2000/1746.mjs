@@ -1,4 +1,4 @@
-// 1746 - Maximum Subarray Sum After One Operation
+// 1746. Maximum Subarray Sum After One Operation
 
 function maxSumAfterOperation(nums) {
     let res = 0, max1 = 0, max2 = 0, i = -1;

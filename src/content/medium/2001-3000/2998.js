@@ -1,4 +1,4 @@
-// 2998 - Minimum Number of Operations to Make X and Y Equal
+// 2998. Minimum Number of Operations to Make X and Y Equal
 
 function minimumOperationsToMakeEqual(x, y) {
     if (x <= y) return y - x;

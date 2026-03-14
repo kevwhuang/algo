@@ -1,4 +1,4 @@
-// 3567 - Minimum Absolute Difference in Sliding Submatrix
+// 3567. Minimum Absolute Difference in Sliding Submatrix
 
 function minAbsDiff(grid, k) {
     const m = grid.length - k, n = grid[0].length - k;

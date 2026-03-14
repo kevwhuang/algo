@@ -1,4 +1,4 @@
-// 3142 - Check If Grid Satisfies Conditions
+// 3142. Check If Grid Satisfies Conditions
 
 function satisfiesConditions(grid) {
     const m = grid.length - 1, n = grid[0].length - 1;

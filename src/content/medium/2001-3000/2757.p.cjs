@@ -1,4 +1,4 @@
-// 2757 - Generate Circular Array Values
+// 2757. Generate Circular Array Values
 
 function* cycleGenerator(arr, startIndex) {
     const n = arr.length;

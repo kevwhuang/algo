@@ -1,4 +1,4 @@
--- 1369 - Get the Second Most Recent Activity
+-- 1369. Get the Second Most Recent Activity
 
 WITH CTE AS (
     SELECT

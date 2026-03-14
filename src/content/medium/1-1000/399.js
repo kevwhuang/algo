@@ -1,4 +1,4 @@
-// 399 - Evaluate Division
+// 399. Evaluate Division
 
 function calcEquation(equations, values, queries) {
     const adj = new Map();

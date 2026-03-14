@@ -1,4 +1,4 @@
-// 1870 - Minimum Speed to Arrive on Time
+// 1870. Minimum Speed to Arrive on Time
 
 function minSpeedOnTime(dist, hour) {
     let l = 1, r = 1e7;

@@ -1,4 +1,4 @@
-// 1536 - Minimum Swaps to Arrange a Binary Grid
+// 1536. Minimum Swaps to Arrange a Binary Grid
 
 function minSwaps(grid) {
     const n = grid.length;

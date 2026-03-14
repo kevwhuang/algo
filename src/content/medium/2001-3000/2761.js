@@ -1,4 +1,4 @@
-// 2761 - Prime Pairs With Target Sum
+// 2761. Prime Pairs With Target Sum
 
 function findPrimePairs(n) {
     const sieve = new Uint8Array(n + 1), sqrt = Math.sqrt(n + 1);

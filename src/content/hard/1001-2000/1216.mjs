@@ -1,3 +1,3 @@
-// 1216 - Valid Palindrome III
+// 1216. Valid Palindrome III
 
 

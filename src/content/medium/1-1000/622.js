@@ -1,4 +1,4 @@
-// 622 - Design Circular Queue
+// 622. Design Circular Queue
 
 class MyCircularQueue {
     constructor(k) {

@@ -1,4 +1,4 @@
-// 3771 - Total Score of Dungeon Runs
+// 3771. Total Score of Dungeon Runs
 
 function totalScore(hp, damage, requirement) {
     const ps = damage, n = ps.length;

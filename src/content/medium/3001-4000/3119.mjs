@@ -1,4 +1,4 @@
-// 3119 - Maximum Number of Potholes That Can Be Fixed
+// 3119. Maximum Number of Potholes That Can Be Fixed
 
 function maxPotholes(road, budget) {
     const arr = [];

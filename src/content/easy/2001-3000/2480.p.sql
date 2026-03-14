@@ -1,4 +1,4 @@
--- 2480 - Form a Chemical Bond
+-- 2480. Form a Chemical Bond
 
 SELECT
     E1.symbol AS metal,

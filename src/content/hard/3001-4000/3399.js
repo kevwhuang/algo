@@ -1,4 +1,4 @@
-// 3399 - Smallest Substring With Identical Characters II
+// 3399. Smallest Substring With Identical Characters II
 
 function minLength(s, numOps) {
     const map = new Map(), n = s.length;

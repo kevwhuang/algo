@@ -1,4 +1,4 @@
--- 1501 - Countries You Can Safely Invest In
+-- 1501. Countries You Can Safely Invest In
 
 SELECT
     C.name AS country

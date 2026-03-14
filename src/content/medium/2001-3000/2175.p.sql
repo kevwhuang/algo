@@ -1,4 +1,4 @@
--- 2175 - The Change in Global Rankings
+-- 2175. The Change in Global Rankings
 
 SELECT
     team_id,

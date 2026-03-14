@@ -1,4 +1,4 @@
-// 1057 - Campus Bikes
+// 1057. Campus Bikes
 
 function assignBikes(workers, bikes) {
     const arr = Array.from({ length: 1999 }, () => []);

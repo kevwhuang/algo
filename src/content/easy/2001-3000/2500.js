@@ -1,4 +1,4 @@
-// 2500 - Delete Greatest Value in Each Row
+// 2500. Delete Greatest Value in Each Row
 
 function deleteGreatestValue(grid) {
     let res = 0, m = grid.length, n = grid[0].length;

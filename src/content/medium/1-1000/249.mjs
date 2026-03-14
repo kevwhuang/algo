@@ -1,4 +1,4 @@
-// 249 - Group Shifted Strings
+// 249. Group Shifted Strings
 
 function groupStrings(strings) {
     const obj = {};

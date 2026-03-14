@@ -1,3 +1,3 @@
-// 3352 - Count K-Reducible Numbers Less Than N
+// 3352. Count K-Reducible Numbers Less Than N
 
 

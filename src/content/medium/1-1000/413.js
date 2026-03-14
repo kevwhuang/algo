@@ -1,4 +1,4 @@
-// 413 - Arithmetic Slices
+// 413. Arithmetic Slices
 
 function numberOfArithmeticSlices(nums) {
     let res = 0, i = 0;

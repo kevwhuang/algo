@@ -1,4 +1,4 @@
-// 1298 - Maximum Candies You Can Get From Boxes
+// 1298. Maximum Candies You Can Get From Boxes
 
 function maxCandies(status, candies, keys, containedBoxes, initialBoxes) {
     let res = 0, Q = [], arr = [];

@@ -1,4 +1,4 @@
-// 3114 - Latest Time You Can Obtain After Replacing Characters
+// 3114. Latest Time You Can Obtain After Replacing Characters
 
 function findLatestTime(s) {
     s = s.split('');

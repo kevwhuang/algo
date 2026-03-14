@@ -1,4 +1,4 @@
-// 2531 - Make Number of Distinct Characters Equal
+// 2531. Make Number of Distinct Characters Equal
 
 function isItPossible(word1, word2) {
     const bucket1 = new Array(26).fill(0);

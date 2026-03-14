@@ -1,4 +1,4 @@
--- 1294 - Weather Type in Each Country
+-- 1294. Weather Type in Each Country
 
 SELECT
     country_name,

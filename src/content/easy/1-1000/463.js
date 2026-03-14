@@ -1,4 +1,4 @@
-// 463 - Island Perimeter
+// 463. Island Perimeter
 
 function islandPerimeter(grid) {
     let res = 0;

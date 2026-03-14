@@ -1,4 +1,4 @@
-// 1297 - Maximum Number of Occurrences of a Substring
+// 1297. Maximum Number of Occurrences of a Substring
 
 function maxFreq(s, maxLetters, minSize, maxSize) {
     const map1 = new Map(), map2 = new Map();

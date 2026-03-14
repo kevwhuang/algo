@@ -1,4 +1,4 @@
-// 3200 - Maximum Height of a Triangle
+// 3200. Maximum Height of a Triangle
 
 function maxHeightOfTriangle(red, blue) {
     function check(a, b) {

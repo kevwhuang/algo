@@ -1,4 +1,4 @@
-// 1656 - Design an Ordered Stream
+// 1656. Design an Ordered Stream
 
 class OrderedStream {
     constructor(n) {

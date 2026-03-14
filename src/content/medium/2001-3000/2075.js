@@ -1,4 +1,4 @@
-// 2075 - Decode the Slanted Ciphertext
+// 2075. Decode the Slanted Ciphertext
 
 function decodeCiphertext(encodedText, rows) {
     const res = [];

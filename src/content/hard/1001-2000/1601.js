@@ -1,4 +1,4 @@
-// 1601 - Maximum Number of Achievable Transfer Requests
+// 1601. Maximum Number of Achievable Transfer Requests
 
 function maximumRequests(n, requests) {
     function backtrack(i, acc) {

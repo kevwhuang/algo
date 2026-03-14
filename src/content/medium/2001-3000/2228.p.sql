@@ -1,4 +1,4 @@
--- 2228 - Users With Two Purchases Within Seven Days
+-- 2228. Users With Two Purchases Within Seven Days
 
 SELECT
     DISTINCT P1.user_id

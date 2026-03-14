@@ -1,4 +1,4 @@
-// 2641 - Cousins in Binary Tree II
+// 2641. Cousins in Binary Tree II
 
 function replaceValueInTree(root) {
     let sum = root.left ? root.left.val : 0;

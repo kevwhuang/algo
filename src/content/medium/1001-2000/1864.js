@@ -1,4 +1,4 @@
-// 1864 - Minimum Number of Swaps to Make the Binary String Alternating
+// 1864. Minimum Number of Swaps to Make the Binary String Alternating
 
 function minSwaps(s) {
     let zeros = 0, count = 0;

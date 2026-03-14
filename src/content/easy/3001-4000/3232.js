@@ -1,4 +1,4 @@
-// 3232 - Find If Digit Game Can Be Won
+// 3232. Find If Digit Game Can Be Won
 
 function canAliceWin(nums) {
     let acc1 = 0, acc2 = 0;

@@ -1,4 +1,4 @@
-// 3649 - Number of Perfect Pairs
+// 3649. Number of Perfect Pairs
 
 function perfectPairs(nums) {
     const n = nums.length, arr = new Uint32Array(n);

@@ -1,4 +1,4 @@
-// 2439 - Minimize Maximum of Array
+// 2439. Minimize Maximum of Array
 
 function minimizeArrayValue(nums) {
     let max = 0, acc = 0;

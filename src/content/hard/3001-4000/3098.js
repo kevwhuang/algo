@@ -1,3 +1,3 @@
-// 3098 - Find the Sum of Subsequence Powers
+// 3098. Find the Sum of Subsequence Powers
 
 

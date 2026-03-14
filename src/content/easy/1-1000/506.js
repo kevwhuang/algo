@@ -1,4 +1,4 @@
-// 506 - Relative Ranks
+// 506. Relative Ranks
 
 function findRelativeRanks(score) {
     const arr = new Array(score.length);

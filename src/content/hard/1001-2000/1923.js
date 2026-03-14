@@ -1,3 +1,3 @@
-// 1923 - Longest Common Subpath
+// 1923. Longest Common Subpath
 
 

@@ -1,4 +1,4 @@
-// 3210 - Find the Encrypted String
+// 3210. Find the Encrypted String
 
 function getEncryptedString(s, k) {
     let res = '';

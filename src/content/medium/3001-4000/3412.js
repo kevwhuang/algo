@@ -1,4 +1,4 @@
-// 3412 - Find Mirror Score of a String
+// 3412. Find Mirror Score of a String
 
 function calculateScore(s) {
     let res = 0;

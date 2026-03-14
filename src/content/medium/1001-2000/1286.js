@@ -1,4 +1,4 @@
-// 1286 - Iterator for Combination
+// 1286. Iterator for Combination
 
 class CombinationIterator {
     constructor(characters, combinationLength) {

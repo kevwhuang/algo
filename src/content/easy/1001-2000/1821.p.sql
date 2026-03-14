@@ -1,4 +1,4 @@
--- 1821 - Find Customers With Positive Revenue This Year
+-- 1821. Find Customers With Positive Revenue This Year
 
 SELECT
     customer_id

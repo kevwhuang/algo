@@ -1,4 +1,4 @@
-// 45 - Jump Game II
+// 45. Jump Game II
 
 function jump(nums) {
     let res = 0, max = 0, i = 0, j = 0;

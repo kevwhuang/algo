@@ -1,4 +1,4 @@
-// 1576 - Replace All ?'s to Avoid Consecutive Repeating Characters
+// 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
 
 function modifyString(s) {
     let res = '';

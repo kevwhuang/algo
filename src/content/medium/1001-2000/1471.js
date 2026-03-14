@@ -1,4 +1,4 @@
-// 1471 - The K Strongest Values in an Array
+// 1471. The K Strongest Values in an Array
 
 function getStrongest(arr, k) {
     arr.sort((a, b) => a - b);

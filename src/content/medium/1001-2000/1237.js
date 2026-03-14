@@ -1,4 +1,4 @@
-// 1237 - Find Positive Integer Solution for a Given Equation
+// 1237. Find Positive Integer Solution for a Given Equation
 
 function findSolution(customfunction, z) {
     const pairs = [];

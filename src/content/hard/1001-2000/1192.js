@@ -1,3 +1,3 @@
-// 1192 - Critical Connections in a Network
+// 1192. Critical Connections in a Network
 
 

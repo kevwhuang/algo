@@ -1,4 +1,4 @@
-// 379 - Design Phone Directory
+// 379. Design Phone Directory
 
 class PhoneDirectory {
     constructor(maxNumbers) {

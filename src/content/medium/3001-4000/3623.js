@@ -1,4 +1,4 @@
-// 3623 - Count Number of Trapezoids I
+// 3623. Count Number of Trapezoids I
 
 function countTrapezoids(points) {
     const map = new Map();

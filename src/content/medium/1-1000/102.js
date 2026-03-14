@@ -1,4 +1,4 @@
-// 102 - Binary Tree Level Order Traversal
+// 102. Binary Tree Level Order Traversal
 
 function levelOrder(root) {
     if (!root) return [];

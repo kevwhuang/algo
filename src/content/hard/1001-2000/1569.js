@@ -1,3 +1,3 @@
-// 1569 - Number of Ways to Reorder Array to Get Same BST
+// 1569. Number of Ways to Reorder Array to Get Same BST
 
 

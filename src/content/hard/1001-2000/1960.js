@@ -1,3 +1,3 @@
-// 1960 - Maximum Product of the Length of Two Palindromic Substrings
+// 1960. Maximum Product of the Length of Two Palindromic Substrings
 
 

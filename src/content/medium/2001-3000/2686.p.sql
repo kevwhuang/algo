@@ -1,4 +1,4 @@
--- 2686 - Immediate Food Delivery III
+-- 2686. Immediate Food Delivery III
 
 SELECT
     order_date,

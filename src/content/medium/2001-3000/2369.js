@@ -1,4 +1,4 @@
-// 2369 - Check If There Is a Valid Partition for the Array
+// 2369. Check If There Is a Valid Partition for the Array
 
 function validPartition(nums) {
     const dp = [true, false, nums[0] === nums[1]];

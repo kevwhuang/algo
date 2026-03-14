@@ -1,4 +1,4 @@
-// 2361 - Minimum Costs Using the Train Line
+// 2361. Minimum Costs Using the Train Line
 
 function minimumCosts(regular, express, expressCost) {
     const dp1 = regular, dp2 = express, n = dp1.length - 1;

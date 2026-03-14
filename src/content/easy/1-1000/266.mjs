@@ -1,4 +1,4 @@
-// 266 - Palindrome Permutation
+// 266. Palindrome Permutation
 
 function canPermutePalindrome(s) {
     const B = new Uint16Array(26);

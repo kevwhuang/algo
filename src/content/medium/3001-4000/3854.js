@@ -1,4 +1,4 @@
-// 3854 - Minimum Operations to Make Array Parity Alternating
+// 3854. Minimum Operations to Make Array Parity Alternating
 
 function makeParityAlternating(nums) {
     function fn(mod) {

@@ -1,4 +1,4 @@
--- 2051 - The Category of Each Member in the Store
+-- 2051. The Category of Each Member in the Store
 
 WITH CTE AS (
     SELECT

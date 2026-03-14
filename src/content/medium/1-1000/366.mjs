@@ -1,4 +1,4 @@
-// 366 - Find Leaves of Binary Tree
+// 366. Find Leaves of Binary Tree
 
 function findLeaves(root) {
     function dfs(node) {

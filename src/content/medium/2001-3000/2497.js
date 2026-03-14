@@ -1,4 +1,4 @@
-// 2497 - Maximum Star Sum of a Graph
+// 2497. Maximum Star Sum of a Graph
 
 function maxStarSum(vals, edges, k) {
     const adj = Array.from({ length: vals.length }, () => []);

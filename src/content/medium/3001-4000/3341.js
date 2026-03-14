@@ -1,4 +1,4 @@
-// 3341 - Find Minimum Time to Reach Last Room I
+// 3341. Find Minimum Time to Reach Last Room I
 
 function minTimeToReach(moveTime) {
     const m = moveTime.length, n = moveTime[0].length;

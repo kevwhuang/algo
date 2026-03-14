@@ -1,4 +1,4 @@
-// 833 - Find and Replace in String
+// 833. Find and Replace in String
 
 function findReplaceString(s, indices, sources, targets) {
     const res = s.split('');

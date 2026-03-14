@@ -1,3 +1,3 @@
-// 2647 - Color the Triangle Red
+// 2647. Color the Triangle Red
 
 

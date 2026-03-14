@@ -1,4 +1,4 @@
-// 2937 - Make Three Strings Equal
+// 2937. Make Three Strings Equal
 
 function findMinimumOperations(s1, s2, s3) {
     let len = 0;

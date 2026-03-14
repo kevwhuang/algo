@@ -1,4 +1,4 @@
-// 3227 - Vowels Game in a String
+// 3227. Vowels Game in a String
 
 function doesAliceWin(s) {
     const vowels = new Set(['a', 'e', 'i', 'o', 'u']);

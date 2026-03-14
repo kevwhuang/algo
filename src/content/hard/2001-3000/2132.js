@@ -1,3 +1,3 @@
-// 2132 - Stamping the Grid
+// 2132. Stamping the Grid
 
 

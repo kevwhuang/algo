@@ -1,4 +1,4 @@
-// 1963 - Minimum Number of Swaps to Make the String Balanced
+// 1963. Minimum Number of Swaps to Make the String Balanced
 
 function minSwaps(s) {
     let count = 0;

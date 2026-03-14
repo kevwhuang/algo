@@ -1,4 +1,4 @@
-// 860 - Lemonade Change
+// 860. Lemonade Change
 
 function lemonadeChange(bills) {
     let change5 = 0, change10 = 0;

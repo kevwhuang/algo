@@ -1,4 +1,4 @@
-// 1415 - The Kth Lexicographical String of All Happy Strings of Length N
+// 1415. The Kth Lexicographical String of All Happy Strings of Length N
 
 function getHappyString(n, k) {
     function backtrack(cur) {

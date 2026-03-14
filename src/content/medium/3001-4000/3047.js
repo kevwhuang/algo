@@ -1,4 +1,4 @@
-// 3047 - Find the Largest Area of Square Inside Two Rectangles
+// 3047. Find the Largest Area of Square Inside Two Rectangles
 
 function largestSquareArea(bottomLeft, topRight) {
     let width = 0;

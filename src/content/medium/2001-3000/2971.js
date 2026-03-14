@@ -1,4 +1,4 @@
-// 2971 - Find Polygon With the Largest Perimeter
+// 2971. Find Polygon With the Largest Perimeter
 
 function largestPerimeter(nums) {
     let sum = nums.reduce((s, e) => s + e);

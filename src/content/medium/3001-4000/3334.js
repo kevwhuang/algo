@@ -1,4 +1,4 @@
-// 3334 - Find the Maximum Factor Score of Array
+// 3334. Find the Maximum Factor Score of Array
 
 function maxScore(nums) {
     const lcm = (a, b) => a * b / gcd(a, b);

@@ -1,4 +1,4 @@
-// 1238 - Circular Permutation in Binary Representation
+// 1238. Circular Permutation in Binary Representation
 
 function circularPermutation(n, start) {
     const bound = 1 << n;

@@ -1,4 +1,4 @@
-// 713 - Subarray Product Less Than K
+// 713. Subarray Product Less Than K
 
 function numSubarrayProductLessThanK(nums, k) {
     if (k === 0) return 0;

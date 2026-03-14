@@ -1,4 +1,4 @@
-// 747 - Largest Number at Least Twice of Others
+// 747. Largest Number at Least Twice of Others
 
 function dominantIndex(nums) {
     let index, largest = 0;

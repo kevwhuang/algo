@@ -1,3 +1,3 @@
-// 3621 - Number of Integers With Popcount Depth Equal to K I
+// 3621. Number of Integers With Popcount Depth Equal to K I
 
 

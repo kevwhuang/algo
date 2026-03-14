@@ -1,4 +1,4 @@
-// 256 - Paint House
+// 256. Paint House
 
 function minCost(costs) {
     const dp = costs;

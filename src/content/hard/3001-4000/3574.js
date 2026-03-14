@@ -1,3 +1,3 @@
-// 3574 - Maximize Subarray GCD Score
+// 3574. Maximize Subarray GCD Score
 
 

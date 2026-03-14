@@ -1,4 +1,4 @@
-// 2266 - Count Number of Texts
+// 2266. Count Number of Texts
 
 function countTexts(pressedKeys) {
     const dp = new Uint32Array(pressedKeys.length + 1);

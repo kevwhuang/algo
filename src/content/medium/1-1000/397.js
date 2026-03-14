@@ -1,4 +1,4 @@
-// 397 - Integer Replacement
+// 397. Integer Replacement
 
 function integerReplacement(n) {
     let ops = 0;

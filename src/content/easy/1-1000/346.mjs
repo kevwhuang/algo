@@ -1,4 +1,4 @@
-// 346 - Moving Average From Data Stream
+// 346. Moving Average From Data Stream
 
 class MovingAverage {
     constructor(size) {

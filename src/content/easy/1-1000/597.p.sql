@@ -1,4 +1,4 @@
--- 597 - Friend Requests I: Overall Acceptance Rate
+-- 597. Friend Requests I: Overall Acceptance Rate
 
 SELECT
     COALESCE(

@@ -1,4 +1,4 @@
-// 757 - Set Intersection Size at Least Two
+// 757. Set Intersection Size at Least Two
 
 function intersectionSizeTwo(intervals) {
     const M = intervals.sort((a, b) => a[1] - b[1]);

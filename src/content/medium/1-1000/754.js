@@ -1,4 +1,4 @@
-// 754 - Reach a Number
+// 754. Reach a Number
 
 function reachNumber(target) {
     target = Math.abs(target);

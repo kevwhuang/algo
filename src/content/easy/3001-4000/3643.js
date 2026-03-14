@@ -1,4 +1,4 @@
-// 3643 - Flip Square Submatrix Vertically
+// 3643. Flip Square Submatrix Vertically
 
 function reverseSubmatrix(grid, x, y, k) {
     const M = grid, n = y + k;

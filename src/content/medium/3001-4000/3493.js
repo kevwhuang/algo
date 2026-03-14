@@ -1,4 +1,4 @@
-// 3493 - Properties Graph
+// 3493. Properties Graph
 
 function numberOfComponents(properties, k) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

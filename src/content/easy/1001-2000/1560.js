@@ -1,4 +1,4 @@
-// 1560 - Most Visited Sector in a Circular Track
+// 1560. Most Visited Sector in a Circular Track
 
 function mostVisited(n, rounds) {
     const res = [], start = rounds[0], end = rounds.at(-1);

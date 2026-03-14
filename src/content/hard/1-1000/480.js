@@ -1,4 +1,4 @@
-// 480 - Sliding Window Median
+// 480. Sliding Window Median
 
 function medianSlidingWindow(nums, k) {
     const heap1 = new PriorityQueue((a, b) => b - a);

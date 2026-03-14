@@ -1,4 +1,4 @@
-// 1138 - Alphabet Board Path
+// 1138. Alphabet Board Path
 
 function alphabetBoardPath(target) {
     const coords = {

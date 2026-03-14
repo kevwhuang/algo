@@ -1,4 +1,4 @@
-// 3369 - Design an Array Statistics Tracker
+// 3369. Design an Array Statistics Tracker
 
 class StatisticsTracker {
     constructor() {

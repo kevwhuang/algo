@@ -1,4 +1,4 @@
-// 429 - N-Ary Tree Level Order Traversal
+// 429. N-Ary Tree Level Order Traversal
 
 function levelOrder(root) {
     if (!root) return [];

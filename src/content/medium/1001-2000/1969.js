@@ -1,4 +1,4 @@
-// 1969 - Minimum Non-Zero Product of the Array Elements
+// 1969. Minimum Non-Zero Product of the Array Elements
 
 function minNonZeroProduct(p) {
     function pow(num, exp) {

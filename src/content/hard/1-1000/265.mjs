@@ -1,4 +1,4 @@
-// 265 - Paint House II
+// 265. Paint House II
 
 function minCostII(costs) {
     const dp = costs, m = dp.length, n = dp[0].length;

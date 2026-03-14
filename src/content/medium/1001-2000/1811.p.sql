@@ -1,4 +1,4 @@
--- 1811 - Find Interview Candidates
+-- 1811. Find Interview Candidates
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
-// 42 - Trapping Rain Water
+// 42. Trapping Rain Water
 
 function trap(height) {
     let res = 0, a = 0, b = 0, l = 0, r = height.length - 1;

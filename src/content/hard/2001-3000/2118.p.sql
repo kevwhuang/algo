@@ -1,4 +1,4 @@
--- 2118 - Build the Equation
+-- 2118. Build the Equation
 
 WITH CTE AS (
     SELECT

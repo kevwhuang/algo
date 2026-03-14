@@ -1,4 +1,4 @@
-// 2803 - Factorial Generator
+// 2803. Factorial Generator
 
 function* factorial(n) {
     let prod = 1, cur = n ? 1 : 0;

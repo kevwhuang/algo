@@ -1,4 +1,4 @@
-// 743 - Network Delay Time
+// 743. Network Delay Time
 
 function networkDelayTime(times, n, k) {
     const C = new Uint32Array(n + 1).fill(1e9);

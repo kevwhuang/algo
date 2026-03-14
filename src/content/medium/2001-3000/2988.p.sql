@@ -1,4 +1,4 @@
--- 2988 - Manager of the Largest Department
+-- 2988. Manager of the Largest Department
 
 SELECT
     emp_name AS manager_name,

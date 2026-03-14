@@ -1,4 +1,4 @@
-// 3366 - Minimum Array Sum
+// 3366. Minimum Array Sum
 
 function minArraySum(nums, k, op1, op2) {
     if (!this.dp) dp = Array.from({ length: 102 }, () => new Array(102));

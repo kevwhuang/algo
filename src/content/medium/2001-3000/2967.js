@@ -1,4 +1,4 @@
-// 2967 - Minimum Cost to Make Array Equalindromic
+// 2967. Minimum Cost to Make Array Equalindromic
 
 function minimumCost(nums) {
     function find(d) {

@@ -1,4 +1,4 @@
-// 2743 - Count Substrings Without Repeating Character
+// 2743. Count Substrings Without Repeating Character
 
 function numberOfSpecialSubstrings(s) {
     let substrings = 0, l = 0, r = -1;

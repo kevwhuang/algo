@@ -1,4 +1,4 @@
-// 1650 - Lowest Common Ancestor of a Binary Tree III
+// 1650. Lowest Common Ancestor of a Binary Tree III
 
 function lowestCommonAncestor(p, q) {
     const set = new WeakSet();

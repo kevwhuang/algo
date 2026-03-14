@@ -1,3 +1,3 @@
-// 3585 - Find Weighted Median Node in Tree
+// 3585. Find Weighted Median Node in Tree
 
 

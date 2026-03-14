@@ -1,4 +1,4 @@
-// 761 - Special Binary String
+// 761. Special Binary String
 
 function makeLargestSpecial(s) {
     const res = [];

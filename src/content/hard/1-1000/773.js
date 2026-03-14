@@ -1,4 +1,4 @@
-// 773 - Sliding Puzzle
+// 773. Sliding Puzzle
 
 function slidingPuzzle(board) {
     let res = 1, Q = [board[0].concat(board[1])];

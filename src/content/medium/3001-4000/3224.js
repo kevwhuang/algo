@@ -1,4 +1,4 @@
-// 3224 - Minimum Array Changes to Make Differences Equal
+// 3224. Minimum Array Changes to Make Differences Equal
 
 function minChanges(nums, k) {
     const arr = new Array(k + 2).fill(0);

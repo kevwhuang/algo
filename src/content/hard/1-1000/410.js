@@ -1,4 +1,4 @@
-// 410 - Split Array Largest Sum
+// 410. Split Array Largest Sum
 
 function splitArray(nums, k) {
     let l = Math.max(...nums), r = nums.length * l / k;

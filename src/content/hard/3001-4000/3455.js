@@ -1,3 +1,3 @@
-// 3455 - Shortest Matching Substring
+// 3455. Shortest Matching Substring
 
 

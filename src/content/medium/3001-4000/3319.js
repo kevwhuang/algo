@@ -1,4 +1,4 @@
-// 3319 - Kth Largest Perfect Subtree Size in Binary Tree
+// 3319. Kth Largest Perfect Subtree Size in Binary Tree
 
 function kthLargestPerfectSubtree(root, k) {
     function dfs(node) {

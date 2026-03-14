@@ -1,4 +1,4 @@
-// 461 - Hamming Distance
+// 461. Hamming Distance
 
 function hammingDistance(x, y) {
     let res = 0, xor = x ^ y;

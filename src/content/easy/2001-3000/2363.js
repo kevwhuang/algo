@@ -1,4 +1,4 @@
-// 2363 - Merge Similar Items
+// 2363. Merge Similar Items
 
 function mergeSimilarItems(items1, items2) {
     const obj = {};

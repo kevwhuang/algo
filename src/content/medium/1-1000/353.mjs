@@ -1,4 +1,4 @@
-// 353 - Design Snake Game
+// 353. Design Snake Game
 
 class SnakeGame {
     constructor(width, height, food) {

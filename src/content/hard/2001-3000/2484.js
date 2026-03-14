@@ -1,3 +1,3 @@
-// 2484 - Count Palindromic Subsequences
+// 2484. Count Palindromic Subsequences
 
 

@@ -1,4 +1,4 @@
-// 2522 - Partition String Into Substrings With Values at Most K
+// 2522. Partition String Into Substrings With Values at Most K
 
 function minimumPartition(s, k) {
     let substrings = 1, window = 0;

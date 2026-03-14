@@ -1,4 +1,4 @@
--- 3521 - Find Product Recommendation Pairs
+-- 3521. Find Product Recommendation Pairs
 
 SELECT
     P1.product_id AS product1_id,

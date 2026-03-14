@@ -1,3 +1,3 @@
-// 1862 - Sum of Floored Pairs
+// 1862. Sum of Floored Pairs
 
 

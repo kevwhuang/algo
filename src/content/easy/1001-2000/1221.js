@@ -1,4 +1,4 @@
-// 1221 - Split a String in Balanced Strings
+// 1221. Split a String in Balanced Strings
 
 function balancedStringSplit(s) {
     let count = 0, acc = 0;

@@ -1,4 +1,4 @@
-// 892 - Surface Area of 3D Shapes
+// 892. Surface Area of 3D Shapes
 
 function surfaceArea(grid) {
     let surface = 0;

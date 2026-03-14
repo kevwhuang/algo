@@ -1,4 +1,4 @@
--- 3230 - Customer Purchasing Behavior Analysis
+-- 3230. Customer Purchasing Behavior Analysis
 
 WITH CTE1 AS (
     SELECT

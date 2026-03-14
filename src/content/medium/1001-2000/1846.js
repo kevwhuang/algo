@@ -1,4 +1,4 @@
-// 1846 - Maximum Element After Decreasing and Rearranging
+// 1846. Maximum Element After Decreasing and Rearranging
 
 function maximumElementAfterDecrementingAndRearranging(arr) {
     arr.sort((a, b) => a - b);

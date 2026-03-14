@@ -1,4 +1,4 @@
-// 1552 - Magnetic Force Between Two Balls
+// 1552. Magnetic Force Between Two Balls
 
 function maxDistance(position, m) {
     const pos = new Uint32Array(position).sort();

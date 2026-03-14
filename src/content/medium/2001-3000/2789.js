@@ -1,4 +1,4 @@
-// 2789 - Largest Element in an Array After Merge Operations
+// 2789. Largest Element in an Array After Merge Operations
 
 function maxArrayValue(nums) {
     let max = 1, i = nums.length - 1;

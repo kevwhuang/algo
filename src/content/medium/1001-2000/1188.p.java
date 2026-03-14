@@ -1,4 +1,4 @@
-// 1188 - Design Bounded Blocking Queue
+// 1188. Design Bounded Blocking Queue
 
 class BoundedBlockingQueue {
     private int capacity;

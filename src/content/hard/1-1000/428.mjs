@@ -1,4 +1,4 @@
-// 428 - Serialize and Deserialize N-Ary Tree
+// 428. Serialize and Deserialize N-Ary Tree
 
 class Codec {
     deserialize(data) {

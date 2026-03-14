@@ -1,4 +1,4 @@
-// 1034 - Coloring a Border
+// 1034. Coloring a Border
 
 function colorBorder(grid, row, col, color) {
     function dfs(r, c) {

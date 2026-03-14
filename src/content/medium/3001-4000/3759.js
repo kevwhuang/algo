@@ -1,4 +1,4 @@
-// 3759 - Count Elements With at Least K Greater Values
+// 3759. Count Elements With at Least K Greater Values
 
 function countElements(nums, k) {
     nums = new Uint32Array(nums).sort();

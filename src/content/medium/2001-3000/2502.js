@@ -1,4 +1,4 @@
-// 2502 - Design Memory Allocator
+// 2502. Design Memory Allocator
 
 class Allocator {
     constructor(n) {

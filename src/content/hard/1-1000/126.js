@@ -1,4 +1,4 @@
-// 126 - Word Ladder II
+// 126. Word Ladder II
 
 function findLadders(beginWord, endWord, wordList) {
     wordList.push(beginWord);

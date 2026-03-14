@@ -1,4 +1,4 @@
-// 2194 - Cells in a Range on an Excel Sheet
+// 2194. Cells in a Range on an Excel Sheet
 
 function cellsInRange(s) {
     const list = [];

@@ -1,4 +1,4 @@
-// 1028 - Recover a Tree From Preorder Traversal
+// 1028. Recover a Tree From Preorder Traversal
 
 function recoverFromPreorder(traversal) {
     const res = [], s = traversal, n = s.length;

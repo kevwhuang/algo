@@ -1,4 +1,4 @@
-// 893 - Groups of Special-Equivalent Strings
+// 893. Groups of Special-Equivalent Strings
 
 function numSpecialEquivGroups(words) {
     const set = new Set();

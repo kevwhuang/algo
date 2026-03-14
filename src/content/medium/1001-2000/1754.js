@@ -1,4 +1,4 @@
-// 1754 - Largest Merge of Two Strings
+// 1754. Largest Merge of Two Strings
 
 function largestMerge(word1, word2) {
     let res = '', i = 0, j = 0;

@@ -1,4 +1,4 @@
-// 171 - Excel Sheet Column Number
+// 171. Excel Sheet Column Number
 
 function titleToNumber(columnTitle) {
     let res = 0;

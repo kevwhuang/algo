@@ -1,4 +1,4 @@
--- 1693 - Daily Leads and Partners
+-- 1693. Daily Leads and Partners
 
 SELECT
     date_id,

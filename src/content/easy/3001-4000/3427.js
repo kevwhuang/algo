@@ -1,4 +1,4 @@
-// 3427 - Sum of Variable Length Subarrays
+// 3427. Sum of Variable Length Subarrays
 
 function subarraySum(nums) {
     let res = 0, r = -1;

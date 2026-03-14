@@ -1,4 +1,4 @@
-// 3201 - Find the Maximum Length of Valid Subsequence I
+// 3201. Find the Maximum Length of Valid Subsequence I
 
 function maximumLength(nums) {
     const dp = [(nums[0] + 1) % 2, nums[0] % 2, 1];

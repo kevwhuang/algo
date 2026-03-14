@@ -1,4 +1,4 @@
-// 2550 - Count Collisions of Monkeys on a Polygon
+// 2550. Count Collisions of Monkeys on a Polygon
 
 function monkeyMove(n) {
     let count = 1n, mult = 2n;

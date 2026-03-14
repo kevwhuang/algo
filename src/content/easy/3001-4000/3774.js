@@ -1,4 +1,4 @@
-// 3774 - Absolute Difference Between Maximum and Minimum K Elements
+// 3774. Absolute Difference Between Maximum and Minimum K Elements
 
 function absDifference(nums, k) {
     nums = new Uint8Array(nums).sort();

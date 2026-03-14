@@ -1,4 +1,4 @@
-// 1823 - Find the Winner of the Circular Game
+// 1823. Find the Winner of the Circular Game
 
 function findTheWinner(n, k) {
     const circle = Array.from({ length: n }, (_, i) => i);

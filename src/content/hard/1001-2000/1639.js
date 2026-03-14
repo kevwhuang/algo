@@ -1,4 +1,4 @@
-// 1639 - Number of Ways to Form a Target String Given a Dictionary
+// 1639. Number of Ways to Form a Target String Given a Dictionary
 
 function numWays(words, target) {
     const m = words[0].length, n = target.length;

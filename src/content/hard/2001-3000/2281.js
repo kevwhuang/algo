@@ -1,3 +1,3 @@
-// 2281 - Sum of Total Strength of Wizards
+// 2281. Sum of Total Strength of Wizards
 
 

@@ -1,4 +1,4 @@
--- 2990 - Loan Types
+-- 2990. Loan Types
 
 SELECT
     user_id

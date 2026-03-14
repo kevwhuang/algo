@@ -1,4 +1,4 @@
--- 3204 - Bitwise User Permissions Analysis
+-- 3204. Bitwise User Permissions Analysis
 
 SELECT
     BIT_AND(permissions) AS common_perms,

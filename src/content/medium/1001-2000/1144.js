@@ -1,4 +1,4 @@
-// 1144 - Decrease Elements to Make Array Zigzag
+// 1144. Decrease Elements to Make Array Zigzag
 
 function movesToMakeZigzag(nums) {
     if (nums.length === 1) return 0;

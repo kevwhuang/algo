@@ -1,4 +1,4 @@
-// 3447 - Assign Elements to Groups With Constraints
+// 3447. Assign Elements to Groups With Constraints
 
 function assignElements(groups, elements) {
     const max = groups.reduce((s, e) => Math.max(e, s));

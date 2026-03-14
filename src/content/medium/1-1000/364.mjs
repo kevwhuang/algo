@@ -1,4 +1,4 @@
-// 364 - Nested List Weight Sum II
+// 364. Nested List Weight Sum II
 
 function depthSumInverse(nestedList) {
     const arr = new Array(51).fill(0);

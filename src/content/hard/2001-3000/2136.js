@@ -1,4 +1,4 @@
-// 2136 - Earliest Possible Day of Full Bloom
+// 2136. Earliest Possible Day of Full Bloom
 
 function earliestFullBloom(plantTime, growTime) {
     const arr = Array.from({ length: growTime.length }, (_, i) => i);

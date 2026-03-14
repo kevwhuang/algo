@@ -1,4 +1,4 @@
-// 908 - Smallest Range I
+// 908. Smallest Range I
 
 function smallestRangeI(nums, k) {
     let min = Infinity, max = -Infinity;

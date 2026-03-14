@@ -1,4 +1,4 @@
-// 3583 - Count Special Triplets
+// 3583. Count Special Triplets
 
 function specialTriplets(nums) {
     if (!this.B1) B1 = new Uint32Array(100001), B2 = new Uint32Array(100001);

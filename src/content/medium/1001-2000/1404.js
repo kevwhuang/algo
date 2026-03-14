@@ -1,4 +1,4 @@
-// 1404 - Number of Steps to Reduce a Number in Binary Representation to One
+// 1404. Number of Steps to Reduce a Number in Binary Representation to One
 
 function numSteps(s) {
     let steps = 0, n = BigInt('0b' + s);

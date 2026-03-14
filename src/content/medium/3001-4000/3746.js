@@ -1,4 +1,4 @@
-// 3746 - Minimum String Length After Balanced Removals
+// 3746. Minimum String Length After Balanced Removals
 
 function minLengthAfterRemovals(s) {
     let acc = 0, i = -1;

@@ -1,3 +1,3 @@
-// 2157 - Groups of Strings
+// 2157. Groups of Strings
 
 

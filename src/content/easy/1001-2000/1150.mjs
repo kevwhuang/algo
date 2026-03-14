@@ -1,4 +1,4 @@
-// 1150 - Check If a Number Is Majority Element in a Sorted Array
+// 1150. Check If a Number Is Majority Element in a Sorted Array
 
 function isMajorityElement(nums, target) {
     const n = nums.length;

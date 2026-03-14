@@ -1,4 +1,4 @@
-// 281 - Zigzag Iterator
+// 281. Zigzag Iterator
 
 class ZigzagIterator {
     constructor(v1, v2) {

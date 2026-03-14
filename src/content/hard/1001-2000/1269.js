@@ -1,4 +1,4 @@
-// 1269 - Number of Ways to Stay in the Same Place After Some Steps
+// 1269. Number of Ways to Stay in the Same Place After Some Steps
 
 function numWays(steps, arrLen) {
     const n = Math.min((steps >> 1) + 1, arrLen);

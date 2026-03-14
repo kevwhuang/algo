@@ -1,4 +1,4 @@
-// 2064 - Minimized Maximum of Products Distributed to Any Store
+// 2064. Minimized Maximum of Products Distributed to Any Store
 
 function minimizedMaximum(n, quantities) {
     let min, l = 1, r = Math.max(...quantities);

@@ -1,4 +1,4 @@
-// 1786 - Number of Restricted Paths From First to Last Node
+// 1786. Number of Restricted Paths From First to Last Node
 
 function countRestrictedPaths(n, edges) {
     const adj1 = Array.from({ length: n + 1 }, () => []);

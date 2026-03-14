@@ -1,4 +1,4 @@
-// 134 - Gas Station
+// 134. Gas Station
 
 function canCompleteCircuit(gas, cost) {
     let res = 0, sum = 0, acc = 0, i = -1;

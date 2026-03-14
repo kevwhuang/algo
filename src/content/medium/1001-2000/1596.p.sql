@@ -1,4 +1,4 @@
--- 1596 - The Most Frequently Ordered Products for Each Customer
+-- 1596. The Most Frequently Ordered Products for Each Customer
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
--- 1978 - Employees Whose Manager Left the Company
+-- 1978. Employees Whose Manager Left the Company
 
 SELECT
     employee_id

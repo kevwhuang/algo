@@ -1,4 +1,4 @@
-// 3598 - Longest Common Prefix Between Adjacent Strings After Removals
+// 3598. Longest Common Prefix Between Adjacent Strings After Removals
 
 function longestCommonPrefix(words) {
     function check(s, t) {

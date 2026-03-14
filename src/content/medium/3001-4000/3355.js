@@ -1,4 +1,4 @@
-// 3355 - Zero Array Transformation I
+// 3355. Zero Array Transformation I
 
 function isZeroArray(nums, queries) {
     const arr = new Int32Array(nums.length + 1);

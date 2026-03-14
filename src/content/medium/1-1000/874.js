@@ -1,4 +1,4 @@
-// 874 - Walking Robot Simulation
+// 874. Walking Robot Simulation
 
 function robotSim(commands, obstacles) {
     const map = new Map();

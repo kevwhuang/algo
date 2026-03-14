@@ -1,4 +1,4 @@
-// 1287 - Element Appearing More Than 25% in Sorted Array
+// 1287. Element Appearing More Than 25% in Sorted Array
 
 function findSpecialInteger(arr) {
     let res = 0, i = 0;

@@ -1,4 +1,4 @@
-// 3719 - Longest Balanced Subarray I
+// 3719. Longest Balanced Subarray I
 
 function longestBalanced(nums) {
     if (!this.seen) seen = new Uint16Array(100001);

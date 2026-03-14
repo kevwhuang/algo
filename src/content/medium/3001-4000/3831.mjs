@@ -1,4 +1,4 @@
-// 3831 - Median of a Binary Search Tree Level
+// 3831. Median of a Binary Search Tree Level
 
 function levelMedian(root, level) {
     let Q = [root];

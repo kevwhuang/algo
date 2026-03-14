@@ -1,4 +1,4 @@
--- 3401 - Find Circular Gift Exchange Chains
+-- 3401. Find Circular Gift Exchange Chains
 
 WITH RECURSIVE CTE1 AS (
     SELECT

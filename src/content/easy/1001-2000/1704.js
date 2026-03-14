@@ -1,4 +1,4 @@
-// 1704 - Determine If String Halves Are Alike
+// 1704. Determine If String Halves Are Alike
 
 function halvesAreAlike(s) {
     let res = 0;

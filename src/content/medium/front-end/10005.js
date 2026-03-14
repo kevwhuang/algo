@@ -1,4 +1,4 @@
-// 10005 - Count Leaf Nodes
+// 10005. Count Leaf Nodes
 
 export function countLeafNodes(node) {
     let res = 0;

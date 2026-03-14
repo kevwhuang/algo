@@ -1,4 +1,4 @@
-// 2135 - Count Words Obtained After Adding a Letter
+// 2135. Count Words Obtained After Adding a Letter
 
 function wordCount(startWords, targetWords) {
     function getMask(word) {

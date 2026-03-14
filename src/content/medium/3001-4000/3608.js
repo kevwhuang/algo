@@ -1,4 +1,4 @@
-// 3608 - Minimum Time for K Connected Components
+// 3608. Minimum Time for K Connected Components
 
 function minTime(n, edges, k) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

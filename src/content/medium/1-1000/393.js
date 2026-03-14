@@ -1,4 +1,4 @@
-// 393 - UTF-8 Validation
+// 393. UTF-8 Validation
 
 function validUtf8(data) {
     for (let i = 0; i < data.length; i++) {

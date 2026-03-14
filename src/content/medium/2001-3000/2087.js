@@ -1,4 +1,4 @@
-// 2087 - Minimum Cost Homecoming of a Robot in a Grid
+// 2087. Minimum Cost Homecoming of a Robot in a Grid
 
 function minCost(startPos, homePos, rowCosts, colCosts) {
     let cost = 0;

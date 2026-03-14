@@ -1,4 +1,4 @@
--- 2372 - Calculate the Influence of Each Salesperson
+-- 2372. Calculate the Influence of Each Salesperson
 
 SELECT
     salesperson_id,

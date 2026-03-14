@@ -1,4 +1,4 @@
-// 3290 - Maximum Multiplication Score
+// 3290. Maximum Multiplication Score
 
 function maxScore(a, b) {
     const dp = [0, -1e11, -1e11, -1e11, -1e11];

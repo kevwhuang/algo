@@ -1,4 +1,4 @@
-// 3815 - Design Auction System
+// 3815. Design Auction System
 
 class AuctionSystem {
     constructor() {

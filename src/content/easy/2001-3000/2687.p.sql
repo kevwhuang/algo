@@ -1,4 +1,4 @@
--- 2687 - Bikes Last Time Used
+-- 2687. Bikes Last Time Used
 
 SELECT
     bike_number,

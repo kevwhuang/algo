@@ -1,4 +1,4 @@
-// 1015 - Smallest Integer Divisible by K
+// 1015. Smallest Integer Divisible by K
 
 function smallestRepunitDivByK(k) {
     if (k % 2 === 0 || k % 5 === 0) return -1;

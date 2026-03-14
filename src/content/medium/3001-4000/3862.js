@@ -1,4 +1,4 @@
-// 3862 - Find the Smallest Balanced Index
+// 3862. Find the Smallest Balanced Index
 
 function smallestBalancedIndex(nums) {
     let res = -1, acc1 = nums.reduce((s, e) => s + e), acc2 = 1;

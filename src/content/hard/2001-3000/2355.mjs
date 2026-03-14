@@ -1,3 +1,3 @@
-// 2355 - Maximum Number of Books You Can Take
+// 2355. Maximum Number of Books You Can Take
 
 

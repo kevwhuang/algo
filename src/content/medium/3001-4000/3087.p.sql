@@ -1,4 +1,4 @@
--- 3087 - Find Trending Hashtags
+-- 3087. Find Trending Hashtags
 
 SELECT
     REGEXP_SUBSTR(tweet, '#[A-Za-z0-9]+') AS hashtag,

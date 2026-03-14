@@ -1,4 +1,4 @@
--- 2173 - Longest Winning Streak
+-- 2173. Longest Winning Streak
 
 WITH CTE1 AS (
     SELECT

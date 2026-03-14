@@ -1,4 +1,4 @@
-// 2533 - Number of Good Binary Strings
+// 2533. Number of Good Binary Strings
 
 function goodBinaryStrings(minLength, maxLength, oneGroup, zeroGroup) {
     const dp = new Uint32Array(maxLength + 1);

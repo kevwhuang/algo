@@ -1,4 +1,4 @@
-// 10028 - Sortable HTML Table
+// 10028. Sortable HTML Table
 
 import React from 'react';
 

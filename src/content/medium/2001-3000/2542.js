@@ -1,4 +1,4 @@
-// 2542 - Maximum Subsequence Score
+// 2542. Maximum Subsequence Score
 
 function maxScore(nums1, nums2, k) {
     for (let i = 0; i < nums1.length; i++) {

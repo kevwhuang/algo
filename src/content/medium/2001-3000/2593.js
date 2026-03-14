@@ -1,4 +1,4 @@
-// 2593 - Find Score of an Array After Marking All Elements
+// 2593. Find Score of an Array After Marking All Elements
 
 function findScore(nums) {
     const arr = new Array(nums.length);

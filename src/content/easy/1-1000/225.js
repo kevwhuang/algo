@@ -1,4 +1,4 @@
-// 225 - Implement Stack Using Queues
+// 225. Implement Stack Using Queues
 
 class MyStack {
     constructor() {

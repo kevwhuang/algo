@@ -1,4 +1,4 @@
-// 528 - Random Pick With Weight
+// 528. Random Pick With Weight
 
 class Solution {
     constructor(w) {

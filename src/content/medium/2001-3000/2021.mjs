@@ -1,4 +1,4 @@
-// 2021 - Brightest Position on Street
+// 2021. Brightest Position on Street
 
 function brightestPosition(lights) {
     const n = lights.length;

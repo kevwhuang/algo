@@ -1,4 +1,4 @@
-// 2 - Add Two Numbers
+// 2. Add Two Numbers
 
 function addTwoNumbers(l1, l2) {
     const res = new ListNode();

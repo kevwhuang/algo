@@ -1,4 +1,4 @@
-// 3133 - Minimum Array End
+// 3133. Minimum Array End
 
 function minEnd(n, x) {
     n = (n - 1).toString(2);

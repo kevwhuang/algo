@@ -1,4 +1,4 @@
-// 3629 - Minimum Jumps to Reach End via Prime Teleportation
+// 3629. Minimum Jumps to Reach End via Prime Teleportation
 
 function minJumps(nums) {
     function init() {

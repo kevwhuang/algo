@@ -1,4 +1,4 @@
-// 2099 - Find Subsequence of Length K With the Largest Sum
+// 2099. Find Subsequence of Length K With the Largest Sum
 
 function maxSubsequence(nums, k) {
     nums = nums.map((e, i) => [e, i]);

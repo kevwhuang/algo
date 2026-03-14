@@ -1,4 +1,4 @@
-// 1785 - Minimum Elements to Add to Form a Given Sum
+// 1785. Minimum Elements to Add to Form a Given Sum
 
 function minElements(nums, limit, goal) {
     const sum = nums.reduce((s, e) => s + e);

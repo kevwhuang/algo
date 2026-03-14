@@ -1,4 +1,4 @@
-// 3413 - Maximum Coins From K Consecutive Bags
+// 3413. Maximum Coins From K Consecutive Bags
 
 function maximumCoins(coins, k) {
     let res = 0;

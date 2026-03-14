@@ -1,4 +1,4 @@
-// 2433 - Find the Original Array of Prefix XOR
+// 2433. Find the Original Array of Prefix XOR
 
 function findArray(pref) {
     const res = [pref[0]];

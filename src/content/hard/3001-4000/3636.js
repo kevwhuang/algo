@@ -1,3 +1,3 @@
-// 3636 - Threshold Majority Queries
+// 3636. Threshold Majority Queries
 
 

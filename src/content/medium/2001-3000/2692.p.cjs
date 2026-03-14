@@ -1,4 +1,4 @@
-// 2692 - Make Object Immutable
+// 2692. Make Object Immutable
 
 function makeImmutable(obj) {
     function dfs(cur) {

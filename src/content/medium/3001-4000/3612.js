@@ -1,4 +1,4 @@
-// 3612 - Process String With Special Operations I
+// 3612. Process String With Special Operations I
 
 function processStr(s) {
     let res = '', i = -1;

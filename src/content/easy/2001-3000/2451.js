@@ -1,4 +1,4 @@
-// 2451 - Odd String Difference
+// 2451. Odd String Difference
 
 function oddString(words) {
     function getDIA(str) {

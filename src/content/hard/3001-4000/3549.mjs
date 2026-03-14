@@ -1,4 +1,4 @@
-// 3549 - Multiply Two Polynomials
+// 3549. Multiply Two Polynomials
 
 function multiply(poly1, poly2) {
     function fn(arr1, arr2, k) {

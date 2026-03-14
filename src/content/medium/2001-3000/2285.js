@@ -1,4 +1,4 @@
-// 2285 - Maximum Total Importance of Roads
+// 2285. Maximum Total Importance of Roads
 
 function maximumImportance(n, roads) {
     const indegree = new Uint16Array(n);

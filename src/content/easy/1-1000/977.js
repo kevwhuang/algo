@@ -1,4 +1,4 @@
-// 977 - Squares of a Sorted Array
+// 977. Squares of a Sorted Array
 
 function sortedSquares(nums) {
     const squares = [];

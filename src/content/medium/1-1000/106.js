@@ -1,4 +1,4 @@
-// 106 - Construct Binary Tree From Inorder and Postorder Traversal
+// 106. Construct Binary Tree From Inorder and Postorder Traversal
 
 function buildTree(inorder, postorder) {
     function build(l, r) {

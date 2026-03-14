@@ -1,4 +1,4 @@
-// 269 - Alien Dictionary
+// 269. Alien Dictionary
 
 function alienOrder(words) {
     const adj = new Map();

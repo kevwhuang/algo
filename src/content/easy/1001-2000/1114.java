@@ -1,4 +1,4 @@
-// 1114 - Print in Order
+// 1114. Print in Order
 
 class Foo {
     private byte acc = 0;
