@@ -1,4 +1,4 @@
-// 957 - Prison Cells After N Days
+// 957. Prison Cells After N Days
 
 function prisonAfterNDays(cells, n) {
     n = n % 14 || 14;

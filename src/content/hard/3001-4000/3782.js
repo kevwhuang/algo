@@ -1,3 +1,3 @@
-// 3782 - Last Remaining Integer After Alternating Deletion Operations
+// 3782. Last Remaining Integer After Alternating Deletion Operations
 
 

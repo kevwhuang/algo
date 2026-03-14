@@ -1,4 +1,4 @@
-// 2214 - Minimum Health to Beat Game
+// 2214. Minimum Health to Beat Game
 
 function minimumHealth(damage, armor) {
     let health = 1, max = 0;

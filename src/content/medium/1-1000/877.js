@@ -1,4 +1,4 @@
-// 877 - Stone Game
+// 877. Stone Game
 
 function stoneGame(piles) {
     return true;

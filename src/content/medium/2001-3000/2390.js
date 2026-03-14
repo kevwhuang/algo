@@ -1,4 +1,4 @@
-// 2390 - Removing Stars From a String
+// 2390. Removing Stars From a String
 
 function removeStars(s) {
     const stack = [];

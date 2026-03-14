@@ -1,3 +1,3 @@
-// 2382 - Maximum Segment Sum After Removals
+// 2382. Maximum Segment Sum After Removals
 
 

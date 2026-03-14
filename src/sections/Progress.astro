@@ -1,0 +1,81 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface DifficultyStats {
+    color: string;
+    completed: number;
+    label: string;
+    total: number;
+    trackColor: string;
+}
+
+function countCompleted(dir: string): { completed: number; total: number } {
+    let completed = 0;
+    let total = 0;
+    for (const sub of fs.readdirSync(dir)) {
+        const subDir = path.join(dir, sub);
+        if (!fs.statSync(subDir).isDirectory()) continue;
+        for (const file of fs.readdirSync(subDir)) {
+            if (file.startsWith('.')) continue;
+            total++;
+            const lines = fs.readFileSync(path.join(subDir, file), 'utf-8').trim().split('\n');
+            if (lines.length >= 3) completed++;
+        }
+    }
+    return { completed, total };
+}
+
+const stats: DifficultyStats[] = [
+    {
+        color: 'rgb(52, 211, 153)',
+        label: 'Easy',
+        trackColor: 'rgba(52, 211, 153, 0.15)',
+        ...countCompleted('src/content/easy'),
+    },
+    {
+        color: 'rgb(251, 191, 36)',
+        label: 'Medium',
+        trackColor: 'rgba(251, 191, 36, 0.15)',
+        ...countCompleted('src/content/medium'),
+    },
+    {
+        color: 'rgb(248, 113, 113)',
+        label: 'Hard',
+        trackColor: 'rgba(248, 113, 113, 0.15)',
+        ...countCompleted('src/content/hard'),
+    },
+];
+---
+
+<section class="bg-zinc-950 px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)]">
+    <div class="mx-auto max-w-6xl">
+        <h2 class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200/70">
+            Progress
+        </h2>
+
+        <div class="space-y-[clamp(2rem,calc(1.33rem+3.33vw),3.5rem)]">
+            {stats.map(({ color, completed, label, total, trackColor }) => {
+                const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+                return (
+                    <div>
+                        <div class="mb-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] flex items-baseline justify-between">
+                            <span class="font-semibold text-[clamp(1.125rem,calc(0.79rem+1.67vw),2.125rem)]" style={`color: ${color}`}>
+                                {label}
+                            </span>
+                            <span class="font-mono text-[clamp(0.875rem,calc(0.71rem+0.83vw),1.375rem)] text-zinc-400">
+                                {completed}<span class="text-zinc-500">/{total}</span>
+                            </span>
+                        </div>
+                        <div class="h-[clamp(0.625rem,calc(0.46rem+0.83vw),1.125rem)] overflow-hidden rounded-full" style={`background: ${trackColor}`}>
+                            <div
+                                class="progress__bar h-full rounded-full"
+                                style={`width: ${pct}%; background: linear-gradient(90deg, ${color}, color-mix(in srgb, ${color} 70%, white)); box-shadow: 0 0 12px ${trackColor}`}
+                            />
+                        </div>
+                    </div>
+                );
+            })}
+        </div>
+    </div>
+</section>

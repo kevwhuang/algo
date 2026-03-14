@@ -1,4 +1,4 @@
--- 2991 - Top Three Wineries
+-- 2991. Top Three Wineries
 
 WITH CTE AS (
     SELECT

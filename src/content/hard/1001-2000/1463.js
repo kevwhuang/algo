@@ -1,4 +1,4 @@
-// 1463 - Cherry Pickup II
+// 1463. Cherry Pickup II
 
 function cherryPickup(grid) {
     if (!this.dp1) dp1 = Array.from({ length: 70 }, () => new Uint16Array(70));

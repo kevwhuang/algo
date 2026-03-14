@@ -1,4 +1,4 @@
-// 423 - Reconstruct Original Digits From English
+// 423. Reconstruct Original Digits From English
 
 function originalDigits(s) {
     const chars = new Array(26).fill(0);

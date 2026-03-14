@@ -1,4 +1,4 @@
-// 1558 - Minimum Numbers of Function Calls to Make Target Array
+// 1558. Minimum Numbers of Function Calls to Make Target Array
 
 function minOperations(nums) {
     let adds = 0, mults = 0;

@@ -1,4 +1,4 @@
--- 2922 - Market Analysis III
+-- 2922. Market Analysis III
 
 WITH CTE AS (
     SELECT

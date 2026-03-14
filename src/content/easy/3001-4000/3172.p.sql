@@ -1,4 +1,4 @@
--- 3172 - Second Day Verification
+-- 3172. Second Day Verification
 
 SELECT
     user_id

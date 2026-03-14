@@ -1,4 +1,4 @@
-// 1869 - Longer Contiguous Segments of Ones Than Zeros
+// 1869. Longer Contiguous Segments of Ones Than Zeros
 
 function checkZeroOnes(s) {
     let max1 = 0, max2 = 0, acc1 = 0, acc2 = 0;

@@ -1,4 +1,4 @@
-// 3722 - Lexicographically Smallest String After Reverse
+// 3722. Lexicographically Smallest String After Reverse
 
 function lexSmallest(s) {
     let res = s, i = 0;

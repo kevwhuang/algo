@@ -1,4 +1,4 @@
-// 2936 - Number of Equal Numbers Blocks
+// 2936. Number of Equal Numbers Blocks
 
 function countBlocks(nums) {
     let blocks = 0, first = 0;

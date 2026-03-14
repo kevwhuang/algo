@@ -1,4 +1,4 @@
--- 2072 - The Winner University
+-- 2072. The Winner University
 
 WITH CTE1 AS (
     SELECT

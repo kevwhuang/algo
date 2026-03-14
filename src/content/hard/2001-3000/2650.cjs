@@ -1,4 +1,4 @@
-// 2650 - Design Cancellable Function
+// 2650. Design Cancellable Function
 
 function cancellable(generator) {
     async function init() {

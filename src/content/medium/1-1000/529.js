@@ -1,4 +1,4 @@
-// 529 - Minesweeper
+// 529. Minesweeper
 
 function updateBoard(board, click) {
     function dfs(r, c) {

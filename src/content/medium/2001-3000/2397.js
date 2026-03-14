@@ -1,4 +1,4 @@
-// 2397 - Maximum Rows Covered by Columns
+// 2397. Maximum Rows Covered by Columns
 
 function maximumRows(matrix, numSelect) {
     function backtrack(cols) {

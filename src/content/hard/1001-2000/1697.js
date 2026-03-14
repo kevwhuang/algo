@@ -1,4 +1,4 @@
-// 1697 - Checking Existence of Edge Length Limited Paths
+// 1697. Checking Existence of Edge Length Limited Paths
 
 function distanceLimitedPathsExist(n, edgeList, queries) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

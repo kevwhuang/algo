@@ -1,4 +1,4 @@
-// 3550 - Smallest Index With Digit Sum Equal to Index
+// 3550. Smallest Index With Digit Sum Equal to Index
 
 function smallestIndex(nums) {
     let i = -1;

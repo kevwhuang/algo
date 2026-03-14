@@ -1,4 +1,4 @@
-// 2863 - Maximum Length of Semi-Decreasing Subarrays
+// 2863. Maximum Length of Semi-Decreasing Subarrays
 
 function maxSubarrayLength(nums) {
     const arr = [0], n = nums.length;

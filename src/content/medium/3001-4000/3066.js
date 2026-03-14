@@ -1,4 +1,4 @@
-// 3066 - Minimum Operations to Exceed Threshold Value II
+// 3066. Minimum Operations to Exceed Threshold Value II
 
 function minOperations(nums, k) {
     const heap = new PriorityQueue({ compare: (a, b) => a - b });

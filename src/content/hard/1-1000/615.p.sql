@@ -1,4 +1,4 @@
--- 615 - Average Salary: Departments vs Company
+-- 615. Average Salary: Departments vs Company
 
 WITH CTE AS (
     SELECT

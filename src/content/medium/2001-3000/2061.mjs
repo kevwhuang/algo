@@ -1,4 +1,4 @@
-// 2061 - Number of Spaces Cleaning Robot Cleaned
+// 2061. Number of Spaces Cleaning Robot Cleaned
 
 function numberOfCleanRooms(room) {
     function turn() {

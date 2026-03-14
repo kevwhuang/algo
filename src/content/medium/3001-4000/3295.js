@@ -1,4 +1,4 @@
-// 3295 - Report Spam Message
+// 3295. Report Spam Message
 
 function reportSpam(message, bannedWords) {
     bannedWords = new Set(bannedWords);

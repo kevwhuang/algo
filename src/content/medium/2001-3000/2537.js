@@ -1,4 +1,4 @@
-// 2537 - Count the Number of Good Subarrays
+// 2537. Count the Number of Good Subarrays
 
 function countGood(nums, k) {
     let subarrays = 0, pairs = 0;

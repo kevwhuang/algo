@@ -1,4 +1,4 @@
-// 2095 - Delete the Middle Node of a Linked List
+// 2095. Delete the Middle Node of a Linked List
 
 function deleteMiddle(head) {
     if (!head.next) return null;

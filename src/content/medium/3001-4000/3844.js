@@ -1,4 +1,4 @@
-// 3844 - Longest Almost Palindromic Substring
+// 3844. Longest Almost Palindromic Substring
 
 function almostPalindromic(s) {
     function check(acc, l, r, flag) {

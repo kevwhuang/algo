@@ -1,4 +1,4 @@
-// 337 - House Robber III
+// 337. House Robber III
 
 function rob(root) {
     function dfs(node) {

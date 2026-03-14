@@ -26,5 +26,3 @@ class BinaryIndexedTree {
         return res;
     }
 }
-
-module.exports = BinaryIndexedTree;

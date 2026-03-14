@@ -1,4 +1,4 @@
-// 670 - Maximum Swap
+// 670. Maximum Swap
 
 function maximumSwap(num) {
     const digits = num.toString().split('');

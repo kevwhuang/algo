@@ -1,4 +1,4 @@
-// 822 - Card Flipping Game
+// 822. Card Flipping Game
 
 function flipgame(fronts, backs) {
     const ints = new Set();

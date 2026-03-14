@@ -1,4 +1,4 @@
-// 1283 - Find the Smallest Divisor Given a Threshold
+// 1283. Find the Smallest Divisor Given a Threshold
 
 function smallestDivisor(nums, threshold) {
     let l = 1, r = 1e6;

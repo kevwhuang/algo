@@ -1,3 +1,3 @@
-// 3721 - Longest Balanced Subarray II
+// 3721. Longest Balanced Subarray II
 
 

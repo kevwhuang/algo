@@ -1,4 +1,4 @@
-// 2006 - Count Number of Pairs With Absolute Difference K
+// 2006. Count Number of Pairs With Absolute Difference K
 
 function countKDifference(nums, k) {
     let pairs = 0;

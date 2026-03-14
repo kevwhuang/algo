@@ -1,4 +1,4 @@
-// 3226 - Number of Bit Changes to Make Two Integers Equal
+// 3226. Number of Bit Changes to Make Two Integers Equal
 
 function minChanges(n, k) {
     let res = 0;

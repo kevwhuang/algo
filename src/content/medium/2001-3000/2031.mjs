@@ -1,4 +1,4 @@
-// 2031 - Count Subarrays With More Ones Than Zeros
+// 2031. Count Subarrays With More Ones Than Zeros
 
 function subarraysWithMoreZerosThanOnes(nums) {
     const tree = new Uint32Array(200001);

@@ -1,4 +1,4 @@
-// 1910 - Remove All Occurrences of a Substring
+// 1910. Remove All Occurrences of a Substring
 
 function removeOccurrences(s, part) {
     while (true) {

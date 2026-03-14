@@ -1,4 +1,4 @@
--- 197 - Rising Temperature
+-- 197. Rising Temperature
 
 SELECT
     W2.id

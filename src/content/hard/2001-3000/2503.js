@@ -1,4 +1,4 @@
-// 2503 - Maximum Number of Points From Grid Queries
+// 2503. Maximum Number of Points From Grid Queries
 
 function maxPoints(grid, queries) {
     const M = grid, m = M.length, n = M[0].length, nn = queries.length;

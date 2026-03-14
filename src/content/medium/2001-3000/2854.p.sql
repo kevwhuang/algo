@@ -1,4 +1,4 @@
--- 2854 - Rolling Average Steps
+-- 2854. Rolling Average Steps
 
 SELECT
     user_id,

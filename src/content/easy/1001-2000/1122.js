@@ -1,4 +1,4 @@
-// 1122 - Relative Sort Array
+// 1122. Relative Sort Array
 
 function relativeSortArray(arr1, arr2) {
     const B = new Uint16Array(1001);

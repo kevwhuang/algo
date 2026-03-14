@@ -1,4 +1,4 @@
-// 1165 - Single-Row Keyboard
+// 1165. Single-Row Keyboard
 
 function calculateTime(keyboard, word) {
     const dict = {};

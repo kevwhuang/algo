@@ -1,4 +1,4 @@
-// 1684 - Count the Number of Consistent Strings
+// 1684. Count the Number of Consistent Strings
 
 function countConsistentStrings(allowed, words) {
     let count = 0;

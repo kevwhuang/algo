@@ -1,4 +1,4 @@
-// 1899 - Merge Triplets to Form Target Triplet
+// 1899. Merge Triplets to Form Target Triplet
 
 function mergeTriplets(triplets, target) {
     const M = triplets, aa = target[0], bb = target[1], cc = target[2];

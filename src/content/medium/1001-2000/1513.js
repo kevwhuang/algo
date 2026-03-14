@@ -1,4 +1,4 @@
-// 1513 - Number of Substrings With Only 1's
+// 1513. Number of Substrings With Only 1's
 
 function numSub(s) {
     let substrings = 0, local = 0;

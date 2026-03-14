@@ -1,4 +1,4 @@
-// 190 - Reverse Bits
+// 190. Reverse Bits
 
 function reverseBits(n) {
     let res = 0, i = 0;

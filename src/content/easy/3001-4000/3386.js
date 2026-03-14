@@ -1,4 +1,4 @@
-// 3386 - Button With Longest Push Time
+// 3386. Button With Longest Push Time
 
 function buttonWithLongestTime(events) {
     let res = events[0][0], max = events[0][1];

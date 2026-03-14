@@ -1,4 +1,4 @@
-// 3127 - Make a Square With the Same Color
+// 3127. Make a Square With the Same Color
 
 function canMakeSquare(grid) {
     for (let r = 0; r < 2; r++) {

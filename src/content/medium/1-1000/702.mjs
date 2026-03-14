@@ -1,4 +1,4 @@
-// 702 - Search in a Sorted Array of Unknown Size
+// 702. Search in a Sorted Array of Unknown Size
 
 function search(reader, target) {
     let l = 0, r = 1e4 - 1;

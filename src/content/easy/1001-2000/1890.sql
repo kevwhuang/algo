@@ -1,4 +1,4 @@
--- 1890 - The Latest Login in 2020
+-- 1890. The Latest Login in 2020
 
 SELECT
     user_id,

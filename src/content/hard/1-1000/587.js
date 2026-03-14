@@ -1,3 +1,3 @@
-// 587 - Erect the Fence
+// 587. Erect the Fence
 
 

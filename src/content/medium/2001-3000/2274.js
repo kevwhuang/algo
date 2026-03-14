@@ -1,4 +1,4 @@
-// 2274 - Maximum Consecutive Floors Without Special Floors
+// 2274. Maximum Consecutive Floors Without Special Floors
 
 function maxConsecutive(bottom, top, special) {
     special.sort((a, b) => a - b);

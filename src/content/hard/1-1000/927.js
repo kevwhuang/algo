@@ -1,4 +1,4 @@
-// 927 - Three Equal Parts
+// 927. Three Equal Parts
 
 function threeEqualParts(arr) {
     const div = arr.reduce((s, e) => s + e) / 3;

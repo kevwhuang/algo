@@ -1,4 +1,4 @@
-// 2825 - Make String a Subsequence Using Cyclic Increments
+// 2825. Make String a Subsequence Using Cyclic Increments
 
 function canMakeSubsequence(str1, str2) {
     let i = -1, j = -1;

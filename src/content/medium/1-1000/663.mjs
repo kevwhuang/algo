@@ -1,4 +1,4 @@
-// 663 - Equal Tree Partition
+// 663. Equal Tree Partition
 
 function checkEqualTree(root) {
     function dfs(node) {

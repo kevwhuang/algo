@@ -1,4 +1,4 @@
-// 1016 - Binary String With Substrings Representing 1 to N
+// 1016. Binary String With Substrings Representing 1 to N
 
 function queryString(s, n) {
     while (n) {

@@ -1,4 +1,4 @@
-// 3034 - Number of Subarrays That Match a Pattern I
+// 3034. Number of Subarrays That Match a Pattern I
 
 function countMatchingSubarrays(nums, pattern) {
     const m = pattern.length, n = nums.length;

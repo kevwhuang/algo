@@ -1,4 +1,4 @@
-// 2181 - Merge Nodes in Between Zeros
+// 2181. Merge Nodes in Between Zeros
 
 function mergeNodes(head) {
     let node = head;

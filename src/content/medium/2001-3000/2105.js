@@ -1,4 +1,4 @@
-// 2105 - Watering Plants II
+// 2105. Watering Plants II
 
 function minimumRefill(plants, capacityA, capacityB) {
     let refills = 0, a = capacityA, b = capacityB;

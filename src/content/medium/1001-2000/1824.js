@@ -1,4 +1,4 @@
-// 1824 - Minimum Sideway Jumps
+// 1824. Minimum Sideway Jumps
 
 function minSideJumps(obstacles) {
     let a = 1, b = 0, c = 1, i = 0;

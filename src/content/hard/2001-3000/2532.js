@@ -1,3 +1,3 @@
-// 2532 - Time to Cross a Bridge
+// 2532. Time to Cross a Bridge
 
 

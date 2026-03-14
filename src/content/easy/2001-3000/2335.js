@@ -1,4 +1,4 @@
-// 2335 - Minimum Amount of Time to Fill Cups
+// 2335. Minimum Amount of Time to Fill Cups
 
 function fillCups(amount) {
     let max = 0, sum = 0;

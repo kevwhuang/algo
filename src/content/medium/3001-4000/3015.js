@@ -1,4 +1,4 @@
-// 3015 - Count the Number of Houses at a Certain Distance I
+// 3015. Count the Number of Houses at a Certain Distance I
 
 function countOfPairs(n, x, y) {
     const res = new Array(n).fill(0);

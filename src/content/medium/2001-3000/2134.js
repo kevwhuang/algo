@@ -1,4 +1,4 @@
-// 2134 - Minimum Swaps to Group All 1's Together II
+// 2134. Minimum Swaps to Group All 1's Together II
 
 function minSwaps(nums) {
     const ones = nums.reduce((s, e) => s + e);

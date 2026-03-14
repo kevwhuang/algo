@@ -1,4 +1,4 @@
-// 2642 - Design Graph With Shortest Path Calculator
+// 2642. Design Graph With Shortest Path Calculator
 
 class Graph {
     constructor(n, edges) {

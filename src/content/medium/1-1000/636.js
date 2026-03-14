@@ -1,4 +1,4 @@
-// 636 - Exclusive Time of Functions
+// 636. Exclusive Time of Functions
 
 function exclusiveTime(n, logs) {
     const times = new Array(n).fill(0);

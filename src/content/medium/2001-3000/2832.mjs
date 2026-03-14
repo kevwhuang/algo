@@ -1,4 +1,4 @@
-// 2832 - Maximal Range That Each Element Is Maximum in It
+// 2832. Maximal Range That Each Element Is Maximum in It
 
 function maximumLengthOfRanges(nums) {
     nums.push(Infinity);

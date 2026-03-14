@@ -1,4 +1,4 @@
-// 3130 - Find All Possible Stable Binary Arrays II
+// 3130. Find All Possible Stable Binary Arrays II
 
 function numberOfStableArrays(zero, one, limit) {
     function init() {

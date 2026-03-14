@@ -1,4 +1,4 @@
-// 2128 - Remove All Ones With Row and Column Flips
+// 2128. Remove All Ones With Row and Column Flips
 
 function removeOnes(grid) {
     const m = grid.length, n = grid[0].length;

@@ -1,4 +1,4 @@
-// 2917 - Find the K-OR of an Array
+// 2917. Find the K-OR of an Array
 
 function findKOr(nums, k) {
     const bits = new Array(31).fill(0);

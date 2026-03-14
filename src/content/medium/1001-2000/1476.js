@@ -1,4 +1,4 @@
-// 1476 - Subrectangle Queries
+// 1476. Subrectangle Queries
 
 class SubrectangleQueries {
     constructor(rectangle) {

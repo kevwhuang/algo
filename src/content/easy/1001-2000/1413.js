@@ -1,4 +1,4 @@
-// 1413 - Minimum Value to Get Positive Step by Step Sum
+// 1413. Minimum Value to Get Positive Step by Step Sum
 
 function minStartValue(nums) {
     let min = Infinity, sum = 0, i = -1;

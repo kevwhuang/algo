@@ -1,4 +1,4 @@
-// 3568 - Minimum Moves to Clean the Classroom
+// 3568. Minimum Moves to Clean the Classroom
 
 function minMoves(classroom, energy) {
     const map = new Map(), M = classroom, m = M.length, n = M[0].length;

@@ -1,4 +1,4 @@
-// 3511 - Make a Positive Array
+// 3511. Make a Positive Array
 
 function makeArrayPositive(nums) {
     let res = 0, acc = 1e18, a = nums[0], b = nums[1], i = 1;

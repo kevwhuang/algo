@@ -1,4 +1,4 @@
-// 1103 - Distribute Candies to People
+// 1103. Distribute Candies to People
 
 function distributeCandies(candies, num_people) {
     const res = new Uint32Array(num_people);

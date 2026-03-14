@@ -1,4 +1,4 @@
-// 576 - Out of Boundary Paths
+// 576. Out of Boundary Paths
 
 function findPaths(m, n, maxMove, startRow, startColumn) {
     let res = 0;

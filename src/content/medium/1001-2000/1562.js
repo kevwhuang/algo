@@ -1,4 +1,4 @@
-// 1562 - Find Latest Group of Size M
+// 1562. Find Latest Group of Size M
 
 function findLatestStep(arr, m) {
     if (arr.length === m) return m;

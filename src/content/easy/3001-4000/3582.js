@@ -1,4 +1,4 @@
-// 3582 - Generate Tag for Video Caption
+// 3582. Generate Tag for Video Caption
 
 function generateTag(caption) {
     let res = '#', i = 0;

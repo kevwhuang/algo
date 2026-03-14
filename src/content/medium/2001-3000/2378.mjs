@@ -1,4 +1,4 @@
-// 2378 - Choose Edges to Maximize Score in a Tree
+// 2378. Choose Edges to Maximize Score in a Tree
 
 function maxScore(edges) {
     function dfs(node) {

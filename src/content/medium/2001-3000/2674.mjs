@@ -1,4 +1,4 @@
-// 2674 - Split a Circular Linked List
+// 2674. Split a Circular Linked List
 
 function splitCircularLinkedList(list) {
     let slow = list, fast = list, len = 1;

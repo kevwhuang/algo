@@ -1,4 +1,4 @@
-// 1162 - As Far From Land as Possible
+// 1162. As Far From Land as Possible
 
 function maxDistance(grid) {
     let queue = [];

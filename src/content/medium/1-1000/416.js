@@ -1,4 +1,4 @@
-// 416 - Partition Equal Subset Sum
+// 416. Partition Equal Subset Sum
 
 function canPartition(nums) {
     const sum = nums.reduce((s, e) => s + e);

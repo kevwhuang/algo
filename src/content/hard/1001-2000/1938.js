@@ -1,3 +1,3 @@
-// 1938 - Maximum Genetic Difference Query
+// 1938. Maximum Genetic Difference Query
 
 

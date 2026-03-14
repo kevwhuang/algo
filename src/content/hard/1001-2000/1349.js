@@ -1,3 +1,3 @@
-// 1349 - Maximum Students Taking Exam
+// 1349. Maximum Students Taking Exam
 
 

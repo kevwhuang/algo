@@ -1,4 +1,4 @@
-// 3587 - Minimum Adjacent Swaps to Alternate Parity
+// 3587. Minimum Adjacent Swaps to Alternate Parity
 
 function minSwaps(nums) {
     let acc1 = 0, acc2 = 0, acc3 = 0, i = -1;

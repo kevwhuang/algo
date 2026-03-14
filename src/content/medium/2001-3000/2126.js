@@ -1,4 +1,4 @@
-// 2126 - Destroying Asteroids
+// 2126. Destroying Asteroids
 
 function asteroidsDestroyed(mass, asteroids) {
     const stack = [];

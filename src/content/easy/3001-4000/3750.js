@@ -1,4 +1,4 @@
-// 3750 - Minimum Number of Flips to Reverse Binary String
+// 3750. Minimum Number of Flips to Reverse Binary String
 
 function minimumFlips(n) {
     let res = 0, mask1 = 1 << 31 - Math.clz32(n), mask2 = 1;

@@ -1,4 +1,4 @@
-// 10002 - Recognize Node Type
+// 10002. Recognize Node Type
 
 export function recognizeNodeType(node) {
     switch (node.nodeType) {

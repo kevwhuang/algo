@@ -1,4 +1,4 @@
-// 448 - Find All Numbers Disappeared in an Array
+// 448. Find All Numbers Disappeared in an Array
 
 function findDisappearedNumbers(nums) {
     for (let i = 0; i < nums.length; i++) {

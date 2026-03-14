@@ -1,4 +1,4 @@
-// 3418 - Maximum Amount of Money Robot Can Earn
+// 3418. Maximum Amount of Money Robot Can Earn
 
 function maximumAmount(coins) {
     const fn = () => new Int32Array(n + 1).fill(-1e6);

@@ -1,4 +1,4 @@
-// 3724 - Minimum Operations to Transform Array
+// 3724. Minimum Operations to Transform Array
 
 function minOperations(nums1, nums2) {
     const res = nums1.reduce((s, e, i) => s + Math.abs(e - nums2[i]), 1);

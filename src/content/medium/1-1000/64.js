@@ -1,4 +1,4 @@
-// 64 - Minimum Path Sum
+// 64. Minimum Path Sum
 
 function minPathSum(grid) {
     const m = grid.length, n = grid[0].length;

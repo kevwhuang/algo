@@ -1,4 +1,4 @@
--- 1795 - Rearrange Products Table
+-- 1795. Rearrange Products Table
 
 SELECT
     product_id,

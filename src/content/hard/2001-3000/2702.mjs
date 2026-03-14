@@ -1,3 +1,3 @@
-// 2702 - Minimum Operations to Make Numbers Non-Positive
+// 2702. Minimum Operations to Make Numbers Non-Positive
 
 

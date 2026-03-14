@@ -1,4 +1,4 @@
-// 2741 - Special Permutations
+// 2741. Special Permutations
 
 function specialPerm(nums) {
     function dfs(i, mask) {

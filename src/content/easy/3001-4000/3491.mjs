@@ -1,4 +1,4 @@
-// 3491 - Phone Number Prefix
+// 3491. Phone Number Prefix
 
 function phonePrefix(numbers) {
     const arr = numbers.sort();

@@ -1,4 +1,4 @@
-// 449 - Serialize and Deserialize BST
+// 449. Serialize and Deserialize BST
 
 function serialize(root) {
     return root;

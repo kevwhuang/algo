@@ -1,4 +1,4 @@
-// 288 - Unique Word Abbreviation
+// 288. Unique Word Abbreviation
 
 class ValidWordAbbr {
     constructor(dictionary) {

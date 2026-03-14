@@ -1,4 +1,4 @@
-// 2722 - Join Two Arrays by ID
+// 2722. Join Two Arrays by ID
 
 function join(arr1, arr2) {
     const res = {};

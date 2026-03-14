@@ -1,4 +1,4 @@
-// 2271 - Maximum White Tiles Covered by a Carpet
+// 2271. Maximum White Tiles Covered by a Carpet
 
 function maximumWhiteTiles(tiles, carpetLen) {
     tiles.sort((a, b) => a[0] - b[0]);

@@ -1,4 +1,4 @@
-// 2900 - Longest Unequal Adjacent Groups Subsequence I
+// 2900. Longest Unequal Adjacent Groups Subsequence I
 
 function getLongestSubsequence(words, groups) {
     const subsequence = [words[0]];

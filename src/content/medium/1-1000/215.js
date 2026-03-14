@@ -1,4 +1,4 @@
-// 215 - Kth Largest Element in an Array
+// 215. Kth Largest Element in an Array
 
 function findKthLargest(nums, k) {
     const B = new Uint32Array(20001);

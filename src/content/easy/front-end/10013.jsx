@@ -1,4 +1,4 @@
-// 10013 - Counter App
+// 10013. Counter App
 
 import React from 'react';
 

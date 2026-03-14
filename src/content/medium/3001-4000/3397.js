@@ -1,4 +1,4 @@
-// 3397 - Maximum Number of Distinct Elements After Operations
+// 3397. Maximum Number of Distinct Elements After Operations
 
 function maxDistinctElements(nums, k) {
     nums = new Uint32Array(nums).sort();

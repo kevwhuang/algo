@@ -1,4 +1,4 @@
-// 3578 - Count Partitions With Max-Min Difference at Most K
+// 3578. Count Partitions With Max-Min Difference at Most K
 
 function countPartitions(nums, k) {
     if (!this.dp) dp = new Uint32Array(50001), dp[0] = 1;

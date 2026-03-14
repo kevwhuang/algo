@@ -1,4 +1,4 @@
-// 2996 - Smallest Missing Integer Greater Than Sequential Prefix Sum
+// 2996. Smallest Missing Integer Greater Than Sequential Prefix Sum
 
 function missingInteger(nums) {
     let sum = nums[0], idx;

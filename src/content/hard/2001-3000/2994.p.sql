@@ -1,4 +1,4 @@
--- 2994 - Friday Purchases II
+-- 2994. Friday Purchases II
 
 WITH CTE AS (
     SELECT

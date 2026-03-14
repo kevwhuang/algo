@@ -1,4 +1,4 @@
-// 3004 - Maximum Subtree of the Same Color
+// 3004. Maximum Subtree of the Same Color
 
 function maximumSubtreeSize(edges, colors) {
     function dfs(node) {

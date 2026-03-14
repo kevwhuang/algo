@@ -1,4 +1,4 @@
-// 3300 - Minimum Element After Replacement With Digit Sum
+// 3300. Minimum Element After Replacement With Digit Sum
 
 function minElement(nums) {
     let res = Infinity;

@@ -1,3 +1,3 @@
-// 3757 - Number of Effective Subsequences
+// 3757. Number of Effective Subsequences
 
 

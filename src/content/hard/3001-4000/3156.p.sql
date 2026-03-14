@@ -1,4 +1,4 @@
--- 3156 - Employee Task Duration and Concurrent Tasks
+-- 3156. Employee Task Duration and Concurrent Tasks
 
 WITH CTE1 AS (
     SELECT

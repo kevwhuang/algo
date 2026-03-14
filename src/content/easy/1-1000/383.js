@@ -1,4 +1,4 @@
-// 383 - Ransom Note
+// 383. Ransom Note
 
 function canConstruct(ransomNote, magazine) {
     const m = magazine.length, n = ransomNote.length;

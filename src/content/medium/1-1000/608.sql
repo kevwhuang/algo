@@ -1,4 +1,4 @@
--- 608 - Tree Node
+-- 608. Tree Node
 
 SELECT
     id,

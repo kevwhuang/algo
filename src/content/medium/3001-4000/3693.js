@@ -1,4 +1,4 @@
-// 3693 - Climbing Stairs II
+// 3693. Climbing Stairs II
 
 function climbStairs(n, costs) {
     for (let i = 0; i < n; i++) {

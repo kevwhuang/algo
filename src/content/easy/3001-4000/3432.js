@@ -1,4 +1,4 @@
-// 3432 - Count Partitions With Even Sum Difference
+// 3432. Count Partitions With Even Sum Difference
 
 function countPartitions(nums) {
     let res = 0, left = 0, right = nums.reduce((s, e) => s + e);

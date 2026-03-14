@@ -1,4 +1,4 @@
--- 3058 - Friends With No Mutual Friends
+-- 3058. Friends With No Mutual Friends
 
 WITH CTE AS (
     SELECT

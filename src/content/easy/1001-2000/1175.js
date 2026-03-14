@@ -1,4 +1,4 @@
-// 1175 - Prime Arrangements
+// 1175. Prime Arrangements
 
 function numPrimeArrangements(n) {
     if (n <= 2) return 1;

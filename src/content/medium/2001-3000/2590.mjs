@@ -1,4 +1,4 @@
-// 2590 - Design a To-Do List
+// 2590. Design a To-Do List
 
 class TodoList {
     constructor() {

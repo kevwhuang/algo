@@ -1,4 +1,4 @@
-// 1679 - Max Number of K-Sum Pairs
+// 1679. Max Number of K-Sum Pairs
 
 function maxOperations(nums, k) {
     let ops = 0;

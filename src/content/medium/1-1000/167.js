@@ -1,4 +1,4 @@
-// 167 - Two Sum II - Input Array Is Sorted
+// 167. Two Sum II - Input Array Is Sorted
 
 function twoSum(numbers, target) {
     let l = 0, r = numbers.length - 1;

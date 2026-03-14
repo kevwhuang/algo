@@ -1,4 +1,4 @@
-// 2489 - Number of Substrings With Fixed Ratio
+// 2489. Number of Substrings With Fixed Ratio
 
 function fixedRatio(s, num1, num2) {
     let substrings = 0, acc = 0;

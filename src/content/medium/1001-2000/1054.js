@@ -1,4 +1,4 @@
-// 1054 - Distant Barcodes
+// 1054. Distant Barcodes
 
 function rearrangeBarcodes(barcodes) {
     const map = new Map();

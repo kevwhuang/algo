@@ -1,4 +1,4 @@
-// 2896 - Apply Operations to Make Two Strings Equal
+// 2896. Apply Operations to Make Two Strings Equal
 
 function minOperations(s1, s2, x) {
     const arr = [];

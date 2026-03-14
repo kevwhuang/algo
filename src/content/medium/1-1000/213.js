@@ -1,4 +1,4 @@
-// 213 - House Robber II
+// 213. House Robber II
 
 function rob(nums) {
     if (nums.length <= 3) return Math.max(...nums);

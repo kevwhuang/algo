@@ -1,4 +1,4 @@
-// 3840 - House Robber V
+// 3840. House Robber V
 
 function rob(nums, colors) {
     let a = 0, b = nums[0], i = 0;

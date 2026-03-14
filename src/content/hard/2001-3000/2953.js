@@ -1,3 +1,3 @@
-// 2953 - Count Complete Substrings
+// 2953. Count Complete Substrings
 
 

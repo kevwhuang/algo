@@ -1,4 +1,4 @@
--- 1667 - Fix Names in a Table
+-- 1667. Fix Names in a Table
 
 SELECT
     user_id,

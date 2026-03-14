@@ -1,4 +1,4 @@
-// 3419 - Minimize the Maximum Edge Weight of Graph
+// 3419. Minimize the Maximum Edge Weight of Graph
 
 function minMaxWeight(n, edges, threshold) {
     function dfs(node) {

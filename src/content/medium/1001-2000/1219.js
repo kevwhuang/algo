@@ -1,4 +1,4 @@
-// 1219 - Path With Maximum Gold
+// 1219. Path With Maximum Gold
 
 function getMaximumGold(grid) {
     function dfs(r, c) {

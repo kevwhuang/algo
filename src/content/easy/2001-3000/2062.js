@@ -1,4 +1,4 @@
-// 2062 - Count Vowel Substrings of a String
+// 2062. Count Vowel Substrings of a String
 
 function countVowelSubstrings(word) {
     let substrings = 0;

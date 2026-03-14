@@ -1,4 +1,4 @@
-// 1041 - Robot Bounded in Circle
+// 1041. Robot Bounded in Circle
 
 function isRobotBounded(instructions) {
     let x = 0, y = 0, dir = 'N';

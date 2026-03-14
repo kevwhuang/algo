@@ -1,4 +1,4 @@
-// 1791 - Find Center of Star Graph
+// 1791. Find Center of Star Graph
 
 function findCenter(edges) {
     const M = edges;

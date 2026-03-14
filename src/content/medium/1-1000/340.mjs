@@ -1,4 +1,4 @@
-// 340 - Longest Substring With at Most K Distinct Characters
+// 340. Longest Substring With at Most K Distinct Characters
 
 function lengthOfLongestSubstringKDistinct(s, k) {
     let max = 0, l = 0, r = 0;

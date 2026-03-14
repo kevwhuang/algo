@@ -1,4 +1,4 @@
-// 209 - Minimum Size Subarray Sum
+// 209. Minimum Size Subarray Sum
 
 function minSubArrayLen(target, nums) {
     let p1 = 0, p2 = 0, sum = 0, min = Infinity;

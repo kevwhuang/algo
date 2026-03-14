@@ -1,4 +1,4 @@
-// 2073 - Time Needed to Buy Tickets
+// 2073. Time Needed to Buy Tickets
 
 function timeRequiredToBuy(tickets, k) {
     let time = tickets[k];

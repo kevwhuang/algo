@@ -1,4 +1,4 @@
-// 259 - 3Sum Smaller
+// 259. 3Sum Smaller
 
 function threeSumSmaller(nums, target) {
     nums.sort((a, b) => a - b);

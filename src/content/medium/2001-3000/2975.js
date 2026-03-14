@@ -1,4 +1,4 @@
-// 2975 - Maximum Square Area by Removing Fences From a Field
+// 2975. Maximum Square Area by Removing Fences From a Field
 
 function maximizeSquareArea(m, n, hFences, vFences) {
     hFences.push(1, m);

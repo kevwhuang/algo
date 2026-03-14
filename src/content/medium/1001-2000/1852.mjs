@@ -1,4 +1,4 @@
-// 1852 - Distinct Numbers in Each Subarray
+// 1852. Distinct Numbers in Each Subarray
 
 function distinctNumbers(nums, k) {
     const map = new Map();

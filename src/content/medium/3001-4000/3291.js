@@ -1,4 +1,4 @@
-// 3291 - Minimum Number of Valid Strings to Form Target I
+// 3291. Minimum Number of Valid Strings to Form Target I
 
 function minValidStrings(words, target) {
     const m = target.length;

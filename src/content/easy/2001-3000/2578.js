@@ -1,4 +1,4 @@
-// 2578 - Split With Minimum Sum
+// 2578. Split With Minimum Sum
 
 function splitNum(num) {
     num = num.toString().split('').sort((a, b) => a - b);

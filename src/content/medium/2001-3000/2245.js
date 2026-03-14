@@ -1,4 +1,4 @@
-// 2245 - Maximum Trailing Zeros in a Cornered Path
+// 2245. Maximum Trailing Zeros in a Cornered Path
 
 function maxTrailingZeros(grid) {
     const ps = grid, m = ps.length - 1, n = ps[0].length - 1;

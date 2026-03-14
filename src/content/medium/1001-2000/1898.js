@@ -1,4 +1,4 @@
-// 1898 - Maximum Number of Removable Characters
+// 1898. Maximum Number of Removable Characters
 
 function maximumRemovals(s, p, removable) {
     const state = new Array(s.length).fill(true);

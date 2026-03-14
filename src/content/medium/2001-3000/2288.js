@@ -1,4 +1,4 @@
-// 2288 - Apply Discount to Prices
+// 2288. Apply Discount to Prices
 
 function discountPrices(sentence, discount) {
     sentence = sentence.split(' ');

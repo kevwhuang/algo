@@ -1,4 +1,4 @@
-// 3556 - Sum of Largest Prime Substrings
+// 3556. Sum of Largest Prime Substrings
 
 function sumOfLargestPrimes(s) {
     const n = s.length, arr = new Uint8Array(n);

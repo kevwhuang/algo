@@ -1,3 +1,3 @@
-// 1278 - Palindrome Partitioning III
+// 1278. Palindrome Partitioning III
 
 

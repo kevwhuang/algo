@@ -1,4 +1,4 @@
-// 114 - Flatten Binary Tree to Linked List
+// 114. Flatten Binary Tree to Linked List
 
 function flatten(root) {
     function dfs(node) {

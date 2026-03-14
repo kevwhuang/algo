@@ -1,4 +1,4 @@
-// 2905 - Find Indices With Index and Value Difference II
+// 2905. Find Indices With Index and Value Difference II
 
 function findIndices(nums, indexDifference, valueDifference) {
     let minIdx = 0, maxIdx = 0;

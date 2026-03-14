@@ -1,4 +1,4 @@
-// 2561 - Rearranging Fruits
+// 2561. Rearranging Fruits
 
 function minCost(basket1, basket2) {
     let res = 0, arr = [], min = 1e9, n = basket1.length, i = -1;

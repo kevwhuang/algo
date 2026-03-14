@@ -1,4 +1,4 @@
--- 1251 - Average Selling Price
+-- 1251. Average Selling Price
 
 SELECT
     P.product_id,

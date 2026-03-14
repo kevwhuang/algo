@@ -1,4 +1,4 @@
-// 417 - Pacific Atlantic Water Flow
+// 417. Pacific Atlantic Water Flow
 
 function pacificAtlantic(heights) {
     function dfs(r, c, prev, seen) {

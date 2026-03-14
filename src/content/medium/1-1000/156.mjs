@@ -1,4 +1,4 @@
-// 156 - Binary Tree Upside Down
+// 156. Binary Tree Upside Down
 
 function upsideDownBinaryTree(root) {
     if (!root || !root.left) return root;

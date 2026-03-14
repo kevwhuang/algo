@@ -1,4 +1,4 @@
-// 3151 - Special Array I
+// 3151. Special Array I
 
 function isArraySpecial(nums) {
     for (let i = 1; i < nums.length; i++) {

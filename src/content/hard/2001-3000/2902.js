@@ -1,3 +1,3 @@
-// 2902 - Count of Sub-Multisets With Bounded Sum
+// 2902. Count of Sub-Multisets With Bounded Sum
 
 

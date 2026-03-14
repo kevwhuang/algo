@@ -1,4 +1,4 @@
--- 1555 - Bank Account Summary
+-- 1555. Bank Account Summary
 
 WITH CTE1 AS (
     SELECT

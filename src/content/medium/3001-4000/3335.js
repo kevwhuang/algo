@@ -1,4 +1,4 @@
-// 3335 - Total Characters in String After Transformations I
+// 3335. Total Characters in String After Transformations I
 
 function lengthAfterTransformations(s, t) {
     function init() {

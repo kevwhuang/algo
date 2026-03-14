@@ -1,4 +1,4 @@
-// 2358 - Maximum Number of Groups Entering a Competition
+// 2358. Maximum Number of Groups Entering a Competition
 
 function maximumGroups(grades) {
     let groups = 1, remaining = grades.length;

@@ -1,4 +1,4 @@
-// 2331 - Evaluate Boolean Binary Tree
+// 2331. Evaluate Boolean Binary Tree
 
 function evaluateTree(root) {
     if (!root || !root.val) return false;

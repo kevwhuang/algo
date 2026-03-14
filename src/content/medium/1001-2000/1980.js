@@ -1,4 +1,4 @@
-// 1980 - Find Unique Binary String
+// 1980. Find Unique Binary String
 
 function findDifferentBinaryString(nums) {
     const len = nums[0].length;

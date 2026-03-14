@@ -1,3 +1,3 @@
-// 3141 - Maximum Hamming Distances
+// 3141. Maximum Hamming Distances
 
 

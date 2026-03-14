@@ -1,4 +1,4 @@
-// 1081 - Smallest Subsequence of Distinct Characters
+// 1081. Smallest Subsequence of Distinct Characters
 
 function smallestSubsequence(s) {
     const stack = [], contains = new Set();

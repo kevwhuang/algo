@@ -1,4 +1,4 @@
-// 3284 - Sum of Consecutive Subarrays
+// 3284. Sum of Consecutive Subarrays
 
 function getSum(nums) {
     let sum = nums[0], sum1 = nums[0], sum2 = nums[0];

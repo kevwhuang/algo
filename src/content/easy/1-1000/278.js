@@ -1,4 +1,4 @@
-// 278 - First Bad Version
+// 278. First Bad Version
 
 function solution(isBadVersion) {
     function find(n) {

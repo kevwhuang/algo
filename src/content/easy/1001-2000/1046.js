@@ -1,4 +1,4 @@
-// 1046 - Last Stone Weight
+// 1046. Last Stone Weight
 
 function lastStoneWeight(stones) {
     while (stones.length > 1) {

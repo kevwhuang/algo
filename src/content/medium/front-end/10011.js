@@ -1,4 +1,4 @@
-// 10011 - Text Highlighter
+// 10011. Text Highlighter
 
 export function highlightText(node, text) {
     const fn = node => node.textContent.toLowerCase().includes(text);

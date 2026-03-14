@@ -1,4 +1,4 @@
-// 1140 - Stone Game II
+// 1140. Stone Game II
 
 function stoneGameII(piles) {
     function dfs(i, j) {

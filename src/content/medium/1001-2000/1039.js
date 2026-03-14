@@ -1,4 +1,4 @@
-// 1039 - Minimum Score Triangulation of Polygon
+// 1039. Minimum Score Triangulation of Polygon
 
 function minScoreTriangulation(values) {
     function dfs(l, r) {

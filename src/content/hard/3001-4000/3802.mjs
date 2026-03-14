@@ -1,3 +1,3 @@
-// 3802 - Number of Ways to Paint Sheets
+// 3802. Number of Ways to Paint Sheets
 
 

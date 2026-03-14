@@ -1,4 +1,4 @@
-// 666 - Path Sum IV
+// 666. Path Sum IV
 
 function pathSum(nums) {
     function dfs(node, acc) {

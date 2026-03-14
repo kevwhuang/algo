@@ -1,4 +1,4 @@
-// 3860 - Unique Email Groups
+// 3860. Unique Email Groups
 
 function uniqueEmailGroups(emails) {
     const set = new Set();

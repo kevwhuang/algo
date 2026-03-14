@@ -1,4 +1,4 @@
-// 2583 - Kth Largest Sum in a Binary Tree
+// 2583. Kth Largest Sum in a Binary Tree
 
 function kthLargestLevelSum(root, k) {
     const heap = new PriorityQueue({ compare: (a, b) => b - a });

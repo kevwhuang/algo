@@ -1,4 +1,4 @@
-// 2036 - Maximum Alternating Subarray Sum
+// 2036. Maximum Alternating Subarray Sum
 
 function maximumAlternatingSubarraySum(nums) {
     let res = -Infinity, acc1 = res, acc2 = res, i = -1;

@@ -1,4 +1,4 @@
--- 1378 - Replace Employee ID With the Unique Identifier
+-- 1378. Replace Employee ID With the Unique Identifier
 
 SELECT
     unique_id,

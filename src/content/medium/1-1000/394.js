@@ -1,4 +1,4 @@
-// 394 - Decode String
+// 394. Decode String
 
 function decodeString(s) {
     const replacer = (_, num, char) => char.repeat(num);

@@ -1,4 +1,4 @@
-// 3498 - Reverse Degree of a String
+// 3498. Reverse Degree of a String
 
 function reverseDegree(s) {
     let res = 0, i = 0;

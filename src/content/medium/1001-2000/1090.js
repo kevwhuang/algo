@@ -1,4 +1,4 @@
-// 1090 - Largest Values From Labels
+// 1090. Largest Values From Labels
 
 function largestValsFromLabels(values, labels, numWanted, useLimit) {
     for (let i = 0; i < values.length; i++) {

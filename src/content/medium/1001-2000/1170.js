@@ -1,4 +1,4 @@
-// 1170 - Compare Strings by Frequency of the Smallest Character
+// 1170. Compare Strings by Frequency of the Smallest Character
 
 function numSmallerByFrequency(queries, words) {
     function getFreq(str) {

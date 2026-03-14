@@ -1,4 +1,4 @@
-// 275 - H-Index II
+// 275. H-Index II
 
 function hIndex(citations) {
     citations.reverse();

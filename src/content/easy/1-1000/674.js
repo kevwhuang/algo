@@ -1,4 +1,4 @@
-// 674 - Longest Continuous Increasing Subsequence
+// 674. Longest Continuous Increasing Subsequence
 
 function findLengthOfLCIS(nums) {
     let cur = 1, max = 1;

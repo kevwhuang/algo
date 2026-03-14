@@ -1,3 +1,3 @@
-// 1924 - Erect the Fence II
+// 1924. Erect the Fence II
 
 

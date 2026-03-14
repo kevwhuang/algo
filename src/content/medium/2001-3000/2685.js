@@ -1,4 +1,4 @@
-// 2685 - Count the Number of Complete Components
+// 2685. Count the Number of Complete Components
 
 function countCompleteComponents(n, edges) {
     const adj = Array.from({ length: n }, () => []);

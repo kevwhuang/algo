@@ -1,4 +1,4 @@
-// 2610 - Convert an Array Into a 2D Array With Conditions
+// 2610. Convert an Array Into a 2D Array With Conditions
 
 function findMatrix(nums) {
     const map = new Map();

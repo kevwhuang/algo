@@ -1,4 +1,4 @@
-// 3727 - Maximum Alternating Sum of Squares
+// 3727. Maximum Alternating Sum of Squares
 
 function maxAlternatingSum(nums) {
     const arr = new Uint16Array(nums.length);

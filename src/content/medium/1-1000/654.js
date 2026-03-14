@@ -1,4 +1,4 @@
-// 654 - Maximum Binary Tree
+// 654. Maximum Binary Tree
 
 function constructMaximumBinaryTree(nums) {
     if (!nums.length) return null;

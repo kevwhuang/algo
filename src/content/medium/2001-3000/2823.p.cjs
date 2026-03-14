@@ -1,4 +1,4 @@
-// 2823 - Deep Object Filter
+// 2823. Deep Object Filter
 
 function deepFilter(obj, fn) {
     if (!obj || typeof obj !== 'object') return fn(obj) ? obj : undefined;

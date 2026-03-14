@@ -1,4 +1,4 @@
-// 497 - Random Point in Non-Overlapping Rectangles
+// 497. Random Point in Non-Overlapping Rectangles
 
 class Solution {
     constructor(rects) {

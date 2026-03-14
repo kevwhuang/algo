@@ -1,4 +1,4 @@
-// 376 - Wiggle Subsequence
+// 376. Wiggle Subsequence
 
 function wiggleMaxLength(nums) {
     let res = 1, sign = 0, i = 0;

@@ -1,4 +1,4 @@
-// 2562 - Find the Array Concatenation Value
+// 2562. Find the Array Concatenation Value
 
 function findTheArrayConcVal(nums) {
     let conc = 0, l = -1, r = nums.length;

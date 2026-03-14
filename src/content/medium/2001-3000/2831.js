@@ -1,4 +1,4 @@
-// 2831 - Find the Longest Equal Subarray
+// 2831. Find the Longest Equal Subarray
 
 function longestEqualSubarray(nums, k) {
     let max = 1;

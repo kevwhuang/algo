@@ -1,3 +1,3 @@
-// 1537 - Get the Maximum Score
+// 1537. Get the Maximum Score
 
 

@@ -1,4 +1,4 @@
-// 1328 - Break a Palindrome
+// 1328. Break a Palindrome
 
 function breakPalindrome(palindrome) {
     if (palindrome.length === 1) return '';

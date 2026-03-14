@@ -1,4 +1,4 @@
--- 2066 - Account Balance
+-- 2066. Account Balance
 
 SELECT
     T1.account_id,

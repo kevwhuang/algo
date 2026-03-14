@@ -1,4 +1,4 @@
-// 978 - Longest Turbulent Subarray
+// 978. Longest Turbulent Subarray
 
 function maxTurbulenceSize(arr) {
     let max = 1, i = 1;

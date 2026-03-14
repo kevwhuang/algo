@@ -1,4 +1,4 @@
-// 697 - Degree of an Array
+// 697. Degree of an Array
 
 function findShortestSubArray(nums) {
     const freqs = {}, indices = {};

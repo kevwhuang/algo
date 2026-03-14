@@ -1,4 +1,4 @@
-// 642 - Design Search Autocomplete System
+// 642. Design Search Autocomplete System
 
 class AutocompleteSystem {
     constructor(sentences, times) {

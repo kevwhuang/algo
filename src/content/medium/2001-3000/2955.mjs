@@ -1,4 +1,4 @@
-// 2955 - Number of Same-End Substrings
+// 2955. Number of Same-End Substrings
 
 function sameEndSubstringCount(s, queries) {
     const bucket = new Uint16Array(26);

@@ -1,4 +1,4 @@
-// 484 - Find Permutation
+// 484. Find Permutation
 
 function findPermutation(s) {
     const perm = Array.from({ length: s.length + 1 }, (_, i) => i + 1);

@@ -1,4 +1,4 @@
-// 1807 - Evaluate the Bracket Pairs of a String
+// 1807. Evaluate the Bracket Pairs of a String
 
 function evaluate(s, knowledge) {
     knowledge = new Map(knowledge);

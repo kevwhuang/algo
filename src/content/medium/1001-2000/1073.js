@@ -1,4 +1,4 @@
-// 1073 - Adding Two Negabinary Numbers
+// 1073. Adding Two Negabinary Numbers
 
 function addNegabinary(arr1, arr2) {
     const res = [];

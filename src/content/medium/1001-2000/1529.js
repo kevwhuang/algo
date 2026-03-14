@@ -1,4 +1,4 @@
-// 1529 - Minimum Suffix Flips
+// 1529. Minimum Suffix Flips
 
 function minFlips(target) {
     let ops = 0;

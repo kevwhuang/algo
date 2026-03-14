@@ -1,4 +1,4 @@
-// 3552 - Grid Teleportation Traversal
+// 3552. Grid Teleportation Traversal
 
 function minMoves(matrix) {
     if (!this.C) C = new Uint32Array(1000000), Q = new Array(1000000);

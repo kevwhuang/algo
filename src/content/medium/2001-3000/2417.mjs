@@ -1,4 +1,4 @@
-// 2417 - Closest Fair Integer
+// 2417. Closest Fair Integer
 
 function closestFair(n) {
     const obj = { 1: 10, 3: 1001, 5: 100011, 7: 10000111, 9: 1000001111 };

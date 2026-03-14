@@ -1,4 +1,4 @@
-// 3215 - Count Triplets With Even XOR Set Bits II
+// 3215. Count Triplets With Even XOR Set Bits II
 
 function tripletCount(a, b, c) {
     function traverse(arr) {

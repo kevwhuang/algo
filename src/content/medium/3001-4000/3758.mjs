@@ -1,4 +1,4 @@
-// 3758 - Convert Number Words to Digits
+// 3758. Convert Number Words to Digits
 
 function convertNumber(s) {
     let res = '', i = 0;

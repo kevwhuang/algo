@@ -1,4 +1,4 @@
-// 159 - Longest Substring With at Most Two Distinct Characters
+// 159. Longest Substring With at Most Two Distinct Characters
 
 function lengthOfLongestSubstringTwoDistinct(s) {
     let max = 0;

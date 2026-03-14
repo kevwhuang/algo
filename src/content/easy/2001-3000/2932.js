@@ -1,4 +1,4 @@
-// 2932 - Maximum Strong Pair XOR I
+// 2932. Maximum Strong Pair XOR I
 
 function maximumStrongPairXor(nums) {
     let max = 0;

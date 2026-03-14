@@ -1,4 +1,4 @@
-// 1497 - Check If Array Pairs Are Divisible by K
+// 1497. Check If Array Pairs Are Divisible by K
 
 function canArrange(arr, k) {
     const bucket = new Uint32Array(k);

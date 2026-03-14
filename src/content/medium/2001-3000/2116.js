@@ -1,4 +1,4 @@
-// 2116 - Check If a Parentheses String Can Be Valid
+// 2116. Check If a Parentheses String Can Be Valid
 
 function canBeValid(s, locked) {
     if (s.length % 2) return false;

@@ -1,4 +1,4 @@
-// 1634 - Add Two Polynomials Represented as Linked Lists
+// 1634. Add Two Polynomials Represented as Linked Lists
 
 function addPoly(poly1, poly2) {
     const sentinel = new PolyNode();

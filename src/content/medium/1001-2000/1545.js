@@ -1,4 +1,4 @@
-// 1545 - Find Kth Bit in Nth Binary String
+// 1545. Find Kth Bit in Nth Binary String
 
 function findKthBit(n, k) {
     if (n === 1) return '0';

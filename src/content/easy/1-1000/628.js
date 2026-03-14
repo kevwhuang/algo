@@ -1,4 +1,4 @@
-// 628 - Maximum Product of Three Numbers
+// 628. Maximum Product of Three Numbers
 
 function maximumProduct(nums) {
     let max1 = -1001, max2 = -1001, max3 = -1001, min1 = 1001, min2 = 1001;

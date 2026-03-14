@@ -1,4 +1,4 @@
--- 1841 - League Statistics
+-- 1841. League Statistics
 
 WITH CTE AS (
     SELECT

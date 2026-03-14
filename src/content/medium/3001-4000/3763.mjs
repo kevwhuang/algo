@@ -1,4 +1,4 @@
-// 3763 - Maximum Total Sum With Threshold Constraints
+// 3763. Maximum Total Sum With Threshold Constraints
 
 function maxSum(nums, threshold) {
     const n = nums.length;

@@ -1,4 +1,4 @@
-// 771 - Jewels and Stones
+// 771. Jewels and Stones
 
 function numJewelsInStones(jewels, stones) {
     let count = 0;

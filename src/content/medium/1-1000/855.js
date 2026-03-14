@@ -1,4 +1,4 @@
-// 855 - Exam Room
+// 855. Exam Room
 
 class ExamRoom {
     constructor(n) {

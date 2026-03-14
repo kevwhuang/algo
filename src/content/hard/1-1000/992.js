@@ -1,4 +1,4 @@
-// 992 - Subarrays With K Different Integers
+// 992. Subarrays With K Different Integers
 
 function subarraysWithKDistinct(nums, k) {
     let res = 0, l = 0, m = 0, r = -1;

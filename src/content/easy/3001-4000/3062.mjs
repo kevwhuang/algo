@@ -1,4 +1,4 @@
-// 3062 - Winner of the Linked List Game
+// 3062. Winner of the Linked List Game
 
 function gameResult(head) {
     let even = 0, odd = 0;

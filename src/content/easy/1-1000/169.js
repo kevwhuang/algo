@@ -1,4 +1,4 @@
-// 169 - Majority Element
+// 169. Majority Element
 
 function majorityElement(nums) {
     let res, acc = 0, i = -1;

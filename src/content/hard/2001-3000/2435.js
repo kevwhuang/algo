@@ -1,4 +1,4 @@
-// 2435 - Paths in Matrix Whose Sum Is Divisible by K
+// 2435. Paths in Matrix Whose Sum Is Divisible by K
 
 function numberOfPaths(grid, k) {
     const M = grid, m = M.length, n = M[0].length;

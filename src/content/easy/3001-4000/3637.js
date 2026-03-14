@@ -1,4 +1,4 @@
-// 3637 - Trionic Array I
+// 3637. Trionic Array I
 
 function isTrionic(nums) {
     const n = nums.length;

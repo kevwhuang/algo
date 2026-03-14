@@ -1,4 +1,4 @@
-// 3157 - Find the Level of Tree With Minimum Sum
+// 3157. Find the Level of Tree With Minimum Sum
 
 function minimumLevel(root) {
     let min, minSum = Infinity, level = 1, queue = [root];

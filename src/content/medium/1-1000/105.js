@@ -1,4 +1,4 @@
-// 105 - Construct Binary Tree From Preorder and Inorder Traversal
+// 105. Construct Binary Tree From Preorder and Inorder Traversal
 
 function buildTree(preorder, inorder) {
     function dfs(node) {

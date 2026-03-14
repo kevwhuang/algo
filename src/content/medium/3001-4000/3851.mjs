@@ -1,4 +1,4 @@
-// 3851 - Maximum Requests Without Violating the Limit
+// 3851. Maximum Requests Without Violating the Limit
 
 function maxRequests(requests, k, window) {
     if (!this.Q) Q = new Uint32Array(100000);

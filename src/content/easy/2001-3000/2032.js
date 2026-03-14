@@ -1,4 +1,4 @@
-// 2032 - Two Out of Three
+// 2032. Two Out of Three
 
 function twoOutOfThree(nums1, nums2, nums3) {
     const bucket = new Array(101).fill(0);

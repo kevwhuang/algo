@@ -1,4 +1,4 @@
-// 2608 - Shortest Cycle in a Graph
+// 2608. Shortest Cycle in a Graph
 
 function findShortestCycle(n, edges) {
     const deg = new Uint16Array(n);

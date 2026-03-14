@@ -1,4 +1,4 @@
-// 272 - Closest Binary Search Tree Value II
+// 272. Closest Binary Search Tree Value II
 
 function closestKValues(root, target, k) {
     function dfs(node) {

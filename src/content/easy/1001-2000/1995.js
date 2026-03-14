@@ -1,4 +1,4 @@
-// 1995 - Count Special Quadruplets
+// 1995. Count Special Quadruplets
 
 function countQuadruplets(nums) {
     let res = 0;

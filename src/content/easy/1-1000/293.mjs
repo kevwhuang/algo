@@ -1,4 +1,4 @@
-// 293 - Flip Game
+// 293. Flip Game
 
 function generatePossibleNextMoves(currentState) {
     const res = [];

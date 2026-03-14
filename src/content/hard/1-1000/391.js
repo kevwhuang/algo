@@ -1,4 +1,4 @@
-// 391 - Perfect Rectangle
+// 391. Perfect Rectangle
 
 function isRectangleCover(rectangles) {
     const check = key => set.has(key) ? set.delete(key) : set.add(key);

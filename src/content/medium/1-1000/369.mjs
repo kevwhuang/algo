@@ -1,4 +1,4 @@
-// 369 - Plus One Linked List
+// 369. Plus One Linked List
 
 function plusOne(head) {
     const sentinel = new ListNode();

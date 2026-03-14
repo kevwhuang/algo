@@ -1,4 +1,4 @@
-// 3654 - Minimum Sum After Divisible Sum Deletions
+// 3654. Minimum Sum After Divisible Sum Deletions
 
 function minArraySum(nums, k) {
     const dp = new Array(k).fill(1e11);

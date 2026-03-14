@@ -1,4 +1,4 @@
-// 594 - Longest Harmonious Subsequence
+// 594. Longest Harmonious Subsequence
 
 function findLHS(nums) {
     const map = new Map();

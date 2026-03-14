@@ -1,4 +1,4 @@
-// 1598 - Crawler Log Folder
+// 1598. Crawler Log Folder
 
 function minOperations(logs) {
     let depth = 0;

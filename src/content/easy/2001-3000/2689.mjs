@@ -1,4 +1,4 @@
-// 2689 - Extract Kth Character From the Rope Tree
+// 2689. Extract Kth Character From the Rope Tree
 
 function getKthCharacter(root, k) {
     if (!root.len) return root.val[k - 1];

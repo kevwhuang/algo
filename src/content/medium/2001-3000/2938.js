@@ -1,4 +1,4 @@
-// 2938 - Separate Black and White Balls
+// 2938. Separate Black and White Balls
 
 function minimumSteps(s) {
     let swaps = 0;

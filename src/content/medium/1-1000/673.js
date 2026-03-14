@@ -1,4 +1,4 @@
-// 673 - Number of Longest Increasing Subsequence
+// 673. Number of Longest Increasing Subsequence
 
 function findNumberOfLIS(nums) {
     let res = 0, max = 0;

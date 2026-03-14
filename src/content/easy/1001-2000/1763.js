@@ -1,4 +1,4 @@
-// 1763 - Longest Nice Substring
+// 1763. Longest Nice Substring
 
 function longestNiceSubstring(s) {
     if (s.length < 2) return '';

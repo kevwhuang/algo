@@ -1,4 +1,4 @@
-// 931 - Minimum Falling Path Sum
+// 931. Minimum Falling Path Sum
 
 function minFallingPathSum(matrix) {
     const M = matrix, n = M.length;

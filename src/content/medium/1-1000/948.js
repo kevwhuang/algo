@@ -1,4 +1,4 @@
-// 948 - Bag of Tokens
+// 948. Bag of Tokens
 
 function bagOfTokensScore(tokens, power) {
     tokens.sort((a, b) => a - b);

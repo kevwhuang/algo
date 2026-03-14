@@ -1,4 +1,4 @@
-// 3428 - Maximum and Minimum Sums of at Most Size K Subsequences
+// 3428. Maximum and Minimum Sums of at Most Size K Subsequences
 
 function minMaxSums(nums, k) {
     nums = new Uint32Array(nums).sort();

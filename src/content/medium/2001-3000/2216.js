@@ -1,4 +1,4 @@
-// 2216 - Minimum Deletions to Make Array Beautiful
+// 2216. Minimum Deletions to Make Array Beautiful
 
 function minDeletion(nums) {
     let deleted = 0, i = 0;

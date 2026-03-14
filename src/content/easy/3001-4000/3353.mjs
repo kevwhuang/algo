@@ -1,4 +1,4 @@
-// 3353 - Minimum Total Operations
+// 3353. Minimum Total Operations
 
 function minOperations(nums) {
     let res = 0;

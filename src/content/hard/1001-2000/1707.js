@@ -1,4 +1,4 @@
-// 1707 - Maximum XOR With an Element From Array
+// 1707. Maximum XOR With an Element From Array
 
 function maximizeXor(nums, queries) {
     const A = new Uint32Array(nums).sort();

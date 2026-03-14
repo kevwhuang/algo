@@ -1,4 +1,4 @@
--- 1364 - Number of Trusted Contacts of a Customer
+-- 1364. Number of Trusted Contacts of a Customer
 
 WITH CTE1 AS (
     SELECT

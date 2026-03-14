@@ -1,4 +1,4 @@
-// 3453 - Separate Squares I
+// 3453. Separate Squares I
 
 function separateSquares(squares) {
     let l = .5, r = squares.reduce((s, e) => Math.max(e[1] + e[2] / 2, s), 0);

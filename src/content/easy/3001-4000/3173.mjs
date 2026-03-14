@@ -1,4 +1,4 @@
-// 3173 - Bitwise OR of Adjacent Elements
+// 3173. Bitwise OR of Adjacent Elements
 
 function orArray(nums) {
     for (let i = 1; i < nums.length; i++) {

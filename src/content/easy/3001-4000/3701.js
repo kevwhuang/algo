@@ -1,4 +1,4 @@
-// 3701 - Compute Alternating Sum
+// 3701. Compute Alternating Sum
 
 function alternatingSum(nums) {
     let res = 0, i = -1;

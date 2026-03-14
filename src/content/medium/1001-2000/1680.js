@@ -1,4 +1,4 @@
-// 1680 - Concatenation of Consecutive Binary Numbers
+// 1680. Concatenation of Consecutive Binary Numbers
 
 function concatenatedBinary(n) {
     let res = 1, width = 4;

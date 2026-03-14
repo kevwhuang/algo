@@ -1,4 +1,4 @@
-// 1062 - Longest Repeating Substring
+// 1062. Longest Repeating Substring
 
 function longestRepeatingSubstring(s) {
     function init() {

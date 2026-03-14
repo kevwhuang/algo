@@ -1,4 +1,4 @@
-// 3660 - Jump Game IX
+// 3660. Jump Game IX
 
 function maxValue(nums) {
     const n = nums.length, ps = new Uint32Array(n);

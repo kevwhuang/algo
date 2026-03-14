@@ -1,4 +1,4 @@
-// 988 - Smallest String Starting From Leaf
+// 988. Smallest String Starting From Leaf
 
 function smallestFromLeaf(root) {
     function dfs(node, cur) {

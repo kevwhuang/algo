@@ -1,4 +1,4 @@
-// 3751 - Total Waviness of Numbers in Range I
+// 3751. Total Waviness of Numbers in Range I
 
 function totalWaviness(num1, num2) {
     function init() {

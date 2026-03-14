@@ -1,3 +1,3 @@
-// 3575 - Maximum Good Subtree Score
+// 3575. Maximum Good Subtree Score
 
 

@@ -1,4 +1,4 @@
-// 523 - Continuous Subarray Sum
+// 523. Continuous Subarray Sum
 
 function checkSubarraySum(nums, k) {
     let sum = 0, prev = 0;

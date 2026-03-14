@@ -1,4 +1,4 @@
-// 1032 - Stream of Characters
+// 1032. Stream of Characters
 
 class StreamChecker {
     constructor(words) {

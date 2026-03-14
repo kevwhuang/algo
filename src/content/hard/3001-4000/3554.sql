@@ -1,4 +1,4 @@
--- 3554 - Find Category Recommendation Pairs
+-- 3554. Find Category Recommendation Pairs
 
 WITH CTE1 AS (
     SELECT

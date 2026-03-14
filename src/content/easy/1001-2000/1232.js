@@ -1,4 +1,4 @@
-// 1232 - Check If It Is a Straight Line
+// 1232. Check If It Is a Straight Line
 
 function checkStraightLine(coordinates) {
     const M = coordinates, r = M[0][0], c = M[0][1];

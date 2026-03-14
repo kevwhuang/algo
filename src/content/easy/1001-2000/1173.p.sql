@@ -1,4 +1,4 @@
--- 1173 - Immediate Food Delivery I
+-- 1173. Immediate Food Delivery I
 
 SELECT
     ROUND(

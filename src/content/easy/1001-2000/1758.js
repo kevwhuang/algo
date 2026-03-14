@@ -1,4 +1,4 @@
-// 1758 - Minimum Changes to Make Alternating Binary String
+// 1758. Minimum Changes to Make Alternating Binary String
 
 function minOperations(s) {
     let acc1 = 0, acc2 = 0;

@@ -1,4 +1,4 @@
-// 2053 - Kth Distinct String in an Array
+// 2053. Kth Distinct String in an Array
 
 function kthDistinct(arr, k) {
     const map = new Map();

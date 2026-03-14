@@ -1,4 +1,4 @@
-// 858 - Mirror Reflection
+// 858. Mirror Reflection
 
 function mirrorReflection(p, q) {
     while (p % 2 === 0 && q % 2 === 0) p /= 2, q /= 2;

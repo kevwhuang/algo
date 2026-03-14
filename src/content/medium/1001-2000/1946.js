@@ -1,4 +1,4 @@
-// 1946 - Largest Number After Mutating Substring
+// 1946. Largest Number After Mutating Substring
 
 function maximumNumber(num, change) {
     let i = -1;

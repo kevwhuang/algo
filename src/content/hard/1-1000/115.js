@@ -1,4 +1,4 @@
-// 115 - Distinct Subsequences
+// 115. Distinct Subsequences
 
 function numDistinct(s, t) {
     const m = s.length, n = t.length;

@@ -1,3 +1,3 @@
-// 664 - Strange Printer
+// 664. Strange Printer
 
 

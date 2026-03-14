@@ -1,4 +1,4 @@
-// 1533 - Find the Index of the Large Integer
+// 1533. Find the Index of the Large Integer
 
 function getIndex(reader) {
     let l = 0, r = reader.length() - 1;

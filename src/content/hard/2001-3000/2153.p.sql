@@ -1,4 +1,4 @@
--- 2153 - The Number of Passengers in Each Bus II
+-- 2153. The Number of Passengers in Each Bus II
 
 WITH RECURSIVE CTE1 AS (
     SELECT

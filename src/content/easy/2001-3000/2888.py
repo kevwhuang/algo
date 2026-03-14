@@ -1,4 +1,4 @@
-# 2888 - Reshape Data: Concatenate
+# 2888. Reshape Data: Concatenate
 
 import pandas as pd
 

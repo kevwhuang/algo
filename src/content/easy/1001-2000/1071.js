@@ -1,4 +1,4 @@
-// 1071 - Greatest Common Divisor of Strings
+// 1071. Greatest Common Divisor of Strings
 
 function gcdOfStrings(str1, str2) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

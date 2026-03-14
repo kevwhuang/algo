@@ -1,4 +1,4 @@
-// 135 - Candy
+// 135. Candy
 
 function candy(ratings) {
     if (!this.arr) arr = new Uint16Array(20000);

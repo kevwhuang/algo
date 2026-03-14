@@ -1,4 +1,4 @@
-// 1005 - Maximize Sum of Array After K Negations
+// 1005. Maximize Sum of Array After K Negations
 
 function largestSumAfterKNegations(nums, k) {
     nums = new Int8Array(nums).sort();

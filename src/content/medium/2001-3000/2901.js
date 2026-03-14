@@ -1,4 +1,4 @@
-// 2901 - Longest Unequal Adjacent Groups Subsequence II
+// 2901. Longest Unequal Adjacent Groups Subsequence II
 
 function getWordsInLongestSubsequence(words, groups) {
     const n = words.length;

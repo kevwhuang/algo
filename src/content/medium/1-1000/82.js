@@ -1,4 +1,4 @@
-// 82 - Remove Duplicates From Sorted List II
+// 82. Remove Duplicates From Sorted List II
 
 function deleteDuplicates(head) {
     const bucket = new Array(201).fill(0);

@@ -1,4 +1,4 @@
--- 2837 - Total Traveled Distance
+-- 2837. Total Traveled Distance
 
 SELECT
     user_id,

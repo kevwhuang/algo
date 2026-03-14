@@ -1,4 +1,4 @@
-// 119 - Pascal's Triangle II
+// 119. Pascal's Triangle II
 
 function getRow(rowIndex) {
     let cur = [1];

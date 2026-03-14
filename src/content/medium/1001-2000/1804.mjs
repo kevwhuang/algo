@@ -1,4 +1,4 @@
-// 1804 - Implement Trie II (Prefix Tree)
+// 1804. Implement Trie II (Prefix Tree)
 
 class Trie {
     constructor() {

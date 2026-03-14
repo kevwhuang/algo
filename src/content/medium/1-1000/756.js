@@ -1,4 +1,4 @@
-// 756 - Pyramid Transition Matrix
+// 756. Pyramid Transition Matrix
 
 function pyramidTransition(bottom, allowed) {
     function dfs(row, level) {

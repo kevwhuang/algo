@@ -1,4 +1,4 @@
-// 3471 - Find the Largest Almost Missing Integer
+// 3471. Find the Largest Almost Missing Integer
 
 function largestInteger(nums, k) {
     const max = nums.reduce((s, e) => Math.max(e, s));

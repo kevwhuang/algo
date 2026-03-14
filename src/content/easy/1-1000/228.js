@@ -1,4 +1,4 @@
-// 228 - Summary Ranges
+// 228. Summary Ranges
 
 function summaryRanges(nums) {
     if (nums.length === 0) return [];

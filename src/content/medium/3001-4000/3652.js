@@ -1,4 +1,4 @@
-// 3652 - Best Time to Buy and Sell Stock Using Strategy
+// 3652. Best Time to Buy and Sell Stock Using Strategy
 
 function maxProfit(prices, strategy, k) {
     const sum = prices.reduce((s, e, i) => s + e * strategy[i], 0);

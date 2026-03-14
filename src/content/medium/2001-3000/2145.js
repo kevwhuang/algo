@@ -1,4 +1,4 @@
-// 2145 - Count the Hidden Sequences
+// 2145. Count the Hidden Sequences
 
 function numberOfArrays(differences, lower, upper) {
     let acc = 0, min = 0, max = 0;

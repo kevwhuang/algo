@@ -1,4 +1,4 @@
-// 1984 - Minimum Difference Between Highest and Lowest of K Scores
+// 1984. Minimum Difference Between Highest and Lowest of K Scores
 
 function minimumDifference(nums, k) {
     nums.sort((a, b) => a - b);

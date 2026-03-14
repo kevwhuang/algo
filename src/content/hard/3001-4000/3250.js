@@ -1,3 +1,3 @@
-// 3250 - Find the Count of Monotonic Pairs I
+// 3250. Find the Count of Monotonic Pairs I
 
 

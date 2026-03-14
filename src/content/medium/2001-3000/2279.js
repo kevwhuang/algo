@@ -1,4 +1,4 @@
-// 2279 - Maximum Bags With Full Capacity of Rocks
+// 2279. Maximum Bags With Full Capacity of Rocks
 
 function maximumBags(capacity, rocks, additionalRocks) {
     for (let i = 0; i < capacity.length; i++) {

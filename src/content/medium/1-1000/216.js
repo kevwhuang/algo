@@ -1,4 +1,4 @@
-// 216 - Combination Sum III
+// 216. Combination Sum III
 
 function combinationSum3(k, n) {
     function backtrack(start, sum, cur) {

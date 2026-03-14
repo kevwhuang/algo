@@ -1,4 +1,4 @@
--- 550 - Game Play Analysis IV
+-- 550. Game Play Analysis IV
 
 WITH CTE AS (
     SELECT

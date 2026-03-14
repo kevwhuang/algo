@@ -1,4 +1,4 @@
-// 3848 - Check Digitorial Permutation
+// 3848. Check Digitorial Permutation
 
 function isDigitorialPermutation(n) {
     if (!this.dict) dict = [1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880];

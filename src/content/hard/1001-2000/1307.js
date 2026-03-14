@@ -1,3 +1,3 @@
-// 1307 - Verbal Arithmetic Puzzle
+// 1307. Verbal Arithmetic Puzzle
 
 

@@ -1,4 +1,4 @@
--- 1435 - Create a Session Bar Chart
+-- 1435. Create a Session Bar Chart
 
 SELECT
     '[0-5>' AS bin,

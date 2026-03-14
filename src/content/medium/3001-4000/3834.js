@@ -1,4 +1,4 @@
-// 3834 - Merge Adjacent Equal Elements
+// 3834. Merge Adjacent Equal Elements
 
 function mergeAdjacent(nums) {
     const res = [];

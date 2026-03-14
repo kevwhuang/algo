@@ -1,4 +1,4 @@
-// 1200 - Minimum Absolute Difference
+// 1200. Minimum Absolute Difference
 
 function minimumAbsDifference(arr) {
     arr = new Int32Array(arr).sort();

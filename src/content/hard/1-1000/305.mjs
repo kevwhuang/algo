@@ -1,4 +1,4 @@
-// 305 - Number of Islands II
+// 305. Number of Islands II
 
 function numIslands2(m, n, positions) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

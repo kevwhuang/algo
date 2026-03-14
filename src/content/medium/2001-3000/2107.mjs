@@ -1,4 +1,4 @@
-// 2107 - Number of Unique Flavors After Sharing K Candies
+// 2107. Number of Unique Flavors After Sharing K Candies
 
 function shareCandies(candies, k) {
     const map = new Map();

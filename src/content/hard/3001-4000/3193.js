@@ -1,3 +1,3 @@
-// 3193 - Count the Number of Inversions
+// 3193. Count the Number of Inversions
 
 

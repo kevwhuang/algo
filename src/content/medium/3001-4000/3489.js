@@ -1,4 +1,4 @@
-// 3489 - Zero Array Transformation IV
+// 3489. Zero Array Transformation IV
 
 function minZeroArray(nums, queries) {
     let res = 0, i = -1;

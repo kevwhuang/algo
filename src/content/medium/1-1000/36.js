@@ -1,4 +1,4 @@
-// 36 - Valid Sudoku
+// 36. Valid Sudoku
 
 function isValidSudoku(board) {
     function check(r, c, seen) {

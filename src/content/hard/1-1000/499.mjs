@@ -1,4 +1,4 @@
-// 499 - The Maze III
+// 499. The Maze III
 
 function findShortestWay(maze, ball, hole) {
     const M = maze, m = M.length, n = M[0].length;

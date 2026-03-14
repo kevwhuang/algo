@@ -1,4 +1,4 @@
-// 732 - My Calendar III
+// 732. My Calendar III
 
 class MyCalendarThree {
     constructor() {

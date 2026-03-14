@@ -1,4 +1,4 @@
-// 3422 - Minimum Operations to Make Subarray Elements Equal
+// 3422. Minimum Operations to Make Subarray Elements Equal
 
 function minOperations(nums, k) {
     function fn1(heap) {

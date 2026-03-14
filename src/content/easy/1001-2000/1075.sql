@@ -1,4 +1,4 @@
--- 1075 - Project Employees I
+-- 1075. Project Employees I
 
 SELECT
     project_id,

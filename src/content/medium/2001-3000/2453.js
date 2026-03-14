@@ -1,4 +1,4 @@
-// 2453 - Destroy Sequential Targets
+// 2453. Destroy Sequential Targets
 
 function destroyTargets(nums, space) {
     let max = 0;

@@ -1,4 +1,4 @@
-// 1271 - Hexspeak
+// 1271. Hexspeak
 
 function toHexspeak(num) {
     let res = '';

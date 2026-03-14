@@ -1,4 +1,4 @@
-// 2460 - Apply Operations to an Array
+// 2460. Apply Operations to an Array
 
 function applyOperations(nums) {
     for (let i = 1; i < nums.length; i++) {

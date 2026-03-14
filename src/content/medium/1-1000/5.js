@@ -1,4 +1,4 @@
-// 5 - Longest Palindromic Substring
+// 5. Longest Palindromic Substring
 
 function longestPalindrome(s) {
     let res = '', i = -1, l, r;

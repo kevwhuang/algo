@@ -1,4 +1,4 @@
-// 2671 - Frequency Tracker
+// 2671. Frequency Tracker
 
 class FrequencyTracker {
     constructor() {

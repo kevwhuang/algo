@@ -1,4 +1,4 @@
-// 868 - Binary Gap
+// 868. Binary Gap
 
 function binaryGap(n) {
     n = n.toString(2);

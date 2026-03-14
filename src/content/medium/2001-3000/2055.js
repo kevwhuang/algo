@@ -1,4 +1,4 @@
-// 2055 - Plates Between Candles
+// 2055. Plates Between Candles
 
 function platesBetweenCandles(s, queries) {
     function binarySearchAtLeast(l, r, target) {

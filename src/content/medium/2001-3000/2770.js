@@ -1,4 +1,4 @@
-// 2770 - Maximum Number of Jumps to Reach the Last Index
+// 2770. Maximum Number of Jumps to Reach the Last Index
 
 function maximumJumps(nums, target) {
     const n = nums.length, dp = new Uint16Array(n);

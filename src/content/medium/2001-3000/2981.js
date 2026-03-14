@@ -1,4 +1,4 @@
-// 2981 - Find Longest Special Substring That Occurs Thrice I
+// 2981. Find Longest Special Substring That Occurs Thrice I
 
 function maximumLength(s) {
     const map = new Map();

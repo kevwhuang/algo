@@ -1,4 +1,4 @@
-// 2380 - Time Needed to Rearrange a Binary String
+// 2380. Time Needed to Rearrange a Binary String
 
 function secondsToRemoveOccurrences(s) {
     let res = 0, acc = 0, i = -1;

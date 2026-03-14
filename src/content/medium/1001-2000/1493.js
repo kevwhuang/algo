@@ -1,4 +1,4 @@
-// 1493 - Longest Subarray of 1's After Deleting One Element
+// 1493. Longest Subarray of 1's After Deleting One Element
 
 function longestSubarray(nums) {
     let l = 0, r = 0, k = 1;

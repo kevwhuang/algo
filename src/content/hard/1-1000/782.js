@@ -1,3 +1,3 @@
-// 782 - Transform to Chessboard
+// 782. Transform to Chessboard
 
 

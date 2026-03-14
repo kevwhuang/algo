@@ -1,4 +1,4 @@
-// 1105 - Filling Bookcase Shelves
+// 1105. Filling Bookcase Shelves
 
 function minHeightShelves(books, shelfWidth) {
     const dp = new Uint32Array(books.length + 1).fill(-1);

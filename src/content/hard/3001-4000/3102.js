@@ -1,3 +1,3 @@
-// 3102 - Minimize Manhattan Distances
+// 3102. Minimize Manhattan Distances
 
 

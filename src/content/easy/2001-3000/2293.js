@@ -1,4 +1,4 @@
-// 2293 - Min Max Game
+// 2293. Min Max Game
 
 function minMaxGame(nums) {
     while (nums.length > 1) {

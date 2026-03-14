@@ -1,4 +1,4 @@
-// 2491 - Divide Players Into Teams of Equal Skill
+// 2491. Divide Players Into Teams of Equal Skill
 
 function dividePlayers(skill) {
     const bucket = new Array(1001).fill(0);

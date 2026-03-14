@@ -1,4 +1,4 @@
-// 748 - Shortest Completing Word
+// 748. Shortest Completing Word
 
 function shortestCompletingWord(licensePlate, words) {
     licensePlate = licensePlate.toLowerCase();

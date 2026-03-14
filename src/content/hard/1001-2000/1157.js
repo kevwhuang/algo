@@ -1,3 +1,3 @@
-// 1157 - Online Majority Element in Subarray
+// 1157. Online Majority Element in Subarray
 
 

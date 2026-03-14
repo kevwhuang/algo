@@ -1,4 +1,4 @@
-// 692 - Top K Frequent Words
+// 692. Top K Frequent Words
 
 function topKFrequent(words, k) {
     words.sort((a, b) => a < b ? -1 : 1);

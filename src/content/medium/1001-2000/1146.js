@@ -1,4 +1,4 @@
-// 1146 - Snapshot Array
+// 1146. Snapshot Array
 
 class SnapshotArray {
     constructor(length) {

@@ -1,4 +1,4 @@
-// 2014 - Longest Subsequence Repeated K Times
+// 2014. Longest Subsequence Repeated K Times
 
 function longestSubsequenceRepeatedK(s, k) {
     function dfs(s) {

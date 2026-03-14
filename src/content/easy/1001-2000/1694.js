@@ -1,4 +1,4 @@
-// 1694 - Reformat Phone Number
+// 1694. Reformat Phone Number
 
 function reformatNumber(number) {
     let res = '', i = 0;

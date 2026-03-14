@@ -1,4 +1,4 @@
--- 1699 - Number of Calls Between Two Persons
+-- 1699. Number of Calls Between Two Persons
 
 SELECT
     LEAST(from_id, to_id) AS person1,

@@ -1,4 +1,4 @@
-// 3238 - Find the Number of Winning Players
+// 3238. Find the Number of Winning Players
 
 function winningPlayerCount(n, pick) {
     const M = Array.from({ length: n }, () => new Uint8Array(11));

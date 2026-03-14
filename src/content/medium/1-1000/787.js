@@ -1,4 +1,4 @@
-// 787 - Cheapest Flights Within K Stops
+// 787. Cheapest Flights Within K Stops
 
 function findCheapestPrice(n, flights, src, dst, k) {
     const adj = {};

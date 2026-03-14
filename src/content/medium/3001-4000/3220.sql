@@ -1,4 +1,4 @@
--- 3220 - Odd and Even Transactions
+-- 3220. Odd and Even Transactions
 
 SELECT
     transaction_date,

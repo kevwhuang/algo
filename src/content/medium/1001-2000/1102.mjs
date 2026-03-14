@@ -1,4 +1,4 @@
-// 1102 - Path With Maximum Minimum Value
+// 1102. Path With Maximum Minimum Value
 
 function maximumMinimumPath(grid) {
     function dfs(r, c) {

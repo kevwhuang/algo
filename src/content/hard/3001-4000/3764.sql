@@ -1,4 +1,4 @@
--- 3764 - Most Common Course Pairs
+-- 3764. Most Common Course Pairs
 
 WITH CTE1 AS (
     SELECT

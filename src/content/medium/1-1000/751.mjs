@@ -1,4 +1,4 @@
-// 751 - IP to CIDR
+// 751. IP to CIDR
 
 function ipToCIDR(ip, n) {
     ip = ip.split('.').reduce((s, group) => 256 * s + Number(group));

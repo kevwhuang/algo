@@ -1,3 +1,3 @@
-// 2286 - Booking Concert Tickets in Groups
+// 2286. Booking Concert Tickets in Groups
 
 

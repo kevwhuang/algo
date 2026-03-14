@@ -1,4 +1,4 @@
-// 1895 - Largest Magic Square
+// 1895. Largest Magic Square
 
 function largestMagicSquare(grid) {
     const check = (r, c) => ~r && r < m && ~c && c < n;

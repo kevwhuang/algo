@@ -1,4 +1,4 @@
-// 973 - K Closest Points to Origin
+// 973. K Closest Points to Origin
 
 function kClosest(points, k) {
     const M = points;

@@ -1,4 +1,4 @@
-// 676 - Implement Magic Dictionary
+// 676. Implement Magic Dictionary
 
 class MagicDictionary {
     constructor() {

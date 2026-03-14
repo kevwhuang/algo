@@ -1,4 +1,4 @@
-// 3396 - Minimum Number of Operations to Make Elements in Array Distinct
+// 3396. Minimum Number of Operations to Make Elements in Array Distinct
 
 function minimumOperations(nums) {
     let res = 0, acc = 0, i = 0;

@@ -1,4 +1,4 @@
-// 3392 - Count Subarrays of Length Three With a Condition
+// 3392. Count Subarrays of Length Three With a Condition
 
 function countSubarrays(nums) {
     let res = 0;

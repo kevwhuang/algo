@@ -1,4 +1,4 @@
-// 2811 - Check If It Is Possible to Split Array
+// 2811. Check If It Is Possible to Split Array
 
 function canSplitArray(nums, m) {
     for (let i = nums.length - 1; i; i--) {

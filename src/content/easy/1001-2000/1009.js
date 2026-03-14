@@ -1,4 +1,4 @@
-// 1009 - Complement of Base 10 Integer
+// 1009. Complement of Base 10 Integer
 
 function bitwiseComplement(n) {
     let mask = 1;

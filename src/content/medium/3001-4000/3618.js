@@ -1,4 +1,4 @@
-// 3618 - Split Array by Prime Indices
+// 3618. Split Array by Prime Indices
 
 function splitArray(nums) {
     function init() {

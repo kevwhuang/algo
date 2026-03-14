@@ -1,4 +1,4 @@
-// 91 - Decode Ways
+// 91. Decode Ways
 
 function numDecodings(s) {
     let a = 1, b = s.at(-1) > 0 ? 1 : 0, i = s.length - 1;

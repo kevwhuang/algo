@@ -1,4 +1,4 @@
-// 2958 - Length of Longest Subarray With at Most K Frequency
+// 2958. Length of Longest Subarray With at Most K Frequency
 
 function maxSubarrayLength(nums, k) {
     let max = 1;

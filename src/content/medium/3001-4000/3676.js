@@ -1,4 +1,4 @@
-// 3676 - Count Bowl Subarrays
+// 3676. Count Bowl Subarrays
 
 function bowlSubarrays(nums) {
     let res = 0, i = -1;

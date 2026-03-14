@@ -1,4 +1,4 @@
-// 883 - Projection Area of 3D Shapes
+// 883. Projection Area of 3D Shapes
 
 function projectionArea(grid) {
     const n = grid.length;

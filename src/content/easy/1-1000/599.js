@@ -1,4 +1,4 @@
-// 599 - Minimum Index Sum of Two Lists
+// 599. Minimum Index Sum of Two Lists
 
 function findRestaurant(list1, list2) {
     const map = new Map();

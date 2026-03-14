@@ -1,4 +1,4 @@
-// 1950 - Maximum of Minimum Values in All Subarrays
+// 1950. Maximum of Minimum Values in All Subarrays
 
 function findMaximums(nums) {
     nums.push(-Infinity);

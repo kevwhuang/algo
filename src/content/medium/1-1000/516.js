@@ -1,4 +1,4 @@
-// 516 - Longest Palindromic Subsequence
+// 516. Longest Palindromic Subsequence
 
 function longestPalindromeSubseq(s) {
     const dp = new Uint16Array(s.length).fill(1);

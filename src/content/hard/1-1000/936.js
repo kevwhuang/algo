@@ -1,3 +1,3 @@
-// 936 - Stamping the Sequence
+// 936. Stamping the Sequence
 
 

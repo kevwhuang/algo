@@ -1,4 +1,4 @@
-// 632 - Smallest Range Covering Elements From K Lists
+// 632. Smallest Range Covering Elements From K Lists
 
 function smallestRange(nums) {
     const M = nums, n = nums.length;

@@ -1,4 +1,4 @@
-// 1775 - Equal Sum Arrays With Minimum Number of Operations
+// 1775. Equal Sum Arrays With Minimum Number of Operations
 
 function minOperations(nums1, nums2) {
     function generate(nums) {

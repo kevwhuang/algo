@@ -1,4 +1,4 @@
-// 261 - Graph Valid Tree
+// 261. Graph Valid Tree
 
 function validTree(n, edges) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

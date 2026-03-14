@@ -1,4 +1,4 @@
-// 2421 - Number of Good Paths
+// 2421. Number of Good Paths
 
 function numberOfGoodPaths(vals, edges) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

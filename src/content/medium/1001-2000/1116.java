@@ -1,4 +1,4 @@
-// 1116 - Print Zero Even Odd
+// 1116. Print Zero Even Odd
 
 class ZeroEvenOdd {
     private int n;

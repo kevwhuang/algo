@@ -1,4 +1,4 @@
-// 1878 - Get Biggest Three Rhombus Sums in a Grid
+// 1878. Get Biggest Three Rhombus Sums in a Grid
 
 function getBiggestThree(grid) {
     function record(sum) {

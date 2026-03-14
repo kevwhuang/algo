@@ -1,4 +1,4 @@
-// 739 - Daily Temperatures
+// 739. Daily Temperatures
 
 function dailyTemperatures(temperatures) {
     const res = new Uint32Array(temperatures.length);

@@ -1,4 +1,4 @@
-// 3360 - Stone Removal Game
+// 3360. Stone Removal Game
 
 function canAliceWin(n) {
     let cur = 10;

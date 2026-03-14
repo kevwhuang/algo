@@ -1,3 +1,3 @@
-// 2931 - Maximum Spending After Buying Items
+// 2931. Maximum Spending After Buying Items
 
 

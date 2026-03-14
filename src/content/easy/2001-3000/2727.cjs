@@ -1,4 +1,4 @@
-// 2727 - Is Object Empty
+// 2727. Is Object Empty
 
 function isEmpty(obj) {
     for (const _ in obj) {

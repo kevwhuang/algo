@@ -1,4 +1,4 @@
-// 1465 - Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
+// 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
 
 function maxArea(h, w, horizontalCuts, verticalCuts) {
     function len(arr, bound) {

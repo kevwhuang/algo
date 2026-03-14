@@ -1,4 +1,4 @@
-// 85 - Maximal Rectangle
+// 85. Maximal Rectangle
 
 function maximalRectangle(matrix) {
     let res = 0;

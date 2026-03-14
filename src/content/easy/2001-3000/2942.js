@@ -1,4 +1,4 @@
-// 2942 - Find Words Containing Character
+// 2942. Find Words Containing Character
 
 function findWordsContaining(words, x) {
     const res = [];

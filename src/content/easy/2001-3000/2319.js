@@ -1,4 +1,4 @@
-// 2319 - Check If Matrix Is X-Matrix
+// 2319. Check If Matrix Is X-Matrix
 
 function checkXMatrix(grid) {
     const m = grid.length, n = grid[0].length;

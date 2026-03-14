@@ -1,4 +1,4 @@
-// 2788 - Split Strings by Separator
+// 2788. Split Strings by Separator
 
 function splitWordsBySeparator(words, separator) {
     const res = [];

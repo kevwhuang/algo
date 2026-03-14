@@ -1,4 +1,4 @@
--- 3451 - Find Invalid IP Addresses
+-- 3451. Find Invalid IP Addresses
 
 SELECT
     ip,

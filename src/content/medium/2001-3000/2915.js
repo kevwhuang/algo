@@ -1,4 +1,4 @@
-// 2915 - Length of the Longest Subsequence That Sums to Target
+// 2915. Length of the Longest Subsequence That Sums to Target
 
 function lengthOfLongestSubsequence(nums, target) {
     const dp = new Uint16Array(target + 1);

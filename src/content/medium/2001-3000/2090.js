@@ -1,4 +1,4 @@
-// 2090 - K Radius Subarray Averages
+// 2090. K Radius Subarray Averages
 
 function getAverages(nums, k) {
     const res = new Int32Array(nums.length).fill(-1);

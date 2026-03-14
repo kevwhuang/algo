@@ -1,4 +1,4 @@
-// 1619 - Mean of Array After Removing Some Elements
+// 1619. Mean of Array After Removing Some Elements
 
 function trimMean(arr) {
     arr = new Uint32Array(arr).sort();

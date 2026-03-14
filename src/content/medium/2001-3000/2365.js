@@ -1,4 +1,4 @@
-// 2365 - Task Scheduler II
+// 2365. Task Scheduler II
 
 function taskSchedulerII(tasks, space) {
     let days = 0;

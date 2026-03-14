@@ -1,3 +1,3 @@
-// 1932 - Merge BSTs to Create Single BST
+// 1932. Merge BSTs to Create Single BST
 
 

@@ -1,4 +1,4 @@
-// 1851 - Minimum Interval to Include Each Query
+// 1851. Minimum Interval to Include Each Query
 
 function minInterval(intervals, queries) {
     const M = intervals.sort((a, b) => a[0] - b[0]);

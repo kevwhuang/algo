@@ -1,4 +1,4 @@
-// 2865 - Beautiful Towers I
+// 2865. Beautiful Towers I
 
 function maximumSumOfHeights(heights) {
     function traverse(i, inc, lim) {

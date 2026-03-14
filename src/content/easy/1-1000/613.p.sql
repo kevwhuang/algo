@@ -1,4 +1,4 @@
--- 613 - Shortest Distance in a Line
+-- 613. Shortest Distance in a Line
 
 SELECT
     MIN(P1.x - P2.x) AS shortest

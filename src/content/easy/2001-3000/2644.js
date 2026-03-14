@@ -1,4 +1,4 @@
-// 2644 - Find the Maximum Divisibility Score
+// 2644. Find the Maximum Divisibility Score
 
 function maxDivScore(nums, divisors) {
     let min = Infinity, maxScore = -Infinity;

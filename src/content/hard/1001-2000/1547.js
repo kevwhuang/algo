@@ -1,3 +1,3 @@
-// 1547 - Minimum Cost to Cut a Stick
+// 1547. Minimum Cost to Cut a Stick
 
 

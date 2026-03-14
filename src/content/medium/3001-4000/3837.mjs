@@ -1,4 +1,4 @@
-// 3837 - Delayed Count of Equal Elements
+// 3837. Delayed Count of Equal Elements
 
 function delayedCount(nums, k) {
     const res = new Uint32Array(nums.length);

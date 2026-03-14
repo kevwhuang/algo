@@ -1,4 +1,4 @@
-// 2049 - Count Nodes With the Highest Score
+// 2049. Count Nodes With the Highest Score
 
 function countHighestScoreNodes(parents) {
     function dfs(node) {

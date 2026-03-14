@@ -1,4 +1,4 @@
-// 1806 - Minimum Number of Operations to Reinitialize a Permutation
+// 1806. Minimum Number of Operations to Reinitialize a Permutation
 
 function reinitializePermutation(n) {
     let perm = new Array(n);

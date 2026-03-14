@@ -1,4 +1,4 @@
-// 3179 - Find the Nth Value After K Seconds
+// 3179. Find the Nth Value After K Seconds
 
 function valueAfterKSeconds(n, k) {
     const arr = new Uint32Array(n).fill(1);

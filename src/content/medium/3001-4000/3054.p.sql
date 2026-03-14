@@ -1,4 +1,4 @@
--- 3054 - Binary Tree Nodes
+-- 3054. Binary Tree Nodes
 
 SELECT
     n,

@@ -1,4 +1,4 @@
-// 2345 - Finding the Number of Visible Mountains
+// 2345. Finding the Number of Visible Mountains
 
 function visibleMountains(peaks) {
     for (let i = 0; i < peaks.length; i++) {

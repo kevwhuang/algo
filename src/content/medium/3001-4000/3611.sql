@@ -1,4 +1,4 @@
--- 3611 - Find Overbooked Employees
+-- 3611. Find Overbooked Employees
 
 WITH CTE AS (
     SELECT

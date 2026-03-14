@@ -1,4 +1,4 @@
-// 2333 - Minimum Sum of Squared Difference
+// 2333. Minimum Sum of Squared Difference
 
 function minSumSquareDiff(nums1, nums2, k1, k2) {
     const arr = new Array(nums1.length);

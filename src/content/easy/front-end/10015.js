@@ -1,4 +1,4 @@
-// 10015 - Add Delegated Event Listener
+// 10015. Add Delegated Event Listener
 
 export function addDelegatedEventListener(eventName, cssSelector, callback) {
     function fn(e) {

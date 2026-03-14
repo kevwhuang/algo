@@ -1,4 +1,4 @@
-// 2083 - Substrings That Begin and End With the Same Letter
+// 2083. Substrings That Begin and End With the Same Letter
 
 function numberOfSubstrings(s) {
     const freqs = new Array(26).fill(0);

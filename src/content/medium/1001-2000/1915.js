@@ -1,4 +1,4 @@
-// 1915 - Number of Wonderful Substrings
+// 1915. Number of Wonderful Substrings
 
 function wonderfulSubstrings(word) {
     const arr = new Uint32Array(1024);

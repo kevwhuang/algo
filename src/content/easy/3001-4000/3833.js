@@ -1,4 +1,4 @@
-// 3833 - Count Dominant Indices
+// 3833. Count Dominant Indices
 
 function dominantIndices(nums) {
     let res = 0;

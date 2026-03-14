@@ -1,4 +1,4 @@
-// 2299 - Strong Password Checker II
+// 2299. Strong Password Checker II
 
 function strongPasswordCheckerII(password) {
     if (password.length < 8) return false;

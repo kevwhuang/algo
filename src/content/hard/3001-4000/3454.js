@@ -1,3 +1,3 @@
-// 3454 - Separate Squares II
+// 3454. Separate Squares II
 
 

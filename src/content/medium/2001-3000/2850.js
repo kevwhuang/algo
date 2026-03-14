@@ -1,4 +1,4 @@
-// 2850 - Minimum Moves to Spread Stones Over Grid
+// 2850. Minimum Moves to Spread Stones Over Grid
 
 function minimumMoves(grid) {
     function backtrack(i) {

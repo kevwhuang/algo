@@ -1,3 +1,3 @@
-// 1655 - Distribute Repeating Integers
+// 1655. Distribute Repeating Integers
 
 

@@ -1,4 +1,4 @@
-// 2077 - Paths in Maze That Lead to Same Room
+// 2077. Paths in Maze That Lead to Same Room
 
 function numberOfPaths(n, corridors) {
     const adj = Array.from({ length: n }, () => new Set());

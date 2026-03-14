@@ -1,4 +1,4 @@
-// 2855 - Minimum Right Shifts to Sort the Array
+// 2855. Minimum Right Shifts to Sort the Array
 
 function minimumRightShifts(nums) {
     let shift, pivot = 0;

@@ -1,4 +1,4 @@
-// 3085 - Minimum Deletions to Make String K-Special
+// 3085. Minimum Deletions to Make String K-Special
 
 function minimumDeletions(word, k) {
     const bucket = new Uint32Array(26);

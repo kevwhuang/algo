@@ -1,4 +1,4 @@
-// 1401 - Circle and Rectangle Overlapping
+// 1401. Circle and Rectangle Overlapping
 
 function checkOverlap(radius, xCenter, yCenter, x1, y1, x2, y2) {
     const dx = Math.max(0, x1 - xCenter, xCenter - x2);

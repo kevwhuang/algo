@@ -1,4 +1,4 @@
-// 1750 - Minimum Length of String After Deleting Similar Ends
+// 1750. Minimum Length of String After Deleting Similar Ends
 
 function minimumLength(s) {
     let l = 0, r = s.length - 1;

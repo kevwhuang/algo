@@ -1,4 +1,4 @@
-// 2982 - Find Longest Special Substring That Occurs Thrice II
+// 2982. Find Longest Special Substring That Occurs Thrice II
 
 function maximumLength(s) {
     function insert(i) {

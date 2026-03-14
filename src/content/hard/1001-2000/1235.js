@@ -1,4 +1,4 @@
-// 1235 - Maximum Profit in Job Scheduling
+// 1235. Maximum Profit in Job Scheduling
 
 function jobScheduling(startTime, endTime, profit) {
     const n = profit.length;

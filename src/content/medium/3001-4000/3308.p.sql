@@ -1,4 +1,4 @@
--- 3308 - Find Top Performing Driver
+-- 3308. Find Top Performing Driver
 
 WITH CTE AS (
     SELECT

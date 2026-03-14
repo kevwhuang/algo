@@ -1,4 +1,4 @@
-// 2265 - Count Nodes Equal to Average of Subtree
+// 2265. Count Nodes Equal to Average of Subtree
 
 function averageOfSubtree(root) {
     function dfs(node) {

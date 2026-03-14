@@ -1,4 +1,4 @@
-// 888 - Fair Candy Swap
+// 888. Fair Candy Swap
 
 function fairCandySwap(aliceSizes, bobSizes) {
     const aliceTotal = aliceSizes.reduce((s, e) => s + e, 0);

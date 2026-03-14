@@ -1,3 +1,3 @@
-// 2334 - Subarray With Elements Greater Than Varying Threshold
+// 2334. Subarray With Elements Greater Than Varying Threshold
 
 

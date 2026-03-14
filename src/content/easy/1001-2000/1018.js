@@ -1,4 +1,4 @@
-// 1018 - Binary Prefix Divisible by 5
+// 1018. Binary Prefix Divisible by 5
 
 function prefixesDivBy5(nums) {
     for (let i = 0, lsd = 0; i < nums.length; i++) {

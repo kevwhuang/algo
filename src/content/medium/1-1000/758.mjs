@@ -1,4 +1,4 @@
-// 758 - Bold Words in String
+// 758. Bold Words in String
 
 function boldWords(words, s) {
     const bold = new Array(s.length);

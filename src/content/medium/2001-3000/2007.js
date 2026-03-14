@@ -1,4 +1,4 @@
-// 2007 - Find Original Array From Doubled Array
+// 2007. Find Original Array From Doubled Array
 
 function findOriginalArray(changed) {
     if (changed.length % 2) return [];

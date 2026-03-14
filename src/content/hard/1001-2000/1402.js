@@ -1,4 +1,4 @@
-// 1402 - Reducing Dishes
+// 1402. Reducing Dishes
 
 function maxSatisfaction(satisfaction) {
     satisfaction = new Int16Array(satisfaction).sort();

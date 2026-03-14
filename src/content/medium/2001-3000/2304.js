@@ -1,4 +1,4 @@
-// 2304 - Minimum Path Cost in a Grid
+// 2304. Minimum Path Cost in a Grid
 
 function minPathCost(grid, moveCost) {
     const m = grid.length, n = grid[0].length;

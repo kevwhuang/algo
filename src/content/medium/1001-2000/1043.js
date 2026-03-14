@@ -1,4 +1,4 @@
-// 1043 - Partition Array for Maximum Sum
+// 1043. Partition Array for Maximum Sum
 
 function maxSumAfterPartitioning(arr, k) {
     const dp = new Array(arr.length + 1);

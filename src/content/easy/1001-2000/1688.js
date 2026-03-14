@@ -1,4 +1,4 @@
-// 1688 - Count of Matches in Tournament
+// 1688. Count of Matches in Tournament
 
 function numberOfMatches(n) {
     let matches = 0;

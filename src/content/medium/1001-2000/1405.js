@@ -1,4 +1,4 @@
-// 1405 - Longest Happy String
+// 1405. Longest Happy String
 
 function longestDiverseString(a, b, c) {
     let res = '';

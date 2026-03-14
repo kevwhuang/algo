@@ -1,4 +1,4 @@
-// 2700 - Differences Between Two Objects
+// 2700. Differences Between Two Objects
 
 function objDiff(obj1, obj2) {
     if (obj1 === obj2) return [];

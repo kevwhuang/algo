@@ -1,4 +1,4 @@
-// 1002 - Find Common Characters
+// 1002. Find Common Characters
 
 function commonChars(words) {
     const B = new Uint8Array(26);

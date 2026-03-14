@@ -1,4 +1,4 @@
-// 1967 - Number of Strings That Appear as Substrings in Word
+// 1967. Number of Strings That Appear as Substrings in Word
 
 function numOfStrings(patterns, word) {
     let count = 0;

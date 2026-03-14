@@ -1,4 +1,4 @@
-// 331 - Verify Preorder Serialization of a Binary Tree
+// 331. Verify Preorder Serialization of a Binary Tree
 
 function isValidSerialization(preorder) {
     preorder = preorder.split(',');

@@ -1,4 +1,4 @@
-// 2960 - Count Tested Devices After Test Operations
+// 2960. Count Tested Devices After Test Operations
 
 function countTestedDevices(batteryPercentages) {
     let devices = 0, penalty = 0;

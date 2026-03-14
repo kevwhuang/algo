@@ -1,4 +1,4 @@
-// 3702 - Longest Subsequence With Non-Zero Bitwise XOR
+// 3702. Longest Subsequence With Non-Zero Bitwise XOR
 
 function longestSubsequence(nums) {
     const n = nums.length;

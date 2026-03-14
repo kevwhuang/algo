@@ -1,4 +1,4 @@
-// 766 - Toeplitz Matrix
+// 766. Toeplitz Matrix
 
 function isToeplitzMatrix(matrix) {
     for (let i = 1; i < matrix.length; i++) {

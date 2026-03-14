@@ -1,4 +1,4 @@
-// 1230 - Toss Strange Coins
+// 1230. Toss Strange Coins
 
 function probabilityOfHeads(prob, target) {
     const n = prob.length, dp = new Float32Array(n + 1);

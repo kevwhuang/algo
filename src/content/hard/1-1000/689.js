@@ -1,3 +1,3 @@
-// 689 - Maximum Sum of 3 Non-Overlapping Subarrays
+// 689. Maximum Sum of 3 Non-Overlapping Subarrays
 
 

@@ -1,4 +1,4 @@
-// 3472 - Longest Palindromic Subsequence After at Most K Operations
+// 3472. Longest Palindromic Subsequence After at Most K Operations
 
 function longestPalindromicSubsequence(s, k) {
     function dfs(l, r, acc) {

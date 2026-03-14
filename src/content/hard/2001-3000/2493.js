@@ -1,4 +1,4 @@
-// 2493 - Divide Nodes Into the Maximum Number of Groups
+// 2493. Divide Nodes Into the Maximum Number of Groups
 
 function magnificentSets(n, edges) {
     let res = 0;

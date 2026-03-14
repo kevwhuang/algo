@@ -1,4 +1,4 @@
-// 482 - License Key Formatting
+// 482. License Key Formatting
 
 function licenseKeyFormatting(s, k) {
     const arr = s.replaceAll('-', '').toUpperCase().split('');

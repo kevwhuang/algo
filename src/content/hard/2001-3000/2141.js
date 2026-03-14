@@ -1,4 +1,4 @@
-// 2141 - Maximum Running Time of N Computers
+// 2141. Maximum Running Time of N Computers
 
 function maxRunTime(n, batteries) {
     let l = 1, r = Math.floor(batteries.reduce((s, e) => s + e) / n);

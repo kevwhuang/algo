@@ -1,4 +1,4 @@
-// 653 - Two Sum IV - Input Is a BST
+// 653. Two Sum IV - Input Is a BST
 
 function findTarget(root, k) {
     const set = new Set();

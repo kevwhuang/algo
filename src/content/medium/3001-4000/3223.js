@@ -1,4 +1,4 @@
-// 3223 - Minimum Length of String After Operations
+// 3223. Minimum Length of String After Operations
 
 function minimumLength(s) {
     const bucket = new Array(26).fill(0);

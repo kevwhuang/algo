@@ -1,4 +1,4 @@
-// 3185 - Count Pairs That Form a Complete Day II
+// 3185. Count Pairs That Form a Complete Day II
 
 function countCompleteDayPairs(hours) {
     const bucket = new Array(24).fill(0);

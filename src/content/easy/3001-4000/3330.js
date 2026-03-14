@@ -1,4 +1,4 @@
-// 3330 - Find the Original Typed String I
+// 3330. Find the Original Typed String I
 
 function possibleStringCount(word) {
     let res = 1, i = 0;

@@ -1,4 +1,4 @@
-// 2203 - Minimum Weighted Subgraph With the Required Paths
+// 2203. Minimum Weighted Subgraph With the Required Paths
 
 function minimumWeight(n, edges, src1, src2, dest) {
     function check(tgt, adj) {

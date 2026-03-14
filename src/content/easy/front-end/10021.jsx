@@ -1,4 +1,4 @@
-// 10021 - Checkbox Group
+// 10021. Checkbox Group
 
 export function CheckboxGroup({ name, options, onChange }) {
     function handleChange() {

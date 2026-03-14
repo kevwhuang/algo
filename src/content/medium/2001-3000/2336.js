@@ -1,4 +1,4 @@
-// 2336 - Smallest Number in Infinite Set
+// 2336. Smallest Number in Infinite Set
 
 class SmallestInfiniteSet {
     constructor() {

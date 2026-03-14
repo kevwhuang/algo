@@ -1,4 +1,4 @@
-// 3176 - Find the Maximum Length of a Good Subsequence I
+// 3176. Find the Maximum Length of a Good Subsequence I
 
 function maximumLength(nums, k) {
     const map = new Map(), dp1 = new Uint16Array(k + 1);

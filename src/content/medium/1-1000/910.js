@@ -1,4 +1,4 @@
-// 910 - Smallest Range II
+// 910. Smallest Range II
 
 function smallestRangeII(nums, k) {
     nums.sort((a, b) => a - b);

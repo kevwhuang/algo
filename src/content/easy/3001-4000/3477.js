@@ -1,4 +1,4 @@
-// 3477 - Fruits Into Baskets II
+// 3477. Fruits Into Baskets II
 
 function numOfUnplacedFruits(fruits, baskets) {
     for (let i = 0; i < fruits.length; i++) {

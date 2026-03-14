@@ -1,4 +1,4 @@
-// 1874 - Minimize Product Sum of Two Arrays
+// 1874. Minimize Product Sum of Two Arrays
 
 function minProductSum(nums1, nums2) {
     const bucket1 = new Array(101).fill(0);

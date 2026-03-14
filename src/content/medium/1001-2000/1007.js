@@ -1,4 +1,4 @@
-// 1007 - Minimum Domino Rotations for Equal Row
+// 1007. Minimum Domino Rotations for Equal Row
 
 function minDominoRotations(tops, bottoms) {
     let min = Infinity;

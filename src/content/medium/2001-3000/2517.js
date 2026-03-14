@@ -1,4 +1,4 @@
-// 2517 - Maximum Tastiness of Candy Basket
+// 2517. Maximum Tastiness of Candy Basket
 
 function maximumTastiness(price, k) {
     price = new Uint32Array(price).sort();

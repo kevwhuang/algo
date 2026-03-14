@@ -1,4 +1,4 @@
-// 2956 - Find Common Elements Between Two Arrays
+// 2956. Find Common Elements Between Two Arrays
 
 function findIntersectionValues(nums1, nums2) {
     const res = [0, 0];

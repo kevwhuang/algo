@@ -1,3 +1,3 @@
-// 1916 - Count Ways to Build Rooms in an Ant Colony
+// 1916. Count Ways to Build Rooms in an Ant Colony
 
 

@@ -1,4 +1,4 @@
-// 2131 - Longest Palindrome by Concatenating Two Letter Words
+// 2131. Longest Palindrome by Concatenating Two Letter Words
 
 function longestPalindrome(words) {
     const map = new Map();

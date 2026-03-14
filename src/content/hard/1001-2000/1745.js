@@ -1,3 +1,3 @@
-// 1745 - Palindrome Partitioning IV
+// 1745. Palindrome Partitioning IV
 
 

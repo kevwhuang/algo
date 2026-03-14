@@ -1,4 +1,4 @@
-// 2231 - Largest Number After Digit Swaps by Parity
+// 2231. Largest Number After Digit Swaps by Parity
 
 function largestInteger(num) {
     num = num.toString().split('');

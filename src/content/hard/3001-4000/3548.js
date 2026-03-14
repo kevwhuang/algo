@@ -1,3 +1,3 @@
-// 3548 - Equal Sum Grid Partition II
+// 3548. Equal Sum Grid Partition II
 
 

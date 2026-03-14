@@ -1,4 +1,4 @@
-// 2510 - Check If There Is a Path With Equal Number of 0's and 1's
+// 2510. Check If There Is a Path With Equal Number of 0's and 1's
 
 function isThereAPath(grid) {
     const M = grid, m = M.length, n = M[0].length;

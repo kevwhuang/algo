@@ -1,4 +1,4 @@
-// 1191 - K-Concatenation Maximum Sum
+// 1191. K-Concatenation Maximum Sum
 
 function kConcatenationMaxSum(arr, k) {
     let max1 = 0, max2 = 0, acc1 = 0, acc2 = 0;

@@ -1,4 +1,4 @@
-// 83 - Remove Duplicates From Sorted List
+// 83. Remove Duplicates From Sorted List
 
 function deleteDuplicates(head) {
     let node = head;

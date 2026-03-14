@@ -1,4 +1,4 @@
-// 2739 - Total Distance Traveled
+// 2739. Total Distance Traveled
 
 function distanceTraveled(mainTank, additionalTank) {
     let km = 0;

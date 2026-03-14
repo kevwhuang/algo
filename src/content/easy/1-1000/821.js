@@ -1,4 +1,4 @@
-// 821 - Shortest Distance to a Character
+// 821. Shortest Distance to a Character
 
 function shortestToChar(s, c) {
     const distances = new Array(s.length);

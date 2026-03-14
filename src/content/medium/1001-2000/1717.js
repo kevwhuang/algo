@@ -1,4 +1,4 @@
-// 1717 - Maximum Score From Removing Substrings
+// 1717. Maximum Score From Removing Substrings
 
 function maximumGain(s, x, y) {
     let cx = 'a', cy = 'b';

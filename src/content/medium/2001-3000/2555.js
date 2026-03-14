@@ -1,4 +1,4 @@
-// 2555 - Maximize Win From Two Segments
+// 2555. Maximize Win From Two Segments
 
 function maximizeWin(prizePositions, k) {
     let max = 0;

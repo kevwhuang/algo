@@ -1,4 +1,4 @@
-// 2294 - Partition Array Such That Maximum Difference Is K
+// 2294. Partition Array Such That Maximum Difference Is K
 
 function partitionArray(nums, k) {
     nums.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 1003 - Check If Word Is Valid After Substitutions
+// 1003. Check If Word Is Valid After Substitutions
 
 function isValid(s) {
     const stack = [];

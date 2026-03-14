@@ -1,4 +1,4 @@
-// 1848 - Minimum Distance to the Target Element
+// 1848. Minimum Distance to the Target Element
 
 function getMinDistance(nums, target, start) {
     let min = Infinity;

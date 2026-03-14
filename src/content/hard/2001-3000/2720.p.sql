@@ -1,4 +1,4 @@
--- 2720 - Popularity Percentage
+-- 2720. Popularity Percentage
 
 WITH CTE AS (
     SELECT

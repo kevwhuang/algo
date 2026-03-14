@@ -1,4 +1,4 @@
-// 717 - 1-Bit and 2-Bit Characters
+// 717. 1-Bit and 2-Bit Characters
 
 function isOneBitCharacter(bits) {
     let i = 0;

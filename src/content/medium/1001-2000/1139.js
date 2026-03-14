@@ -1,4 +1,4 @@
-// 1139 - Largest 1-Bordered Square
+// 1139. Largest 1-Bordered Square
 
 function largest1BorderedSquare(grid) {
     const m = grid.length, n = grid[0].length;

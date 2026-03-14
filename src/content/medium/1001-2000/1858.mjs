@@ -1,4 +1,4 @@
-// 1858 - Longest Word With All Prefixes
+// 1858. Longest Word With All Prefixes
 
 function longestWord(words) {
     words.sort((a, b) => b.length - a.length || (a < b ? -1 : 1));

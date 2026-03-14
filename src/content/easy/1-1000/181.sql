@@ -1,4 +1,4 @@
--- 181 - Employees Earning More Than Their Managers
+-- 181. Employees Earning More Than Their Managers
 
 SELECT
     E1.name AS employee

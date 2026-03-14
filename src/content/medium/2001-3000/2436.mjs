@@ -1,4 +1,4 @@
-// 2436 - Minimum Split Into Subarrays With GCD Greater Than One
+// 2436. Minimum Split Into Subarrays With GCD Greater Than One
 
 function minimumSplits(nums) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

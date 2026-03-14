@@ -1,4 +1,4 @@
-// 2577 - Minimum Time to Visit a Cell in a Grid
+// 2577. Minimum Time to Visit a Cell in a Grid
 
 function minimumTime(grid) {
     const M = grid, m = M.length, n = M[0].length, mm = m - 1, nn = n - 1;

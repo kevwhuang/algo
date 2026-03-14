@@ -1,4 +1,4 @@
--- 578 - Get Highest Answer Rate Question
+-- 578. Get Highest Answer Rate Question
 
 SELECT
     question_id AS survey_log

@@ -1,4 +1,4 @@
-// 2800 - Shortest String That Contains Three Strings
+// 2800. Shortest String That Contains Three Strings
 
 function minimumString(a, b, c) {
     function check(a, b, c) {

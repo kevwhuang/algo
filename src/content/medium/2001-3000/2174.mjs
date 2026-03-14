@@ -1,4 +1,4 @@
-// 2174 - Remove All Ones With Row and Column Flips II
+// 2174. Remove All Ones With Row and Column Flips II
 
 function removeOnes(grid) {
     function dfs(ops = 0) {

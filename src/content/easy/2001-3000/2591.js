@@ -1,4 +1,4 @@
-// 2591 - Distribute Money to Maximum Children
+// 2591. Distribute Money to Maximum Children
 
 function distMoney(money, children) {
     if (money < children) return -1;

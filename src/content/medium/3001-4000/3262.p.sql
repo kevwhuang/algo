@@ -1,4 +1,4 @@
--- 3262 - Find Overlapping Shifts
+-- 3262. Find Overlapping Shifts
 
 SELECT
     E1.employee_id,

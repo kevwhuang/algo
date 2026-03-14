@@ -1,4 +1,4 @@
-// 3040 - Maximum Number of Operations With the Same Score II
+// 3040. Maximum Number of Operations With the Same Score II
 
 function maxOperations(nums) {
     function dfs(l, r, tgt) {

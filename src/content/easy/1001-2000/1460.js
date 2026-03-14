@@ -1,4 +1,4 @@
-// 1460 - Make Two Arrays Equal by Reversing Subarrays
+// 1460. Make Two Arrays Equal by Reversing Subarrays
 
 function canBeEqual(target, arr) {
     const map = new Map();

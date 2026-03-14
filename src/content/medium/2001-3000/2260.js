@@ -1,4 +1,4 @@
-// 2260 - Minimum Consecutive Cards to Pick Up
+// 2260. Minimum Consecutive Cards to Pick Up
 
 function minimumCardPickup(cards) {
     let min = Infinity;

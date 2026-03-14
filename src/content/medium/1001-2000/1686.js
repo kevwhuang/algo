@@ -1,4 +1,4 @@
-// 1686 - Stone Game VI
+// 1686. Stone Game VI
 
 function stoneGameVI(aliceValues, bobValues) {
     const A = aliceValues, B = bobValues;

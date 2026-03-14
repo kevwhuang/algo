@@ -1,4 +1,4 @@
-// 2874 - Maximum Value of an Ordered Triplet II
+// 2874. Maximum Value of an Ordered Triplet II
 
 function maximumTripletValue(nums) {
     const n = nums.length;

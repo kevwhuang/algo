@@ -1,4 +1,4 @@
-// 764 - Largest Plus Sign
+// 764. Largest Plus Sign
 
 function orderOfLargestPlusSign(n, mines) {
     function check(d, flag) {

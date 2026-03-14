@@ -1,4 +1,4 @@
-// 2731 - Movement of Robots
+// 2731. Movement of Robots
 
 function sumDistance(nums, s, d) {
     for (let i = 0; i < nums.length; i++) {

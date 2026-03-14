@@ -1,4 +1,4 @@
-// 3709 - Design Exam Scores Tracker
+// 3709. Design Exam Scores Tracker
 
 class ExamTracker {
     constructor() {

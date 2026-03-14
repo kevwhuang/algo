@@ -1,4 +1,4 @@
-// 1827 - Minimum Operations to Make the Array Increasing
+// 1827. Minimum Operations to Make the Array Increasing
 
 function minOperations(nums) {
     let ops = 0;

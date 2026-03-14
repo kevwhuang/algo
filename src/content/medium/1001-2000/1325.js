@@ -1,4 +1,4 @@
-// 1325 - Delete Leaves With a Given Value
+// 1325. Delete Leaves With a Given Value
 
 function removeLeafNodes(root, target) {
     if (root.left) root.left = removeLeafNodes(root.left, target);

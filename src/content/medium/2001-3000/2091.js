@@ -1,4 +1,4 @@
-// 2091 - Removing Minimum and Maximum From Array
+// 2091. Removing Minimum and Maximum From Array
 
 function minimumDeletions(nums) {
     const pos = [], len = nums.length;

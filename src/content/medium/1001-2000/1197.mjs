@@ -1,4 +1,4 @@
-// 1197 - Minimum Knight Moves
+// 1197. Minimum Knight Moves
 
 function minKnightMoves(x, y) {
     x = Math.abs(x);

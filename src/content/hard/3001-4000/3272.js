@@ -1,4 +1,4 @@
-// 3272 - Find the Count of Good Integers
+// 3272. Find the Count of Good Integers
 
 function countGoodIntegers(n, k) {
     const res = [

@@ -1,4 +1,4 @@
--- 1204 - Last Person to Fit in the Bus
+-- 1204. Last Person to Fit in the Bus
 
 WITH CTE AS (
     SELECT

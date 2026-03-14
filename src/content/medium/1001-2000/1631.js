@@ -1,4 +1,4 @@
-// 1631 - Path With Minimum Effort
+// 1631. Path With Minimum Effort
 
 function minimumEffortPath(heights) {
     const m = heights.length, n = heights[0].length;

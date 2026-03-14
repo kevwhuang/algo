@@ -1,4 +1,4 @@
--- 1045 - Customers Who Bought All Products
+-- 1045. Customers Who Bought All Products
 
 SELECT
     customer_id

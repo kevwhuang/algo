@@ -1,4 +1,4 @@
-// 2505 - Bitwise OR of All Subsequence Sums
+// 2505. Bitwise OR of All Subsequence Sums
 
 function subsequenceSumOr(nums) {
     let or = BigInt(0), acc = BigInt(0);

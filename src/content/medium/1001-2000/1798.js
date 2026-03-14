@@ -1,4 +1,4 @@
-// 1798 - Maximum Number of Consecutive Values You Can Make
+// 1798. Maximum Number of Consecutive Values You Can Make
 
 function getMaximumConsecutive(coins) {
     coins.sort((a, b) => a - b);

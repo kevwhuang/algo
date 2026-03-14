@@ -1,4 +1,4 @@
--- 3246 - Premier League Table Ranking
+-- 3246. Premier League Table Ranking
 
 SELECT
     team_id,

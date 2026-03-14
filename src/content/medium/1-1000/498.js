@@ -1,4 +1,4 @@
-// 498 - Diagonal Traverse
+// 498. Diagonal Traverse
 
 function findDiagonalOrder(mat) {
     const size = mat.length * mat[0].length;

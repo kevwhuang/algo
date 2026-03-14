@@ -1,4 +1,4 @@
-// 1242 - Web Crawler Multithreaded
+// 1242. Web Crawler Multithreaded
 
 class Solution {
     private Set<String> set;

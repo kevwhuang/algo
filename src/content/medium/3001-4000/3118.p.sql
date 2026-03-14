@@ -1,4 +1,4 @@
--- 3118 - Friday Purchase III
+-- 3118. Friday Purchase III
 
 WITH Base AS (
     SELECT

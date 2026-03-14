@@ -1,4 +1,4 @@
-// 1764 - Form Array by Concatenating Subarrays of Another Array
+// 1764. Form Array by Concatenating Subarrays of Another Array
 
 function canChoose(groups, nums) {
     for (let i = 0, j = 0; i < nums.length; i++) {

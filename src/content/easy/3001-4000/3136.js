@@ -1,4 +1,4 @@
-// 3136 - Valid Word
+// 3136. Valid Word
 
 function isValid(word) {
     if (word.length < 3) return false;

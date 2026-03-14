@@ -1,4 +1,4 @@
-// 2195 - Append K Integers With Minimal Sum
+// 2195. Append K Integers With Minimal Sum
 
 function minimalKSum(nums, k) {
     nums.sort((a, b) => a - b);

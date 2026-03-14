@@ -1,3 +1,3 @@
-// 3646 - Next Special Palindrome Number
+// 3646. Next Special Palindrome Number
 
 

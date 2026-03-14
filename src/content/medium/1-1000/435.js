@@ -1,4 +1,4 @@
-// 435 - Non-Overlapping Intervals
+// 435. Non-Overlapping Intervals
 
 function eraseOverlapIntervals(intervals) {
     intervals.sort((a, b) => a[1] - b[1]);

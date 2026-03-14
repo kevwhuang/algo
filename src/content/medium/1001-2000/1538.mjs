@@ -1,4 +1,4 @@
-// 1538 - Guess the Majority in a Hidden Array
+// 1538. Guess the Majority in a Hidden Array
 
 function guessMajority(reader) {
     let idx, count = 1;

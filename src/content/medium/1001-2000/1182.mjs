@@ -1,4 +1,4 @@
-// 1182 - Shortest Distance to Target Color
+// 1182. Shortest Distance to Target Color
 
 function shortestDistanceColor(colors, queries) {
     const arr = [null, [], [], []];

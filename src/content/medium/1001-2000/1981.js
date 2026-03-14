@@ -1,4 +1,4 @@
-// 1981 - Minimize the Difference Between Target and Chosen Elements
+// 1981. Minimize the Difference Between Target and Chosen Elements
 
 function minimizeTheDifference(mat, target) {
     let set = new Set([0]);

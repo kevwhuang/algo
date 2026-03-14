@@ -1,4 +1,4 @@
-// 2860 - Happy Students
+// 2860. Happy Students
 
 function countWays(nums) {
     nums.sort((a, b) => a - b);

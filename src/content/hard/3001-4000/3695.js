@@ -1,4 +1,4 @@
-// 3695 - Maximize Alternating Sum Using Swaps
+// 3695. Maximize Alternating Sum Using Swaps
 
 function maxAlternatingSum(nums, swaps) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

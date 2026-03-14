@@ -1,3 +1,3 @@
-// 1223 - Dice Roll Simulation
+// 1223. Dice Roll Simulation
 
 

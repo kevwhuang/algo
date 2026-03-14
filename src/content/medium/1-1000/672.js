@@ -1,4 +1,4 @@
-// 672 - Bulb Switcher II
+// 672. Bulb Switcher II
 
 function flipLights(n, presses) {
     if (presses === 0) return 1;

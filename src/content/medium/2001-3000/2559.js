@@ -1,4 +1,4 @@
-// 2559 - Count Vowel Strings in Ranges
+// 2559. Count Vowel Strings in Ranges
 
 function vowelStrings(words, queries) {
     const vowels = new Set(['a', 'e', 'i', 'o', 'u']);

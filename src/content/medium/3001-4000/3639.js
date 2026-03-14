@@ -1,4 +1,4 @@
-// 3639 - Minimum Time to Activate String
+// 3639. Minimum Time to Activate String
 
 function minTime(s, order, k) {
     if (!this.arr) arr = new Uint32Array(100000);

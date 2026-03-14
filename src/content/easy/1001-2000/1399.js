@@ -1,4 +1,4 @@
-// 1399 - Count Largest Group
+// 1399. Count Largest Group
 
 function countLargestGroup(n) {
     const map = new Map();

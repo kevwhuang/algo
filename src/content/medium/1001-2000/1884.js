@@ -1,4 +1,4 @@
-// 1884 - Egg Drop With 2 Eggs and N Floors
+// 1884. Egg Drop With 2 Eggs and N Floors
 
 function twoEggDrop(n) {
     let res = 1;

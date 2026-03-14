@@ -1,4 +1,4 @@
-// 2113 - Elements in Array After Removing and Replacing Elements
+// 2113. Elements in Array After Removing and Replacing Elements
 
 function elementInNums(nums, queries) {
     const m = nums.length, n = queries.length, mm = m + m;

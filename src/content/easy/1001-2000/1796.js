@@ -1,4 +1,4 @@
-// 1796 - Second Largest Digit in a String
+// 1796. Second Largest Digit in a String
 
 function secondHighest(s) {
     const arr = new Uint8Array(10);

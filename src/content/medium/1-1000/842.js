@@ -1,4 +1,4 @@
-// 842 - Split Array Into Fibonacci Sequence
+// 842. Split Array Into Fibonacci Sequence
 
 function splitIntoFibonacci(num) {
     function backtrack(n1, n2, rem) {

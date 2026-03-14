@@ -1,4 +1,4 @@
-// 3809 - Best Reachable Tower
+// 3809. Best Reachable Tower
 
 function bestTower(towers, center, radius) {
     let res = [-1, -1], max = -1;

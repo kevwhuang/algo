@@ -1,3 +1,3 @@
-// 2612 - Minimum Reverse Operations
+// 2612. Minimum Reverse Operations
 
 

@@ -1,4 +1,4 @@
-// 1275 - Find Winner on a Tic Tac Toe Game
+// 1275. Find Winner on a Tic Tac Toe Game
 
 function tictactoe(moves) {
     if (moves.length < 5) return 'Pending';

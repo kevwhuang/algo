@@ -1,4 +1,4 @@
-// 1137 - Nth Tribonacci Number
+// 1137. Nth Tribonacci Number
 
 function tribonacci(n) {
     if (n === 0) return 0;

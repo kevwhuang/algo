@@ -1,4 +1,4 @@
-// 3323 - Minimize Connected Groups by Inserting Interval
+// 3323. Minimize Connected Groups by Inserting Interval
 
 function minConnectedGroups(intervals, k) {
     intervals.sort((a, b) => a[0] - b[0]);

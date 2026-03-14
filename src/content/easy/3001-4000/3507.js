@@ -1,4 +1,4 @@
-// 3507 - Minimum Pair Removal to Sort Array I
+// 3507. Minimum Pair Removal to Sort Array I
 
 function minimumPairRemoval(nums) {
     let res = 0;

@@ -1,4 +1,4 @@
-// 1918 - Kth Smallest Subarray Sum
+// 1918. Kth Smallest Subarray Sum
 
 function kthSmallestSubarraySum(nums, k) {
     let l = 1, r = 1e9;

@@ -1,4 +1,4 @@
--- 1729 - Find Followers Count
+-- 1729. Find Followers Count
 
 SELECT
     user_id,

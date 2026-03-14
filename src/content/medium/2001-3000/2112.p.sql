@@ -1,4 +1,4 @@
--- 2112 - The Airport With the Most Traffic
+-- 2112. The Airport With the Most Traffic
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
-// 3773 - Maximum Number of Equal Length Runs
+// 3773. Maximum Number of Equal Length Runs
 
 function maxSameLengthRuns(s) {
     const B = new Map();

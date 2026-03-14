@@ -1,4 +1,4 @@
-// 443 - String Compression
+// 443. String Compression
 
 function compress(chars) {
     let res = 0, i = 0;

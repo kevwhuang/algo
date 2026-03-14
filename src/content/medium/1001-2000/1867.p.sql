@@ -1,4 +1,4 @@
--- 1867 - Orders With Maximum Quantity Above Average
+-- 1867. Orders With Maximum Quantity Above Average
 
 SELECT
     order_id

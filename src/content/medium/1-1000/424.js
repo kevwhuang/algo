@@ -1,4 +1,4 @@
-// 424 - Longest Repeating Character Replacement
+// 424. Longest Repeating Character Replacement
 
 function characterReplacement(s, k) {
     let res = 1, max = k, l = 0, r = -1;

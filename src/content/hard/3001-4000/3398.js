@@ -1,4 +1,4 @@
-// 3398 - Smallest Substring With Identical Characters I
+// 3398. Smallest Substring With Identical Characters I
 
 function minLength(s, numOps) {
     const map = new Map(), n = s.length;

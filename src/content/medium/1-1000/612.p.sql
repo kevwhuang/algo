@@ -1,4 +1,4 @@
--- 612 - Shortest Distance in a Plane
+-- 612. Shortest Distance in a Plane
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 1030 - Matrix Cells in Distance Order
+// 1030. Matrix Cells in Distance Order
 
 function allCellsDistOrder(rows, cols, rCenter, cCenter) {
     const dist = (a, b) => Math.abs(a - rCenter) + Math.abs(b - cCenter);

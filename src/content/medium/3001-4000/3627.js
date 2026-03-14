@@ -1,4 +1,4 @@
-// 3627 - Maximum Median Sum of Subsequences of Size 3
+// 3627. Maximum Median Sum of Subsequences of Size 3
 
 function maximumMedianSum(nums) {
     const max = nums.reduce((s, e) => Math.max(e, s));

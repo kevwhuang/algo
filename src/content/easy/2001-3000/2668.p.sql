@@ -1,4 +1,4 @@
--- 2668 - Find Latest Salaries
+-- 2668. Find Latest Salaries
 
 SELECT
     emp_id,

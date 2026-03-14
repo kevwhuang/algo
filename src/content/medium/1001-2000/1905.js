@@ -1,4 +1,4 @@
-// 1905 - Count Sub Islands
+// 1905. Count Sub Islands
 
 function countSubIslands(grid1, grid2) {
     function dfs(r, c) {

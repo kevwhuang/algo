@@ -1,4 +1,4 @@
-// 2445 - Number of Nodes With Value One
+// 2445. Number of Nodes With Value One
 
 function numberOfNodes(n, queries) {
     const tree = new Uint8Array(n + 1);

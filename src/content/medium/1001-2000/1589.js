@@ -1,4 +1,4 @@
-// 1589 - Maximum Sum Obtained of Any Permutation
+// 1589. Maximum Sum Obtained of Any Permutation
 
 function maxSumRangeQuery(nums, requests) {
     let end = -Infinity;

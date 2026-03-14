@@ -1,4 +1,4 @@
-// 2712 - Minimum Cost to Make All Characters Equal
+// 2712. Minimum Cost to Make All Characters Equal
 
 function minimumCost(s) {
     let cost = 0;

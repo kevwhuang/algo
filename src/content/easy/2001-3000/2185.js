@@ -1,4 +1,4 @@
-// 2185 - Counting Words With a Given Prefix
+// 2185. Counting Words With a Given Prefix
 
 function prefixCount(words, pref) {
     let count = 0;

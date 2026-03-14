@@ -1,4 +1,4 @@
--- 3358 - Books With Null Ratings
+-- 3358. Books With Null Ratings
 
 SELECT
     book_id,

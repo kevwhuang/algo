@@ -1,4 +1,4 @@
-// 3863 - Minimum Operations to Sort a String
+// 3863. Minimum Operations to Sort a String
 
 function minOperations(s) {
     let flag, min = 'z', max = 'a', acc1 = 0, acc2 = 0, i = -1;

@@ -1,4 +1,4 @@
-// 2566 - Maximum Difference by Remapping a Digit
+// 2566. Maximum Difference by Remapping a Digit
 
 function minMaxDifference(num) {
     num = num.toString();

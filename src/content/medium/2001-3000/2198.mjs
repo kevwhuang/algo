@@ -1,4 +1,4 @@
-// 2198 - Number of Single Divisor Triplets
+// 2198. Number of Single Divisor Triplets
 
 function singleDivisorTriplet(nums) {
     const bucket = new Array(101).fill(0);

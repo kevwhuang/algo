@@ -1,4 +1,4 @@
--- 3140 - Consecutive Available Seats II
+-- 3140. Consecutive Available Seats II
 
 WITH CTE1 AS (
     SELECT

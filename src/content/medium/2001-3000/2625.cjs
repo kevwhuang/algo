@@ -1,4 +1,4 @@
-// 2625 - Flatten Deeply Nested Array
+// 2625. Flatten Deeply Nested Array
 
 function flat(arr, n) {
     function dfs(arr, acc) {

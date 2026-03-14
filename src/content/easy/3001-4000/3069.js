@@ -1,4 +1,4 @@
-// 3069 - Distribute Elements Into Two Arrays I
+// 3069. Distribute Elements Into Two Arrays I
 
 function resultArray(nums) {
     const arr1 = [nums[0]], arr2 = [nums[1]];

@@ -1,3 +1,3 @@
-// 466 - Count the Repetitions
+// 466. Count the Repetitions
 
 

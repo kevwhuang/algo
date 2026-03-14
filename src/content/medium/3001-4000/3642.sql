@@ -1,4 +1,4 @@
--- 3642 - Find Books With Polarized Opinions
+-- 3642. Find Books With Polarized Opinions
 
 WITH CTE AS (
     SELECT

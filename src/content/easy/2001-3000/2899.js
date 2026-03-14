@@ -1,4 +1,4 @@
-// 2899 - Last Visited Integers
+// 2899. Last Visited Integers
 
 function lastVisitedIntegers(words) {
     const res = [], arr = [];

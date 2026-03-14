@@ -1,4 +1,4 @@
-// 51 - N-Queens
+// 51. N-Queens
 
 function solveNQueens(n) {
     function backtrack(r) {

@@ -1,4 +1,4 @@
-// 324 - Wiggle Sort II
+// 324. Wiggle Sort II
 
 function wiggleSort(nums) {
     const sorted = new Uint16Array(nums).sort();

@@ -1,3 +1,3 @@
-// 1857 - Largest Color Value in a Directed Graph
+// 1857. Largest Color Value in a Directed Graph
 
 

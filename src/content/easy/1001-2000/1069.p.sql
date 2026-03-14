@@ -1,4 +1,4 @@
--- 1069 - Product Sales Analysis II
+-- 1069. Product Sales Analysis II
 
 SELECT
     product_id,

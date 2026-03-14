@@ -1,4 +1,4 @@
-// 2327 - Number of People Aware of a Secret
+// 2327. Number of People Aware of a Secret
 
 function peopleAwareOfSecret(n, delay, forget) {
     const dp = new Uint32Array(n);

@@ -1,4 +1,4 @@
-// 3781 - Maximum Score After Binary Swaps
+// 3781. Maximum Score After Binary Swaps
 
 function maximumScore(nums, s) {
     let res = 0;

@@ -1,4 +1,4 @@
-// 1482 - Minimum Number of Days to Make M Bouquets
+// 1482. Minimum Number of Days to Make M Bouquets
 
 function minDays(bloomDay, m, k) {
     let min = -1, l = 1, r = 1e9;

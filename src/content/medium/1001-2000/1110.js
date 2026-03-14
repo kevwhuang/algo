@@ -1,4 +1,4 @@
-// 1110 - Delete Nodes and Return Forest
+// 1110. Delete Nodes and Return Forest
 
 function delNodes(root, to_delete) {
     function dfs(node, isRoot) {

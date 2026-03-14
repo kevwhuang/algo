@@ -1,4 +1,4 @@
-// 1121 - Divide Array Into Increasing Sequences
+// 1121. Divide Array Into Increasing Sequences
 
 function canDivideIntoSubsequences(nums, k) {
     const map = new Map(), n = nums.length;

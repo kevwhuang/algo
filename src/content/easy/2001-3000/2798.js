@@ -1,4 +1,4 @@
-// 2798 - Number of Employees Who Met the Target
+// 2798. Number of Employees Who Met the Target
 
 function numberOfEmployeesWhoMetTarget(hours, target) {
     let count = 0;

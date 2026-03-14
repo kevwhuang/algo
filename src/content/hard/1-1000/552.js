@@ -1,4 +1,4 @@
-// 552 - Student Attendance Record II
+// 552. Student Attendance Record II
 
 function checkRecord(n) {
     let dp1 = new Uint32Array(3).fill(1, 0, 1), dp2 = new Uint32Array(3);

@@ -1,4 +1,4 @@
-// 2269 - Find the K-Beauty of a Number
+// 2269. Find the K-Beauty of a Number
 
 function divisorSubstrings(num, k) {
     let beauty = 0;

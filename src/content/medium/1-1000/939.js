@@ -1,4 +1,4 @@
-// 939 - Minimum Area Rectangle
+// 939. Minimum Area Rectangle
 
 function minAreaRect(points) {
     const map = new Map(), len = points.length;

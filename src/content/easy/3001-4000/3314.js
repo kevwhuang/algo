@@ -1,4 +1,4 @@
-// 3314 - Construct the Minimum Bitwise Array I
+// 3314. Construct the Minimum Bitwise Array I
 
 function minBitwiseArray(nums) {
     for (let i = 0; i < nums.length; i++) {

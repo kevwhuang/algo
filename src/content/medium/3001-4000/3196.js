@@ -1,4 +1,4 @@
-// 3196 - Maximize Total Cost of Alternating Subarrays
+// 3196. Maximize Total Cost of Alternating Subarrays
 
 function maximumTotalCost(nums) {
     let a = nums[0], b = nums[0], i = 0;

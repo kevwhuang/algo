@@ -1,4 +1,4 @@
-// 270 - Closest Binary Search Tree Value
+// 270. Closest Binary Search Tree Value
 
 function closestValue(root, target) {
     let res = Infinity;

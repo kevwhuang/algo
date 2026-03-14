@@ -1,4 +1,4 @@
-// 1253 - Reconstruct a 2-Row Binary Matrix
+// 1253. Reconstruct a 2-Row Binary Matrix
 
 function reconstructMatrix(upper, lower, colsum) {
     const row1 = new Array(colsum.length);

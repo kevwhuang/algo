@@ -1,4 +1,4 @@
-// 880 - Decoded String at Index
+// 880. Decoded String at Index
 
 function decodeAtIndex(s, k) {
     let size = 0, i = 0;

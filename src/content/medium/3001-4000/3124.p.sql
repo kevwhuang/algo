@@ -1,4 +1,4 @@
--- 3124 - Find Longest Calls
+-- 3124. Find Longest Calls
 
 WITH CTE AS (
     SELECT

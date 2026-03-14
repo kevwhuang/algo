@@ -1,4 +1,4 @@
-// 2666 - Allow One Function Call
+// 2666. Allow One Function Call
 
 function once(fn) {
     let flag;

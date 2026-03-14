@@ -1,4 +1,4 @@
--- 3059 - Find All Unique Email Domains
+-- 3059. Find All Unique Email Domains
 
 SELECT
     MID(email, LOCATE('@', email) + 1) AS email_domain,

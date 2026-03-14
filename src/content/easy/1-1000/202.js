@@ -1,4 +1,4 @@
-// 202 - Happy Number
+// 202. Happy Number
 
 function isHappy(n) {
     const seen = new Set();

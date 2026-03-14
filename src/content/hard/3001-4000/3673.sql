@@ -1,4 +1,4 @@
--- 3673 - Find Zombie Sessions
+-- 3673. Find Zombie Sessions
 
 SELECT
     session_id,

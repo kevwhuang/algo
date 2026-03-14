@@ -1,4 +1,4 @@
-// 3591 - Check If Any Element Has Prime Frequency
+// 3591. Check If Any Element Has Prime Frequency
 
 function checkPrimeFrequency(nums) {
     function init() {

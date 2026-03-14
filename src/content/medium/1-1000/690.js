@@ -1,4 +1,4 @@
-// 690 - Employee Importance
+// 690. Employee Importance
 
 function GetImportance(employees, id) {
     function dfs(employee) {

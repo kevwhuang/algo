@@ -1,4 +1,4 @@
-// 2870 - Minimum Number of Operations to Make Array Empty
+// 2870. Minimum Number of Operations to Make Array Empty
 
 function minOperations(nums) {
     const map = new Map();

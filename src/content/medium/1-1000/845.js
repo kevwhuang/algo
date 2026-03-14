@@ -1,4 +1,4 @@
-// 845 - Longest Mountain in Array
+// 845. Longest Mountain in Array
 
 function longestMountain(arr) {
     let max = 0;

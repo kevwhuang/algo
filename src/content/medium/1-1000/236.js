@@ -1,4 +1,4 @@
-// 236 - Lowest Common Ancestor of a Binary Tree
+// 236. Lowest Common Ancestor of a Binary Tree
 
 function lowestCommonAncestor(root, p, q) {
     if (!root || root === p || root === q) return root;

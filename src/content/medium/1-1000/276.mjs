@@ -1,4 +1,4 @@
-// 276 - Paint Fence
+// 276. Paint Fence
 
 function numWays(n, k) {
     if (n === 1) return k;

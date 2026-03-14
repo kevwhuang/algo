@@ -1,4 +1,4 @@
-// 1209 - Remove All Adjacent Duplicates in String II
+// 1209. Remove All Adjacent Duplicates in String II
 
 function removeDuplicates(s, k) {
     const stack = [];

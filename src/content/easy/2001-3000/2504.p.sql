@@ -1,4 +1,4 @@
--- 2504 - Concatenate the Name and the Profession
+-- 2504. Concatenate the Name and the Profession
 
 SELECT
     person_id,

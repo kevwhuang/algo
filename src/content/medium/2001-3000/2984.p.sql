@@ -1,4 +1,4 @@
--- 2984 - Find Peak Calling Hours for Each City
+-- 2984. Find Peak Calling Hours for Each City
 
 WITH CTE AS (
     SELECT

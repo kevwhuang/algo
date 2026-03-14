@@ -1,4 +1,4 @@
-// 554 - Brick Wall
+// 554. Brick Wall
 
 function leastBricks(wall) {
     const map = new Map();

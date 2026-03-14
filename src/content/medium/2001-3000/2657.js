@@ -1,4 +1,4 @@
-// 2657 - Find the Prefix Common Array of Two Arrays
+// 2657. Find the Prefix Common Array of Two Arrays
 
 function findThePrefixCommonArray(A, B) {
     const res = new Uint8Array(A.length), set = new Set();

@@ -1,4 +1,4 @@
--- 574 - Winning Candidate
+-- 574. Winning Candidate
 
 SELECT
     name

@@ -1,3 +1,3 @@
-// 1246 - Palindrome Removal
+// 1246. Palindrome Removal
 
 

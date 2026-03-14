@@ -1,4 +1,4 @@
-// 705 - Design HashSet
+// 705. Design HashSet
 
 class MyHashSet {
     add(key) {

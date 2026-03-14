@@ -1,4 +1,4 @@
-// 3823 - Reverse Letters Then Special Characters in a String
+// 3823. Reverse Letters Then Special Characters in a String
 
 function reverseByType(s) {
     let t1 = '', t2 = '';

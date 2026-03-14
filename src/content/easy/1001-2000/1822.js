@@ -1,4 +1,4 @@
-// 1822 - Sign of the Product of an Array
+// 1822. Sign of the Product of an Array
 
 function arraySign(nums) {
     let sign = 1;

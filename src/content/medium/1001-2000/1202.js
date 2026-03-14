@@ -1,4 +1,4 @@
-// 1202 - Smallest String With Swaps
+// 1202. Smallest String With Swaps
 
 function smallestStringWithSwaps(s, pairs) {
     function find(v) {

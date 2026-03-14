@@ -1,4 +1,4 @@
-// 3128 - Right Triangles
+// 3128. Right Triangles
 
 function numberOfRightTriangles(grid) {
     const m = grid.length, n = grid[0].length;

@@ -1,4 +1,4 @@
-// 2457 - Minimum Addition to Make Integer Beautiful
+// 2457. Minimum Addition to Make Integer Beautiful
 
 function makeIntegerBeautiful(n, target) {
     function sumOfDigits(num) {

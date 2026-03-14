@@ -1,4 +1,4 @@
-// 255 - Verify Preorder Sequence in Binary Search Tree
+// 255. Verify Preorder Sequence in Binary Search Tree
 
 function verifyPreorder(preorder) {
     let min = 0, i = -1, j = -1;

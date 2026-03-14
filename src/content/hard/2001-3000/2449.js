@@ -1,4 +1,4 @@
-// 2449 - Minimum Number of Operations to Make Arrays Similar
+// 2449. Minimum Number of Operations to Make Arrays Similar
 
 function makeSimilar(nums, target) {
     let res = 0, i = 0, j = 0, k = 0;

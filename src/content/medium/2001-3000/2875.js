@@ -1,4 +1,4 @@
-// 2875 - Minimum Size Subarray in Infinite Array
+// 2875. Minimum Size Subarray in Infinite Array
 
 function minSizeSubarray(nums, target) {
     const sum = nums.reduce((s, e) => s + e);

@@ -1,4 +1,4 @@
--- 1098 - Unpopular Books
+-- 1098. Unpopular Books
 
 SELECT
     book_id,

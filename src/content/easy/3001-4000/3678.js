@@ -1,4 +1,4 @@
-// 3678 - Smallest Absent Positive Greater Than Average
+// 3678. Smallest Absent Positive Greater Than Average
 
 function smallestAbsent(nums) {
     let res = (nums.reduce((s, e) => s + e) / nums.length >> 0) + 1;

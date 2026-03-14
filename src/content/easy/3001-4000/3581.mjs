@@ -1,4 +1,4 @@
-// 3581 - Count Odd Letters From Number
+// 3581. Count Odd Letters From Number
 
 function countOddLetters(n) {
     const dict = [

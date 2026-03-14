@@ -1,4 +1,4 @@
-// 2841 - Maximum Sum of Almost Unique Subarray
+// 2841. Maximum Sum of Almost Unique Subarray
 
 function maxSum(nums, m, k) {
     let window = 0;

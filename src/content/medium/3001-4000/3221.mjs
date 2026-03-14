@@ -1,4 +1,4 @@
-// 3221 - Maximum Array Hopping Score II
+// 3221. Maximum Array Hopping Score II
 
 function maxScore(nums) {
     let score = 0, max = 1;

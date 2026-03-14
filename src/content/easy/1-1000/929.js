@@ -1,4 +1,4 @@
-// 929 - Unique Email Addresses
+// 929. Unique Email Addresses
 
 function numUniqueEmails(emails) {
     const unique = new Set();

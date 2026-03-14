@@ -1,4 +1,4 @@
-// 1966 - Binary Searchable Numbers in an Unsorted Array
+// 1966. Binary Searchable Numbers in an Unsorted Array
 
 function binarySearchableNumbers(nums) {
     const max = new Array(nums.length);

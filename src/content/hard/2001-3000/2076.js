@@ -1,4 +1,4 @@
-// 2076 - Process Restricted Friend Requests
+// 2076. Process Restricted Friend Requests
 
 function friendRequests(n, restrictions, requests) {
     function find(v) {

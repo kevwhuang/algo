@@ -1,4 +1,4 @@
-// 718 - Maximum Length of Repeated Subarray
+// 718. Maximum Length of Repeated Subarray
 
 function findLength(nums1, nums2) {
     let res = 0;

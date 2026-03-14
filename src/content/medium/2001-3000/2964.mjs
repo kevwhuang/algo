@@ -1,4 +1,4 @@
-// 2964 - Number of Divisible Triplet Sums
+// 2964. Number of Divisible Triplet Sums
 
 function divisibleTripletCount(nums, d) {
     let triplets = 0;

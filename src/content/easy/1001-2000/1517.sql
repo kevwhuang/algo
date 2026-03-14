@@ -1,4 +1,4 @@
--- 1517 - Find Users With Valid Emails
+-- 1517. Find Users With Valid Emails
 
 SELECT
     *

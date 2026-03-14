@@ -1,4 +1,4 @@
-// 3387 - Maximize Amount After Two Days of Conversions
+// 3387. Maximize Amount After Two Days of Conversions
 
 function maxAmount(initialCurrency, pairs1, rates1, pairs2, rates2) {
     function check(pairs, rates) {

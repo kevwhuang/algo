@@ -1,4 +1,4 @@
-// 218 - The Skyline Problem
+// 218. The Skyline Problem
 
 function getSkyline(buildings) {
     const M = buildings, n = M.length;

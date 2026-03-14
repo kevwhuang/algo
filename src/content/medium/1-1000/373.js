@@ -1,4 +1,4 @@
-// 373 - Find K Pairs With Smallest Sums
+// 373. Find K Pairs With Smallest Sums
 
 function kSmallestPairs(nums1, nums2, k) {
     const pq = new PriorityQueue({ compare: (a, b) => a[2] - b[2] });

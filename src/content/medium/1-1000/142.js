@@ -1,4 +1,4 @@
-// 142 - Linked List Cycle II
+// 142. Linked List Cycle II
 
 function detectCycle(head) {
     let slow = fast = head;

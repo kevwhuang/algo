@@ -1,4 +1,4 @@
-// 1038 - Binary Search Tree to Greater Sum Tree
+// 1038. Binary Search Tree to Greater Sum Tree
 
 function bstToGst(root) {
     function dfs(node) {

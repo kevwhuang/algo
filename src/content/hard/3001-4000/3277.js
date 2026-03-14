@@ -1,3 +1,3 @@
-// 3277 - Maximum XOR Score Subarray Queries
+// 3277. Maximum XOR Score Subarray Queries
 
 

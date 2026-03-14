@@ -1,4 +1,4 @@
-// 108 - Convert Sorted Array to Binary Search Tree
+// 108. Convert Sorted Array to Binary Search Tree
 
 function sortedArrayToBST(nums) {
     if (!nums.length) return null;

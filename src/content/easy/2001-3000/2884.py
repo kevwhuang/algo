@@ -1,4 +1,4 @@
-# 2884 - Modify Columns
+# 2884. Modify Columns
 
 import pandas as pd
 

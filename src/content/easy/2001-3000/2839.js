@@ -1,4 +1,4 @@
-// 2839 - Check If Strings Can Be Made Equal With Operations I
+// 2839. Check If Strings Can Be Made Equal With Operations I
 
 function canBeEqual(s1, s2) {
     if (s1 === s2) return true;

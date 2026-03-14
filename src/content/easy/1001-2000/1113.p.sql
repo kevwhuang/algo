@@ -1,4 +1,4 @@
--- 1113 - Reported Posts
+-- 1113. Reported Posts
 
 SELECT
     extra AS report_reason,

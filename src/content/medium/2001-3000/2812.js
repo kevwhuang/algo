@@ -1,4 +1,4 @@
-// 2812 - Find the Safest Path in a Grid
+// 2812. Find the Safest Path in a Grid
 
 function maximumSafenessFactor(grid) {
     const validate = (r, c) => r >= 0 && r < n && c >= 0 && c < n;

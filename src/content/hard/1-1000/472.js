@@ -1,3 +1,3 @@
-// 472 - Concatenated Words
+// 472. Concatenated Words
 
 

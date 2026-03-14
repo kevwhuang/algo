@@ -1,4 +1,4 @@
-// 3755 - Find Maximum Balanced XOR Subarray Length
+// 3755. Find Maximum Balanced XOR Subarray Length
 
 function maxBalancedSubarray(nums) {
     let res = 0, xor = 0, acc = 0, i = -1;

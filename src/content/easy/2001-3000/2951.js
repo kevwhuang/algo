@@ -1,4 +1,4 @@
-// 2951 - Find the Peaks
+// 2951. Find the Peaks
 
 function findPeaks(mountain) {
     const indices = [];

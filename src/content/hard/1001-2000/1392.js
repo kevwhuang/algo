@@ -1,4 +1,4 @@
-// 1392 - Longest Happy Prefix
+// 1392. Longest Happy Prefix
 
 function longestPrefix(s) {
     const lps = new Uint32Array(s.length);

@@ -1,4 +1,4 @@
-// 1528 - Shuffle String
+// 1528. Shuffle String
 
 function restoreString(s, indices) {
     const res = new Array(s.length);

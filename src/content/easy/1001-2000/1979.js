@@ -1,4 +1,4 @@
-// 1979 - Find Greatest Common Divisor of Array
+// 1979. Find Greatest Common Divisor of Array
 
 function findGCD(nums) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

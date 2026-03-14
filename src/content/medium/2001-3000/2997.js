@@ -1,4 +1,4 @@
-// 2997 - Minimum Number of Operations to Make Array XOR Equal to K
+// 2997. Minimum Number of Operations to Make Array XOR Equal to K
 
 function minOperations(nums, k) {
     for (let i = 0; i < nums.length; i++) {

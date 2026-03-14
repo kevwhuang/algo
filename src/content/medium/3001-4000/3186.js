@@ -1,4 +1,4 @@
-// 3186 - Maximum Total Damage With Spell Casting
+// 3186. Maximum Total Damage With Spell Casting
 
 function maximumTotalDamage(power) {
     const B = new Map();

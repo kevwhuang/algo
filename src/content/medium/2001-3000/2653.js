@@ -1,4 +1,4 @@
-// 2653 - Sliding Subarray Beauty
+// 2653. Sliding Subarray Beauty
 
 function getSubarrayBeauty(nums, k, x) {
     function beauty(index) {

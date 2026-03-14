@@ -1,4 +1,4 @@
--- 2362 - Generate the Invoice
+-- 2362. Generate the Invoice
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 3645 - Maximum Total From Optimal Activation Order
+// 3645. Maximum Total From Optimal Activation Order
 
 function maxTotal(value, limit) {
     const n = value.length;

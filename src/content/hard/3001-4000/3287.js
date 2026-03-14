@@ -1,3 +1,3 @@
-// 3287 - Find the Maximum Sequence Value of Array
+// 3287. Find the Maximum Sequence Value of Array
 
 

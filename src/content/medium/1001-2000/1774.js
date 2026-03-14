@@ -1,4 +1,4 @@
-// 1774 - Closest Dessert Cost
+// 1774. Closest Dessert Cost
 
 function closestCost(baseCosts, toppingCosts, target) {
     function backtrack(i, acc) {

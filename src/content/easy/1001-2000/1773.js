@@ -1,4 +1,4 @@
-// 1773 - Count Items Matching a Rule
+// 1773. Count Items Matching a Rule
 
 function countMatches(items, ruleKey, ruleValue) {
     let res = 0, cur = 0;

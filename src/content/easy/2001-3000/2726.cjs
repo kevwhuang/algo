@@ -1,4 +1,4 @@
-// 2726 - Calculator With Method Chaining
+// 2726. Calculator With Method Chaining
 
 class Calculator {
     constructor(value) {

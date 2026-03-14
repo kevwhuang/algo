@@ -1,4 +1,4 @@
-// 1826 - Faulty Sensor
+// 1826. Faulty Sensor
 
 function badSensor(sensor1, sensor2) {
     const arr1 = sensor1, arr2 = sensor2;

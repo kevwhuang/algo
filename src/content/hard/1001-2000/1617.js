@@ -1,3 +1,3 @@
-// 1617 - Count Subtrees With Max Distance Between Cities
+// 1617. Count Subtrees With Max Distance Between Cities
 
 

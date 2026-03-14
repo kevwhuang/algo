@@ -1,4 +1,4 @@
-// 2866 - Beautiful Towers II
+// 2866. Beautiful Towers II
 
 function maximumSumOfHeights(maxHeights) {
     const arr = maxHeights, len = arr.length;

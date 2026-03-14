@@ -1,3 +1,3 @@
-// 2585 - Number of Ways to Earn Points
+// 2585. Number of Ways to Earn Points
 
 

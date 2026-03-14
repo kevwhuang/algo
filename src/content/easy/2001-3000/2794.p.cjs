@@ -1,4 +1,4 @@
-// 2794 - Create Object From Two Arrays
+// 2794. Create Object From Two Arrays
 
 function createObject(keysArr, valuesArr) {
     const res = {};

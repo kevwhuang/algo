@@ -1,4 +1,4 @@
-// 2217 - Find Palindrome With Fixed Length
+// 2217. Find Palindrome With Fixed Length
 
 function kthPalindrome(queries, intLength) {
     const digits = (intLength + 1) / 2 >> 0;

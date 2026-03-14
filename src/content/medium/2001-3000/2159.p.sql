@@ -1,4 +1,4 @@
--- 2159 - Order Two Columns Independently
+-- 2159. Order Two Columns Independently
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
-// 656 - Coin Path
+// 656. Coin Path
 
 function cheapestJump(coins, maxJump) {
     const n = coins.length;

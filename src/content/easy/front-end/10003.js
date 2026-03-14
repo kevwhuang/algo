@@ -1,4 +1,4 @@
-// 10003 - Apply Styles to Node
+// 10003. Apply Styles to Node
 
 export function applyStylesToNode(node) {
     node.style.backgroundColor = '#ffa015';

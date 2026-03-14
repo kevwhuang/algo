@@ -1,4 +1,4 @@
-// 1868 - Product of Two Run-Length Encoded Arrays
+// 1868. Product of Two Run-Length Encoded Arrays
 
 function findRLEArray(encoded1, encoded2) {
     const res = [], len = encoded1.length;

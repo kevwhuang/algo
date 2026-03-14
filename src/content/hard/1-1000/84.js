@@ -1,4 +1,4 @@
-// 84 - Largest Rectangle in Histogram
+// 84. Largest Rectangle in Histogram
 
 function largestRectangleArea(heights) {
     heights.push(0);

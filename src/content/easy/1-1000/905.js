@@ -1,4 +1,4 @@
-// 905 - Sort Array by Parity
+// 905. Sort Array by Parity
 
 function sortArrayByParity(nums) {
     let l = 0, r = nums.length - 1;

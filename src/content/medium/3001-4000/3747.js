@@ -1,4 +1,4 @@
-// 3747 - Count Distinct Integers After Removing Zeros
+// 3747. Count Distinct Integers After Removing Zeros
 
 function countDistinct(n) {
     let res = -1, acc = 1, pow = 1;

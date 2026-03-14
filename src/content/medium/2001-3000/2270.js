@@ -1,4 +1,4 @@
-// 2270 - Number of Ways to Split Array
+// 2270. Number of Ways to Split Array
 
 function waysToSplitArray(nums) {
     let splits = 0, leftSum = 0;

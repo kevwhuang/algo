@@ -1,4 +1,4 @@
-// 1740 - Find Distance in a Binary Tree
+// 1740. Find Distance in a Binary Tree
 
 function findDistance(root, p, q) {
     function dfs1(node, parent) {

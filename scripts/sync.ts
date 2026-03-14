@@ -31,7 +31,7 @@ const QUERY = `
 function getContent(problem: Problem): string {
     const ext = getExt(problem);
     const comment = ext.includes('.sql') ? '--' : '//';
-    return `${comment} ${problem.id} - ${problem.title}\n\n\n`;
+    return `${comment} ${problem.id}. ${problem.title}\n\n\n`;
 }
 
 function getExt(problem: Problem): string {

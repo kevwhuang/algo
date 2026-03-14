@@ -1,4 +1,4 @@
-// 2797 - Partial Function With Placeholders
+// 2797. Partial Function With Placeholders
 
 function partial(fn, args) {
     function res() {

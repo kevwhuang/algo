@@ -1,4 +1,4 @@
--- 1112 - Highest Grade for Each Student
+-- 1112. Highest Grade for Each Student
 
 SELECT
     student_id,

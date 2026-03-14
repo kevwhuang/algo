@@ -1,4 +1,4 @@
-// 334 - Increasing Triplet Subsequence
+// 334. Increasing Triplet Subsequence
 
 function increasingTriplet(nums) {
     let n1 = Infinity, n2 = Infinity;

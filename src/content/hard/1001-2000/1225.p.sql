@@ -1,4 +1,4 @@
--- 1225 - Report Contiguous Dates
+-- 1225. Report Contiguous Dates
 
 WITH CTE AS (
     SELECT

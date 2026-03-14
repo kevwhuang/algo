@@ -1,4 +1,4 @@
-// 819 - Most Common Word
+// 819. Most Common Word
 
 function mostCommonWord(paragraph, banned) {
     paragraph = paragraph.toLowerCase().split(/\W+/g);

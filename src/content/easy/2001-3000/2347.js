@@ -1,4 +1,4 @@
-// 2347 - Best Poker Hand
+// 2347. Best Poker Hand
 
 function bestHand(ranks, suits) {
     if (new Set(suits).size === 1) return 'Flush';

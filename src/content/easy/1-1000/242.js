@@ -1,4 +1,4 @@
-// 242 - Valid Anagram
+// 242. Valid Anagram
 
 function isAnagram(s, t) {
     if (s.length !== t.length) return false;

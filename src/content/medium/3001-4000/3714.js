@@ -1,4 +1,4 @@
-// 3714 - Longest Balanced Substring II
+// 3714. Longest Balanced Substring II
 
 function longestBalanced(s) {
     function check(a, b) {

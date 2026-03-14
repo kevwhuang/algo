@@ -1,4 +1,4 @@
-// 3604 - Minimum Time to Reach Destination in Directed Graph
+// 3604. Minimum Time to Reach Destination in Directed Graph
 
 function minTime(n, edges) {
     const adj = Array.from({ length: n }, () => []);

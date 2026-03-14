@@ -1,4 +1,4 @@
-// 1991 - Find the Middle Index in Array
+// 1991. Find the Middle Index in Array
 
 function findMiddleIndex(nums) {
     let left = 0, right = nums.reduce((s, e) => s + e);

@@ -1,4 +1,4 @@
-// 1805 - Number of Different Integers in a String
+// 1805. Number of Different Integers in a String
 
 function numDifferentIntegers(word) {
     word = word.replace(/[a-z]+/g, ' ').trim().split(' ');

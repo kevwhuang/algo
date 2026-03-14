@@ -1,4 +1,4 @@
-// 1962 - Remove Stones to Minimize the Total
+// 1962. Remove Stones to Minimize the Total
 
 function minStoneSum(piles, k) {
     const arr = new Array(10001).fill(0);

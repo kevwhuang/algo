@@ -1,4 +1,4 @@
-// 3273 - Minimum Amount of Damage Dealt to Bob
+// 3273. Minimum Amount of Damage Dealt to Bob
 
 function minDamage(power, damage, health) {
     const arr = Array.from({ length: health.length }, (_, i) => i);

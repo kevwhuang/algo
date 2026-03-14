@@ -1,4 +1,4 @@
-// 3388 - Count Beautiful Splits in an Array
+// 3388. Count Beautiful Splits in an Array
 
 function beautifulSplits(nums) {
     const fn = () => new Uint16Array(5001);

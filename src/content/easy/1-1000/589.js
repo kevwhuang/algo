@@ -1,4 +1,4 @@
-// 589 - N-Ary Tree Preorder Traversal
+// 589. N-Ary Tree Preorder Traversal
 
 function preorder(root) {
     function traverse(cur) {

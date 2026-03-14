@@ -1,4 +1,4 @@
-// 2201 - Count Artifacts That Can Be Extracted
+// 2201. Count Artifacts That Can Be Extracted
 
 function digArtifacts(n, artifacts, dig) {
     const obj = {};

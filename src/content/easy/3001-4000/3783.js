@@ -1,4 +1,4 @@
-// 3783 - Mirror Distance of an Integer
+// 3783. Mirror Distance of an Integer
 
 function mirrorDistance(n) {
     let a = 0, cur = n;

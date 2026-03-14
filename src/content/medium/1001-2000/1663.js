@@ -1,4 +1,4 @@
-// 1663 - Smallest String With a Given Numeric Value
+// 1663. Smallest String With a Given Numeric Value
 
 function getSmallestString(n, k) {
     k -= n;

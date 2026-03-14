@@ -1,4 +1,4 @@
-// 2927 - Distribute Candies Among Children III
+// 2927. Distribute Candies Among Children III
 
 function distributeCandies(n, limit) {
     const fn = a => a >= 2 ? BigInt(a) * BigInt(a - 1) / 2n : 0n;

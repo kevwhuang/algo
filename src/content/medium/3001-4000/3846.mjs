@@ -1,4 +1,4 @@
-// 3846 - Total Distance to Type a String Using One Finger
+// 3846. Total Distance to Type a String Using One Finger
 
 function totalDistance(s) {
     function init() {

@@ -1,4 +1,4 @@
--- 1336 - Number of Transactions Per Visit
+-- 1336. Number of Transactions Per Visit
 
 WITH RECURSIVE CTE AS (
     SELECT

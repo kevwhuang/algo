@@ -1,4 +1,4 @@
-// 1952 - Three Divisors
+// 1952. Three Divisors
 
 function isThree(n) {
     let divisors = 2;

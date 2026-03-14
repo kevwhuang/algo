@@ -1,4 +1,4 @@
-// 779 - Kth Symbol in Grammar
+// 779. Kth Symbol in Grammar
 
 function kthGrammar(n, k) {
     k--;

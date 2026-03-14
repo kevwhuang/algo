@@ -1,4 +1,4 @@
-// 1496 - Path Crossing
+// 1496. Path Crossing
 
 function isPathCrossing(path) {
     const seen = new Set(['0,0']);

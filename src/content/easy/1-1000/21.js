@@ -1,4 +1,4 @@
-// 21 - Merge Two Sorted Lists
+// 21. Merge Two Sorted Lists
 
 function mergeTwoLists(list1, list2) {
     const res = new ListNode();

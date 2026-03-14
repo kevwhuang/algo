@@ -1,4 +1,4 @@
-// 991 - Broken Calculator
+// 991. Broken Calculator
 
 function brokenCalc(startValue, target) {
     let ops = 0;

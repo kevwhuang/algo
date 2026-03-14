@@ -1,4 +1,4 @@
-// 2186 - Minimum Number of Steps to Make Two Strings Anagram II
+// 2186. Minimum Number of Steps to Make Two Strings Anagram II
 
 function minSteps(s, t) {
     const freqs = new Array(26).fill(0);

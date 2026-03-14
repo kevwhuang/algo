@@ -1,4 +1,4 @@
-// 3155 - Maximum Number of Upgradable Servers
+// 3155. Maximum Number of Upgradable Servers
 
 function maxUpgrades(count, upgrade, sell, money) {
     for (let i = 0; i < count.length; i++) {

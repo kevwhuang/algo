@@ -1,4 +1,4 @@
-// 882 - Reachable Nodes in Subdivided Graph
+// 882. Reachable Nodes in Subdivided Graph
 
 function reachableNodes(edges, maxMoves, n) {
     const adj = Array.from({ length: n }, () => []);

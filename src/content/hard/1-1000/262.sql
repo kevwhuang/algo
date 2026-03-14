@@ -1,4 +1,4 @@
--- 262 - Trips and Users
+-- 262. Trips and Users
 
 SELECT
     request_at AS day,

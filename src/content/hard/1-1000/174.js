@@ -1,4 +1,4 @@
-// 174 - Dungeon Game
+// 174. Dungeon Game
 
 function calculateMinimumHP(dungeon) {
     const dp = dungeon, m = dp.length, n = dp[0].length;

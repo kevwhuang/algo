@@ -1,4 +1,4 @@
-// 2816 - Double a Number Represented as a Linked List
+// 2816. Double a Number Represented as a Linked List
 
 function doubleIt(head) {
     function reverse(head) {

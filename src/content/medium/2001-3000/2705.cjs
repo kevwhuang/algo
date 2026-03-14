@@ -1,4 +1,4 @@
-// 2705 - Compact Object
+// 2705. Compact Object
 
 function compactObject(obj) {
     if (typeof obj !== 'object') return obj;

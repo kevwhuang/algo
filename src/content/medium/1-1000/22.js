@@ -1,4 +1,4 @@
-// 22 - Generate Parentheses
+// 22. Generate Parentheses
 
 function generateParenthesis(n) {
     function backtrack(cur) {

@@ -1,4 +1,4 @@
-// 139 - Word Break
+// 139. Word Break
 
 function wordBreak(s, wordDict) {
     const dp = new Uint8Array(s.length + 1);

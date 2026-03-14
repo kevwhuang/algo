@@ -1,4 +1,4 @@
-// 1850 - Minimum Adjacent Swaps to Reach the Kth Smallest Number
+// 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
 
 function getMinSwaps(num, k) {
     function nextPermutation() {

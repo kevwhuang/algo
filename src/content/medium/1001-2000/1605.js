@@ -1,4 +1,4 @@
-// 1605 - Find Valid Matrix Given Row and Column Sums
+// 1605. Find Valid Matrix Given Row and Column Sums
 
 function restoreMatrix(rowSum, colSum) {
     const m = rowSum.length, n = colSum.length;

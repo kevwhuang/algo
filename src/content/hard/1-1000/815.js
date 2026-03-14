@@ -1,4 +1,4 @@
-// 815 - Bus Routes
+// 815. Bus Routes
 
 function numBusesToDestination(routes, source, target) {
     if (source === target) return 0;

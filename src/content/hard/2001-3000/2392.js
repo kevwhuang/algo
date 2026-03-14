@@ -1,3 +1,3 @@
-// 2392 - Build a Matrix With Conditions
+// 2392. Build a Matrix With Conditions
 
 

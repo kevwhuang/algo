@@ -1,4 +1,4 @@
-// 1152 - Analyze User Website Visit Pattern
+// 1152. Analyze User Website Visit Pattern
 
 function mostVisitedPattern(username, timestamp, website) {
     const users = {};

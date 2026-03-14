@@ -1,4 +1,4 @@
-// 3466 - Maximum Coin Collection
+// 3466. Maximum Coin Collection
 
 function maxCoins(lane1, lane2) {
     let res = -Infinity, max1 = res, max2 = res, max3 = res, i = -1;

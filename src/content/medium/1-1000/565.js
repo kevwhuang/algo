@@ -1,4 +1,4 @@
-// 565 - Array Nesting
+// 565. Array Nesting
 
 function arrayNesting(nums) {
     let max = 1;

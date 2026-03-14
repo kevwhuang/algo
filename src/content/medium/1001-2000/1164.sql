@@ -1,4 +1,4 @@
--- 1164 - Product Price at a Given Date
+-- 1164. Product Price at a Given Date
 
 SELECT
     DISTINCT product_id,

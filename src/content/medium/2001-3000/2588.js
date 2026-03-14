@@ -1,4 +1,4 @@
-// 2588 - Count the Number of Beautiful Subarrays
+// 2588. Count the Number of Beautiful Subarrays
 
 function beautifulSubarrays(nums) {
     let subarrays = 0;

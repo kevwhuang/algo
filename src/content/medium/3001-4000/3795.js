@@ -1,4 +1,4 @@
-// 3795 - Minimum Subarray Length With Distinct Sum at Least K
+// 3795. Minimum Subarray Length With Distinct Sum at Least K
 
 function minLength(nums, k) {
     if (!this.B) B = new Uint32Array(100001);

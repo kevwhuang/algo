@@ -1,4 +1,4 @@
-// 1781 - Sum of Beauty of All Substrings
+// 1781. Sum of Beauty of All Substrings
 
 function beautySum(s) {
     let sum = 0;

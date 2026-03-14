@@ -1,4 +1,4 @@
-// 3033 - Modify the Matrix
+// 3033. Modify the Matrix
 
 function modifiedMatrix(matrix) {
     const M = matrix, m = M.length, n = M[0].length;

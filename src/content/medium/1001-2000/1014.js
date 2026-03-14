@@ -1,4 +1,4 @@
-// 1014 - Best Sightseeing Pair
+// 1014. Best Sightseeing Pair
 
 function maxScoreSightseeingPair(values) {
     let res = 0, l = 0, r = 0;

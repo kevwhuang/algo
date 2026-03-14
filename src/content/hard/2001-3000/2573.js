@@ -1,3 +1,3 @@
-// 2573 - Find the String With LCP
+// 2573. Find the String With LCP
 
 

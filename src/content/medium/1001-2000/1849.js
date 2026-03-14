@@ -1,4 +1,4 @@
-// 1849 - Splitting a String Into Descending Consecutive Values
+// 1849. Splitting a String Into Descending Consecutive Values
 
 function splitString(s) {
     function backtrack(i, tgt) {

@@ -1,4 +1,4 @@
-// 2919 - Minimum Increment Operations to Make Array Beautiful
+// 2919. Minimum Increment Operations to Make Array Beautiful
 
 function minIncrementOperations(nums, k) {
     let dp1 = Math.max(0, k - nums[0]);

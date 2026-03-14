@@ -1,4 +1,4 @@
-// 3020 - Find the Maximum Number of Elements in Subset
+// 3020. Find the Maximum Number of Elements in Subset
 
 function maximumLength(nums) {
     const map = new Map();

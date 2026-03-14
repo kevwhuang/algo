@@ -1,4 +1,4 @@
-// 3592 - Inverse Coin Change
+// 3592. Inverse Coin Change
 
 function findCoins(numWays) {
     const res = [], n = numWays.length, dp = new Uint32Array(n + 1);

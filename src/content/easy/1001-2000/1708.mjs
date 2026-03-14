@@ -1,4 +1,4 @@
-// 1708 - Largest Subarray Length K
+// 1708. Largest Subarray Length K
 
 function largestSubarray(nums, k) {
     let res = 0;

@@ -1,4 +1,4 @@
-// 2221 - Find Triangular Sum of an Array
+// 2221. Find Triangular Sum of an Array
 
 function triangularSum(nums) {
     while (nums.length > 1) {

@@ -1,4 +1,4 @@
-// 1891 - Cutting Ribbons
+// 1891. Cutting Ribbons
 
 function maxLength(ribbons, k) {
     const sum = ribbons.reduce((s, e) => s + e);

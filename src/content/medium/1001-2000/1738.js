@@ -1,4 +1,4 @@
-// 1738 - Find Kth Largest XOR Coordinate Value
+// 1738. Find Kth Largest XOR Coordinate Value
 
 function kthLargestValue(matrix, k) {
     const m = matrix.length, n = matrix[0].length;

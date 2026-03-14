@@ -1,4 +1,4 @@
-// 1171 - Remove Zero Sum Consecutive Nodes From Linked List
+// 1171. Remove Zero Sum Consecutive Nodes From Linked List
 
 function removeZeroSumSublists(head) {
     const map = new Map();

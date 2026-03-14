@@ -1,4 +1,4 @@
--- 1747 - Leetflex Banned Accounts
+-- 1747. Leetflex Banned Accounts
 
 SELECT
     DISTINCT L1.account_id

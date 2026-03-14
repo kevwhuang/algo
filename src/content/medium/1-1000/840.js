@@ -1,4 +1,4 @@
-// 840 - Magic Squares in Grid
+// 840. Magic Squares in Grid
 
 function numMagicSquaresInside(grid) {
     const magic = new Set([

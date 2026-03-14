@@ -1,4 +1,4 @@
-// 1452 - People Whose List of Favorite Companies Is Not a Subset of Another List
+// 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 
 function peopleIndexes(favoriteCompanies) {
     for (let i = 0; i < favoriteCompanies.length; i++) {

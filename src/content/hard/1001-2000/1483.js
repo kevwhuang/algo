@@ -1,3 +1,3 @@
-// 1483 - Kth Ancestor of a Tree Node
+// 1483. Kth Ancestor of a Tree Node
 
 

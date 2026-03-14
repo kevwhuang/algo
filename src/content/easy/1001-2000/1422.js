@@ -1,4 +1,4 @@
-// 1422 - Maximum Score After Splitting a String
+// 1422. Maximum Score After Splitting a String
 
 function maxScore(s) {
     let left = Number(s[0] === '0'), right = 0;

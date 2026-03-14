@@ -1,4 +1,4 @@
-// 2756 - Query Batching
+// 2756. Query Batching
 
 class QueryBatcher {
     constructor(queryMultiple, t) {

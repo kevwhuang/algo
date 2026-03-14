@@ -1,3 +1,3 @@
-// 2193 - Minimum Number of Moves to Make Palindrome
+// 2193. Minimum Number of Moves to Make Palindrome
 
 

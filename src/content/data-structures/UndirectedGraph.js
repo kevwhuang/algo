@@ -94,5 +94,3 @@ class UndirectedGraph {
         return uf;
     }
 }
-
-module.exports = UndirectedGraph;

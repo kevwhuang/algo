@@ -1,4 +1,4 @@
-// 2515 - Shortest Distance to Target String in a Circular Array
+// 2515. Shortest Distance to Target String in a Circular Array
 
 function closetTarget(words, target, startIndex) {
     let l = startIndex, r = startIndex;

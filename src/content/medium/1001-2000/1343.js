@@ -1,4 +1,4 @@
-// 1343 - Number of Subarrays of Size K and Average Greater Than or Equal to Threshold
+// 1343. Number of Subarrays of Size K and Average Greater Than or Equal to Threshold
 
 function numOfSubarrays(arr, k, threshold) {
     let sum = 0;

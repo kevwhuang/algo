@@ -1,4 +1,4 @@
-// 1888 - Minimum Number of Flips to Make the Binary String Alternating
+// 1888. Minimum Number of Flips to Make the Binary String Alternating
 
 function minFlips(s) {
     const obj = { 0: [0, 0], 1: [0, 0] }, n = s.length;

@@ -1,4 +1,4 @@
-// 35 - Search Insert Position
+// 35. Search Insert Position
 
 function searchInsert(nums, target) {
     let l = 0, r = nums.length - 1;

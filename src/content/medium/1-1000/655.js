@@ -1,4 +1,4 @@
-// 655 - Print Binary Tree
+// 655. Print Binary Tree
 
 function printTree(root) {
     function dfs1(node, r) {

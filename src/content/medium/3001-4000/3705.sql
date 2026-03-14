@@ -1,4 +1,4 @@
--- 3705 - Find Golden Hour Customers
+-- 3705. Find Golden Hour Customers
 
 SELECT
     customer_id,

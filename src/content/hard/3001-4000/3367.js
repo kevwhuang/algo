@@ -1,3 +1,3 @@
-// 3367 - Maximize Sum of Weights After Edge Removals
+// 3367. Maximize Sum of Weights After Edge Removals
 
 

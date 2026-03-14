@@ -1,4 +1,4 @@
-// 1469 - Find All the Lonely Nodes
+// 1469. Find All the Lonely Nodes
 
 function getLonelyNodes(root) {
     function dfs(node) {

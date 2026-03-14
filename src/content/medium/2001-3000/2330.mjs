@@ -1,4 +1,4 @@
-// 2330 - Valid Palindrome IV
+// 2330. Valid Palindrome IV
 
 function makePalindrome(s) {
     let l = 0, r = s.length - 1, ops = 0;

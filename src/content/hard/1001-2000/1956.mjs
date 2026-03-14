@@ -1,4 +1,4 @@
-// 1956 - Minimum Time for K Virus Variants to Spread
+// 1956. Minimum Time for K Virus Variants to Spread
 
 function minDayskVariants(points, k) {
     let x1 = 100, y1 = 100, x2 = 1, y2 = 1;

@@ -1,4 +1,4 @@
-// 2250 - Count Number of Rectangles Containing Each Point
+// 2250. Count Number of Rectangles Containing Each Point
 
 function countRectangles(rectangles, points) {
     for (let i = 0; i < points.length; i++) {

@@ -1,4 +1,4 @@
-// 737 - Sentence Similarity II
+// 737. Sentence Similarity II
 
 function areSentencesSimilarTwo(sentence1, sentence2, similarPairs) {
     function union(v1, v2) {

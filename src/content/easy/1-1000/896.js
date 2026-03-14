@@ -1,4 +1,4 @@
-// 896 - Monotonic Array
+// 896. Monotonic Array
 
 function isMonotonic(nums) {
     let hasIncreased = false, hasDecreased = false;

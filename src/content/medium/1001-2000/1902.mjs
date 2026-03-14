@@ -1,4 +1,4 @@
-// 1902 - Depth of BST Given Insertion Order
+// 1902. Depth of BST Given Insertion Order
 
 function maxDepthBST(order) {
     if (order[0] === 8864 || order[0] === 33461) return 41;

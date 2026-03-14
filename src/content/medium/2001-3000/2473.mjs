@@ -1,4 +1,4 @@
-// 2473 - Minimum Cost to Buy Apples
+// 2473. Minimum Cost to Buy Apples
 
 function minCost(n, roads, appleCost, k) {
     const adj = Array.from({ length: n }, () => []);

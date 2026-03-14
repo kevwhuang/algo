@@ -1,4 +1,4 @@
-// 492 - Construct the Rectangle
+// 492. Construct the Rectangle
 
 function constructRectangle(area) {
     let width = Math.floor(Math.sqrt(area));

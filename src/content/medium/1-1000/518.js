@@ -1,4 +1,4 @@
-// 518 - Coin Change II
+// 518. Coin Change II
 
 function change(amount, coins) {
     const dp = new Uint32Array(amount + 1);

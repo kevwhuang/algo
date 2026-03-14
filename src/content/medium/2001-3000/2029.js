@@ -1,4 +1,4 @@
-// 2029 - Stone Game IX
+// 2029. Stone Game IX
 
 function stoneGameIX(stones) {
     const bucket = [0, 0, 0];

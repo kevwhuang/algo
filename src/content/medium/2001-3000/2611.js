@@ -1,4 +1,4 @@
-// 2611 - Mice and Cheese
+// 2611. Mice and Cheese
 
 function miceAndCheese(reward1, reward2, k) {
     let points = 0;

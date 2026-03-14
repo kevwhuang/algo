@@ -1,4 +1,4 @@
-// 3346 - Maximum Frequency of an Element After Performing Operations I
+// 3346. Maximum Frequency of an Element After Performing Operations I
 
 function maxFrequency(nums, k, numOperations) {
     const min = Math.min(...nums);

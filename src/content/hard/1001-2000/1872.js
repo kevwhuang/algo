@@ -1,3 +1,3 @@
-// 1872 - Stone Game VIII
+// 1872. Stone Game VIII
 
 

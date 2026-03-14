@@ -1,4 +1,4 @@
-// 803 - Bricks Falling When Hit
+// 803. Bricks Falling When Hit
 
 function hitBricks(grid, hits) {
     function dfs(r, c) {

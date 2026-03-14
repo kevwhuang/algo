@@ -1,4 +1,4 @@
-// 3756 - Concatenate Non-Zero Digits and Multiply by Sum II
+// 3756. Concatenate Non-Zero Digits and Multiply by Sum II
 
 function sumAndMultiply(s, queries) {
     function init() {

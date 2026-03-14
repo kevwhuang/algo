@@ -1,4 +1,4 @@
-// 3371 - Identify the Largest Outlier in an Array
+// 3371. Identify the Largest Outlier in an Array
 
 function getLargestOutlier(nums) {
     let sum = 0, map = new Map();

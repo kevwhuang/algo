@@ -1,4 +1,4 @@
-// 572 - Subtree of Another Tree
+// 572. Subtree of Another Tree
 
 function isSubtree(root, subRoot) {
     function dfs(p, q) {

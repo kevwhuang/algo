@@ -1,4 +1,4 @@
-// 3481 - Apply Substitutions
+// 3481. Apply Substitutions
 
 function applySubstitutions(replacements, text) {
     const map = new Map();

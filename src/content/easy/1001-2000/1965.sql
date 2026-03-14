@@ -1,4 +1,4 @@
--- 1965 - Employees With Missing Information
+-- 1965. Employees With Missing Information
 
 SELECT
     employee_id

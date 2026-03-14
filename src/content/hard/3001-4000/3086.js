@@ -1,3 +1,3 @@
-// 3086 - Minimum Moves to Pick K Ones
+// 3086. Minimum Moves to Pick K Ones
 
 

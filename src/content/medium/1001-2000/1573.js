@@ -1,4 +1,4 @@
-// 1573 - Number of Ways to Split a String
+// 1573. Number of Ways to Split a String
 
 function numWays(s) {
     let ones = 0, n = s.length;

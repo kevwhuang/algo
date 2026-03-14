@@ -1,3 +1,3 @@
-// 1330 - Reverse Subarray to Maximize Array Value
+// 1330. Reverse Subarray to Maximize Array Value
 
 

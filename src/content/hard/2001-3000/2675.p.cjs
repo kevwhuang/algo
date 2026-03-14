@@ -1,4 +1,4 @@
-// 2675 - Array of Objects to Matrix
+// 2675. Array of Objects to Matrix
 
 function jsonToMatrix(arr) {
     function dfs(cur) {

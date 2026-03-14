@@ -1,4 +1,4 @@
-// 907 - Sum of Subarray Minimums
+// 907. Sum of Subarray Minimums
 
 function sumSubarrayMins(arr) {
     arr.push(0);

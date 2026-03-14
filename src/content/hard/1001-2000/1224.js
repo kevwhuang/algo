@@ -1,4 +1,4 @@
-// 1224 - Maximum Equal Frequency
+// 1224. Maximum Equal Frequency
 
 function maxEqualFreq(nums) {
     if (!this.B1) B1 = new Uint32Array(100001), B2 = new Uint32Array(100001);

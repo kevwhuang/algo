@@ -1,4 +1,4 @@
--- 601 - Human Traffic of Stadium
+-- 601. Human Traffic of Stadium
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 1814 - Count Nice Pairs in an Array
+// 1814. Count Nice Pairs in an Array
 
 function countNicePairs(nums) {
     const map = new Map();

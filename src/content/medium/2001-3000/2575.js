@@ -1,4 +1,4 @@
-// 2575 - Find the Divisibility Array of a String
+// 2575. Find the Divisibility Array of a String
 
 function divisibilityArray(word, m) {
     const res = new Uint8Array(word.length);

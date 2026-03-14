@@ -1,4 +1,4 @@
-// 1657 - Determine If Two Strings Are Close
+// 1657. Determine If Two Strings Are Close
 
 function closeStrings(word1, word2) {
     if (word1.length !== word2.length) return false;

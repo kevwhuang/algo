@@ -1,4 +1,4 @@
--- 2004 - The Number of Seniors and Juniors to Join the Company
+-- 2004. The Number of Seniors and Juniors to Join the Company
 
 WITH CTE1 AS (
     SELECT

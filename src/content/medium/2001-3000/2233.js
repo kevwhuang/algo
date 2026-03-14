@@ -1,4 +1,4 @@
-// 2233 - Maximum Product After K Increments
+// 2233. Maximum Product After K Increments
 
 function maximumProduct(nums, k) {
     nums.sort((a, b) => a - b);

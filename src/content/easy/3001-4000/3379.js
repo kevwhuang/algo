@@ -1,4 +1,4 @@
-// 3379 - Transformed Array
+// 3379. Transformed Array
 
 function constructTransformedArray(nums) {
     const n = nums.length;

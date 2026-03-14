@@ -1,4 +1,4 @@
--- 1083 - Sales Analysis II
+-- 1083. Sales Analysis II
 
 SELECT
     buyer_id

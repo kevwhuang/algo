@@ -1,4 +1,4 @@
-// 873 - Length of Longest Fibonacci Subsequence
+// 873. Length of Longest Fibonacci Subsequence
 
 function lenLongestFibSubseq(arr) {
     const dp = new Map(), set = new Set(arr), k = 1e9;

@@ -1,4 +1,4 @@
-// 1276 - Number of Burgers With No Waste of Ingredients
+// 1276. Number of Burgers With No Waste of Ingredients
 
 function numOfBurgers(tomatoSlices, cheeseSlices) {
     if (tomatoSlices % 2) return [];

@@ -1,4 +1,4 @@
-// 1290 - Convert Binary Number in a Linked List to Integer
+// 1290. Convert Binary Number in a Linked List to Integer
 
 function getDecimalValue(head) {
     let res = 0;

@@ -1,3 +1,3 @@
-// 2983 - Palindrome Rearrangement Queries
+// 2983. Palindrome Rearrangement Queries
 
 

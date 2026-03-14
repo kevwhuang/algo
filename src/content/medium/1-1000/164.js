@@ -1,4 +1,4 @@
-// 164 - Maximum Gap
+// 164. Maximum Gap
 
 function maximumGap(nums) {
     nums.sort((a, b) => a - b);

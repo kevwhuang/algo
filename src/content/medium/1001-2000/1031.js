@@ -1,4 +1,4 @@
-// 1031 - Maximum Sum of Two Non-Overlapping Subarrays
+// 1031. Maximum Sum of Two Non-Overlapping Subarrays
 
 function maxSumTwoNoOverlap(nums, firstLen, secondLen) {
     let acc = 0, i = 0;

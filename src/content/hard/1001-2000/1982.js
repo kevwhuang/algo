@@ -1,3 +1,3 @@
-// 1982 - Find Array Given Subset Sums
+// 1982. Find Array Given Subset Sums
 
 

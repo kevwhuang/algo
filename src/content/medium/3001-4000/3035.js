@@ -1,4 +1,4 @@
-// 3035 - Maximum Palindromes After Operations
+// 3035. Maximum Palindromes After Operations
 
 function maxPalindromesAfterOperations(words) {
     const bucket = new Array(26).fill(0);

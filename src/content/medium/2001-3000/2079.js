@@ -1,4 +1,4 @@
-// 2079 - Watering Plants
+// 2079. Watering Plants
 
 function wateringPlants(plants, capacity) {
     let steps = 0, remaining = capacity;

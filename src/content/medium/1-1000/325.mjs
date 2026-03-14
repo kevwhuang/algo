@@ -1,4 +1,4 @@
-// 325 - Maximum Size Subarray Sum Equals K
+// 325. Maximum Size Subarray Sum Equals K
 
 function maxSubArrayLen(nums, k) {
     let max = 0, running = 0;

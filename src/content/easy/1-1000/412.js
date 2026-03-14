@@ -1,4 +1,4 @@
-// 412 - Fizz Buzz
+// 412. Fizz Buzz
 
 function fizzBuzz(n) {
     const res = [];

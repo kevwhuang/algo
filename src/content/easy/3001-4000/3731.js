@@ -1,4 +1,4 @@
-// 3731 - Find Missing Elements
+// 3731. Find Missing Elements
 
 function findMissingElements(nums) {
     const res = [], set = new Set(nums), max = Math.max(...nums);

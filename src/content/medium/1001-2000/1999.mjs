@@ -1,4 +1,4 @@
-// 1999 - Smallest Greater Multiple Made of Two Digits
+// 1999. Smallest Greater Multiple Made of Two Digits
 
 function findInteger(k, digit1, digit2) {
     if (digit1 > digit2) [digit1, digit2] = [digit2, digit1];

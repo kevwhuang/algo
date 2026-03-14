@@ -1,4 +1,4 @@
--- 3052 - Maximize Items
+-- 3052. Maximize Items
 
 WITH CTE AS (
     SELECT

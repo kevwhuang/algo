@@ -1,4 +1,4 @@
-// 733 - Flood Fill
+// 733. Flood Fill
 
 function floodFill(image, sr, sc, color) {
     function dfs(r, c) {

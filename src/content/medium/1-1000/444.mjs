@@ -1,4 +1,4 @@
-// 444 - Sequence Reconstruction
+// 444. Sequence Reconstruction
 
 function sequenceReconstruction(nums, sequences) {
     const adj = {};

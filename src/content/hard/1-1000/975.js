@@ -1,3 +1,3 @@
-// 975 - Odd Even Jump
+// 975. Odd Even Jump
 
 

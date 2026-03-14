@@ -1,4 +1,4 @@
-// 788 - Rotated Digits
+// 788. Rotated Digits
 
 function rotatedDigits(n) {
     function init() {

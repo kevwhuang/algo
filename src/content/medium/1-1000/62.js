@@ -1,4 +1,4 @@
-// 62 - Unique Paths
+// 62. Unique Paths
 
 function uniquePaths(m, n) {
     const dp = new Uint32Array(n).fill(1);

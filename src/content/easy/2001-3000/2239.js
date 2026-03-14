@@ -1,4 +1,4 @@
-// 2239 - Find Closest Number to Zero
+// 2239. Find Closest Number to Zero
 
 function findClosestNumber(nums) {
     let res = -Infinity;

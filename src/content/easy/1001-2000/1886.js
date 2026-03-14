@@ -1,4 +1,4 @@
-// 1886 - Determine Whether Matrix Can Be Obtained by Rotation
+// 1886. Determine Whether Matrix Can Be Obtained by Rotation
 
 function findRotation(mat, target) {
     let flag1 = true, flag2 = true, flag3 = true, flag4 = true;

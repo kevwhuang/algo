@@ -1,4 +1,4 @@
-// 2047 - Number of Valid Words in a Sentence
+// 2047. Number of Valid Words in a Sentence
 
 function countValidWords(sentence) {
     let words = 0;

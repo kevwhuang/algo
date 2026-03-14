@@ -1,4 +1,4 @@
-// 1702 - Maximum Binary String After Change
+// 1702. Maximum Binary String After Change
 
 function maximumBinaryString(binary) {
     let count = 0, index;

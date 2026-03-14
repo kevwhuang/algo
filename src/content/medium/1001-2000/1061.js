@@ -1,4 +1,4 @@
-// 1061 - Lexicographically Smallest Equivalent String
+// 1061. Lexicographically Smallest Equivalent String
 
 function smallestEquivalentString(s1, s2, baseStr) {
     function union(v1, v2) {

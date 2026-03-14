@@ -1,4 +1,4 @@
-// 3843 - First Element With Unique Frequency
+// 3843. First Element With Unique Frequency
 
 function firstUniqueFreq(nums) {
     const B1 = new Map(), B2 = new Map();

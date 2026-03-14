@@ -1,4 +1,4 @@
-// 591 - Tag Validator
+// 591. Tag Validator
 
 function isValid(code) {
     const S = [], n = code.length;

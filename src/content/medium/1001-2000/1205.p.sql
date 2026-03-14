@@ -1,4 +1,4 @@
--- 1205 - Monthly Transactions II
+-- 1205. Monthly Transactions II
 
 WITH CTE1 AS (
     SELECT

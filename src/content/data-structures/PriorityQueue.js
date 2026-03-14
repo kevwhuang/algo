@@ -35,5 +35,3 @@ class PriorityQueue {
         return this.pq.length - 1;
     }
 }
-
-module.exports = PriorityQueue;

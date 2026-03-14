@@ -1,4 +1,4 @@
-// 2080 - Range Frequency Queries
+// 2080. Range Frequency Queries
 
 class RangeFreqQuery {
     constructor(arr) {

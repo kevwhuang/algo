@@ -1,4 +1,4 @@
-// 280 - Wiggle Sort
+// 280. Wiggle Sort
 
 function wiggleSort(nums) {
     let i = 1, temp;

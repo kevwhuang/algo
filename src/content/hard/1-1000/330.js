@@ -1,4 +1,4 @@
-// 330 - Patching Array
+// 330. Patching Array
 
 function minPatches(nums, n) {
     let res = 0, acc = 0, i = 0;

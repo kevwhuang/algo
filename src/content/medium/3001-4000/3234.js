@@ -1,4 +1,4 @@
-// 3234 - Count the Number of Substrings With Dominant Ones
+// 3234. Count the Number of Substrings With Dominant Ones
 
 function numberOfSubstrings(s) {
     const n = s.length, arr = new Uint16Array(n + 1);

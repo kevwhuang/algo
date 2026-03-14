@@ -1,4 +1,4 @@
-// 2507 - Smallest Value After Replacing With Sum of Prime Factors
+// 2507. Smallest Value After Replacing With Sum of Prime Factors
 
 function smallestValue(n) {
     const primes = [

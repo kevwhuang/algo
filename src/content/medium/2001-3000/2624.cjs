@@ -1,4 +1,4 @@
-// 2624 - Snail Traversal
+// 2624. Snail Traversal
 
 Array.prototype.snail = function (rowsCount, colsCount) {
     const n = rowsCount;

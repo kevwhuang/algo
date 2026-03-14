@@ -1,4 +1,4 @@
-// 3565 - Sequential Grid Path Cover
+// 3565. Sequential Grid Path Cover
 
 function findPath(grid, k) {
     function backtrack(r, c, next) {

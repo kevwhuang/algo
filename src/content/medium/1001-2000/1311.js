@@ -1,4 +1,4 @@
-// 1311 - Get Watched Videos by Your Friends
+// 1311. Get Watched Videos by Your Friends
 
 function watchedVideosByFriends(watchedVideos, friends, id, level) {
     let queue = [id];

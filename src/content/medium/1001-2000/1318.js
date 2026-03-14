@@ -1,4 +1,4 @@
-// 1318 - Minimum Flips to Make A or B Equal to C
+// 1318. Minimum Flips to Make A or B Equal to C
 
 function minFlips(a, b, c) {
     let flips = 0;

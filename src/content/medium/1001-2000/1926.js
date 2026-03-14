@@ -1,4 +1,4 @@
-// 1926 - Nearest Exit From Entrance in Maze
+// 1926. Nearest Exit From Entrance in Maze
 
 function nearestExit(maze, entrance) {
     const isExit = (r, c) => r === 0 || r === rr || c === 0 || c === cc;

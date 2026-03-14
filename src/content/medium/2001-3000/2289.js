@@ -1,4 +1,4 @@
-// 2289 - Steps to Make Array Non-Decreasing
+// 2289. Steps to Make Array Non-Decreasing
 
 function totalSteps(nums) {
     let steps = 0;

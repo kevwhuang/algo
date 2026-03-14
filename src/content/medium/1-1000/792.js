@@ -1,4 +1,4 @@
-// 792 - Number of Matching Subsequences
+// 792. Number of Matching Subsequences
 
 function numMatchingSubseq(s, words) {
     const map = new Map();

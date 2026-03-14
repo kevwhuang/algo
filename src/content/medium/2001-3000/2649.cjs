@@ -1,4 +1,4 @@
-// 2649 - Nested Array Generator
+// 2649. Nested Array Generator
 
 function* inorderTraversal(arr) {
     arr = arr.flat(Infinity);

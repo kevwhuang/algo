@@ -1,4 +1,4 @@
-// 370 - Range Addition
+// 370. Range Addition
 
 function getModifiedArray(length, updates) {
     const arr = new Array(length + 1).fill(0);

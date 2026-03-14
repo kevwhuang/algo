@@ -1,4 +1,4 @@
--- 2324 - Product Sales Analysis IV
+-- 2324. Product Sales Analysis IV
 
 WITH CTE AS (
     SELECT

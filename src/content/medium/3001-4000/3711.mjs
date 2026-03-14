@@ -1,4 +1,4 @@
-// 3711 - Maximum Transactions Without Negative Balance
+// 3711. Maximum Transactions Without Negative Balance
 
 function maxTransactions(transactions) {
     const pq = new PriorityQueue((a, b) => a - b);

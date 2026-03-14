@@ -1,4 +1,4 @@
-// 2750 - Ways to Split Array Into Good Subarrays
+// 2750. Ways to Split Array Into Good Subarrays
 
 function numberOfGoodSubarraySplits(nums) {
     let res = 1, prev = null;

@@ -1,4 +1,4 @@
-// 1316 - Distinct Echo Substrings
+// 1316. Distinct Echo Substrings
 
 function distinctEchoSubstrings(s) {
     if (s.startsWith('aaaaaaaaaaa')) return 1000;

@@ -1,4 +1,4 @@
-// 2012 - Sum of Beauty in the Array
+// 2012. Sum of Beauty in the Array
 
 function sumOfBeauties(nums) {
     const mins = new Array(nums.length);

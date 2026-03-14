@@ -1,4 +1,4 @@
-// 2745 - Construct the Longest New String
+// 2745. Construct the Longest New String
 
 function longestString(x, y, z) {
     if (x < y) z += x + x + 1;

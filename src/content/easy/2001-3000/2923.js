@@ -1,4 +1,4 @@
-// 2923 - Find Champion I
+// 2923. Find Champion I
 
 function findChampion(grid) {
     const set = new Set(), n = grid.length;

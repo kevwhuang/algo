@@ -1,4 +1,4 @@
-// 1726 - Tuple With Same Product
+// 1726. Tuple With Same Product
 
 function tupleSameProduct(nums) {
     let tuples = 0;

@@ -1,4 +1,4 @@
-// 1973 - Count Nodes Equal to Sum of Descendants
+// 1973. Count Nodes Equal to Sum of Descendants
 
 function equalToDescendants(root) {
     function dfs(node) {

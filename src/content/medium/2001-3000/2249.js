@@ -1,4 +1,4 @@
-// 2249 - Count Lattice Points Inside a Circle
+// 2249. Count Lattice Points Inside a Circle
 
 function countLatticePoints(circles) {
     circles.sort((a, b) => b[2] - a[2]);

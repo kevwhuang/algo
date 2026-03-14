@@ -1,3 +1,3 @@
-// 2858 - Minimum Edge Reversals So Every Node Is Reachable
+// 2858. Minimum Edge Reversals So Every Node Is Reachable
 
 

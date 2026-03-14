@@ -1,4 +1,4 @@
-// 984 - String Without AAA or BBB
+// 984. String Without AAA or BBB
 
 function strWithout3a3b(a, b) {
     let res = '';

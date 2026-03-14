@@ -1,4 +1,4 @@
-// 3669 - Balanced K-Factor Decomposition
+// 3669. Balanced K-Factor Decomposition
 
 function minDifference(n, k) {
     function backtrack(i, acc) {

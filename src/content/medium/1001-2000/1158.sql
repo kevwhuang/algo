@@ -1,4 +1,4 @@
--- 1158 - Market Analysis I
+-- 1158. Market Analysis I
 
 SELECT
     user_id AS buyer_id,

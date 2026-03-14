@@ -1,4 +1,4 @@
-// 496 - Next Greater Element I
+// 496. Next Greater Element I
 
 function nextGreaterElement(nums1, nums2) {
     const m = nums1.length, n = nums2.length;

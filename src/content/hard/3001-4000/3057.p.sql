@@ -1,4 +1,4 @@
--- 3057 - Employees Project Allocation
+-- 3057. Employees Project Allocation
 
 WITH CTE AS (
     SELECT

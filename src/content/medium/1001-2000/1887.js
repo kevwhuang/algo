@@ -1,4 +1,4 @@
-// 1887 - Reduction Operations to Make the Array Elements Equal
+// 1887. Reduction Operations to Make the Array Elements Equal
 
 function reductionOperations(nums) {
     const freqs = new Array(50001).fill(0);

@@ -1,4 +1,4 @@
-// 186 - Reverse Words in a String II
+// 186. Reverse Words in a String II
 
 function reverseWords(s) {
     const arr = s.join('').split(' ');

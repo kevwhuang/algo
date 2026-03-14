@@ -1,4 +1,4 @@
-// 1628 - Design an Expression Tree With Evaluate Function
+// 1628. Design an Expression Tree With Evaluate Function
 
 class TreeBuilder {
     buildTree(postfix) {

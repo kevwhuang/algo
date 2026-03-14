@@ -1,4 +1,4 @@
-// 547 - Number of Provinces
+// 547. Number of Provinces
 
 function findCircleNum(isConnected) {
     let provinces = 0;

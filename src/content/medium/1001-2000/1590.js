@@ -1,4 +1,4 @@
-// 1590 - Make Sum Divisible by P
+// 1590. Make Sum Divisible by P
 
 function minSubarray(nums, p) {
     let min = Infinity, acc = 0;

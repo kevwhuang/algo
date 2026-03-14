@@ -1,4 +1,4 @@
-// 1074 - Number of Submatrices That Sum to Target
+// 1074. Number of Submatrices That Sum to Target
 
 function numSubmatrixSumTarget(matrix, target) {
     const M = matrix, m = M.length, n = M[0].length;

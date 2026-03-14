@@ -1,4 +1,4 @@
-// 3566 - Partition Array Into Two Equal Product Subsets
+// 3566. Partition Array Into Two Equal Product Subsets
 
 function checkEqualPartitions(nums, target) {
     function dfs(i, acc, prod) {

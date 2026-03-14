@@ -1,4 +1,4 @@
-// 1262 - Greatest Sum Divisible by Three
+// 1262. Greatest Sum Divisible by Three
 
 function maxSumDivThree(nums) {
     let sum = 0, a1 = 1000, b1 = 1000, a2 = 1000, b2 = 1000;

@@ -1,4 +1,4 @@
-// 3310 - Remove Methods From Project
+// 3310. Remove Methods From Project
 
 function remainingMethods(n, k, invocations) {
     function dfs(node) {

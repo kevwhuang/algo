@@ -1,4 +1,4 @@
-// 160 - Intersection of Two Linked Lists
+// 160. Intersection of Two Linked Lists
 
 function getIntersectionNode(headA, headB) {
     let node1 = headA, node2 = headB;

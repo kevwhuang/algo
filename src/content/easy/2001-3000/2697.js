@@ -1,4 +1,4 @@
-// 2697 - Lexicographically Smallest Palindrome
+// 2697. Lexicographically Smallest Palindrome
 
 function makeSmallestPalindrome(s) {
     const res = new Array(s.length);

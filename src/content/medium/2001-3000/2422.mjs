@@ -1,4 +1,4 @@
-// 2422 - Merge Operations to Turn Array Into a Palindrome
+// 2422. Merge Operations to Turn Array Into a Palindrome
 
 function minimumOperations(nums) {
     let ops = 0, l = 0, r = nums.length - 1;

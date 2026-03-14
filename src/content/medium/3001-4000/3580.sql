@@ -1,4 +1,4 @@
--- 3580 - Find Consistently Improving Employees
+-- 3580. Find Consistently Improving Employees
 
 WITH CTE1 AS (
     SELECT

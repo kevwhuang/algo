@@ -1,4 +1,4 @@
-// 1673 - Find the Most Competitive Subsequence
+// 1673. Find the Most Competitive Subsequence
 
 function mostCompetitive(nums, k) {
     const stack = [];

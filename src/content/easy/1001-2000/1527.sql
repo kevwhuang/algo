@@ -1,4 +1,4 @@
--- 1527 - Patients With a Condition
+-- 1527. Patients With a Condition
 
 SELECT
     *

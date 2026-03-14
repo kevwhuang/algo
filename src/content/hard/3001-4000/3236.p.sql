@@ -1,4 +1,4 @@
--- 3236 - CEO Subordinate Hierarchy
+-- 3236. CEO Subordinate Hierarchy
 
 WITH RECURSIVE CTE AS (
     SELECT

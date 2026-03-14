@@ -1,4 +1,4 @@
-// 1586 - Binary Search Tree Iterator II
+// 1586. Binary Search Tree Iterator II
 
 class BSTIterator {
     constructor(root) {

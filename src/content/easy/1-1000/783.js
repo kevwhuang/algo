@@ -1,4 +1,4 @@
-// 783 - Minimum Distance Between BST Nodes
+// 783. Minimum Distance Between BST Nodes
 
 function minDiffInBST(root) {
     function dfs(cur) {

@@ -1,4 +1,4 @@
-// 1637 - Widest Vertical Area Between Two Points Containing No Points
+// 1637. Widest Vertical Area Between Two Points Containing No Points
 
 function maxWidthOfVerticalArea(points) {
     points.sort((a, b) => a[0] - b[0]);

@@ -1,4 +1,4 @@
-// 3663 - Find the Least Frequent Digit
+// 3663. Find the Least Frequent Digit
 
 function getLeastFrequentDigit(n) {
     const B = new Uint8Array(10);

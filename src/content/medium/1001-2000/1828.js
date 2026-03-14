@@ -1,4 +1,4 @@
-// 1828 - Queries on Number of Points Inside a Circle
+// 1828. Queries on Number of Points Inside a Circle
 
 function countPoints(points, queries) {
     const count = new Array(queries.length).fill(0);

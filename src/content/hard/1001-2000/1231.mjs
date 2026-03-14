@@ -1,3 +1,3 @@
-// 1231 - Divide Chocolate
+// 1231. Divide Chocolate
 
 

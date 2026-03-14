@@ -1,4 +1,4 @@
-// 1658 - Minimum Operations to Reduce X to Zero
+// 1658. Minimum Operations to Reduce X to Zero
 
 function minOperations(nums, x) {
     let running = 0, max = -Infinity;

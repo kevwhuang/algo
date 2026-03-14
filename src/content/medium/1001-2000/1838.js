@@ -1,4 +1,4 @@
-// 1838 - Frequency of the Most Frequent Element
+// 1838. Frequency of the Most Frequent Element
 
 function maxFrequency(nums, k) {
     let max = 0;

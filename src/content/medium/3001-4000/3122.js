@@ -1,4 +1,4 @@
-// 3122 - Minimum Number of Operations to Satisfy Conditions
+// 3122. Minimum Number of Operations to Satisfy Conditions
 
 function minimumOperations(grid) {
     let res = 0, min, idx;

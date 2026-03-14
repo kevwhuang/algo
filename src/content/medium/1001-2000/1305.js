@@ -1,4 +1,4 @@
-// 1305 - All Elements in Two Binary Search Trees
+// 1305. All Elements in Two Binary Search Trees
 
 function getAllElements(root1, root2) {
     function dfs(node) {

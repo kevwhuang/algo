@@ -1,4 +1,4 @@
-// 3160 - Find the Number of Distinct Colors Among the Balls
+// 3160. Find the Number of Distinct Colors Among the Balls
 
 function queryResults(limit, queries) {
     const colors = new Map(), counts = new Map();

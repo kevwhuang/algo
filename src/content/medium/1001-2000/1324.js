@@ -1,4 +1,4 @@
-// 1324 - Print Words Vertically
+// 1324. Print Words Vertically
 
 function printVertically(s) {
     const words = s.split(' ');

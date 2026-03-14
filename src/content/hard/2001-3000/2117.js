@@ -1,3 +1,3 @@
-// 2117 - Abbreviating the Product of a Range
+// 2117. Abbreviating the Product of a Range
 
 

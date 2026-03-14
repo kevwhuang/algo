@@ -1,4 +1,4 @@
-// 2894 - Divisible and Non-Divisible Sums Difference
+// 2894. Divisible and Non-Divisible Sums Difference
 
 function differenceOfSums(n, m) {
     const sum = (1 + n) * n / 2;

@@ -1,4 +1,4 @@
-// 3545 - Minimum Deletions for at Most K Distinct Characters
+// 3545. Minimum Deletions for at Most K Distinct Characters
 
 function minDeletion(s, k) {
     const B = new Uint8Array(26);

@@ -1,4 +1,4 @@
-// 464 - Can I Win
+// 464. Can I Win
 
 function canIWin(maxChoosableInteger, desiredTotal) {
     function dfs(mask, acc) {

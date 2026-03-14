@@ -1,4 +1,4 @@
-// 965 - Univalued Binary Tree
+// 965. Univalued Binary Tree
 
 function isUnivalTree(root, ref = root.val) {
     if (!root) return true;

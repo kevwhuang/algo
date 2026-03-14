@@ -1,4 +1,4 @@
-// 2383 - Minimum Hours of Training to Win a Competition
+// 2383. Minimum Hours of Training to Win a Competition
 
 function minNumberOfHours(initialEnergy, initialExperience, energy, experience) {
     let need = 0, acc = initialExperience;

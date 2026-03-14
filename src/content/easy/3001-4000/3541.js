@@ -1,4 +1,4 @@
-// 3541 - Find Most Frequent Vowel and Consonant
+// 3541. Find Most Frequent Vowel and Consonant
 
 function maxFreqSum(s) {
     let max1 = 0, max2 = 0, i = -1;

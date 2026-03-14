@@ -1,4 +1,4 @@
-// 3789 - Minimum Cost to Acquire Required Items
+// 3789. Minimum Cost to Acquire Required Items
 
 function minimumCost(cost1, cost2, costBoth, need1, need2) {
     const min = Math.min(need1, need2);

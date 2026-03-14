@@ -1,3 +1,3 @@
-// 3806 - Maximum Bitwise AND After Increment Operations
+// 3806. Maximum Bitwise AND After Increment Operations
 
 

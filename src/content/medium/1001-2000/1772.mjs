@@ -1,4 +1,4 @@
-// 1772 - Sort Features by Popularity
+// 1772. Sort Features by Popularity
 
 function sortFeatures(features, responses) {
     const map = new Map();

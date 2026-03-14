@@ -1,4 +1,4 @@
-// 2085 - Count Common Words With One Occurrence
+// 2085. Count Common Words With One Occurrence
 
 function countWords(words1, words2) {
     const map1 = new Map();

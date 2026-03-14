@@ -1,4 +1,4 @@
-// 2389 - Longest Subsequence With Limited Sum
+// 2389. Longest Subsequence With Limited Sum
 
 function answerQueries(nums, queries) {
     nums = new Uint32Array(nums).sort();

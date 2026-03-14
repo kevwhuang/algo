@@ -1,4 +1,4 @@
-// 555 - Split Concatenated Strings
+// 555. Split Concatenated Strings
 
 function splitLoopedString(strs) {
     function check(str, idx) {

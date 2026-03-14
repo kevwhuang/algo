@@ -1,4 +1,4 @@
-// 1409 - Queries on a Permutation With Key
+// 1409. Queries on a Permutation With Key
 
 function processQueries(queries, m) {
     const nums = new Array(m);

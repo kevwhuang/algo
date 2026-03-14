@@ -1,4 +1,4 @@
-// 3417 - Zigzag Grid Traversal With Skip
+// 3417. Zigzag Grid Traversal With Skip
 
 function zigzagTraversal(grid) {
     const m = grid.length, n = grid[0].length;

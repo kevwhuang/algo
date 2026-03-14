@@ -1,4 +1,4 @@
-// 360 - Sort Transformed Array
+// 360. Sort Transformed Array
 
 function sortTransformedArray(nums, a, b, c) {
     for (let i = 0; i < nums.length; i++) {

@@ -1,4 +1,4 @@
-// 3093 - Longest Common Suffix Queries
+// 3093. Longest Common Suffix Queries
 
 function stringIndices(wordsContainer, wordsQuery) {
     const trie = { min: 0 };

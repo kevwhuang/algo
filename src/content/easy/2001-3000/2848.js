@@ -1,4 +1,4 @@
-// 2848 - Points That Intersect With Cars
+// 2848. Points That Intersect With Cars
 
 function numberOfPoints(nums) {
     const set = new Set();

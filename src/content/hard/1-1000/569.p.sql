@@ -1,4 +1,4 @@
--- 569 - Median Employee Salary
+-- 569. Median Employee Salary
 
 WITH CTE AS (
     SELECT

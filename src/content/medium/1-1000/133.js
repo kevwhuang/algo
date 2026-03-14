@@ -1,4 +1,4 @@
-// 133 - Clone Graph
+// 133. Clone Graph
 
 function cloneGraph(node) {
     function dfs(node) {

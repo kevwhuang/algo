@@ -1,4 +1,4 @@
-// 112 - Path Sum
+// 112. Path Sum
 
 function hasPathSum(root, targetSum) {
     if (!root) return false;

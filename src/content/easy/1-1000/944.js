@@ -1,4 +1,4 @@
-// 944 - Delete Columns to Make Sorted
+// 944. Delete Columns to Make Sorted
 
 function minDeletionSize(str) {
     let deleted = 0;

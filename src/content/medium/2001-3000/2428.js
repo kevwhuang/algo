@@ -1,4 +1,4 @@
-// 2428 - Maximum Sum of an Hourglass
+// 2428. Maximum Sum of an Hourglass
 
 function maxSum(grid) {
     const m = grid.length - 2, n = grid[0].length - 2;

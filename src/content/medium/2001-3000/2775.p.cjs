@@ -1,4 +1,4 @@
-// 2775 - Undefined to Null
+// 2775. Undefined to Null
 
 function undefinedToNull(obj) {
     if (obj === undefined || obj === null) return null;

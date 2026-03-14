@@ -1,4 +1,4 @@
-// 239 - Sliding Window Maximum
+// 239. Sliding Window Maximum
 
 function maxSlidingWindow(nums, k) {
     const res = new Int16Array(nums.length - k + 1);

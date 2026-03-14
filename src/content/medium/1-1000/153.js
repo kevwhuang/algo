@@ -1,4 +1,4 @@
-// 153 - Find Minimum in Rotated Sorted Array
+// 153. Find Minimum in Rotated Sorted Array
 
 function findMin(nums) {
     let l = 0, r = nums.length - 1;

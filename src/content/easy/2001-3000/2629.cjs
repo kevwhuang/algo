@@ -1,4 +1,4 @@
-// 2629 - Function Composition
+// 2629. Function Composition
 
 function compose(functions) {
     function fn(res) {

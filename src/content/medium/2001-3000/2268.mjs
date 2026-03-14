@@ -1,4 +1,4 @@
-// 2268 - Minimum Number of Keypresses
+// 2268. Minimum Number of Keypresses
 
 function minimumKeypresses(s) {
     const freqs = new Array(26).fill(0);

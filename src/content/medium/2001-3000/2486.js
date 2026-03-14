@@ -1,4 +1,4 @@
-// 2486 - Append Characters to String to Make Subsequence
+// 2486. Append Characters to String to Make Subsequence
 
 function appendCharacters(s, t) {
     let i = 0, j = 0;

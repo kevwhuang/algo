@@ -1,3 +1,3 @@
-// 2709 - Greatest Common Divisor Traversal
+// 2709. Greatest Common Divisor Traversal
 
 

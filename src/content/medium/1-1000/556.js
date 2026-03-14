@@ -1,4 +1,4 @@
-// 556 - Next Greater Element III
+// 556. Next Greater Element III
 
 function nextGreaterElement(n) {
     function swap(i, j) {

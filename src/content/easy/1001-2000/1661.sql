@@ -1,4 +1,4 @@
--- 1661 - Average Time of Process Per Machine
+-- 1661. Average Time of Process Per Machine
 
 SELECT
     A1.machine_id,

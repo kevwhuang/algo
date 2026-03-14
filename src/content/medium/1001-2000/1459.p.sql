@@ -1,4 +1,4 @@
--- 1459 - Rectangles Area
+-- 1459. Rectangles Area
 
 SELECT
     P1.id AS p1,

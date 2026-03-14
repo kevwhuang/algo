@@ -1,4 +1,4 @@
-// 392 - Is Subsequence
+// 392. Is Subsequence
 
 function isSubsequence(s, t) {
     const m = s.length, n = t.length;

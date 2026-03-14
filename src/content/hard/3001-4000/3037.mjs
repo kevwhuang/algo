@@ -1,4 +1,4 @@
-// 3037 - Find Pattern in Infinite Stream II
+// 3037. Find Pattern in Infinite Stream II
 
 function findPattern(stream, pattern) {
     const lps = [0], n = pattern.length;

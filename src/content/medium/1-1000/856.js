@@ -1,4 +1,4 @@
-// 856 - Score of Parentheses
+// 856. Score of Parentheses
 
 function scoreOfParentheses(s) {
     let score = 0, depth = 0;

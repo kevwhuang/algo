@@ -1,4 +1,4 @@
--- 2253 - Dynamic Unpivoting of a Table
+-- 2253. Dynamic Unpivoting of a Table
 
 CREATE PROCEDURE unpivotProducts() BEGIN
 SET

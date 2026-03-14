@@ -1,4 +1,4 @@
-// 937 - Reorder Data in Log Files
+// 937. Reorder Data in Log Files
 
 function reorderLogFiles(logs) {
     const res = [], digitLogs = [];

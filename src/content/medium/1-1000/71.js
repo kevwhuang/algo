@@ -1,4 +1,4 @@
-// 71 - Simplify Path
+// 71. Simplify Path
 
 function simplifyPath(path) {
     path = path.split('/');

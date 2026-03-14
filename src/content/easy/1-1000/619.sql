@@ -1,4 +1,4 @@
--- 619 - Biggest Single Number
+-- 619. Biggest Single Number
 
 WITH CTE AS (
     SELECT

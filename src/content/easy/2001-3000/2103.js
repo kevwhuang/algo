@@ -1,4 +1,4 @@
-// 2103 - Rings and Rods
+// 2103. Rings and Rods
 
 function countPoints(rings) {
     const arr = new Array(10).fill('');

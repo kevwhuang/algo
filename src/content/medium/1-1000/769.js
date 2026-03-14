@@ -1,4 +1,4 @@
-// 769 - Max Chunks to Make Sorted
+// 769. Max Chunks to Make Sorted
 
 function maxChunksToSorted(arr) {
     let chunks = 0, max = 0;

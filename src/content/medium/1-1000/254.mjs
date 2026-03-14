@@ -1,4 +1,4 @@
-// 254 - Factor Combinations
+// 254. Factor Combinations
 
 function getFactors(n) {
     function backtrack(factor, rem) {

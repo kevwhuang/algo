@@ -1,4 +1,4 @@
-// 1130 - Minimum Cost Tree From Leaf Values
+// 1130. Minimum Cost Tree From Leaf Values
 
 function mctFromLeafValues(arr) {
     let res = 0, i = -1;

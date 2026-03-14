@@ -1,4 +1,4 @@
-// 2534 - Time Taken to Cross the Door
+// 2534. Time Taken to Cross the Door
 
 function timeTaken(arrival, state) {
     const arr1 = [], arr2 = [];

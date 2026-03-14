@@ -1,4 +1,4 @@
-// 1284 - Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
+// 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 
 function minFlips(mat) {
     const dict = [], m = mat.length, n = mat[0].length;

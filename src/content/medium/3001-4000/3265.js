@@ -1,4 +1,4 @@
-// 3265 - Count Almost Equal Pairs I
+// 3265. Count Almost Equal Pairs I
 
 function countPairs(nums) {
     nums = new Uint32Array(nums).sort();

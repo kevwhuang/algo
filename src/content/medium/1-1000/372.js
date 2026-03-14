@@ -1,4 +1,4 @@
-// 372 - Super Pow
+// 372. Super Pow
 
 function superPow(a, b) {
     function power(base, exp) {

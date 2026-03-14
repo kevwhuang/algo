@@ -1,4 +1,4 @@
-// 2114 - Maximum Number of Words Found in Sentences
+// 2114. Maximum Number of Words Found in Sentences
 
 function mostWordsFound(sentences) {
     let max = 0;

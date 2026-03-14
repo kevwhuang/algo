@@ -1,4 +1,4 @@
--- 3482 - Analyze Organization Hierarchy
+-- 3482. Analyze Organization Hierarchy
 
 WITH RECURSIVE CTE1 AS (
     SELECT

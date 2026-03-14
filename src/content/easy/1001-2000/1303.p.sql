@@ -1,4 +1,4 @@
--- 1303 - Find the Team Size
+-- 1303. Find the Team Size
 
 SELECT
     employee_id,

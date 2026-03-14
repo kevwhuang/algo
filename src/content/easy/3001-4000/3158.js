@@ -1,4 +1,4 @@
-// 3158 - Find the XOR of Numbers Which Appear Twice
+// 3158. Find the XOR of Numbers Which Appear Twice
 
 function duplicateNumbersXOR(nums) {
     const bucket = new Uint8Array(51);

@@ -1,4 +1,4 @@
-// 3524 - Find X Value of Array I
+// 3524. Find X Value of Array I
 
 function resultArray(nums, k) {
     const res = new Array(k).fill(0);

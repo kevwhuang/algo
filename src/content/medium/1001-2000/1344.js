@@ -1,4 +1,4 @@
-// 1344 - Angle Between Hands of a Clock
+// 1344. Angle Between Hands of a Clock
 
 function angleClock(hour, minutes) {
     if (hour === 12) hour = 0;

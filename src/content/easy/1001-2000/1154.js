@@ -1,4 +1,4 @@
-// 1154 - Day of the Year
+// 1154. Day of the Year
 
 function dayOfYear(date) {
     let [year, month, day] = date.split('-');

@@ -1,4 +1,4 @@
-// 2315 - Count Asterisks
+// 2315. Count Asterisks
 
 function countAsterisks(s) {
     let count = 0, isBetween = false;

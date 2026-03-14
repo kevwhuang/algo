@@ -1,4 +1,4 @@
-// 1390 - Four Divisors
+// 1390. Four Divisors
 
 function sumFourDivisors(nums) {
     let sum = 0;

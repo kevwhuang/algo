@@ -1,4 +1,4 @@
-// 1986 - Minimum Number of Work Sessions to Finish the Tasks
+// 1986. Minimum Number of Work Sessions to Finish the Tasks
 
 function minSessions(tasks, sessionTime) {
     function backtrack(i) {

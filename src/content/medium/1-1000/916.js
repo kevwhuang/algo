@@ -1,4 +1,4 @@
-// 916 - Word Subsets
+// 916. Word Subsets
 
 function wordSubsets(words1, words2) {
     function getFrequencies(word) {

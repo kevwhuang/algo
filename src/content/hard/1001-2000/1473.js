@@ -1,3 +1,3 @@
-// 1473 - Paint House III
+// 1473. Paint House III
 
 

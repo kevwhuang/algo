@@ -1,4 +1,4 @@
-// 166 - Fraction to Recurring Decimal
+// 166. Fraction to Recurring Decimal
 
 function fractionToDecimal(numerator, denominator) {
     if (numerator === 0) return '0';

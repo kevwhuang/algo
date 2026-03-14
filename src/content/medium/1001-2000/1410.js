@@ -1,4 +1,4 @@
-// 1410 - HTML Entity Parser
+// 1410. HTML Entity Parser
 
 function entityParser(text) {
     return text

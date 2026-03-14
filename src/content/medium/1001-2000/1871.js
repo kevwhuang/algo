@@ -1,4 +1,4 @@
-// 1871 - Jump Game VII
+// 1871. Jump Game VII
 
 function canReach(s, minJump, maxJump) {
     if (s.at(-1) === '1') return false;

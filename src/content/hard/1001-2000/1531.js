@@ -1,3 +1,3 @@
-// 1531 - String Compression II
+// 1531. String Compression II
 
 

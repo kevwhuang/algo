@@ -1,4 +1,4 @@
-// 1880 - Check If Word Equals Summation of Two Words
+// 1880. Check If Word Equals Summation of Two Words
 
 function isSumEqual(firstWord, secondWord, targetWord) {
     function check(s) {

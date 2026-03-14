@@ -1,4 +1,4 @@
-// 970 - Powerful Integers
+// 970. Powerful Integers
 
 function powerfulIntegers(x, y, bound) {
     const set = new Set();

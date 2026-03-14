@@ -1,4 +1,4 @@
-// 3589 - Count Prime-Gap Balanced Subarrays
+// 3589. Count Prime-Gap Balanced Subarrays
 
 function primeSubarray(nums, k) {
     function init() {

@@ -1,4 +1,4 @@
-// 1512 - Number of Good Pairs
+// 1512. Number of Good Pairs
 
 function numIdenticalPairs(nums) {
     let res = 0;

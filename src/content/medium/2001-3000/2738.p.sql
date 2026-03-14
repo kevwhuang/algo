@@ -1,4 +1,4 @@
--- 2738 - Count Occurrences in Text
+-- 2738. Count Occurrences in Text
 
 SELECT
     'bull' AS word,

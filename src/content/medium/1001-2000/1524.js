@@ -1,4 +1,4 @@
-// 1524 - Number of Subarrays With Odd Sum
+// 1524. Number of Subarrays With Odd Sum
 
 function numOfSubarrays(arr) {
     let subarrays = 0, acc = 0, even = 1, odd = 0;

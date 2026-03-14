@@ -1,4 +1,4 @@
-// 710 - Random Pick With Blacklist
+// 710. Random Pick With Blacklist
 
 class Solution {
     constructor(n, blacklist) {

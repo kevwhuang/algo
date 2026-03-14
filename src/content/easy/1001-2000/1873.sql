@@ -1,4 +1,4 @@
--- 1873 - Calculate Special Bonus
+-- 1873. Calculate Special Bonus
 
 SELECT
     employee_id,

@@ -1,4 +1,4 @@
-// 3737 - Count Subarrays With Majority Element I
+// 3737. Count Subarrays With Majority Element I
 
 function countMajoritySubarrays(nums, target) {
     if (!this.arr) arr = new Uint16Array(200001);

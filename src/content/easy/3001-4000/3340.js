@@ -1,4 +1,4 @@
-// 3340 - Check Balanced String
+// 3340. Check Balanced String
 
 function isBalanced(num) {
     let even = 0, odd = 0;

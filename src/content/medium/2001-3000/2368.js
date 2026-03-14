@@ -1,4 +1,4 @@
-// 2368 - Reachable Nodes With Restrictions
+// 2368. Reachable Nodes With Restrictions
 
 function reachableNodes(n, edges, restricted) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

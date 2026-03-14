@@ -1,4 +1,4 @@
--- 603 - Consecutive Available Seats
+-- 603. Consecutive Available Seats
 
 SELECT
     seat_id

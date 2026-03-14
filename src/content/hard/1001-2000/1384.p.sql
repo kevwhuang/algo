@@ -1,4 +1,4 @@
--- 1384 - Total Sales Amount by Year
+-- 1384. Total Sales Amount by Year
 
 WITH RECURSIVE CTE AS (
     SELECT

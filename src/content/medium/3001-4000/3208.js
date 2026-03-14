@@ -1,4 +1,4 @@
-// 3208 - Alternating Groups II
+// 3208. Alternating Groups II
 
 function numberOfAlternatingGroups(colors, k) {
     let groups = 0, window = 1;

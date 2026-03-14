@@ -1,4 +1,4 @@
-// 3457 - Eat Pizzas
+// 3457. Eat Pizzas
 
 function maxWeight(pizzas) {
     const arr = new Uint32Array(pizzas).sort();

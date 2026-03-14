@@ -1,4 +1,4 @@
-// 1368 - Minimum Cost to Make at Least One Valid Path in a Grid
+// 1368. Minimum Cost to Make at Least One Valid Path in a Grid
 
 function minCost(grid) {
     const M = grid, m = M.length, n = M[0].length, mm = m - 1, nn = n - 1;

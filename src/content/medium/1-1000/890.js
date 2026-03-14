@@ -1,4 +1,4 @@
-// 890 - Find and Replace Pattern
+// 890. Find and Replace Pattern
 
 function findAndReplacePattern(words, pattern) {
     const matches = [];

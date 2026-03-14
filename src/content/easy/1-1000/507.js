@@ -1,4 +1,4 @@
-// 507 - Perfect Number
+// 507. Perfect Number
 
 function checkPerfectNumber(num) {
     if (num % 2) return false;

@@ -1,4 +1,4 @@
-// 1247 - Minimum Swaps to Make Strings Equal
+// 1247. Minimum Swaps to Make Strings Equal
 
 function minimumSwap(s1, s2) {
     const counts = [0, 0, 0, 0];

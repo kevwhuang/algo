@@ -1,4 +1,4 @@
-// 2343 - Query Kth Smallest Trimmed Number
+// 2343. Query Kth Smallest Trimmed Number
 
 function smallestTrimmedNumbers(nums, queries) {
     const len = nums.length;

@@ -1,4 +1,4 @@
-// 1066 - Campus Bikes II
+// 1066. Campus Bikes II
 
 function assignBikes(workers, bikes) {
     function dfs(i, mask) {

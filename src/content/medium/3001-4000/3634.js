@@ -1,4 +1,4 @@
-// 3634 - Minimum Removals to Balance Array
+// 3634. Minimum Removals to Balance Array
 
 function minRemoval(nums, k) {
     nums = new Uint32Array(nums).sort();

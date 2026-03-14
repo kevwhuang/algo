@@ -1,4 +1,4 @@
-// 2965 - Find Missing and Repeated Values
+// 2965. Find Missing and Repeated Values
 
 function findMissingAndRepeatedValues(grid) {
     const len = grid.length;

@@ -1,4 +1,4 @@
-// 1395 - Count Number of Teams
+// 1395. Count Number of Teams
 
 function numTeams(rating) {
     let teams = 0;

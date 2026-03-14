@@ -1,4 +1,4 @@
-// 2219 - Maximum Sum Score of Array
+// 2219. Maximum Sum Score of Array
 
 function maximumSumScore(nums) {
     let max = -Infinity;

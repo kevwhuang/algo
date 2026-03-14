@@ -1,4 +1,4 @@
-// 2786 - Visit Array Positions to Maximize Score
+// 2786. Visit Array Positions to Maximize Score
 
 function maxScore(nums, x) {
     let max1 = nums[0] & 1 ? nums[0] : nums[0] - x;

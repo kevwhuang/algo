@@ -1,3 +1,3 @@
-// 1095 - Find in Mountain Array
+// 1095. Find in Mountain Array
 
 

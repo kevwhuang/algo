@@ -1,4 +1,4 @@
-// 3514 - Number of Unique XOR Triplets II
+// 3514. Number of Unique XOR Triplets II
 
 function uniqueXorTriplets(nums) {
     const seen1 = new Uint8Array(1501);

@@ -1,4 +1,4 @@
-// 338 - Counting Bits
+// 338. Counting Bits
 
 function countBits(n) {
     const res = new Uint8Array(n + 1);

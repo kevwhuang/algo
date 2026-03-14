@@ -1,4 +1,4 @@
-// 3571 - Find the Shortest Superstring II
+// 3571. Find the Shortest Superstring II
 
 function shortestSuperstring(s1, s2) {
     function check(s1, s2) {

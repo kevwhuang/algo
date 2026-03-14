@@ -1,4 +1,4 @@
-// 3144 - Minimum Substring Partition of Equal Character Frequency
+// 3144. Minimum Substring Partition of Equal Character Frequency
 
 function minimumSubstringsInPartition(s) {
     const n = s.length;

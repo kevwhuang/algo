@@ -1,4 +1,4 @@
--- 3051 - Find Candidates for Data Scientist Position
+-- 3051. Find Candidates for Data Scientist Position
 
 SELECT
     candidate_id

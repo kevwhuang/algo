@@ -1,4 +1,4 @@
--- 2010 - The Number of Seniors and Juniors to Join the Company II
+-- 2010. The Number of Seniors and Juniors to Join the Company II
 
 WITH CTE AS (
     SELECT

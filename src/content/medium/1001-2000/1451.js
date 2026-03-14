@@ -1,4 +1,4 @@
-// 1451 - Rearrange Words in a Sentence
+// 1451. Rearrange Words in a Sentence
 
 function arrangeWords(text) {
     text = text.split(' ');

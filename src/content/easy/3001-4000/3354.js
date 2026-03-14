@@ -1,4 +1,4 @@
-// 3354 - Make Array Elements Equal to Zero
+// 3354. Make Array Elements Equal to Zero
 
 function countValidSelections(nums) {
     let res = 0, ps = 0, ss = nums.reduce((s, e) => s + e);

@@ -1,3 +1,3 @@
-// 3288 - Length of the Longest Increasing Path
+// 3288. Length of the Longest Increasing Path
 
 

@@ -1,4 +1,4 @@
-// 2636 - Promise Pool
+// 2636. Promise Pool
 
 function promisePool(functions, n) {
     const fn1 = e => e().then(fn2);

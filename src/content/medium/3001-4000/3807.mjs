@@ -1,4 +1,4 @@
-// 3807 - Minimum Cost to Repair Edges to Traverse a Graph
+// 3807. Minimum Cost to Repair Edges to Traverse a Graph
 
 function minCost(n, edges, k) {
     if (!this.seen) seen = new Uint8Array(50000), seen[0] = 1;

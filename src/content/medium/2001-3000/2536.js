@@ -1,4 +1,4 @@
-// 2536 - Increment Submatrices by One
+// 2536. Increment Submatrices by One
 
 function rangeAddQueries(n, queries) {
     const mat = Array.from({ length: n }, () => new Uint16Array(n));

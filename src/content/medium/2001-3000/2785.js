@@ -1,4 +1,4 @@
-// 2785 - Sort Vowels in a String
+// 2785. Sort Vowels in a String
 
 function sortVowels(s) {
     s = s.split('');

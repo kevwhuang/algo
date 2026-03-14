@@ -1,4 +1,4 @@
--- 1241 - Number of Comments Per Post
+-- 1241. Number of Comments Per Post
 
 WITH CTE AS (
     SELECT

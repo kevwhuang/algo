@@ -1,4 +1,4 @@
-// 2406 - Divide Intervals Into Minimum Number of Groups
+// 2406. Divide Intervals Into Minimum Number of Groups
 
 function minGroups(intervals) {
     let max = 0;

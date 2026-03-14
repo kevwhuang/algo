@@ -1,4 +1,4 @@
-// 1968 - Array With Elements Not Equal to Average of Neighbors
+// 1968. Array With Elements Not Equal to Average of Neighbors
 
 function rearrangeArray(nums) {
     const swap = i => [nums[i], nums[i + 1]] = [nums[i + 1], nums[i]];

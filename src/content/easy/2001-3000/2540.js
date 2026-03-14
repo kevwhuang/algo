@@ -1,4 +1,4 @@
-// 2540 - Minimum Common Value
+// 2540. Minimum Common Value
 
 function getCommon(nums1, nums2) {
     let p1 = 0, p2 = 0;

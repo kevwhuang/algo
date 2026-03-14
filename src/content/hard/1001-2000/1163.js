@@ -1,3 +1,3 @@
-// 1163 - Last Substring in Lexicographical Order
+// 1163. Last Substring in Lexicographical Order
 
 

@@ -1,3 +1,3 @@
-// 1691 - Maximum Height by Stacking Cuboids
+// 1691. Maximum Height by Stacking Cuboids
 
 

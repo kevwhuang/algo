@@ -1,4 +1,4 @@
-// 1160 - Find Words That Can Be Formed by Characters
+// 1160. Find Words That Can Be Formed by Characters
 
 function countCharacters(words, chars) {
     const B1 = new Uint8Array(26);

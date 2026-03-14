@@ -1,4 +1,4 @@
-// 1026 - Maximum Difference Between Node and Ancestor
+// 1026. Maximum Difference Between Node and Ancestor
 
 function maxAncestorDiff(root) {
     function dfs(node, min, max) {

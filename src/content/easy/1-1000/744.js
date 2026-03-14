@@ -1,4 +1,4 @@
-// 744 - Find Smallest Letter Greater Than Target
+// 744. Find Smallest Letter Greater Than Target
 
 function nextGreatestLetter(letters, target) {
     let l = 0, r = letters.length - 1;

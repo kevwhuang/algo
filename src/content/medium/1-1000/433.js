@@ -1,4 +1,4 @@
-// 433 - Minimum Genetic Mutation
+// 433. Minimum Genetic Mutation
 
 function minMutation(startGene, endGene, bank) {
     bank = new Set(bank);

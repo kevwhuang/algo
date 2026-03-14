@@ -1,4 +1,4 @@
--- 1907 - Count Salary Categories
+-- 1907. Count Salary Categories
 
 SELECT
     'Low Salary' AS category,

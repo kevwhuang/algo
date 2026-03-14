@@ -1,4 +1,4 @@
-// 3606 - Coupon Code Validator
+// 3606. Coupon Code Validator
 
 function validateCoupons(code, businessLine, isActive) {
     const B = {};

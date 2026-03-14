@@ -1,4 +1,4 @@
-// 2290 - Minimum Obstacle Removal to Reach Corner
+// 2290. Minimum Obstacle Removal to Reach Corner
 
 function minimumObstacles(grid) {
     const m = grid.length, n = grid[0].length, mm = m - 1, nn = n - 1;

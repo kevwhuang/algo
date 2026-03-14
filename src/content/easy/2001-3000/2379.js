@@ -1,4 +1,4 @@
-// 2379 - Minimum Recolors to Get K Consecutive Black Blocks
+// 2379. Minimum Recolors to Get K Consecutive Black Blocks
 
 function minimumRecolors(blocks, k) {
     const freqs = { W: 0, B: 0 };

@@ -1,4 +1,4 @@
-// 1178 - Number of Valid Words for Each Puzzle
+// 1178. Number of Valid Words for Each Puzzle
 
 function findNumOfValidWords(words, puzzles) {
     const B = new Map();

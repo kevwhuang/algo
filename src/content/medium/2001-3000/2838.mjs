@@ -1,4 +1,4 @@
-// 2838 - Maximum Coins Heroes Can Collect
+// 2838. Maximum Coins Heroes Can Collect
 
 function maximumCoins(heroes, monsters, coins) {
     heroes = heroes.map((e, i) => [e, i]);

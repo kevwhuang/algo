@@ -1,4 +1,4 @@
-// 1616 - Split Two Strings to Make Palindrome
+// 1616. Split Two Strings to Make Palindrome
 
 function checkPalindromeFormation(a, b) {
     function checkPalindrome(s1, s2) {

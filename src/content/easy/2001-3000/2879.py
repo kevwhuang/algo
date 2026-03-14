@@ -1,4 +1,4 @@
-# 2879 - Display the First Three Rows
+# 2879. Display the First Three Rows
 
 import pandas as pd
 

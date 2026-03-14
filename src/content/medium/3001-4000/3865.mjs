@@ -1,4 +1,4 @@
-// 3865 - Reverse K Subarrays
+// 3865. Reverse K Subarrays
 
 function reverseSubarrays(nums, k) {
     k = nums.length / k;

@@ -1,4 +1,4 @@
-// 329 - Longest Increasing Path in a Matrix
+// 329. Longest Increasing Path in a Matrix
 
 function longestIncreasingPath(matrix) {
     function dfs(r, c, prev) {

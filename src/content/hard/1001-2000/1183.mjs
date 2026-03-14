@@ -1,3 +1,3 @@
-// 1183 - Maximum Number of Ones
+// 1183. Maximum Number of Ones
 
 

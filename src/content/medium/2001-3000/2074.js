@@ -1,4 +1,4 @@
-// 2074 - Reverse Nodes in Even Length Groups
+// 2074. Reverse Nodes in Even Length Groups
 
 function reverseEvenLengthGroups(head) {
     const vals = [];

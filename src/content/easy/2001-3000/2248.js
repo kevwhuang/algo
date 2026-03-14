@@ -1,4 +1,4 @@
-// 2248 - Intersection of Multiple Arrays
+// 2248. Intersection of Multiple Arrays
 
 function intersection(nums) {
     const bucket = new Array(1001).fill(0);

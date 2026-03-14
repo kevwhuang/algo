@@ -1,4 +1,4 @@
--- 1892 - Page Recommendations II
+-- 1892. Page Recommendations II
 
 WITH CTE AS (
     SELECT

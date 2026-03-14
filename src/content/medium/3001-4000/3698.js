@@ -1,4 +1,4 @@
-// 3698 - Split Array With Minimum Difference
+// 3698. Split Array With Minimum Difference
 
 function splitArray(nums) {
     let acc1 = nums[0], acc2 = nums.at(-1), i = 0, j = nums.length - 1;

@@ -1,4 +1,4 @@
-// 1109 - Corporate Flight Bookings
+// 1109. Corporate Flight Bookings
 
 function corpFlightBookings(bookings, n) {
     const res = new Array(n + 1).fill(0);

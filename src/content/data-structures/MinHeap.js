@@ -34,5 +34,3 @@ class MinHeap {
         return this.heap.length - 1;
     }
 }
-
-module.exports = MinHeap;

@@ -1,3 +1,3 @@
-// 3544 - Subtree Inversion Sum
+// 3544. Subtree Inversion Sum
 
 

@@ -1,3 +1,3 @@
-// 3700 - Number of Zigzag Arrays II
+// 3700. Number of Zigzag Arrays II
 
 

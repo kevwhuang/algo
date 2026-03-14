@@ -1,4 +1,4 @@
-// 1474 - Delete N Nodes After M Nodes of a Linked List
+// 1474. Delete N Nodes After M Nodes of a Linked List
 
 function deleteNodes(head, m, n) {
     let node = head;

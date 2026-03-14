@@ -1,4 +1,4 @@
-// 2052 - Minimum Cost to Separate Sentence Into Rows
+// 2052. Minimum Cost to Separate Sentence Into Rows
 
 function minimumCost(sentence, k) {
     function dfs(i) {

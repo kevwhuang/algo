@@ -1,4 +1,4 @@
-// 2046 - Sort Linked List Already Sorted Using Absolute Values
+// 2046. Sort Linked List Already Sorted Using Absolute Values
 
 function sortLinkedList(head) {
     const list2 = new ListNode();

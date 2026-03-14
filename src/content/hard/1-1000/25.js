@@ -1,4 +1,4 @@
-// 25 - Reverse Nodes in K-Group
+// 25. Reverse Nodes in K-Group
 
 function reverseKGroup(head, k) {
     let node = head, i = 0;

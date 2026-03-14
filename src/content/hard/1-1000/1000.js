@@ -1,3 +1,3 @@
-// 1000 - Minimum Cost to Merge Stones
+// 1000. Minimum Cost to Merge Stones
 
 

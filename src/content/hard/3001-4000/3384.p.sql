@@ -1,4 +1,4 @@
--- 3384 - Team Dominance by Pass Success
+-- 3384. Team Dominance by Pass Success
 
 SELECT
     T1.team_name,

@@ -1,4 +1,4 @@
-// 1313 - Decompress Run-Length Encoded List
+// 1313. Decompress Run-Length Encoded List
 
 function decompressRLElist(nums) {
     const list = [];

@@ -1,4 +1,4 @@
-// 2871 - Split Array Into Maximum Number of Subarrays
+// 2871. Split Array Into Maximum Number of Subarrays
 
 function maxSubarrays(nums) {
     let subarrays = 0;

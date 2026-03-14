@@ -1,4 +1,4 @@
-// 2050 - Parallel Courses III
+// 2050. Parallel Courses III
 
 function minimumTime(n, relations, time) {
     const adj = Array.from({ length: n }, () => []);

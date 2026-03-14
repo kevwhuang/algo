@@ -1,4 +1,4 @@
-// 145 - Binary Tree Postorder Traversal
+// 145. Binary Tree Postorder Traversal
 
 function postorderTraversal(root) {
     function dfs(node) {

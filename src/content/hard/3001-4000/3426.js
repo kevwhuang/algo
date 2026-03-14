@@ -1,4 +1,4 @@
-// 3426 - Manhattan Distances of All Arrangements of Pieces
+// 3426. Manhattan Distances of All Arrangements of Pieces
 
 function distanceSum(m, n, k) {
     function init() {

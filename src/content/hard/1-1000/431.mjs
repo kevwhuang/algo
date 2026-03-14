@@ -1,4 +1,4 @@
-// 431 - Encode N-Ary Tree to Binary Tree
+// 431. Encode N-Ary Tree to Binary Tree
 
 class Codec {
     decode(root) {

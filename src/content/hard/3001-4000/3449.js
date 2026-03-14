@@ -1,3 +1,3 @@
-// 3449 - Maximize the Minimum Game Score
+// 3449. Maximize the Minimum Game Score
 
 

@@ -1,4 +1,4 @@
-// 1131 - Maximum of Absolute Value Expression
+// 1131. Maximum of Absolute Value Expression
 
 function maxAbsValExpr(arr1, arr2) {
     const INF = Number.MAX_SAFE_INTEGER;

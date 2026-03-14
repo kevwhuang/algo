@@ -1,4 +1,4 @@
-// 1698 - Number of Distinct Substrings in a String
+// 1698. Number of Distinct Substrings in a String
 
 function countDistinct(s) {
     let substrings = 0;

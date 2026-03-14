@@ -1,4 +1,4 @@
-// 795 - Number of Subarrays With Bounded Maximum
+// 795. Number of Subarrays With Bounded Maximum
 
 function numSubarrayBoundedMax(nums, left, right) {
     let subarrays = 0, window = 0;

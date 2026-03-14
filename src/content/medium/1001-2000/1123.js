@@ -1,4 +1,4 @@
-// 1123 - Lowest Common Ancestor of Deepest Leaves
+// 1123. Lowest Common Ancestor of Deepest Leaves
 
 function lcaDeepestLeaves(root) {
     function dfs(node, depth) {

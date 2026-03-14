@@ -1,4 +1,4 @@
-// 1134 - Armstrong Number
+// 1134. Armstrong Number
 
 function isArmstrong(n) {
     let exp = 0, cur = n;

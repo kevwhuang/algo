@@ -1,4 +1,4 @@
-// 1429 - First Unique Number
+// 1429. First Unique Number
 
 class FirstUnique {
     constructor(nums) {

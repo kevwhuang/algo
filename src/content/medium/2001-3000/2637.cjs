@@ -1,4 +1,4 @@
-// 2637 - Promise Time Limit
+// 2637. Promise Time Limit
 
 function timeLimit(fn, t) {
     const s = 'Time Limit Exceeded';

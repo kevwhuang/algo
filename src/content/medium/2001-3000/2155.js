@@ -1,4 +1,4 @@
-// 2155 - All Divisions With the Highest Score of a Binary Array
+// 2155. All Divisions With the Highest Score of a Binary Array
 
 function maxScoreIndices(nums) {
     let l = 0, r = nums.reduce((s, e) => s + e);

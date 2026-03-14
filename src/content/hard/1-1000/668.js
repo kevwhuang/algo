@@ -1,4 +1,4 @@
-// 668 - Kth Smallest Number in Multiplication Table
+// 668. Kth Smallest Number in Multiplication Table
 
 function findKthNumber(m, n, k) {
     let l = 1, r = m * n;

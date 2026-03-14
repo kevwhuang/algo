@@ -1,4 +1,4 @@
-// 1876 - Substrings of Size Three With Distinct Characters
+// 1876. Substrings of Size Three With Distinct Characters
 
 function countGoodSubstrings(s) {
     let count = 0;

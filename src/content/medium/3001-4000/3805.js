@@ -1,4 +1,4 @@
-// 3805 - Count Caesar Cipher Pairs
+// 3805. Count Caesar Cipher Pairs
 
 function countPairs(words) {
     let res = 0;

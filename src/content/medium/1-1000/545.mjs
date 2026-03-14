@@ -1,4 +1,4 @@
-// 545 - Boundary of Binary Tree
+// 545. Boundary of Binary Tree
 
 function boundaryOfBinaryTree(root) {
     function dfsLeft(node) {

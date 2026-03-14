@@ -1,4 +1,4 @@
-// 1575 - Count All Possible Routes
+// 1575. Count All Possible Routes
 
 function countRoutes(locations, start, finish, fuel) {
     function dfs(i, acc) {

@@ -1,4 +1,4 @@
--- 3716 - Find Churn Risk Customers
+-- 3716. Find Churn Risk Customers
 
 WITH CTE AS (
     SELECT

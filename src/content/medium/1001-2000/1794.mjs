@@ -1,4 +1,4 @@
-// 1794 - Count Pairs of Equal Substrings With Minimum Difference
+// 1794. Count Pairs of Equal Substrings With Minimum Difference
 
 function countQuadruples(firstString, secondString) {
     const indices1 = new Array(26);

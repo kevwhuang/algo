@@ -1,4 +1,4 @@
-// 2751 - Robot Collisions
+// 2751. Robot Collisions
 
 function survivedRobotsHealths(positions, healths, directions) {
     const res = healths, S = [];

@@ -1,4 +1,4 @@
-// 2196 - Create Binary Tree From Descriptions
+// 2196. Create Binary Tree From Descriptions
 
 function createBinaryTree(descriptions) {
     const nodes = new Map(), children = new Set();

@@ -1,4 +1,4 @@
-// 2627 - Debounce
+// 2627. Debounce
 
 function debounce(fn, t) {
     function res() {

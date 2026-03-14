@@ -1,4 +1,4 @@
-// 2844 - Minimum Operations to Make a Special Number
+// 2844. Minimum Operations to Make a Special Number
 
 function minimumOperations(num) {
     function find(a, b) {

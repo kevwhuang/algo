@@ -1,4 +1,4 @@
-// 1295 - Find Numbers With Even Number of Digits
+// 1295. Find Numbers With Even Number of Digits
 
 function findNumbers(nums) {
     let res = 0, i = -1;

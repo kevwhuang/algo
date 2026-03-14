@@ -1,4 +1,4 @@
-// 2628 - JSON Deep Equal
+// 2628. JSON Deep Equal
 
 function areDeeplyEqual(o1, o2) {
     if (o1 === o2) return true;

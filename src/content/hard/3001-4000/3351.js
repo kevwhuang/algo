@@ -1,4 +1,4 @@
-// 3351 - Sum of Good Subsequences
+// 3351. Sum of Good Subsequences
 
 function sumOfGoodSubsequences(nums) {
     if (!this.dp1) dp1 = new Uint32Array(100003);

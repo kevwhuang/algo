@@ -1,4 +1,4 @@
-// 2243 - Calculate Digit Sum of a String
+// 2243. Calculate Digit Sum of a String
 
 function digitSum(s, k) {
     while (s.length > k) {

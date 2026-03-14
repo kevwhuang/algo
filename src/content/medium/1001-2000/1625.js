@@ -1,4 +1,4 @@
-// 1625 - Lexicographically Smallest String After Applying Operations
+// 1625. Lexicographically Smallest String After Applying Operations
 
 function findLexSmallestString(s, a, b) {
     let res = s, queue = [s];

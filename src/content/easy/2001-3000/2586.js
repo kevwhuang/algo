@@ -1,4 +1,4 @@
-// 2586 - Count the Number of Vowel Strings in Range
+// 2586. Count the Number of Vowel Strings in Range
 
 function vowelStrings(words, left, right) {
     let count = 0;

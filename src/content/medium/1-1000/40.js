@@ -1,4 +1,4 @@
-// 40 - Combination Sum II
+// 40. Combination Sum II
 
 function combinationSum2(candidates, target) {
     function backtrack(i, acc) {

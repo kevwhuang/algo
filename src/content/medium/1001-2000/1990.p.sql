@@ -1,4 +1,4 @@
--- 1990 - Count the Number of Experiments
+-- 1990. Count the Number of Experiments
 
 WITH Base AS (
     SELECT

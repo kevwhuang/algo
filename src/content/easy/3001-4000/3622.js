@@ -1,4 +1,4 @@
-// 3622 - Check Divisibility by Digit Sum and Product
+// 3622. Check Divisibility by Digit Sum and Product
 
 function checkDivisibility(n) {
     let sum = 0, prod = 1, cur = n;

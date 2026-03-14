@@ -1,4 +1,4 @@
-// 4 - Median of Two Sorted Arrays
+// 4. Median of Two Sorted Arrays
 
 function findMedianSortedArrays(nums1, nums2) {
     const m = nums1.length, n = nums2.length;

@@ -1,4 +1,4 @@
-// 2437 - Number of Valid Clock Times
+// 2437. Number of Valid Clock Times
 
 function countTime(time) {
     let res = 1;

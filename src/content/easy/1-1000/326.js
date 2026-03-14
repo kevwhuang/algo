@@ -1,4 +1,4 @@
-// 326 - Power of Three
+// 326. Power of Three
 
 function isPowerOfThree(n) {
     if (n <= 0) return false;

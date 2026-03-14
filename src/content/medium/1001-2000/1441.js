@@ -1,4 +1,4 @@
-// 1441 - Build an Array With Stack Operations
+// 1441. Build an Array With Stack Operations
 
 function buildArray(target, n) {
     const ops = [];

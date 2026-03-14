@@ -1,4 +1,4 @@
-// 3799 - Word Squares II
+// 3799. Word Squares II
 
 function wordSquares(words) {
     const res = [], A = words, n = A.sort().length;

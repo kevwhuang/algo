@@ -1,4 +1,4 @@
-// 983 - Minimum Cost for Tickets
+// 983. Minimum Cost for Tickets
 
 function mincostTickets(days, costs) {
     const dp = new Uint16Array(days.at(-1) + 1);

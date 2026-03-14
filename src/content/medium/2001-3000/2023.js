@@ -1,4 +1,4 @@
-// 2023 - Number of Pairs of Strings With Concatenation Equal to Target
+// 2023. Number of Pairs of Strings With Concatenation Equal to Target
 
 function numOfPairs(nums, target) {
     const len = nums.length;

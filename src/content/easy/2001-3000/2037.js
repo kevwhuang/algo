@@ -1,4 +1,4 @@
-// 2037 - Minimum Number of Moves to Seat Everyone
+// 2037. Minimum Number of Moves to Seat Everyone
 
 function minMovesToSeat(seats, students) {
     seats.sort((a, b) => a - b);

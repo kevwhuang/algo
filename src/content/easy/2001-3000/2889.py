@@ -1,4 +1,4 @@
-# 2889 - Reshape Data: Pivot
+# 2889. Reshape Data: Pivot
 
 import pandas as pd
 

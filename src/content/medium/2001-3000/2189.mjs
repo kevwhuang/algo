@@ -1,4 +1,4 @@
-// 2189 - Number of Ways to Build House of Cards
+// 2189. Number of Ways to Build House of Cards
 
 function houseOfCards(n) {
     const dp = new Uint32Array(n + 1);

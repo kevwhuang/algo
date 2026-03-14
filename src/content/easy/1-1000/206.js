@@ -1,4 +1,4 @@
-// 206 - Reverse Linked List
+// 206. Reverse Linked List
 
 function reverseList(head) {
     let res = null;

@@ -1,4 +1,4 @@
-// 74 - Search a 2D Matrix
+// 74. Search a 2D Matrix
 
 function searchMatrix(matrix, target) {
     const n = matrix[0].length;

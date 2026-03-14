@@ -1,4 +1,4 @@
-# 2880 - Select Data
+# 2880. Select Data
 
 import pandas as pd
 

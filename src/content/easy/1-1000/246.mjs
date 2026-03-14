@@ -1,4 +1,4 @@
-// 246 - Strobogrammatic Number
+// 246. Strobogrammatic Number
 
 function isStrobogrammatic(num) {
     const veto = new Set(['2', '3', '4', '5', '7']);

@@ -1,4 +1,4 @@
-// 3091 - Apply Operations to Make Sum of Array Greater Than or Equal to K
+// 3091. Apply Operations to Make Sum of Array Greater Than or Equal to K
 
 function minOperations(k) {
     let adds = 0, prev = Infinity;

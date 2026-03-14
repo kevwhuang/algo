@@ -1,4 +1,4 @@
-// 3407 - Substring Matching Pattern
+// 3407. Substring Matching Pattern
 
 function hasMatch(s, p) {
     const [s1, s2] = p.split('*'), idx = s.indexOf(s1);

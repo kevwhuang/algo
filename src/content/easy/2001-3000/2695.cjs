@@ -1,4 +1,4 @@
-// 2695 - Array Wrapper
+// 2695. Array Wrapper
 
 class ArrayWrapper {
     constructor(nums) {

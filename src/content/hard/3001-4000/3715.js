@@ -1,3 +1,3 @@
-// 3715 - Sum of Perfect Square Ancestors
+// 3715. Sum of Perfect Square Ancestors
 
 

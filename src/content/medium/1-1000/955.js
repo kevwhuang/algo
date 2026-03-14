@@ -1,4 +1,4 @@
-// 955 - Delete Columns to Make Sorted II
+// 955. Delete Columns to Make Sorted II
 
 function minDeletionSize(strs) {
     let deleted = 0;

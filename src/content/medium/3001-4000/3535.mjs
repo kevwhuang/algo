@@ -1,4 +1,4 @@
-// 3535 - Unit Conversion II
+// 3535. Unit Conversion II
 
 function queryConversions(conversions, queries) {
     const n = conversions.length;

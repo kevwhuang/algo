@@ -1,4 +1,4 @@
-// 3817 - Good Indices in a Digit String
+// 3817. Good Indices in a Digit String
 
 function goodIndices(s) {
     const res = [];

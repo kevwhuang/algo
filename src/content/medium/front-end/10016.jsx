@@ -1,4 +1,4 @@
-// 10016 - Auto Focus Switch
+// 10016. Auto Focus Switch
 
 export function AutoFocusSwitch({ elements }) {
     function handleKeyDown(e, max) {

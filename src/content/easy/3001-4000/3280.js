@@ -1,4 +1,4 @@
-// 3280 - Convert Date to Binary
+// 3280. Convert Date to Binary
 
 function convertDateToBinary(date) {
     date = date.split('-');

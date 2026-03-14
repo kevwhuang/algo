@@ -1,4 +1,4 @@
-// 1079 - Letter Tile Possibilities
+// 1079. Letter Tile Possibilities
 
 function numTilePossibilities(tiles) {
     function backtrack() {

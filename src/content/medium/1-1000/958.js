@@ -1,4 +1,4 @@
-// 958 - Check Completeness of a Binary Tree
+// 958. Check Completeness of a Binary Tree
 
 function isCompleteTree(root) {
     let seenNull = false;

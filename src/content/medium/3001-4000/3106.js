@@ -1,4 +1,4 @@
-// 3106 - Lexicographically Smallest String After Operations With Constraint
+// 3106. Lexicographically Smallest String After Operations With Constraint
 
 function getSmallestString(s, k) {
     if (k === 0) return s;

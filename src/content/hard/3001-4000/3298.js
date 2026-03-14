@@ -1,4 +1,4 @@
-// 3298 - Count Substrings That Can Be Rearranged to Contain a String II
+// 3298. Count Substrings That Can Be Rearranged to Contain a String II
 
 function validSubstringCount(word1, word2) {
     let acc = 0;

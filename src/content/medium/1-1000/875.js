@@ -1,4 +1,4 @@
-// 875 - Koko Eating Bananas
+// 875. Koko Eating Bananas
 
 function minEatingSpeed(piles, h) {
     let l = 1, r = piles.reduce((s, e) => Math.max(e, s));

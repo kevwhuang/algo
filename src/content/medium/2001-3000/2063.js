@@ -1,4 +1,4 @@
-// 2063 - Vowels of All Substrings
+// 2063. Vowels of All Substrings
 
 function countVowels(word) {
     let count = 0;

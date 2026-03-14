@@ -1,4 +1,4 @@
-// 1394 - Find Lucky Integer in an Array
+// 1394. Find Lucky Integer in an Array
 
 function findLucky(arr) {
     const map = new Map();

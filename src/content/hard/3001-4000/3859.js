@@ -1,3 +1,3 @@
-// 3859 - Count Subarrays With K Distinct Integers
+// 3859. Count Subarrays With K Distinct Integers
 
 

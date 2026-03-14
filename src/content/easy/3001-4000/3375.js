@@ -1,4 +1,4 @@
-// 3375 - Minimum Operations to Make Array Values Equal to K
+// 3375. Minimum Operations to Make Array Values Equal to K
 
 function minOperations(nums, k) {
     const arr = new Uint8Array(100 - k);

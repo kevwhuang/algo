@@ -1,4 +1,4 @@
-// 3132 - Find the Integer Added to Array II
+// 3132. Find the Integer Added to Array II
 
 function minimumAddedInteger(nums1, nums2) {
     nums1.sort((a, b) => a - b);

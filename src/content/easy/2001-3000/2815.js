@@ -1,4 +1,4 @@
-// 2815 - Max Pair Sum in an Array
+// 2815. Max Pair Sum in an Array
 
 function maxSum(nums) {
     function maxDigit(num) {

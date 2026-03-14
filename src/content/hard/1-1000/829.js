@@ -1,4 +1,4 @@
-// 829 - Consecutive Numbers Sum
+// 829. Consecutive Numbers Sum
 
 function consecutiveNumbersSum(n) {
     let res = 0, acc = 1, i = 1;

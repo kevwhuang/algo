@@ -1,4 +1,4 @@
--- 3617 - Find Students With Study Spiral Pattern
+-- 3617. Find Students With Study Spiral Pattern
 
 WITH CTE1 AS (
     SELECT

@@ -1,4 +1,4 @@
-// 1568 - Minimum Number of Days to Disconnect Island
+// 1568. Minimum Number of Days to Disconnect Island
 
 function minDays(grid) {
     function check() {

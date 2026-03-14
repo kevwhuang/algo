@@ -1,4 +1,4 @@
-// 2747 - Count Zero Request Servers
+// 2747. Count Zero Request Servers
 
 function countServers(n, logs, x, queries) {
     const arr = queries.map((e, i) => [e, i]);

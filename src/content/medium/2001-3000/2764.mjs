@@ -1,4 +1,4 @@
-// 2764 - Is Array a Preorder of Some Binary Tree
+// 2764. Is Array a Preorder of Some Binary Tree
 
 function isPreorder(nodes) {
     const stack = [nodes[0][0]];

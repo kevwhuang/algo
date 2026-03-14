@@ -1,4 +1,4 @@
-// 2305 - Fair Distribution of Cookies
+// 2305. Fair Distribution of Cookies
 
 function distributeCookies(cookies, k) {
     function backtrack(i) {

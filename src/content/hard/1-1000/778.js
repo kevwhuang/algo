@@ -1,4 +1,4 @@
-// 778 - Swim in Rising Water
+// 778. Swim in Rising Water
 
 function swimInWater(grid) {
     function dfs(r, c) {

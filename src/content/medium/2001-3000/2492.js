@@ -1,4 +1,4 @@
-// 2492 - Minimum Score of a Path Between Two Cities
+// 2492. Minimum Score of a Path Between Two Cities
 
 function minScore(n, roads) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

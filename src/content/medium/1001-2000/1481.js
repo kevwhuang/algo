@@ -1,4 +1,4 @@
-// 1481 - Least Number of Unique Integers After K Removals
+// 1481. Least Number of Unique Integers After K Removals
 
 function findLeastNumOfUniqueInts(arr, k) {
     const map = new Map();

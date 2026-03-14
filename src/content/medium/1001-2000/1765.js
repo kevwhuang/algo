@@ -1,4 +1,4 @@
-// 1765 - Map of Highest Peak
+// 1765. Map of Highest Peak
 
 function highestPeak(isWater) {
     const m = isWater.length, n = isWater[0].length;

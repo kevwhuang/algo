@@ -1,4 +1,4 @@
-// 2704 - To Be or Not to Be
+// 2704. To Be or Not to Be
 
 function expect(val) {
     return {

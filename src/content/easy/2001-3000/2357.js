@@ -1,4 +1,4 @@
-// 2357 - Make Array Zero by Subtracting Equal Amounts
+// 2357. Make Array Zero by Subtracting Equal Amounts
 
 function minimumOperations(nums) {
     const set = new Set();

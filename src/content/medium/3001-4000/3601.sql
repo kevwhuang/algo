@@ -1,4 +1,4 @@
--- 3601 - Find Drivers With Improved Fuel Efficiency
+-- 3601. Find Drivers With Improved Fuel Efficiency
 
 WITH CTE1 AS (
     SELECT

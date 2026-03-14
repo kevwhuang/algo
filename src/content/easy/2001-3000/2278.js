@@ -1,4 +1,4 @@
-// 2278 - Percentage of Letter in String
+// 2278. Percentage of Letter in String
 
 function percentageLetter(s, letter) {
     let count = 0;

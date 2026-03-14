@@ -1,4 +1,4 @@
-// 2946 - Matrix Similarity After Cyclic Shifts
+// 2946. Matrix Similarity After Cyclic Shifts
 
 function areSimilar(mat, k) {
     const m = mat.length, n = mat[0].length;

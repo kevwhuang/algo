@@ -1,4 +1,4 @@
-// 661 - Image Smoother
+// 661. Image Smoother
 
 function imageSmoother(img) {
     function smooth(r, c) {

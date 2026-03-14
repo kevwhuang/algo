@@ -1,4 +1,4 @@
-// 2094 - Finding 3-Digit Even Numbers
+// 2094. Finding 3-Digit Even Numbers
 
 function findEvenNumbers(digits) {
     const freqs = new Array(10).fill(0);

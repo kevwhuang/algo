@@ -1,4 +1,4 @@
-// 2673 - Make Costs of Paths Equal in a Binary Tree
+// 2673. Make Costs of Paths Equal in a Binary Tree
 
 function minIncrements(n, cost) {
     let ops = 0, i = n / 2 - 1 >> 0;

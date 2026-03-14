@@ -1,4 +1,4 @@
-// 1254 - Number of Closed Islands
+// 1254. Number of Closed Islands
 
 function closedIsland(grid) {
     function dfs(r, c) {

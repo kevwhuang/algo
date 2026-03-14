@@ -1,4 +1,4 @@
-// 2202 - Maximize the Topmost Element After K Moves
+// 2202. Maximize the Topmost Element After K Moves
 
 function maximumTop(nums, k) {
     if (k % 2 && nums.length === 1) return -1;

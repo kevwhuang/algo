@@ -1,4 +1,4 @@
--- 1193 - Monthly Transactions I
+-- 1193. Monthly Transactions I
 
 SELECT
     DATE_FORMAT(trans_date, '%Y-%m') AS month,

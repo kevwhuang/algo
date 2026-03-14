@@ -1,4 +1,4 @@
-// 2634 - Filter Elements From Array
+// 2634. Filter Elements From Array
 
 function filter(arr, fn) {
     const res = [];

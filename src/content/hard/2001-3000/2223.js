@@ -1,3 +1,3 @@
-// 2223 - Sum of Scores of Built Strings
+// 2223. Sum of Scores of Built Strings
 
 

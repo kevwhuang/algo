@@ -1,4 +1,4 @@
-// 121 - Best Time to Buy and Sell Stock
+// 121. Best Time to Buy and Sell Stock
 
 function maxProfit(prices) {
     let res = 0, min = Infinity, i = -1;

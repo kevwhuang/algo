@@ -1,3 +1,3 @@
-// 3383 - Minimum Runes to Add to Cast Spell
+// 3383. Minimum Runes to Add to Cast Spell
 
 

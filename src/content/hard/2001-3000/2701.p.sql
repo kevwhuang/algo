@@ -1,4 +1,4 @@
--- 2701 - Consecutive Transactions With Increasing Amounts
+-- 2701. Consecutive Transactions With Increasing Amounts
 
 WITH CTE1 AS (
     SELECT

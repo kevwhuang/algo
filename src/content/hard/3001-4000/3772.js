@@ -1,3 +1,3 @@
-// 3772 - Maximum Subgraph Score in a Tree
+// 3772. Maximum Subgraph Score in a Tree
 
 

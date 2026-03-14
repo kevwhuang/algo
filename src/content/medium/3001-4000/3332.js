@@ -1,4 +1,4 @@
-// 3332 - Maximum Points Tourist Can Earn
+// 3332. Maximum Points Tourist Can Earn
 
 function maxScore(n, k, stayScore, travelScore) {
     let dp = new Uint8Array(n);

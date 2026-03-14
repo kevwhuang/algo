@@ -1,4 +1,4 @@
-// 2015 - Average Height of Buildings in Each Segment
+// 2015. Average Height of Buildings in Each Segment
 
 function averageHeightOfBuildings(buildings) {
     const arr = [];

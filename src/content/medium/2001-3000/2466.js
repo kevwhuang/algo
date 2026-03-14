@@ -1,4 +1,4 @@
-// 2466 - Count Ways to Build Good Strings
+// 2466. Count Ways to Build Good Strings
 
 function countGoodStrings(low, high, zero, one) {
     const dp = new Uint32Array(high + 1);

@@ -1,4 +1,4 @@
-// 2001 - Number of Pairs of Interchangeable Rectangles
+// 2001. Number of Pairs of Interchangeable Rectangles
 
 function interchangeableRectangles(rectangles) {
     let pairs = 0;

@@ -1,4 +1,4 @@
-// 567 - Permutation in String
+// 567. Permutation in String
 
 function checkInclusion(s1, s2) {
     const m = s1.length, n = s2.length;

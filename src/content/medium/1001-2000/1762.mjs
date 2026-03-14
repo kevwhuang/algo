@@ -1,4 +1,4 @@
-// 1762 - Buildings With an Ocean View
+// 1762. Buildings With an Ocean View
 
 function findBuildings(heights) {
     const indices = [];

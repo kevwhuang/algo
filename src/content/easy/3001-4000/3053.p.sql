@@ -1,4 +1,4 @@
--- 3053 - Classifying Triangles by Lengths
+-- 3053. Classifying Triangles by Lengths
 
 SELECT
     CASE

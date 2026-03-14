@@ -1,4 +1,4 @@
-// 414 - Third Maximum Number
+// 414. Third Maximum Number
 
 function thirdMax(nums) {
     let a = -Infinity, b = -Infinity, c = -Infinity;

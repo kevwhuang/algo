@@ -1,4 +1,4 @@
--- 3188 - Find Top Scoring Students II
+-- 3188. Find Top Scoring Students II
 
 SELECT
     student_id

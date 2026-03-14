@@ -1,4 +1,4 @@
-// 2833 - Furthest Point From Origin
+// 2833. Furthest Point From Origin
 
 function furthestDistanceFromOrigin(moves) {
     const freqs = { _: 0, L: 0, R: 0 };

@@ -1,4 +1,4 @@
-// 3686 - Number of Stable Subsequences
+// 3686. Number of Stable Subsequences
 
 function countStableSubsequences(nums) {
     let a = 0, b = 0, c = 0, d = 0, i = -1;

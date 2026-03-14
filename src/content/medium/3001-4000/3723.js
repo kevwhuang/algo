@@ -1,4 +1,4 @@
-// 3723 - Maximize Sum of Squares of Digits
+// 3723. Maximize Sum of Squares of Digits
 
 function maxSumOfSquares(num, sum) {
     if (9 * num < sum) return '';

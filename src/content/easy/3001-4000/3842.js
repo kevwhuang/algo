@@ -1,4 +1,4 @@
-// 3842 - Toggle Light Bulbs
+// 3842. Toggle Light Bulbs
 
 function toggleLightBulbs(bulbs) {
     const res = [], B = new Uint8Array(101);

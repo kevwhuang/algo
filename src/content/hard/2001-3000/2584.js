@@ -1,3 +1,3 @@
-// 2584 - Split the Array to Make Coprime Products
+// 2584. Split the Array to Make Coprime Products
 
 

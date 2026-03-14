@@ -1,4 +1,4 @@
-// 678 - Valid Parenthesis String
+// 678. Valid Parenthesis String
 
 function checkValidString(s) {
     let acc1 = 0, acc2 = 0, i = -1;

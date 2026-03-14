@@ -1,4 +1,4 @@
-// 1351 - Count Negative Numbers in a Sorted Matrix
+// 1351. Count Negative Numbers in a Sorted Matrix
 
 function countNegatives(grid) {
     let count = 0, r = grid.length - 1, c = 0;

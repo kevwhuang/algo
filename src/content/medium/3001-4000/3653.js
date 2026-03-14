@@ -1,4 +1,4 @@
-// 3653 - XOR After Range Multiplication Queries I
+// 3653. XOR After Range Multiplication Queries I
 
 function xorAfterQueries(nums, queries) {
     for (let i = 0; i < queries.length; i++) {

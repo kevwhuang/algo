@@ -1,4 +1,4 @@
-// 3115 - Maximum Prime Difference
+// 3115. Maximum Prime Difference
 
 function maximumPrimeDifference(nums) {
     const primes = new Set([

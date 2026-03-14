@@ -1,4 +1,4 @@
-// 2351 - First Letter to Appear Twice
+// 2351. First Letter to Appear Twice
 
 function repeatedCharacter(s) {
     const set = new Set();

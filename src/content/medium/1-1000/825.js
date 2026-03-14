@@ -1,4 +1,4 @@
-// 825 - Friends of Appropriate Ages
+// 825. Friends of Appropriate Ages
 
 function numFriendRequests(ages) {
     const bucket = new Array(121).fill(0);

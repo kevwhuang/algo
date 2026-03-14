@@ -1,4 +1,4 @@
-// 1583 - Count Unhappy Friends
+// 1583. Count Unhappy Friends
 
 function unhappyFriends(n, preferences, pairs) {
     const mapper = () => new Uint16Array(n).fill(n);

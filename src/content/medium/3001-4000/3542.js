@@ -1,4 +1,4 @@
-// 3542 - Minimum Operations to Convert All Elements to Zero
+// 3542. Minimum Operations to Convert All Elements to Zero
 
 function minOperations(nums) {
     if (!this.S) S = new Uint32Array(100000);

@@ -1,4 +1,4 @@
-// 1022 - Sum of Root to Leaf Binary Numbers
+// 1022. Sum of Root to Leaf Binary Numbers
 
 function sumRootToLeaf(root) {
     function dfs(node, prev) {

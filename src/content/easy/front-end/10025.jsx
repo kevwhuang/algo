@@ -1,4 +1,4 @@
-// 10025 - Tabs
+// 10025. Tabs
 
 import React from 'react';
 

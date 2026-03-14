@@ -1,4 +1,4 @@
--- 3103 - Find Trending Hashtags II
+-- 3103. Find Trending Hashtags II
 
 WITH RECURSIVE CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 2259 - Remove Digit From Number to Maximize Result
+// 2259. Remove Digit From Number to Maximize Result
 
 function removeDigit(number, digit) {
     let last;

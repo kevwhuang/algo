@@ -1,4 +1,4 @@
-// 1 - Two Sum
+// 1. Two Sum
 
 function twoSum(nums, target) {
     const map = new Map();

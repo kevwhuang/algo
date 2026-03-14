@@ -1,4 +1,4 @@
-// 1025 - Divisor Game
+// 1025. Divisor Game
 
 function divisorGame(n) {
     return n % 2 === 0;

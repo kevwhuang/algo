@@ -1,3 +1,3 @@
-// 3082 - Find the Sum of the Power of All Subsequences
+// 3082. Find the Sum of the Power of All Subsequences
 
 

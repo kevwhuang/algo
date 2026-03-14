@@ -1,4 +1,4 @@
-// 1447 - Simplified Fractions
+// 1447. Simplified Fractions
 
 function simplifiedFractions(n) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

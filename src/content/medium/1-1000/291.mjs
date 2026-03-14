@@ -1,4 +1,4 @@
-// 291 - Word Pattern II
+// 291. Word Pattern II
 
 function wordPatternMatch(pattern, s) {
     function backtrack(i, j) {

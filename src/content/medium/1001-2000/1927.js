@@ -1,4 +1,4 @@
-// 1927 - Sum Game
+// 1927. Sum Game
 
 function sumGame(num) {
     let sum = 0;

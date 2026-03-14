@@ -1,4 +1,4 @@
--- 585 - Investments in 2016
+-- 585. Investments in 2016
 
 SELECT
     ROUND(SUM(tiv_2016), 2) AS tiv_2016

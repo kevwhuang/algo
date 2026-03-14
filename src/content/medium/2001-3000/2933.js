@@ -1,4 +1,4 @@
-// 2933 - High-Access Employees
+// 2933. High-Access Employees
 
 function findHighAccessEmployees(access_times) {
     function comparator(a, b) {

@@ -1,4 +1,4 @@
-// 2495 - Number of Subarrays Having Even Product
+// 2495. Number of Subarrays Having Even Product
 
 function evenProduct(nums) {
     let subarrays = 0;

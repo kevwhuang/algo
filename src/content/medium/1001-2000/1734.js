@@ -1,4 +1,4 @@
-// 1734 - Decode XORed Permutation
+// 1734. Decode XORed Permutation
 
 function decode(encoded) {
     let xor = 0;

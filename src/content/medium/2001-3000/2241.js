@@ -1,4 +1,4 @@
-// 2241 - Design an ATM Machine
+// 2241. Design an ATM Machine
 
 class ATM {
     constructor() {

@@ -1,4 +1,4 @@
-// 2496 - Maximum Value of a String in an Array
+// 2496. Maximum Value of a String in an Array
 
 function maximumValue(strs) {
     let max = 0;

@@ -1,4 +1,4 @@
-// 301 - Remove Invalid Parentheses
+// 301. Remove Invalid Parentheses
 
 function removeInvalidParentheses(s) {
     const res = [], seen = new Set([s]);

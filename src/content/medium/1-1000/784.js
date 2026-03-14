@@ -1,4 +1,4 @@
-// 784 - Letter Case Permutation
+// 784. Letter Case Permutation
 
 function letterCasePermutation(s) {
     function backtrack(i) {

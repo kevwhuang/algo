@@ -1,4 +1,4 @@
-// 2699 - Modify Graph Edge Weights
+// 2699. Modify Graph Edge Weights
 
 function modifiedGraphEdges(n, edges, source, destination, target) {
     function check() {

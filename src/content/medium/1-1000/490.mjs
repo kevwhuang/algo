@@ -1,4 +1,4 @@
-// 490 - The Maze
+// 490. The Maze
 
 function hasPath(maze, start, destination) {
     function move(dr, dc, fn) {

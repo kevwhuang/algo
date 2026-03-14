@@ -1,4 +1,4 @@
--- 2252 - Dynamic Pivoting of a Table
+-- 2252. Dynamic Pivoting of a Table
 
 CREATE PROCEDURE pivotProducts() BEGIN
 SET

@@ -1,3 +1,3 @@
-// 1681 - Minimum Incompatibility
+// 1681. Minimum Incompatibility
 
 

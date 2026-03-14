@@ -1,4 +1,4 @@
-// 1954 - Minimum Garden Perimeter to Collect Enough Apples
+// 1954. Minimum Garden Perimeter to Collect Enough Apples
 
 function minimumPerimeter(neededApples) {
     const count = x => 4 * x * x * x + 6 * x * x + 2 * x;

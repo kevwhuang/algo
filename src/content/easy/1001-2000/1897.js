@@ -1,4 +1,4 @@
-// 1897 - Redistribute Characters to Make All Strings Equal
+// 1897. Redistribute Characters to Make All Strings Equal
 
 function makeEqual(words) {
     const B = new Uint16Array(26), n = words.length;

@@ -1,4 +1,4 @@
-// 510 - Inorder Successor in BST II
+// 510. Inorder Successor in BST II
 
 function inorderSuccessor(node) {
     function dfs(node) {

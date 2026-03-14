@@ -1,3 +1,3 @@
-// 2005 - Subtree Removal Game With Fibonacci Tree
+// 2005. Subtree Removal Game With Fibonacci Tree
 
 

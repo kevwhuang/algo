@@ -1,4 +1,4 @@
-// 1185 - Day of the Week
+// 1185. Day of the Week
 
 function dayOfTheWeek(day, month, year) {
     const dict = ['Sunday', 'Monday', 'Tuesday', 'Wednesday'];

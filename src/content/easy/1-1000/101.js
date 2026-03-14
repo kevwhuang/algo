@@ -1,4 +1,4 @@
-// 101 - Symmetric Tree
+// 101. Symmetric Tree
 
 function isSymmetric(root) {
     function dfs(t1, t2) {

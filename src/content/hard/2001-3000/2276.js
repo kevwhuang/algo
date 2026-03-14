@@ -1,3 +1,3 @@
-// 2276 - Count Integers in Intervals
+// 2276. Count Integers in Intervals
 
 

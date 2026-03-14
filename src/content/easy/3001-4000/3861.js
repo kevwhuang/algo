@@ -1,4 +1,4 @@
-// 3861 - Minimum Capacity Box
+// 3861. Minimum Capacity Box
 
 function minimumIndex(capacity, itemSize) {
     let res = -1;

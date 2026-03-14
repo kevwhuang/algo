@@ -1,4 +1,4 @@
-// 1376 - Time Needed to Inform All Employees
+// 1376. Time Needed to Inform All Employees
 
 function numOfMinutes(n, headID, manager, informTime) {
     function traverse(i) {

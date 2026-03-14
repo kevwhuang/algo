@@ -1,4 +1,4 @@
-// 1567 - Maximum Length of Subarray With Positive Product
+// 1567. Maximum Length of Subarray With Positive Product
 
 function getMaxLen(nums) {
     let res = 0, acc = 0, l = -1, m = -1, r = -1;

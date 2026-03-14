@@ -1,4 +1,4 @@
-// 3148 - Maximum Difference Score in a Grid
+// 3148. Maximum Difference Score in a Grid
 
 function maxScore(grid) {
     let res = -Infinity;

@@ -1,4 +1,4 @@
-// 2580 - Count Ways to Group Overlapping Ranges
+// 2580. Count Ways to Group Overlapping Ranges
 
 function countWays(ranges) {
     ranges.sort((a, b) => a[0] - b[0]);

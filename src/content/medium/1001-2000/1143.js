@@ -1,4 +1,4 @@
-// 1143 - Longest Common Subsequence
+// 1143. Longest Common Subsequence
 
 function longestCommonSubsequence(text1, text2) {
     if (!this.dp) dp = new Uint16Array(1001);

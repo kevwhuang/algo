@@ -1,4 +1,4 @@
-// 1591 - Strange Printer II
+// 1591. Strange Printer II
 
 function isPrintable(targetGrid) {
     let tgt = 0;

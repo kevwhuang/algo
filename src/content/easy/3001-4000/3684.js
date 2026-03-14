@@ -1,4 +1,4 @@
-// 3684 - Maximize Sum of at Most K Distinct Elements
+// 3684. Maximize Sum of at Most K Distinct Elements
 
 function maxKDistinct(nums, k) {
     nums = new Uint32Array(nums).sort();

@@ -1,4 +1,4 @@
-// 1226 - The Dining Philosophers
+// 1226. The Dining Philosophers
 
 class DiningPhilosophers {
     Semaphore s = new Semaphore(1);

@@ -1,4 +1,4 @@
-// 2767 - Partition String Into Minimum Beautiful Substrings
+// 2767. Partition String Into Minimum Beautiful Substrings
 
 function minimumBeautifulSubstrings(s) {
     function backtrack(i, cur, acc) {

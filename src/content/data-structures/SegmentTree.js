@@ -30,5 +30,3 @@ class SegmentTree {
         return this;
     }
 }
-
-module.exports = SegmentTree;

@@ -1,4 +1,4 @@
--- 3497 - Analyze Subscription Conversion
+-- 3497. Analyze Subscription Conversion
 
 WITH CTE1 AS (
     SELECT

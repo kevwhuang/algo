@@ -1,4 +1,4 @@
-// 23 - Merge K Sorted Lists
+// 23. Merge K Sorted Lists
 
 function mergeKLists(lists) {
     let acc = 0;

@@ -1,4 +1,4 @@
-// 2212 - Maximum Points in an Archery Competition
+// 2212. Maximum Points in an Archery Competition
 
 function maximumBobPoints(numArrows, aliceArrows) {
     function backtrack(indices) {

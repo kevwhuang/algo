@@ -1,4 +1,4 @@
-// 3440 - Reschedule Meetings for Maximum Free Time II
+// 3440. Reschedule Meetings for Maximum Free Time II
 
 function maxFreeTime(eventTime, startTime, endTime) {
     const n = startTime.length;

@@ -1,4 +1,4 @@
-// 2404 - Most Frequent Even Element
+// 2404. Most Frequent Even Element
 
 function mostFrequentEven(nums) {
     let res = -1, max = 0;

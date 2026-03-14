@@ -1,4 +1,4 @@
-// 3043 - Find the Length of the Longest Common Prefix
+// 3043. Find the Length of the Longest Common Prefix
 
 function longestCommonPrefix(arr1, arr2) {
     const set = new Set();

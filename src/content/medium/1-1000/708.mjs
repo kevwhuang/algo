@@ -1,4 +1,4 @@
-// 708 - Insert Into a Sorted Circular Linked List
+// 708. Insert Into a Sorted Circular Linked List
 
 function insert(head, insertVal) {
     const node = new Node(insertVal);

@@ -1,4 +1,4 @@
-// 3163 - String Compression III
+// 3163. String Compression III
 
 function compressedString(word) {
     let comp = '', i = 0;

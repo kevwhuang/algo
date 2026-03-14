@@ -1,4 +1,4 @@
-// 2708 - Maximum Strength of a Group
+// 2708. Maximum Strength of a Group
 
 function maxStrength(nums) {
     nums = new Int8Array(nums).sort();

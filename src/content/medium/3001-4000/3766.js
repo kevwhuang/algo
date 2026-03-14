@@ -1,4 +1,4 @@
-// 3766 - Minimum Operations to Make Binary Palindrome
+// 3766. Minimum Operations to Make Binary Palindrome
 
 function minOperations(nums) {
     function init() {

@@ -1,4 +1,4 @@
-// 1942 - The Number of the Smallest Unoccupied Chair
+// 1942. The Number of the Smallest Unoccupied Chair
 
 function smallestChair(times, targetFriend) {
     const obj = {};

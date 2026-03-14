@@ -1,4 +1,4 @@
-// 807 - Max Increase to Keep City Skyline
+// 807. Max Increase to Keep City Skyline
 
 function maxIncreaseKeepingSkyline(grid) {
     const len = grid.length;

@@ -1,3 +1,3 @@
-// 3501 - Maximize Active Section With Trade II
+// 3501. Maximize Active Section With Trade II
 
 

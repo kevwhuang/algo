@@ -1,4 +1,4 @@
-// 1705 - Maximum Number of Eaten Apples
+// 1705. Maximum Number of Eaten Apples
 
 function eatenApples(apples, days) {
     let res = 0;

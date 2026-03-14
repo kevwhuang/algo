@@ -1,4 +1,4 @@
-// 298 - Binary Tree Longest Consecutive Sequence
+// 298. Binary Tree Longest Consecutive Sequence
 
 function longestConsecutive(root) {
     function dfs(node, target, len) {

@@ -1,4 +1,4 @@
-// 240 - Search a 2D Matrix II
+// 240. Search a 2D Matrix II
 
 function searchMatrix(matrix, target) {
     const len = matrix.length;

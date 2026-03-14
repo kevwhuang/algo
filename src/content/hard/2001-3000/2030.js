@@ -1,3 +1,3 @@
-// 2030 - Smallest K-Length Subsequence With Occurrences of a Letter
+// 2030. Smallest K-Length Subsequence With Occurrences of a Letter
 
 

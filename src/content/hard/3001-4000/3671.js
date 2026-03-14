@@ -1,3 +1,3 @@
-// 3671 - Sum of Beautiful Subsequences
+// 3671. Sum of Beautiful Subsequences
 
 

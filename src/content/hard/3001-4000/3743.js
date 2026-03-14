@@ -1,3 +1,3 @@
-// 3743 - Maximize Cyclic Partition Score
+// 3743. Maximize Cyclic Partition Score
 
 

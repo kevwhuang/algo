@@ -1,4 +1,4 @@
-// 2859 - Sum of Values at Indices With K Set Bits
+// 2859. Sum of Values at Indices With K Set Bits
 
 function sumIndicesWithKSetBits(nums, k) {
     let sum = 0;

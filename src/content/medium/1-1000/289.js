@@ -1,4 +1,4 @@
-// 289 - Game of Life
+// 289. Game of Life
 
 function gameOfLife(board) {
     function neighbors(r, c) {

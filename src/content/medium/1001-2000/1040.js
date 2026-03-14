@@ -1,4 +1,4 @@
-// 1040 - Moving Stones Until Consecutive II
+// 1040. Moving Stones Until Consecutive II
 
 function numMovesStonesII(stones) {
     stones.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-// 1042 - Flower Planting With No Adjacent
+// 1042. Flower Planting With No Adjacent
 
 function gardenNoAdj(n, paths) {
     const adj = new Map();

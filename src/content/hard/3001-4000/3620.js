@@ -1,4 +1,4 @@
-// 3620 - Network Recovery Pathways
+// 3620. Network Recovery Pathways
 
 function findMaxPathScore(edges, online, k) {
     const n = online.length, set = new Set();

@@ -1,4 +1,4 @@
--- 1939 - Users That Actively Request Confirmation Messages
+-- 1939. Users That Actively Request Confirmation Messages
 
 SELECT
     DISTINCT C1.user_id

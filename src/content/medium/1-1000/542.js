@@ -1,4 +1,4 @@
-// 542 - 01 Matrix
+// 542. 01 Matrix
 
 function updateMatrix(mat) {
     let queue = [];

@@ -1,4 +1,4 @@
-// 3347 - Maximum Frequency of an Element After Performing Operations II
+// 3347. Maximum Frequency of an Element After Performing Operations II
 
 function maxFrequency(nums, k, numOperations) {
     nums = new Uint32Array(nums).sort();

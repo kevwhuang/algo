@@ -1,4 +1,4 @@
-// 3438 - Find Valid Pair of Adjacent Digits in String
+// 3438. Find Valid Pair of Adjacent Digits in String
 
 function findValidPair(s) {
     const B = new Array(10).fill(0);

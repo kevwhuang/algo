@@ -1,4 +1,4 @@
-// 3712 - Sum of Elements With Frequency Divisible by K
+// 3712. Sum of Elements With Frequency Divisible by K
 
 function sumDivisibleByK(nums, k) {
     const B = new Uint8Array(101);

@@ -1,4 +1,4 @@
-// 3682 - Minimum Index Sum of Common Elements
+// 3682. Minimum Index Sum of Common Elements
 
 function minimumSum(nums1, nums2) {
     const map = new Map(), n = nums1.length;

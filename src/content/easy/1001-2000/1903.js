@@ -1,4 +1,4 @@
-// 1903 - Largest Odd Number in String
+// 1903. Largest Odd Number in String
 
 function largestOddNumber(num) {
     let i = num.length;

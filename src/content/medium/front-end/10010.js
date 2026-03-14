@@ -1,4 +1,4 @@
-// 10010 - Delete Nodes With Text
+// 10010. Delete Nodes With Text
 
 export function deleteNodesWithText(node, searchText) {
     const fn = node => node.textContent.includes(searchText);

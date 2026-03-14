@@ -1,3 +1,3 @@
-// 3525 - Find X Value of Array II
+// 3525. Find X Value of Array II
 
 

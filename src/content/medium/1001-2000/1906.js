@@ -1,4 +1,4 @@
-// 1906 - Minimum Absolute Difference Queries
+// 1906. Minimum Absolute Difference Queries
 
 function minDifference(nums, queries) {
     const arr = Array.from({ length: Math.max(...nums) + 1 }, () => []);

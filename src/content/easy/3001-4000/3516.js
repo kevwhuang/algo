@@ -1,4 +1,4 @@
-// 3516 - Find Closest Person
+// 3516. Find Closest Person
 
 function findClosest(x, y, z) {
     const abs1 = Math.abs(x - z), abs2 = Math.abs(y - z);

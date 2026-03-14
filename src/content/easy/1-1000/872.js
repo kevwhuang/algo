@@ -1,4 +1,4 @@
-// 872 - Leaf-Similar Trees
+// 872. Leaf-Similar Trees
 
 function leafSimilar(root1, root2) {
     function dfs1(cur) {

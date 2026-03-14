@@ -1,4 +1,4 @@
-// 2909 - Minimum Sum of Mountain Triplets II
+// 2909. Minimum Sum of Mountain Triplets II
 
 function minimumSum(nums) {
     const n = nums.length;

@@ -1,4 +1,4 @@
--- 1107 - New Users Daily Count
+-- 1107. New Users Daily Count
 
 WITH CTE AS (
     SELECT

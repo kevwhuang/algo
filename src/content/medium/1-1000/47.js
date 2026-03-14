@@ -1,4 +1,4 @@
-// 47 - Permutations II
+// 47. Permutations II
 
 function permuteUnique(nums) {
     function backtrack(nums, perm) {

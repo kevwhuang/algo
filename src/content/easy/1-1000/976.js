@@ -1,4 +1,4 @@
-// 976 - Largest Perimeter Triangle
+// 976. Largest Perimeter Triangle
 
 function largestPerimeter(nums) {
     nums.sort((a, b) => b - a);

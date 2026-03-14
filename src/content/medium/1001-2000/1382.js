@@ -1,4 +1,4 @@
-// 1382 - Balance a Binary Search Tree
+// 1382. Balance a Binary Search Tree
 
 function balanceBST(root) {
     function dfs(node) {

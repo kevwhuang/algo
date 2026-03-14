@@ -1,4 +1,4 @@
-// 2684 - Maximum Number of Moves in a Grid
+// 2684. Maximum Number of Moves in a Grid
 
 function maxMoves(grid) {
     function dfs(r, c, prev, dist) {

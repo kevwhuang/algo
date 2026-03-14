@@ -1,4 +1,4 @@
-// 974 - Subarray Sums Divisible by K
+// 974. Subarray Sums Divisible by K
 
 function subarraysDivByK(nums, k) {
     let subarrays = 0, remainder = 0;

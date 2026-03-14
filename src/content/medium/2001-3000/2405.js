@@ -1,4 +1,4 @@
-// 2405 - Optimal Partition of String
+// 2405. Optimal Partition of String
 
 function partitionString(s) {
     let substrings = 1, set = new Set();

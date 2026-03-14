@@ -1,4 +1,4 @@
-// 2182 - Construct String With Repeat Limit
+// 2182. Construct String With Repeat Limit
 
 function repeatLimitedString(s, repeatLimit) {
     const bucket = new Array(26).fill(0);

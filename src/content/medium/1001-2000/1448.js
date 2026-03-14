@@ -1,4 +1,4 @@
-// 1448 - Count Good Nodes in Binary Tree
+// 1448. Count Good Nodes in Binary Tree
 
 function goodNodes(root) {
     function dfs(node, max) {

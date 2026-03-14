@@ -1,4 +1,4 @@
-// 2442 - Count Number of Distinct Integers After Reverse Operations
+// 2442. Count Number of Distinct Integers After Reverse Operations
 
 function countDistinctIntegers(nums) {
     const set = new Set();

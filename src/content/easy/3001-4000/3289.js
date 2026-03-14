@@ -1,4 +1,4 @@
-// 3289 - The Two Sneaky Numbers of Digitville
+// 3289. The Two Sneaky Numbers of Digitville
 
 function getSneakyNumbers(nums) {
     const res = [], seen = new Uint8Array(nums.length - 2);

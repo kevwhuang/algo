@@ -1,4 +1,4 @@
-// 1844 - Replace All Digits With Characters
+// 1844. Replace All Digits With Characters
 
 function replaceDigits(s) {
     let res = '';

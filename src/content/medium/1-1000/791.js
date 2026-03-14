@@ -1,4 +1,4 @@
-// 791 - Custom Sort String
+// 791. Custom Sort String
 
 function customSortString(order, s) {
     const obj = {};

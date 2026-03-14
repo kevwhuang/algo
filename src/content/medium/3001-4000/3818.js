@@ -1,4 +1,4 @@
-// 3818 - Minimum Prefix Removal to Make Array Strictly Increasing
+// 3818. Minimum Prefix Removal to Make Array Strictly Increasing
 
 function minimumPrefixLength(nums) {
     let i = nums.length - 1;

@@ -1,4 +1,4 @@
-// 669 - Trim a Binary Search Tree
+// 669. Trim a Binary Search Tree
 
 function trimBST(root, low, high) {
     if (root.left) root.left = trimBST(root.left, low, high);

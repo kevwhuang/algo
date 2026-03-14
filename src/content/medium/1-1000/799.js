@@ -1,4 +1,4 @@
-// 799 - Champagne Tower
+// 799. Champagne Tower
 
 function champagneTower(poured, query_row, query_glass) {
     const fn = (_, i) => new Float32Array(i + 1);

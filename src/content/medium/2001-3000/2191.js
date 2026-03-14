@@ -1,4 +1,4 @@
-// 2191 - Sort the Jumbled Numbers
+// 2191. Sort the Jumbled Numbers
 
 function sortJumbled(mapping, nums) {
     const map = new Map();

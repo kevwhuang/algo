@@ -1,4 +1,4 @@
-// 682 - Baseball Game
+// 682. Baseball Game
 
 function calPoints(operations) {
     const scores = [];

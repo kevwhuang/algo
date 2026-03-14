@@ -1,4 +1,4 @@
-// 2782 - Number of Unique Categories
+// 2782. Number of Unique Categories
 
 function numberOfCategories(n, categoryHandler) {
     let dups = 0;

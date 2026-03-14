@@ -1,4 +1,4 @@
-// 1006 - Clumsy Factorial
+// 1006. Clumsy Factorial
 
 function clumsy(n) {
     let sum = 0, mult = n, op = 0;

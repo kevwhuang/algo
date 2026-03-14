@@ -1,4 +1,4 @@
-// 735 - Asteroid Collision
+// 735. Asteroid Collision
 
 function asteroidCollision(asteroids) {
     const stack = [];

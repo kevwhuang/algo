@@ -1,4 +1,4 @@
-// 3672 - Sum of Weighted Modes in Subarrays
+// 3672. Sum of Weighted Modes in Subarrays
 
 function modeWeight(nums, k) {
     if (!this.B) B = new Uint32Array(100001);

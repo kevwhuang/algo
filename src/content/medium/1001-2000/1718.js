@@ -1,4 +1,4 @@
-// 1718 - Construct the Lexicographically Largest Valid Sequence
+// 1718. Construct the Lexicographically Largest Valid Sequence
 
 function constructDistancedSequence(n) {
     function backtrack(i) {

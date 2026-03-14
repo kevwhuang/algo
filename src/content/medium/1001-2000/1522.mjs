@@ -1,4 +1,4 @@
-// 1522 - Diameter of N-Ary Tree
+// 1522. Diameter of N-Ary Tree
 
 function diameter(root) {
     function dfs(node) {

@@ -1,4 +1,4 @@
-// 1945 - Sum of Digits of String After Convert
+// 1945. Sum of Digits of String After Convert
 
 function getLucky(s, k) {
     let str = '';

@@ -1,4 +1,4 @@
-// 1955 - Count Number of Special Subsequences
+// 1955. Count Number of Special Subsequences
 
 function countSpecialSubsequences(nums) {
     let a = 0, b = 0, c = 0;

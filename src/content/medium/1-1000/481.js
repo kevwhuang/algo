@@ -1,4 +1,4 @@
-// 481 - Magical String
+// 481. Magical String
 
 function magicalString(n) {
     const arr = new Uint8Array(n);

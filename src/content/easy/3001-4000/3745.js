@@ -1,4 +1,4 @@
-// 3745 - Maximize Expression of Three Elements
+// 3745. Maximize Expression of Three Elements
 
 function maximizeExpressionOfThree(nums) {
     let a = -100, b = -100, c = 100, i = -1;

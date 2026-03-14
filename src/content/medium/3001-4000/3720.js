@@ -1,4 +1,4 @@
-// 3720 - Lexicographically Smallest Permutation Greater Than Target
+// 3720. Lexicographically Smallest Permutation Greater Than Target
 
 function lexGreaterPermutation(s, target) {
     const B = new Int16Array(26);

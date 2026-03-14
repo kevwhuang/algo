@@ -1,4 +1,4 @@
-// 244 - Shortest Word Distance II
+// 244. Shortest Word Distance II
 
 class WordDistance {
     constructor(wordsDict) {

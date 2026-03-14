@@ -1,4 +1,4 @@
-// 2772 - Apply Operations to Make All Array Elements Equal to Zero
+// 2772. Apply Operations to Make All Array Elements Equal to Zero
 
 function checkArray(nums, k) {
     let window = 0;

@@ -1,4 +1,4 @@
-// 1615 - Maximal Network Rank
+// 1615. Maximal Network Rank
 
 function maximalNetworkRank(n, roads) {
     const adj = Array.from({ length: n }, () => new Set());

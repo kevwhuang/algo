@@ -1,4 +1,4 @@
-// 2760 - Longest Even Odd Subarray With Threshold
+// 2760. Longest Even Odd Subarray With Threshold
 
 function longestAlternatingSubarray(nums, threshold) {
     let max = 0;

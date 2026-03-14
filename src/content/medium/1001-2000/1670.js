@@ -1,4 +1,4 @@
-// 1670 - Design Front Middle Back Queue
+// 1670. Design Front Middle Back Queue
 
 class FrontMiddleBackQueue {
     constructor() {

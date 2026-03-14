@@ -1,4 +1,4 @@
-// 1733 - Minimum Number of People to Teach
+// 1733. Minimum Number of People to Teach
 
 function minimumTeachings(n, languages, friendships) {
     for (let i = 0; i < languages.length; i++) {

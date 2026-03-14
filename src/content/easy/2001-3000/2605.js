@@ -1,4 +1,4 @@
-// 2605 - Form Smallest Number From Two Digit Arrays
+// 2605. Form Smallest Number From Two Digit Arrays
 
 function minNumber(nums1, nums2) {
     let common = Infinity, min1 = Infinity;

@@ -1,4 +1,4 @@
-// 1983 - Widest Pair of Indices With Equal Range Sum
+// 1983. Widest Pair of Indices With Equal Range Sum
 
 function widestPairOfIndices(nums1, nums2) {
     let widest = 0, acc = 0;

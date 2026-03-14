@@ -1,3 +1,3 @@
-// 2234 - Maximum Total Beauty of the Gardens
+// 2234. Maximum Total Beauty of the Gardens
 
 

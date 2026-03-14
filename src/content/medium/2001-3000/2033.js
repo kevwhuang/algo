@@ -1,4 +1,4 @@
-// 2033 - Minimum Operations to Make a Uni-Value Grid
+// 2033. Minimum Operations to Make a Uni-Value Grid
 
 function minOperations(grid, x) {
     const vals = [];

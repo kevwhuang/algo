@@ -1,4 +1,4 @@
-// 2225 - Find Players With Zero or One Losses
+// 2225. Find Players With Zero or One Losses
 
 function findWinners(matches) {
     const players = {};

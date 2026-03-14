@@ -1,4 +1,4 @@
-// 2622 - Cache With Time Limit
+// 2622. Cache With Time Limit
 
 class TimeLimitedCache {
     constructor() {

@@ -1,4 +1,4 @@
-// 667 - Beautiful Arrangement II
+// 667. Beautiful Arrangement II
 
 function constructArray(n, k) {
     const res = new Uint16Array(n);

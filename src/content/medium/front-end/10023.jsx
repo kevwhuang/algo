@@ -1,4 +1,4 @@
-// 10023 - Sign-Up Form Validation
+// 10023. Sign-Up Form Validation
 
 import React from 'react';
 

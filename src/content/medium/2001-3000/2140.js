@@ -1,4 +1,4 @@
-// 2140 - Solving Questions With Brainpower
+// 2140. Solving Questions With Brainpower
 
 function mostPoints(questions) {
     const arr = questions, n = arr.length, dp = new Array(n + 1);

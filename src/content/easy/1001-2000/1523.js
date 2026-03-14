@@ -1,4 +1,4 @@
-// 1523 - Count Odd Numbers in an Interval Range
+// 1523. Count Odd Numbers in an Interval Range
 
 function countOdds(low, high) {
     const count = high - low >> 1;

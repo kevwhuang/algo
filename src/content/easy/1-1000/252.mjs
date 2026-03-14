@@ -1,4 +1,4 @@
-// 252 - Meeting Rooms
+// 252. Meeting Rooms
 
 function canAttendMeetings(intervals) {
     intervals.sort((a, b) => a[0] - b[0]);

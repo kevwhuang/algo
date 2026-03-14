@@ -1,4 +1,4 @@
--- 3586 - Find COVID Recovery Patients
+-- 3586. Find COVID Recovery Patients
 
 SELECT
     C1.patient_id,

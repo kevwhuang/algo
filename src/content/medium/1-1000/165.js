@@ -1,4 +1,4 @@
-// 165 - Compare Version Numbers
+// 165. Compare Version Numbers
 
 function compareVersion(version1, version2) {
     version1 = version1.split('.').map(Number);

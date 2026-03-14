@@ -1,4 +1,4 @@
--- 1571 - Warehouse Manager
+-- 1571. Warehouse Manager
 
 SELECT
     name AS warehouse_name,

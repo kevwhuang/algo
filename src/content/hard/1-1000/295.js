@@ -1,4 +1,4 @@
-// 295 - Find Median From Data Stream
+// 295. Find Median From Data Stream
 
 class MedianFinder {
     constructor() {

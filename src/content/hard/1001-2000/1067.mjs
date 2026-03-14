@@ -1,3 +1,3 @@
-// 1067 - Digit Count in Range
+// 1067. Digit Count in Range
 
 

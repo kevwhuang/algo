@@ -1,3 +1,3 @@
-// 3836 - Maximum Score Using Exactly K Pairs
+// 3836. Maximum Score Using Exactly K Pairs
 
 

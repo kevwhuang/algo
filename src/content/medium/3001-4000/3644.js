@@ -1,4 +1,4 @@
-// 3644 - Maximum K to Sort a Permutation
+// 3644. Maximum K to Sort a Permutation
 
 function sortPermutation(nums) {
     let res, i = -1;

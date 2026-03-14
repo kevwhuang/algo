@@ -1,4 +1,4 @@
-// 226 - Invert Binary Tree
+// 226. Invert Binary Tree
 
 function invertTree(root) {
     if (!root) return null;

@@ -1,4 +1,4 @@
-// 1526 - Minimum Number of Increments on Subarrays to Form a Target Array
+// 1526. Minimum Number of Increments on Subarrays to Form a Target Array
 
 function minNumberOperations(target) {
     let res = target[0], i = 0;

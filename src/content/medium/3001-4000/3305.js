@@ -1,4 +1,4 @@
-// 3305 - Count of Substrings Containing Every Vowel and K Consonants I
+// 3305. Count of Substrings Containing Every Vowel and K Consonants I
 
 function countOfSubstrings(word, k) {
     function count() {

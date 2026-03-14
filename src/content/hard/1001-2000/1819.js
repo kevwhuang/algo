@@ -1,3 +1,3 @@
-// 1819 - Number of Different Subsequences GCDs
+// 1819. Number of Different Subsequences GCDs
 
 

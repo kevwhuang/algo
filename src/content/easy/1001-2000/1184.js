@@ -1,4 +1,4 @@
-// 1184 - Distance Between Bus Stops
+// 1184. Distance Between Bus Stops
 
 function distanceBetweenBusStops(distance, start, destination) {
     let sum = 0, acc = 0;

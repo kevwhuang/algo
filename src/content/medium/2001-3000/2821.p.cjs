@@ -1,4 +1,4 @@
-// 2821 - Delay the Resolution of Each Promise
+// 2821. Delay the Resolution of Each Promise
 
 function delayAll(functions, ms) {
     const res = new Array(functions.length);

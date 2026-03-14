@@ -1,4 +1,4 @@
-// 3090 - Maximum Length Substring With Two Occurrences
+// 3090. Maximum Length Substring With Two Occurrences
 
 function maximumLengthSubstring(s) {
     let max = 2;

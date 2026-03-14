@@ -1,4 +1,4 @@
-// 3339 - Find the Number of K-Even Arrays
+// 3339. Find the Number of K-Even Arrays
 
 function countOfArrays(n, m, k) {
     function dfs(i, acc, d) {

@@ -1,4 +1,4 @@
-// 3555 - Smallest Subarray to Sort in Every Sliding Window
+// 3555. Smallest Subarray to Sort in Every Sliding Window
 
 function minSubarraySort(nums, k) {
     const res = new Uint16Array(nums.length - k + 1);

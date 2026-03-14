@@ -1,4 +1,4 @@
-// 3732 - Maximum Product of Three Elements After One Replacement
+// 3732. Maximum Product of Three Elements After One Replacement
 
 function maxProduct(nums) {
     let a = 0, b = 0, i = -1;

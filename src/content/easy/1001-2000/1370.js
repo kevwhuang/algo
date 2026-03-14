@@ -1,4 +1,4 @@
-// 1370 - Increasing Decreasing String
+// 1370. Increasing Decreasing String
 
 function sortString(s) {
     const freqs = new Array(26).fill(0);

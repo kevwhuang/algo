@@ -1,3 +1,3 @@
-// 3812 - Minimum Edge Toggles on a Tree
+// 3812. Minimum Edge Toggles on a Tree
 
 

@@ -1,4 +1,4 @@
-// 1944 - Number of Visible People in a Queue
+// 1944. Number of Visible People in a Queue
 
 function canSeePersonsCount(heights) {
     const res = new Uint32Array(heights.length);

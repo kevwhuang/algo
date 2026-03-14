@@ -1,4 +1,4 @@
-// 2204 - Distance to a Cycle in Undirected Graph
+// 2204. Distance to a Cycle in Undirected Graph
 
 function distanceToCycle(n, edges) {
     const adj = Array.from({ length: n }, () => []);

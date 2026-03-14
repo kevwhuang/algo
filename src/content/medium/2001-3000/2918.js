@@ -1,4 +1,4 @@
-// 2918 - Minimum Equal Sum of Two Arrays After Replacing Zeros
+// 2918. Minimum Equal Sum of Two Arrays After Replacing Zeros
 
 function minSum(nums1, nums2) {
     let sum1 = 0, sum2 = 0, zeros1 = 0, zeros2 = 0;

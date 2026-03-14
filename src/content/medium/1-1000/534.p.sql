@@ -1,4 +1,4 @@
--- 534 - Game Play Analysis III
+-- 534. Game Play Analysis III
 
 SELECT
     player_id,

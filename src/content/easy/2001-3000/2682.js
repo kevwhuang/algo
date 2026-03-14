@@ -1,4 +1,4 @@
-// 2682 - Find the Losers of the Circular Game
+// 2682. Find the Losers of the Circular Game
 
 function circularGameLosers(n, k) {
     const set = new Set();

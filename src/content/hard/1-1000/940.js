@@ -1,4 +1,4 @@
-// 940 - Distinct Subsequences II
+// 940. Distinct Subsequences II
 
 function distinctSubseqII(s) {
     let res = 0, i = -1;

@@ -1,4 +1,4 @@
-// 1120 - Maximum Average Subtree
+// 1120. Maximum Average Subtree
 
 function maximumAverageSubtree(root) {
     function dfs(node) {

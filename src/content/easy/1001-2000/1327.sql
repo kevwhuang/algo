@@ -1,4 +1,4 @@
--- 1327 - List the Products Ordered in a Period
+-- 1327. List the Products Ordered in a Period
 
 SELECT
     product_name,

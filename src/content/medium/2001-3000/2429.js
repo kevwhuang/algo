@@ -1,4 +1,4 @@
-// 2429 - Minimize XOR
+// 2429. Minimize XOR
 
 function minimizeXor(num1, num2) {
     num1 = num1.toString(2);

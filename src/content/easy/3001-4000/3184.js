@@ -1,4 +1,4 @@
-// 3184 - Count Pairs That Form a Complete Day I
+// 3184. Count Pairs That Form a Complete Day I
 
 function countCompleteDayPairs(hours) {
     let res = 0;

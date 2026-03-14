@@ -1,3 +1,3 @@
-// 2659 - Make Array Empty
+// 2659. Make Array Empty
 
 

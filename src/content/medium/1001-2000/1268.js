@@ -1,4 +1,4 @@
-// 1268 - Search Suggestions System
+// 1268. Search Suggestions System
 
 function suggestedProducts(products, searchWord) {
     products.sort();

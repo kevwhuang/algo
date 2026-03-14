@@ -1,4 +1,4 @@
-// 1086 - High Five
+// 1086. High Five
 
 function highFive(items) {
     const map = new Map();

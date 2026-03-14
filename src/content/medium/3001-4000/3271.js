@@ -1,4 +1,4 @@
-// 3271 - Hash Divided String
+// 3271. Hash Divided String
 
 function stringHash(s, k) {
     let res = '', i = 0;

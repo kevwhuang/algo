@@ -1,4 +1,4 @@
-// 10014 - Phone Number Input
+// 10014. Phone Number Input
 
 import React from 'react';
 

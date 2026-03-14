@@ -1,4 +1,4 @@
-// 2424 - Longest Uploaded Prefix
+// 2424. Longest Uploaded Prefix
 
 class LUPrefix {
     constructor(n) {

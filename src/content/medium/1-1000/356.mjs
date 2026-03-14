@@ -1,4 +1,4 @@
-// 356 - Line Reflection
+// 356. Line Reflection
 
 function isReflected(points) {
     const obj = {};

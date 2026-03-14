@@ -1,4 +1,4 @@
-// 2539 - Count the Number of Good Subsequences
+// 2539. Count the Number of Good Subsequences
 
 function countGoodSubsequences(s) {
     function init() {

@@ -1,4 +1,4 @@
-// 3191 - Minimum Operations to Make Binary Array Elements Equal to One I
+// 3191. Minimum Operations to Make Binary Array Elements Equal to One I
 
 function minOperations(nums) {
     let ops = 0, i = 0;

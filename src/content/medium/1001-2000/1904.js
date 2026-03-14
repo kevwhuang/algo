@@ -1,4 +1,4 @@
-// 1904 - The Number of Full Rounds You Have Played
+// 1904. The Number of Full Rounds You Have Played
 
 function numberOfRounds(loginTime, logoutTime) {
     const convert = s => 60 * s.slice(0, 2) + +s.slice(3);

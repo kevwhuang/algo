@@ -1,4 +1,4 @@
-// 3800 - Minimum Cost to Make Two Binary Strings Equal
+// 3800. Minimum Cost to Make Two Binary Strings Equal
 
 function minimumCost(s, t, flipCost, swapCost, crossCost) {
     let acc1 = 0, acc2 = 0;

@@ -1,4 +1,4 @@
-// 2737 - Find the Closest Marked Node
+// 2737. Find the Closest Marked Node
 
 function minimumDistance(n, edges, s, marked) {
     marked = new Set(marked);

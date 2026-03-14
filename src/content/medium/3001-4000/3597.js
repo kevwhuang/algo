@@ -1,4 +1,4 @@
-// 3597 - Partition String
+// 3597. Partition String
 
 function partitionString(s) {
     const set = new Set();

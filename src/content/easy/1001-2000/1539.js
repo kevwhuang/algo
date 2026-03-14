@@ -1,4 +1,4 @@
-// 1539 - Kth Missing Positive Number
+// 1539. Kth Missing Positive Number
 
 function findKthPositive(arr, k) {
     let num = 0, i = 0;

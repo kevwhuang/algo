@@ -1,4 +1,4 @@
-// 2843 - Count Symmetric Integers
+// 2843. Count Symmetric Integers
 
 function countSymmetricIntegers(low, high) {
     let count = 0;

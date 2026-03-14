@@ -1,4 +1,4 @@
-// 2093 - Minimum Cost to Reach City With Discounts
+// 2093. Minimum Cost to Reach City With Discounts
 
 function minimumCost(n, highways, discounts) {
     const adj = Array.from({ length: n }, () => []);

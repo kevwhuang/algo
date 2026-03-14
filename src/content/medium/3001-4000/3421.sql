@@ -1,4 +1,4 @@
--- 3421 - Find Students Who Improved
+-- 3421. Find Students Who Improved
 
 WITH CTE AS (
     SELECT

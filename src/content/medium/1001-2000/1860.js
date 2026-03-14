@@ -1,4 +1,4 @@
-// 1860 - Incremental Memory Leak
+// 1860. Incremental Memory Leak
 
 function memLeak(memory1, memory2) {
     let t = 0;

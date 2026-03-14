@@ -1,4 +1,4 @@
-// 2966 - Divide Array Into Arrays With Max Difference
+// 2966. Divide Array Into Arrays With Max Difference
 
 function divideArray(nums, k) {
     nums.sort((a, b) => a - b);

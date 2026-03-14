@@ -1,4 +1,4 @@
-// 300 - Longest Increasing Subsequence
+// 300. Longest Increasing Subsequence
 
 function lengthOfLIS(nums) {
     const dp = [];

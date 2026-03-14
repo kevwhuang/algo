@@ -1,4 +1,4 @@
-// 643 - Maximum Average Subarray I
+// 643. Maximum Average Subarray I
 
 function findMaxAverage(nums, k) {
     let window = 0;

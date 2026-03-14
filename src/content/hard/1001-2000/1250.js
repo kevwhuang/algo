@@ -1,4 +1,4 @@
-// 1250 - Check If It Is a Good Array
+// 1250. Check If It Is a Good Array
 
 function isGoodArray(nums) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

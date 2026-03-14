@@ -1,4 +1,4 @@
-// 3365 - Rearrange K Substrings to Form Target String
+// 3365. Rearrange K Substrings to Form Target String
 
 function isPossibleToRearrange(s, t, k) {
     const map = new Map(), d = s.length / k;

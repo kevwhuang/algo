@@ -1,4 +1,4 @@
-// 1793 - Maximum Score of a Good Subarray
+// 1793. Maximum Score of a Good Subarray
 
 function maximumScore(nums, k) {
     let res = nums[k], min = nums[k], l = k, r = k;

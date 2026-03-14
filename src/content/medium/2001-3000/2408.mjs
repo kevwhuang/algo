@@ -1,4 +1,4 @@
-// 2408 - Design SQL
+// 2408. Design SQL
 
 class SQL {
     constructor(names, columns) {

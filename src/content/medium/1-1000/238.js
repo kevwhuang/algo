@@ -1,4 +1,4 @@
-// 238 - Product of Array Except Self
+// 238. Product of Array Except Self
 
 function productExceptSelf(nums) {
     const res = new Int32Array(nums.length);

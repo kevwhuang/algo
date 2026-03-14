@@ -1,4 +1,4 @@
-// 719 - Find Kth Smallest Pair Distance
+// 719. Find Kth Smallest Pair Distance
 
 function smallestDistancePair(nums, k) {
     nums = new Uint32Array(nums).sort();

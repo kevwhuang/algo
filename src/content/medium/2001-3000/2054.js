@@ -1,4 +1,4 @@
-// 2054 - Two Best Non-Overlapping Events
+// 2054. Two Best Non-Overlapping Events
 
 function maxTwoEvents(events) {
     let res = 0, max = 0;

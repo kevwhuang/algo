@@ -1,4 +1,4 @@
-// 3638 - Maximum Balanced Shipments
+// 3638. Maximum Balanced Shipments
 
 function maxBalancedShipments(weight) {
     let res = 0, max = 0, i = -1;

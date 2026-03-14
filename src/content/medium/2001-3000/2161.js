@@ -1,4 +1,4 @@
-// 2161 - Partition Array According to Given Pivot
+// 2161. Partition Array According to Given Pivot
 
 function pivotArray(nums, pivot) {
     const before = [], same = [], after = [];

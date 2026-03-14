@@ -1,3 +1,3 @@
-// 3801 - Minimum Cost to Merge Sorted Lists
+// 3801. Minimum Cost to Merge Sorted Lists
 
 

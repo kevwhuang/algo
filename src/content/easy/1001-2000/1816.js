@@ -1,4 +1,4 @@
-// 1816 - Truncate Sentence
+// 1816. Truncate Sentence
 
 function truncateSentence(s, k) {
     let acc = 0, i = -1;

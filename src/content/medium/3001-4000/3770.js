@@ -1,4 +1,4 @@
-// 3770 - Largest Prime From Consecutive Prime Sum
+// 3770. Largest Prime From Consecutive Prime Sum
 
 function largestPrime(n) {
     function init() {

@@ -1,3 +1,3 @@
-// 3357 - Minimize the Maximum Adjacent Element Difference
+// 3357. Minimize the Maximum Adjacent Element Difference
 
 

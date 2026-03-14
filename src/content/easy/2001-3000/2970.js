@@ -1,4 +1,4 @@
-// 2970 - Count the Number of Incremovable Subarrays I
+// 2970. Count the Number of Incremovable Subarrays I
 
 function incremovableSubarrayCount(nums) {
     let subarrays = 0;

@@ -1,4 +1,4 @@
--- 3060 - User Activities Within Time Bounds
+-- 3060. User Activities Within Time Bounds
 
 SELECT
     DISTINCT S1.user_id

@@ -1,4 +1,4 @@
--- 1132 - Reported Posts II
+-- 1132. Reported Posts II
 
 WITH CTE1 AS (
     SELECT

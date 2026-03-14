@@ -1,4 +1,4 @@
-// 838 - Push Dominoes
+// 838. Push Dominoes
 
 function pushDominoes(dominoes) {
     dominoes = dominoes.split('');

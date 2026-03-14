@@ -1,4 +1,4 @@
-// 3096 - Minimum Levels to Gain More Points
+// 3096. Minimum Levels to Gain More Points
 
 function minimumLevels(possible) {
     possible[0] ||= -1;

@@ -1,4 +1,4 @@
-// 2872 - Maximum Number of K-Divisible Components
+// 2872. Maximum Number of K-Divisible Components
 
 function maxKDivisibleComponents(n, edges, values, k) {
     function dfs(node, prev) {

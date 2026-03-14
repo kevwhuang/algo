@@ -1,4 +1,4 @@
-// 3216 - Lexicographically Smallest String After a Swap
+// 3216. Lexicographically Smallest String After a Swap
 
 function getSmallestString(s) {
     for (let i = 1; i < s.length; i++) {

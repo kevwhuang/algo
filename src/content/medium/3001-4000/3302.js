@@ -1,4 +1,4 @@
-// 3302 - Find the Lexicographically Smallest Valid Sequence
+// 3302. Find the Lexicographically Smallest Valid Sequence
 
 function validSequence(word1, word2) {
     if (word1.length < word2.length) return [];

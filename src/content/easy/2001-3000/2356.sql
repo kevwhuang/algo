@@ -1,4 +1,4 @@
--- 2356 - Number of Unique Subjects Taught by Each Teacher
+-- 2356. Number of Unique Subjects Taught by Each Teacher
 
 SELECT
     teacher_id,

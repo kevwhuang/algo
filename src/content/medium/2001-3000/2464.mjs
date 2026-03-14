@@ -1,4 +1,4 @@
-// 2464 - Minimum Subarrays in a Valid Split
+// 2464. Minimum Subarrays in a Valid Split
 
 function validSubarraySplit(nums) {
     const gcd = (a, b) => !a ? b : gcd(b % a, a);

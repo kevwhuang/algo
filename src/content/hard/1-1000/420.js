@@ -1,4 +1,4 @@
-// 420 - Strong Password Checker
+// 420. Strong Password Checker
 
 function strongPasswordChecker(password) {
     const arr = [], s = password, n = s.length;

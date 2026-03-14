@@ -1,3 +1,3 @@
-// 3269 - Constructing Two Increasing Arrays
+// 3269. Constructing Two Increasing Arrays
 
 

@@ -1,4 +1,4 @@
-// 3796 - Find Maximum Value in a Constrained Sequence
+// 3796. Find Maximum Value in a Constrained Sequence
 
 function findMaxVal(n, restrictions, diff) {
     if (!this.A) A = new Uint32Array(100000);

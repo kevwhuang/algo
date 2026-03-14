@@ -1,4 +1,4 @@
-// 1255 - Maximum Score Words Formed by Letters
+// 1255. Maximum Score Words Formed by Letters
 
 function maxScoreWords(words, letters, score) {
     function backtrack(i, acc) {

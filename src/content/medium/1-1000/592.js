@@ -1,4 +1,4 @@
-// 592 - Fraction Addition and Subtraction
+// 592. Fraction Addition and Subtraction
 
 function fractionAddition(expression) {
     const lcm = (a, b) => a * b / gcd(a, b);

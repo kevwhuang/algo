@@ -1,4 +1,4 @@
-// 1508 - Range Sum of Sorted Subarray Sums
+// 1508. Range Sum of Sorted Subarray Sums
 
 function rangeSum(nums, n, left, right) {
     const pq = new PriorityQueue({ compare: (a, b) => a[0] - b[0] });

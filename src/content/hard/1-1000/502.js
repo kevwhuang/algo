@@ -1,4 +1,4 @@
-// 502 - IPO
+// 502. IPO
 
 function findMaximizedCapital(k, w, profits, capital) {
     const pq1 = new PriorityQueue({ compare: (a, b) => b.p - a.p });

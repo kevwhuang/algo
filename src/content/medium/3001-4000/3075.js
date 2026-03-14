@@ -1,4 +1,4 @@
-// 3075 - Maximize Happiness of Selected Children
+// 3075. Maximize Happiness of Selected Children
 
 function maximumHappinessSum(happiness, k) {
     happiness.sort((a, b) => b - a);

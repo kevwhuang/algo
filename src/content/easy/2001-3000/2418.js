@@ -1,4 +1,4 @@
-// 2418 - Sort the People
+// 2418. Sort the People
 
 function sortPeople(names, heights) {
     for (let i = 0; i < names.length; i++) {

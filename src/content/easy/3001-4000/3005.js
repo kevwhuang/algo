@@ -1,4 +1,4 @@
-// 3005 - Count Elements With Maximum Frequency
+// 3005. Count Elements With Maximum Frequency
 
 function maxFrequencyElements(nums) {
     const B = new Array(101).fill(0);

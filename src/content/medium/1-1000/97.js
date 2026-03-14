@@ -1,4 +1,4 @@
-// 97 - Interleaving String
+// 97. Interleaving String
 
 function isInterleave(s1, s2, s3) {
     const m = s1.length, n = s2.length;

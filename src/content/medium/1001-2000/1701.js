@@ -1,4 +1,4 @@
-// 1701 - Average Waiting Time
+// 1701. Average Waiting Time
 
 function averageWaitingTime(customers) {
     let wait = 0, next = customers[0][0];

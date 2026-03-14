@@ -1,4 +1,4 @@
-// 3856 - Trim Trailing Vowels
+// 3856. Trim Trailing Vowels
 
 function trimTrailingVowels(s) {
     const A = ['a', 'e', 'i', 'o', 'u'];

@@ -1,4 +1,4 @@
-// 1800 - Maximum Ascending Subarray Sum
+// 1800. Maximum Ascending Subarray Sum
 
 function maxAscendingSum(nums) {
     let max = nums[0], acc = nums[0];

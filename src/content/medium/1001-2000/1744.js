@@ -1,4 +1,4 @@
-// 1744 - Can You Eat Your Favorite Candy on Your Favorite Day
+// 1744. Can You Eat Your Favorite Candy on Your Favorite Day
 
 function canEat(candiesCount, queries) {
     for (let i = 1; i < candiesCount.length; i++) {

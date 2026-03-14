@@ -1,4 +1,4 @@
-// 2242 - Maximum Score of a Node Sequence
+// 2242. Maximum Score of a Node Sequence
 
 function maximumScore(scores, edges) {
     if (!this.M) M = Array.from({ length: 50000 }, () => new Array(3));

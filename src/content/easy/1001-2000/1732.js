@@ -1,4 +1,4 @@
-// 1732 - Find the Highest Altitude
+// 1732. Find the Highest Altitude
 
 function largestAltitude(gain) {
     let max = 0, acc = 0;

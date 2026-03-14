@@ -1,3 +1,3 @@
-// 902 - Numbers at Most N Given Digit Set
+// 902. Numbers at Most N Given Digit Set
 
 

@@ -1,3 +1,3 @@
-// 3134 - Find the Median of the Uniqueness Array
+// 3134. Find the Median of the Uniqueness Array
 
 

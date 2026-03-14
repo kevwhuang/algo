@@ -1,4 +1,4 @@
-// 634 - Find the Derangement of an Array
+// 634. Find the Derangement of an Array
 
 function findDerangement(n) {
     if (n === 1) return 0;

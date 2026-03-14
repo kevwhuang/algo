@@ -1,4 +1,4 @@
-// 1682 - Longest Palindromic Subsequence II
+// 1682. Longest Palindromic Subsequence II
 
 function longestPalindromeSubseq(s) {
     const n = s.length;

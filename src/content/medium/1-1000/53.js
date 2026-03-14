@@ -1,4 +1,4 @@
-// 53 - Maximum Subarray
+// 53. Maximum Subarray
 
 function maxSubArray(nums) {
     let res = -Infinity, acc = 0, i = -1;

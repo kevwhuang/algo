@@ -1,4 +1,4 @@
-// 1756 - Design Most Recently Used Queue
+// 1756. Design Most Recently Used Queue
 
 class MRUQueue {
     constructor(n) {

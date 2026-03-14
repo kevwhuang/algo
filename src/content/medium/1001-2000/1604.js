@@ -1,4 +1,4 @@
-// 1604 - Alert Using Same Keycard Three or More Times in a One Hour Period
+// 1604. Alert Using Same Keycard Three or More Times in a One Hour Period
 
 function alertNames(keyName, keyTime) {
     const alerts = {};

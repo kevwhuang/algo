@@ -1,4 +1,4 @@
-// 477 - Total Hamming Distance
+// 477. Total Hamming Distance
 
 function totalHammingDistance(nums) {
     const ones = new Array(33).fill(0);

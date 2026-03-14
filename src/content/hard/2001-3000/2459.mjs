@@ -1,3 +1,3 @@
-// 2459 - Sort Array by Moving Items to Empty Space
+// 2459. Sort Array by Moving Items to Empty Space
 
 

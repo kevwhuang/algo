@@ -1,4 +1,4 @@
-// 1614 - Maximum Nesting Depth of the Parentheses
+// 1614. Maximum Nesting Depth of the Parentheses
 
 function maxDepth(s) {
     let max = 0, acc = 0;

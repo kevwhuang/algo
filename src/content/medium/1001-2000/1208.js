@@ -1,4 +1,4 @@
-// 1208 - Get Equal Substrings Within Budget
+// 1208. Get Equal Substrings Within Budget
 
 function equalSubstring(s, t, maxCost) {
     const indices = new Uint8Array(s.length);

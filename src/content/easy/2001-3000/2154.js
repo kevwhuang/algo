@@ -1,4 +1,4 @@
-// 2154 - Keep Multiplying Found Values by Two
+// 2154. Keep Multiplying Found Values by Two
 
 function findFinalValue(nums, original) {
     while (true) {

@@ -1,4 +1,4 @@
-// 714 - Best Time to Buy and Sell Stock With Transaction Fee
+// 714. Best Time to Buy and Sell Stock With Transaction Fee
 
 function maxProfit(prices, fee) {
     let res = 0, max = -Infinity, i = -1;

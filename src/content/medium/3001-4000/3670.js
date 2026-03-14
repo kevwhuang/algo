@@ -1,4 +1,4 @@
-// 3670 - Maximum Product of Two Integers With No Common Bits
+// 3670. Maximum Product of Two Integers With No Common Bits
 
 function maxProduct(nums) {
     if (!this.dp) dp = new Uint32Array(2 ** 20);

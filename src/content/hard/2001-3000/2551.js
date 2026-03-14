@@ -1,4 +1,4 @@
-// 2551 - Put Marbles in Bags
+// 2551. Put Marbles in Bags
 
 function putMarbles(weights, k) {
     k--;

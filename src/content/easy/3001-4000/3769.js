@@ -1,4 +1,4 @@
-// 3769 - Sort Integers by Binary Reflection
+// 3769. Sort Integers by Binary Reflection
 
 function sortByReflection(nums) {
     function fn(a) {

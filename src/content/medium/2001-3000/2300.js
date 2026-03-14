@@ -1,4 +1,4 @@
-// 2300 - Successful Pairs of Spells and Potions
+// 2300. Successful Pairs of Spells and Potions
 
 function successfulPairs(spells, potions, success) {
     potions.sort((a, b) => a - b).push(Infinity);

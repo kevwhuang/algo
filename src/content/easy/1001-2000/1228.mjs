@@ -1,4 +1,4 @@
-// 1228 - Missing Number in Arithmetic Progression
+// 1228. Missing Number in Arithmetic Progression
 
 function missingNumber(arr) {
     const step = (arr.at(-1) - arr[0]) / arr.length;

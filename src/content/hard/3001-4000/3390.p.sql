@@ -1,4 +1,4 @@
--- 3390 - Longest Team Pass Streak
+-- 3390. Longest Team Pass Streak
 
 WITH CTE1 AS (
     SELECT

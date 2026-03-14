@@ -1,3 +1,3 @@
-// 3161 - Block Placement Queries
+// 3161. Block Placement Queries
 
 

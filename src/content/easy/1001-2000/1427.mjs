@@ -1,4 +1,4 @@
-// 1427 - Perform String Shifts
+// 1427. Perform String Shifts
 
 function stringShift(s, shift) {
     let acc = 0;

@@ -1,4 +1,4 @@
-// 3804 - Number of Centered Subarrays
+// 3804. Number of Centered Subarrays
 
 function centeredSubarrays(nums) {
     let res = 0;

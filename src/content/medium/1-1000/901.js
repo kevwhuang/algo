@@ -1,4 +1,4 @@
-// 901 - Online Stock Span
+// 901. Online Stock Span
 
 class StockSpanner {
     constructor() {

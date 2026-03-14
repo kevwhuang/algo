@@ -1,4 +1,4 @@
-// 2514 - Count Anagrams
+// 2514. Count Anagrams
 
 function countAnagrams(s) {
     function init() {

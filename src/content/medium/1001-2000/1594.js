@@ -1,4 +1,4 @@
-// 1594 - Maximum Non-Negative Product in a Matrix
+// 1594. Maximum Non-Negative Product in a Matrix
 
 function maxProductPath(grid) {
     const fn = () => Array.from({ length: n }, () => [Infinity, -Infinity]);

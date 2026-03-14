@@ -1,4 +1,4 @@
-// 886 - Possible Bipartition
+// 886. Possible Bipartition
 
 function possibleBipartition(n, dislikes) {
     const adj = Array.from({ length: n + 1 }, () => []);

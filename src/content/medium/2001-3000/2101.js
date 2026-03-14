@@ -1,4 +1,4 @@
-// 2101 - Detonate the Maximum Bombs
+// 2101. Detonate the Maximum Bombs
 
 function maximumDetonation(bombs) {
     const adj = new Map();

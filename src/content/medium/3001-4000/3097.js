@@ -1,4 +1,4 @@
-// 3097 - Shortest Subarray With OR at Least K II
+// 3097. Shortest Subarray With OR at Least K II
 
 function minimumSubarrayLength(nums, k) {
     let res = Infinity, or = 0, r = -1;

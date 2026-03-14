@@ -1,4 +1,4 @@
-// 1674 - Minimum Moves to Make Array Complementary
+// 1674. Minimum Moves to Make Array Complementary
 
 function minMoves(nums, limit) {
     const arr = new Int16Array(2 * limit + 1);

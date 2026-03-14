@@ -1,4 +1,4 @@
-// 1713 - Minimum Operations to Make a Subsequence
+// 1713. Minimum Operations to Make a Subsequence
 
 function minOperations(target, arr) {
     if (!this.dp) dp = new Uint32Array(100000);

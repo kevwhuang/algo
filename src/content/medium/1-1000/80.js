@@ -1,4 +1,4 @@
-// 80 - Remove Duplicates From Sorted Array II
+// 80. Remove Duplicates From Sorted Array II
 
 function removeDuplicates(nums) {
     let k = nums.length === 1 ? 1 : 2;

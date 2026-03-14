@@ -1,3 +1,3 @@
-// 3735 - Lexicographically Smallest String After Reverse II
+// 3735. Lexicographically Smallest String After Reverse II
 
 

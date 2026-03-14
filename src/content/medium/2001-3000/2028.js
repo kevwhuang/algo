@@ -1,4 +1,4 @@
-// 2028 - Find Missing Observations
+// 2028. Find Missing Observations
 
 function missingRolls(rolls, mean, n) {
     let remaining = mean * (rolls.length + n);

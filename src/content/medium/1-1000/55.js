@@ -1,4 +1,4 @@
-// 55 - Jump Game
+// 55. Jump Game
 
 function canJump(nums) {
     for (let max = 0, i = 0; i < nums.length; i++) {

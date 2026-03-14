@@ -1,4 +1,4 @@
-// 1646 - Get Maximum in Generated Array
+// 1646. Get Maximum in Generated Array
 
 function getMaximumGenerated(n) {
     if (n === 0) return 0;

@@ -1,4 +1,4 @@
-// 979 - Distribute Coins in Binary Tree
+// 979. Distribute Coins in Binary Tree
 
 function distributeCoins(root) {
     function dfs(node) {

@@ -1,4 +1,4 @@
-// 1315 - Sum of Nodes With Even-Valued Grandparent
+// 1315. Sum of Nodes With Even-Valued Grandparent
 
 function sumEvenGrandparent(root) {
     function dfs(node, parent, grandparent) {

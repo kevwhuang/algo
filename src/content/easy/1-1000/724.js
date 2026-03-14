@@ -1,4 +1,4 @@
-// 724 - Find Pivot Index
+// 724. Find Pivot Index
 
 function pivotIndex(nums) {
     let leftSum = 0, rightSum = nums.reduce((s, e) => s + e, 0);

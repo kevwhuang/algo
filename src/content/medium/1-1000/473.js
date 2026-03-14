@@ -1,4 +1,4 @@
-// 473 - Matchsticks to Square
+// 473. Matchsticks to Square
 
 function makesquare(matchsticks) {
     function backtrack(i) {

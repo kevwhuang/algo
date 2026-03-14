@@ -1,4 +1,4 @@
-// 3068 - Find the Maximum Sum of Node Values
+// 3068. Find the Maximum Sum of Node Values
 
 function maximumValueSum(nums, k, edges) {
     let res = 0, acc = 0, min = Infinity;

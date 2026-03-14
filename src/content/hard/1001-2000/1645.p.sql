@@ -1,4 +1,4 @@
--- 1645 - Hopper Company Queries II
+-- 1645. Hopper Company Queries II
 
 WITH RECURSIVE Base AS (
     SELECT

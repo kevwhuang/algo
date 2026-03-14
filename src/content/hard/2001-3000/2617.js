@@ -1,3 +1,3 @@
-// 2617 - Minimum Number of Visited Cells in a Grid
+// 2617. Minimum Number of Visited Cells in a Grid
 
 

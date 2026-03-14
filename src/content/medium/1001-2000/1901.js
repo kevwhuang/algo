@@ -1,4 +1,4 @@
-// 1901 - Find a Peak Element II
+// 1901. Find a Peak Element II
 
 function findPeakGrid(mat) {
     for (let row = 0; row < mat.length; row++) {

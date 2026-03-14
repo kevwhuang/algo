@@ -1,4 +1,4 @@
-// 2895 - Minimum Processing Time
+// 2895. Minimum Processing Time
 
 function minProcessingTime(processorTime, tasks) {
     processorTime.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
--- 1484 - Group Sold Products by the Date
+-- 1484. Group Sold Products by the Date
 
 SELECT
     sell_date,

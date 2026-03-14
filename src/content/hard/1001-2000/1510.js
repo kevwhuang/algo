@@ -1,3 +1,3 @@
-// 1510 - Stone Game IV
+// 1510. Stone Game IV
 
 

@@ -1,4 +1,4 @@
-// 1813 - Sentence Similarity III
+// 1813. Sentence Similarity III
 
 function areSentencesSimilar(sentence1, sentence2) {
     let arr1 = sentence1.split(' ');

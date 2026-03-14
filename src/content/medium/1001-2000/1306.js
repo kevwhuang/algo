@@ -1,4 +1,4 @@
-// 1306 - Jump Game III
+// 1306. Jump Game III
 
 function canReach(arr, start) {
     let queue = [start];

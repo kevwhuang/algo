@@ -1,4 +1,4 @@
-// 1961 - Check If String Is a Prefix of Array
+// 1961. Check If String Is a Prefix of Array
 
 function isPrefixString(s, words) {
     let i = 0, j = -1;

@@ -1,4 +1,4 @@
-// 1792 - Maximum Average Pass Ratio
+// 1792. Maximum Average Pass Ratio
 
 function maxAverageRatio(classes, extraStudents) {
     function comparator(a, b) {

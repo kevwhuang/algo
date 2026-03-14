@@ -1,4 +1,4 @@
-// 2598 - Smallest Missing Non-Negative Integer After Operations
+// 2598. Smallest Missing Non-Negative Integer After Operations
 
 function findSmallestInteger(nums, value) {
     const bucket = new Array(value).fill(0);

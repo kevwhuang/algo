@@ -1,4 +1,4 @@
-// 2670 - Find the Distinct Difference Array
+// 2670. Find the Distinct Difference Array
 
 function distinctDifferenceArray(nums) {
     const prefix = new Set(), suffix = new Map();

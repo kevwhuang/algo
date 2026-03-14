@@ -1,4 +1,4 @@
-// 2755 - Deep Merge of Two Objects
+// 2755. Deep Merge of Two Objects
 
 function deepMerge(obj1, obj2) {
     if (obj1 === null || obj2 === null) return obj2;

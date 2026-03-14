@@ -1,4 +1,4 @@
-// 3153 - Sum of Digit Differences of All Pairs
+// 3153. Sum of Digit Differences of All Pairs
 
 function sumDigitDifferences(nums) {
     let len = 0, num = nums[0];

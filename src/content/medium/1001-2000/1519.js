@@ -1,4 +1,4 @@
-// 1519 - Number of Nodes in the Subtree With the Same Label
+// 1519. Number of Nodes in the Subtree With the Same Label
 
 function countSubTrees(n, edges, labels) {
     function dfs(node, parent) {

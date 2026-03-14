@@ -1,4 +1,4 @@
-// 2348 - Number of Zero-Filled Subarrays
+// 2348. Number of Zero-Filled Subarrays
 
 function zeroFilledSubarray(nums) {
     let subarrays = 0;

@@ -1,4 +1,4 @@
-// 2092 - Find All People With Secret
+// 2092. Find All People With Secret
 
 function findAllPeople(n, meetings, firstPerson) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

@@ -1,4 +1,4 @@
-// 377 - Combination Sum IV
+// 377. Combination Sum IV
 
 function combinationSum4(nums, target) {
     const dp = new Uint32Array(target + 1);

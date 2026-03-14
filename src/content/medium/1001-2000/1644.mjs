@@ -1,4 +1,4 @@
-// 1644 - Lowest Common Ancestor of a Binary Tree II
+// 1644. Lowest Common Ancestor of a Binary Tree II
 
 function lowestCommonAncestor(root, p, q) {
     if (!p || !q) return null;

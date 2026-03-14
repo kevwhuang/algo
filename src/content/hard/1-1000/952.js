@@ -1,4 +1,4 @@
-// 952 - Largest Component Size by Common Factor
+// 952. Largest Component Size by Common Factor
 
 function largestComponentSize(nums) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

@@ -1,3 +1,3 @@
-// 3710 - Maximum Partition Factor
+// 3710. Maximum Partition Factor
 
 

@@ -1,4 +1,4 @@
-// 904 - Fruit Into Baskets
+// 904. Fruit Into Baskets
 
 function totalFruit(fruits) {
     let max = 1;

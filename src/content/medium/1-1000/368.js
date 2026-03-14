@@ -1,4 +1,4 @@
-// 368 - Largest Divisible Subset
+// 368. Largest Divisible Subset
 
 function largestDivisibleSubset(nums) {
     nums = new Uint32Array(nums).sort();

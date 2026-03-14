@@ -1,4 +1,4 @@
-// 3517 - Smallest Palindromic Rearrangement I
+// 3517. Smallest Palindromic Rearrangement I
 
 function smallestPalindrome(s) {
     const B = new Uint32Array(26);

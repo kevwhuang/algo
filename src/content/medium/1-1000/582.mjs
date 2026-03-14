@@ -1,4 +1,4 @@
-// 582 - Kill Process
+// 582. Kill Process
 
 function killProcess(pid, ppid, kill) {
     function traverse(id) {

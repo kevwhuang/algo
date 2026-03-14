@@ -1,4 +1,4 @@
-// 2541 - Minimum Operations to Make Array Equal II
+// 2541. Minimum Operations to Make Array Equal II
 
 function minOperations(nums1, nums2, k) {
     let minus = 0, plus = 0;

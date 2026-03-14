@@ -1,4 +1,4 @@
-// 835 - Image Overlap
+// 835. Image Overlap
 
 function largestOverlap(img1, img2) {
     const n = img1.length;

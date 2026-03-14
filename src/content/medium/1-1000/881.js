@@ -1,4 +1,4 @@
-// 881 - Boats to Save People
+// 881. Boats to Save People
 
 function numRescueBoats(people, limit) {
     people.sort((a, b) => a - b);

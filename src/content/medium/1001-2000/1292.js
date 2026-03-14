@@ -1,4 +1,4 @@
-// 1292 - Maximum Side Length of a Square With Sum Less Than or Equal to Threshold
+// 1292. Maximum Side Length of a Square With Sum Less Than or Equal to Threshold
 
 function maxSideLength(mat, threshold) {
     const m = mat.length, n = mat[0].length;

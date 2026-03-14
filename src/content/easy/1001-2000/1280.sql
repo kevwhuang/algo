@@ -1,4 +1,4 @@
--- 1280 - Students and Examinations
+-- 1280. Students and Examinations
 
 SELECT
     student_id,

@@ -1,4 +1,4 @@
-// 250 - Count Univalue Subtrees
+// 250. Count Univalue Subtrees
 
 function countUnivalSubtrees(root) {
     function dfs(node) {

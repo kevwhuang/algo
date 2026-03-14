@@ -1,4 +1,4 @@
-// 2784 - Check If Array Is Good
+// 2784. Check If Array Is Good
 
 function isGood(nums) {
     nums.sort((a, b) => a - b);

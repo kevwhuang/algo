@@ -1,4 +1,4 @@
-// 1502 - Can Make Arithmetic Progression From Sequence
+// 1502. Can Make Arithmetic Progression From Sequence
 
 function canMakeArithmeticProgression(arr) {
     arr = new Int32Array(arr).sort();

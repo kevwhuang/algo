@@ -1,4 +1,4 @@
-// 2364 - Count Number of Bad Pairs
+// 2364. Count Number of Bad Pairs
 
 function countBadPairs(nums) {
     let good = 0;

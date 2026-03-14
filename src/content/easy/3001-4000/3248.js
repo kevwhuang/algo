@@ -1,4 +1,4 @@
-// 3248 - Snake in Matrix
+// 3248. Snake in Matrix
 
 function finalPositionOfSnake(n, commands) {
     const dict = { UP: -n, DOWN: n, LEFT: -1, RIGHT: 1 };

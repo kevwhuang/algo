@@ -1,4 +1,4 @@
-// 900 - RLE Iterator
+// 900. RLE Iterator
 
 class RLEIterator {
     constructor(encoding) {

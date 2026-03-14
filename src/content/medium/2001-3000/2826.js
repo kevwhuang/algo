@@ -1,4 +1,4 @@
-// 2826 - Sorting Three Groups
+// 2826. Sorting Three Groups
 
 function minimumOperations(nums) {
     let a = 0, b = 0, c = 0, i = -1;

@@ -1,4 +1,4 @@
-// 3344 - Maximum Sized Array
+// 3344. Maximum Sized Array
 
 function maxSizedArray(s) {
     function init(i) {

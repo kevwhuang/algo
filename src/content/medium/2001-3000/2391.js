@@ -1,4 +1,4 @@
-// 2391 - Minimum Amount of Time to Collect Garbage
+// 2391. Minimum Amount of Time to Collect Garbage
 
 function garbageCollection(garbage, travel) {
     for (let i = 1; i < travel.length; i++) {

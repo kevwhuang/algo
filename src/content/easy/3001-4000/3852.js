@@ -1,4 +1,4 @@
-// 3852 - Smallest Pair With Different Frequencies
+// 3852. Smallest Pair With Different Frequencies
 
 function minDistinctFreqPair(nums) {
     const B = new Uint8Array(101);

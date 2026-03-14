@@ -1,4 +1,4 @@
-// 1201 - Ugly Number III
+// 1201. Ugly Number III
 
 function nthUglyNumber(n, a, b, c) {
     const lcm = (a, b) => a * b / gcd(a, b);

@@ -1,4 +1,4 @@
-// 3520 - Minimum Threshold for Inversion Pairs Count
+// 3520. Minimum Threshold for Inversion Pairs Count
 
 function minThreshold(nums, k) {
     function merge(l, r) {

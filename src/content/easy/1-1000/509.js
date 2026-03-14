@@ -1,4 +1,4 @@
-// 509 - Fibonacci Number
+// 509. Fibonacci Number
 
 function fib(n) {
     const sqrt = Math.sqrt(5);

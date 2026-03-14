@@ -1,4 +1,4 @@
-// 2944 - Minimum Number of Coins for Fruits
+// 2944. Minimum Number of Coins for Fruits
 
 function minimumCoins(prices) {
     const n = prices.length, Q = [];

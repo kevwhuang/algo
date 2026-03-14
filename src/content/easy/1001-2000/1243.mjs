@@ -1,4 +1,4 @@
-// 1243 - Array Transformation
+// 1243. Array Transformation
 
 function transformArray(arr) {
     let flag, i = 0;

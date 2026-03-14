@@ -1,4 +1,4 @@
-// 130 - Surrounded Regions
+// 130. Surrounded Regions
 
 function solve(board) {
     function dfs(r, c) {

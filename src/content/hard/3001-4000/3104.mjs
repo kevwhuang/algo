@@ -1,3 +1,3 @@
-// 3104 - Find Longest Self-Contained Substring
+// 3104. Find Longest Self-Contained Substring
 
 

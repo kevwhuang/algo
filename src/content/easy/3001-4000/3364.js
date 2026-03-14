@@ -1,4 +1,4 @@
-// 3364 - Minimum Positive Sum Subarray
+// 3364. Minimum Positive Sum Subarray
 
 function minimumSumSubarray(nums, l, r) {
     for (let i = 1; i < nums.length; i++) {

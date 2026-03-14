@@ -1,4 +1,4 @@
-// 3169 - Count Days Without Meetings
+// 3169. Count Days Without Meetings
 
 function countDays(days, meetings) {
     meetings.sort((a, b) => a[0] - b[0]);

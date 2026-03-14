@@ -1,4 +1,4 @@
-// 3378 - Count Connected Components in LCM Graph
+// 3378. Count Connected Components in LCM Graph
 
 function countComponents(nums, threshold) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

@@ -1,4 +1,4 @@
-// 1810 - Minimum Path Cost in a Hidden Grid
+// 1810. Minimum Path Cost in a Hidden Grid
 
 function findShortestPath(master) {
     function dfs(node) {

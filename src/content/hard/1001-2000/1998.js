@@ -1,4 +1,4 @@
-// 1998 - GCD Sort of an Array
+// 1998. GCD Sort of an Array
 
 function gcdSort(nums) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

@@ -1,4 +1,4 @@
-// 925 - Long Pressed Name
+// 925. Long Pressed Name
 
 function isLongPressedName(name, typed) {
     let i = 0, j = 0;

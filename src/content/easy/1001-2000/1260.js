@@ -1,4 +1,4 @@
-// 1260 - Shift 2D Grid
+// 1260. Shift 2D Grid
 
 function shiftGrid(grid, k) {
     const m = grid.length, n = grid[0].length, mod = m * n;

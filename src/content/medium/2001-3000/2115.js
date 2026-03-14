@@ -1,4 +1,4 @@
-// 2115 - Find All Possible Recipes From Given Supplies
+// 2115. Find All Possible Recipes From Given Supplies
 
 function findAllRecipes(recipes, ingredients, supplies) {
     function dfs(recipe, needs) {

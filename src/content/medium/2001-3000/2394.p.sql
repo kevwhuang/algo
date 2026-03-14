@@ -1,4 +1,4 @@
--- 2394 - Employees With Deductions
+-- 2394. Employees With Deductions
 
 WITH CTE AS (
     SELECT

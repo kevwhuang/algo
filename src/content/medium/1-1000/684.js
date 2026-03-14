@@ -1,4 +1,4 @@
-// 684 - Redundant Connection
+// 684. Redundant Connection
 
 function findRedundantConnection(edges) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

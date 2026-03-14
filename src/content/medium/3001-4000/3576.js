@@ -1,4 +1,4 @@
-// 3576 - Transform Array to All Equal Elements
+// 3576. Transform Array to All Equal Elements
 
 function canMakeEqual(nums, k) {
     function check(tgt) {

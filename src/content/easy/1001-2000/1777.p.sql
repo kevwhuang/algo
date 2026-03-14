@@ -1,4 +1,4 @@
--- 1777 - Product's Price for Each Store
+-- 1777. Product's Price for Each Store
 
 SELECT
     product_id,

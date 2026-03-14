@@ -1,3 +1,3 @@
-// 3526 - Range XOR Queries With Subarray Reversals
+// 3526. Range XOR Queries With Subarray Reversals
 
 

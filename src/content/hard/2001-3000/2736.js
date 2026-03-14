@@ -1,3 +1,3 @@
-// 2736 - Maximum Sum Queries
+// 2736. Maximum Sum Queries
 
 

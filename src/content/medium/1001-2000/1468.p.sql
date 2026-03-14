@@ -1,4 +1,4 @@
--- 1468 - Calculate Salaries
+-- 1468. Calculate Salaries
 
 WITH CTE AS (
     SELECT

@@ -1,4 +1,4 @@
-// 2802 - Find the Kth Lucky Number
+// 2802. Find the Kth Lucky Number
 
 function kthLuckyNumber(k) {
     k = (k + 1).toString(2).slice(1);

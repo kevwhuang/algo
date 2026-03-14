@@ -1,4 +1,4 @@
-// 2184 - Number of Ways to Build Sturdy Brick Wall
+// 2184. Number of Ways to Build Sturdy Brick Wall
 
 function buildWall(height, width, bricks) {
     function dfs(acc, mask) {

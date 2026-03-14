@@ -1,4 +1,4 @@
-// 3076 - Shortest Uncommon Substring in an Array
+// 3076. Shortest Uncommon Substring in an Array
 
 function shortestSubstrings(arr) {
     for (let i = 0; i < arr.length; i++) {

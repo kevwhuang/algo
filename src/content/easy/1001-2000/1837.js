@@ -1,4 +1,4 @@
-// 1837 - Sum of Digits in Base K
+// 1837. Sum of Digits in Base K
 
 function sumBase(n, k) {
     n = n.toString(k);

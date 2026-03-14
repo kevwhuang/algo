@@ -1,4 +1,4 @@
-// 2840 - Check If Strings Can Be Made Equal With Operations II
+// 2840. Check If Strings Can Be Made Equal With Operations II
 
 function checkStrings(s1, s2) {
     const freqs = new Array(26).fill(0);

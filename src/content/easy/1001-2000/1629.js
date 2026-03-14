@@ -1,4 +1,4 @@
-// 1629 - Slowest Key
+// 1629. Slowest Key
 
 function slowestKey(releaseTimes, keysPressed) {
     let res = keysPressed[0], max = releaseTimes[0], i = 0;

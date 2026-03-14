@@ -1,3 +1,3 @@
-// 2940 - Find Building Where Alice and Bob Can Meet
+// 2940. Find Building Where Alice and Bob Can Meet
 
 

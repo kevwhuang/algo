@@ -1,4 +1,4 @@
-// 725 - Split Linked List in Parts
+// 725. Split Linked List in Parts
 
 function splitListToParts(head, k) {
     const parts = new Array(k).fill(null);

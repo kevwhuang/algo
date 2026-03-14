@@ -1,4 +1,4 @@
--- 3061 - Calculate Trapping Rain Water
+-- 3061. Calculate Trapping Rain Water
 
 WITH CTE AS (
     SELECT

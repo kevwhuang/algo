@@ -1,4 +1,4 @@
--- 1843 - Suspicious Bank Accounts
+-- 1843. Suspicious Bank Accounts
 
 WITH CTE AS (
     SELECT

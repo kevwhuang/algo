@@ -1,4 +1,4 @@
-// 355 - Design Twitter
+// 355. Design Twitter
 
 class Twitter {
     constructor() {

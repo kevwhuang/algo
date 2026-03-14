@@ -1,4 +1,4 @@
-// 3784 - Minimum Deletion Cost to Make All Characters Equal
+// 3784. Minimum Deletion Cost to Make All Characters Equal
 
 function minCost(s, cost) {
     const A = new Array(26).fill(0);

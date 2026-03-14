@@ -1,4 +1,4 @@
-// 2830 - Maximize the Profit as the Salesman
+// 2830. Maximize the Profit as the Salesman
 
 function maximizeTheProfit(n, offers) {
     n = offers.length;

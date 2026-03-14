@@ -1,4 +1,4 @@
-// 930 - Binary Subarrays With Sum
+// 930. Binary Subarrays With Sum
 
 function numSubarraysWithSum(nums, goal) {
     let subarrays = 0, count = 0, l = 0, r = -1;

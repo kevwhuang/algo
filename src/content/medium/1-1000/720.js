@@ -1,4 +1,4 @@
-// 720 - Longest Word in Dictionary
+// 720. Longest Word in Dictionary
 
 function longestWord(words) {
     words.sort();

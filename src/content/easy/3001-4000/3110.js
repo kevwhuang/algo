@@ -1,4 +1,4 @@
-// 3110 - Score of a String
+// 3110. Score of a String
 
 function scoreOfString(s) {
     let score = 0;

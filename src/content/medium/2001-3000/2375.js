@@ -1,4 +1,4 @@
-// 2375 - Construct Smallest Number From DI String
+// 2375. Construct Smallest Number From DI String
 
 function smallestNumber(pattern) {
     let res = '';

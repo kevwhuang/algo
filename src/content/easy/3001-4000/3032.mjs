@@ -1,4 +1,4 @@
-// 3032 - Count Numbers With Unique Digits II
+// 3032. Count Numbers With Unique Digits II
 
 function numberCount(a, b) {
     let res = 0;

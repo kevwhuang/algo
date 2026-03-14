@@ -1,4 +1,4 @@
-// 361 - Bomb Enemy
+// 361. Bomb Enemy
 
 function maxKilledEnemies(grid) {
     const M = grid, m = M.length, n = M[0].length, max = Math.max;

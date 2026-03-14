@@ -1,4 +1,4 @@
-// 1381 - Design a Stack With Increment Operation
+// 1381. Design a Stack With Increment Operation
 
 class CustomStack {
     constructor(maxSize) {

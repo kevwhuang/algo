@@ -1,4 +1,4 @@
-// 2139 - Minimum Moves to Reach Target Score
+// 2139. Minimum Moves to Reach Target Score
 
 function minMoves(target, maxDoubles) {
     let moves = 0;

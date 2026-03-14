@@ -1,4 +1,4 @@
--- 620 - Not Boring Movies
+-- 620. Not Boring Movies
 
 SELECT
     *

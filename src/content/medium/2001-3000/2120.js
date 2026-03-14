@@ -1,4 +1,4 @@
-// 2120 - Execution of All Suffix Instructions Staying in a Grid
+// 2120. Execution of All Suffix Instructions Staying in a Grid
 
 function executeInstructions(n, startPos, s) {
     const m = s.length, res = new Uint16Array(m);

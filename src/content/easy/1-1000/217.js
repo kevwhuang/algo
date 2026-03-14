@@ -1,4 +1,4 @@
-// 217 - Contains Duplicate
+// 217. Contains Duplicate
 
 function containsDuplicate(nums) {
     const set = new Set();

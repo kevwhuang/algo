@@ -1,4 +1,4 @@
-// 339 - Nested List Weight Sum
+// 339. Nested List Weight Sum
 
 function depthSum(nestedList) {
     function dfs(list, depth) {

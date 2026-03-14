@@ -1,4 +1,4 @@
-// 1730 - Shortest Path to Get Food
+// 1730. Shortest Path to Get Food
 
 function getFood(grid) {
     const validate = (r, c) => r >= 0 && r < m && c >= 0 && c < n;

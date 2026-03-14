@@ -1,4 +1,4 @@
-// 3345 - Smallest Divisible Digit Product I
+// 3345. Smallest Divisible Digit Product I
 
 function smallestNumber(n, t) {
     while (true) {

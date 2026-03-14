@@ -1,4 +1,4 @@
--- 2989 - Class Performance
+-- 2989. Class Performance
 
 WITH CTE AS (
     SELECT

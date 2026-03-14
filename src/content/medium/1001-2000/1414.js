@@ -1,4 +1,4 @@
-// 1414 - Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+// 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 
 function findMinFibonacciNumbers(k) {
     const fib = [1, 1];

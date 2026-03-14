@@ -1,4 +1,4 @@
-// 2662 - Minimum Cost of a Path With Special Roads
+// 2662. Minimum Cost of a Path With Special Roads
 
 function minimumCost(start, target, specialRoads) {
     const dist = (x1, y1, x2, y2) => Math.abs(x2 - x1) + Math.abs(y2 - y1);

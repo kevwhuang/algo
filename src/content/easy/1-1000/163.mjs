@@ -1,4 +1,4 @@
-// 163 - Missing Ranges
+// 163. Missing Ranges
 
 function findMissingRanges(nums, lower, upper) {
     if (nums.length === 0) return [[lower, upper]];

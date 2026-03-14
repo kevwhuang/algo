@@ -1,4 +1,4 @@
-// 694 - Number of Distinct Islands
+// 694. Number of Distinct Islands
 
 function numDistinctIslands(grid) {
     function dfs(r, c, token) {

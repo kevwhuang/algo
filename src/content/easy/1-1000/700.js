@@ -1,4 +1,4 @@
-// 700 - Search in a Binary Search Tree
+// 700. Search in a Binary Search Tree
 
 function searchBST(root, val) {
     while (root) {

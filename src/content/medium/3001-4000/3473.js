@@ -1,4 +1,4 @@
-// 3473 - Sum of K Subarrays With Length at Least M
+// 3473. Sum of K Subarrays With Length at Least M
 
 function maxSum(nums, k, m) {
     const ps = nums, n = ps.length;

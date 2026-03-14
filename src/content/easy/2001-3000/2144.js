@@ -1,4 +1,4 @@
-// 2144 - Minimum Cost of Buying Candies With Discount
+// 2144. Minimum Cost of Buying Candies With Discount
 
 function minimumCost(cost) {
     cost.sort((a, b) => b - a);

@@ -1,4 +1,4 @@
-// 1912 - Design Movie Rental System
+// 1912. Design Movie Rental System
 
 class MovieRentingSystem {
     constructor(n, entries) {

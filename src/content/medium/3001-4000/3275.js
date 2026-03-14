@@ -1,4 +1,4 @@
-// 3275 - Kth Nearest Obstacle Queries
+// 3275. Kth Nearest Obstacle Queries
 
 function resultsArray(queries, k) {
     k--;

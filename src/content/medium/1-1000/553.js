@@ -1,4 +1,4 @@
-// 553 - Optimal Division
+// 553. Optimal Division
 
 function optimalDivision(nums) {
     if (nums.length === 1) return nums[0].toString();

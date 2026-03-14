@@ -1,3 +1,3 @@
-// 3008 - Find Beautiful Indices in the Given Array II
+// 3008. Find Beautiful Indices in the Given Array II
 
 

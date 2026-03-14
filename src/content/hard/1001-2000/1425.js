@@ -1,3 +1,3 @@
-// 1425 - Constrained Subsequence Sum
+// 1425. Constrained Subsequence Sum
 
 

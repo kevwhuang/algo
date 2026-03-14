@@ -1,4 +1,4 @@
--- 1565 - Unique Orders and Customers Per Month
+-- 1565. Unique Orders and Customers Per Month
 
 SELECT
     LEFT(order_date, 7) AS month,

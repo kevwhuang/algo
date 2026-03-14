@@ -1,4 +1,4 @@
-// 2008 - Maximum Earnings From Taxi
+// 2008. Maximum Earnings From Taxi
 
 function maxTaxiEarnings(n, rides) {
     n = rides.length;

@@ -1,4 +1,4 @@
-// 396 - Rotate Function
+// 396. Rotate Function
 
 function maxRotateFunction(nums) {
     let acc = 0, sum = 0;

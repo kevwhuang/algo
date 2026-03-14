@@ -1,4 +1,4 @@
-// 1488 - Avoid Flood in the City
+// 1488. Avoid Flood in the City
 
 function avoidFlood(rains) {
     const arr = [], map = new Map();

@@ -1,4 +1,4 @@
-// 781 - Rabbits in Forest
+// 781. Rabbits in Forest
 
 function numRabbits(answers) {
     const obj = {};

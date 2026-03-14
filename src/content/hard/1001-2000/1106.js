@@ -1,4 +1,4 @@
-// 1106 - Parsing a Boolean Expression
+// 1106. Parsing a Boolean Expression
 
 function parseBoolExpr(expression) {
     const fn1 = (...args) => args.reduce((s, e) => s & e);

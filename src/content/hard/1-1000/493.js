@@ -1,3 +1,3 @@
-// 493 - Reverse Pairs
+// 493. Reverse Pairs
 
 

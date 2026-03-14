@@ -1,4 +1,4 @@
-// 3558 - Number of Ways to Assign Edge Weights I
+// 3558. Number of Ways to Assign Edge Weights I
 
 function assignEdgeWeights(edges) {
     function dfs(node, prev, acc) {

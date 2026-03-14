@@ -1,4 +1,4 @@
-// 3190 - Find Minimum Operations to Make All Elements Divisible by Three
+// 3190. Find Minimum Operations to Make All Elements Divisible by Three
 
 function minimumOperations(nums) {
     let res = 0;

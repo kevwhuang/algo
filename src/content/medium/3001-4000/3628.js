@@ -1,4 +1,4 @@
-// 3628 - Maximum Number of Subsequences After One Inserting
+// 3628. Maximum Number of Subsequences After One Inserting
 
 function numOfSubsequences(s) {
     let acc1 = 0, acc2 = 0, acc3 = 0, acc4 = 0, acc5 = 0, acc6 = 0, max = 0;

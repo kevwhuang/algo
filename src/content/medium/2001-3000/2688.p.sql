@@ -1,4 +1,4 @@
--- 2688 - Find Active Users
+-- 2688. Find Active Users
 
 WITH CTE AS (
     SELECT

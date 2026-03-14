@@ -1,4 +1,4 @@
-// 2432 - The Employee That Worked on the Longest Task
+// 2432. The Employee That Worked on the Longest Task
 
 function hardestWorker(n, logs) {
     let res = logs[0][0], max = logs[0][1];

@@ -1,4 +1,4 @@
-// 621 - Task Scheduler
+// 621. Task Scheduler
 
 function leastInterval(tasks, n) {
     const B = new Uint16Array(26);

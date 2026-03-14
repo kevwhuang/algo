@@ -1,4 +1,4 @@
-// 1240 - Tiling a Rectangle With the Fewest Squares
+// 1240. Tiling a Rectangle With the Fewest Squares
 
 function tilingRectangle(n, m) {
     function dfs(m, n) {

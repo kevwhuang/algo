@@ -1,4 +1,4 @@
-// 1135 - Connecting Cities With Minimum Cost
+// 1135. Connecting Cities With Minimum Cost
 
 function minimumCost(n, connections) {
     const find = v => v === uf[v] ? v : uf[v] = find(uf[v]);

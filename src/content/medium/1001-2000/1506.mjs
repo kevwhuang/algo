@@ -1,4 +1,4 @@
-// 1506 - Find Root of N-Ary Tree
+// 1506. Find Root of N-Ary Tree
 
 function findRoot(tree) {
     let target = 0;

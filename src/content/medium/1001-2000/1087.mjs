@@ -1,4 +1,4 @@
-// 1087 - Brace Expansion
+// 1087. Brace Expansion
 
 function expand(s) {
     let res = [], i = 0;

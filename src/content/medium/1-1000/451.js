@@ -1,4 +1,4 @@
-// 451 - Sort Characters by Frequency
+// 451. Sort Characters by Frequency
 
 function frequencySort(s) {
     let freqs = {};

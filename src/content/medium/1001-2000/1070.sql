@@ -1,4 +1,4 @@
--- 1070 - Product Sales Analysis III
+-- 1070. Product Sales Analysis III
 
 SELECT
     product_id,

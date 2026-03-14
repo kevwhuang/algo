@@ -1,4 +1,4 @@
--- 3055 - Top Percentile Fraud
+-- 3055. Top Percentile Fraud
 
 SELECT
     *

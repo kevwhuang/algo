@@ -1,4 +1,4 @@
-// 3001 - Minimum Moves to Capture the Queen
+// 3001. Minimum Moves to Capture the Queen
 
 function minMovesToCaptureTheQueen(a, b, c, d, e, f) {
     function check(cur) {

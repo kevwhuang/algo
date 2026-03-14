@@ -1,4 +1,4 @@
-// 2861 - Maximum Number of Alloys
+// 2861. Maximum Number of Alloys
 
 function maxNumberOfAlloys(n, k, budget, composition, stock, cost) {
     let max = 0;

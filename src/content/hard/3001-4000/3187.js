@@ -1,3 +1,3 @@
-// 3187 - Peaks in Array
+// 3187. Peaks in Array
 
 

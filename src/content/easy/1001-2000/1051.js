@@ -1,4 +1,4 @@
-// 1051 - Height Checker
+// 1051. Height Checker
 
 function heightChecker(heights) {
     let res = 0;

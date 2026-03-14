@@ -1,4 +1,4 @@
-// 866 - Prime Palindrome
+// 866. Prime Palindrome
 
 function primePalindrome(n) {
     function nextPalindrome(num, isOdd) {

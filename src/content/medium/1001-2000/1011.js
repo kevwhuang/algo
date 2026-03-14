@@ -1,4 +1,4 @@
-// 1011 - Capacity to Ship Packages Within D Days
+// 1011. Capacity to Ship Packages Within D Days
 
 function shipWithinDays(weights, days) {
     let l = 0, r = 0;

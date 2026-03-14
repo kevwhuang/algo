@@ -1,4 +1,4 @@
--- 584 - Find Customer Referee
+-- 584. Find Customer Referee
 
 SELECT
     name

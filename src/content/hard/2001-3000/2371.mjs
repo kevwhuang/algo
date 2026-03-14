@@ -1,3 +1,3 @@
-// 2371 - Minimize Maximum Value in a Grid
+// 2371. Minimize Maximum Value in a Grid
 
 

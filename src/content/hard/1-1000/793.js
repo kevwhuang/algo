@@ -1,3 +1,3 @@
-// 793 - Preimage Size of Factorial Zeros Function
+// 793. Preimage Size of Factorial Zeros Function
 
 

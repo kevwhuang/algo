@@ -1,4 +1,4 @@
-// 3349 - Adjacent Increasing Subarrays Detection I
+// 3349. Adjacent Increasing Subarrays Detection I
 
 function hasIncreasingSubarrays(nums, k) {
     let max = 1, acc = 1, prev = 0;

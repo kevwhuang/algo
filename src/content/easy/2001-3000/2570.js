@@ -1,4 +1,4 @@
-// 2570 - Merge Two 2D Arrays by Summing Values
+// 2570. Merge Two 2D Arrays by Summing Values
 
 function mergeArrays(nums1, nums2) {
     const res = [], m = nums1.length, n = nums2.length;

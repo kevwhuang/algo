@@ -1,4 +1,4 @@
-// 1296 - Divide Array in Sets of K Consecutive Numbers
+// 1296. Divide Array in Sets of K Consecutive Numbers
 
 function isPossibleDivide(nums, k) {
     if (nums.length % k) return false;

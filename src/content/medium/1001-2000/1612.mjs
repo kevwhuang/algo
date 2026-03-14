@@ -1,4 +1,4 @@
-// 1612 - Check If Two Expression Trees Are Equivalent
+// 1612. Check If Two Expression Trees Are Equivalent
 
 function checkEquivalence(root1, root2) {
     function dfs(node, freqs) {

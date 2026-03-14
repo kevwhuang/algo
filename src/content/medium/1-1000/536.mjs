@@ -1,4 +1,4 @@
-// 536 - Construct Binary Tree From String
+// 536. Construct Binary Tree From String
 
 function str2tree(s) {
     function construct() {

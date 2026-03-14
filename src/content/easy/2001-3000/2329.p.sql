@@ -1,4 +1,4 @@
--- 2329 - Product Sales Analysis V
+-- 2329. Product Sales Analysis V
 
 SELECT
     user_id,

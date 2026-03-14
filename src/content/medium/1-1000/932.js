@@ -1,4 +1,4 @@
-// 932 - Beautiful Array
+// 932. Beautiful Array
 
 function beautifulArray(n) {
     function insert(d) {

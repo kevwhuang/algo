@@ -1,4 +1,4 @@
-// 2016 - Maximum Difference Between Increasing Elements
+// 2016. Maximum Difference Between Increasing Elements
 
 function maximumDifference(nums) {
     let diff = -1, min = Infinity;

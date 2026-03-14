@@ -1,4 +1,4 @@
-// 2089 - Find Target Indices After Sorting Array
+// 2089. Find Target Indices After Sorting Array
 
 function targetIndices(nums, target) {
     nums.sort((a, b) => a - b);

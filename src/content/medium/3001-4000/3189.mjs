@@ -1,4 +1,4 @@
-// 3189 - Minimum Moves to Get a Peaceful Board
+// 3189. Minimum Moves to Get a Peaceful Board
 
 function minMoves(rooks) {
     let moves = 0;

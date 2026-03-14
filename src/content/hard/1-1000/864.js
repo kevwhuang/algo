@@ -1,4 +1,4 @@
-// 864 - Shortest Path to Get All Keys
+// 864. Shortest Path to Get All Keys
 
 function shortestPathAllKeys(grid) {
     let Q = [], tgt = 0;

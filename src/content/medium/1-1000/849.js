@@ -1,4 +1,4 @@
-// 849 - Maximize Distance to Closest Person
+// 849. Maximize Distance to Closest Person
 
 function maxDistToClosest(seats) {
     let max = 1, first = null, prev = null;

@@ -1,4 +1,4 @@
-// 1936 - Add Minimum Number of Rungs
+// 1936. Add Minimum Number of Rungs
 
 function addRungs(rungs, dist) {
     let count = dist < rungs[0] ? (rungs[0] - 1) / dist >> 0 : 0;

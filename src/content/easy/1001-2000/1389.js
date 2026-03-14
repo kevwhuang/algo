@@ -1,4 +1,4 @@
-// 1389 - Create Target Array in the Given Order
+// 1389. Create Target Array in the Given Order
 
 function createTargetArray(nums, index) {
     const target = [];

@@ -1,4 +1,4 @@
-// 1712 - Ways to Split Array Into Three Subarrays
+// 1712. Ways to Split Array Into Three Subarrays
 
 function waysToSplit(nums) {
     const ps = nums;

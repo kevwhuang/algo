@@ -1,4 +1,4 @@
-// 1101 - The Earliest Moment When Everyone Become Friends
+// 1101. The Earliest Moment When Everyone Become Friends
 
 function earliestAcq(logs, n) {
     function union(v1, v2) {

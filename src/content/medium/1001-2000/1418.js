@@ -1,4 +1,4 @@
-// 1418 - Display Table of Food Orders in a Restaurant
+// 1418. Display Table of Food Orders in a Restaurant
 
 function displayTable(orders) {
     let tables = new Set(), foods = new Set();

@@ -1,4 +1,4 @@
-// 2462 - Total Cost to Hire K Workers
+// 2462. Total Cost to Hire K Workers
 
 function totalCost(costs, k, candidates) {
     const comparator = (a, b) => a - b;

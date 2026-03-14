@@ -1,4 +1,4 @@
-// 2215 - Find the Difference of Two Arrays
+// 2215. Find the Difference of Two Arrays
 
 function findDifference(nums1, nums2) {
     nums1 = new Set(nums1);

@@ -1,4 +1,4 @@
-// 870 - Advantage Shuffle
+// 870. Advantage Shuffle
 
 function advantageCount(nums1, nums2) {
     nums1.sort((a, b) => a - b);

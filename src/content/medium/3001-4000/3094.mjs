@@ -1,4 +1,4 @@
-// 3094 - Guess the Number Using Bitwise Questions II
+// 3094. Guess the Number Using Bitwise Questions II
 
 function findNumber() {
     let res = 0;

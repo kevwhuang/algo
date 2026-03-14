@@ -1,4 +1,4 @@
-// 3740 - Minimum Distance Between Three Equal Elements I
+// 3740. Minimum Distance Between Three Equal Elements I
 
 function minimumDistance(nums) {
     if (!this.arr1) arr1 = new Uint32Array(100001);

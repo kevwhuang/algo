@@ -1,4 +1,4 @@
-// 359 - Logger Rate Limiter
+// 359. Logger Rate Limiter
 
 class Logger {
     constructor() {

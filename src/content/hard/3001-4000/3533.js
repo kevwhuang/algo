@@ -1,3 +1,3 @@
-// 3533 - Concatenated Divisibility
+// 3533. Concatenated Divisibility
 
 

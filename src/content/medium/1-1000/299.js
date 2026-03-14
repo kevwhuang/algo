@@ -1,4 +1,4 @@
-// 299 - Bulls and Cows
+// 299. Bulls and Cows
 
 function getHint(secret, guess) {
     const arr1 = new Array(10).fill(0);

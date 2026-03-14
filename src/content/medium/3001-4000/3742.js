@@ -1,4 +1,4 @@
-// 3742 - Maximum Path Score in a Grid
+// 3742. Maximum Path Score in a Grid
 
 function maxPathScore(grid, k) {
     const m = grid.length, n = grid[0].length;

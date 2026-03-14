@@ -1,4 +1,4 @@
-// 10030 - Files Tree View
+// 10030. Files Tree View
 
 import React from 'react';
 

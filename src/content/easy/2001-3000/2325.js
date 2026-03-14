@@ -1,4 +1,4 @@
-// 2325 - Decode the Message
+// 2325. Decode the Message
 
 function decodeMessage(key, message) {
     const map = new Map([[' ', ' ']]);

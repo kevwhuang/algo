@@ -1,4 +1,4 @@
-// 3038 - Maximum Number of Operations With the Same Score I
+// 3038. Maximum Number of Operations With the Same Score I
 
 function maxOperations(nums) {
     let i = 2;

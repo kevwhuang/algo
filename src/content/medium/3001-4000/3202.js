@@ -1,4 +1,4 @@
-// 3202 - Find the Maximum Length of Valid Subsequence II
+// 3202. Find the Maximum Length of Valid Subsequence II
 
 function maximumLength(nums, k) {
     function check(arr1, arr2) {

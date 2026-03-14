@@ -1,4 +1,4 @@
-// 2206 - Divide Array Into Equal Pairs
+// 2206. Divide Array Into Equal Pairs
 
 function divideArray(nums) {
     const set = new Set();

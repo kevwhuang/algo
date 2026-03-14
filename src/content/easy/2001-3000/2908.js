@@ -1,4 +1,4 @@
-// 2908 - Minimum Sum of Mountain Triplets I
+// 2908. Minimum Sum of Mountain Triplets I
 
 function minimumSum(nums) {
     let min = Infinity;

@@ -1,4 +1,4 @@
-// 2656 - Maximum Sum With Exactly K Elements
+// 2656. Maximum Sum With Exactly K Elements
 
 function maximizeSum(nums, k) {
     const max = Math.max(...nums);
