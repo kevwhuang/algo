@@ -21,8 +21,8 @@ function formatDate(dateStr: string) {
 }
 
 const { city, dateTime, endTime, title, url, venue } = Astro.props;
-const formatted = formatDate(dateTime);
 const endFormatted = formatDate(endTime);
+const formatted = formatDate(dateTime);
 ---
 
 <a
@@ -38,7 +38,7 @@ const endFormatted = formatDate(endTime);
             <span class="text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.875rem)] uppercase tracking-[0.2em] text-zinc-200/80">
                 {formatted.weekday}
             </span>
-            <span class="meetup-events__day font-bold text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)] leading-tight">
+            <span class="meetup-events__day font-bold text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)] leading-tight" data-day={String(formatted.day)}>
                 {formatted.day}
             </span>
             <span class="text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] uppercase tracking-[0.15em] text-zinc-200/90">
@@ -46,7 +46,7 @@ const endFormatted = formatDate(endTime);
             </span>
         </time>
         <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1rem+5vw),3rem)] text-center md:text-left md:space-y-[clamp(0.75rem,calc(0.42rem+1.67vw),1.5rem)]">
-            <h3 class="meetup-events__name text-center font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-zinc-200 md:text-left">
+            <h3 class="meetup-events__name font-semibold text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-center leading-snug text-zinc-200 md:text-left">
                 {title}
             </h3>
             <div class="text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-200/80">
