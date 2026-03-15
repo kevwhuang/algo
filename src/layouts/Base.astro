@@ -36,7 +36,6 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
         <meta content={description} name="twitter:description" />
         <meta content={`${Astro.site}og.png`} name="twitter:image" />
         <script
-            type="application/ld+json"
             set:html={JSON.stringify({
                 '@context': 'https://schema.org',
                 '@type': 'WebSite',
@@ -47,10 +46,11 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
                     'name': 'Kevin Huang',
                 },
             })}
+            type="application/ld+json"
         />
         <ClientRouter />
     </head>
-    <body class="flex min-h-screen flex-col bg-zinc-950 font-sans text-zinc-200">
+    <body class="flex flex-col min-h-screen bg-zinc-950 font-sans text-white">
         <Navbar />
         <main class="flex flex-1 flex-col">
             <slot />
@@ -79,15 +79,15 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
         outline-offset: 2px;
     }
 
-    [data-scroll] {
-        opacity: 0;
-    }
-
     a:focus-visible,
     button:focus-visible {
         border-radius: 2px;
         outline: 2px solid rgba(var(--color-indigo), 0.8);
         outline-offset: 2px;
+    }
+
+    [data-scroll] {
+        opacity: 0;
     }
 
     @media (prefers-reduced-motion: reduce) {

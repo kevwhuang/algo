@@ -1,9 +1,10 @@
-import a11y from 'eslint-plugin-jsx-a11y';
-import astro from 'eslint-plugin-astro';
-import content from './eslint.content.ts';
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
+import astro from 'eslint-plugin-astro';
+import a11y from 'eslint-plugin-jsx-a11y';
 import ts from 'typescript-eslint';
+
+import content from './eslint.content.ts';
 
 const ignores = {
     ignores: ['.astro/', 'dist/', '.netlify/'],

@@ -3,10 +3,10 @@
 ---
 
 <nav class="navbar fixed top-0 z-50 w-full border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-md">
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)]">
+    <div class="flex items-center justify-between max-w-7xl mx-auto px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)]">
         <a
-            aria-label="Home"
             class="navbar__logo transition-opacity duration-300"
+            aria-label="Home"
             href="/"
         >
             <svg class="h-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] w-[clamp(2rem,calc(1.5rem+2.5vw),3rem)]" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -20,18 +20,18 @@
             </svg>
         </a>
 
-        <div class="navbar__search relative mx-[clamp(0.5rem,calc(0.17rem+1.67vw),1.5rem)] max-w-xl flex-1">
+        <div class="navbar__search relative flex-1 mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] max-w-xl">
             <input
+                id="search-input"
+                class="w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-300 placeholder-zinc-600 bg-zinc-900/50 outline-none transition-colors duration-300"
                 aria-label="Search problems"
                 autocomplete="off"
-                class="w-full rounded-lg border border-zinc-800 bg-zinc-900/50 px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-300 placeholder-zinc-600 outline-none transition-colors duration-300"
-                id="search-input"
                 placeholder="Search..."
                 type="text"
             />
             <svg
+                class="absolute left-[clamp(0.625rem,calc(0.46rem+0.83vw),1rem)] top-1/2 h-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] w-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] text-zinc-600 -translate-y-1/2"
                 aria-hidden="true"
-                class="absolute left-[clamp(0.625rem,calc(0.46rem+0.83vw),1rem)] top-1/2 h-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] w-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] -translate-y-1/2 text-zinc-600"
                 fill="none"
                 stroke="currentColor"
                 stroke-width="2"
@@ -39,36 +39,36 @@
             >
                 <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <kbd class="pointer-events-none absolute right-3.5 top-1/2 hidden -translate-y-1/2 select-none rounded border border-zinc-700 px-2 py-1 font-mono text-xs text-zinc-600 sm:inline-block">/</kbd>
+            <kbd class="hidden absolute right-3.5 top-1/2 px-2 py-1 rounded border border-zinc-700 font-mono text-xs text-zinc-600 -translate-y-1/2 pointer-events-none select-none sm:inline-block">/</kbd>
             <div
-                class="navbar__results pointer-events-none absolute left-0 right-0 top-full mt-4 overflow-y-auto rounded-lg border border-zinc-800 bg-zinc-900 opacity-0 backdrop-blur-md transition-opacity duration-300"
                 id="search-results"
+                class="navbar__results absolute left-0 right-0 top-full mt-4 rounded-lg border border-zinc-800 bg-zinc-900 overflow-y-auto opacity-0 backdrop-blur-md pointer-events-none transition-opacity duration-300"
             >
             </div>
         </div>
 
         <div class="flex items-center gap-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <a
-                aria-label="Meetup (opens in new tab)"
                 class="transition-opacity duration-300 hover:opacity-80"
+                aria-label="Meetup (opens in new tab)"
                 href="https://meetup.com/algoatx"
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <svg aria-hidden="true" class="h-[clamp(1.5rem,calc(1rem+2.5vw),2.75rem)] w-[clamp(1.5rem,calc(1rem+2.5vw),2.75rem)]" fill="none" stroke="#ED1C40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                <svg class="h-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] w-[clamp(2rem,calc(1.5rem+2.5vw),3rem)]" aria-hidden="true" fill="none" stroke="#ED1C40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M5.455 10.82c.935 -2.163 3.045 -3.82 5.545 -3.82c2.104 0 2.844 1.915 2 4l-2 6" />
                     <path d="M6.981 7l-3.981 9.914" />
                     <path d="M13 11c.937 -2.16 3.071 -3.802 5.42 -3.972c2.104 0 3.128 1.706 2.284 3.792l-2.454 6.094c-.853 1.676 .75 2.586 2.75 2.086" />
                 </svg>
             </a>
             <a
-                aria-label="LeetCode (opens in new tab)"
                 class="transition-opacity duration-300 hover:opacity-80"
+                aria-label="LeetCode (opens in new tab)"
                 href="https://leetcode.com/u/aephonics"
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <svg aria-hidden="true" class="h-[clamp(1.5rem,calc(1rem+2.5vw),2.75rem)] w-[clamp(1.5rem,calc(1rem+2.5vw),2.75rem)]" fill="none" stroke="#FFA116" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                <svg class="h-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] w-[clamp(2rem,calc(1.5rem+2.5vw),3rem)]" aria-hidden="true" fill="none" stroke="#FFA116" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M12 13h7.5" />
                     <path d="M9.424 7.268l4.999 -4.999" />
                     <path d="M16.633 16.644l-2.402 2.415a3.189 3.189 0 0 1 -4.524 0l-3.77 -3.787a3.223 3.223 0 0 1 0 -4.544l3.77 -3.787a3.189 3.189 0 0 1 4.524 0l2.302 2.313" />
@@ -81,13 +81,20 @@
 <div class="h-[clamp(3rem,calc(1.33rem+8.33vw),8rem)]"></div>
 
 <style is:global>
-    .navbar__logo:hover {
-        opacity: 0.8;
+    .navbar__badge {
+        font-size: clamp(0.5rem, calc(0.42rem + 0.42vw), 0.625rem);
     }
 
-    .navbar__search input:hover {
-        border-color: rgb(63 63 70);
-        background-color: rgba(24, 24, 27, 0.8);
+    .navbar__result-text {
+        font-size: clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem);
+    }
+
+    .navbar__results {
+        max-height: calc((clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem) * 1.5 + 1.25rem) * 8);
+    }
+
+    .navbar__logo:hover {
+        opacity: 0.8;
     }
 
     .navbar__search input:focus {
@@ -95,16 +102,9 @@
         border-color: rgba(var(--color-indigo), 0.3);
     }
 
-    .navbar__results {
-        max-height: calc((clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem) * 1.5 + 1.25rem) * 8);
-    }
-
-    .navbar__result-text {
-        font-size: clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem);
-    }
-
-    .navbar__badge {
-        font-size: clamp(0.5rem, calc(0.42rem + 0.42vw), 0.625rem);
+    .navbar__search input:hover {
+        background-color: rgba(24, 24, 27, 0.8);
+        border-color: rgb(63 63 70);
     }
 
     .navbar__results::-webkit-scrollbar {
@@ -168,6 +168,7 @@ function renderResults(el: HTMLElement, matches: SearchEntry[]) {
             `<a href="/${m.i}" class="navbar__result navbar__result-text flex items-center justify-between gap-3 px-4 py-2.5 text-zinc-300 transition-colors duration-100 hover:bg-zinc-800/50"><span class="truncate">${escapeHtml(m.t)}</span>${renderBadge(m.d)}</a>`,
         ).join('');
     }
+
     el.classList.add('opacity-100', 'pointer-events-auto');
     el.classList.remove('opacity-0', 'pointer-events-none');
 }
@@ -195,10 +196,11 @@ function initSearch() {
             resultsEl.classList.add('opacity-0', 'pointer-events-none');
             return;
         }
+
         const index = await loadIndex();
-        const q = query.toLowerCase();
+        const normalizedQuery = query.toLowerCase();
         const matches = index
-            .filter(entry => entry.t.toLowerCase().includes(q) || entry.i === q)
+            .filter(entry => entry.t.toLowerCase().includes(normalizedQuery) || entry.i === normalizedQuery)
             .sort(sortResults);
         renderResults(resultsEl, matches);
     }

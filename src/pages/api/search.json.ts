@@ -1,22 +1,23 @@
-import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
+import type { APIRoute } from 'astro';
+
 export const GET: APIRoute = async () => {
-    const [problems, dataStructures] = await Promise.all([
-        getCollection('problems'),
+    const [dataStructures, problems] = await Promise.all([
         getCollection('dataStructures'),
+        getCollection('problems'),
     ]);
 
     const index = [
-        ...problems.map(p => ({
-            d: p.data.difficulty[0],
-            i: p.id,
-            t: p.data.title,
-        })),
         ...dataStructures.map(ds => ({
             d: 'ds',
             i: ds.id,
             t: ds.data.title,
+        })),
+        ...problems.map(p => ({
+            d: p.data.difficulty[0],
+            i: p.id,
+            t: p.data.title,
         })),
     ];
 
