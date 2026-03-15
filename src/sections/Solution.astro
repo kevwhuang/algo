@@ -60,7 +60,7 @@ const difficultyColor = {
 
 <style>
     .solution__highlight {
-        background: rgb(var(--color-code-bg));
+        background: rgb(var(--rgb-code-bg));
     }
 
     .solution__copy:hover {
@@ -85,12 +85,8 @@ const difficultyColor = {
         counter-increment: line;
     }
 
-    .solution__highlight :global(::selection) {
-        background: rgba(var(--color-indigo), 0.5);
-    }
-
     .solution__highlight :global(.line::before) {
-        color: rgb(var(--color-zinc-600));
+        color: rgb(var(--rgb-zinc-600));
         content: counter(line);
         display: inline-block;
         margin-right: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
@@ -98,14 +94,18 @@ const difficultyColor = {
         user-select: none;
         width: 3ch;
     }
+
+    .solution__highlight :global(::selection) {
+        background: rgba(var(--color-indigo), 0.5);
+    }
 </style>
 
 <script>
     const COPY_RESET_DELAY = 2000;
     const FADE_DURATION = 200;
 
-    let resetTimer = 0;
     let fadeTimer = 0;
+    let resetTimer = 0;
 
     function fadeText(btn: HTMLButtonElement, text: string, label: string) {
         clearTimeout(fadeTimer);
@@ -148,8 +148,6 @@ const difficultyColor = {
         }
     }
 
-    initCopy();
-    removePrefocus();
     document.addEventListener('astro:page-load', () => {
         initCopy();
         removePrefocus();

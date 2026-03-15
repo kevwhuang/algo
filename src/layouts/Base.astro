@@ -63,15 +63,15 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     @import 'tailwindcss';
 
     :root {
-        --color-code-bg: 14, 14, 18;
         --color-easy: 52, 211, 153;
         --color-hard: 248, 113, 113;
         --color-indigo: 99, 102, 241;
         --color-medium: 251, 191, 36;
-        --color-white: 255, 255, 255;
-        --color-zinc-600: 63, 63, 70;
-        --color-zinc-900: 24, 24, 27;
         --font-sans: 'Geist', system-ui, sans-serif;
+        --rgb-code-bg: 14, 14, 18;
+        --rgb-white: 255, 255, 255;
+        --rgb-zinc-600: 63, 63, 70;
+        --rgb-zinc-900: 24, 24, 27;
     }
 
     :focus {
@@ -103,6 +103,5 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 <script>
     import { initScrollAnimations } from '@lib/scroll';
 
-    initScrollAnimations();
     document.addEventListener('astro:page-load', initScrollAnimations);
 </script>

@@ -1,3 +1,5 @@
+import { getExt, getRange } from './utils';
+
 interface Problem {
     database: boolean;
     difficulty: string;
@@ -27,23 +29,11 @@ const QUERY = `
         }
     }
 `;
-const RANGE_SIZE = 1000;
 
 function getContent(problem: Problem): string {
     const ext = getExt(problem);
     const comment = ext.includes('.sql') ? '--' : '//';
     return `${comment} ${problem.id}. ${problem.title}\n\n\n`;
-}
-
-function getExt(problem: Problem): string {
-    if (problem.database) return problem.paid ? '.p.sql' : '.sql';
-    return problem.paid ? '.mjs' : '.js';
-}
-
-function getRange(id: number): string {
-    const start = Math.floor((id - 1) / RANGE_SIZE) * RANGE_SIZE + 1;
-    const end = start + RANGE_SIZE - 1;
-    return `${start}-${end}`;
 }
 
 const problems: Problem[] = [];
