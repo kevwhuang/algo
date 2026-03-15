@@ -31,7 +31,7 @@
             />
             <svg
                 aria-hidden="true"
-                class="absolute left-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-600"
+                class="absolute left-[clamp(0.625rem,calc(0.46rem+0.83vw),1rem)] top-1/2 h-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] w-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] -translate-y-1/2 text-zinc-600"
                 fill="none"
                 stroke="currentColor"
                 stroke-width="2"
@@ -41,7 +41,7 @@
             </svg>
             <kbd class="pointer-events-none absolute right-3.5 top-1/2 hidden -translate-y-1/2 select-none rounded border border-zinc-700 px-2 py-1 font-mono text-xs text-zinc-600 sm:inline-block">/</kbd>
             <div
-                class="navbar__results absolute left-0 right-0 top-full mt-2 hidden max-h-80 overflow-y-auto rounded-lg border border-zinc-800 bg-zinc-900/95 backdrop-blur-md"
+                class="navbar__results pointer-events-none absolute left-0 right-0 top-full mt-4 overflow-y-auto rounded-lg border border-zinc-800 bg-zinc-900 opacity-0 backdrop-blur-md transition-opacity duration-300"
                 id="search-results"
             >
             </div>
@@ -78,9 +78,9 @@
     </div>
 </nav>
 
-<div class="h-[clamp(3.5rem,calc(2.5rem+5vw),5rem)]"></div>
+<div class="h-[clamp(3rem,calc(1.33rem+8.33vw),8rem)]"></div>
 
-<style>
+<style is:global>
     .navbar__logo:hover {
         opacity: 0.8;
     }
@@ -91,8 +91,20 @@
     }
 
     .navbar__search input:focus {
-        border-color: rgba(var(--color-indigo), 0.5);
         background-color: rgba(24, 24, 27, 0.8);
+        border-color: rgba(var(--color-indigo), 0.3);
+    }
+
+    .navbar__results {
+        max-height: calc((clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem) * 1.5 + 1.25rem) * 8);
+    }
+
+    .navbar__result-text {
+        font-size: clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem);
+    }
+
+    .navbar__badge {
+        font-size: clamp(0.5rem, calc(0.42rem + 0.42vw), 0.625rem);
     }
 
     .navbar__results::-webkit-scrollbar {
@@ -145,18 +157,19 @@ async function loadIndex(): Promise<SearchEntry[]> {
 
 function renderBadge(type: string): string {
     const badge = BADGE_STYLES[type] ?? BADGE_STYLES.h;
-    return `<span class="rounded-full px-2 py-0.5 text-[0.625rem] uppercase tracking-wider ${badge.classes}">${badge.label}</span>`;
+    return `<span class="navbar__badge hidden rounded-full px-2 py-0.5 uppercase tracking-wider sm:inline-block ${badge.classes}">${badge.label}</span>`;
 }
 
 function renderResults(el: HTMLElement, matches: SearchEntry[]) {
     if (matches.length === 0) {
-        el.innerHTML = '<div class="px-4 py-3 font-mono text-sm text-zinc-600">No results</div>';
+        el.innerHTML = '<div class="navbar__result-text px-4 py-2.5 font-mono text-zinc-600">No results</div>';
     } else {
         el.innerHTML = matches.slice(0, MAX_RESULTS).map(m =>
-            `<a href="/${m.i}" class="navbar__result flex items-center justify-between gap-3 px-4 py-2.5 text-sm text-zinc-300 transition-colors duration-150 hover:bg-zinc-800/50"><span class="truncate">${escapeHtml(m.t)}</span>${renderBadge(m.d)}</a>`,
+            `<a href="/${m.i}" class="navbar__result navbar__result-text flex items-center justify-between gap-3 px-4 py-2.5 text-zinc-300 transition-colors duration-100 hover:bg-zinc-800/50"><span class="truncate">${escapeHtml(m.t)}</span>${renderBadge(m.d)}</a>`,
         ).join('');
     }
-    el.classList.remove('hidden');
+    el.classList.add('opacity-100', 'pointer-events-auto');
+    el.classList.remove('opacity-0', 'pointer-events-none');
 }
 
 function sortResults(a: SearchEntry, b: SearchEntry): number {
@@ -178,7 +191,8 @@ function initSearch() {
 
     async function search(query: string) {
         if (!query) {
-            resultsEl.classList.add('hidden');
+            resultsEl.classList.remove('opacity-100', 'pointer-events-auto');
+            resultsEl.classList.add('opacity-0', 'pointer-events-none');
             return;
         }
         const index = await loadIndex();
@@ -197,7 +211,8 @@ function initSearch() {
     document.addEventListener('click', (e) => {
         const target = e.target as Node;
         if (!input.contains(target) && !resultsEl.contains(target)) {
-            resultsEl.classList.add('hidden');
+            resultsEl.classList.remove('opacity-100', 'pointer-events-auto');
+            resultsEl.classList.add('opacity-0', 'pointer-events-none');
         }
     });
 
@@ -208,7 +223,8 @@ function initSearch() {
         }
         if (e.key === 'Escape') {
             input.value = '';
-            resultsEl.classList.add('hidden');
+            resultsEl.classList.remove('opacity-100', 'pointer-events-auto');
+            resultsEl.classList.add('opacity-0', 'pointer-events-none');
             input.blur();
         }
     });
