@@ -23,26 +23,25 @@ const difficultyColor = {
 }[difficulty ?? ''] ?? '';
 ---
 
-<section class="px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="content-heading">
+<section class="px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="solution-heading">
     <div class="max-w-6xl mx-auto">
-        <h1 id="content-heading" class="content__title mb-[clamp(1.5rem,calc(0.83rem+3.33vw),3rem)] font-bold text-[clamp(1.5rem,calc(0.83rem+3.33vw),3rem)] leading-tight text-zinc-100">
+        <h1 id="solution-heading" class="solution__title mb-[clamp(1.5rem,calc(0.83rem+3.33vw),3rem)] font-bold text-[clamp(1.5rem,calc(0.83rem+3.33vw),3rem)] leading-tight text-zinc-100">
             {title}
         </h1>
-
-        <div class="content__code group relative rounded-lg border border-zinc-800 overflow-hidden" aria-label={`${title} source code`} role="region">
+        <div class="solution__code group relative rounded-lg border border-zinc-800 overflow-hidden" aria-label={`${title} source code`} role="region">
             <div class="flex items-center justify-between px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] border-b border-zinc-800 bg-zinc-900/80">
-                <div class="flex flex-wrap gap-3">
-                    <span class="inline-block px-2.5 py-0.5 rounded-full font-mono text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.75rem)] tracking-[0.1em] text-indigo-400 bg-indigo-500/15">
+                <div class="flex flex-wrap gap-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)]">
+                    <span class="inline-block px-3 py-1 rounded-full font-mono text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] tracking-[0.1em] bg-indigo-500/15 text-indigo-400">
                         {langLabel}
                     </span>
                     {difficulty && (
-                        <span class={`inline-block px-2.5 py-0.5 rounded-full font-mono text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.75rem)] tracking-[0.1em] ${difficultyColor}`}>
+                        <span class={`inline-block px-3 py-1 rounded-full font-mono text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] tracking-[0.1em] ${difficultyColor}`}>
                             {difficulty[0].toUpperCase() + difficulty.slice(1)}
                         </span>
                     )}
                 </div>
                 <button
-                    class="content__copy px-2 py-1 rounded font-mono text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.875rem)] text-zinc-500 transition-colors duration-300 cursor-pointer"
+                    class="solution__copy hidden min-w-16 px-3 py-1 rounded font-mono text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] text-center text-zinc-500 transition-all duration-300 cursor-pointer sm:inline-block"
                     aria-label="Copy code"
                     data-code={code}
                     type="button"
@@ -50,29 +49,25 @@ const difficultyColor = {
                     Copy
                 </button>
             </div>
-            <div class="content__highlight overflow-x-auto">
+            <div class="solution__highlight overflow-x-auto" aria-hidden="true">
                 <Code code={code} lang={lang as CodeLang} theme="github-dark-default" />
             </div>
+            <pre class="sr-only"><code>{code}</code></pre>
+            <div id="copy-status" class="sr-only" aria-live="polite"></div>
         </div>
     </div>
 </section>
 
 <style>
-    .content__highlight {
-        background: rgb(14 14 18);
+    .solution__highlight {
+        background: rgb(var(--color-code-bg));
     }
 
-    .content__copy:hover {
+    .solution__copy:hover {
         color: rgba(var(--color-indigo), 0.9);
     }
 
-    .content__highlight :global(pre) {
-        background: transparent !important;
-        margin: 0;
-        padding: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
-    }
-
-    .content__highlight :global(code) {
+    .solution__highlight :global(code) {
         background: transparent !important;
         counter-reset: line;
         display: block;
@@ -80,45 +75,83 @@ const difficultyColor = {
         line-height: 1.75;
     }
 
-    .content__highlight :global(.line) {
-        counter-increment: line;
-        display: inline-block;
-        width: 100%;
+    .solution__highlight :global(pre) {
+        background: transparent !important;
+        margin: 0;
+        padding: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
     }
 
-    .content__highlight :global(.line::before) {
-        color: rgb(63 63 70);
+    .solution__highlight :global(.line) {
+        counter-increment: line;
+    }
+
+    .solution__highlight :global(::selection) {
+        background: rgba(var(--color-indigo), 0.5);
+    }
+
+    .solution__highlight :global(.line::before) {
+        color: rgb(var(--color-zinc-600));
         content: counter(line);
         display: inline-block;
         margin-right: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
         text-align: right;
         user-select: none;
-        width: 2ch;
+        width: 3ch;
     }
 </style>
 
 <script>
     const COPY_RESET_DELAY = 2000;
+    const FADE_DURATION = 200;
+
+    let resetTimer = 0;
+    let fadeTimer = 0;
+
+    function fadeText(btn: HTMLButtonElement, text: string, label: string) {
+        clearTimeout(fadeTimer);
+        btn.style.opacity = '0';
+        fadeTimer = window.setTimeout(() => {
+            btn.textContent = text;
+            btn.setAttribute('aria-label', label);
+            btn.style.opacity = '1';
+        }, FADE_DURATION);
+    }
 
     function initCopy() {
-        for (const btn of document.querySelectorAll<HTMLButtonElement>('.content__copy')) {
+        for (const btn of document.querySelectorAll<HTMLButtonElement>('.solution__copy')) {
             btn.addEventListener('click', async () => {
                 const code = btn.dataset.code ?? '';
+                const status = document.getElementById('copy-status');
+
+                clearTimeout(resetTimer);
 
                 try {
                     await navigator.clipboard.writeText(code);
-                    btn.textContent = 'Copied!';
+                    fadeText(btn, 'Copied!', 'Code copied to clipboard');
+                    if (status) status.textContent = 'Code copied to clipboard';
                 } catch {
-                    btn.textContent = 'Failed';
+                    fadeText(btn, 'Failed', 'Failed to copy code');
+                    if (status) status.textContent = 'Failed to copy code';
                 }
 
-                setTimeout(() => {
-                    btn.textContent = 'Copy';
+                resetTimer = window.setTimeout(() => {
+                    fadeText(btn, 'Copy', 'Copy code');
+                    if (status) status.textContent = '';
                 }, COPY_RESET_DELAY);
             });
         }
     }
 
+    function removePrefocus() {
+        for (const pre of document.querySelectorAll('.solution__highlight pre')) {
+            pre.removeAttribute('tabindex');
+        }
+    }
+
     initCopy();
-    document.addEventListener('astro:page-load', initCopy);
+    removePrefocus();
+    document.addEventListener('astro:page-load', () => {
+        initCopy();
+        removePrefocus();
+    });
 </script>

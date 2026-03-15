@@ -27,6 +27,7 @@ const QUERY = `
         }
     }
 `;
+const RANGE_SIZE = 1000;
 
 function getContent(problem: Problem): string {
     const ext = getExt(problem);
@@ -40,8 +41,8 @@ function getExt(problem: Problem): string {
 }
 
 function getRange(id: number): string {
-    const start = Math.floor((id - 1) / 1000) * 1000 + 1;
-    const end = start + 999;
+    const start = Math.floor((id - 1) / RANGE_SIZE) * RANGE_SIZE + 1;
+    const end = start + RANGE_SIZE - 1;
     return `${start}-${end}`;
 }
 
@@ -50,14 +51,14 @@ let skip = 0;
 
 while (true) {
     const response = await fetch('https://leetcode.com/graphql', {
-        method: 'POST',
+        body: JSON.stringify({ query: QUERY, variables: { limit: PAGE_SIZE, skip } }),
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: QUERY, variables: { skip, limit: PAGE_SIZE } }),
+        method: 'POST',
     });
 
     const { data } = await response.json();
     const questions = data.problemsetQuestionListV2.questions;
-    if (!questions.length) break;
+    if (questions.length === 0) break;
 
     for (const question of questions) {
         problems.push({

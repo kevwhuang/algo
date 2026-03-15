@@ -39,18 +39,18 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
             set:html={JSON.stringify({
                 '@context': 'https://schema.org',
                 '@type': 'WebSite',
-                'name': 'Algo',
-                'url': 'https://algo.aephonics.com',
                 'founder': {
                     '@type': 'Person',
                     'name': 'Kevin Huang',
                 },
+                'name': 'Algo',
+                'url': Astro.site,
             })}
             type="application/ld+json"
         />
         <ClientRouter />
     </head>
-    <body class="flex flex-col min-h-screen bg-zinc-950 font-sans text-white">
+    <body class="flex flex-col min-h-screen font-sans bg-zinc-950 text-white">
         <Navbar />
         <main class="flex flex-1 flex-col">
             <slot />
@@ -63,10 +63,14 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     @import 'tailwindcss';
 
     :root {
+        --color-code-bg: 14, 14, 18;
         --color-easy: 52, 211, 153;
         --color-hard: 248, 113, 113;
         --color-indigo: 99, 102, 241;
         --color-medium: 251, 191, 36;
+        --color-white: 255, 255, 255;
+        --color-zinc-600: 63, 63, 70;
+        --color-zinc-900: 24, 24, 27;
         --font-sans: 'Geist', system-ui, sans-serif;
     }
 
@@ -75,12 +79,6 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
     }
 
     :focus-visible {
-        outline: 2px solid rgba(var(--color-indigo), 0.8);
-        outline-offset: 2px;
-    }
-
-    a:focus-visible,
-    button:focus-visible {
         border-radius: 2px;
         outline: 2px solid rgba(var(--color-indigo), 0.8);
         outline-offset: 2px;

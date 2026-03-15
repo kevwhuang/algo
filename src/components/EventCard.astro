@@ -1,0 +1,59 @@
+---
+interface Props {
+    city: string;
+    dateTime: string;
+    endTime: string;
+    title: string;
+    url: string;
+    venue: string;
+}
+
+function formatDate(dateStr: string) {
+    const date = new Date(dateStr);
+
+    return {
+        day: date.getDate(),
+        month: date.toLocaleDateString('en-US', { month: 'short' }),
+        time: date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }),
+        weekday: date.toLocaleDateString('en-US', { weekday: 'short' }),
+        year: date.getFullYear(),
+    };
+}
+
+const { city, dateTime, endTime, title, url, venue } = Astro.props;
+const formatted = formatDate(dateTime);
+const endFormatted = formatDate(endTime);
+---
+
+<a
+    class="meetup-events__card group block p-[clamp(1.5rem,calc(0.67rem+4.17vw),4rem)] border border-white/10"
+    aria-label={`${title} — ${formatted.weekday} ${formatted.month} ${formatted.day}, ${formatted.year} at ${formatted.time} (opens in new tab)`}
+    data-scroll="up"
+    href={url}
+    rel="noopener noreferrer"
+    target="_blank"
+>
+    <div class="flex flex-col gap-[clamp(2rem,calc(1rem+5vw),3rem)] md:flex-row md:items-center">
+        <time class="flex flex-col items-center shrink-0 border-white/10 text-center md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)] md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)]" datetime={dateTime}>
+            <span class="text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.875rem)] uppercase tracking-[0.2em] text-zinc-200/80">
+                {formatted.weekday}
+            </span>
+            <span class="meetup-events__day font-bold text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)] leading-tight">
+                {formatted.day}
+            </span>
+            <span class="text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] uppercase tracking-[0.15em] text-zinc-200/90">
+                {formatted.month} {formatted.year}
+            </span>
+        </time>
+        <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1rem+5vw),3rem)] text-center md:text-left md:space-y-[clamp(0.75rem,calc(0.42rem+1.67vw),1.5rem)]">
+            <h3 class="meetup-events__name text-center font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-zinc-200 md:text-left">
+                {title}
+            </h3>
+            <div class="text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-200/80">
+                <p><span aria-hidden="true">🕐</span>&ensp;<span class="sr-only">Time: </span>{formatted.time} – {endFormatted.time}</p>
+                <p class="mt-[clamp(0.75rem,calc(0.42rem+1.67vw),1.5rem)]"><span aria-hidden="true">📍</span>&ensp;<span class="sr-only">Location: </span>{venue}{city && `, ${city}`}</p>
+            </div>
+        </div>
+        <span class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-200/30 select-none transition-[color,transform] duration-300 md:block" aria-hidden="true">→</span>
+    </div>
+</a>

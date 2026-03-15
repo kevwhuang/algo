@@ -1,4 +1,7 @@
 ---
+import EventCard from '@components/EventCard.astro';
+import EventCardEmpty from '@components/EventCardEmpty.astro';
+
 interface MeetupEvent {
     attendees: number;
     city: string;
@@ -36,6 +39,7 @@ async function fetchEvents(): Promise<MeetupEvent[]> {
                 const eventData = value as Record<string, unknown>;
                 const venueRef = (eventData.venue as Record<string, string>)?.__ref || '';
                 const venue = venues[venueRef] || { city: '', name: '' };
+
                 events.push({
                     attendees: (eventData.going as Record<string, number>)?.totalCount || 0,
                     city: venue.city,
@@ -54,17 +58,6 @@ async function fetchEvents(): Promise<MeetupEvent[]> {
     }
 }
 
-function formatDate(dateStr: string) {
-    const date = new Date(dateStr);
-    return {
-        day: date.getDate(),
-        month: date.toLocaleDateString('en-US', { month: 'short' }),
-        time: date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }),
-        weekday: date.toLocaleDateString('en-US', { weekday: 'short' }),
-        year: date.getFullYear(),
-    };
-}
-
 const events = await fetchEvents();
 ---
 
@@ -79,70 +72,19 @@ const events = await fetchEvents();
         >
             Events
         </h2>
-
         <div class="space-y-[clamp(2rem,calc(1rem+5vw),4rem)]">
             {events.length === 0
-                ? (
-                        <a
-                            class="meetup-events__card group block p-[clamp(1.5rem,calc(0.67rem+4.17vw),4rem)] border border-white/10"
-                            aria-label="No upcoming events — visit us on Meetup (opens in new tab)"
-                            data-scroll="up"
-                            href="https://meetup.com/algoatx"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <div class="flex flex-col gap-[clamp(2rem,calc(1rem+5vw),3rem)] md:flex-row md:items-center">
-                                <div class="flex flex-col items-center shrink-0 border-white/10 text-center md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)] md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)]">
-                                    <span class="meetup-events__day font-bold text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)] leading-tight">
-                                        —
-                                    </span>
-                                </div>
-                                <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1rem+5vw),3rem)] text-center md:text-left md:space-y-[clamp(0.75rem,calc(0.42rem+1.67vw),1.5rem)]">
-                                    <h3 class="meetup-events__name text-center font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-zinc-200 md:text-left">
-                                        No upcoming events
-                                    </h3>
-                                </div>
-                                <span class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-200/30 select-none transition-all duration-300 md:block" aria-hidden="true">→</span>
-                            </div>
-                        </a>
-                    )
-                : events.slice(0, 5).map((event) => {
-                        const formatted = formatDate(event.dateTime);
-                        return (
-                            <a
-                                class="meetup-events__card group block p-[clamp(1.5rem,calc(0.67rem+4.17vw),4rem)] border border-white/10"
-                                aria-label={`${event.title} — ${formatted.weekday} ${formatted.month} ${formatted.day}, ${formatted.year} at ${formatted.time} (opens in new tab)`}
-                                data-scroll="up"
-                                href={event.url}
-                                rel="noopener noreferrer"
-                                target="_blank"
-                            >
-                                <div class="flex flex-col gap-[clamp(2rem,calc(1rem+5vw),3rem)] md:flex-row md:items-center">
-                                    <time class="flex flex-col items-center shrink-0 border-white/10 text-center md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)] md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)]" datetime={event.dateTime}>
-                                        <span class="text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.875rem)] uppercase tracking-[0.2em] text-zinc-200/80">
-                                            {formatted.weekday}
-                                        </span>
-                                        <span class="meetup-events__day font-bold text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)] leading-tight">
-                                            {formatted.day}
-                                        </span>
-                                        <span class="text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] uppercase tracking-[0.15em] text-zinc-200/90">
-                                            {formatted.month} {formatted.year}
-                                        </span>
-                                    </time>
-                                    <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1rem+5vw),3rem)] text-center md:text-left md:space-y-[clamp(0.75rem,calc(0.42rem+1.67vw),1.5rem)]">
-                                        <h3 class="meetup-events__name text-center font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-zinc-200 md:text-left">
-                                            {event.title}
-                                        </h3>
-                                        <div class="text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-200/80">
-                                            <p><span aria-hidden="true">🕐</span>&ensp;<span class="sr-only">Time: </span>{formatted.time} – {formatDate(event.endTime).time}</p>
-                                            <p class="mt-[clamp(0.75rem,calc(0.42rem+1.67vw),1.5rem)]"><span aria-hidden="true">📍</span>&ensp;<span class="sr-only">Location: </span>{event.venue}{event.city && `, ${event.city}`}</p>
-                                        </div>
-                                    </div>
-                                    <span class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-200/30 select-none transition-all duration-300 md:block" aria-hidden="true">→</span>
-                                </div>
-                            </a>
-                        );
-                    })}
+                ? <EventCardEmpty />
+                : events.slice(0, 5).map(event => (
+                        <EventCard
+                            city={event.city}
+                            dateTime={event.dateTime}
+                            endTime={event.endTime}
+                            title={event.title}
+                            url={event.url}
+                            venue={event.venue}
+                        />
+                    ))}
         </div>
     </div>
 </section>
@@ -150,22 +92,28 @@ const events = await fetchEvents();
 <style>
     .meetup-events__card {
         transition:
-            background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-            border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+            border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .meetup-events__day {
         background: linear-gradient(
             180deg,
-            rgba(255, 255, 255, 0.85) 0%,
-            rgba(255, 255, 255, 0.4) 100%
+            rgba(var(--color-white), 0.85) 0%,
+            rgba(var(--color-white), 0.4) 100%
         );
         background-clip: text;
+        transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
+    .meetup-events__name {
+        transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     .meetup-events__card:hover {
-        background-color: rgba(255, 255, 255, 0.02);
+        background-color: rgba(var(--color-white), 0.02);
         border-color: rgba(var(--color-indigo), 0.3);
     }
 
@@ -180,7 +128,6 @@ const events = await fetchEvents();
             rgba(var(--color-indigo), 0.9) 0%,
             rgba(var(--color-indigo), 0.4) 100%
         );
-        background-clip: text;
     }
 
     .meetup-events__card:hover .meetup-events__name {

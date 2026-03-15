@@ -13,18 +13,7 @@ interface Problem {
     title: string;
 }
 
-const EXT_TO_LANG: Record<string, string> = {
-    cjs: 'javascript',
-    java: 'java',
-    js: 'javascript',
-    jsx: 'jsx',
-    mjs: 'javascript',
-    py: 'python',
-    sh: 'bash',
-    sql: 'sql',
-};
-
-const EXT_TO_LABEL: Record<string, string> = {
+const extLabel: Record<string, string> = {
     cjs: 'JavaScript',
     java: 'Java',
     js: 'JavaScript',
@@ -37,7 +26,6 @@ const EXT_TO_LABEL: Record<string, string> = {
 
 function dataStructuresLoader(): Loader {
     return {
-        name: 'data-structures-loader',
         load: async ({ generateDigest, store, watcher }) => {
             const dsDir = 'src/content/data-structures';
 
@@ -54,8 +42,8 @@ function dataStructuresLoader(): Loader {
                 store.set({
                     data: {
                         code,
-                        lang: EXT_TO_LANG[ext] ?? 'text',
-                        langLabel: EXT_TO_LABEL[ext] ?? ext.toUpperCase(),
+                        lang: (extLabel[ext] ?? ext).toLowerCase(),
+                        langLabel: extLabel[ext] ?? ext.toUpperCase(),
                         title: name.replace(/([a-z])([A-Z])/g, '$1 $2'),
                     },
                     digest: generateDigest(code),
@@ -66,6 +54,7 @@ function dataStructuresLoader(): Loader {
 
             watcher?.add(dsDir);
         },
+        name: 'data-structures-loader',
         schema: z.object({
             code: z.string(),
             lang: z.string(),
@@ -77,7 +66,6 @@ function dataStructuresLoader(): Loader {
 
 function problemsLoader(): Loader {
     return {
-        name: 'problems-loader',
         load: async ({ generateDigest, store, watcher }) => {
             const contentDir = 'src/content';
             const manifest: Problem[] = JSON.parse(
@@ -90,31 +78,36 @@ function problemsLoader(): Loader {
             for (const difficulty of ['easy', 'medium', 'hard']) {
                 const diffDir = path.join(contentDir, difficulty);
                 if (!fs.existsSync(diffDir)) continue;
+
                 for (const sub of fs.readdirSync(diffDir)) {
                     const subDir = path.join(diffDir, sub);
                     if (!fs.statSync(subDir).isDirectory()) continue;
+
                     for (const file of fs.readdirSync(subDir)) {
                         if (file.startsWith('.')) continue;
                         const filePath = path.join(subDir, file);
                         const ext = file.split('.').pop() ?? 'js';
                         const code = fs.readFileSync(filePath, 'utf-8');
                         const num = parseInt(file);
-
                         if (isNaN(num)) continue;
+
                         const problem = problemMap.get(num);
                         const commentMatch = code.match(/^(?:\/\/|--|#)\s*(\d+)\.\s*(.+)/);
-                        const title = problem
-                            ? `${problem.id}. ${problem.title}`
-                            : commentMatch
-                                ? `${commentMatch[1]}. ${commentMatch[2].trim()}`
-                                : `Problem ${num}`;
+
+                        let title = `Problem ${num}`;
+
+                        if (problem) {
+                            title = `${problem.id}. ${problem.title}`;
+                        } else if (commentMatch) {
+                            title = `${commentMatch[1]}. ${commentMatch[2].trim()}`;
+                        }
 
                         store.set({
                             data: {
                                 code,
                                 difficulty,
-                                lang: EXT_TO_LANG[ext] ?? 'text',
-                                langLabel: EXT_TO_LABEL[ext] ?? ext.toUpperCase(),
+                                lang: (extLabel[ext] ?? ext).toLowerCase(),
+                                langLabel: extLabel[ext] ?? ext.toUpperCase(),
                                 title,
                             },
                             digest: generateDigest(code),
@@ -127,6 +120,7 @@ function problemsLoader(): Loader {
 
             watcher?.add(path.join(contentDir, '{easy,medium,hard}/**/*'));
         },
+        name: 'problems-loader',
         schema: z.object({
             code: z.string(),
             difficulty: z.string(),
