@@ -30918,5 +30918,69 @@
         "paid": true,
         "slug": "reverse-k-subarrays",
         "title": "Reverse K Subarrays"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3866,
+        "paid": false,
+        "slug": "first-unique-even-element",
+        "title": "First Unique Even Element"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3867,
+        "paid": false,
+        "slug": "sum-of-gcd-of-formed-pairs",
+        "title": "Sum of GCD of Formed Pairs"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3868,
+        "paid": false,
+        "slug": "minimum-cost-to-equalize-arrays-using-swaps",
+        "title": "Minimum Cost to Equalize Arrays Using Swaps"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3869,
+        "paid": false,
+        "slug": "count-fancy-numbers-in-a-range",
+        "title": "Count Fancy Numbers in a Range"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3870,
+        "paid": false,
+        "slug": "count-commas-in-range",
+        "title": "Count Commas in Range"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3871,
+        "paid": false,
+        "slug": "count-commas-in-range-ii",
+        "title": "Count Commas in Range II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3872,
+        "paid": false,
+        "slug": "longest-arithmetic-sequence-after-changing-at-most-one-element",
+        "title": "Longest Arithmetic Sequence After Changing At Most One Element"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3873,
+        "paid": false,
+        "slug": "maximum-points-activated-with-one-addition",
+        "title": "Maximum Points Activated with One Addition"
     }
 ]

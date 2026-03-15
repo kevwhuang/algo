@@ -1,25 +1,10 @@
+import a11y from 'eslint-plugin-jsx-a11y';
+import astro from 'eslint-plugin-astro';
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
-import astro from 'eslint-plugin-astro';
-import a11y from 'eslint-plugin-jsx-a11y';
 import ts from 'typescript-eslint';
 
 import content from './eslint.content.ts';
-
-const ignores = {
-    ignores: ['.astro/', 'dist/', '.netlify/'],
-};
-
-const contentIgnore = {
-    ignores: ['src/content/**'],
-};
-
-const style = stylistic.configs.customize({
-    braceStyle: '1tbs',
-    indent: 4,
-    quotes: 'single',
-    semi: true,
-});
 
 const astroOverrides = {
     files: ['**/*.astro', '**/*.astro/*.ts'],
@@ -28,6 +13,21 @@ const astroOverrides = {
         '@stylistic/operator-linebreak': 'off',
     },
 };
+
+const contentIgnore = {
+    ignores: ['src/content/**'],
+};
+
+const ignores = {
+    ignores: ['.astro/', 'dist/', '.netlify/'],
+};
+
+const style = stylistic.configs.customize({
+    braceStyle: '1tbs',
+    indent: 4,
+    quotes: 'single',
+    semi: true,
+});
 
 export default [
     ignores,

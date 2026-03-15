@@ -9,6 +9,8 @@ interface DifficultyStats {
     total: number;
 }
 
+const MIN_SOLUTION_LINES = 3;
+
 function countCompleted(dir: string): { completed: number; total: number } {
     let completed = 0;
     let total = 0;
@@ -16,11 +18,12 @@ function countCompleted(dir: string): { completed: number; total: number } {
     for (const sub of fs.readdirSync(dir)) {
         const subDir = path.join(dir, sub);
         if (!fs.statSync(subDir).isDirectory() || sub === 'front-end') continue;
+
         for (const file of fs.readdirSync(subDir)) {
             if (file.startsWith('.')) continue;
             total++;
             const lines = fs.readFileSync(path.join(subDir, file), 'utf-8').trim().split('\n');
-            if (lines.length >= 3) completed++;
+            if (lines.length >= MIN_SOLUTION_LINES) completed++;
         }
     }
 
@@ -51,7 +54,6 @@ const stats: DifficultyStats[] = [
         <h2 id="progress-heading" class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200/85">
             Progress
         </h2>
-
         <div class="space-y-[clamp(2rem,calc(1.33rem+3.33vw),3.5rem)]">
             {stats.map(({ completed, cssVar, label, total }) => {
                 const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
@@ -94,6 +96,9 @@ const stats: DifficultyStats[] = [
 </style>
 
 <script>
+    const ANIMATION_DELAY = 500;
+    const VISIBILITY_THRESHOLD = 0.2;
+
     function animateBars() {
         const bars = document.querySelectorAll<HTMLElement>('.progress__bar');
         const observer = new IntersectionObserver(
@@ -103,12 +108,12 @@ const stats: DifficultyStats[] = [
                         const bar = entry.target as HTMLElement;
                         setTimeout(() => {
                             bar.style.width = `${bar.dataset.width}%`;
-                        }, 500);
+                        }, ANIMATION_DELAY);
                         observer.unobserve(bar);
                     }
                 }
             },
-            { threshold: 0.2 },
+            { threshold: VISIBILITY_THRESHOLD },
         );
 
         for (const bar of bars) {

@@ -1,5 +1,8 @@
 ---
-
+import LeetCodeIcon from '@components/LeetCodeIcon.astro';
+import LogoIcon from '@components/LogoIcon.astro';
+import MeetupIcon from '@components/MeetupIcon.astro';
+import SearchIcon from '@components/SearchIcon.astro';
 ---
 
 <nav class="navbar fixed top-0 z-50 w-full border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-md">
@@ -9,36 +12,18 @@
             aria-label="Home"
             href="/"
         >
-            <svg class="h-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] w-[clamp(2rem,calc(1.5rem+2.5vw),3rem)]" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <rect fill="#0a0a0a" height="32" rx="4" width="32" />
-                <circle cx="8" cy="14" fill="#6366f1" r="3" />
-                <circle cx="16" cy="22" fill="#6366f1" r="3" />
-                <circle cx="20" cy="10" fill="#6366f1" r="3" />
-                <line stroke="#6366f1" stroke-width="1.5" x1="8" x2="16" y1="14" y2="22" />
-                <line stroke="#6366f1" stroke-width="1.5" x1="16" x2="20" y1="22" y2="10" />
-                <line stroke="#6366f1" stroke-width="1.5" x1="20" x2="8" y1="10" y2="14" />
-            </svg>
+            <LogoIcon />
         </a>
-
-        <div class="navbar__search relative flex-1 mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] max-w-xl">
+        <div class="navbar__search relative flex-1 max-w-xl mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <input
                 id="search-input"
-                class="w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-300 placeholder-zinc-600 bg-zinc-900/50 outline-none transition-colors duration-300"
+                class="navbar__input w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-900/50 text-zinc-300 placeholder-zinc-600 outline-none transition-colors duration-300"
                 aria-label="Search problems"
                 autocomplete="off"
                 placeholder="Search..."
                 type="text"
             />
-            <svg
-                class="absolute left-[clamp(0.625rem,calc(0.46rem+0.83vw),1rem)] top-1/2 h-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] w-[clamp(1rem,calc(0.83rem+0.83vw),1.25rem)] text-zinc-600 -translate-y-1/2"
-                aria-hidden="true"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-            >
-                <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
+            <SearchIcon />
             <kbd class="hidden absolute right-3.5 top-1/2 px-2 py-1 rounded border border-zinc-700 font-mono text-xs text-zinc-600 -translate-y-1/2 pointer-events-none select-none sm:inline-block">/</kbd>
             <div
                 id="search-results"
@@ -46,7 +31,6 @@
             >
             </div>
         </div>
-
         <div class="flex items-center gap-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <a
                 class="transition-opacity duration-300 hover:opacity-80"
@@ -55,11 +39,7 @@
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <svg class="h-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] w-[clamp(2rem,calc(1.5rem+2.5vw),3rem)]" aria-hidden="true" fill="none" stroke="#ED1C40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                    <path d="M5.455 10.82c.935 -2.163 3.045 -3.82 5.545 -3.82c2.104 0 2.844 1.915 2 4l-2 6" />
-                    <path d="M6.981 7l-3.981 9.914" />
-                    <path d="M13 11c.937 -2.16 3.071 -3.802 5.42 -3.972c2.104 0 3.128 1.706 2.284 3.792l-2.454 6.094c-.853 1.676 .75 2.586 2.75 2.086" />
-                </svg>
+                <MeetupIcon />
             </a>
             <a
                 class="transition-opacity duration-300 hover:opacity-80"
@@ -68,16 +48,11 @@
                 rel="noopener noreferrer"
                 target="_blank"
             >
-                <svg class="h-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] w-[clamp(2rem,calc(1.5rem+2.5vw),3rem)]" aria-hidden="true" fill="none" stroke="#FFA116" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
-                    <path d="M12 13h7.5" />
-                    <path d="M9.424 7.268l4.999 -4.999" />
-                    <path d="M16.633 16.644l-2.402 2.415a3.189 3.189 0 0 1 -4.524 0l-3.77 -3.787a3.223 3.223 0 0 1 0 -4.544l3.77 -3.787a3.189 3.189 0 0 1 4.524 0l2.302 2.313" />
-                </svg>
+                <LeetCodeIcon />
             </a>
         </div>
     </div>
 </nav>
-
 <div class="h-[clamp(3rem,calc(1.33rem+8.33vw),8rem)]"></div>
 
 <style is:global>
@@ -97,14 +72,14 @@
         opacity: 0.8;
     }
 
-    .navbar__search input:focus {
-        background-color: rgba(24, 24, 27, 0.8);
+    .navbar__input:focus {
+        background-color: rgba(var(--color-zinc-900), 0.8);
         border-color: rgba(var(--color-indigo), 0.3);
     }
 
-    .navbar__search input:hover {
-        background-color: rgba(24, 24, 27, 0.8);
-        border-color: rgb(63 63 70);
+    .navbar__input:hover {
+        background-color: rgba(var(--color-zinc-900), 0.8);
+        border-color: rgb(var(--color-zinc-600));
     }
 
     .navbar__results::-webkit-scrollbar {
@@ -112,7 +87,7 @@
     }
 
     .navbar__results::-webkit-scrollbar-thumb {
-        background: rgb(63 63 70);
+        background: rgb(var(--color-zinc-600));
         border-radius: 2px;
     }
 
@@ -122,119 +97,122 @@
 </style>
 
 <script>
-interface SearchEntry {
-    d: string;
-    i: string;
-    t: string;
-}
-
-const BADGE_STYLES: Record<string, { classes: string; label: string }> = {
-    ds: { classes: 'bg-indigo-500/15 text-indigo-400', label: 'DS' },
-    e: { classes: 'bg-emerald-500/15 text-emerald-400', label: 'easy' },
-    h: { classes: 'bg-red-500/15 text-red-400', label: 'hard' },
-    m: { classes: 'bg-amber-500/15 text-amber-400', label: 'medium' },
-};
-
-const MAX_RESULTS = 20;
-
-let searchIndex: SearchEntry[] | null = null;
-let initialized = false;
-
-function escapeHtml(str: string): string {
-    return str
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;');
-}
-
-async function loadIndex(): Promise<SearchEntry[]> {
-    if (searchIndex) return searchIndex;
-    const res = await fetch('/api/search.json');
-    searchIndex = await res.json();
-    return searchIndex;
-}
-
-function renderBadge(type: string): string {
-    const badge = BADGE_STYLES[type] ?? BADGE_STYLES.h;
-    return `<span class="navbar__badge hidden rounded-full px-2 py-0.5 uppercase tracking-wider sm:inline-block ${badge.classes}">${badge.label}</span>`;
-}
-
-function renderResults(el: HTMLElement, matches: SearchEntry[]) {
-    if (matches.length === 0) {
-        el.innerHTML = '<div class="navbar__result-text px-4 py-2.5 font-mono text-zinc-600">No results</div>';
-    } else {
-        el.innerHTML = matches.slice(0, MAX_RESULTS).map(m =>
-            `<a href="/${m.i}" class="navbar__result navbar__result-text flex items-center justify-between gap-3 px-4 py-2.5 text-zinc-300 transition-colors duration-100 hover:bg-zinc-800/50"><span class="truncate">${escapeHtml(m.t)}</span>${renderBadge(m.d)}</a>`,
-        ).join('');
+    interface SearchEntry {
+        d: string;
+        i: string;
+        t: string;
     }
 
-    el.classList.add('opacity-100', 'pointer-events-auto');
-    el.classList.remove('opacity-0', 'pointer-events-none');
-}
+    const BADGE_STYLES: Record<string, { classes: string; label: string }> = {
+        ds: { classes: 'bg-indigo-500/15 text-indigo-400', label: 'DS' },
+        e: { classes: 'bg-emerald-500/15 text-emerald-400', label: 'easy' },
+        h: { classes: 'bg-red-500/15 text-red-400', label: 'hard' },
+        m: { classes: 'bg-amber-500/15 text-amber-400', label: 'medium' },
+    };
 
-function sortResults(a: SearchEntry, b: SearchEntry): number {
-    if (a.d === 'ds' && b.d !== 'ds') return -1;
-    if (a.d !== 'ds' && b.d === 'ds') return 1;
-    if (a.d !== 'ds' && b.d !== 'ds') return parseInt(a.i) - parseInt(b.i);
-    return a.t.localeCompare(b.t);
-}
+    const MAX_RESULTS = 20;
 
-function initSearch() {
-    if (initialized) return;
-    initialized = true;
+    let initialized = false;
+    let searchIndex: SearchEntry[] | null = null;
 
-    const input = document.getElementById('search-input') as HTMLInputElement | null;
-    const resultsEl = document.getElementById('search-results');
-    if (!input || !resultsEl) return;
-
-    loadIndex();
-
-    async function search(query: string) {
-        if (!query) {
-            resultsEl.classList.remove('opacity-100', 'pointer-events-auto');
-            resultsEl.classList.add('opacity-0', 'pointer-events-none');
-            return;
-        }
-
-        const index = await loadIndex();
-        const normalizedQuery = query.toLowerCase();
-        const matches = index
-            .filter(entry => entry.t.toLowerCase().includes(normalizedQuery) || entry.i === normalizedQuery)
-            .sort(sortResults);
-        renderResults(resultsEl, matches);
+    function escapeHtml(str: string): string {
+        return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
     }
 
-    input.addEventListener('input', e => search((e.target as HTMLInputElement).value));
-    input.addEventListener('focus', () => {
-        if (input.value) search(input.value);
-    });
+    async function loadIndex(): Promise<SearchEntry[]> {
+        if (searchIndex) return searchIndex;
+        const res = await fetch('/api/search.json');
+        searchIndex = await res.json();
+        return searchIndex!;
+    }
 
-    document.addEventListener('click', (e) => {
-        const target = e.target as Node;
-        if (!input.contains(target) && !resultsEl.contains(target)) {
-            resultsEl.classList.remove('opacity-100', 'pointer-events-auto');
-            resultsEl.classList.add('opacity-0', 'pointer-events-none');
-        }
-    });
+    function renderBadge(type: string): string {
+        const badge = BADGE_STYLES[type] ?? BADGE_STYLES.h;
+        return `<span class="navbar__badge hidden px-2 py-0.5 rounded-full uppercase tracking-wider sm:inline-block ${badge.classes}">${badge.label}</span>`;
+    }
 
-    document.addEventListener('keydown', (e) => {
-        if (e.key === '/') {
-            e.preventDefault();
-            input.focus();
+    function renderResults(el: HTMLElement, matches: SearchEntry[]) {
+        if (matches.length === 0) {
+            el.innerHTML = '<div class="navbar__result-text px-4 py-2.5 font-mono text-zinc-600">No results</div>';
+        } else {
+            el.innerHTML = matches.slice(0, MAX_RESULTS).map(m =>
+                `<a href="/${m.i}" class="navbar__result navbar__result-text flex items-center justify-between px-4 py-2.5 gap-3 text-zinc-300 transition-colors duration-100 hover:bg-zinc-800/50"><span class="truncate">${escapeHtml(m.t)}</span>${renderBadge(m.d)}</a>`,
+            ).join('');
         }
-        if (e.key === 'Escape') {
-            input.value = '';
-            resultsEl.classList.remove('opacity-100', 'pointer-events-auto');
-            resultsEl.classList.add('opacity-0', 'pointer-events-none');
-            input.blur();
-        }
-    });
-}
 
-initSearch();
-document.addEventListener('astro:page-load', () => {
-    initialized = false;
+        el.classList.add('opacity-100', 'pointer-events-auto');
+        el.classList.remove('opacity-0', 'pointer-events-none');
+    }
+
+    function sortResults(a: SearchEntry, b: SearchEntry): number {
+        if (a.d === 'ds' && b.d !== 'ds') return -1;
+        if (a.d !== 'ds' && b.d === 'ds') return 1;
+        if (a.d !== 'ds' && b.d !== 'ds') return parseInt(a.i) - parseInt(b.i);
+        return a.t.localeCompare(b.t);
+    }
+
+    function initSearch() {
+        if (initialized) return;
+        initialized = true;
+
+        const input = document.getElementById('search-input') as HTMLInputElement | null;
+        const resultsEl = document.getElementById('search-results') as HTMLElement | null;
+        if (!input || !resultsEl) return;
+        const results = resultsEl;
+
+        loadIndex();
+
+        async function search(query: string) {
+            if (!query) {
+                results.classList.remove('opacity-100', 'pointer-events-auto');
+                results.classList.add('opacity-0', 'pointer-events-none');
+                return;
+            }
+
+            const index = await loadIndex();
+            const normalizedQuery = query.toLowerCase();
+            const matches = index
+                .filter(entry => entry.t.toLowerCase().includes(normalizedQuery) || entry.i === normalizedQuery)
+                .sort(sortResults);
+            renderResults(results, matches);
+        }
+
+        input.addEventListener('input', e => search((e.target as HTMLInputElement).value));
+        input.addEventListener('focus', () => {
+            if (input.value) search(input.value);
+        });
+
+        document.addEventListener('click', (e) => {
+            const target = e.target as Node;
+
+            if (!input.contains(target) && !results.contains(target)) {
+                results.classList.remove('opacity-100', 'pointer-events-auto');
+                results.classList.add('opacity-0', 'pointer-events-none');
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === '/') {
+                e.preventDefault();
+                input.focus();
+            }
+
+            if (e.key === 'Escape') {
+                input.value = '';
+                results.classList.remove('opacity-100', 'pointer-events-auto');
+                results.classList.add('opacity-0', 'pointer-events-none');
+                input.blur();
+            }
+        });
+    }
+
     initSearch();
-});
+    document.addEventListener('astro:page-load', () => {
+        initialized = false;
+        initSearch();
+    });
 </script>

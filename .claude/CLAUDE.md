@@ -4,19 +4,22 @@ Algorithm and data structure solutions site at algo.aephonics.com. Displays Leet
 
 ## Commands
 
-| Command         | Description              |
-| --------------- | ------------------------ |
-| `bun start`     | Dev server (port 8888)   |
-| `bun run build` | Production build         |
-| `bun run lint`  | tsc && eslint            |
-| `bun test`      | vitest && playwright     |
+| Command         | Description             |
+| --------------- | ----------------------- |
+| `bun run build` | Production build        |
+| `bun run lint`  | tsc && eslint           |
+| `bun run test`  | vitest && playwright    |
+| `bun start`     | Dev server on port 8888 |
 
 ## Structure
 
-| Path                     | Description                                            |
-| ------------------------ | ------------------------------------------------------ |
-| `src/content/`           | Solution files ({easy,medium,hard}/, data-structures/) |
-| `src/layouts/Base.astro` | Head, meta, navbar, footer, global styles              |
-| `src/lib/scroll.ts`      | GSAP scroll animations (data-scroll)                   |
-| `src/pages/`             | index, [slug] (solutions), [...slug] (404), api/       |
-| `src/sections/`          | Events, Footer, Navbar, NotFound, Progress, Solution   |
+| Path                     | Description                        |
+| ------------------------ | ---------------------------------- |
+| `src/components/`        | Icons                              |
+| `src/content/`           | Solutions by difficulty and DS     |
+| `src/content.config.ts`  | Content collections                |
+| `src/layouts/Base.astro` | Head, meta, navbar, footer, styles |
+| `src/lib/scroll.ts`      | GSAP scroll animations             |
+| `src/middleware.ts`      | Request middleware                 |
+| `src/pages/`             | Index, slug routes, 404, API       |
+| `src/sections/`          | Page sections                      |
