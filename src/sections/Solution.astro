@@ -107,35 +107,36 @@ const difficultyColor = {
     let fadeTimer = 0;
     let resetTimer = 0;
 
-    function fadeText(btn: HTMLButtonElement, text: string, label: string) {
+    function fadeText(button: HTMLButtonElement, text: string, label: string) {
         clearTimeout(fadeTimer);
-        btn.style.opacity = '0';
+        button.style.opacity = '0';
+
         fadeTimer = window.setTimeout(() => {
-            btn.textContent = text;
-            btn.setAttribute('aria-label', label);
-            btn.style.opacity = '1';
+            button.textContent = text;
+            button.setAttribute('aria-label', label);
+            button.style.opacity = '1';
         }, FADE_DURATION);
     }
 
     function initCopy() {
-        for (const btn of document.querySelectorAll<HTMLButtonElement>('.solution__copy')) {
-            btn.addEventListener('click', async () => {
-                const code = btn.dataset.code ?? '';
+        for (const button of document.querySelectorAll<HTMLButtonElement>('.solution__copy')) {
+            button.addEventListener('click', async () => {
+                const code = button.dataset.code ?? '';
                 const status = document.getElementById('copy-status');
 
                 clearTimeout(resetTimer);
 
                 try {
                     await navigator.clipboard.writeText(code);
-                    fadeText(btn, 'Copied!', 'Code copied to clipboard');
+                    fadeText(button, 'Copied!', 'Code copied to clipboard');
                     if (status) status.textContent = 'Code copied to clipboard';
                 } catch {
-                    fadeText(btn, 'Failed', 'Failed to copy code');
+                    fadeText(button, 'Failed', 'Failed to copy code');
                     if (status) status.textContent = 'Failed to copy code';
                 }
 
                 resetTimer = window.setTimeout(() => {
-                    fadeText(btn, 'Copy', 'Copy code');
+                    fadeText(button, 'Copy', 'Copy code');
                     if (status) status.textContent = '';
                 }, COPY_RESET_DELAY);
             });

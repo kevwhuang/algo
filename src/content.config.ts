@@ -71,7 +71,7 @@ function problemsLoader(): Loader {
             const manifest: Problem[] = JSON.parse(
                 fs.readFileSync(path.join(contentDir, 'problems.json'), 'utf-8'),
             );
-            const problemMap = new Map(manifest.map(p => [p.id, p]));
+            const problemMap = new Map(manifest.map(problem => [problem.id, problem]));
 
             store.clear();
 

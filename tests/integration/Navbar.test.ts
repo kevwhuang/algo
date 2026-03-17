@@ -20,11 +20,28 @@ describe('Navbar', () => {
         expect(html).toContain('aria-label="Search problems"');
     });
 
+    test('renders search input with combobox role', async () => {
+        const container = await AstroContainer.create();
+        const html = await container.renderToString(Navbar);
+
+        expect(html).toContain('role="combobox"');
+        expect(html).toContain('aria-autocomplete="list"');
+        expect(html).toContain('aria-controls="search-results"');
+        expect(html).toContain('aria-expanded="false"');
+    });
+
     test('renders search results container', async () => {
         const container = await AstroContainer.create();
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('id="search-results"');
+    });
+
+    test('renders search results with listbox role', async () => {
+        const container = await AstroContainer.create();
+        const html = await container.renderToString(Navbar);
+
+        expect(html).toContain('role="listbox"');
     });
 
     test('renders Meetup link', async () => {
