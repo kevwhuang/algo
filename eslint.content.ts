@@ -227,7 +227,6 @@ const maxLenOverride = {
         'src/content/medium/1001-2000/1343.js',
         'src/content/medium/1001-2000/1430.mjs',
         'src/content/medium/1001-2000/1438.js',
-        'src/content/medium/1001-2000/1452.js',
         'src/content/medium/1001-2000/1577.js',
         'src/content/medium/2001-3000/2512.js',
         'src/content/medium/3001-4000/3635.js',
