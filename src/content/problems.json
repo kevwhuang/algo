@@ -30982,5 +30982,13 @@
         "paid": false,
         "slug": "maximum-points-activated-with-one-addition",
         "title": "Maximum Points Activated with One Addition"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3874,
+        "paid": true,
+        "slug": "valid-subarrays-with-exactly-one-peak",
+        "title": "Valid Subarrays With Exactly One Peak"
     }
 ]
