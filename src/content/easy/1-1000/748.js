@@ -1,33 +1,23 @@
 // 748. Shortest Completing Word
 
 function shortestCompletingWord(licensePlate, words) {
-    licensePlate = licensePlate.toLowerCase();
-    const map = new Map();
-    for (let i = 0; i < licensePlate.length; i++) {
-        const code = licensePlate.charCodeAt(i);
-        if (97 <= code && code <= 122) {
-            map.set(licensePlate[i], map.get(licensePlate[i]) + 1 || 1);
-        }
+    const B = new Int8Array(26);
+    const s = licensePlate.toLowerCase();
+    for (let i = 0; i < s.length; i++) {
+        const key = s.charCodeAt(i) - 97;
+        if (0 <= key && key <= 26) B[key]++;
     }
-    const init = [...map.entries()];
-    let completingWord, completingLength = Infinity;
+    let res = -1;
     for (let i = 0; i < words.length; i++) {
-        const word = words[i];
-        if (word.length >= completingLength) continue;
-        for (let j = 0; j < word.length; j++) {
-            const letter = word[j];
-            const freq = map.get(letter);
-            if (!freq) continue;
-            if (freq === 1) map.delete(letter);
-            else map.set(letter, freq - 1);
+        const t = words[i];
+        if (~res && words[res].length <= t.length) continue;
+        for (let j = 0; j < t.length; j++) {
+            B[t.charCodeAt(j) - 97]--;
         }
-        if (map.size === 0) {
-            completingWord = word;
-            completingLength = word.length;
-        }
-        for (let j = 0; j < init.length; j++) {
-            map.set(init[j][0], init[j][1]);
+        if (B.every(e => e <= 0)) res = i;
+        for (let j = 0; j < t.length; j++) {
+            B[t.charCodeAt(j) - 97]++;
         }
     }
-    return completingWord;
+    return words[res];
 }

@@ -30990,5 +30990,45 @@
         "paid": true,
         "slug": "valid-subarrays-with-exactly-one-peak",
         "title": "Valid Subarrays With Exactly One Peak"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3875,
+        "paid": false,
+        "slug": "construct-uniform-parity-array-i",
+        "title": "Construct Uniform Parity Array I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3876,
+        "paid": false,
+        "slug": "construct-uniform-parity-array-ii",
+        "title": "Construct Uniform Parity Array II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3877,
+        "paid": false,
+        "slug": "minimum-removals-to-achieve-target-xor",
+        "title": "Minimum Removals to Achieve Target XOR"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3878,
+        "paid": false,
+        "slug": "count-good-subarrays",
+        "title": "Count Good Subarrays"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3879,
+        "paid": true,
+        "slug": "maximum-distinct-path-sum-in-a-binary-tree",
+        "title": "Maximum Distinct Path Sum in a Binary Tree"
     }
 ]
