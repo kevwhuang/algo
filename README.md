@@ -1,3 +1,3 @@
 # Algo
 
-- [leetcode.com/u/aephonics](https://leetcode.com/u/aephonics/)
+- [leetcode.com/u/aephonics](https://leetcode.com/u/aephonics)
