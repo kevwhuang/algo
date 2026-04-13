@@ -6,6 +6,9 @@ test.describe('search', () => {
     });
 
     test('/ shortcut focuses search input', async ({ page }) => {
+        await page.waitForFunction(() =>
+            new Promise(resolve => document.addEventListener('astro:page-load', resolve, { once: true })),
+        );
         await page.keyboard.press('/');
         await expect(page.locator('#search-input')).toBeFocused();
     });

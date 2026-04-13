@@ -31030,5 +31030,181 @@
         "paid": true,
         "slug": "maximum-distinct-path-sum-in-a-binary-tree",
         "title": "Maximum Distinct Path Sum in a Binary Tree"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3880,
+        "paid": false,
+        "slug": "minimum-absolute-difference-between-two-values",
+        "title": "Minimum Absolute Difference Between Two Values"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3881,
+        "paid": false,
+        "slug": "direction-assignments-with-exactly-k-visible-people",
+        "title": "Direction Assignments with Exactly K Visible People"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3882,
+        "paid": false,
+        "slug": "minimum-xor-path-in-a-grid",
+        "title": "Minimum XOR Path in a Grid"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3883,
+        "paid": false,
+        "slug": "count-non-decreasing-arrays-with-given-digit-sums",
+        "title": "Count Non Decreasing Arrays With Given Digit Sums"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3884,
+        "paid": false,
+        "slug": "first-matching-character-from-both-ends",
+        "title": "First Matching Character From Both Ends"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3885,
+        "paid": false,
+        "slug": "design-event-manager",
+        "title": "Design Event Manager"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3886,
+        "paid": false,
+        "slug": "sum-of-sortable-integers",
+        "title": "Sum of Sortable Integers"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3887,
+        "paid": false,
+        "slug": "incremental-even-weighted-cycle-queries",
+        "title": "Incremental Even-Weighted Cycle Queries"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3888,
+        "paid": true,
+        "slug": "minimum-operations-to-make-all-grid-elements-equal",
+        "title": "Minimum Operations to Make All Grid Elements Equal"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3889,
+        "paid": false,
+        "slug": "mirror-frequency-distance",
+        "title": "Mirror Frequency Distance"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3890,
+        "paid": false,
+        "slug": "integers-with-multiple-sum-of-two-cubes",
+        "title": "Integers With Multiple Sum of Two Cubes"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3891,
+        "paid": false,
+        "slug": "minimum-increase-to-maximize-special-indices",
+        "title": "Minimum Increase to Maximize Special Indices"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3892,
+        "paid": false,
+        "slug": "minimum-operations-to-achieve-at-least-k-peaks",
+        "title": "Minimum Operations to Achieve At Least K Peaks"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3893,
+        "paid": true,
+        "slug": "maximum-team-size-with-overlapping-intervals",
+        "title": "Maximum Team Size with Overlapping Intervals"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3894,
+        "paid": false,
+        "slug": "traffic-signal-color",
+        "title": "Traffic Signal Color"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3895,
+        "paid": false,
+        "slug": "count-digit-appearances",
+        "title": "Count Digit Appearances"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3896,
+        "paid": false,
+        "slug": "minimum-operations-to-transform-array-into-alternating-prime",
+        "title": "Minimum Operations to Transform Array into Alternating Prime"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3897,
+        "paid": false,
+        "slug": "maximum-value-of-concatenated-binary-segments",
+        "title": "Maximum Value of Concatenated Binary Segments"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3898,
+        "paid": false,
+        "slug": "find-the-degree-of-each-vertex",
+        "title": "Find the Degree of Each Vertex"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3899,
+        "paid": false,
+        "slug": "angles-of-a-triangle",
+        "title": "Angles of a Triangle"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3900,
+        "paid": false,
+        "slug": "longest-balanced-substring-after-one-swap",
+        "title": "Longest Balanced Substring After One Swap"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3901,
+        "paid": false,
+        "slug": "good-subsequence-queries",
+        "title": "Good Subsequence Queries"
     }
 ]
