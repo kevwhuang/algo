@@ -96,10 +96,10 @@ function problemsLoader(): Loader {
 
                         let title = `Problem ${num}`;
 
-                        if (problem) {
-                            title = `${problem.id}. ${problem.title}`;
-                        } else if (commentMatch) {
+                        if (commentMatch) {
                             title = `${commentMatch[1]}. ${commentMatch[2].trim()}`;
+                        } else if (problem) {
+                            title = `${problem.id}. ${problem.title}`;
                         }
 
                         store.set({
