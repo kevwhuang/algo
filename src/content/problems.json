@@ -31206,5 +31206,13 @@
         "paid": false,
         "slug": "good-subsequence-queries",
         "title": "Good Subsequence Queries"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3902,
+        "paid": true,
+        "slug": "zigzag-level-sum-of-binary-tree",
+        "title": "Zigzag Level Sum of Binary Tree"
     }
 ]
