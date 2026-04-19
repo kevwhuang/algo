@@ -31214,5 +31214,37 @@
         "paid": true,
         "slug": "zigzag-level-sum-of-binary-tree",
         "title": "Zigzag Level Sum of Binary Tree"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3903,
+        "paid": false,
+        "slug": "smallest-stable-index-i",
+        "title": "Smallest Stable Index I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3904,
+        "paid": false,
+        "slug": "smallest-stable-index-ii",
+        "title": "Smallest Stable Index II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3905,
+        "paid": false,
+        "slug": "multi-source-flood-fill",
+        "title": "Multi Source Flood Fill"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3906,
+        "paid": false,
+        "slug": "count-good-integers-on-a-grid-path",
+        "title": "Count Good Integers on a Grid Path"
     }
 ]
