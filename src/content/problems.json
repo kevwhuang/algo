@@ -31246,5 +31246,13 @@
         "paid": false,
         "slug": "count-good-integers-on-a-grid-path",
         "title": "Count Good Integers on a Grid Path"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3907,
+        "paid": true,
+        "slug": "count-smaller-elements-with-opposite-parity",
+        "title": "Count Smaller Elements With Opposite Parity"
     }
 ]
