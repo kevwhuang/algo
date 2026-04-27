@@ -6,9 +6,7 @@ test.describe('search', () => {
     });
 
     test('/ shortcut focuses search input', async ({ page }) => {
-        await page.waitForFunction(() =>
-            new Promise(resolve => document.addEventListener('astro:page-load', resolve, { once: true })),
-        );
+        await page.waitForFunction(() => document.querySelector('#search-input')?.hasAttribute('data-ready'));
         await page.keyboard.press('/');
         await expect(page.locator('#search-input')).toBeFocused();
     });
@@ -91,6 +89,7 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await page.keyboard.press('Enter');
+        await page.waitForURL(/\/\d+/);
 
         await expect(page).toHaveTitle(/\| Algo/);
     });
@@ -109,6 +108,7 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await results.locator('a').first().click();
+        await page.waitForURL(/\/\d+/);
 
         await expect(page).toHaveTitle(/\| Algo/);
     });

@@ -17,18 +17,18 @@ import SearchIcon from '@components/SearchIcon.astro';
         <div class="navbar__search relative flex-1 max-w-xl mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <input
                 id="search-input"
-                class="navbar__input w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.5rem+2.5vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-900/50 text-zinc-300 placeholder-zinc-600 outline-none transition-colors duration-300"
+                class="navbar__input w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-900/50 text-zinc-300 placeholder-zinc-600 outline-none transition-colors duration-300"
                 aria-autocomplete="list"
-                aria-label="Search problems"
                 aria-controls="search-results"
                 aria-expanded="false"
+                aria-label="Search problems"
                 autocomplete="off"
                 placeholder="Search..."
                 role="combobox"
                 type="text"
             />
             <SearchIcon />
-            <kbd class="hidden absolute right-3.5 top-1/2 px-2 py-1 rounded border border-zinc-700 font-mono text-xs text-zinc-600 -translate-y-1/2 pointer-events-none select-none sm:inline-block">/</kbd>
+            <kbd class="hidden absolute right-3.5 top-1/2 px-2 py-1 rounded border border-zinc-700 font-mono text-xs text-zinc-600 -translate-y-1/2 pointer-events-none select-none sm:inline-block" aria-hidden="true">/</kbd>
             <div
                 id="search-results"
                 class="navbar__results absolute left-0 right-0 top-full mt-4 rounded-lg border border-zinc-800 bg-zinc-900 overflow-y-auto opacity-0 backdrop-blur-md pointer-events-none transition-opacity duration-300"
@@ -62,7 +62,7 @@ import SearchIcon from '@components/SearchIcon.astro';
 
 <style is:global>
     .navbar__badge {
-        font-size: clamp(0.5rem, calc(0.42rem + 0.42vw), 0.625rem);
+        font-size: clamp(0.5rem, calc(0.46rem + 0.21vw), 0.625rem);
     }
 
     .navbar__result-text {
@@ -304,6 +304,7 @@ import SearchIcon from '@components/SearchIcon.astro';
         results.addEventListener('pointerleave', onResultsPointerLeave);
         document.addEventListener('click', onDocClick);
         document.addEventListener('keydown', onDocKeydown);
+        input.dataset.ready = '';
         cleanup = teardown;
     }
 

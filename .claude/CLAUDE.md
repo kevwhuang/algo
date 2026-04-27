@@ -1,6 +1,6 @@
 # Algo
 
-Algorithm and data structure solutions site at algo.aephonics.com. Displays LeetCode problems and DS implementations with syntax-highlighted code blocks. Built with Astro 6, TypeScript, Tailwind CSS 4, and GSAP. Deployed on Netlify.
+Algorithm and data structure solutions at algo.aephonics.com. LeetCode problems and data structure implementations with syntax-highlighted code blocks. Built with Astro, TypeScript, Tailwind CSS, and GSAP. Deployed on Netlify.
 
 ## Commands
 

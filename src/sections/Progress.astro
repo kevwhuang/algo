@@ -49,12 +49,12 @@ const stats: DifficultyStats[] = [
 ];
 ---
 
-<section class="px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="progress-heading">
+<section class="progress px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="progress-heading">
     <div class="max-w-6xl mx-auto">
         <h2 id="progress-heading" class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200/85">
             Progress
         </h2>
-        <div class="space-y-[clamp(2rem,calc(1.33rem+3.33vw),3.5rem)]">
+        <div class="space-y-[clamp(2rem,calc(1.5rem+2.5vw),3.5rem)]">
             {stats.map(({ completed, cssVar, label, total }) => {
                 const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
                 return (

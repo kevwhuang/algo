@@ -27,7 +27,7 @@ export async function getStaticPaths() {
         })),
         ...problems.map(entry => ({
             params: { slug: entry.id },
-            props: { ...entry.data, difficulty: entry.data.difficulty },
+            props: { ...entry.data },
         })),
     ];
 }

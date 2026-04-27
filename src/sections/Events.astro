@@ -3,7 +3,6 @@ import EventCard from '@components/EventCard.astro';
 import EventCardEmpty from '@components/EventCardEmpty.astro';
 
 interface MeetupEvent {
-    attendees: number;
     city: string;
     dateTime: string;
     endTime: string;
@@ -41,7 +40,6 @@ async function fetchEvents(): Promise<MeetupEvent[]> {
                 const venue = venues[venueRef] || { city: '', name: '' };
 
                 events.push({
-                    attendees: (eventData.going as Record<string, number>)?.totalCount || 0,
                     city: venue.city,
                     dateTime: (eventData.dateTime as string) || '',
                     endTime: (eventData.endTime as string) || '',
@@ -72,7 +70,7 @@ const events = await fetchEvents();
         >
             Events
         </h2>
-        <div class="space-y-[clamp(2rem,calc(1rem+5vw),4rem)]">
+        <div class="space-y-[clamp(2rem,calc(1.33rem+3.33vw),4rem)]">
             {events.length === 0
                 ? <EventCardEmpty />
                 : events.slice(0, 5).map(event => (
@@ -108,6 +106,22 @@ const events = await fetchEvents();
         -webkit-text-fill-color: transparent;
     }
 
+    .meetup-events__day::before {
+        background: linear-gradient(
+            180deg,
+            rgba(var(--color-indigo), 0.9) 0%,
+            rgba(var(--color-indigo), 0.4) 100%
+        );
+        background-clip: text;
+        content: attr(data-day);
+        inset: 0;
+        opacity: 0;
+        position: absolute;
+        transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .meetup-events__name {
         transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -128,21 +142,5 @@ const events = await fetchEvents();
 
     .meetup-events__card:hover .meetup-events__name {
         color: rgba(var(--color-indigo), 0.9);
-    }
-
-    .meetup-events__day::before {
-        background: linear-gradient(
-            180deg,
-            rgba(var(--color-indigo), 0.9) 0%,
-            rgba(var(--color-indigo), 0.4) 100%
-        );
-        background-clip: text;
-        content: attr(data-day);
-        inset: 0;
-        opacity: 0;
-        position: absolute;
-        transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 </style>
