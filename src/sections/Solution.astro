@@ -25,7 +25,7 @@ const difficultyColor = {
 
 <section class="px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="solution-heading">
     <div class="max-w-6xl mx-auto">
-        <h1 id="solution-heading" class="solution__title mb-[clamp(1.5rem,calc(0.83rem+3.33vw),3rem)] font-bold text-[clamp(1.5rem,calc(0.83rem+3.33vw),3rem)] leading-tight text-zinc-100">
+        <h1 id="solution-heading" class="solution__title mb-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] font-bold text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] leading-tight text-zinc-100">
             {title}
         </h1>
         <div class="solution__code group relative rounded-lg border border-zinc-800 overflow-hidden" aria-label={`${title} source code`} role="region">
@@ -59,12 +59,12 @@ const difficultyColor = {
 </section>
 
 <style>
-    .solution__highlight {
-        background: rgb(var(--rgb-code-bg));
-    }
-
     .solution__copy:hover {
         color: rgba(var(--color-indigo), 0.9);
+    }
+
+    .solution__highlight {
+        background: rgb(var(--rgb-code-bg));
     }
 
     .solution__highlight :global(code) {

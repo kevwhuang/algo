@@ -19,7 +19,7 @@ const contentIgnore = {
 };
 
 const ignores = {
-    ignores: ['.astro/', 'dist/', '.netlify/'],
+    ignores: ['.astro/', '.netlify/', 'dist/'],
 };
 
 const style = stylistic.configs.customize({
