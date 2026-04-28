@@ -31254,5 +31254,69 @@
         "paid": true,
         "slug": "count-smaller-elements-with-opposite-parity",
         "title": "Count Smaller Elements With Opposite Parity"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3908,
+        "paid": false,
+        "slug": "valid-digit-number",
+        "title": "Valid Digit Number"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3909,
+        "paid": false,
+        "slug": "compare-sums-of-bitonic-parts",
+        "title": "Compare Sums of Bitonic Parts"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3910,
+        "paid": false,
+        "slug": "count-connected-subgraphs-with-even-node-sum",
+        "title": "Count Connected Subgraphs with Even Node Sum"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3911,
+        "paid": false,
+        "slug": "k-th-smallest-remaining-even-integer-in-subarray-queries",
+        "title": "K-th Smallest Remaining Even Integer in Subarray Queries"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3912,
+        "paid": false,
+        "slug": "valid-elements-in-an-array",
+        "title": "Valid Elements in an Array"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3913,
+        "paid": false,
+        "slug": "sort-vowels-by-frequency",
+        "title": "Sort Vowels by Frequency"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3914,
+        "paid": false,
+        "slug": "minimum-operations-to-make-array-non-decreasing",
+        "title": "Minimum Operations to Make Array Non Decreasing"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3915,
+        "paid": false,
+        "slug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
+        "title": "Maximum Sum of Alternating Subsequence With Distance at Least K"
     }
 ]
