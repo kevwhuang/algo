@@ -108,9 +108,9 @@ import SearchIcon from '@components/SearchIcon.astro';
 
 <script>
     interface SearchEntry {
-        d: string;
-        i: string;
-        t: string;
+        difficulty: string;
+        id: string;
+        title: string;
     }
 
     const BADGE_STYLES: Record<string, { classes: string; label: string }> = {
@@ -138,6 +138,8 @@ import SearchIcon from '@components/SearchIcon.astro';
     async function loadIndex(): Promise<SearchEntry[]> {
         if (searchIndex) return searchIndex;
         const response = await fetch('/api/search.json');
+        if (!response.ok) return [];
+
         searchIndex = await response.json();
         return searchIndex!;
     }
@@ -148,10 +150,10 @@ import SearchIcon from '@components/SearchIcon.astro';
     }
 
     function sortResults(a: SearchEntry, b: SearchEntry): number {
-        if (a.d === 'ds' && b.d !== 'ds') return -1;
-        if (a.d !== 'ds' && b.d === 'ds') return 1;
-        if (a.d !== 'ds' && b.d !== 'ds') return parseInt(a.i) - parseInt(b.i);
-        return a.t.localeCompare(b.t);
+        if (a.difficulty === 'ds' && b.difficulty !== 'ds') return -1;
+        if (a.difficulty !== 'ds' && b.difficulty === 'ds') return 1;
+        if (a.difficulty !== 'ds' && b.difficulty !== 'ds') return parseInt(a.id) - parseInt(b.id);
+        return a.title.localeCompare(b.title);
     }
 
     function initSearch() {
@@ -232,7 +234,7 @@ import SearchIcon from '@components/SearchIcon.astro';
                 results.innerHTML = '<div class="navbar__result-text px-4 py-2.5 font-mono text-zinc-600">No results</div>';
             } else {
                 results.innerHTML = matches.slice(0, MAX_RESULTS).map((entry, i) =>
-                    `<a id="search-result-${i}" class="navbar__result navbar__result-text flex items-center justify-between px-4 py-2.5 gap-3 text-zinc-300 transition-colors duration-100" href="/${entry.i}" role="option"><span class="truncate">${escapeHtml(entry.t)}</span>${renderBadge(entry.d)}</a>`,
+                    `<a id="search-result-${i}" class="navbar__result navbar__result-text flex items-center justify-between px-4 py-2.5 gap-3 text-zinc-300 transition-colors duration-100" href="/${entry.id}" role="option"><span class="truncate">${escapeHtml(entry.title)}</span>${renderBadge(entry.difficulty)}</a>`,
                 ).join('');
 
                 results.querySelectorAll<HTMLAnchorElement>('.navbar__result').forEach((item, i) => {
@@ -255,7 +257,7 @@ import SearchIcon from '@components/SearchIcon.astro';
             const index = await loadIndex();
             const normalizedQuery = query.toLowerCase();
             const matches = index
-                .filter(entry => entry.t.toLowerCase().includes(normalizedQuery) || entry.i === normalizedQuery)
+                .filter(entry => entry.title.toLowerCase().includes(normalizedQuery) || entry.id === normalizedQuery)
                 .sort(sortResults);
             renderResults(matches);
             showResults();

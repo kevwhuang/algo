@@ -10,14 +10,14 @@ export const GET: APIRoute = async () => {
 
     const index = [
         ...dataStructures.map(entry => ({
-            d: 'ds',
-            i: entry.id,
-            t: entry.data.title,
+            difficulty: 'ds',
+            id: entry.id,
+            title: entry.data.title,
         })),
         ...problems.map(entry => ({
-            d: entry.data.difficulty[0],
-            i: entry.id,
-            t: entry.data.title,
+            difficulty: entry.data.difficulty[0],
+            id: entry.id,
+            title: entry.data.title,
         })),
     ];
 
