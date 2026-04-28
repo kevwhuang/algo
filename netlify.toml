@@ -6,6 +6,11 @@ publish = 'dist'
 command = 'bun run dev'
 port = 8888
 
+[[redirects]]
+from = '/*'
+status = 404
+to = '/error'
+
 [[headers]]
 for = '/*'
 [headers.values]
