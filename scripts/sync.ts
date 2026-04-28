@@ -47,8 +47,8 @@ while (true) {
     });
 
     const { data } = await response.json();
-    const questions = data.problemsetQuestionListV2.questions;
-    if (questions.length === 0) break;
+    const questions = data?.problemsetQuestionListV2?.questions;
+    if (!questions?.length) break;
 
     for (const question of questions) {
         problems.push({
@@ -77,5 +77,3 @@ for (const problem of problems) {
         await Bun.write(`${dir}/${problem.id}${getExt(problem)}`, getContent(problem));
     }
 }
-
-export {};

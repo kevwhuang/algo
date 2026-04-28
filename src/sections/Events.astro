@@ -14,6 +14,8 @@ interface MeetupEvent {
 async function fetchEvents(): Promise<MeetupEvent[]> {
     try {
         const res = await fetch('https://www.meetup.com/algoatx/events');
+        if (!res.ok) throw new Error(`Meetup API ${res.status}`);
+
         const html = await res.text();
         const match = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
         if (!match) return [];
@@ -51,7 +53,8 @@ async function fetchEvents(): Promise<MeetupEvent[]> {
         }
 
         return events.sort((a, b) => new Date(a.dateTime).getTime() - new Date(b.dateTime).getTime());
-    } catch {
+    } catch (error) {
+        console.error('Failed to fetch events:', error);
         return [];
     }
 }
@@ -94,6 +97,24 @@ const events = await fetchEvents();
             border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    .meetup-events__card:hover {
+        background-color: rgba(var(--rgb-white), 0.02);
+        border-color: rgba(var(--color-indigo), 0.3);
+    }
+
+    .meetup-events__card:hover .meetup-events__arrow {
+        color: rgba(var(--color-indigo), 0.6);
+        transform: translateX(4px);
+    }
+
+    .meetup-events__card:hover .meetup-events__day::before {
+        opacity: 1;
+    }
+
+    .meetup-events__card:hover .meetup-events__name {
+        color: rgba(var(--color-indigo), 0.9);
+    }
+
     .meetup-events__day {
         background: linear-gradient(
             180deg,
@@ -124,23 +145,5 @@ const events = await fetchEvents();
 
     .meetup-events__name {
         transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .meetup-events__card:hover {
-        background-color: rgba(var(--rgb-white), 0.02);
-        border-color: rgba(var(--color-indigo), 0.3);
-    }
-
-    .meetup-events__card:hover .meetup-events__arrow {
-        color: rgba(var(--color-indigo), 0.6);
-        transform: translateX(4px);
-    }
-
-    .meetup-events__card:hover .meetup-events__day::before {
-        opacity: 1;
-    }
-
-    .meetup-events__card:hover .meetup-events__name {
-        color: rgba(var(--color-indigo), 0.9);
     }
 </style>
