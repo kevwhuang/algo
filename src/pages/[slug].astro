@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-
-import Base from '@layouts/Base.astro';
+import Layout from '@/Layout.astro';
 import Solution from '@sections/Solution.astro';
 
 interface Props {
@@ -33,9 +32,9 @@ export async function getStaticPaths() {
 }
 ---
 
-<Base
+<Layout
     description={`${title} — algorithm solution and implementation`}
     title={`${title} | Algo`}
 >
     <Solution code={code} difficulty={difficulty} lang={lang} langLabel={langLabel} title={title} />
-</Base>
+</Layout>
