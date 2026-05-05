@@ -31318,5 +31318,45 @@
         "paid": false,
         "slug": "maximum-sum-of-alternating-subsequence-with-distance-at-least-k",
         "title": "Maximum Sum of Alternating Subsequence With Distance at Least K"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3916,
+        "paid": true,
+        "slug": "number-of-zigzag-arrays-iii",
+        "title": "Number of ZigZag Arrays III"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3917,
+        "paid": false,
+        "slug": "count-indices-with-opposite-parity",
+        "title": "Count Indices With Opposite Parity"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3918,
+        "paid": false,
+        "slug": "sum-of-primes-between-number-and-its-reverse",
+        "title": "Sum of Primes Between Number and Its Reverse"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3919,
+        "paid": false,
+        "slug": "minimum-cost-to-move-between-indices",
+        "title": "Minimum Cost to Move Between Indices"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3920,
+        "paid": false,
+        "slug": "maximize-fixed-points-after-deletions",
+        "title": "Maximize Fixed Points After Deletions"
     }
 ]
