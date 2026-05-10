@@ -31358,5 +31358,69 @@
         "paid": false,
         "slug": "maximize-fixed-points-after-deletions",
         "title": "Maximize Fixed Points After Deletions"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3921,
+        "paid": false,
+        "slug": "score-validator",
+        "title": "Score Validator"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3922,
+        "paid": false,
+        "slug": "minimum-flips-to-make-binary-string-coherent",
+        "title": "Minimum Flips to Make Binary String Coherent"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3923,
+        "paid": false,
+        "slug": "minimum-generations-to-target-point",
+        "title": "Minimum Generations to Target Point"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3924,
+        "paid": false,
+        "slug": "minimum-threshold-path-with-limited-heavy-edges",
+        "title": "Minimum Threshold Path With Limited Heavy Edges"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3925,
+        "paid": false,
+        "slug": "concatenate-array-with-reverse",
+        "title": "Concatenate Array With Reverse"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3926,
+        "paid": false,
+        "slug": "count-valid-word-occurrences",
+        "title": "Count Valid Word Occurrences"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3927,
+        "paid": false,
+        "slug": "minimize-array-sum-using-divisible-replacements",
+        "title": "Minimize Array Sum Using Divisible Replacements"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3928,
+        "paid": false,
+        "slug": "minimum-cost-to-buy-apples-ii",
+        "title": "Minimum Cost to Buy Apples II"
     }
 ]
