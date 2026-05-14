@@ -1,13 +1,12 @@
 // 728. Self Dividing Numbers
 
 function selfDividingNumbers(left, right) {
-    const list = [];
-    outer: for (let num = left; num <= right; num++) {
-        const str = num.toString();
-        for (let i = 0; i < str.length; i++) {
-            if (str[i] === '0' || num % str[i]) continue outer;
-        }
-        list.push(num);
+    const res = [];
+    while (left <= right) {
+        let cur = left;
+        while (cur && left % (cur % 10) === 0) cur = cur / 10 >> 0;
+        if (cur === 0) res.push(left);
+        left++;
     }
-    return list;
+    return res;
 }

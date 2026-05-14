@@ -2,17 +2,17 @@
 
 function checkArithmeticSubarrays(nums, l, r) {
     const res = [];
-    loop: for (let i = 0; i < l.length; i++) {
-        const cur = nums.slice(l[i], r[i] + 1);
-        cur.sort((a, b) => a - b);
-        const diff = cur[1] - cur[0];
-        for (let j = 2; j < cur.length; j++) {
-            if (cur[j] - cur[j - 1] !== diff) {
-                res.push(false);
-                continue loop;
-            }
+    for (let i = 0; i < l.length; i++) {
+        const left = l[i], right = r[i];
+        const A = new Uint32Array(right - left + 1);
+        for (let j = left; j <= right; j++) {
+            A[j - left] = nums[j] + 100000;
         }
-        res.push(true);
+        A.sort();
+        const tgt = A[1] - A[0];
+        let j = 2;
+        while (j < A.length && A[j] - A[j - 1] === tgt) j++;
+        res.push(j === A.length);
     }
     return res;
 }

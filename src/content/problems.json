@@ -31422,5 +31422,21 @@
         "paid": false,
         "slug": "minimum-cost-to-buy-apples-ii",
         "title": "Minimum Cost to Buy Apples II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3929,
+        "paid": true,
+        "slug": "minimum-partition-score-ii",
+        "title": "Minimum Partition Score II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3930,
+        "paid": true,
+        "slug": "power-update-after-k-th-largest-insertion-ii",
+        "title": "Power Update After K-th Largest Insertion II"
     }
 ]

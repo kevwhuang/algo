@@ -1,34 +1,20 @@
 // 999. Available Captures for Rook
 
 function numRookCaptures(board) {
-    let row, col;
-    loop: for (let r = 0; r < 8; r++) {
-        for (let c = 0; c < 8; c++) {
-            if (board[r][c] !== 'R') continue;
-            row = r, col = c;
-            break loop;
+    let res = 0;
+    const D = [0, -1, 0, 1, 0];
+    for (let x = 0; x < 8; x++) {
+        for (let y = 0; y < 8; y++) {
+            if (board[x][y] !== 'R') continue;
+            for (let i = 0; i < 4; i++) {
+                let xx = x + D[i], yy = y + D[i + 1];
+                while (~xx && xx < 8 && ~yy && yy < 8) {
+                    const s = board[xx][yy];
+                    if (s === 'B' || s === 'p' && ++res) break;
+                    xx += D[i], yy += D[i + 1];
+                }
+            }
+            return res;
         }
     }
-    let captures = 0;
-    for (let r = row - 1; r >= 0; r--) {
-        if (board[r][col] === '.') continue;
-        if (board[r][col] === 'p') captures++;
-        break;
-    }
-    for (let r = row + 1; r < 8; r++) {
-        if (board[r][col] === '.') continue;
-        if (board[r][col] === 'p') captures++;
-        break;
-    }
-    for (let c = col - 1; c >= 0; c--) {
-        if (board[row][c] === '.') continue;
-        if (board[row][c] === 'p') captures++;
-        break;
-    }
-    for (let c = col + 1; c < 8; c++) {
-        if (board[row][c] === '.') continue;
-        if (board[row][c] === 'p') captures++;
-        break;
-    }
-    return captures;
 }

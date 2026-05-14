@@ -1,22 +1,22 @@
 // 1198. Find Smallest Common Element in All Rows
 
 function smallestCommonElement(mat) {
-    function binarySearch(arr, tgt) {
-        let l = 0, r = width - 1, m;
-        while (l <= r) {
-            m = Math.floor((l + r) / 2);
-            if (arr[m] < tgt) l = m + 1;
-            else if (arr[m] > tgt) r = m - 1;
-            else return true;
+    const M = mat, m = M.length, n = M[0].length;
+    for (let y = 0; y < n; y++) {
+        const tgt = M[0][y];
+        let x = 0;
+        while (++x < m) {
+            const A = M[x];
+            let l = 0, r = n - 1;
+            while (l <= r) {
+                const mm = l + r >> 1;
+                if (M[x][mm] < tgt) l = mm + 1;
+                else if (M[x][mm] > tgt) r = mm - 1;
+                else l = 1000;
+            }
+            if (l !== 1000) break;
         }
-        return false;
-    }
-    const width = mat[0].length;
-    loop: for (let i = 0; i < width; i++) {
-        for (let r = 1; r < mat.length; r++) {
-            if (!binarySearch(mat[r], mat[0][i])) continue loop;
-        }
-        return mat[0][i];
+        if (x === m) return tgt;
     }
     return -1;
 }
