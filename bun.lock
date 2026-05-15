@@ -5,7 +5,7 @@
     "": {
       "name": "algo",
       "dependencies": {
-        "@astrojs/netlify": "^7.0.8",
+        "@astrojs/netlify": "^7.0.9",
         "@astrojs/react": "^5.0.5",
         "@astrojs/sitemap": "^3.7.2",
         "@fontsource/geist-sans": "^5.2.5",
