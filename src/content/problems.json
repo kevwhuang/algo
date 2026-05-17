@@ -31438,5 +31438,37 @@
         "paid": true,
         "slug": "power-update-after-k-th-largest-insertion-ii",
         "title": "Power Update After K-th Largest Insertion II"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3931,
+        "paid": false,
+        "slug": "check-adjacent-digit-differences",
+        "title": "Check Adjacent Digit Differences"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3932,
+        "paid": false,
+        "slug": "count-k-th-roots-in-a-range",
+        "title": "Count K-th Roots in a Range"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3933,
+        "paid": false,
+        "slug": "largest-local-values-in-a-matrix-ii",
+        "title": "Largest Local Values in a Matrix II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3934,
+        "paid": false,
+        "slug": "smallest-unique-subarray",
+        "title": "Smallest Unique Subarray"
     }
 ]

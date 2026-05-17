@@ -1,3 +1,3 @@
-// 3911. K-th Smallest Remaining Even Integer in Subarray Queries
+// 3911. Kth Smallest Remaining Even Integer in Subarray Queries
 
 
