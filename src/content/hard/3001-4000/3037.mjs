@@ -5,7 +5,7 @@ function findPattern(stream, pattern) {
     let i = 0, j = 0;
     while (++i < n) {
         while (j && pattern[i] !== pattern[j]) j = lps[j - 1];
-        if (pattern[i] == pattern[j]) j++;
+        if (pattern[i] === pattern[j]) j++;
         lps.push(j);
     }
     i = 0, j = 0;
