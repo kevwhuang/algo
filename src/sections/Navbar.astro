@@ -74,13 +74,13 @@ import SearchIcon from '@components/SearchIcon.astro';
     }
 
     .navbar__input:focus {
-        background-color: rgba(var(--rgb-zinc-900), 0.8);
-        border-color: rgba(var(--color-indigo), 0.3);
+        background-color: rgb(from var(--color-zinc-900) r g b / 0.8);
+        border-color: rgba(var(--color-cyan), 0.3);
     }
 
     .navbar__input:hover {
-        background-color: rgba(var(--rgb-zinc-900), 0.8);
-        border-color: rgb(var(--rgb-zinc-600));
+        background-color: rgb(from var(--color-zinc-900) r g b / 0.8);
+        border-color: var(--color-zinc-600);
     }
 
     .navbar__logo:hover {
@@ -89,7 +89,7 @@ import SearchIcon from '@components/SearchIcon.astro';
 
     .navbar__result[aria-selected="true"],
     .navbar__result[aria-selected="true"]:hover {
-        background-color: rgba(var(--rgb-zinc-600), 0.3);
+        background-color: rgb(from var(--color-zinc-600) r g b / 0.3);
     }
 
     .navbar__results::-webkit-scrollbar {
@@ -97,7 +97,7 @@ import SearchIcon from '@components/SearchIcon.astro';
     }
 
     .navbar__results::-webkit-scrollbar-thumb {
-        background: rgb(var(--rgb-zinc-600));
+        background: var(--color-zinc-600);
         border-radius: 2px;
     }
 
@@ -114,7 +114,7 @@ import SearchIcon from '@components/SearchIcon.astro';
     }
 
     const BADGE_STYLES: Record<string, { classes: string; label: string }> = {
-        ds: { classes: 'bg-indigo-500/15 text-indigo-400', label: 'DS' },
+        ds: { classes: 'bg-cyan-500/15 text-cyan-400', label: 'DS' },
         e: { classes: 'bg-emerald-500/15 text-emerald-400', label: 'easy' },
         h: { classes: 'bg-red-500/15 text-red-400', label: 'hard' },
         m: { classes: 'bg-amber-500/15 text-amber-400', label: 'medium' },
