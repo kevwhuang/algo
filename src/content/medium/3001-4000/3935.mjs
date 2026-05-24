@@ -1,4 +1,4 @@
-// 3930. Power Update After Kth Largest Insertion II
+// 3935. Power Update After Kth Largest Insertion I
 
 function powerUpdate(nums, p, queries) {
     if (!this.tree) tree = new Uint16Array(1 << 17);

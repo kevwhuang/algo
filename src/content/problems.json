@@ -31470,5 +31470,45 @@
         "paid": false,
         "slug": "smallest-unique-subarray",
         "title": "Smallest Unique Subarray"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3935,
+        "paid": true,
+        "slug": "power-update-after-k-th-largest-insertion-i",
+        "title": "Power Update After K-th Largest Insertion I"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3936,
+        "paid": false,
+        "slug": "minimum-swaps-to-move-zeros-to-end",
+        "title": "Minimum Swaps to Move Zeros to End"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3937,
+        "paid": false,
+        "slug": "minimum-operations-to-make-array-modulo-alternating-i",
+        "title": "Minimum Operations to Make Array Modulo Alternating I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3938,
+        "paid": false,
+        "slug": "maximum-path-intersection-sum-in-a-grid",
+        "title": "Maximum Path Intersection Sum in a Grid"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3939,
+        "paid": false,
+        "slug": "count-non-adjacent-subsets-in-a-rooted-tree",
+        "title": "Count Non Adjacent Subsets in a Rooted Tree"
     }
 ]
