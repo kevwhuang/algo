@@ -31510,5 +31510,37 @@
         "paid": false,
         "slug": "count-non-adjacent-subsets-in-a-rooted-tree",
         "title": "Count Non Adjacent Subsets in a Rooted Tree"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3940,
+        "paid": false,
+        "slug": "limit-occurrences-in-sorted-array",
+        "title": "Limit Occurrences in Sorted Array"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3941,
+        "paid": false,
+        "slug": "password-strength",
+        "title": "Password Strength"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3942,
+        "paid": false,
+        "slug": "minimum-operations-to-sort-a-permutation",
+        "title": "Minimum Operations to Sort a Permutation"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3943,
+        "paid": false,
+        "slug": "number-of-pairs-after-increment",
+        "title": "Number of Pairs After Increment"
     }
 ]
