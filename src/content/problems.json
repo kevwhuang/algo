@@ -31542,5 +31542,53 @@
         "paid": false,
         "slug": "number-of-pairs-after-increment",
         "title": "Number of Pairs After Increment"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3944,
+        "paid": true,
+        "slug": "minimum-operations-to-make-array-modulo-alternating-ii",
+        "title": "Minimum Operations to Make Array Modulo Alternating II"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3945,
+        "paid": false,
+        "slug": "digit-frequency-score",
+        "title": "Digit Frequency Score"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3946,
+        "paid": false,
+        "slug": "maximum-number-of-items-from-sale-i",
+        "title": "Maximum Number of Items From Sale I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3947,
+        "paid": false,
+        "slug": "maximum-number-of-items-from-sale-ii",
+        "title": "Maximum Number of Items From Sale II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3948,
+        "paid": false,
+        "slug": "lexicographically-maximum-mex-array",
+        "title": "Lexicographically Maximum MEX Array"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3949,
+        "paid": true,
+        "slug": "subtree-inversion-sum-ii",
+        "title": "Subtree Inversion Sum II"
     }
 ]
