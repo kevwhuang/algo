@@ -34,7 +34,6 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await expect(results).toHaveClass(/opacity-100/);
-
         await page.keyboard.press('Escape');
         await expect(results).toHaveClass(/opacity-0/);
         await expect(input).toHaveValue('');
@@ -45,7 +44,6 @@ test.describe('search', () => {
 
         await page.keyboard.press('/');
         await expect(input).toBeFocused();
-
         await page.keyboard.press('/');
         await expect(input).not.toBeFocused();
     });
@@ -65,7 +63,6 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await expect(results.locator('#search-result-0')).toHaveAttribute('aria-selected', 'true');
-
         await page.keyboard.press('ArrowDown');
         await expect(results.locator('#search-result-1')).toHaveAttribute('aria-selected', 'true');
         await expect(results.locator('[aria-selected="true"]')).toHaveCount(1);
@@ -77,10 +74,10 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await expect(results.locator('#search-result-0')).toHaveAttribute('aria-selected', 'true');
-
         await page.keyboard.press('ArrowUp');
-        const items = results.locator('.navbar__result');
-        const count = await items.count();
+
+        const count = await results.locator('.navbar__result').count();
+
         await expect(results.locator(`#search-result-${count - 1}`)).toHaveAttribute('aria-selected', 'true');
     });
 
@@ -90,7 +87,6 @@ test.describe('search', () => {
         await input.fill('two sum');
         await page.keyboard.press('Enter');
         await page.waitForURL(/\/\d+/);
-
         await expect(page).toHaveTitle(/\| Algo/);
     });
 
@@ -109,7 +105,6 @@ test.describe('search', () => {
         await input.fill('two sum');
         await results.locator('a').first().click();
         await page.waitForURL(/\/\d+/);
-
         await expect(page).toHaveTitle(/\| Algo/);
     });
 });

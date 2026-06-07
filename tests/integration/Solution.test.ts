@@ -3,7 +3,7 @@ import { describe, expect, test } from 'vitest';
 
 import Solution from '../../src/sections/Solution.astro';
 
-const props = {
+const PROPS = {
     code: 'function twoSum(nums, target) {\n    const map = new Map();\n    return [];\n}\n',
     lang: 'javascript',
     langLabel: 'JavaScript',
@@ -13,14 +13,14 @@ const props = {
 describe('Solution', () => {
     test('renders title as h1', async () => {
         const container = await AstroContainer.create();
-        const html = await container.renderToString(Solution, { props });
+        const html = await container.renderToString(Solution, { props: PROPS });
 
         expect(html).toMatch(/<h1[^>]*>[\s]*1\. Two Sum[\s]*<\/h1>/);
     });
 
     test('renders language badge', async () => {
         const container = await AstroContainer.create();
-        const html = await container.renderToString(Solution, { props });
+        const html = await container.renderToString(Solution, { props: PROPS });
 
         expect(html).toContain('JavaScript');
     });
@@ -28,7 +28,7 @@ describe('Solution', () => {
     test('renders difficulty badge when provided', async () => {
         const container = await AstroContainer.create();
         const html = await container.renderToString(Solution, {
-            props: { ...props, difficulty: 'easy' },
+            props: { ...PROPS, difficulty: 'easy' },
         });
 
         expect(html).toContain('Easy');
@@ -36,7 +36,7 @@ describe('Solution', () => {
 
     test('renders code in accessible pre element', async () => {
         const container = await AstroContainer.create();
-        const html = await container.renderToString(Solution, { props });
+        const html = await container.renderToString(Solution, { props: PROPS });
 
         expect(html).toMatch(/<pre class="sr-only"[^>]*>/);
         expect(html).toContain('function twoSum');
@@ -44,7 +44,7 @@ describe('Solution', () => {
 
     test('renders copy button', async () => {
         const container = await AstroContainer.create();
-        const html = await container.renderToString(Solution, { props });
+        const html = await container.renderToString(Solution, { props: PROPS });
 
         expect(html).toContain('aria-label="Copy code"');
         expect(html).toContain('Copy');
@@ -52,14 +52,14 @@ describe('Solution', () => {
 
     test('renders copy status region', async () => {
         const container = await AstroContainer.create();
-        const html = await container.renderToString(Solution, { props });
+        const html = await container.renderToString(Solution, { props: PROPS });
 
         expect(html).toContain('aria-live="polite"');
     });
 
     test('renders source code region with aria-label', async () => {
         const container = await AstroContainer.create();
-        const html = await container.renderToString(Solution, { props });
+        const html = await container.renderToString(Solution, { props: PROPS });
 
         expect(html).toContain('aria-label="1. Two Sum source code"');
     });

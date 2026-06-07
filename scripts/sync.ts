@@ -1,15 +1,8 @@
 import { getExt, getRange } from './utils';
 
-interface Problem {
-    database: boolean;
-    difficulty: string;
-    id: number;
-    paid: boolean;
-    slug: string;
-    title: string;
-}
-
+const INDENT = 4;
 const PAGE_SIZE = 100;
+
 const QUERY = `
     query ($skip: Int!, $limit: Int!) {
         problemsetQuestionListV2(
@@ -30,13 +23,8 @@ const QUERY = `
     }
 `;
 
-function getContent(problem: Problem): string {
-    const ext = getExt(problem);
-    const comment = ext.includes('.sql') ? '--' : '//';
-    return `${comment} ${problem.id}. ${problem.title}\n\n\n`;
-}
-
 const problems: Problem[] = [];
+
 let skip = 0;
 
 while (true) {
@@ -47,7 +35,9 @@ while (true) {
     });
 
     const { data } = await response.json();
+
     const questions = data?.problemsetQuestionListV2?.questions;
+
     if (!questions?.length) break;
 
     for (const question of questions) {
@@ -65,15 +55,25 @@ while (true) {
 }
 
 problems.sort((a, b) => a.id - b.id);
-await Bun.write('src/content/problems.json', JSON.stringify(problems, null, 4));
+await Bun.write('src/content/problems.json', JSON.stringify(problems, null, INDENT));
 
 for (const problem of problems) {
     const range = getRange(problem.id);
-    const dir = `src/content/${problem.difficulty}/${range}`;
-    const pattern = new Bun.Glob(`${problem.id}.*`);
-    const matches = [...pattern.scanSync(dir)];
+
+    const directory = `src/content/${problem.difficulty}/${range}`;
+    const glob = new Bun.Glob(`${problem.id}.*`);
+
+    const matches = [...glob.scanSync(directory)];
 
     if (matches.length === 0) {
-        await Bun.write(`${dir}/${problem.id}${getExt(problem)}`, getContent(problem));
+        const extension = getExt(problem);
+
+        const prefix = extension.includes('.sql') ? '--' : '//';
+
+        const content = `${prefix} ${problem.id}. ${problem.title}\n\n\n`;
+
+        const filepath = `${directory}/${problem.id}${extension}`;
+
+        await Bun.write(filepath, content);
     }
 }

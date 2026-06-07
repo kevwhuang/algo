@@ -31590,5 +31590,69 @@
         "paid": true,
         "slug": "subtree-inversion-sum-ii",
         "title": "Subtree Inversion Sum II"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3950,
+        "paid": false,
+        "slug": "exactly-one-consecutive-set-bits-pair",
+        "title": "Exactly One Consecutive Set Bits Pair"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3951,
+        "paid": false,
+        "slug": "minimum-energy-to-maintain-brightness",
+        "title": "Minimum Energy to Maintain Brightness"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3952,
+        "paid": false,
+        "slug": "maximum-total-value-of-covered-indices",
+        "title": "Maximum Total Value of Covered Indices"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3953,
+        "paid": false,
+        "slug": "maximum-score-with-co-prime-element",
+        "title": "Maximum Score with Co-Prime Element"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3954,
+        "paid": false,
+        "slug": "sum-of-compatible-numbers-in-range-i",
+        "title": "Sum of Compatible Numbers in Range I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3955,
+        "paid": false,
+        "slug": "valid-binary-strings-with-cost-limit",
+        "title": "Valid Binary Strings With Cost Limit"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3956,
+        "paid": false,
+        "slug": "maximum-sum-of-m-non-overlapping-subarrays-i",
+        "title": "Maximum Sum of M Non-Overlapping Subarrays I"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3957,
+        "paid": false,
+        "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
+        "title": "Maximum Sum of M Non-Overlapping Subarrays II"
     }
 ]

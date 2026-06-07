@@ -11,11 +11,13 @@ test.describe('index page', () => {
 
     test('navbar renders home link', async ({ page }) => {
         const link = page.locator('a[aria-label="Home"]');
+
         await expect(link).toHaveAttribute('href', '/');
     });
 
     test('navbar renders search input', async ({ page }) => {
         const input = page.locator('#search-input');
+
         await expect(input).toHaveAttribute('aria-label', 'Search problems');
     });
 
@@ -26,22 +28,26 @@ test.describe('index page', () => {
 
     test('displays progress heading', async ({ page }) => {
         const heading = page.locator('#progress-heading');
+
         await expect(heading).toHaveText('Progress');
     });
 
     test('renders all three difficulty bars', async ({ page }) => {
         const bars = page.locator('.progress__bar');
+
         await expect(bars).toHaveCount(3);
     });
 
     test('displays events heading', async ({ page }) => {
         const heading = page.locator('#events-heading');
+
         await expect(heading).toHaveText('Events');
     });
 
     test('footer displays current year', async ({ page }) => {
-        const year = new Date().getFullYear().toString();
         const footer = page.locator('footer');
+        const year = new Date().getFullYear().toString();
+
         await expect(footer).toContainText(year);
         await expect(footer).toContainText('Aephonics');
     });

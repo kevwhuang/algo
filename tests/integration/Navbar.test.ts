@@ -63,6 +63,7 @@ describe('Navbar', () => {
     test('external links open in new tab', async () => {
         const container = await AstroContainer.create();
         const html = await container.renderToString(Navbar);
+
         const externalLinks = html.match(/target="_blank"/g);
 
         expect(externalLinks?.length).toBe(2);

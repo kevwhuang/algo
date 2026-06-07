@@ -6,20 +6,21 @@ import ts from 'typescript-eslint';
 
 import content from './eslint.content.ts';
 
-const astroOverrides = {
-    files: ['**/*.astro', '**/*.astro/*.ts'],
-    rules: {
-        '@stylistic/jsx-one-expression-per-line': 'off',
-        '@stylistic/operator-linebreak': 'off',
-    },
-};
-
 const contentIgnore = {
     ignores: ['src/content/**'],
 };
 
 const ignores = {
     ignores: ['.astro/', '.netlify/', 'dist/'],
+};
+
+const overrides = {
+    files: ['**/*.astro', '**/*.astro/*.ts'],
+    languageOptions: { globals: {} },
+    rules: {
+        '@stylistic/jsx-one-expression-per-line': 'off',
+        '@stylistic/operator-linebreak': 'off',
+    },
 };
 
 const style = stylistic.configs.customize({
@@ -36,6 +37,6 @@ export default [
     ...ts.configs.recommended.map(c => ({ ...c, ...contentIgnore })),
     ...astro.configs.recommended.map(c => ({ ...c, ...contentIgnore })),
     { ...a11y.flatConfigs.recommended, ...contentIgnore },
-    astroOverrides,
+    overrides,
     ...content,
 ];

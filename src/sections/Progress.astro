@@ -12,7 +12,7 @@ interface DifficultyStats {
 const MIN_SOLUTION_LINES = 3;
 const PERCENT = 100;
 
-function countCompleted(dir: string): { completed: number; total: number } {
+function countCompleted(dir: string) {
     let completed = 0;
     let total = 0;
 
@@ -33,17 +33,17 @@ function countCompleted(dir: string): { completed: number; total: number } {
 
 const stats: DifficultyStats[] = [
     {
-        cssVar: 'var(--color-easy)',
+        cssVar: '--color-easy',
         label: 'Easy',
         ...countCompleted('src/content/easy'),
     },
     {
-        cssVar: 'var(--color-medium)',
+        cssVar: '--color-medium',
         label: 'Medium',
         ...countCompleted('src/content/medium'),
     },
     {
-        cssVar: 'var(--color-hard)',
+        cssVar: '--color-hard',
         label: 'Hard',
         ...countCompleted('src/content/hard'),
     },
@@ -53,7 +53,7 @@ const stats: DifficultyStats[] = [
 <section class="progress px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="progress-heading">
     <div class="max-w-6xl mx-auto">
         <h1 class="sr-only">Algo</h1>
-        <h2 id="progress-heading" class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200/85">
+        <h2 id="progress-heading" class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200">
             Progress
         </h2>
         <div class="space-y-[clamp(2rem,calc(1.5rem+2.5vw),3.5rem)]">
@@ -62,11 +62,11 @@ const stats: DifficultyStats[] = [
                 return (
                     <div>
                         <div class="flex items-baseline justify-between mb-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)]">
-                            <span class="font-semibold text-[clamp(1.125rem,calc(0.79rem+1.67vw),2.125rem)]" style={`color: rgb(${cssVar})`}>
+                            <span class="font-semibold text-[clamp(1.125rem,calc(0.79rem+1.67vw),2.125rem)]" style={`color: var(${cssVar})`}>
                                 {label}
                             </span>
                             <span class="font-mono text-[clamp(1rem,calc(0.83rem+0.83vw),1.5rem)]">
-                                {completed}<span class="text-zinc-500">/{total}</span>
+                                {completed}<span class="text-zinc-400">/{total}</span>
                             </span>
                         </div>
                         <div
@@ -76,12 +76,12 @@ const stats: DifficultyStats[] = [
                             aria-valuemin={0}
                             aria-valuenow={completed}
                             role="progressbar"
-                            style={`background: rgba(${cssVar}, 0.15)`}
+                            style={`background: var(${cssVar}-15)`}
                         >
                             <div
                                 class="progress__bar h-full rounded-full"
                                 data-width={percent}
-                                style={`width: 0%; background: linear-gradient(90deg, rgb(${cssVar}), color-mix(in srgb, rgb(${cssVar}) 70%, white)); box-shadow: 0 0 12px rgba(${cssVar}, 0.15)`}
+                                style={`width: 0%; background: linear-gradient(90deg, var(${cssVar}), color-mix(in srgb, var(${cssVar}) 70%, white)); box-shadow: 0 0 12px var(${cssVar}-15)`}
                             />
                         </div>
                     </div>

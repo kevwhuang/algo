@@ -11,7 +11,7 @@ interface MeetupEvent {
     venue: string;
 }
 
-async function fetchEvents(): Promise<MeetupEvent[]> {
+async function fetchEvents() {
     try {
         const res = await fetch('https://www.meetup.com/algoatx/events');
         if (!res.ok) throw new Error(`Meetup API ${res.status}`);
@@ -69,7 +69,7 @@ const events = await fetchEvents();
     <div class="max-w-6xl mx-auto">
         <h2
             id="events-heading"
-            class="meetup-events__title mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200/85"
+            class="meetup-events__title mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200"
         >
             Events
         </h2>
@@ -98,12 +98,12 @@ const events = await fetchEvents();
     }
 
     .meetup-events__card:hover {
-        background-color: rgb(from var(--color-white) r g b / 0.02);
-        border-color: rgba(var(--color-cyan), 0.3);
+        background-color: var(--color-white-5);
+        border-color: var(--color-cyan-30);
     }
 
     .meetup-events__card:hover .meetup-events__arrow {
-        color: rgba(var(--color-cyan), 0.6);
+        color: var(--color-cyan-60);
         transform: translateX(4px);
     }
 
@@ -112,15 +112,11 @@ const events = await fetchEvents();
     }
 
     .meetup-events__card:hover .meetup-events__name {
-        color: rgba(var(--color-cyan), 0.9);
+        color: var(--color-cyan-90);
     }
 
     .meetup-events__day {
-        background: linear-gradient(
-            180deg,
-            rgb(from var(--color-white) r g b / 0.85) 0%,
-            rgb(from var(--color-white) r g b / 0.4) 100%
-        );
+        background: linear-gradient(180deg, var(--color-white-85) 0%, var(--color-white-40) 100%);
         background-clip: text;
         position: relative;
         -webkit-background-clip: text;
@@ -128,11 +124,7 @@ const events = await fetchEvents();
     }
 
     .meetup-events__day::before {
-        background: linear-gradient(
-            180deg,
-            rgba(var(--color-cyan), 0.9) 0%,
-            rgba(var(--color-cyan), 0.4) 100%
-        );
+        background: linear-gradient(180deg, var(--color-cyan-90) 0%, var(--color-cyan-40) 100%);
         background-clip: text;
         content: attr(data-day);
         inset: 0;

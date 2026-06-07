@@ -1,17 +1,9 @@
-import { defineCollection, z } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 
 import type { Loader } from 'astro/loaders';
-
-interface Problem {
-    database: boolean;
-    difficulty: string;
-    id: number;
-    paid: boolean;
-    slug: string;
-    title: string;
-}
 
 const extLabel: Record<string, string> = {
     cjs: 'JavaScript',

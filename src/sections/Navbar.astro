@@ -1,23 +1,23 @@
 ---
-import LeetCodeIcon from '@components/LeetCodeIcon.astro';
-import LogoIcon from '@components/LogoIcon.astro';
-import MeetupIcon from '@components/MeetupIcon.astro';
-import SearchIcon from '@components/SearchIcon.astro';
+import IconLeetCode from '@components/IconLeetCode.astro';
+import IconLogo from '@components/IconLogo.astro';
+import IconMeetup from '@components/IconMeetup.astro';
+import IconSearch from '@components/IconSearch.astro';
 ---
 
-<nav class="navbar fixed top-0 z-50 w-full border-b border-zinc-800/50 bg-zinc-950/80 backdrop-blur-md">
+<nav class="navbar fixed top-0 z-50 w-full border-b border-zinc-900 bg-zinc-950 backdrop-blur-md">
     <div class="flex items-center justify-between max-w-7xl mx-auto px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)]">
         <a
             class="navbar__logo transition-opacity duration-300"
             aria-label="Home"
             href="/"
         >
-            <LogoIcon />
+            <IconLogo />
         </a>
         <div class="navbar__search relative flex-1 max-w-xl mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <input
                 id="search-input"
-                class="navbar__input w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-900/50 text-zinc-300 placeholder-zinc-600 outline-none transition-colors duration-300"
+                class="navbar__input w-full px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] pl-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] rounded-lg border border-zinc-800 font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-950 text-zinc-300 placeholder-zinc-600 outline-none transition-colors duration-300"
                 aria-autocomplete="list"
                 aria-controls="search-results"
                 aria-expanded="false"
@@ -27,7 +27,7 @@ import SearchIcon from '@components/SearchIcon.astro';
                 role="combobox"
                 type="text"
             />
-            <SearchIcon />
+            <IconSearch />
             <kbd class="hidden absolute right-3.5 top-1/2 px-2 py-1 rounded border border-zinc-700 font-mono text-xs text-zinc-600 -translate-y-1/2 pointer-events-none select-none sm:inline-block" aria-hidden="true">/</kbd>
             <div
                 id="search-results"
@@ -41,19 +41,17 @@ import SearchIcon from '@components/SearchIcon.astro';
                 class="transition-opacity duration-300 hover:opacity-80"
                 aria-label="Meetup (opens in new tab)"
                 href="https://meetup.com/algoatx"
-                rel="noopener noreferrer"
                 target="_blank"
             >
-                <MeetupIcon />
+                <IconMeetup />
             </a>
             <a
                 class="transition-opacity duration-300 hover:opacity-80"
                 aria-label="LeetCode (opens in new tab)"
                 href="https://leetcode.com/u/aephonics"
-                rel="noopener noreferrer"
                 target="_blank"
             >
-                <LeetCodeIcon />
+                <IconLeetCode />
             </a>
         </div>
     </div>
@@ -74,12 +72,12 @@ import SearchIcon from '@components/SearchIcon.astro';
     }
 
     .navbar__input:focus {
-        background-color: rgb(from var(--color-zinc-900) r g b / 0.8);
-        border-color: rgba(var(--color-cyan), 0.3);
+        background-color: var(--color-zinc-900);
+        border-color: var(--color-cyan-30);
     }
 
     .navbar__input:hover {
-        background-color: rgb(from var(--color-zinc-900) r g b / 0.8);
+        background-color: var(--color-zinc-900);
         border-color: var(--color-zinc-600);
     }
 
@@ -89,7 +87,7 @@ import SearchIcon from '@components/SearchIcon.astro';
 
     .navbar__result[aria-selected="true"],
     .navbar__result[aria-selected="true"]:hover {
-        background-color: rgb(from var(--color-zinc-600) r g b / 0.3);
+        background-color: var(--color-zinc-800);
     }
 
     .navbar__results::-webkit-scrollbar {
@@ -114,10 +112,10 @@ import SearchIcon from '@components/SearchIcon.astro';
     }
 
     const BADGE_STYLES: Record<string, { classes: string; label: string }> = {
-        ds: { classes: 'bg-cyan-500/15 text-cyan-400', label: 'DS' },
-        e: { classes: 'bg-emerald-500/15 text-emerald-400', label: 'easy' },
-        h: { classes: 'bg-red-500/15 text-red-400', label: 'hard' },
-        m: { classes: 'bg-amber-500/15 text-amber-400', label: 'medium' },
+        ds: { classes: 'bg-cyan-15 text-cyan', label: 'DS' },
+        e: { classes: 'bg-easy-15 text-easy', label: 'easy' },
+        h: { classes: 'bg-hard-15 text-hard', label: 'hard' },
+        m: { classes: 'bg-medium-15 text-medium', label: 'medium' },
     };
 
     const MAX_RESULTS = 20;
@@ -127,7 +125,7 @@ import SearchIcon from '@components/SearchIcon.astro';
     let pointerInResults = false;
     let searchIndex: SearchEntry[] | null = null;
 
-    function escapeHtml(text: string): string {
+    function escapeHtml(text: string) {
         return text
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
@@ -135,7 +133,7 @@ import SearchIcon from '@components/SearchIcon.astro';
             .replace(/"/g, '&quot;');
     }
 
-    async function loadIndex(): Promise<SearchEntry[]> {
+    async function loadIndex() {
         if (searchIndex) return searchIndex;
         const response = await fetch('/api/search.json');
         if (!response.ok) return [];
@@ -144,12 +142,12 @@ import SearchIcon from '@components/SearchIcon.astro';
         return searchIndex!;
     }
 
-    function renderBadge(type: string): string {
+    function renderBadge(type: string) {
         const badge = BADGE_STYLES[type] ?? BADGE_STYLES.h;
         return `<span class="navbar__badge hidden px-2 py-0.5 rounded-full uppercase tracking-wider sm:inline-block ${badge.classes}">${badge.label}</span>`;
     }
 
-    function sortResults(a: SearchEntry, b: SearchEntry): number {
+    function sortResults(a: SearchEntry, b: SearchEntry) {
         if (a.difficulty === 'ds' && b.difficulty !== 'ds') return -1;
         if (a.difficulty !== 'ds' && b.difficulty === 'ds') return 1;
         if (a.difficulty !== 'ds' && b.difficulty !== 'ds') return parseInt(a.id) - parseInt(b.id);
