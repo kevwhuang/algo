@@ -4,22 +4,30 @@
 
 <a
     class="meetup-events__card group block p-[clamp(1.5rem,calc(0.67rem+4.17vw),4rem)] border border-white-10"
-    aria-label="No upcoming events — visit us on Meetup (opens in new tab)"
+    aria-label="No upcoming events &mdash; visit us on Meetup (opens in new tab)"
     data-scroll="up"
     href="https://meetup.com/algoatx"
     target="_blank"
 >
     <div class="flex flex-col gap-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] md:flex-row md:items-center">
-        <div class="flex flex-col items-center shrink-0 border-white-10 text-center md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)] md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)]">
-            <span class="meetup-events__day font-bold text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)] leading-tight" data-day="—">
-                —
+        <div class="flex flex-col items-center shrink-0 border-white-10 text-center md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)] md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)]">
+            <span
+                class="meetup-events__day font-bold leading-tight text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)]"
+                data-day="&mdash;"
+            >
+                &mdash;
             </span>
         </div>
-        <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] text-center md:text-left md:space-y-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)]">
-            <h3 class="meetup-events__name font-semibold text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-center leading-snug text-zinc-200 md:text-left">
+        <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] text-center md:space-y-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] md:text-left">
+            <h3 class="meetup-events__name font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-center text-zinc-200 duration-300 transition-colors md:text-left">
                 No upcoming events
             </h3>
         </div>
-        <span class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-700 select-none transition-[color,transform] duration-300 md:block" aria-hidden="true">→</span>
+        <span
+            class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-700 duration-300 transition-[color,transform] select-none md:block"
+            aria-hidden="true"
+        >
+            &rarr;
+        </span>
     </div>
 </a>

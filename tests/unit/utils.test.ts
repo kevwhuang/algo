@@ -1,22 +1,22 @@
 import { describe, expect, test } from 'vitest';
 
-import { getExt, getRange } from '../../scripts/utils';
+import { getExtension, getRange } from '../../scripts/utils';
 
-describe('getExt', () => {
+describe('getExtension', () => {
     test('returns .js for free non-database problem', () => {
-        expect(getExt({ database: false, difficulty: 'easy', id: 1, paid: false, slug: 'two-sum', title: 'Two Sum' })).toBe('.js');
+        expect(getExtension({ database: false, difficulty: 'easy', id: 1, paid: false, slug: 'two-sum', title: 'Two Sum' })).toBe('.js');
     });
 
     test('returns .mjs for paid non-database problem', () => {
-        expect(getExt({ database: false, difficulty: 'easy', id: 2, paid: true, slug: 'test', title: 'Test' })).toBe('.mjs');
+        expect(getExtension({ database: false, difficulty: 'easy', id: 2, paid: true, slug: 'test', title: 'Test' })).toBe('.mjs');
     });
 
     test('returns .sql for free database problem', () => {
-        expect(getExt({ database: true, difficulty: 'easy', id: 3, paid: false, slug: 'test', title: 'Test' })).toBe('.sql');
+        expect(getExtension({ database: true, difficulty: 'easy', id: 3, paid: false, slug: 'test', title: 'Test' })).toBe('.sql');
     });
 
     test('returns .p.sql for paid database problem', () => {
-        expect(getExt({ database: true, difficulty: 'easy', id: 4, paid: true, slug: 'test', title: 'Test' })).toBe('.p.sql');
+        expect(getExtension({ database: true, difficulty: 'easy', id: 4, paid: true, slug: 'test', title: 'Test' })).toBe('.p.sql');
     });
 });
 

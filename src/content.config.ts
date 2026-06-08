@@ -5,7 +5,7 @@ import { z } from 'astro/zod';
 
 import type { Loader } from 'astro/loaders';
 
-const extLabel: Record<string, string> = {
+const extensionLabel: Record<string, string> = {
     cjs: 'JavaScript',
     java: 'Java',
     js: 'JavaScript',
@@ -19,34 +19,39 @@ const extLabel: Record<string, string> = {
 function dataStructuresLoader(): Loader {
     return {
         load: async ({ generateDigest, store, watcher }) => {
-            const dsDir = 'src/content/data-structures';
+            const directory = 'src/content/data-structures';
 
             store.clear();
 
-            for (const file of fs.readdirSync(dsDir)) {
+            for (const file of fs.readdirSync(directory)) {
                 if (file.startsWith('.')) continue;
-                const filePath = path.join(dsDir, file);
-                const ext = file.split('.').pop() ?? 'js';
-                const code = fs.readFileSync(filePath, 'utf-8');
+
+                const extension = file.split('.').pop() ?? 'js';
+                const filePath = path.join(directory, file);
                 const name = file.replace(/\.(js|mjs)$/, '');
+
+                const code = fs.readFileSync(filePath, 'utf-8');
                 const slug = name.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 
                 store.set({
                     data: {
                         code,
-                        lang: (extLabel[ext] ?? ext).toLowerCase(),
-                        langLabel: extLabel[ext] ?? ext.toUpperCase(),
+                        lang: (extensionLabel[extension] ?? extension).toLowerCase(),
+                        langLabel: extensionLabel[extension] ?? extension.toUpperCase(),
                         title: name.replace(/([a-z])([A-Z])/g, '$1 $2'),
                     },
+
                     digest: generateDigest(code),
                     filePath,
                     id: slug,
                 });
             }
 
-            watcher?.add(dsDir);
+            watcher?.add(directory);
         },
+
         name: 'data-structures-loader',
+
         schema: z.object({
             code: z.string(),
             lang: z.string(),
@@ -59,34 +64,39 @@ function dataStructuresLoader(): Loader {
 function problemsLoader(): Loader {
     return {
         load: async ({ generateDigest, store, watcher }) => {
-            const contentDir = 'src/content';
+            const directory = 'src/content';
             const manifest: Problem[] = JSON.parse(
-                fs.readFileSync(path.join(contentDir, 'problems.json'), 'utf-8'),
+                fs.readFileSync(path.join(directory, 'problems.json'), 'utf-8'),
             );
             const problemMap = new Map(manifest.map(problem => [problem.id, problem]));
 
             store.clear();
 
             for (const difficulty of ['easy', 'medium', 'hard']) {
-                const diffDir = path.join(contentDir, difficulty);
-                if (!fs.existsSync(diffDir)) continue;
+                const difficultyDirectory = path.join(directory, difficulty);
 
-                for (const sub of fs.readdirSync(diffDir)) {
-                    const subDir = path.join(diffDir, sub);
-                    if (!fs.statSync(subDir).isDirectory()) continue;
+                if (!fs.existsSync(difficultyDirectory)) continue;
 
-                    for (const file of fs.readdirSync(subDir)) {
+                for (const subdirectoryName of fs.readdirSync(difficultyDirectory)) {
+                    const subdirectory = path.join(difficultyDirectory, subdirectoryName);
+
+                    if (!fs.statSync(subdirectory).isDirectory()) continue;
+
+                    for (const file of fs.readdirSync(subdirectory)) {
                         if (file.startsWith('.')) continue;
-                        const filePath = path.join(subDir, file);
-                        const ext = file.split('.').pop() ?? 'js';
-                        const code = fs.readFileSync(filePath, 'utf-8');
-                        const num = parseInt(file);
-                        if (isNaN(num)) continue;
 
-                        const problem = problemMap.get(num);
+                        const extension = file.split('.').pop() ?? 'js';
+                        const filePath = path.join(subdirectory, file);
+                        const number = parseInt(file);
+
+                        if (isNaN(number)) continue;
+
+                        const code = fs.readFileSync(filePath, 'utf-8');
+                        const problem = problemMap.get(number);
+
                         const commentMatch = code.match(/^(?:\/\/|--|#)\s*(\d+)\.\s*(.+)/);
 
-                        let title = `Problem ${num}`;
+                        let title = `Problem ${number}`;
 
                         if (commentMatch) {
                             title = `${commentMatch[1]}. ${commentMatch[2].trim()}`;
@@ -98,21 +108,24 @@ function problemsLoader(): Loader {
                             data: {
                                 code,
                                 difficulty,
-                                lang: (extLabel[ext] ?? ext).toLowerCase(),
-                                langLabel: extLabel[ext] ?? ext.toUpperCase(),
+                                lang: (extensionLabel[extension] ?? extension).toLowerCase(),
+                                langLabel: extensionLabel[extension] ?? extension.toUpperCase(),
                                 title,
                             },
+
                             digest: generateDigest(code),
                             filePath,
-                            id: String(num),
+                            id: String(number),
                         });
                     }
                 }
             }
 
-            watcher?.add(path.join(contentDir, '{easy,medium,hard}/**/*'));
+            watcher?.add(path.join(directory, '{easy,medium,hard}/**/*'));
         },
+
         name: 'problems-loader',
+
         schema: z.object({
             code: z.string(),
             difficulty: z.string(),

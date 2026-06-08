@@ -27,7 +27,7 @@ test.describe('index page', () => {
     });
 
     test('displays progress heading', async ({ page }) => {
-        const heading = page.locator('#progress-heading');
+        const heading = page.locator('section[aria-label="Progress"] h2');
 
         await expect(heading).toHaveText('Progress');
     });
@@ -39,7 +39,7 @@ test.describe('index page', () => {
     });
 
     test('displays events heading', async ({ page }) => {
-        const heading = page.locator('#events-heading');
+        const heading = page.locator('section[aria-label="Events"] h2');
 
         await expect(heading).toHaveText('Events');
     });

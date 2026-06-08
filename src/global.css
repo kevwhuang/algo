@@ -14,8 +14,10 @@
     --color-easy-15: #34d39926;
     --color-hard: #f87171;
     --color-hard-15: #f8717126;
+    --color-leetcode: #ffa116;
     --color-medium: #fbbf24;
     --color-medium-15: #fbbf2426;
+    --color-meetup: #ed1c40;
     --color-white: #ffffff;
     --color-white-5: #ffffff0d;
     --color-white-10: #ffffff1a;
@@ -27,6 +29,7 @@
     --color-zinc-200: #e4e4e7;
     --color-zinc-300: #d4d4d8;
     --color-zinc-400: #a1a1aa;
+    --color-zinc-500: #71717a;
     --color-zinc-600: #52525b;
     --color-zinc-700: #3f3f46;
     --color-zinc-800: #27272a;
@@ -43,6 +46,10 @@
     border-radius: 2px;
     outline: 2px solid var(--color-cyan-80);
     outline-offset: 2px;
+}
+
+::placeholder {
+    user-select: none;
 }
 
 [data-scroll] {

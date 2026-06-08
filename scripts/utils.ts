@@ -1,6 +1,6 @@
 const RANGE_SIZE = 1_000;
 
-export function getExt(problem: Problem): string {
+export function getExtension(problem: Problem): string {
     return problem.database ? (problem.paid ? '.p.sql' : '.sql') : (problem.paid ? '.mjs' : '.js');
 }
 

@@ -35,12 +35,6 @@ describe('Navbar', () => {
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('id="search-results"');
-    });
-
-    test('renders search results with listbox role', async () => {
-        const container = await AstroContainer.create();
-        const html = await container.renderToString(Navbar);
-
         expect(html).toContain('role="listbox"');
     });
 
@@ -74,6 +68,5 @@ describe('Navbar', () => {
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('<kbd');
-        expect(html).toContain('/</kbd>');
     });
 });

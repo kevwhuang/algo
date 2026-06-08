@@ -1,4 +1,4 @@
-import { getExt, getRange } from './utils';
+import { getExtension, getRange } from './utils';
 
 const INDENT = 4;
 const PAGE_SIZE = 100;
@@ -66,14 +66,14 @@ for (const problem of problems) {
     const matches = [...glob.scanSync(directory)];
 
     if (matches.length === 0) {
-        const extension = getExt(problem);
+        const extension = getExtension(problem);
 
         const prefix = extension.includes('.sql') ? '--' : '//';
 
         const content = `${prefix} ${problem.id}. ${problem.title}\n\n\n`;
 
-        const filepath = `${directory}/${problem.id}${extension}`;
+        const filePath = `${directory}/${problem.id}${extension}`;
 
-        await Bun.write(filepath, content);
+        await Bun.write(filePath, content);
     }
 }

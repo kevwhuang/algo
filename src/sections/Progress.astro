@@ -12,19 +12,23 @@ interface DifficultyStats {
 const MIN_SOLUTION_LINES = 3;
 const PERCENT = 100;
 
-function countCompleted(dir: string) {
+function countCompleted(directory: string) {
     let completed = 0;
     let total = 0;
 
-    for (const sub of fs.readdirSync(dir)) {
-        const subDir = path.join(dir, sub);
-        if (!fs.statSync(subDir).isDirectory() || sub === 'front-end') continue;
+    for (const subdirectoryName of fs.readdirSync(directory)) {
+        const subdirectory = path.join(directory, subdirectoryName);
 
-        for (const file of fs.readdirSync(subDir)) {
+        if (!fs.statSync(subdirectory).isDirectory() || subdirectoryName === 'front-end') continue;
+
+        for (const file of fs.readdirSync(subdirectory)) {
             if (file.startsWith('.')) continue;
-            total++;
-            const lines = fs.readFileSync(path.join(subDir, file), 'utf-8').trim().split('\n');
+
+            const lines = fs.readFileSync(path.join(subdirectory, file), 'utf-8').trim().split('\n');
+
             if (lines.length >= MIN_SOLUTION_LINES) completed++;
+
+            total++;
         }
     }
 
@@ -37,11 +41,13 @@ const stats: DifficultyStats[] = [
         label: 'Easy',
         ...countCompleted('src/content/easy'),
     },
+
     {
         cssVar: '--color-medium',
         label: 'Medium',
         ...countCompleted('src/content/medium'),
     },
+
     {
         cssVar: '--color-hard',
         label: 'Hard',
@@ -50,27 +56,35 @@ const stats: DifficultyStats[] = [
 ];
 ---
 
-<section class="progress px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950" aria-labelledby="progress-heading">
+<section
+    class="progress px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950"
+    aria-label="Progress"
+>
     <div class="max-w-6xl mx-auto">
         <h1 class="sr-only">Algo</h1>
-        <h2 id="progress-heading" class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-center text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] uppercase tracking-[0.3em] text-zinc-200">
+        <h2 class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] text-center tracking-[0.3em] uppercase text-zinc-200">
             Progress
         </h2>
-        <div class="space-y-[clamp(2rem,calc(1.5rem+2.5vw),3.5rem)]">
+        <div class="flex flex-col gap-[clamp(2rem,calc(1.5rem+2.5vw),3.5rem)]">
             {stats.map(({ completed, cssVar, label, total }) => {
                 const percent = total > 0 ? Math.round((completed / total) * PERCENT) : 0;
+
                 return (
                     <div>
                         <div class="flex items-baseline justify-between mb-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)]">
-                            <span class="font-semibold text-[clamp(1.125rem,calc(0.79rem+1.67vw),2.125rem)]" style={`color: var(${cssVar})`}>
+                            <span
+                                class="font-semibold text-[clamp(1.125rem,calc(0.79rem+1.67vw),2.125rem)]"
+                                style={`color: var(${cssVar})`}
+                            >
                                 {label}
                             </span>
                             <span class="font-mono text-[clamp(1rem,calc(0.83rem+0.83vw),1.5rem)]">
-                                {completed}<span class="text-zinc-400">/{total}</span>
+                                {completed}
+                                <span class="text-zinc-400">/{total}</span>
                             </span>
                         </div>
                         <div
-                            class="h-[clamp(0.625rem,calc(0.46rem+0.83vw),1.125rem)] rounded-full overflow-hidden"
+                            class="overflow-hidden h-[clamp(0.625rem,calc(0.46rem+0.83vw),1.125rem)] rounded-full"
                             aria-label={`${label} progress`}
                             aria-valuemax={total}
                             aria-valuemin={0}
@@ -79,7 +93,7 @@ const stats: DifficultyStats[] = [
                             style={`background: var(${cssVar}-15)`}
                         >
                             <div
-                                class="progress__bar h-full rounded-full"
+                                class="progress__bar h-full rounded-full duration-1000 transition-[width]"
                                 data-width={percent}
                                 style={`width: 0%; background: linear-gradient(90deg, var(${cssVar}), color-mix(in srgb, var(${cssVar}) 70%, white)); box-shadow: 0 0 12px var(${cssVar}-15)`}
                             />
@@ -91,30 +105,28 @@ const stats: DifficultyStats[] = [
     </div>
 </section>
 
-<style>
-    .progress__bar {
-        transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-</style>
-
 <script>
     const ANIMATION_DELAY = 500;
     const VISIBILITY_THRESHOLD = 0.2;
 
     function animateBars() {
         const bars = document.querySelectorAll<HTMLElement>('.progress__bar');
+
         const observer = new IntersectionObserver(
             (entries) => {
                 for (const entry of entries) {
                     if (entry.isIntersecting) {
                         const bar = entry.target as HTMLElement;
+
                         setTimeout(() => {
                             bar.style.width = `${bar.dataset.width}%`;
                         }, ANIMATION_DELAY);
+
                         observer.unobserve(bar);
                     }
                 }
             },
+
             { threshold: VISIBILITY_THRESHOLD },
         );
 
@@ -124,6 +136,5 @@ const stats: DifficultyStats[] = [
         }
     }
 
-    animateBars();
     document.addEventListener('astro:page-load', animateBars);
 </script>

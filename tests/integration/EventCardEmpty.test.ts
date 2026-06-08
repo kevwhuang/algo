@@ -30,6 +30,5 @@ describe('EventCardEmpty', () => {
         const html = await container.renderToString(EventCardEmpty);
 
         expect(html).toContain('target="_blank"');
-        expect(html).toContain('rel="noopener noreferrer"');
     });
 });

@@ -10,19 +10,17 @@ test.describe('solution page', () => {
     });
 
     test('displays solution heading', async ({ page }) => {
-        const h1 = page.locator('#solution-heading');
-
-        await expect(h1).toContainText('1. Two Sum');
+        await expect(page.locator('h1')).toContainText('1. Two Sum');
     });
 
     test('renders language badge', async ({ page }) => {
-        const badge = page.locator('.solution__code span').first();
+        const badge = page.locator('[role="region"] .flex-wrap span').first();
 
         await expect(badge).toBeVisible();
     });
 
     test('renders difficulty badge', async ({ page }) => {
-        const badges = page.locator('.solution__code .flex-wrap span');
+        const badges = page.locator('[role="region"] .flex-wrap span');
 
         await expect(badges).toHaveCount(2);
     });

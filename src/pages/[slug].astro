@@ -25,6 +25,7 @@ export async function getStaticPaths() {
             params: { slug: entry.id },
             props: { ...entry.data },
         })),
+
         ...problems.map(entry => ({
             params: { slug: entry.id },
             props: { ...entry.data },
@@ -34,7 +35,7 @@ export async function getStaticPaths() {
 ---
 
 <Layout
-    description={`${title} — algorithm solution and implementation`}
+    description={`${title} \u2014 ${difficulty ? 'algorithm solution' : 'data structure implementation'}.`}
     title={`${title} | Algo`}
 >
     <Solution code={code} difficulty={difficulty} lang={lang} langLabel={langLabel} title={title} />
