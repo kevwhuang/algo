@@ -31654,5 +31654,125 @@
         "paid": false,
         "slug": "maximum-sum-of-m-non-overlapping-subarrays-ii",
         "title": "Maximum Sum of M Non-Overlapping Subarrays II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3958,
+        "paid": true,
+        "slug": "minimum-cost-to-split-into-ones-ii",
+        "title": "Minimum Cost to Split into Ones II"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3959,
+        "paid": false,
+        "slug": "check-good-integer",
+        "title": "Check Good Integer"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3960,
+        "paid": false,
+        "slug": "frequency-balance-subarray",
+        "title": "Frequency Balance Subarray"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3961,
+        "paid": false,
+        "slug": "maximize-sum-of-device-ratings",
+        "title": "Maximize Sum of Device Ratings"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3962,
+        "paid": false,
+        "slug": "maximum-subarray-sum-after-at-most-k-swaps",
+        "title": "Maximum Subarray Sum After at Most K Swaps"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3963,
+        "paid": false,
+        "slug": "create-grid-with-exactly-one-path",
+        "title": "Create Grid With Exactly One Path"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3964,
+        "paid": false,
+        "slug": "minimum-lights-to-illuminate-a-road",
+        "title": "Minimum Lights to Illuminate a Road"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3965,
+        "paid": false,
+        "slug": "finish-time-of-tasks-i",
+        "title": "Finish Time of Tasks I"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3966,
+        "paid": false,
+        "slug": "count-good-integers-in-a-range",
+        "title": "Count Good Integers in a Range"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3967,
+        "paid": true,
+        "slug": "finish-time-of-tasks-ii",
+        "title": "Finish Time of Tasks II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3968,
+        "paid": false,
+        "slug": "maximum-manhattan-distance-after-all-moves",
+        "title": "Maximum Manhattan Distance After All Moves"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3969,
+        "paid": false,
+        "slug": "valid-subarrays-with-matching-sum-digits-i",
+        "title": "Valid Subarrays With Matching Sum Digits I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3970,
+        "paid": false,
+        "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+        "title": "Shortest Path With At Most K Consecutive Identical Characters"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3971,
+        "paid": false,
+        "slug": "maximum-total-value",
+        "title": "Maximum Total Value"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3972,
+        "paid": true,
+        "slug": "valid-subarrays-with-matching-sum-digits-ii",
+        "title": "Valid Subarrays With Matching Sum Digits II"
     }
 ]
