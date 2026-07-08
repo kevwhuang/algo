@@ -31774,5 +31774,109 @@
         "paid": true,
         "slug": "valid-subarrays-with-matching-sum-digits-ii",
         "title": "Valid Subarrays With Matching Sum Digits II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3973,
+        "paid": true,
+        "slug": "distinct-gate-paths-to-lca",
+        "title": "Distinct Gate Paths to LCA"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3974,
+        "paid": false,
+        "slug": "maximum-total-sum-of-k-selected-elements",
+        "title": "Maximum Total Sum of K Selected Elements"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3975,
+        "paid": false,
+        "slug": "filter-occupied-intervals",
+        "title": "Filter Occupied Intervals"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3976,
+        "paid": false,
+        "slug": "maximum-subarray-sum-after-multiplier",
+        "title": "Maximum Subarray Sum After Multiplier"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3977,
+        "paid": false,
+        "slug": "minimum-time-to-reach-target-with-limited-power",
+        "title": "Minimum Time to Reach Target With Limited Power"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3978,
+        "paid": false,
+        "slug": "unique-middle-element",
+        "title": "Unique Middle Element"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3979,
+        "paid": false,
+        "slug": "maximum-valid-pair-sum",
+        "title": "Maximum Valid Pair Sum"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3980,
+        "paid": false,
+        "slug": "minimum-operations-to-transform-binary-string",
+        "title": "Minimum Operations to Transform Binary String"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3981,
+        "paid": false,
+        "slug": "count-distinct-ways-to-form-target-from-two-strings",
+        "title": "Count Distinct Ways to Form Target from Two Strings"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3982,
+        "paid": false,
+        "slug": "sum-of-integers-with-maximum-digit-range",
+        "title": "Sum of Integers with Maximum Digit Range"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3983,
+        "paid": false,
+        "slug": "subsequence-after-one-replacement",
+        "title": "Subsequence After One Replacement"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3984,
+        "paid": false,
+        "slug": "divisible-game",
+        "title": "Divisible Game"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3985,
+        "paid": false,
+        "slug": "palindromic-subarray-sum",
+        "title": "Palindromic Subarray Sum"
     }
 ]
