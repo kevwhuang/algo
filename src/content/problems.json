@@ -19259,7 +19259,7 @@
         "database": false,
         "difficulty": "medium",
         "id": 2408,
-        "paid": true,
+        "paid": false,
         "slug": "design-sql",
         "title": "Design SQL"
     },
@@ -31878,5 +31878,117 @@
         "paid": false,
         "slug": "palindromic-subarray-sum",
         "title": "Palindromic Subarray Sum"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3986,
+        "paid": false,
+        "slug": "number-of-elapsed-seconds-between-two-times",
+        "title": "Number of Elapsed Seconds Between Two Times"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3987,
+        "paid": false,
+        "slug": "minimum-total-cost-to-process-all-elements",
+        "title": "Minimum Total Cost to Process All Elements"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3988,
+        "paid": false,
+        "slug": "create-grid-with-exactly-k-paths-i",
+        "title": "Create Grid With Exactly K Paths I"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3989,
+        "paid": false,
+        "slug": "maximum-consistent-columns-in-a-grid",
+        "title": "Maximum Consistent Columns in a Grid"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3990,
+        "paid": true,
+        "slug": "create-grid-with-exactly-k-paths-ii",
+        "title": "Create Grid With Exactly K Paths II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3991,
+        "paid": true,
+        "slug": "sort-array-using-prefix-reversals",
+        "title": "Sort Array Using Prefix Reversals"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3992,
+        "paid": false,
+        "slug": "rearrange-string-to-avoid-character-pair",
+        "title": "Rearrange String to Avoid Character Pair"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3993,
+        "paid": false,
+        "slug": "maximum-value-of-an-alternating-sequence",
+        "title": "Maximum Value of an Alternating Sequence"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3994,
+        "paid": false,
+        "slug": "minimum-adjacent-swaps-to-partition-array",
+        "title": "Minimum Adjacent Swaps to Partition Array"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3995,
+        "paid": false,
+        "slug": "minimum-cost-to-convert-string-iii",
+        "title": "Minimum Cost to Convert String III"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 3996,
+        "paid": false,
+        "slug": "even-number-of-knight-moves",
+        "title": "Even Number of Knight Moves"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3997,
+        "paid": false,
+        "slug": "count-dominant-nodes-in-a-binary-tree",
+        "title": "Count Dominant Nodes in a Binary Tree"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 3998,
+        "paid": false,
+        "slug": "transform-binary-string-using-subsequence-sort",
+        "title": "Transform Binary String Using Subsequence Sort"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 3999,
+        "paid": false,
+        "slug": "minimum-number-of-string-groups-through-transformations",
+        "title": "Minimum Number of String Groups Through Transformations"
     }
 ]
