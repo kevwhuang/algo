@@ -1769,7 +1769,7 @@
     },
     {
         "database": false,
-        "difficulty": "easy",
+        "difficulty": "medium",
         "id": 222,
         "paid": false,
         "slug": "count-complete-tree-nodes",
