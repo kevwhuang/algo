@@ -31990,5 +31990,37 @@
         "paid": false,
         "slug": "minimum-number-of-string-groups-through-transformations",
         "title": "Minimum Number of String Groups Through Transformations"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 4000,
+        "paid": false,
+        "slug": "largest-integer-with-given-digit-sum",
+        "title": "Largest Integer With Given Digit Sum"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4001,
+        "paid": false,
+        "slug": "aggregate-two-time-series",
+        "title": "Aggregate Two Time Series"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4002,
+        "paid": false,
+        "slug": "count-valid-sequences",
+        "title": "Count Valid Sequences"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4003,
+        "paid": false,
+        "slug": "minimum-cost-path-with-alternating-directions-iii",
+        "title": "Minimum Cost Path with Alternating Directions III"
     }
 ]
