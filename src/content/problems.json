@@ -32022,5 +32022,21 @@
         "paid": false,
         "slug": "minimum-cost-path-with-alternating-directions-iii",
         "title": "Minimum Cost Path with Alternating Directions III"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4004,
+        "paid": true,
+        "slug": "minimum-moves-to-balance-circular-array-ii",
+        "title": "Minimum Moves to Balance Circular Array II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4005,
+        "paid": true,
+        "slug": "minimum-operations-to-make-array-equal-iii",
+        "title": "Minimum Operations to Make Array Equal III"
     }
 ]

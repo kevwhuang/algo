@@ -4,6 +4,7 @@
     --color-code: #0e0e12;
     --color-cyan: #06b6d4;
     --color-cyan-15: #06b6d426;
+    --color-cyan-20: #06b6d433;
     --color-cyan-30: #06b6d44d;
     --color-cyan-40: #06b6d466;
     --color-cyan-50: #06b6d480;
@@ -35,14 +36,36 @@
     --color-zinc-800: #27272a;
     --color-zinc-900: #18181b;
     --color-zinc-950: #09090b;
-    --font-sans: 'Geist', system-ui, sans-serif;
+    --font-sans:
+        'Geist Sans',
+        system-ui,
+        sans-serif;
+}
+
+a,
+button,
+label,
+select {
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html[data-astro-transition] {
+    scroll-behavior: auto;
+}
+
+:disabled {
+    cursor: not-allowed;
 }
 
 :focus {
     outline: none;
 }
 
-:focus-visible:not(input) {
+:focus-visible:not(input, select, textarea) {
     border-radius: 2px;
     outline: 2px solid var(--color-cyan-80);
     outline-offset: 2px;
@@ -52,17 +75,36 @@
     user-select: none;
 }
 
+::selection {
+    background: var(--color-cyan-20);
+}
+
 [data-scroll] {
     opacity: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
     *,
-    *::before,
-    *::after {
+    *::after,
+    *::before {
+        animation-delay: 0s !important;
         animation-duration: 0.01s !important;
         animation-iteration-count: 1 !important;
         scroll-behavior: auto !important;
+        transition-delay: 0s !important;
         transition-duration: 0.01s !important;
+        transition-property: none !important;
+    }
+
+    ::view-transition-group(root),
+    ::view-transition-new(root),
+    ::view-transition-old(root) {
+        animation: none !important;
+    }
+
+    [data-scroll] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
     }
 }

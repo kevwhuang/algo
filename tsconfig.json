@@ -3,6 +3,7 @@
     "exclude": [
         "dist",
         "netlify",
+        "src/content",
         "tests"
     ],
     "compilerOptions": {

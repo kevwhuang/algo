@@ -86,7 +86,7 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await page.keyboard.press('Enter');
-        await page.waitForURL(/\/\d+/);
+        await page.waitForURL(/\/p\/\d+/);
         await expect(page).toHaveTitle(/\| Algo/);
     });
 
@@ -104,7 +104,7 @@ test.describe('search', () => {
 
         await input.fill('two sum');
         await results.locator('a').first().click();
-        await page.waitForURL(/\/\d+/);
+        await page.waitForURL(/\/p\/\d+/);
         await expect(page).toHaveTitle(/\| Algo/);
     });
 });
