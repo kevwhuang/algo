@@ -46,7 +46,7 @@ test.describe('index page', () => {
 
     test('footer displays current year', async ({ page }) => {
         const footer = page.locator('footer');
-        const year = new Date().getFullYear().toString();
+        const year = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', year: 'numeric' }).format(new Date());
 
         await expect(footer).toContainText(year);
         await expect(footer).toContainText('Aephonics');

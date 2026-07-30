@@ -11,7 +11,7 @@ import IconSearch from '@components/IconSearch.astro';
 >
     <div class="flex items-center justify-between max-w-7xl mx-auto px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)]">
         <a
-            class="hover:opacity-80 duration-300 transition-opacity"
+            class="focus-visible:opacity-80 hover:opacity-80 duration-(--duration-base) transition-opacity"
             aria-label="Home"
             href="/"
         >
@@ -20,7 +20,7 @@ import IconSearch from '@components/IconSearch.astro';
         <search class="flex-1 relative max-w-xl mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <input
                 id="search-input"
-                class="focus:bg-zinc-900 focus:border-cyan-80 hover:bg-zinc-900 hover:border-zinc-600 w-full pl-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] border border-zinc-800 rounded-lg font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-950 placeholder-zinc-400 text-zinc-300 duration-300 transition-colors"
+                class="focus-visible:bg-zinc-900 focus-visible:border-cyan-80 hover:bg-zinc-900 hover:border-zinc-600 w-full pl-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] border border-zinc-800 rounded-lg font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-950 placeholder-zinc-400 text-zinc-300 duration-(--duration-base) transition-colors"
                 aria-autocomplete="list"
                 aria-controls="search-results"
                 aria-expanded="false"
@@ -39,14 +39,15 @@ import IconSearch from '@components/IconSearch.astro';
             </kbd>
             <div
                 id="search-results"
-                class="navbar__results absolute left-0 overflow-y-auto right-0 top-full mt-4 border border-zinc-800 rounded-lg bg-zinc-900 backdrop-blur-md duration-300 opacity-0 transition-opacity pointer-events-none"
+                class="navbar__results absolute left-0 overflow-y-auto right-0 top-full mt-4 border border-zinc-800 rounded-lg bg-zinc-900 backdrop-blur-md duration-(--duration-base) opacity-0 transition-opacity pointer-events-none"
                 aria-label="Search results"
                 role="listbox"
+                tabindex="-1"
             />
         </search>
         <div class="flex items-center gap-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
             <a
-                class="hover:opacity-80 duration-300 transition-opacity"
+                class="focus-visible:opacity-80 hover:opacity-80 duration-(--duration-base) transition-opacity"
                 aria-label="Meetup (opens in new tab)"
                 href="https://meetup.com/algoatx"
                 target="_blank"
@@ -54,7 +55,7 @@ import IconSearch from '@components/IconSearch.astro';
                 <IconMeetup />
             </a>
             <a
-                class="hover:opacity-80 duration-300 transition-opacity"
+                class="focus-visible:opacity-80 hover:opacity-80 duration-(--duration-base) transition-opacity"
                 aria-label="LeetCode (opens in new tab)"
                 href="https://leetcode.com/u/aephonics"
                 target="_blank"
@@ -85,8 +86,8 @@ import IconSearch from '@components/IconSearch.astro';
 
     let activeIndex = -1;
     let cleanup: (() => void) | null = null;
+    let indexPromise: Promise<SearchEntry[]> | null = null;
     let pointerInResults = false;
-    let searchIndex: SearchEntry[] | null = null;
 
     function escapeHtml(text: string) {
         return text
@@ -96,13 +97,31 @@ import IconSearch from '@components/IconSearch.astro';
             .replace(/"/g, '&quot;');
     }
 
+    async function fetchIndex() {
+        try {
+            const response = await fetch('/api/search');
+
+            if (!response.ok) throw new Error('search index unavailable');
+
+            const data: SearchEntry[] = await response.json();
+
+            return data;
+        } catch {
+            indexPromise = null;
+
+            return [];
+        }
+    }
+
     function initSearch() {
         cleanup?.();
 
         const input = document.getElementById('search-input') as HTMLInputElement;
         const results = document.getElementById('search-results') as HTMLElement;
 
-        if (!input || !results) return;
+        const combobox = input.closest('search') as HTMLElement;
+
+        if (!combobox || !input || !results) return;
 
         function hideResults() {
             activeIndex = -1;
@@ -121,21 +140,14 @@ import IconSearch from '@components/IconSearch.astro';
         }
 
         function onDocKeydown(e: KeyboardEvent) {
-            if (e.key === '/') {
+            if (document.activeElement !== input && e.key === '/') {
                 e.preventDefault();
-
-                if (document.activeElement === input) {
-                    input.blur();
-                    hideResults();
-                } else {
-                    input.focus();
-                }
+                input.focus();
 
                 return;
             }
 
             if (e.key === 'Escape') {
-                input.blur();
                 input.value = '';
                 hideResults();
             }
@@ -143,6 +155,12 @@ import IconSearch from '@components/IconSearch.astro';
 
         function onFocus() {
             if (input.value) search(input.value);
+        }
+
+        function onFocusOut(e: FocusEvent) {
+            const next = e.relatedTarget as Node | null;
+
+            if (next && !combobox.contains(next)) hideResults();
         }
 
         function onInput(e: Event) {
@@ -177,11 +195,13 @@ import IconSearch from '@components/IconSearch.astro';
         }
 
         function renderResults(matches: SearchEntry[]) {
+            input.removeAttribute('aria-activedescendant');
+
             if (matches.length === 0) {
                 activeIndex = -1;
 
                 results.innerHTML = [
-                    '<div class="navbar__result-text px-4 py-2.5 font-mono text-zinc-400">',
+                    '<div class="navbar__result-text px-4 py-2.5 text-zinc-400">',
                     'No results',
                     '</div>',
                 ].join('');
@@ -192,13 +212,13 @@ import IconSearch from '@components/IconSearch.astro';
                     return [
                         `<a`,
                         ` id="search-result-${i}"`,
-                        ` class="navbar__result navbar__result-text flex items-center justify-between gap-3 px-4 py-2.5 text-zinc-300 duration-100 transition-colors"`,
+                        ` class="navbar__result navbar__result-text flex items-center justify-between gap-3 px-4 py-2.5 text-zinc-300 duration-(--duration-instant) transition-colors"`,
                         ` href="/p/${entry.id}"`,
                         ` role="option"`,
                         ` tabindex="-1"`,
                         `>`,
                         `<span class="truncate">${escapeHtml(entry.title)}</span>`,
-                        `<span class="navbar__badge hidden px-2 py-0.5 rounded-full tracking-wider uppercase sm:inline-block ${badge.classes}">${badge.label}</span>`,
+                        `<span class="navbar__badge hidden px-2 py-0.5 rounded-full font-mono tracking-wider uppercase sm:inline-block ${badge.classes}">${badge.label}</span>`,
                         `</a>`,
                     ].join('');
                 }).join('');
@@ -215,14 +235,17 @@ import IconSearch from '@components/IconSearch.astro';
         }
 
         async function search(query: string) {
-            if (!query) {
+            const normalizedQuery = query.trim().toLowerCase();
+
+            if (!normalizedQuery) {
                 hideResults();
 
                 return;
             }
 
             const index = await loadIndex();
-            const normalizedQuery = query.toLowerCase();
+
+            if (input.value !== query) return;
 
             const matches = index
                 .filter(entry => entry.id === normalizedQuery || entry.title.toLowerCase().includes(normalizedQuery))
@@ -258,6 +281,7 @@ import IconSearch from '@components/IconSearch.astro';
         }
 
         loadIndex();
+        combobox.addEventListener('focusout', onFocusOut);
         document.addEventListener('click', onDocClick);
         document.addEventListener('keydown', onDocKeydown);
         input.addEventListener('focus', onFocus);
@@ -267,6 +291,7 @@ import IconSearch from '@components/IconSearch.astro';
         input.dataset.ready = '';
 
         cleanup = () => {
+            combobox.removeEventListener('focusout', onFocusOut);
             document.removeEventListener('click', onDocClick);
             document.removeEventListener('keydown', onDocKeydown);
             input.removeEventListener('focus', onFocus);
@@ -276,18 +301,10 @@ import IconSearch from '@components/IconSearch.astro';
         };
     }
 
-    async function loadIndex() {
-        if (searchIndex) return searchIndex;
+    function loadIndex() {
+        indexPromise ??= fetchIndex();
 
-        const response = await fetch('/api/search');
-
-        if (!response.ok) return [];
-
-        const data: SearchEntry[] = await response.json();
-
-        searchIndex = data;
-
-        return data;
+        return indexPromise;
     }
 
     function sortResults(a: SearchEntry, b: SearchEntry) {

@@ -8,8 +8,10 @@ interface Props {
     venue: string;
 }
 
+const WALL_CLOCK_LENGTH = 19;
+
 function formatDate(dateStr: string) {
-    const date = new Date(dateStr);
+    const date = new Date(dateStr.slice(0, WALL_CLOCK_LENGTH));
 
     return {
         day: date.getDate(),
@@ -32,7 +34,7 @@ const formatted = formatDate(dateTime);
     href={url}
     target="_blank"
 >
-    <div class="flex flex-col gap-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] md:flex-row md:items-center">
+    <div class="flex flex-col gap-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] md:flex-row md:gap-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] md:items-center">
         <time
             class="flex flex-col items-center shrink-0 border-white-10 text-center md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)] md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)]"
             datetime={dateTime}
@@ -50,27 +52,27 @@ const formatted = formatDate(dateTime);
                 {formatted.month} {formatted.year}
             </span>
         </time>
-        <div class="flex-1 min-w-0 space-y-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] text-center md:space-y-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] md:text-left">
-            <h3 class="meetup-events__name font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-center text-zinc-200 duration-300 transition-colors md:text-left">
+        <div class="flex flex-col flex-1 min-w-0 gap-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-center text-zinc-300 md:text-left">
+            <h3 class="meetup-events__name order-2 font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-center text-zinc-200 duration-(--duration-base) transition-colors md:order-none md:text-left">
                 {title}
             </h3>
-            <div class="flex flex-col gap-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-zinc-300">
-                <p>
-                    <span aria-hidden="true">&#128336;</span>
-                    &ensp;
-                    <span class="sr-only">Time: </span>
-                    {formatted.time} &ndash; {endFormatted.time}
-                </p>
-                <p>
+            <p class="order-1 md:order-none">
+                <span aria-hidden="true">&#128336;</span>
+                &ensp;
+                <span class="sr-only">Time: </span>
+                {formatted.time} &ndash; {endFormatted.time}
+            </p>
+            {(city || venue) && (
+                <p class="order-3 md:order-none">
                     <span aria-hidden="true">&#128205;</span>
                     &ensp;
                     <span class="sr-only">Location: </span>
-                    {venue}{city && `, ${city}`}
+                    {[venue, city].filter(Boolean).join(', ')}
                 </p>
-            </div>
+            )}
         </div>
         <span
-            class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-700 duration-300 transition-[color,transform] select-none md:block"
+            class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-700 duration-(--duration-base) transition-[color,transform] select-none md:block"
             aria-hidden="true"
         >
             &rarr;

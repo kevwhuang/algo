@@ -6,6 +6,7 @@ import Navbar from '../../src/sections/Navbar.astro';
 describe('Navbar', () => {
     test('renders home link', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('aria-label="Home"');
@@ -14,6 +15,7 @@ describe('Navbar', () => {
 
     test('renders search input', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('id="search-input"');
@@ -22,6 +24,7 @@ describe('Navbar', () => {
 
     test('renders search input with combobox role', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('role="combobox"');
@@ -32,6 +35,7 @@ describe('Navbar', () => {
 
     test('renders search results container', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('id="search-results"');
@@ -40,6 +44,7 @@ describe('Navbar', () => {
 
     test('renders Meetup link', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('href="https://meetup.com/algoatx"');
@@ -48,6 +53,7 @@ describe('Navbar', () => {
 
     test('renders LeetCode link', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('href="https://leetcode.com/u/aephonics"');
@@ -56,6 +62,7 @@ describe('Navbar', () => {
 
     test('external links open in new tab', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         const externalLinks = html.match(/target="_blank"/g);
@@ -65,6 +72,7 @@ describe('Navbar', () => {
 
     test('renders keyboard shortcut hint', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(Navbar);
 
         expect(html).toContain('<kbd');

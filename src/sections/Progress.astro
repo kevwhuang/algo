@@ -93,9 +93,9 @@ const stats: DifficultyStats[] = [
                             style={`background: var(${cssVar}-15)`}
                         >
                             <div
-                                class="progress__bar h-full rounded-full duration-1000 transition-[width]"
+                                class="progress__bar h-full rounded-full duration-(--duration-slow) transition-[width]"
                                 data-width={percent}
-                                style={`width: 0%; background: linear-gradient(90deg, var(${cssVar}), color-mix(in srgb, var(${cssVar}) 70%, white)); box-shadow: 0 0 12px var(${cssVar}-15)`}
+                                style={`width: 0%; background: linear-gradient(90deg, var(${cssVar}), color-mix(in srgb, var(${cssVar}) 70%, white)); box-shadow: 0 0 0.75rem var(${cssVar}-15)`}
                             />
                         </div>
                     </div>

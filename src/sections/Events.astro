@@ -11,9 +11,11 @@ interface MeetupEvent {
     venue: string;
 }
 
+const FETCH_TIMEOUT = 10_000;
+
 async function fetchEvents() {
     try {
-        const response = await fetch('https://www.meetup.com/algoatx/events');
+        const response = await fetch('https://www.meetup.com/algoatx/events', { signal: AbortSignal.timeout(FETCH_TIMEOUT) });
 
         if (!response.ok) throw new Error(`Meetup API ${response.status}`);
 
@@ -44,6 +46,15 @@ async function fetchEvents() {
         for (const [key, value] of Object.entries(state)) {
             if (key.startsWith('Event:')) {
                 const eventData = value as Record<string, unknown>;
+
+                if (typeof eventData.status === 'string' && eventData.status !== 'ACTIVE') continue;
+
+                const endTimestamp = Date.parse(eventData.endTime as string);
+                const startTimestamp = Date.parse(eventData.dateTime as string);
+
+                if (!eventData.eventUrl || !eventData.title || Number.isNaN(endTimestamp) || Number.isNaN(startTimestamp)) {
+                    continue;
+                }
 
                 const venueRef = (eventData.venue as Record<string, string>)?.__ref || '';
 

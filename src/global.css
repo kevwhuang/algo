@@ -42,6 +42,13 @@
         sans-serif;
 }
 
+:root {
+    --duration-base: 0.3s;
+    --duration-fast: 0.15s;
+    --duration-instant: 0.1s;
+    --duration-slow: 1s;
+}
+
 a,
 button,
 label,
@@ -51,6 +58,7 @@ select {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: clamp(4.5rem, calc(3.67rem + 4.17vw), 7rem);
 }
 
 html[data-astro-transition] {
@@ -66,9 +74,9 @@ html[data-astro-transition] {
 }
 
 :focus-visible:not(input, select, textarea) {
-    border-radius: 2px;
-    outline: 2px solid var(--color-cyan-80);
-    outline-offset: 2px;
+    border-radius: 0.125rem;
+    outline: 0.125rem solid var(--color-cyan-80);
+    outline-offset: 0.125rem;
 }
 
 ::placeholder {

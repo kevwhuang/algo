@@ -6,6 +6,7 @@ import EventCardEmpty from '../../src/components/EventCardEmpty.astro';
 describe('EventCardEmpty', () => {
     test('renders empty state heading', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCardEmpty);
 
         expect(html).toContain('No upcoming events');
@@ -13,6 +14,7 @@ describe('EventCardEmpty', () => {
 
     test('renders Meetup link', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCardEmpty);
 
         expect(html).toContain('href="https://meetup.com/algoatx"');
@@ -20,6 +22,7 @@ describe('EventCardEmpty', () => {
 
     test('has aria-label', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCardEmpty);
 
         expect(html).toContain('aria-label="No upcoming events');
@@ -27,6 +30,7 @@ describe('EventCardEmpty', () => {
 
     test('opens in new tab', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCardEmpty);
 
         expect(html).toContain('target="_blank"');

@@ -15,6 +15,7 @@ const PROPS = {
 describe('EventCard', () => {
     test('renders event title', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('Weekly Algorithm Practice');
@@ -22,6 +23,7 @@ describe('EventCard', () => {
 
     test('renders formatted date', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('Mar 2026');
@@ -29,14 +31,24 @@ describe('EventCard', () => {
 
     test('renders venue and city', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('Central Library');
         expect(html).toContain('Austin');
     });
 
+    test('omits location when venue and city are empty', async () => {
+        const container = await AstroContainer.create();
+
+        const html = await container.renderToString(EventCard, { props: { ...PROPS, city: '', venue: '' } });
+
+        expect(html).not.toContain('Location:');
+    });
+
     test('renders event link', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('href="https://meetup.com/algoatx/events/123"');
@@ -44,6 +56,7 @@ describe('EventCard', () => {
 
     test('has aria-label with event details', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('opens in new tab');
@@ -51,6 +64,7 @@ describe('EventCard', () => {
 
     test('opens in new tab', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('target="_blank"');
@@ -58,6 +72,7 @@ describe('EventCard', () => {
 
     test('renders datetime attribute on time element', async () => {
         const container = await AstroContainer.create();
+
         const html = await container.renderToString(EventCard, { props: PROPS });
 
         expect(html).toContain('datetime="2026-03-20T18:30:00-05:00"');

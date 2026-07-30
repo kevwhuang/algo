@@ -37,15 +37,50 @@ test.describe('search', () => {
         await page.keyboard.press('Escape');
         await expect(results).toHaveClass(/opacity-0/);
         await expect(input).toHaveValue('');
+        await expect(input).toBeFocused();
     });
 
-    test('/ toggles search focus on and off', async ({ page }) => {
+    test('/ focuses the input when unfocused and types a literal slash when focused', async ({ page }) => {
         const input = page.locator('#search-input');
 
+        await page.waitForFunction(() => document.querySelector('#search-input')?.hasAttribute('data-ready'));
         await page.keyboard.press('/');
         await expect(input).toBeFocused();
+        await expect(input).toHaveValue('');
         await page.keyboard.press('/');
-        await expect(input).not.toBeFocused();
+        await expect(input).toHaveValue('/');
+        await expect(input).toBeFocused();
+    });
+
+    test('tabbing away closes results', async ({ page }) => {
+        const input = page.locator('#search-input');
+        const results = page.locator('#search-results');
+
+        await input.fill('two sum');
+        await expect(results).toHaveClass(/opacity-100/);
+        await page.keyboard.press('Tab');
+        await expect(results).toHaveClass(/opacity-0/);
+        await expect(input).toHaveAttribute('aria-expanded', 'false');
+    });
+
+    test('a single tab away closes an overflowing result list', async ({ page }) => {
+        const input = page.locator('#search-input');
+        const meetup = page.locator('a[aria-label="Meetup (opens in new tab)"]');
+        const results = page.locator('#search-results');
+
+        await input.fill('two');
+        await expect(results).toHaveClass(/opacity-100/);
+        await expect(results.locator('.navbar__result')).toHaveCount(20);
+
+        const overflows = await results.evaluate(el => el.scrollHeight > el.clientHeight);
+
+        expect(overflows).toBe(true);
+
+        await page.keyboard.press('Tab');
+        await expect(results).toHaveClass(/opacity-0/);
+        await expect(input).toHaveAttribute('aria-expanded', 'false');
+        await expect(input).not.toHaveAttribute('aria-activedescendant');
+        await expect(meetup).toBeFocused();
     });
 
     test('first result is highlighted by default', async ({ page }) => {
