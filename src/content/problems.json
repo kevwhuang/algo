@@ -32038,5 +32038,117 @@
         "paid": true,
         "slug": "minimum-operations-to-make-array-equal-iii",
         "title": "Minimum Operations to Make Array Equal III"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 4006,
+        "paid": false,
+        "slug": "count-valid-prefixes",
+        "title": "Count Valid Prefixes"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4007,
+        "paid": false,
+        "slug": "widest-possible-fence",
+        "title": "Widest Possible Fence"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4008,
+        "paid": false,
+        "slug": "minimum-initial-strength-to-defeat-all-monsters",
+        "title": "Minimum Initial Strength to Defeat All Monsters"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4009,
+        "paid": false,
+        "slug": "minimum-possible-maximum-waiting-time",
+        "title": "Minimum Possible Maximum Waiting Time"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 4010,
+        "paid": false,
+        "slug": "maximize-pair-strength-using-gcd",
+        "title": "Maximize Pair Strength Using GCD"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4011,
+        "paid": false,
+        "slug": "count-subarrays-with-even-odd-ratio-i",
+        "title": "Count Subarrays With Even Odd Ratio I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4012,
+        "paid": false,
+        "slug": "count-of-unfinished-tasks-after-each-shift",
+        "title": "Count of Unfinished Tasks After Each Shift"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4013,
+        "paid": false,
+        "slug": "count-subarrays-with-even-odd-ratio-ii",
+        "title": "Count Subarrays With Even Odd Ratio II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4014,
+        "paid": false,
+        "slug": "minimum-total-price-after-applying-discounts",
+        "title": "Minimum Total Price After Applying Discounts"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4015,
+        "paid": false,
+        "slug": "weighted-sum-of-a-tree",
+        "title": "Weighted Sum of a Tree"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4016,
+        "paid": false,
+        "slug": "maximum-area-of-two-non-overlapping-square-submatrices",
+        "title": "Maximum Area of Two Non-Overlapping Square Submatrices"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4017,
+        "paid": false,
+        "slug": "peaks-in-array-ii",
+        "title": "Peaks in Array II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4018,
+        "paid": true,
+        "slug": "total-sum-of-interaction-cost-in-tree-groups-ii",
+        "title": "Total Sum of Interaction Cost in Tree Groups II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4019,
+        "paid": true,
+        "slug": "merge-close-characters-ii",
+        "title": "Merge Close Characters II"
     }
 ]
