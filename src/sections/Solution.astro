@@ -131,6 +131,7 @@ const difficultyColor = {
 
         try {
             await navigator.clipboard.writeText(code);
+
             fadeText(button, 'Copied!', 'Code copied to clipboard');
 
             if (status) status.textContent = 'Code copied to clipboard';

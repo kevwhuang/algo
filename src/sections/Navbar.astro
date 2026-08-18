@@ -311,6 +311,7 @@ import IconSearch from '@components/IconSearch.astro';
         if (a.difficulty === 'ds' && b.difficulty !== 'ds') return -1;
         if (a.difficulty !== 'ds' && b.difficulty === 'ds') return 1;
         if (a.difficulty !== 'ds' && b.difficulty !== 'ds') return parseInt(a.id) - parseInt(b.id);
+
         return a.title.localeCompare(b.title);
     }
 

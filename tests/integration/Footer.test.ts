@@ -16,6 +16,7 @@ describe('Footer', () => {
         const container = await AstroContainer.create();
 
         const html = await container.renderToString(Footer);
+
         const year = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', year: 'numeric' }).format(new Date());
 
         expect(html).toContain(`&copy; <time datetime="${year}">${year}</time>`);

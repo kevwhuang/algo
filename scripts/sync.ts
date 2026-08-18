@@ -55,6 +55,7 @@ while (true) {
 }
 
 problems.sort((a, b) => a.id - b.id);
+
 await Bun.write('src/content/problems.json', JSON.stringify(problems, null, INDENT));
 
 for (const problem of problems) {
