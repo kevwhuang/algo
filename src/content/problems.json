@@ -32150,5 +32150,85 @@
         "paid": true,
         "slug": "merge-close-characters-ii",
         "title": "Merge Close Characters II"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 4020,
+        "paid": false,
+        "slug": "elevator-requests-i",
+        "title": "Elevator Requests I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4021,
+        "paid": false,
+        "slug": "minimum-operations-to-make-a-rotated-palindrome-i",
+        "title": "Minimum Operations to Make a Rotated Palindrome I"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4022,
+        "paid": false,
+        "slug": "k-th-digit-in-infinite-string",
+        "title": "K-th Digit in Infinite String"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4023,
+        "paid": false,
+        "slug": "elevator-requests-ii",
+        "title": "Elevator Requests II"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 4024,
+        "paid": false,
+        "slug": "nearest-available-drone",
+        "title": "Nearest Available Drone"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4025,
+        "paid": false,
+        "slug": "minimize-the-maximum-waiting-time-at-synchronized-traffic-lights",
+        "title": "Minimize the Maximum Waiting Time at Synchronized Traffic Lights"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4026,
+        "paid": false,
+        "slug": "maximum-gap-between-stations",
+        "title": "Maximum Gap Between Stations"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4027,
+        "paid": false,
+        "slug": "elevator-requests-iii",
+        "title": "Elevator Requests III"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4029,
+        "paid": true,
+        "slug": "minimum-operations-to-make-a-rotated-palindrome-ii",
+        "title": "Minimum Operations to Make a Rotated Palindrome II"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4030,
+        "paid": true,
+        "slug": "elevator-requests-iv",
+        "title": "Elevator Requests IV"
     }
 ]
