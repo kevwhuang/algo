@@ -30,13 +30,17 @@ const style = stylistic.configs.customize({
     semi: true,
 });
 
+const base = [
+    js.configs.recommended,
+    style,
+    ...ts.configs.recommended,
+    ...astro.configs.recommended,
+    a11y.flatConfigs.recommended,
+];
+
 export default [
     ignores,
-    { ...js.configs.recommended, ...contentIgnore },
-    { ...style, ...contentIgnore },
-    ...ts.configs.recommended.map(c => ({ ...c, ...contentIgnore })),
-    ...astro.configs.recommended.map(c => ({ ...c, ...contentIgnore })),
-    { ...a11y.flatConfigs.recommended, ...contentIgnore },
+    ...base.map(config => ({ ...config, ...contentIgnore })),
     overrides,
     ...content,
 ];

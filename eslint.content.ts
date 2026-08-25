@@ -50,12 +50,10 @@ const content = {
         '@stylistic/no-tabs': 'error',
         '@stylistic/no-trailing-spaces': 'error',
         '@stylistic/no-whitespace-before-property': 'error',
-        '@stylistic/nonblock-statement-body-position': 'error',
         '@stylistic/object-curly-newline': 'error',
         '@stylistic/object-curly-spacing': ['error', 'always'],
         '@stylistic/operator-linebreak': ['error', 'before'],
         '@stylistic/padded-blocks': ['error', 'never'],
-        '@stylistic/padding-line-between-statements': 'error',
         '@stylistic/quote-props': ['error', 'consistent-as-needed'],
         '@stylistic/quotes': ['error', 'single'],
         '@stylistic/rest-spread-spacing': 'error',
@@ -76,7 +74,6 @@ const content = {
         'accessor-pairs': 'error',
         'array-callback-return': 'error',
         'arrow-body-style': 'error',
-        'block-scoped-var': 'error',
         'capitalized-comments': 'error',
         'complexity': ['error', { max: 32 }],
         'constructor-super': 'error',
@@ -203,7 +200,7 @@ const jsxOverride = {
     rules: { '@stylistic/comma-dangle': 'off' },
 };
 
-const maxLenOverride = {
+const lineLengthOverride = {
     files: [
         'src/content/data-structures/MaxHeap.js',
         'src/content/data-structures/MinHeap.js',
@@ -230,6 +227,6 @@ const precisionOverride = {
 export default [
     content,
     jsxOverride,
-    maxLenOverride,
+    lineLengthOverride,
     precisionOverride,
 ];

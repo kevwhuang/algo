@@ -8733,7 +8733,7 @@
         "id": 1092,
         "paid": false,
         "slug": "shortest-common-supersequence",
-        "title": "Shortest Common Supersequence "
+        "title": "Shortest Common Supersequence"
     },
     {
         "database": false,
@@ -12477,7 +12477,7 @@
         "id": 1560,
         "paid": false,
         "slug": "most-visited-sector-in-a-circular-track",
-        "title": "Most Visited Sector in  a Circular Track"
+        "title": "Most Visited Sector in a Circular Track"
     },
     {
         "database": false,
@@ -13525,7 +13525,7 @@
         "id": 1691,
         "paid": false,
         "slug": "maximum-height-by-stacking-cuboids",
-        "title": "Maximum Height by Stacking Cuboids "
+        "title": "Maximum Height by Stacking Cuboids"
     },
     {
         "database": false,
@@ -16269,7 +16269,7 @@
         "id": 2034,
         "paid": false,
         "slug": "stock-price-fluctuation",
-        "title": "Stock Price Fluctuation "
+        "title": "Stock Price Fluctuation"
     },
     {
         "database": false,
@@ -17181,7 +17181,7 @@
         "id": 2148,
         "paid": false,
         "slug": "count-elements-with-strictly-smaller-and-greater-elements",
-        "title": "Count Elements With Strictly Smaller and Greater Elements "
+        "title": "Count Elements With Strictly Smaller and Greater Elements"
     },
     {
         "database": false,
@@ -18133,7 +18133,7 @@
         "id": 2267,
         "paid": false,
         "slug": "check-if-there-is-a-valid-parentheses-string-path",
-        "title": " Check if There Is a Valid Parentheses String Path"
+        "title": "Check if There Is a Valid Parentheses String Path"
     },
     {
         "database": false,
@@ -18533,7 +18533,7 @@
         "id": 2317,
         "paid": false,
         "slug": "maximum-xor-after-operations",
-        "title": "Maximum XOR After Operations "
+        "title": "Maximum XOR After Operations"
     },
     {
         "database": false,
@@ -21245,7 +21245,7 @@
         "id": 2656,
         "paid": false,
         "slug": "maximum-sum-with-exactly-k-elements",
-        "title": "Maximum Sum With Exactly K Elements "
+        "title": "Maximum Sum With Exactly K Elements"
     },
     {
         "database": false,
@@ -21309,7 +21309,7 @@
         "id": 2664,
         "paid": true,
         "slug": "the-knights-tour",
-        "title": "The Knight’s Tour"
+        "title": "The Knight's Tour"
     },
     {
         "database": false,
@@ -21493,7 +21493,7 @@
         "id": 2687,
         "paid": true,
         "slug": "bikes-last-time-used",
-        "title": "Bikes Last Time Used "
+        "title": "Bikes Last Time Used"
     },
     {
         "database": true,
@@ -22221,7 +22221,7 @@
         "id": 2778,
         "paid": false,
         "slug": "sum-of-squares-of-special-elements",
-        "title": "Sum of Squares of Special Elements "
+        "title": "Sum of Squares of Special Elements"
     },
     {
         "database": false,
@@ -22741,7 +22741,7 @@
         "id": 2843,
         "paid": false,
         "slug": "count-symmetric-integers",
-        "title": "  Count Symmetric Integers"
+        "title": "Count Symmetric Integers"
     },
     {
         "database": false,
@@ -23925,7 +23925,7 @@
         "id": 2991,
         "paid": true,
         "slug": "top-three-wineries",
-        "title": "Top Three Wineries "
+        "title": "Top Three Wineries"
     },
     {
         "database": false,
@@ -23949,7 +23949,7 @@
         "id": 2994,
         "paid": true,
         "slug": "friday-purchases-ii",
-        "title": "Friday Purchases II "
+        "title": "Friday Purchases II"
     },
     {
         "database": true,
@@ -24821,7 +24821,7 @@
         "id": 3103,
         "paid": true,
         "slug": "find-trending-hashtags-ii",
-        "title": "Find Trending Hashtags II "
+        "title": "Find Trending Hashtags II"
     },
     {
         "database": false,
@@ -24941,7 +24941,7 @@
         "id": 3118,
         "paid": true,
         "slug": "friday-purchase-iii",
-        "title": "Friday Purchase III "
+        "title": "Friday Purchase III"
     },
     {
         "database": false,
@@ -26909,7 +26909,7 @@
         "id": 3364,
         "paid": false,
         "slug": "minimum-positive-sum-subarray",
-        "title": "Minimum Positive Sum Subarray "
+        "title": "Minimum Positive Sum Subarray"
     },
     {
         "database": false,
@@ -26949,7 +26949,7 @@
         "id": 3369,
         "paid": true,
         "slug": "design-an-array-statistics-tracker",
-        "title": "Design an Array Statistics Tracker "
+        "title": "Design an Array Statistics Tracker"
     },
     {
         "database": false,
@@ -27317,7 +27317,7 @@
         "id": 3415,
         "paid": true,
         "slug": "find-products-with-three-consecutive-digits",
-        "title": "Find Products with Three Consecutive Digits "
+        "title": "Find Products with Three Consecutive Digits"
     },
     {
         "database": false,
@@ -27725,7 +27725,7 @@
         "id": 3466,
         "paid": true,
         "slug": "maximum-coin-collection",
-        "title": "Maximum Coin Collection "
+        "title": "Maximum Coin Collection"
     },
     {
         "database": false,
@@ -27797,7 +27797,7 @@
         "id": 3475,
         "paid": false,
         "slug": "dna-pattern-recognition",
-        "title": "DNA Pattern Recognition "
+        "title": "DNA Pattern Recognition"
     },
     {
         "database": false,
@@ -27973,7 +27973,7 @@
         "id": 3497,
         "paid": false,
         "slug": "analyze-subscription-conversion",
-        "title": "Analyze Subscription Conversion "
+        "title": "Analyze Subscription Conversion"
     },
     {
         "database": false,
@@ -28149,7 +28149,7 @@
         "id": 3519,
         "paid": false,
         "slug": "count-numbers-with-non-decreasing-digits",
-        "title": "Count Numbers with Non-Decreasing Digits "
+        "title": "Count Numbers with Non-Decreasing Digits"
     },
     {
         "database": false,
@@ -28773,7 +28773,7 @@
         "id": 3597,
         "paid": false,
         "slug": "partition-string",
-        "title": "Partition String "
+        "title": "Partition String"
     },
     {
         "database": false,
@@ -29429,7 +29429,7 @@
         "id": 3679,
         "paid": false,
         "slug": "minimum-discards-to-balance-inventory",
-        "title": " Minimum Discards to Balance Inventory"
+        "title": "Minimum Discards to Balance Inventory"
     },
     {
         "database": false,
@@ -32218,7 +32218,7 @@
     {
         "database": false,
         "difficulty": "hard",
-        "id": 4029,
+        "id": 4028,
         "paid": true,
         "slug": "minimum-operations-to-make-a-rotated-palindrome-ii",
         "title": "Minimum Operations to Make a Rotated Palindrome II"
@@ -32226,9 +32226,41 @@
     {
         "database": false,
         "difficulty": "hard",
-        "id": 4030,
+        "id": 4029,
         "paid": true,
         "slug": "elevator-requests-iv",
         "title": "Elevator Requests IV"
+    },
+    {
+        "database": false,
+        "difficulty": "easy",
+        "id": 4030,
+        "paid": false,
+        "slug": "check-ascii-palindromic",
+        "title": "Check ASCII Palindromic"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4031,
+        "paid": false,
+        "slug": "find-all-numbers-disappeared-in-an-array-ii",
+        "title": "Find All Numbers Disappeared in an Array II"
+    },
+    {
+        "database": false,
+        "difficulty": "medium",
+        "id": 4032,
+        "paid": false,
+        "slug": "longest-subarray-with-at-most-k-distinct-prime-factors",
+        "title": "Longest Subarray With at Most K Distinct Prime Factors"
+    },
+    {
+        "database": false,
+        "difficulty": "hard",
+        "id": 4033,
+        "paid": false,
+        "slug": "valid-k-unique-subarrays-i",
+        "title": "Valid K-Unique Subarrays I"
     }
 ]
