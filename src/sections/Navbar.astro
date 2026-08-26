@@ -3,70 +3,184 @@ import IconLeetCode from '@components/IconLeetCode.astro';
 import IconLogo from '@components/IconLogo.astro';
 import IconMeetup from '@components/IconMeetup.astro';
 import IconSearch from '@components/IconSearch.astro';
+import { MEETUP_URL, ROUTES } from '@lib/constants';
+
+const CLASS_HINT = 'navbar__hint absolute right-4 top-1/2 px-2 py-1 border border-zinc-700 rounded font-mono text-xs text-zinc-400 -translate-y-1/2 pointer-events-none select-none';
+const CLASS_INPUT = 'navbar__input focus-visible:bg-zinc-900 focus-visible:border-cyan-80 hover:bg-zinc-900 hover:border-zinc-600 w-full pl-11 pr-14 py-3 border border-zinc-800 rounded-lg text-base bg-zinc-950 placeholder-zinc-400 text-zinc-300 duration-(--duration-fast) transition-colors';
+const MAX_RESULTS = 20;
+
+const RESULT_SLOTS = Array.from({ length: MAX_RESULTS }, (_, index) => index);
 ---
 
-<nav
-    class="navbar fixed top-0 z-50 w-full border-b border-zinc-900 bg-zinc-950 backdrop-blur-md"
-    aria-label="Main"
->
-    <div class="flex items-center justify-between max-w-7xl mx-auto px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)]">
+<header class="navbar fixed top-0 z-50 h-(--header-height) w-full border-b border-white-10 bg-zinc-950">
+    <nav
+        class="navbar__inner shell flex items-center justify-between h-full gap-(--navbar-gap)"
+        aria-label="Main"
+    >
         <a
-            class="focus-visible:opacity-80 hover:opacity-80 duration-(--duration-base) transition-opacity"
-            aria-label="Home"
-            href="/"
+            class="navbar__link active:opacity-85 focus-visible:opacity-80 hover:opacity-80 flex relative duration-(--duration-fast) transition-opacity"
+            aria-label={ROUTES[0].label}
+            href={ROUTES[0].href}
         >
             <IconLogo />
         </a>
-        <search class="flex-1 relative max-w-xl mx-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
-            <input
-                id="search-input"
-                class="focus-visible:bg-zinc-900 focus-visible:border-cyan-80 hover:bg-zinc-900 hover:border-zinc-600 w-full pl-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] border border-zinc-800 rounded-lg font-mono text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] bg-zinc-950 placeholder-zinc-400 text-zinc-300 duration-(--duration-base) transition-colors"
-                aria-autocomplete="list"
-                aria-controls="search-results"
-                aria-expanded="false"
-                aria-label="Search problems"
-                autocomplete="off"
-                placeholder="Search&hellip;"
-                role="combobox"
-                type="text"
-            />
+        <search class="navbar__search flex-1 relative max-w-xl">
+            <label class="contents">
+                <span class="sr-only">Search solutions</span>
+                <input
+                    class={CLASS_INPUT}
+                    aria-autocomplete="list"
+                    aria-controls="search-results"
+                    aria-expanded="false"
+                    autocomplete="off"
+                    placeholder="Search&hellip;"
+                    role="combobox"
+                    type="text"
+                />
+            </label>
             <IconSearch />
             <kbd
-                class="absolute hidden right-3.5 top-1/2 px-2 py-1 border border-zinc-700 rounded font-mono text-xs text-zinc-600 -translate-y-1/2 pointer-events-none select-none sm:inline-block"
+                class={CLASS_HINT}
                 aria-hidden="true"
             >
                 /
             </kbd>
             <div
                 id="search-results"
-                class="navbar__results absolute left-0 overflow-y-auto right-0 top-full mt-4 border border-zinc-800 rounded-lg bg-zinc-900 backdrop-blur-md duration-(--duration-base) opacity-0 transition-opacity pointer-events-none"
+                class="navbar__results absolute box-content left-0 overflow-y-auto right-0 top-[calc(100%+1rem)] border border-zinc-800 rounded-lg bg-zinc-900"
                 aria-label="Search results"
                 role="listbox"
                 tabindex="-1"
-            />
+            >
+                {RESULT_SLOTS.map(index => (
+                    <a
+                        id={`search-result-${index}`}
+                        class="navbar__result flex items-center justify-between gap-3 p-4 text-sm text-zinc-300 duration-(--duration-fast) transition-[background-color,box-shadow,color]"
+                        aria-selected="false"
+                        hidden
+                        href="/"
+                        role="option"
+                        tabindex="-1"
+                    >
+                        <span class="navbar__result-title truncate" />
+                        <span class="navbar__badge px-2 py-0.5 rounded-full font-mono indent-[0.1em] text-xs tracking-widest uppercase duration-(--duration-fast) transition-colors" />
+                    </a>
+                ))}
+                <div
+                    id="search-message"
+                    class="navbar__message p-4 text-sm text-zinc-300"
+                    aria-disabled="true"
+                    aria-selected="false"
+                    hidden
+                    role="option"
+                >
+                    No results.
+                </div>
+            </div>
         </search>
-        <div class="flex items-center gap-[clamp(1rem,calc(0.67rem+1.67vw),2rem)]">
-            <a
-                class="focus-visible:opacity-80 hover:opacity-80 duration-(--duration-base) transition-opacity"
-                aria-label="Meetup (opens in new tab)"
-                href="https://meetup.com/algoatx"
-                target="_blank"
-            >
-                <IconMeetup />
-            </a>
-            <a
-                class="focus-visible:opacity-80 hover:opacity-80 duration-(--duration-base) transition-opacity"
-                aria-label="LeetCode (opens in new tab)"
-                href="https://leetcode.com/u/aephonics"
-                target="_blank"
-            >
-                <IconLeetCode />
-            </a>
-        </div>
-    </div>
-</nav>
+        <ul class="flex items-center gap-(--navbar-gap)">
+            <li>
+                <a
+                    class="navbar__link active:opacity-85 focus-visible:opacity-80 hover:opacity-80 flex relative duration-(--duration-fast) transition-opacity"
+                    aria-label="Meetup (opens in new tab)"
+                    href={MEETUP_URL}
+                    target="_blank"
+                >
+                    <IconMeetup />
+                </a>
+            </li>
+            <li>
+                <a
+                    class="navbar__link active:opacity-85 focus-visible:opacity-80 hover:opacity-80 flex relative duration-(--duration-fast) transition-opacity"
+                    aria-label="LeetCode (opens in new tab)"
+                    href="https://leetcode.com/u/aephonics"
+                    target="_blank"
+                >
+                    <IconLeetCode />
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-<div class="h-[clamp(3rem,calc(1.33rem+8.33vw),8rem)]" aria-hidden="true" />
+<style>
+    .navbar {
+        --navbar-gap: clamp(1rem, calc(0.6667rem + 1.6667vw), 2rem);
+    }
+
+    .navbar__badge[data-difficulty='ds'] {
+        background-color: var(--color-cyan-15);
+        color: var(--color-cyan);
+    }
+
+    .navbar__badge[data-difficulty='easy'] {
+        background-color: var(--color-emerald-15);
+        color: var(--color-emerald);
+    }
+
+    .navbar__badge[data-difficulty='hard'] {
+        background-color: var(--color-red-15);
+        color: var(--color-red);
+    }
+
+    .navbar__badge[data-difficulty='medium'] {
+        background-color: var(--color-amber-15);
+        color: var(--color-amber);
+    }
+
+    .navbar__link::after {
+        content: '';
+        inset: calc((var(--size-icon) - 3rem) / 2);
+        position: absolute;
+    }
+
+    .navbar__result:where([aria-selected='true']) {
+        background-color: var(--color-zinc-800);
+        box-shadow: inset 0.125rem 0 0 var(--color-cyan-80);
+        color: var(--color-cyan);
+    }
+
+    .navbar__result:where([aria-selected='true']) .navbar__badge[data-difficulty='hard'] {
+        color: var(--color-red-bright);
+    }
+
+    .navbar__results {
+        max-height: min(26rem, calc(100dvh - var(--header-height) - 2rem));
+        opacity: 0;
+        pointer-events: none;
+        scrollbar-color: var(--color-zinc-500) transparent;
+        scrollbar-width: thin;
+        transition:
+            opacity var(--duration-base) ease,
+            visibility 0s var(--duration-base);
+        visibility: hidden;
+    }
+
+    .navbar__results--open {
+        opacity: 1;
+        pointer-events: auto;
+        transition: opacity var(--duration-base) ease;
+        visibility: visible;
+    }
+
+    @media (max-width: 768px) {
+        .navbar__badge,
+        .navbar__hint {
+            display: none;
+        }
+
+        .navbar__input {
+            padding-right: 0.75rem;
+        }
+
+        .navbar__results {
+            left: var(--shell-pad);
+            position: fixed;
+            right: var(--shell-pad);
+            top: calc(var(--header-height) + 1rem);
+        }
+    }
+</style>
 
 <script>
     interface SearchEntry {
@@ -75,230 +189,148 @@ import IconSearch from '@components/IconSearch.astro';
         title: string;
     }
 
-    const BADGE_STYLES: Record<string, { classes: string; label: string }> = {
-        ds: { classes: 'bg-cyan-15 text-cyan', label: 'DS' },
-        easy: { classes: 'bg-easy-15 text-easy', label: 'easy' },
-        hard: { classes: 'bg-hard-15 text-hard', label: 'hard' },
-        medium: { classes: 'bg-medium-15 text-medium', label: 'medium' },
-    };
-
-    const MAX_RESULTS = 20;
-
     let activeIndex = -1;
-    let cleanup: (() => void) | null = null;
-    let indexPromise: Promise<SearchEntry[]> | null = null;
-    let pointerInResults = false;
+    let controller: AbortController | null = null;
+    let emptyMessage: HTMLElement | null = null;
+    let indexPromise: Promise<SearchEntry[] | null> | null = null;
+    let input: HTMLInputElement | null = null;
+    let isPointerInResults = false;
+    let results: HTMLElement | null = null;
+    let searchBox: HTMLElement | null = null;
 
-    function escapeHtml(text: string) {
-        return text
-            .replace(/&/g, '&amp;')
-            .replace(/</g, '&lt;')
-            .replace(/>/g, '&gt;')
-            .replace(/"/g, '&quot;');
+    function closeResults() {
+        if (!input || !results) return;
+
+        activeIndex = -1;
+        isPointerInResults = false;
+        input.removeAttribute('aria-activedescendant');
+        input.setAttribute('aria-expanded', 'false');
+        results.classList.remove('navbar__results--open');
+        results.querySelectorAll('.navbar__result').forEach(item => item.setAttribute('aria-selected', 'false'));
     }
 
     async function fetchIndex() {
         try {
-            const response = await fetch('/api/search');
+            const response = await fetch('/api/search.json');
 
-            if (!response.ok) throw new Error('search index unavailable');
+            if (!response.ok) {
+                indexPromise = null;
 
-            const data: SearchEntry[] = await response.json();
+                return null;
+            }
 
-            return data;
+            const entries: SearchEntry[] = await response.json();
+
+            return entries;
         } catch {
             indexPromise = null;
 
-            return [];
+            return null;
         }
     }
 
+    function getVisibleResults() {
+        return results ? Array.from(results.querySelectorAll<HTMLAnchorElement>('.navbar__result:not([hidden])')) : [];
+    }
+
+    function handleDocumentClick(event: MouseEvent) {
+        if (!input || !results) return;
+        if (!(event.target instanceof Node)) return;
+        if (input.contains(event.target) || results.contains(event.target)) return;
+
+        closeResults();
+    }
+
+    function handleDocumentKeydown(event: KeyboardEvent) {
+        if (!input || !searchBox) return;
+
+        if (!event.altKey && !event.ctrlKey && !event.metaKey && document.activeElement !== input && event.key === '/') {
+            event.preventDefault();
+            input.focus();
+
+            return;
+        }
+
+        if (event.key === 'Escape' && searchBox.contains(document.activeElement)) {
+            if (input.getAttribute('aria-expanded') === 'true') closeResults();
+            else input.value = '';
+        }
+    }
+
+    function handleFocus() {
+        if (!input) return;
+
+        if (input.value) search(input.value);
+    }
+
+    function handleFocusOut(event: FocusEvent) {
+        if (!searchBox) return;
+        if (event.relatedTarget instanceof Node && searchBox.contains(event.relatedTarget)) return;
+
+        closeResults();
+    }
+
+    function handleInput() {
+        if (!input) return;
+
+        search(input.value);
+    }
+
+    function handleInputKeydown(event: KeyboardEvent) {
+        if (!input) return;
+
+        if (!input.value && event.key === '/') event.preventDefault();
+
+        const items = getVisibleResults();
+
+        if (!items.length || input.getAttribute('aria-expanded') !== 'true') return;
+
+        if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            setActiveResult(activeIndex < items.length - 1 ? activeIndex + 1 : 0);
+        } else if (event.key === 'ArrowUp') {
+            event.preventDefault();
+            setActiveResult(activeIndex > 0 ? activeIndex - 1 : items.length - 1);
+        } else if (activeIndex >= 0 && event.key === 'Enter') {
+            event.preventDefault();
+            items[activeIndex].click();
+        }
+    }
+
+    function handleResultsPointerOver(event: PointerEvent) {
+        if (!(event.target instanceof Element)) return;
+
+        const item = event.target.closest<HTMLAnchorElement>('.navbar__result');
+
+        if (!item) return;
+
+        isPointerInResults = true;
+        setActiveResult(getVisibleResults().indexOf(item));
+    }
+
     function initSearch() {
-        cleanup?.();
+        controller?.abort();
+        controller = new AbortController();
+        searchBox = document.querySelector<HTMLElement>('search');
+        input = searchBox?.querySelector<HTMLInputElement>('input') ?? null;
+        results = searchBox?.querySelector<HTMLElement>('[role="listbox"]') ?? null;
+        emptyMessage = results?.querySelector<HTMLElement>('.navbar__message') ?? null;
 
-        const input = document.getElementById('search-input') as HTMLInputElement;
-        const results = document.getElementById('search-results') as HTMLElement;
+        if (!emptyMessage || !input || !results || !searchBox) return;
 
-        const combobox = input.closest('search') as HTMLElement;
+        const { signal } = controller;
 
-        if (!combobox || !input || !results) return;
+        input.addEventListener('focus', handleFocus, { signal });
+        input.addEventListener('input', handleInput, { signal });
+        input.addEventListener('keydown', handleInputKeydown, { signal });
 
-        function hideResults() {
-            activeIndex = -1;
-            pointerInResults = false;
-            input.removeAttribute('aria-activedescendant');
-            input.setAttribute('aria-expanded', 'false');
-            toggleResults(false);
-        }
+        results.addEventListener('pointerleave', () => {
+            isPointerInResults = false;
+        }, { signal });
 
-        function onDocClick(e: MouseEvent) {
-            const target = e.target as Node;
-
-            if (!input.contains(target) && !results.contains(target)) {
-                hideResults();
-            }
-        }
-
-        function onDocKeydown(e: KeyboardEvent) {
-            if (document.activeElement !== input && e.key === '/') {
-                e.preventDefault();
-                input.focus();
-
-                return;
-            }
-
-            if (e.key === 'Escape') {
-                input.value = '';
-                hideResults();
-            }
-        }
-
-        function onFocus() {
-            if (input.value) search(input.value);
-        }
-
-        function onFocusOut(e: FocusEvent) {
-            const next = e.relatedTarget as Node | null;
-
-            if (next && !combobox.contains(next)) hideResults();
-        }
-
-        function onInput(e: Event) {
-            search((e.target as HTMLInputElement).value);
-        }
-
-        function onInputKeydown(e: KeyboardEvent) {
-            const items = results.querySelectorAll<HTMLAnchorElement>('.navbar__result');
-
-            if (!items.length) return;
-
-            if (e.key === 'ArrowDown') {
-                e.preventDefault();
-
-                const next = activeIndex < items.length - 1 ? activeIndex + 1 : 0;
-
-                setActiveResult(next);
-            } else if (e.key === 'ArrowUp') {
-                e.preventDefault();
-
-                const prev = activeIndex > 0 ? activeIndex - 1 : items.length - 1;
-
-                setActiveResult(prev);
-            } else if (activeIndex >= 0 && e.key === 'Enter') {
-                e.preventDefault();
-                items[activeIndex].click();
-            }
-        }
-
-        function onResultsPointerLeave() {
-            pointerInResults = false;
-        }
-
-        function renderResults(matches: SearchEntry[]) {
-            input.removeAttribute('aria-activedescendant');
-
-            if (matches.length === 0) {
-                activeIndex = -1;
-
-                results.innerHTML = [
-                    '<div class="navbar__result-text px-4 py-2.5 text-zinc-400">',
-                    'No results',
-                    '</div>',
-                ].join('');
-            } else {
-                results.innerHTML = matches.slice(0, MAX_RESULTS).map((entry, i) => {
-                    const badge = BADGE_STYLES[entry.difficulty] ?? BADGE_STYLES.hard;
-
-                    return [
-                        `<a`,
-                        ` id="search-result-${i}"`,
-                        ` class="navbar__result navbar__result-text flex items-center justify-between gap-3 px-4 py-2.5 text-zinc-300 duration-(--duration-instant) transition-colors"`,
-                        ` href="/p/${entry.id}"`,
-                        ` role="option"`,
-                        ` tabindex="-1"`,
-                        `>`,
-                        `<span class="truncate">${escapeHtml(entry.title)}</span>`,
-                        `<span class="navbar__badge hidden px-2 py-0.5 rounded-full font-mono tracking-wider uppercase sm:inline-block ${badge.classes}">${badge.label}</span>`,
-                        `</a>`,
-                    ].join('');
-                }).join('');
-
-                results.querySelectorAll<HTMLAnchorElement>('.navbar__result').forEach((item, i) => {
-                    item.addEventListener('pointerenter', () => {
-                        pointerInResults = true;
-                        setActiveResult(i);
-                    });
-                });
-
-                if (!pointerInResults) setActiveResult(0);
-            }
-        }
-
-        async function search(query: string) {
-            const normalizedQuery = query.trim().toLowerCase();
-
-            if (!normalizedQuery) {
-                hideResults();
-
-                return;
-            }
-
-            const index = await loadIndex();
-
-            if (input.value !== query) return;
-
-            const matches = index
-                .filter(entry => entry.id === normalizedQuery || entry.title.toLowerCase().includes(normalizedQuery))
-                .sort(sortResults);
-
-            renderResults(matches);
-            input.setAttribute('aria-expanded', 'true');
-            toggleResults(true);
-        }
-
-        function setActiveResult(index: number) {
-            const items = results.querySelectorAll<HTMLAnchorElement>('.navbar__result');
-
-            activeIndex = index;
-            items.forEach(item => item.removeAttribute('aria-selected'));
-
-            if (index >= 0 && index < items.length) {
-                const item = items[index];
-
-                input.setAttribute('aria-activedescendant', item.id);
-                item.setAttribute('aria-selected', 'true');
-                item.scrollIntoView({ block: 'nearest' });
-            } else {
-                input.removeAttribute('aria-activedescendant');
-            }
-        }
-
-        function toggleResults(visible: boolean) {
-            results.classList.toggle('opacity-0', !visible);
-            results.classList.toggle('opacity-100', visible);
-            results.classList.toggle('pointer-events-auto', visible);
-            results.classList.toggle('pointer-events-none', !visible);
-        }
-
+        results.addEventListener('pointerover', handleResultsPointerOver, { signal });
+        searchBox.addEventListener('focusout', handleFocusOut, { signal });
         loadIndex();
-        combobox.addEventListener('focusout', onFocusOut);
-        document.addEventListener('click', onDocClick);
-        document.addEventListener('keydown', onDocKeydown);
-        input.addEventListener('focus', onFocus);
-        input.addEventListener('input', onInput);
-        input.addEventListener('keydown', onInputKeydown);
-        results.addEventListener('pointerleave', onResultsPointerLeave);
-        input.dataset.ready = '';
-
-        cleanup = () => {
-            combobox.removeEventListener('focusout', onFocusOut);
-            document.removeEventListener('click', onDocClick);
-            document.removeEventListener('keydown', onDocKeydown);
-            input.removeEventListener('focus', onFocus);
-            input.removeEventListener('input', onInput);
-            input.removeEventListener('keydown', onInputKeydown);
-            results.removeEventListener('pointerleave', onResultsPointerLeave);
-        };
     }
 
     function loadIndex() {
@@ -307,13 +339,108 @@ import IconSearch from '@components/IconSearch.astro';
         return indexPromise;
     }
 
-    function sortResults(a: SearchEntry, b: SearchEntry) {
-        if (a.difficulty === 'ds' && b.difficulty !== 'ds') return -1;
-        if (a.difficulty !== 'ds' && b.difficulty === 'ds') return 1;
-        if (a.difficulty !== 'ds' && b.difficulty !== 'ds') return parseInt(a.id) - parseInt(b.id);
+    function openResults() {
+        if (!input || !results) return;
 
-        return a.title.localeCompare(b.title);
+        input.setAttribute('aria-expanded', 'true');
+        results.classList.add('navbar__results--open');
+    }
+
+    function renderResults(matches: SearchEntry[]) {
+        if (!emptyMessage || !results) return;
+
+        results.querySelectorAll<HTMLAnchorElement>('.navbar__result').forEach((item, index) => {
+            const badge = item.querySelector<HTMLElement>('.navbar__badge');
+            const entry = matches[index];
+            const title = item.querySelector<HTMLElement>('.navbar__result-title');
+
+            if (!badge || !title) return;
+
+            if (index >= matches.length) {
+                badge.textContent = '';
+                item.hidden = true;
+                title.textContent = '';
+
+                return;
+            }
+
+            badge.dataset.difficulty = entry.difficulty;
+            badge.textContent = entry.difficulty;
+            item.hidden = false;
+            item.href = `/p/${entry.id}`;
+            title.textContent = entry.title;
+        });
+
+        emptyMessage.hidden = true;
+        openResults();
+
+        if (!isPointerInResults) setActiveResult(0);
+    }
+
+    async function search(query: string) {
+        if (!input || !searchBox) return;
+
+        const normalizedQuery = query.trim().toLowerCase();
+
+        if (!normalizedQuery) {
+            closeResults();
+
+            return;
+        }
+
+        const index = await loadIndex();
+
+        if (!searchBox.contains(document.activeElement) || input.value !== query) return;
+        if (!index) return;
+
+        const matches = index.filter(entry => entry.id === normalizedQuery || entry.title.toLowerCase().includes(normalizedQuery));
+
+        if (!matches.length) {
+            showEmptyMessage();
+
+            return;
+        }
+
+        renderResults(matches);
+    }
+
+    function setActiveResult(index: number) {
+        if (!input) return;
+
+        const items = getVisibleResults();
+
+        activeIndex = index;
+        items.forEach(item => item.setAttribute('aria-selected', 'false'));
+
+        if (index < 0 || index >= items.length) {
+            input.removeAttribute('aria-activedescendant');
+
+            return;
+        }
+
+        const item = items[index];
+
+        input.setAttribute('aria-activedescendant', item.id);
+        item.scrollIntoView({ block: 'nearest' });
+        item.setAttribute('aria-selected', 'true');
+    }
+
+    function showEmptyMessage() {
+        if (!emptyMessage || !input || !results) return;
+
+        activeIndex = -1;
+        emptyMessage.hidden = false;
+        isPointerInResults = false;
+        input.setAttribute('aria-activedescendant', 'search-message');
+
+        results.querySelectorAll<HTMLElement>('.navbar__result').forEach((item) => {
+            item.hidden = true;
+        });
+
+        openResults();
     }
 
     document.addEventListener('astro:page-load', initSearch);
+    document.addEventListener('click', handleDocumentClick);
+    document.addEventListener('keydown', handleDocumentKeydown);
 </script>

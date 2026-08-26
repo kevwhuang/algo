@@ -1,6 +1,6 @@
 {
     "name": "algo",
-    "version": "26.8.24",
+    "version": "26.8.25",
     "type": "module",
     "author": "Kevin Huang",
     "scripts": {
@@ -14,11 +14,10 @@
         "@astrojs/netlify": "^8.2.4",
         "@astrojs/react": "^6.0.4",
         "@astrojs/sitemap": "^3.7.3",
-        "@fontsource/geist-sans": "^5.3.0",
         "@netlify/blobs": "^10.7.13",
         "@supabase/supabase-js": "^2.112.4",
         "@tailwindcss/vite": "^4.3.3",
-        "astro": "^7.2.6",
+        "astro": "^7.2.7",
         "astro-robots-txt": "^1.0.0",
         "gsap": "^3.15.0",
         "react": "^19.2.8",

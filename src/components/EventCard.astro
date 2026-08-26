@@ -1,17 +1,29 @@
 ---
+import IconClock from '@components/IconClock.astro';
+import IconPin from '@components/IconPin.astro';
+import { MEETUP_URL } from '@lib/constants';
+
 interface Props {
-    city: string;
-    dateTime: string;
-    endTime: string;
-    title: string;
-    url: string;
-    venue: string;
+    event?: { city: string; dateTime: string; endTime: string; title: string; url: string; venue: string };
 }
 
 const WALL_CLOCK_LENGTH = 19;
 
-function formatDate(dateStr: string) {
-    const date = new Date(dateStr.slice(0, WALL_CLOCK_LENGTH));
+const { event } = Astro.props;
+
+const DateColumn = event ? 'time' : 'div';
+const endFormatted = event && formatDate(event.endTime);
+const href = event?.url ?? MEETUP_URL;
+const startFormatted = event && formatDate(event.dateTime);
+
+const day = startFormatted ? String(startFormatted.day) : '\u2014';
+
+const label = event && startFormatted
+    ? `${event.title} \u2014 ${startFormatted.weekday} ${startFormatted.month} ${startFormatted.day}, ${startFormatted.year} at ${startFormatted.time} (opens in new tab)`
+    : 'No upcoming events \u2014 visit us on Meetup (opens in new tab)';
+
+function formatDate(dateString: string) {
+    const date = new Date(dateString.slice(0, WALL_CLOCK_LENGTH));
 
     return {
         day: date.getDate(),
@@ -21,61 +33,126 @@ function formatDate(dateStr: string) {
         year: date.getFullYear(),
     };
 }
-
-const { city, dateTime, endTime, title, url, venue } = Astro.props;
-const endFormatted = formatDate(endTime);
-const formatted = formatDate(dateTime);
 ---
 
 <a
-    class="meetup-events__card group block p-[clamp(1.5rem,calc(0.67rem+4.17vw),4rem)] border border-white-10"
-    aria-label={`${title} \u2014 ${formatted.weekday} ${formatted.month} ${formatted.day}, ${formatted.year} at ${formatted.time} (opens in new tab)`}
-    data-scroll="up"
-    href={url}
+    class="events__card block p-[clamp(1.5rem,calc(0.6667rem+4.1667vw),4rem)] border border-white-10 duration-(--duration-fast) transition-[background-color,border-color]"
+    aria-label={label}
+    href={href}
     target="_blank"
 >
-    <div class="flex flex-col gap-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] md:flex-row md:gap-[clamp(2rem,calc(1.67rem+1.67vw),3rem)] md:items-center">
-        <time
-            class="flex flex-col items-center shrink-0 border-white-10 text-center md:border-r md:pr-[clamp(1rem,calc(0.33rem+3.33vw),3rem)] md:w-[clamp(6rem,calc(4.67rem+6.67vw),10rem)]"
-            datetime={dateTime}
+    <div class="events__layout flex items-center gap-(--gap-m)">
+        <DateColumn
+            class="events__date flex flex-col items-center shrink-0 w-[clamp(7rem,calc(5.6667rem+6.6667vw),11rem)] pr-(--gap-m) border-r border-white-10 text-center"
+            datetime={event?.dateTime}
         >
-            <span class="text-[clamp(0.625rem,calc(0.54rem+0.42vw),0.875rem)] tracking-[0.2em] uppercase text-zinc-300">
-                {formatted.weekday}
-            </span>
+            {startFormatted && <span class="indent-[0.2em] text-xs tracking-[0.2em] uppercase text-zinc-300">{startFormatted.weekday}</span>}
             <span
-                class="meetup-events__day font-bold leading-tight text-[clamp(2.5rem,calc(1.83rem+3.33vw),4.5rem)]"
-                data-day={String(formatted.day)}
+                class="events__day relative font-bold leading-tight text-display bg-clip-text bg-linear-to-b from-white-85 text-transparent to-white-40"
+                data-day={day}
             >
-                {formatted.day}
+                {day}
             </span>
-            <span class="text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] tracking-[0.15em] uppercase text-zinc-200">
-                {formatted.month} {formatted.year}
-            </span>
-        </time>
-        <div class="flex flex-col flex-1 min-w-0 gap-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] text-[clamp(0.875rem,calc(0.79rem+0.42vw),1.125rem)] text-center text-zinc-300 md:text-left">
-            <h3 class="meetup-events__name order-2 font-semibold leading-snug text-[clamp(1.25rem,calc(0.92rem+1.67vw),2.25rem)] text-center text-zinc-200 duration-(--duration-base) transition-colors md:order-none md:text-left">
-                {title}
-            </h3>
-            <p class="order-1 md:order-none">
-                <span aria-hidden="true">&#128336;</span>
-                &ensp;
-                <span class="sr-only">Time: </span>
-                {formatted.time} &ndash; {endFormatted.time}
-            </p>
-            {(city || venue) && (
-                <p class="order-3 md:order-none">
-                    <span aria-hidden="true">&#128205;</span>
-                    &ensp;
-                    <span class="sr-only">Location: </span>
-                    {[venue, city].filter(Boolean).join(', ')}
-                </p>
+            {startFormatted && (
+                <span class="indent-[0.2em] text-sm tracking-[0.2em] uppercase text-zinc-200">
+                    {startFormatted.month} {startFormatted.year}
+                </span>
+            )}
+        </DateColumn>
+        <div class="events__body flex flex-1 flex-col min-w-0 gap-(--gap-s) text-sm wrap-anywhere text-zinc-300">
+            <h3 class="events__name font-semibold leading-snug text-balance text-title text-zinc-200 duration-(--duration-fast) transition-colors">{event?.title ?? 'No upcoming events.'}</h3>
+            {endFormatted && event && startFormatted && (
+                <dl class="contents">
+                    <div class="events__row flex items-center gap-2">
+                        <dt class="flex items-center">
+                            <IconClock />
+                            <span class="sr-only">Time</span>
+                        </dt>
+                        <dd>
+                            <time datetime={event.dateTime}>{startFormatted.time}</time>
+                            {' '}
+                            &ndash;
+                            {' '}
+                            <time datetime={event.endTime}>{endFormatted.time}</time>
+                        </dd>
+                    </div>
+                    {(event.city || event.venue) && (
+                        <div class="events__row flex items-center gap-2">
+                            <dt class="flex items-center">
+                                <IconPin />
+                                <span class="sr-only">Location</span>
+                            </dt>
+                            <dd>{[event.venue, event.city].filter(Boolean).join(', ')}</dd>
+                        </div>
+                    )}
+                </dl>
             )}
         </div>
         <span
-            class="meetup-events__arrow hidden shrink-0 text-[clamp(1rem,calc(0.67rem+1.67vw),2rem)] text-zinc-700 duration-(--duration-base) transition-[color,transform] select-none md:block"
+            class="events__arrow shrink-0 text-title text-zinc-500 duration-(--duration-fast) transition-[color,transform]"
             aria-hidden="true"
         >
             &rarr;
         </span>
     </div>
 </a>
+
+<style>
+    .events__card:active {
+        background-color: var(--color-white-10);
+    }
+
+    .events__card:where(:focus-visible, :hover) {
+        background-color: var(--color-white-05);
+        border-color: var(--color-cyan-30);
+    }
+
+    .events__card:where(:focus-visible, :hover) .events__arrow {
+        color: var(--color-cyan-60);
+        transform: translateX(0.25rem);
+    }
+
+    .events__card:where(:focus-visible, :hover) .events__day::before {
+        opacity: 1;
+    }
+
+    .events__card:where(:focus-visible, :hover) .events__name {
+        color: var(--color-cyan);
+    }
+
+    .events__day::before {
+        background: linear-gradient(180deg, var(--color-cyan-90) 0%, var(--color-cyan-60) 100%);
+        background-clip: text;
+        color: transparent;
+        content: attr(data-day) / '';
+        inset: 0;
+        opacity: 0;
+        position: absolute;
+        transition: opacity var(--duration-fast) ease;
+    }
+
+    @media (max-width: 768px) {
+        .events__arrow {
+            display: none;
+        }
+
+        .events__body {
+            text-align: center;
+        }
+
+        .events__date {
+            border-right: 0;
+            padding-right: 0;
+            width: auto;
+        }
+
+        .events__layout {
+            flex-direction: column;
+            gap: var(--gap-s);
+        }
+
+        .events__row {
+            justify-content: center;
+        }
+    }
+</style>

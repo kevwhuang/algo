@@ -1,23 +1,35 @@
 ---
 import EventCard from '@components/EventCard.astro';
-import EventCardEmpty from '@components/EventCardEmpty.astro';
+import { MEETUP_URL } from '@lib/constants';
 
-interface MeetupEvent {
-    city: string;
+import type { ComponentProps } from 'astro/types';
+
+type MeetupEvent = NonNullable<ComponentProps<typeof EventCard>['event']>;
+
+interface ApolloEvent {
     dateTime: string;
     endTime: string;
+    eventUrl: string;
+    status: string;
     title: string;
-    url: string;
-    venue: string;
+    venue: { __ref: string } | null;
+}
+
+interface ApolloVenue {
+    city: string;
+    name: string;
 }
 
 const FETCH_TIMEOUT = 10_000;
+const MAX_EVENTS = 5;
+
+const events = await fetchEvents();
 
 async function fetchEvents() {
     try {
-        const response = await fetch('https://www.meetup.com/algoatx/events', { signal: AbortSignal.timeout(FETCH_TIMEOUT) });
+        const response = await fetch(`${MEETUP_URL}/events/?t=${Date.now()}`, { signal: AbortSignal.timeout(FETCH_TIMEOUT) });
 
-        if (!response.ok) throw new Error(`Meetup API ${response.status}`);
+        if (!response.ok) return [];
 
         const html = await response.text();
 
@@ -25,82 +37,54 @@ async function fetchEvents() {
 
         if (!match) return [];
 
-        const data = JSON.parse(match[1]);
-
-        const state = data?.props?.pageProps?.__APOLLO_STATE__;
+        const state: Record<string, unknown> | undefined = JSON.parse(match[1])?.props?.pageProps?.__APOLLO_STATE__;
 
         if (!state) return [];
-
-        const venues: Record<string, { city: string; name: string }> = {};
-
-        for (const [key, value] of Object.entries(state)) {
-            if (key.startsWith('Venue:')) {
-                const venueData = value as Record<string, unknown>;
-
-                venues[key] = { city: (venueData.city as string) || '', name: (venueData.name as string) || '' };
-            }
-        }
 
         const events: MeetupEvent[] = [];
 
         for (const [key, value] of Object.entries(state)) {
-            if (key.startsWith('Event:')) {
-                const eventData = value as Record<string, unknown>;
+            if (!key.startsWith('Event:')) continue;
 
-                if (typeof eventData.status === 'string' && eventData.status !== 'ACTIVE') continue;
+            const { dateTime, endTime, eventUrl, status, title, venue: venueRef } = value as ApolloEvent;
 
-                const endTimestamp = Date.parse(eventData.endTime as string);
-                const startTimestamp = Date.parse(eventData.dateTime as string);
+            const endTimestamp = Date.parse(endTime);
+            const startTimestamp = Date.parse(dateTime);
 
-                if (!eventData.eventUrl || !eventData.title || Number.isNaN(endTimestamp) || Number.isNaN(startTimestamp)) {
-                    continue;
-                }
+            if (!eventUrl || !title || status !== 'ACTIVE') continue;
+            if (Number.isNaN(endTimestamp) || Number.isNaN(startTimestamp) || endTimestamp < startTimestamp) continue;
 
-                const venueRef = (eventData.venue as Record<string, string>)?.__ref || '';
+            const venue = venueRef ? state[venueRef.__ref] as ApolloVenue | undefined : undefined;
 
-                const venue = venues[venueRef] || { city: '', name: '' };
-
-                events.push({
-                    city: venue.city,
-                    dateTime: (eventData.dateTime as string) || '',
-                    endTime: (eventData.endTime as string) || '',
-                    title: (eventData.title as string) || '',
-                    url: (eventData.eventUrl as string) || '',
-                    venue: venue.name,
-                });
-            }
+            events.push({ city: venue?.city ?? '', dateTime, endTime, title, url: eventUrl, venue: venue?.name ?? '' });
         }
 
-        return events.sort((a, b) => new Date(a.dateTime).getTime() - new Date(b.dateTime).getTime());
+        return events.sort((a, b) => Date.parse(a.dateTime) - Date.parse(b.dateTime));
     } catch {
         return [];
     }
 }
-
-const events = await fetchEvents();
 ---
 
 <section
-    class="meetup-events px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950"
+    class="events section"
     aria-label="Events"
 >
-    <div class="max-w-6xl mx-auto">
-        <h2 class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] text-center tracking-[0.3em] uppercase text-zinc-200">
+    <div class="shell">
+        <h2
+            class="mb-(--heading-margin) indent-[0.3em] text-center text-heading tracking-[0.3em] uppercase text-zinc-200"
+            data-scroll
+        >
             Events
         </h2>
-        <div class="flex flex-col gap-[clamp(2rem,calc(1.33rem+3.33vw),4rem)]">
+        <ul
+            class="flex flex-col gap-(--gap-l)"
+            data-scroll
+            data-scroll-stagger="0.1"
+        >
             {events.length === 0
-                ? <EventCardEmpty />
-                : events.slice(0, 5).map(event => (
-                        <EventCard
-                            city={event.city}
-                            dateTime={event.dateTime}
-                            endTime={event.endTime}
-                            title={event.title}
-                            url={event.url}
-                            venue={event.venue}
-                        />
-                    ))}
-        </div>
+                ? <li><EventCard /></li>
+                : events.slice(0, MAX_EVENTS).map(event => <li><EventCard event={event} /></li>)}
+        </ul>
     </div>
 </section>

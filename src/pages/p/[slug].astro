@@ -4,15 +4,22 @@ import { getCollection } from 'astro:content';
 import Layout from '@/Layout.astro';
 import Solution from '@sections/Solution.astro';
 
-interface Props {
-    code: string;
-    difficulty?: string;
-    lang: string;
-    langLabel: string;
-    title: string;
-}
+import type { CollectionEntry } from 'astro:content';
+
+type Props = CollectionEntry<'dataStructures'>['data'] & Partial<CollectionEntry<'problems'>['data']>;
+
+const MIN_DESCRIPTION_LENGTH = 120;
 
 const { code, difficulty, lang, langLabel, title } = Astro.props;
+
+const base = difficulty
+    ? `${title}: ${langLabel} solution to the ${difficulty} practice problem`
+    : `${title}: ${langLabel} implementation of the data structure`;
+
+let description = `${base}.`;
+
+if (description.length < MIN_DESCRIPTION_LENGTH) description = `${base} with copyable source code from Algo.`;
+if (description.length < MIN_DESCRIPTION_LENGTH) description = `${base} with copyable source code from the Algo archive of LeetCode solutions.`;
 
 export async function getStaticPaths() {
     const [dataStructures, problems] = await Promise.all([
@@ -25,7 +32,6 @@ export async function getStaticPaths() {
             params: { slug: entry.id },
             props: { ...entry.data },
         })),
-
         ...problems.map(entry => ({
             params: { slug: entry.id },
             props: { ...entry.data },
@@ -35,8 +41,14 @@ export async function getStaticPaths() {
 ---
 
 <Layout
-    description={`${title} \u2014 ${difficulty ? 'algorithm solution' : 'data structure implementation'}.`}
-    title={`${title} | Algo`}
+    description={description}
+    title={`${title} \u2014 Algo`}
 >
-    <Solution code={code} difficulty={difficulty} lang={lang} langLabel={langLabel} title={title} />
+    <Solution
+        code={code}
+        difficulty={difficulty}
+        lang={lang}
+        langLabel={langLabel}
+        title={title}
+    />
 </Layout>

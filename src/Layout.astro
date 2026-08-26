@@ -1,8 +1,6 @@
 ---
-import '@fontsource/geist-sans/400.css';
-import '@fontsource/geist-sans/600.css';
-import '@fontsource/geist-sans/700.css';
 import { ClientRouter } from 'astro:transitions';
+import { Font } from 'astro:assets';
 
 import '@/global.css';
 import '@/styles.css';
@@ -17,11 +15,10 @@ interface Props {
 }
 
 const canonicalUrl = new URL(Astro.routePattern.replace(/\[(\w+)\]/g, (_match, key) => Astro.params[key] ?? ''), Astro.site);
-const currentRoute = ROUTES.find(route => route.href === Astro.routePattern);
 const { description, noindex, title } = Astro.props;
 const ogImageUrl = `${Astro.site}og.png`;
 
-const breadcrumbRoutes = currentRoute && currentRoute !== ROUTES[0] ? [ROUTES[0], currentRoute] : [];
+const breadcrumbRoutes = Astro.routePattern === '/' ? [] : [ROUTES[0], { href: canonicalUrl.pathname, label: title }];
 
 const breadcrumbList = {
     '@type': 'BreadcrumbList',
@@ -85,9 +82,10 @@ const structuredData = {
         <meta content={ogImageUrl} name="twitter:image" />
         <meta content={title} name="twitter:title" />
         <script is:inline set:html={JSON.stringify(structuredData)} type="application/ld+json" />
+        <Font cssVariable="--font-geist-sans" preload />
         <ClientRouter />
     </head>
-    <body class="flex flex-col min-h-svh antialiased font-sans bg-zinc-950 text-white">
+    <body class="flex flex-col min-h-svh pt-(--header-height) antialiased bg-zinc-950 text-white">
         <Navbar />
         <main class="flex flex-1 flex-col">
             <slot />

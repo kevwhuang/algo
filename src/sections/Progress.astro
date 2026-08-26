@@ -1,140 +1,73 @@
 ---
-import fs from 'node:fs';
-import path from 'node:path';
+import { getCollection } from 'astro:content';
 
-interface DifficultyStats {
-    completed: number;
-    cssVar: string;
-    label: string;
-    total: number;
-}
+import { DIFFICULTIES } from '@lib/constants';
+
+const DIFFICULTY_CLASSES = {
+    easy: { bar: 'from-emerald to-emerald-bright', label: 'text-emerald', track: 'bg-emerald-15' },
+    hard: { bar: 'from-red to-red-bright', label: 'text-red', track: 'bg-red-15' },
+    medium: { bar: 'from-amber to-amber-bright', label: 'text-amber', track: 'bg-amber-15' },
+} as const;
 
 const MIN_SOLUTION_LINES = 3;
 const PERCENT = 100;
 
-function countCompleted(directory: string) {
-    let completed = 0;
-    let total = 0;
+const problems = (await getCollection('problems')).filter(entry => !entry.filePath?.includes('front-end'));
 
-    for (const subdirectoryName of fs.readdirSync(directory)) {
-        const subdirectory = path.join(directory, subdirectoryName);
+const stats = DIFFICULTIES.map((difficulty) => {
+    const entries = problems.filter(entry => entry.data.difficulty === difficulty);
 
-        if (!fs.statSync(subdirectory).isDirectory() || subdirectoryName === 'front-end') continue;
-
-        for (const file of fs.readdirSync(subdirectory)) {
-            if (file.startsWith('.')) continue;
-
-            const lines = fs.readFileSync(path.join(subdirectory, file), 'utf-8').trim().split('\n');
-
-            if (lines.length >= MIN_SOLUTION_LINES) completed++;
-
-            total++;
-        }
-    }
-
-    return { completed, total };
-}
-
-const stats: DifficultyStats[] = [
-    {
-        cssVar: '--color-easy',
-        label: 'Easy',
-        ...countCompleted('src/content/easy'),
-    },
-
-    {
-        cssVar: '--color-medium',
-        label: 'Medium',
-        ...countCompleted('src/content/medium'),
-    },
-
-    {
-        cssVar: '--color-hard',
-        label: 'Hard',
-        ...countCompleted('src/content/hard'),
-    },
-];
+    return {
+        classes: DIFFICULTY_CLASSES[difficulty],
+        completed: entries.filter(entry => entry.data.code.trim().split('\n').length >= MIN_SOLUTION_LINES).length,
+        difficulty,
+        total: entries.length,
+    };
+});
 ---
 
 <section
-    class="progress px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950"
+    class="progress section"
     aria-label="Progress"
 >
-    <div class="max-w-6xl mx-auto">
+    <div class="shell">
         <h1 class="sr-only">Algo</h1>
-        <h2 class="mb-[clamp(2rem,calc(0.67rem+6.67vw),6rem)] text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] text-center tracking-[0.3em] uppercase text-zinc-200">
+        <h2
+            class="mb-(--heading-margin) indent-[0.3em] text-center text-heading tracking-[0.3em] uppercase text-zinc-200"
+            data-scroll
+        >
             Progress
         </h2>
-        <div class="flex flex-col gap-[clamp(2rem,calc(1.5rem+2.5vw),3.5rem)]">
-            {stats.map(({ completed, cssVar, label, total }) => {
+        <ul
+            class="flex flex-col gap-(--gap-l)"
+            data-scroll
+            data-scroll-stagger="0.1"
+        >
+            {stats.map(({ classes, completed, difficulty, total }) => {
                 const percent = total > 0 ? Math.round((completed / total) * PERCENT) : 0;
 
                 return (
-                    <div>
-                        <div class="flex items-baseline justify-between mb-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)]">
-                            <span
-                                class="font-semibold text-[clamp(1.125rem,calc(0.79rem+1.67vw),2.125rem)]"
-                                style={`color: var(${cssVar})`}
-                            >
-                                {label}
-                            </span>
-                            <span class="font-mono text-[clamp(1rem,calc(0.83rem+0.83vw),1.5rem)]">
+                    <li>
+                        <dl class="flex items-baseline justify-between mb-3">
+                            <dt class={`capitalize font-semibold text-title ${classes.label}`}>{difficulty}</dt>
+                            <dd class="font-mono text-lead">
                                 {completed}
                                 <span class="text-zinc-400">/{total}</span>
-                            </span>
-                        </div>
+                            </dd>
+                        </dl>
                         <div
-                            class="overflow-hidden h-[clamp(0.625rem,calc(0.46rem+0.83vw),1.125rem)] rounded-full"
-                            aria-label={`${label} progress`}
+                            class={`overflow-hidden h-4 rounded-full ${classes.track}`}
+                            aria-label={`${difficulty} progress`}
                             aria-valuemax={total}
                             aria-valuemin={0}
                             aria-valuenow={completed}
                             role="progressbar"
-                            style={`background: var(${cssVar}-15)`}
                         >
-                            <div
-                                class="progress__bar h-full rounded-full duration-(--duration-slow) transition-[width]"
-                                data-width={percent}
-                                style={`width: 0%; background: linear-gradient(90deg, var(${cssVar}), color-mix(in srgb, var(${cssVar}) 70%, white)); box-shadow: 0 0 0.75rem var(${cssVar}-15)`}
-                            />
+                            <div class={`progress__bar h-full w-0 rounded-full bg-linear-to-r ${classes.bar}`} data-progress={percent} />
                         </div>
-                    </div>
+                    </li>
                 );
             })}
-        </div>
+        </ul>
     </div>
 </section>
-
-<script>
-    const ANIMATION_DELAY = 500;
-    const VISIBILITY_THRESHOLD = 0.2;
-
-    function animateBars() {
-        const bars = document.querySelectorAll<HTMLElement>('.progress__bar');
-
-        const observer = new IntersectionObserver(
-            (entries) => {
-                for (const entry of entries) {
-                    if (entry.isIntersecting) {
-                        const bar = entry.target as HTMLElement;
-
-                        setTimeout(() => {
-                            bar.style.width = `${bar.dataset.width}%`;
-                        }, ANIMATION_DELAY);
-
-                        observer.unobserve(bar);
-                    }
-                }
-            },
-
-            { threshold: VISIBILITY_THRESHOLD },
-        );
-
-        for (const bar of bars) {
-            bar.style.width = '0%';
-            observer.observe(bar);
-        }
-    }
-
-    document.addEventListener('astro:page-load', animateBars);
-</script>

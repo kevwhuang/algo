@@ -1,52 +1,58 @@
 @import 'tailwindcss';
 
 @theme {
-    --color-code: #0e0e12;
+    --color-amber: #fbbf24;
+    --color-amber-15: #fbbf2426;
+    --color-amber-bright: #fcd266;
     --color-cyan: #06b6d4;
     --color-cyan-15: #06b6d426;
     --color-cyan-20: #06b6d433;
     --color-cyan-30: #06b6d44d;
-    --color-cyan-40: #06b6d466;
-    --color-cyan-50: #06b6d480;
     --color-cyan-60: #06b6d499;
     --color-cyan-80: #06b6d4cc;
     --color-cyan-90: #06b6d4e6;
-    --color-easy: #34d399;
-    --color-easy-15: #34d39926;
-    --color-hard: #f87171;
-    --color-hard-15: #f8717126;
+    --color-cyan-bright: #51cce1;
+    --color-emerald: #34d399;
+    --color-emerald-15: #34d39926;
+    --color-emerald-bright: #71e0b8;
+    --color-frost: #e6edf3;
     --color-leetcode: #ffa116;
-    --color-medium: #fbbf24;
-    --color-medium-15: #fbbf2426;
     --color-meetup: #ed1c40;
+    --color-red: #f87171;
+    --color-red-15: #f8717126;
+    --color-red-bright: #fa9c9c;
     --color-white: #ffffff;
-    --color-white-5: #ffffff0d;
+    --color-white-05: #ffffff0d;
     --color-white-10: #ffffff1a;
     --color-white-20: #ffffff33;
     --color-white-40: #ffffff66;
     --color-white-60: #ffffff99;
     --color-white-85: #ffffffd9;
-    --color-zinc-100: #f4f4f5;
-    --color-zinc-200: #e4e4e7;
-    --color-zinc-300: #d4d4d8;
-    --color-zinc-400: #a1a1aa;
-    --color-zinc-500: #71717a;
-    --color-zinc-600: #52525b;
-    --color-zinc-700: #3f3f46;
-    --color-zinc-800: #27272a;
-    --color-zinc-900: #18181b;
-    --color-zinc-950: #09090b;
-    --font-sans:
-        'Geist Sans',
-        system-ui,
-        sans-serif;
+    --font-mono:
+        ui-monospace,
+        Menlo,
+        monospace;
+    --font-sans: var(--font-geist-sans);
+    --text-display: clamp(2.5rem, calc(1.8333rem + 3.3333vw), 4.5rem);
+    --text-heading: clamp(1.5rem, calc(1rem + 2.5vw), 3rem);
+    --text-hero: clamp(6rem, calc(3rem + 15vw), 15rem);
+    --text-lead: clamp(1rem, calc(0.8333rem + 0.8333vw), 1.5rem);
+    --text-title: clamp(1.25rem, calc(0.9167rem + 1.6667vw), 2.25rem);
 }
 
 :root {
+    --default-transition-timing-function: ease;
     --duration-base: 0.3s;
     --duration-fast: 0.15s;
-    --duration-instant: 0.1s;
-    --duration-slow: 1s;
+    --gap-l: clamp(2rem, calc(1.5rem + 2.5vw), 3.5rem);
+    --gap-m: clamp(1.5rem, calc(1rem + 2.5vw), 3rem);
+    --gap-s: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
+    --header-height: clamp(4rem, calc(3rem + 5vw), 7rem);
+    --heading-margin: clamp(2.5rem, calc(2rem + 2.5vw), 4rem);
+    --section-padding: clamp(3rem, calc(1.5rem + 7.5vw), 7.5rem);
+    --shell-pad: clamp(1rem, calc(0.5rem + 2.5vw), 2.5rem);
+    --size-icon: clamp(2rem, calc(1.6667rem + 1.6667vw), 3rem);
+    --width-shell: 80rem;
 }
 
 a,
@@ -58,7 +64,8 @@ select {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: clamp(4.5rem, calc(3.67rem + 4.17vw), 7rem);
+    scroll-padding-top: var(--header-height);
+    touch-action: manipulation;
 }
 
 html[data-astro-transition] {
@@ -107,11 +114,5 @@ html[data-astro-transition] {
     ::view-transition-new(root),
     ::view-transition-old(root) {
         animation: none !important;
-    }
-
-    [data-scroll] {
-        opacity: 1 !important;
-        transform: none !important;
-        transition: none !important;
     }
 }

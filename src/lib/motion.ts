@@ -1,172 +1,108 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import { REDUCED_MOTION_QUERY } from '@lib/constants';
-
-type Direction = 'down' | 'left' | 'right' | 'up';
-
-const PERCENT_SCALE = 100;
-const RESIZE_SETTLE_DELAY = 150;
+const PROGRESS_DURATION = 1;
 const SCROLL_DURATION = 0.8;
 const SCROLL_EASE = 'power3.out';
 const SCROLL_OFFSET = 60;
-const SCROLL_START_RATIO = 0.85;
-
-const DIRECTION_STATES: Record<Direction, { from: gsap.TweenVars; to: gsap.TweenVars }> = {
-    down: { from: { y: -SCROLL_OFFSET }, to: { y: 0 } },
-    left: { from: { x: SCROLL_OFFSET }, to: { x: 0 } },
-    right: { from: { x: -SCROLL_OFFSET }, to: { x: 0 } },
-    up: { from: { y: SCROLL_OFFSET }, to: { y: 0 } },
-};
-
-const SCROLL_START = `top ${SCROLL_START_RATIO * PERCENT_SCALE}%`;
-
-const reducedMotionQuery = window.matchMedia(REDUCED_MOTION_QUERY);
-
-let batchAnimations: gsap.core.Animation[] = [];
-let hasRevealed = false;
-let lastViewportWidth = window.innerWidth;
-let resizeSettleTimer: ReturnType<typeof setTimeout> | undefined;
-
-function getDirectionStates(element: HTMLElement) {
-    return DIRECTION_STATES[(element.dataset.scroll || 'up') as Direction] ?? DIRECTION_STATES.up;
-}
+const SCROLL_START = 'top 85%';
 
 function handleFocusIn(event: FocusEvent) {
     const { target } = event;
 
     if (!(target instanceof Element)) return;
 
-    const container = target.closest<HTMLElement>('[data-scroll]');
+    const revealTarget = target.closest<HTMLElement>('[data-scroll]');
 
-    if (!container) return;
-
-    const children = Array.from(container.children);
-
-    const focusedChild = children.find(child => child.contains(target));
-
-    const candidates = focusedChild ? [container, focusedChild] : [container, ...children];
-
-    if (!candidates.some(element => Number.parseFloat(getComputedStyle(element).opacity) === 0)) return;
+    if (!revealTarget) return;
 
     ScrollTrigger.getAll().forEach((trigger) => {
-        if (trigger.trigger && container.contains(trigger.trigger)) trigger.kill();
+        if (trigger.trigger && revealTarget.contains(trigger.trigger)) trigger.kill();
     });
 
-    revealInstantly(container);
+    revealInstantly(revealTarget);
 }
 
-function handleResize() {
-    if (window.innerWidth === lastViewportWidth) return;
-
-    lastViewportWidth = window.innerWidth;
-    clearTimeout(resizeSettleTimer);
-    resizeSettleTimer = setTimeout(initMotion, RESIZE_SETTLE_DELAY);
+function initProgressBars() {
+    document.querySelectorAll<HTMLElement>('[data-progress]').forEach((bar) => {
+        gsap.to(bar, {
+            delay: SCROLL_DURATION,
+            duration: PROGRESS_DURATION,
+            ease: SCROLL_EASE,
+            scrollTrigger: {
+                once: true,
+                start: SCROLL_START,
+                trigger: bar.closest('[data-scroll]') ?? bar,
+            },
+            width: `${bar.dataset.progress ?? 0}%`,
+        });
+    });
 }
 
-function hasInlineReveal(element: Element) {
-    return element instanceof HTMLElement && element.style.opacity === '1';
-}
-
-function initScrollAnimations(prefersReducedMotion: boolean) {
-    const elements = document.querySelectorAll<HTMLElement>('[data-scroll]');
-
-    if (prefersReducedMotion) {
-        elements.forEach(revealInstantly);
-
-        return;
-    }
-
-    elements.forEach((element) => {
-        const states = getDirectionStates(element);
+function initScrollAnimations() {
+    document.querySelectorAll<HTMLElement>('[data-scroll]').forEach((element) => {
+        const from: gsap.TweenVars = { opacity: 0, y: SCROLL_OFFSET };
         const stagger = Number.parseFloat(element.dataset.scrollStagger || '0');
 
-        const fromState: gsap.TweenVars = { opacity: 0, ...states.from };
-
-        const toState: gsap.TweenVars = {
+        const to: gsap.TweenVars = {
             duration: SCROLL_DURATION,
             ease: SCROLL_EASE,
             opacity: 1,
-            ...states.to,
+            scrollTrigger: {
+                once: true,
+                start: SCROLL_START,
+                trigger: element,
+            },
+            y: 0,
         };
 
         if (stagger > 0) {
-            const children = Array.from(element.children);
+            const children = element.children;
 
-            const hiddenChildren = hasRevealed ? children.filter(child => !hasInlineReveal(child) && !isPastScrollStart(child)) : children;
-            const revealedChildren = hasRevealed ? children.filter(child => hasInlineReveal(child) || isPastScrollStart(child)) : [];
-
-            if (hasRevealed && (isPastScrollStart(element) || isRevealed(element))) {
-                gsap.set(element, { opacity: 1 });
-            } else {
-                gsap.fromTo(element, { opacity: 0 }, {
-                    duration: SCROLL_DURATION,
-                    ease: SCROLL_EASE,
-                    opacity: 1,
-                    scrollTrigger: {
-                        once: true,
-                        start: SCROLL_START,
-                        trigger: element,
-                    },
-                });
-            }
-
-            if (revealedChildren.length > 0) gsap.set(revealedChildren, { clearProps: 'transform', opacity: 1 });
-
-            if (hiddenChildren.length === 0) return;
-
-            gsap.set(hiddenChildren, { opacity: 0 });
-
-            const timelineBefore = new Set(gsap.globalTimeline.getChildren(false, true, false));
-
-            ScrollTrigger.batch(hiddenChildren, {
-                onEnter: batch => batchAnimations.push(gsap.fromTo(batch, fromState, { ...toState, stagger })),
-                once: true,
-                start: SCROLL_START,
-            });
-
-            batchAnimations.push(...gsap.globalTimeline.getChildren(false, true, false).filter(tween => !timelineBefore.has(tween)));
-        } else if (hasRevealed && (isPastScrollStart(element) || isRevealed(element))) {
-            revealInstantly(element);
+            gsap.set(element, { opacity: 1 });
+            gsap.set(children, from);
+            to.stagger = stagger;
+            gsap.to(children, to);
         } else {
-            gsap.fromTo(element, fromState, {
-                ...toState,
-                scrollTrigger: {
-                    once: true,
-                    start: SCROLL_START,
-                    trigger: element,
-                },
-            });
+            gsap.fromTo(element, from, to);
         }
     });
 }
 
-function isPastScrollStart(element: Element) {
-    return element.getBoundingClientRect().top < window.innerHeight * SCROLL_START_RATIO;
-}
+function revealAll() {
+    document.querySelectorAll<HTMLElement>('[data-progress]').forEach((bar) => {
+        bar.style.width = `${bar.dataset.progress ?? 0}%`;
+    });
 
-function isRevealed(element: Element) {
-    return Number.parseFloat(getComputedStyle(element).opacity) === 1;
+    document.querySelectorAll<HTMLElement>('[data-scroll]').forEach(revealInstantly);
 }
 
 function revealInstantly(element: HTMLElement) {
-    const targets = [element, ...element.children];
+    const children = Array.from(element.children);
 
-    gsap.getTweensOf(targets).forEach(tween => tween.kill());
-    gsap.set(targets, { clearProps: 'transform', opacity: 1 });
+    gsap.getTweensOf([element, ...children]).forEach(tween => tween.kill());
+    gsap.set(element, { clearProps: 'transform', opacity: 1 });
+
+    if (children.length > 0) gsap.set(children, { clearProps: 'opacity,transform' });
 }
 
 document.addEventListener('focusin', handleFocusIn);
 gsap.registerPlugin(ScrollTrigger);
-reducedMotionQuery.addEventListener('change', initMotion);
-window.addEventListener('resize', handleResize);
 
-export function initMotion(): void {
-    const prefersReducedMotion = reducedMotionQuery.matches;
+export async function initMotion(): Promise<void> {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-    batchAnimations.forEach(tween => tween.kill());
-    batchAnimations = [];
-    initScrollAnimations(prefersReducedMotion);
-    hasRevealed = true;
+
+    if (prefersReducedMotion) {
+        revealAll();
+
+        return;
+    }
+
+    await document.fonts.ready;
+
+    initProgressBars();
+    initScrollAnimations();
+    ScrollTrigger.refresh();
 }

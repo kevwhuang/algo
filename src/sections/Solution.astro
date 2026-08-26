@@ -2,166 +2,187 @@
 import { Code } from 'astro:components';
 
 import type { ComponentProps } from 'astro/types';
-
-type CodeLang = ComponentProps<typeof Code>['lang'];
+import type { ShikiTransformer } from 'shiki';
 
 interface Props {
     code: string;
-    difficulty?: string;
-    lang: string;
+    difficulty?: keyof typeof DIFFICULTY_CLASSES;
+    lang: ComponentProps<typeof Code>['lang'];
     langLabel: string;
     title: string;
 }
 
-const { code: rawCode, difficulty, lang, langLabel, title } = Astro.props;
+const CLASS_BADGE = 'inline-block pl-3 pr-[calc(0.75rem-0.1em)] py-1 rounded-full capitalize font-mono text-xs tracking-widest';
+const CLASS_COPY = 'solution__copy active:opacity-85 focus-visible:text-cyan hover:text-cyan inline-block relative px-3 py-1 rounded font-mono text-sm text-zinc-400 duration-(--duration-fast) transition-[color,opacity] select-none';
 
-const code = rawCode.endsWith('\n') ? rawCode + ' ' : rawCode;
+const DIFFICULTY_CLASSES = {
+    easy: 'bg-emerald-15 text-emerald',
+    hard: 'bg-red-15 text-red',
+    medium: 'bg-amber-15 text-amber',
+} as const;
 
-const difficultyColor = {
-    easy: 'bg-easy-15 text-easy',
-    hard: 'bg-hard-15 text-hard',
-    medium: 'bg-medium-15 text-medium',
-}[difficulty ?? ''] ?? '';
+const HIGHLIGHT_TRANSFORMER: ShikiTransformer = {
+    code(node) {
+        this.addClassToHast(node, 'solution__code [counter-reset:line] block min-w-full w-max p-(--gap-s) text-frost');
+    },
+    line(node) {
+        node.children = node.children.map(child => child.type === 'element' && child.properties.style === 'color:#E6EDF3'
+            ? child.children[0]
+            : child);
+
+        this.addClassToHast(node, 'solution__line [counter-increment:line] before:content-[counter(line)_/_""] before:inline-block before:mr-(--gap-s) before:select-none before:text-right before:text-zinc-400 before:w-[2em]');
+    },
+    pre(node) {
+        this.addClassToHast(node, 'solution__pre overflow-x-auto leading-7 text-sm');
+        delete node.properties.style;
+    },
+};
+
+const { code, difficulty, lang, langLabel, title } = Astro.props;
 ---
 
 <section
-    class="px-[clamp(1rem,calc(0.5rem+2.5vw),2.5rem)] py-[clamp(3rem,calc(1.33rem+8.33vw),8rem)] bg-zinc-950"
+    class="section solution"
     aria-label={title}
 >
-    <div class="max-w-6xl mx-auto">
-        <h1 class="mb-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] font-bold leading-tight text-[clamp(1.5rem,calc(1rem+2.5vw),3rem)] text-zinc-100">
+    <div class="shell">
+        <h1
+            class="mb-(--heading-margin) font-bold leading-tight text-balance text-heading wrap-anywhere text-zinc-200"
+            data-scroll
+        >
             {title}
         </h1>
-        <div
-            class="overflow-hidden relative border border-zinc-800 rounded-lg"
+        <section
+            class="overflow-hidden border border-zinc-800 rounded-lg"
             aria-label={`${title} source code`}
-            role="region"
+            data-scroll
         >
-            <div class="flex items-center justify-between px-[clamp(0.75rem,calc(0.5rem+1.25vw),1.5rem)] py-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)] border-b border-zinc-800 bg-zinc-900">
-                <div class="flex flex-wrap gap-[clamp(0.5rem,calc(0.33rem+0.83vw),1rem)]">
-                    <span class="inline-block px-3 py-1 rounded-full font-mono text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] tracking-[0.1em] bg-cyan-15 text-cyan">
-                        {langLabel}
-                    </span>
+            <div class="flex items-center justify-between px-(--gap-s) py-3 border-b border-zinc-800 bg-zinc-900">
+                <dl class="flex flex-wrap gap-3">
+                    <div class="contents">
+                        <dt class="sr-only">Language</dt>
+                        <dd class={`${CLASS_BADGE} bg-cyan-15 text-cyan`}>{langLabel}</dd>
+                    </div>
                     {difficulty && (
-                        <span class={`inline-block px-3 py-1 rounded-full font-mono text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] tracking-[0.1em] ${difficultyColor}`}>
-                            {difficulty[0].toUpperCase() + difficulty.slice(1)}
-                        </span>
+                        <div class="contents">
+                            <dt class="sr-only">Difficulty</dt>
+                            <dd class={`${CLASS_BADGE} ${DIFFICULTY_CLASSES[difficulty]}`}>{difficulty}</dd>
+                        </div>
                     )}
-                </div>
+                </dl>
                 <button
-                    class="solution__copy focus-visible:text-cyan-90 hover:text-cyan-90 hidden min-w-16 px-3 py-1 rounded font-mono text-[clamp(0.75rem,calc(0.67rem+0.42vw),1rem)] text-center text-zinc-400 duration-(--duration-base) transition-[color,opacity] cursor-pointer sm:inline-block"
+                    class={CLASS_COPY}
                     aria-label="Copy code"
-                    data-code={code}
                     type="button"
                 >
-                    Copy
+                    <span class="solution__label duration-(--duration-base) transition-opacity">Copy</span>
                 </button>
             </div>
-            <div
-                class="solution__highlight overflow-x-auto bg-code"
-                aria-hidden="true"
-            >
-                <Code code={code} lang={lang as CodeLang} theme="github-dark-default" />
-            </div>
-            <pre class="sr-only">
-                <code>{code}</code>
-            </pre>
+            <Code
+                code={code}
+                lang={lang}
+                theme="github-dark-default"
+                transformers={[HIGHLIGHT_TRANSFORMER]}
+            />
             <div class="solution__status sr-only" aria-live="polite" />
-        </div>
+        </section>
     </div>
 </section>
 
 <style>
-    .solution__highlight :global(code) {
-        background: transparent !important;
-        counter-reset: line;
-        display: block;
-        font-size: clamp(0.75rem, calc(0.67rem + 0.42vw), 1rem);
-        line-height: 1.75;
+    .solution__copy::after {
+        content: '';
+        inset: -0.625rem 0;
+        position: absolute;
     }
 
-    .solution__highlight :global(pre) {
-        background: transparent !important;
-        margin: 0;
-        padding: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
+    .solution__copy--fading .solution__label {
+        opacity: 0;
     }
 
-    .solution__highlight :global(.line) {
-        counter-increment: line;
+    .solution__pre:focus-visible {
+        outline-offset: -0.125rem;
     }
 
-    .solution__highlight :global(.line::before) {
-        color: var(--color-zinc-600);
-        content: counter(line);
-        display: inline-block;
-        margin-right: clamp(0.75rem, calc(0.5rem + 1.25vw), 1.5rem);
-        text-align: right;
-        user-select: none;
-        width: 3ch;
-    }
-
-    .solution__highlight :global(::selection) {
-        background: var(--color-cyan-50);
+    @media (max-width: 768px) {
+        .solution__copy {
+            display: none;
+        }
     }
 </style>
 
 <script>
     const COPY_RESET_DELAY = 2_000;
-    const FADE_DURATION = 200;
+    const LABEL_COPIED = 'Code copied to clipboard.';
+    const LABEL_FAILED = 'Failed to copy code.';
 
-    let fadeTimer = 0;
+    let copyController: AbortController | null = null;
     let resetTimer = 0;
 
-    function fadeText(button: HTMLButtonElement, text: string, label: string) {
-        clearTimeout(fadeTimer);
-        button.style.opacity = '0';
+    async function handleCopy(event: Event) {
+        const button = event.currentTarget;
 
-        fadeTimer = window.setTimeout(() => {
-            button.setAttribute('aria-label', label);
-            button.textContent = text;
-            button.style.opacity = '1';
-        }, FADE_DURATION);
-    }
+        if (!(button instanceof HTMLButtonElement)) return;
 
-    async function handleCopy(button: HTMLButtonElement) {
-        const code = button.dataset.code ?? '';
+        const code = document.querySelector('.solution__code')?.textContent ?? '';
         const status = document.querySelector('.solution__status');
-
-        clearTimeout(resetTimer);
 
         try {
             await navigator.clipboard.writeText(code);
 
-            fadeText(button, 'Copied!', 'Code copied to clipboard');
+            queueSwap(button, 'Copied', LABEL_COPIED);
 
-            if (status) status.textContent = 'Code copied to clipboard';
+            if (status) status.textContent = LABEL_COPIED;
         } catch {
-            fadeText(button, 'Failed', 'Failed to copy code');
+            queueSwap(button, 'Failed', LABEL_FAILED);
 
-            if (status) status.textContent = 'Failed to copy code';
+            if (status) status.textContent = LABEL_FAILED;
         }
 
+        clearTimeout(resetTimer);
+
         resetTimer = window.setTimeout(() => {
-            fadeText(button, 'Copy', 'Copy code');
+            queueSwap(button, 'Copy', 'Copy code');
 
             if (status) status.textContent = '';
         }, COPY_RESET_DELAY);
     }
 
+    function handleTransitionEnd(event: TransitionEvent) {
+        if (event.propertyName !== 'opacity') return;
+        if (!(event.target instanceof HTMLElement) || !event.target.classList.contains('solution__label')) return;
+
+        const button = event.currentTarget;
+
+        if (!(button instanceof HTMLButtonElement)) return;
+        if (!button.classList.contains('solution__copy--fading')) return;
+
+        const label = button.querySelector('.solution__label');
+
+        if (label) label.textContent = button.dataset.pendingText ?? '';
+
+        button.classList.remove('solution__copy--fading');
+        button.setAttribute('aria-label', button.dataset.pendingLabel ?? '');
+    }
+
     function initCopy() {
+        clearTimeout(resetTimer);
+        copyController?.abort();
+        copyController = new AbortController();
+
+        const { signal } = copyController;
+
         for (const button of document.querySelectorAll<HTMLButtonElement>('.solution__copy')) {
-            button.addEventListener('click', () => handleCopy(button));
+            button.addEventListener('click', handleCopy, { signal });
+            button.addEventListener('transitionend', handleTransitionEnd, { signal });
         }
     }
 
-    function removePrefocus() {
-        for (const pre of document.querySelectorAll('.solution__highlight pre')) {
-            pre.removeAttribute('tabindex');
-        }
+    function queueSwap(button: HTMLButtonElement, text: string, label: string) {
+        button.dataset.pendingLabel = label;
+        button.dataset.pendingText = text;
+        button.classList.add('solution__copy--fading');
     }
 
-    document.addEventListener('astro:page-load', () => {
-        initCopy();
-        removePrefocus();
-    });
+    document.addEventListener('astro:page-load', initCopy);
 </script>

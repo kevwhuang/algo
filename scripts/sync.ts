@@ -1,11 +1,18 @@
 import { Glob, file, write } from 'bun';
 
+interface Problem {
+    database: boolean;
+    difficulty: string;
+    id: number;
+    paid: boolean;
+    title: string;
+}
+
 interface Question {
     difficulty: string;
     paidOnly: boolean;
     questionFrontendId: string;
     title: string;
-    titleSlug: string;
     topicTags: { slug: string }[];
 }
 
@@ -20,7 +27,6 @@ interface Solution {
 }
 
 const HEADER_PATTERN = /^(\/\/|--|#) (\d+)\. (.+)/;
-const INDENT_SPACES = 4;
 const PAGE_QUESTIONS = 100;
 
 const QUERY = `
@@ -36,7 +42,6 @@ const QUERY = `
                 paidOnly
                 questionFrontendId
                 title
-                titleSlug
                 topicTags { slug }
             }
         }
@@ -68,13 +73,13 @@ while (true) {
         method: 'POST',
     });
 
-    if (!response.ok) throw new Error(`LeetCode API ${response.status}`);
+    if (!response.ok) throw new Error(`LeetCode API returned status ${response.status}.`);
 
     const { data }: QuestionsResponse = await response.json();
 
     const questions = data?.problemsetQuestionListV2?.questions;
 
-    if (!questions) throw new Error('LeetCode API returned no data');
+    if (!questions) throw new Error('LeetCode API returned no data.');
     if (!questions.length) break;
 
     problems.push(...questions.map(question => ({
@@ -82,14 +87,13 @@ while (true) {
         difficulty: question.difficulty.toLowerCase(),
         id: Number(question.questionFrontendId),
         paid: question.paidOnly,
-        slug: question.titleSlug,
         title: question.title.replaceAll('\u2019', '\'').replace(/\s+/g, ' ').trim(),
     })));
 
     offset += PAGE_QUESTIONS;
 }
 
-if (!problems.length) throw new Error('LeetCode API returned no problems');
+if (!problems.length) throw new Error('LeetCode API returned no problems.');
 
 problems.sort((a, b) => a.id - b.id);
 
@@ -107,8 +111,8 @@ for (const path of new Glob('*/[0-9]*/*').scanSync(contentRoot)) {
 
     const problem = headerProblem ?? problemsById.get(parseInt(name));
 
-    if (!problem) throw new Error(`Unmatched solution ${path}`);
-    if (solutions.has(problem)) throw new Error(`Duplicate solution ${path}`);
+    if (!problem) throw new Error(`Unmatched solution ${path}.`);
+    if (solutions.has(problem)) throw new Error(`Duplicate solution ${path}.`);
 
     solutions.set(problem, { content, extension: name.slice(name.indexOf('.')), path });
 }
@@ -123,7 +127,6 @@ const moves = problems.flatMap((problem) => {
     return path === solution.path ? [] : [{ path, problem, solution }];
 });
 
-await write(`${contentRoot}/problems.json`, JSON.stringify(problems, null, INDENT_SPACES));
 await Promise.all(moves.map(move => file(`${contentRoot}/${move.solution.path}`).unlink()));
 
 for (const { path, problem, solution } of moves) {
@@ -134,7 +137,10 @@ for (const problem of problems) {
     if (solutions.has(problem)) continue;
 
     const commentPrefix = problem.database ? '--' : '//';
-    const extension = problem.database ? (problem.paid ? '.p.sql' : '.sql') : (problem.paid ? '.mjs' : '.js');
+    const jsExtension = problem.paid ? '.mjs' : '.js';
+    const sqlExtension = problem.paid ? '.p.sql' : '.sql';
+
+    const extension = problem.database ? sqlExtension : jsExtension;
 
     await write(`${contentRoot}/${getPath(problem, extension)}`, `${commentPrefix} ${problem.id}. ${problem.title}\n\n\n`);
 }
