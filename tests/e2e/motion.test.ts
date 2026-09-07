@@ -229,12 +229,10 @@ test.describe('scroll motion under reduced motion', () => {
 
         const list = page.locator('.progress ul');
 
-        expect(await page.locator('[data-scroll]').count()).toBeGreaterThan(1);
-
+        await expect.poll(() => page.locator('[data-scroll]').count(), POLL).toBeGreaterThan(1);
         await expect.poll(() => list.evaluate(element => element.style.opacity), POLL_TIGHT).toBe('1');
-
-        expect(await areInlineShown(page)).toBe(true);
-        expect(await areRevealed(page)).toBe(true);
+        await expect.poll(() => areInlineShown(page), POLL_TIGHT).toBe(true);
+        await expect.poll(() => areRevealed(page), POLL_TIGHT).toBe(true);
     });
 
     test('sets every progress bar to its data-progress width immediately', async ({ page }) => {

@@ -255,6 +255,7 @@ test.describe('copy button under reduced motion', () => {
         await button.click();
 
         await expect(label).toHaveText('Copied');
+        await expect(label).toHaveCSS('opacity', '1');
         await expect(button).toHaveAttribute('aria-label', STATUS_COPIED);
         await expect(status).toHaveText(STATUS_COPIED);
 
