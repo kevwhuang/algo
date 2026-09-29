@@ -1,6 +1,6 @@
 {
     "name": "algo",
-    "version": "26.9.25",
+    "version": "26.9.29",
     "type": "module",
     "author": "Kevin Huang",
     "scripts": {
@@ -36,7 +36,7 @@
         "eslint-plugin-astro": "^3.2.1",
         "eslint-plugin-jsx-a11y": "^6.10.2",
         "typescript": "^6.0.3",
-        "typescript-eslint": "^8.70.1",
+        "typescript-eslint": "^8.71.0",
         "vitest": "^5.0.2"
     }
 }
